@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash scripts/alpaca.sh *)",
+      "Bash(bash scripts/perplexity.sh *)",
+      "Bash(bash scripts/clickup.sh *)",
+      "Bash(git add memory/*)",
+      "Bash(git commit -m *)",
+      "Bash(git commit --allow-empty-message *)",
+      "Bash(git push)",
+      "Bash(git push *)",
+      "Bash(git pull)",
+      "Bash(git pull *)",
+      "Bash(git fetch)",
+      "Bash(git fetch *)",
+      "Bash(git status)",
+      "Bash(git status *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git rebase *)"
+    ]
+  }
+}
