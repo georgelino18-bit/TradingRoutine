@@ -1,4 +1,14 @@
 {
+  "sandbox": {
+    "network": {
+      "allowedDomains": [
+        "paper-api.alpaca.markets",
+        "data.alpaca.markets",
+        "api.perplexity.ai",
+        "api.clickup.com"
+      ]
+    }
+  },
   "permissions": {
     "allow": [
       "Bash(bash scripts/alpaca.sh *)",
