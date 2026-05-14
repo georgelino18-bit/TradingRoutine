@@ -39,7 +39,7 @@ and log the reason:
 - Trades this week <= 3
 - Position cost <= 20% of equity
 - Catalyst documented in today's RESEARCH-LOG
-- daytrade_count < 3 (PDT: 3/5 rolling business days)
+- No PDT restriction (account > $25k — proceed freely)
 
 STEP 4 — Execute the buys (market orders, day TIF):
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"buy","type":"market","time_in_force":"day"}'
