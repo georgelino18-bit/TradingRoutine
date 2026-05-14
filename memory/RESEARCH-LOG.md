@@ -114,3 +114,33 @@ HOLD — Two binary events pending (Trump–Xi summit, AMAT tonight). No account
 
 ### Decision
 HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary tonight; enter post-reaction tomorrow if gap-up confirms AI capex beat. No entry until at least one binary resolves (AMAT tonight, Trump–Xi tomorrow). Patience > activity. Track Trump–Xi outcome at open May 15 for fresh FCX thesis.
+
+---
+
+## 2026-05-14 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction persists)
+- Positions: 0 (Day 0 baseline; no trades placed)
+- Cash: ~$100,000 estimated
+
+### Actions Taken
+- None — no open positions; stop/cut rules N/A
+
+### Loser Cuts (-7% rule)
+- N/A — no positions
+
+### Stop Tightening
+- N/A — no positions
+
+### Thesis Check
+- N/A — no positions
+
+### Intraday Notes
+- AMAT reports tonight at 4:30 ET; monitor post-close for gap-up setup tomorrow
+- Trump–Xi summit ongoing; tariff deal not finalized; FCX thesis still pending
+- XOM ex-dividend $1.03 tomorrow (May 15) — do not enter today
+- WTI holding $101–102; Hormuz disruption structural
+
+### Decision
+NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
