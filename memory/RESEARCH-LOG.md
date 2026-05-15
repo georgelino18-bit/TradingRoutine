@@ -32,6 +32,66 @@ TRADE or HOLD (default HOLD if no edge)
 
 ---
 
+## 2026-05-13 — Pre-market Research (preps Thursday May 14 open)
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $200,000 (2× margin available)
+- Daytrade count: 0
+- Open positions: none
+- Open orders: none
+
+### Market Context
+- WTI / Brent: WTI ~$101.70 | Brent ~$110.43 — oil elevated, up ~2.4% on the day
+- S&P 500: closed ~7,444.50 (May 13); futures for May 14 open showing ~6,657 (possibly stale/erroneous — validate at open)
+- VIX: ~18.06 (closed May 13, down from 17.99 prev day — moderate fear, stable)
+- Key catalyst: **Hot April CPI/PPI** print — hotter than expected, dollar strengthened, yield curve bear-steepened, reduced near-term Fed cut expectations; broad equities under pressure mid-day but partially recovered
+- Earnings before May 14 open: 241 reports; no large-cap market movers — biggest name is SMFG (Sumitomo Mitsui, ~$334B); US small-caps only
+- Economic calendar May 14: **Initial jobless claims** (week ending May 9); prior reading 200K (up 10K WoW, 4-wk avg at cycle log ~203K)
+- Sector momentum YTD: **Energy +22% (leader)** | Consumer Staples, Industrials, Materials also leading | Health Care worst | Tech, Comm, Financials lagging
+
+### Trade Ideas
+
+1. **MPC (Marathon Petroleum)** — Energy sector momentum + elevated crude catalyst
+   - Catalyst: WTI ~$101.70 supporting crack spreads/refining margins; Garyville refinery expansion Q2 2026; Energy sector #1 YTD +22%; Zacks Momentum Score B; +55% YTD
+   - Entry: ~$252 at open (last close $252.22; validate direction at 9:31 AM)
+   - Stop: $234.00 (~7% below entry)
+   - Target: $287.00 (~2:1 R:R; $17.50 risk → $35 upside; analyst PT $317)
+   - R:R: ~2:1 (3.7:1 to analyst PT)
+   - Size: ~79 shares (~$19,900 = 19.9% of equity — within 20% cap)
+
+2. **XOM (ExxonMobil)** — Large-cap energy, direct oil price leverage, sector tailwind
+   - Catalyst: Same as MPC — crude at $101.70, energy sector momentum, inflation beneficiary
+   - Entry: ~$142 at open (last bid $142.12)
+   - Stop: $132.00 (~7.1% below)
+   - Target: $162.00 (2:1 R:R; ~$10 risk → $20 upside)
+   - R:R: ~2:1
+   - Size: ~141 shares (~$20,000 = 20% of equity)
+   - Note: Lower conviction than MPC; hold as alternate if MPC shows weakness at open
+
+3. **COCO (Vita Coco)** — Consumer staples momentum breakout
+   - Catalyst: Zacks Momentum Score A; +18.4% over 3 months vs 2.9% S&P; Consumer Staples sector leading YTD; inflation beneficiary (commodity food prices)
+   - Entry: TBD — after-hours spread too wide ($64–$85) to set precise level; need clean open print
+   - Stop: ~7% below confirmed entry
+   - Target: 2:1 R:R minimum
+   - Note: HOLD for now — get open print first; position only if spread normalizes and price > prior close
+
+### Risk Factors
+- Hot CPI = hawkish rate repricing headwind for equities broadly; could pressure P/E multiples even in energy
+- S&P futures divergence (7,444 close vs ~6,657 indicated) — verify at open; wide divergence unexplained
+- Oil supply risk — any OPEC+ output increase announcement would crater energy trade
+- Jobless claims tomorrow AM: strong (low) = good for economy but could reinforce hawkish Fed expectations
+- First week of trading — Day 1 deployment; avoid chasing; only enter if price action confirms at open
+
+### Decision
+**TRADE — MPC primary target** (energy sector momentum + elevated crude + strong catalyst stack)
+**HOLD XOM** — valid backup; enter only if MPC entry rejected or as second position after MPC confirmed
+**HOLD COCO** — no clean price; revisit at market open
+Validate all entries at 9:31 AM ET before pulling trigger.
+
+---
+
 ## 2026-05-14 — Pre-market Research
 
 ### Account

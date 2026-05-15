@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Notification wrapper. Posts to a ClickUp Chat channel.
 # Usage: bash scripts/clickup.sh "<message>"
-# If credentials are unset, appends to a local fallback file.
+# Always exits 0 — ClickUp failures are non-fatal and fall back to DAILY-SUMMARY.md.
 
 set -euo pipefail
 
@@ -29,10 +29,13 @@ fi
 
 stamp="$(date '+%Y-%m-%d %H:%M %Z')"
 
+_fallback() {
+  printf "\n---\n## %s (fallback — %s)\n%s\n" "$stamp" "$1" "$msg" >> "$FALLBACK"
+  echo "[clickup fallback] $1 — logged to DAILY-SUMMARY.md"
+}
+
 if [[ -z "${CLICKUP_API_KEY:-}" || -z "${CLICKUP_WORKSPACE_ID:-}" || -z "${CLICKUP_CHANNEL_ID:-}" ]]; then
-  printf "\n---\n## %s (fallback — ClickUp not configured)\n%s\n" "$stamp" "$msg" >> "$FALLBACK"
-  echo "[clickup fallback] appended to DAILY-SUMMARY.md"
-  echo "$msg"
+  _fallback "ClickUp not configured"
   exit 0
 fi
 
@@ -41,10 +44,21 @@ import json, sys
 print(json.dumps({'type': 'message', 'content': sys.argv[1], 'content_format': 'text/md'}))
 " "$msg")"
 
-curl -fsS -X POST \
+resp_file="$(mktemp)"
+http_code="$(curl -sS \
+  -o "$resp_file" \
+  -w "%{http_code}" \
+  -X POST \
   "https://api.clickup.com/api/v3/workspaces/$CLICKUP_WORKSPACE_ID/chat/channels/$CLICKUP_CHANNEL_ID/messages" \
   -H "Authorization: $CLICKUP_API_KEY" \
   -H "Content-Type: application/json" \
-  -d "$payload"
+  -d "$payload")" || { _fallback "curl network error"; rm -f "$resp_file"; exit 0; }
 
-echo
+if [[ "$http_code" =~ ^2 ]]; then
+  cat "$resp_file"
+  echo
+else
+  _fallback "HTTP $http_code"
+fi
+rm -f "$resp_file"
+exit 0
