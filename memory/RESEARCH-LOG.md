@@ -144,3 +144,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-15 — Pre-market Research (Session 3 — WebSearch fallback; Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction; all three endpoints blocked)
+- Cash: ~$100,000 estimated (no positions; Day 0 baseline unchanged)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- **ACTION REQUIRED: Alpaca IP whitelist still unresolved — orders cannot be placed or verified**
+
+### Market Context
+- **WTI:** ~$101/barrel | **Brent:** ~$106/barrel — Hormuz disruption ongoing; structural bid intact
+- **S&P 500 futures:** Broadly flat premarket (+0.0% to +0.1%) after Thursday's record close (S&P +0.77%, Nasdaq +0.88%, Dow reclaimed 50,000); Cisco +13.4% on guidance raise was Thursday's lead catalyst
+- **VIX:** ~17.90 (+0.17%) — calm; no fear; well off 52-wk high of 35.30 (Mar 2026)
+- **Trump–Xi Summit Day 2 (today):** No full tariff deal — "constructive strategic stability framework" agreed; China halted rare earth export restrictions; Xi warned on Taiwan; Trump invited Xi to White House Sept 24. Outcome: risk-neutral to mildly positive. FCX/copper thesis not confirmed at the level needed for 2:1 R:R entry.
+- **AMAT Q2 2026 (reported May 14 AH):** MASSIVE BEAT — EPS $3.51 vs $2.68 est (+31%); Revenue $7.91B vs $7.82B est; Q3 guide $8.95B (well above $~8B consensus). Stock +8% afterhours. All pre-planned entry conditions MET.
+- **NVDA:** Premarket ~$229.90; earnings May 20 — do NOT enter before binary; pre-earnings drift ongoing
+- **MSFT:** Reported BMO today (May 15)
+- **Economic releases today:**
+  - 8:30 ET: Empire State Manufacturing Survey
+  - 9:15 ET: Industrial Production + Capacity Utilization (April)
+- **XOM:** Ex-dividend $1.03 today — do NOT enter; avoid until ex-div passes
+- **Sector momentum YTD:** Materials (+22%), Energy, Industrials, Semis leading | Technology/Discretionary/REITs lagging; Consumer Staples improving
+
+### Trade Ideas
+1. **AMAT — HIGH CONVICTION (BLOCKED by API):** Thesis confirmed. Beat + raise: EPS +31% vs est, rev beat, Q3 guide $8.95B. Pre-planned gap-up entry triggered. Entry would be at open ~$245–255 range (est, +8% from ~$230 pre-report). Risk: 7% manual cut (entry checklist rule); Target: +15% for 2.14:1 R:R. Size: ≤20% (~$20k). **Cannot execute — Alpaca API 403.** This is a missed opportunity if API not resolved today.
+2. **NVDA — HOLD:** Do not enter before May 20 binary. Pre-earnings drift could continue but risk/reward asymmetry unfavorable entering 5 days ahead of event.
+3. **FCX — PASS:** Trump–Xi constructive but no full tariff deal; FCX already near 52-wk high; original $51 target far exceeded. R:R sub-2:1 at current levels. No entry.
+4. **XOM — PASS:** Ex-div today; do not enter. Re-evaluate next week once ex-div passes and R:R is confirmed.
+5. **SLB / HAL (oilfield services) — MONITOR:** Hormuz structural bid keeps E&P capex elevated. Neither setup diligenced. No entry without research.
+
+### Risk Factors
+- Alpaca API 403 (IP restriction) — critical; cannot trade at all until resolved
+- NVDA binary May 20 — any disappointment = Nasdaq flush; semis susceptible
+- Trump–Xi no tariff deal = no FCX catalyst; if summit ends badly, risk-off in materials
+- WTI $101+ = stagflation drag on growth stocks; Warsh Fed hawkish posture compounds
+- Empire State + Industrial Production today — weak prints = growth scare
+- AMAT gap-up could fade intraday — if unable to execute at open, gap-fade = missed opportunity AND no loss
+
+### Decision
+HOLD / BLOCKED — AMAT entry conditions fully met (beat + raise + gap-up) but Alpaca API 403 prevents execution. This is the highest-conviction setup since bot launch. Resolving IP whitelist is now CRITICAL — every day it remains blocked is an operational failure. If API restored today: enter AMAT at open ≤20% size (~$20k), 7% mental stop, 10% GTC trailing stop, target +15%. All other names: pass or monitor.
