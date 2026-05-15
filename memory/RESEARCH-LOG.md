@@ -204,3 +204,50 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-15 — Midday Scan (WebSearch fallback — all APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction persists; third consecutive session)
+- SLB order (ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15): 340sh market buy submitted pre-market; fill UNCONFIRMED (API blocked)
+- Cash: UNKNOWN
+
+### Market Context
+- WTI: ~$102.45 (+1.27%) — Hormuz disruption structural; Polymarket 51.5% WTI >$110 by May 31
+- S&P 500: 7,501.24 (+0.77%) — risk-on day
+- VIX: 17.26 (-3.41%) — calming; no panic signal
+- Trump–Xi summit CONCLUDED: no tariff deal; Trump said "We didn't discuss tariffs"; China agreed to 200 Boeing jets; Nvidia got H200 chip export approval; described as "underwhelming" — stabilization, no breakthrough
+
+### SLB Thesis Check
+- SLB current price: ~$55.80 (up ~0.3% on day)
+- Bernstein raised PT to $71 (from $56.10) — confirms thesis target range ($63–$71)
+- WTI holding $102+ ✓; Hormuz disruption ongoing ✓; oilfield services capex tailwind ✓
+- SLB raised $2B senior notes (May 7) — capital management; not bearish
+- Thesis INTACT
+
+### P&L Estimate (unconfirmed fill)
+- If filled ~$57 at market open: unrealized ~-2.1% (NOT at -7% cut threshold)
+- Stop should be ~10% trailing; no tightening warranted (not up 15%+)
+
+### AMAT Post-Earnings (entry evaluation)
+- AMAT reported Q2 beat: $7.91B rev (vs $7.65B est), EPS $2.86 (vs $2.68 est); record quarter
+- Q3 guidance: ~$8.95B rev, EPS ~$3.36 — well above consensus
+- Stock: +8% gap-up today (~$471 vs $436 prior close)
+- R:R at gap price: entry ~$471, stop 10% below reaction low (~$400), target analyst PTs $515–$575 = reward $44–$104 vs risk $71 = 0.6:1 to 1.5:1 — BELOW 2:1 minimum
+- **Decision: NO ENTRY — do not chase gap; R:R insufficient at current level**
+
+### FCX Copper Thesis
+- Trump–Xi: no tariff deal → no China demand surge catalyst
+- FCX at or near 52-week highs; R:R still unfavorable
+- **FCX: DEAD — remove from watchlist**
+
+### Actions Taken
+- None — API blocked; cannot place/cancel/close any orders
+- No losers to cut (SLB not at -7% based on price data)
+- No stops to tighten (SLB not up 15%+)
+- Thesis intact for SLB
+
+### Decision
+NO ACTION — API blocked across all services (Alpaca, Perplexity, ClickUp). SLB thesis intact; hold. AMAT gap-up confirmed but R:R insufficient — skip. FCX thesis dead post-summit. Patience > activity.

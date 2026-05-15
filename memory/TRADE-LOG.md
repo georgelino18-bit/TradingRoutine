@@ -31,3 +31,35 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+---
+
+## 2026-05-15 — Midday Scan (~12:00 ET)
+**All APIs blocked (403) — WebSearch fallback only**
+
+### Market
+- WTI: ~$102.45 (+1.27%) | S&P: 7,501.24 (+0.77%) | VIX: 17.26 (-3.41%)
+- Trump–Xi summit: concluded with no tariff deal — "underwhelming"
+
+### SLB — Thesis Check
+| Item | Status |
+|------|--------|
+| Fill confirmed | ❌ UNKNOWN (API blocked) |
+| Current price | ~$55.80 |
+| Unrealized P&L (est.) | ~-2.1% if filled ~$57 |
+| -7% cut threshold | NOT reached |
+| +15% stop tighten | NOT reached |
+| Thesis intact | ✓ WTI $102+, Hormuz structural, Bernstein PT $71 |
+
+**Action: HOLD** — no cut, no stop adjustment warranted.
+
+### Other Tickers
+- AMAT: +8% post-earnings gap — R:R at gap price <2:1; NO ENTRY (do not chase)
+- FCX: Trump–Xi no tariff deal → copper demand surge catalyst dead; REMOVED from watchlist
+
+### Positions Summary
+| Ticker | Shares | Entry (est.) | Price | Unr. P&L | Stop |
+|--------|--------|-------------|-------|-----------|------|
+| SLB | 340 | ~$57 (unconfirmed) | ~$55.80 | ~-$408 (-2.1%) | 10% trailing (unconfirmed) |
+
+**No new trades. No cuts. No stop adjustments. API access required before any order activity.**
