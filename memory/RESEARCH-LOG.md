@@ -204,3 +204,48 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-15 — Pre-market Research (Market-Open Session)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction; same as May 14)
+- Cash: ~$100,000 estimated (no positions placed; Day 0 baseline)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- Weekly trades placed: 0 / 3 allowed
+
+### Market Context
+- WTI / Brent: WTI ~$106.92 | Brent ~$120 — Hormuz supply shock driving sustained spike (+5% from yesterday); flows -4M bbl/day
+- S&P 500: Record close 7,501 Thursday (Dow reclaimed 50,000); futures -0.37% Friday → flat-to-lower open; 6-week winning streak
+- VIX: ~18.01 — contained; market complacent at record highs
+- Today's catalysts:
+  - **AMAT Q2 2026 earnings** (reported after close May 14): EPS $2.86 beat ($2.68 est); Rev $7.91B record beat ($7.65B est); BUT stock FADING premarket ~$443-444 (initial +1.6% AH reversed; "falls even after upbeat Q2")
+  - **Trump–Xi summit outcome**: No tariff deal — "stabilization" truce only; US tariffs on China ~47.5%, China on US ~31.9%; China pledged $1T in US goods + 200 Boeing aircraft; no tariff cuts confirmed
+  - **Kevin Warsh** confirmed Fed Chair; Powell term ends today May 15; first FOMC June 16-17
+  - **April CPI**: +0.6% MoM, +3.8% YoY — hotter than expected; energy (+3.8%) biggest driver; stagflation pressure persists
+  - **XOM ex-dividend** $1.03 today — do not enter XOM
+- Sector momentum: Energy (WTI $107 structural bid), Materials, Industrials, Semis | Lagging: REITs, Discretionary, Utilities
+
+### Trade Ideas
+1. **AMAT** — PASS: Stock fading post-beat; entry condition was "gap-up confirms." No gap-up — do not chase. Re-evaluate Monday if it finds support.
+2. **FCX** — PASS: No tariff deal from Trump–Xi summit. Original thesis required deal confirmation. Pass at ~$62.85. Original target $51 already blown through weeks ago.
+3. **XOM** — PASS: Ex-dividend $1.03 today. R:R below 2:1 minimum. Past original $146 target.
+4. **MPC (Marathon Petroleum)** — MONITOR: WTI $107 (up from $101.70 when originally researched) strengthens crack-spread thesis. Original entry ~$252; likely higher now. Cannot get live quote (API blocked). Revisit Monday if API restored.
+5. **SLB / HAL** — MONITOR: Hormuz sustained → E&P capex acceleration. Need full diligence session. Not actionable today.
+
+### Risk Factors
+- Alpaca API inaccessible — cannot place or verify any orders
+- CPI hot → hawkish Warsh Fed → rate hike risk; growth stocks at risk
+- Trump–Xi no deal → if markets disappoint on this, risk-off flush in FCX, copper, semis
+- NVDA earnings May 20 — Nasdaq volatility risk next week; pre-earnings drift may reverse
+- Hormuz escalation continues — energy spike + recession/stagflation risk
+
+### Decision
+HOLD — API inaccessible (403); cannot execute any orders. No qualifying setups:
+- AMAT: Fading post-earnings, not gap-up confirmation → PASS
+- FCX: No tariff deal → PASS  
+- XOM: Ex-div + past target → PASS
+- MPC: Cannot verify live price; revisit Monday
+Patience > activity. 0 positions, $100k cash. Action required before Monday: whitelist sandbox IP in Alpaca paper account settings.
