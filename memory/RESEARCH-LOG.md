@@ -144,3 +144,45 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-15 — Market-Open Research (Day 2, Friday)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP not whitelisted; same as Days 0–1)
+- Cash: ~$100,000 estimated (no positions; no trades placed)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- Trades this week: 0 (of 3 max)
+
+### Market Context
+- WTI / Brent: ~$101–103 / ~$105–107 — Hormuz disruption ongoing; structural elevated floor
+- S&P 500: 7,508 (+0.86%) — positive, near highs; AI/semis leading
+- VIX: 17.27 (−3.36%) — declining volatility; risk-on environment
+- Trump–Xi summit outcome: "Constructive strategic stability framework" agreed; no final tariff deal; US cleared NVDA H200 chip sales to 10 Chinese firms (Alibaba, Tencent, ByteDance, JD.com); Boeing 500-aircraft purchase expected; rare earths + Iran discussed
+- AMAT Q2 earnings (reported 5/14 AH): Record revenue $7.91B (est $7.69B, +2.9%); EPS $3.51 (est $2.68, +31%); Q3 guidance $8.95B (massive raise); semiconductor equipment industry growth raised to >30% in 2026; dividend raised 15%; stock up ~8% premarket
+- NVDA: +2.3–3.4% on H200 China approval catalyst; earnings May 20 (binary)
+- FCX: ~$66–68, near 52-week high $70.97; no tariff deal finalized; passed
+- XOM: Ex-dividend $1.03 today (May 15); passed
+- Kevin Warsh officially Fed Chair today; Powell out; first FOMC June 16–17
+
+### Trade Ideas
+1. **AMAT** — Gap-up +8% post-massive-beat. AI capex cycle catalyst intact. Entry ~$440 at open, stop 10% trailing (~$396), target $528 (+20%), R:R 2:1. Size 20% (~$20k = ~45 shares). Sector in momentum. HIGHEST CONVICTION.
+2. **NVDA** — SKIP. Earnings May 20 binary in 5 days. Do not enter.
+3. **FCX** — SKIP. Near 52-week high; no tariff deal; R:R insufficient.
+4. **XOM** — SKIP. Ex-div today; already past $146 target; R:R insufficient.
+
+### Risk Factors
+- Alpaca API 403 (IP restriction) — CANNOT place orders; critical operational blocker
+- ClickUp API 403 — CANNOT send notifications
+- NVDA earnings May 20 — market binary; Nasdaq vulnerable to flush if disappoints
+- Trump–Xi "stability framework" with no tariff deal = FCX/copper thesis unresolved
+- Warsh Fed era uncertainty; hawkish posture risk
+- Hormuz escalation could accelerate stagflation; growth headwind
+
+### Decision
+INTENDED: BUY AMAT ~45 shares at ~$440, 10% trailing stop GTC.
+BLOCKED: Alpaca API 403 — IP not whitelisted. No orders can be placed.
+ACTION REQUIRED: Whitelist this environment's IP in Alpaca paper account settings.
+AMAT setup remains valid; will execute immediately when API access restored.
