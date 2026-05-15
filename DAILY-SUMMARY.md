@@ -9,3 +9,7 @@ Open positions: none confirmed (last known: 0 positions, Day 0)
 ALERT: Both Alpaca + ClickUp APIs blocked — sandbox IP not whitelisted.
 Action required: whitelist IP in Alpaca paper account settings.
 Tomorrow: whitelist IP, then run pre-market + normal workflow.
+
+---
+## 2026-05-15 11:14 UTC (fallback — HTTP 403)
+Pre-market 2026-05-15: HOLD — AMAT gap-down (sell-the-news), FCX no catalyst, SLB watching; Alpaca API still 403
