@@ -144,3 +144,64 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-15 — Pre-market Research
+*Fallback: Perplexity API 403 (IP restriction) → native WebSearch used for all queries*
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP not whitelisted)
+- Cash: ~$100,000 estimated (Day 0 baseline, no trades placed)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- Positions: 0
+
+### Market Context
+- WTI: ~$101/bbl | Brent: ~$106–108/bbl — Hormuz disruption structural bid; Xi offered to help open Hormuz at summit
+- S&P 500 futures: ~7,521 — muted, near flat premarket
+- VIX: ~18.01 — normal; no panic
+- Today's catalysts:
+  - **AMAT Q2 BEAT** (reported May 14 AH): EPS $2.86 vs $2.68 est; Rev $7.91B vs $7.69B est (record); EPS +20% YoY; industry growth guide raised to 30%+ CY2026 (was 20%+); Q3 guide $8.95B rev / $3.36 EPS; shares +3.5% AH at $455.99 — GAP-UP SETUP LIVE
+  - **Trump–Xi summit (May 14–15 Beijing)**: "Constructive strategic stability framework" agreed; Xi invited to White House Sept 24; Xi offered to help open Hormuz; NO formal tariff deal finalized — positive tone but FCX copper thesis remains pending
+  - **Kevin Warsh confirmed Fed Chair** (Powell exits today); first FOMC June 16–17; hawkish posture risk
+  - **NVDA earnings May 20** — pre-earnings drift ongoing; semis susceptible to post-event flush
+  - **XOM ex-dividend $1.03 today** — do not enter XOM today
+- Earnings before open: None major flagged
+- Economic calendar: Empire State Manufacturing 8:30 ET; Industrial Production & Capacity Utilization 9:15 ET; Survey of Professional Forecasters 10:00 ET
+- Sector momentum: Energy (+22.7% YTD), Materials (+16.3%), Industrials (+14.3%), Semis (AI capex structural) — leadership intact
+
+### Trade Ideas
+
+1. **AMAT — PRIMARY SETUP** (Semis / AI capex)
+   - Catalyst: Q2 massive beat + record revenue + industry growth guide lifted to 30%+ CY2026
+   - AH price: $455.99 (+3.5% vs $446.76 close); watch premarket for gap confirmation
+   - Entry: Market open if gap-up holds — monitor first 15 min for constructive price action (no immediate reversal)
+   - Stop: 10% trailing below entry (GTC); tighten to 7% at +15%, 5% at +20%
+   - Target: 20% above entry for 2:1 R:R (e.g., entry ~$455 → stop ~$410 → target ~$546)
+   - Size: ≤20% (~$20k); ~44 shares at $455
+   - **CONTINGENT ON ALPACA API ACCESS** — cannot place until IP allowlist resolved
+   - Conviction: HIGH — clear catalyst, sector in momentum, beat + raise, no binary overhang
+
+2. **FCX — MONITOR ONLY** (Copper / Materials)
+   - Price: ~$66.14 (near 52-week high ~$70.97); Trump–Xi no final tariff deal
+   - Pass — no formal deal; R:R insufficient near highs; monitor if deal announced post-summit
+   - Trigger to reconsider: confirmed tariff framework + pullback to ≤$60 for clean 2:1 R:R
+
+3. **SLB / HAL — WATCHLIST** (Oilfield services / Energy)
+   - Structural: Hormuz bid sustains elevated oil → E&P capex acceleration; Xi Hormuz offer = wild card (resolution = energy services selloff risk)
+   - Needs full diligence session before entry; do not rush
+
+### Risk Factors
+- Alpaca API 403 — CRITICAL BLOCKER; cannot trade until IP whitelisted (third consecutive session)
+- Empire State Mfg 8:30 + Industrial Production 9:15 — weak prints = risk-off pressure at open
+- Trump–Xi no formal tariff deal — risk-off flush in FCX / copper if markets disappointed
+- Warsh Fed era: hawkish posture → growth/tech headwind beginning June FOMC
+- NVDA May 20 binary — Nasdaq susceptible to pre-event fade or post-event flush
+- AMAT gap-up may fade if broader market opens weak; wait for 15-min confirmation
+- WTI $101+ = stagflation amplifier for growth stocks
+
+### Decision
+**AMAT ENTRY PLANNED — CONTINGENT ON API ACCESS**
+Gap-up setup confirmed from last night's massive beat + guide-up. If Alpaca API accessible at open: enter AMAT on 15-min confirmation (gap holds, no reversal). Size ~$20k (~44 shares). 10% trailing stop GTC. Target 20% for 2:1 R:R.
+All other names: HOLD/MONITOR. FCX and SLB not yet actionable. Patience > activity.
