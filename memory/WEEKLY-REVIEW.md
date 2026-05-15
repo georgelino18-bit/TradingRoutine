@@ -47,53 +47,54 @@ Template for each entry:
 | Metric | Value |
 |--------|-------|
 | Starting portfolio | $100,000.00 |
-| Ending portfolio | $100,000.00 |
-| Week return | $0 (0.00%) |
-| S&P 500 week | +2.30% |
-| Bot vs S&P | -2.30% |
-| Trades | 0 (W:0 / L:0 / open:0) |
-| Win rate | N/A |
-| Best trade | N/A |
+| Ending portfolio | ~$100,136 (est; SLB fill unconfirmed — Alpaca 403) |
+| Week return | ~+$136 (+0.14%) estimated |
+| S&P 500 week | ~+0.3% |
+| Bot vs S&P | ~-0.16% |
+| Trades | 1 (W:0 / L:0 / open:1 unconfirmed) |
+| Win rate | N/A (no closed trades) |
+| Best trade | SLB ~+0.7% unrealized (est fill $55.40 → $55.80) |
 | Worst trade | N/A |
 | Profit factor | N/A |
 
 ### Closed Trades
 | Ticker | Entry | Exit | P&L | Notes |
 |--------|-------|------|-----|-------|
-| — | — | — | — | No trades executed; API blocked |
+| — | — | — | — | No closed trades this week |
 
 ### Open Positions at Week End
 | Ticker | Entry | Close | Unrealized | Stop |
 |--------|-------|-------|------------|------|
-| — | — | — | — | — |
+| SLB | ~$55.40 est | $55.80 | ~+$136 (+0.72%) | NONE — CRITICAL: stop not placed; API inaccessible |
 
 ### What Worked
-- Pre-market research was thorough despite API failure (WebSearch fallback used effectively)
-- Sector calls accurate: Energy (+Hormuz), Materials (+Trump-Xi), Semis (+AI capex) all ran
-- HOLD decision correct — two binary events pending (AMAT earnings, Trump-Xi summit)
-- Risk factors accurately flagged: stagflation (PPI blowout), Warsh Fed era, NVDA binary May 20
-- Discipline maintained — no unauthorized trades attempted; patience > activity rule upheld
+- SLB thesis correct: energy sector leader, Hormuz structural bid, WTI $101+; entered pre-mkt May 15
+- Correctly avoided chasing XOM/FCX (both well past 2:1 R:R entry targets)
+- Correctly held through AMAT binary; deferred post-earnings entry appropriately
+- Correctly passed XOM on ex-div day (May 15 $1.03 ex-div, R:R below 2:1 at $151.70)
+- Sector momentum framework validated: Energy/Materials/Semis all moved as modeled
 
 ### What Didn't Work
-- Alpaca API inaccessible all week (403 "Host not in allowlist") — zero execution capability
-- Perplexity API also blocked; forced WebSearch fallback degraded research quality
-- Missed XOM/FCX run-up — both blew past entry targets before Day 1 (arrived at highs)
-- AMAT post-earnings setup identified but unactionable without API access
-- Week 1: 0% vs S&P +2.30% — full underperformance gap from infrastructure failure alone
+- Alpaca API 403 ALL week — second consecutive week with zero confirmed execution capability
+- CRITICAL: SLB has NO trailing stop — 10% GTC trailing stop rule violated; exposed to unlimited downside
+- Missed Monday-Wednesday XOM/FCX/MPC run-up during full API blackout
+- Trump-Xi summit ended with no tariff deal — FCX/copper thesis invalidated for near term
+- Perplexity API also blocked both weeks; research quality degraded to WebSearch fallback
 
 ### Key Lessons
-- IP allowlist is a hard blocker; must resolve before Monday open or entire week is dead capital
-- Entry thesis on XOM ($125–127) and FCX ($42–44) was correct; gap was execution, not research
-- Sector momentum framework (Energy, Materials, Semis) played out exactly as modeled
-- Single point of failure: all execution depends on Alpaca API — need allowlist or VPN solution
-- Binary event patience (HOLD through AMAT, Trump-Xi) was correct risk management
+- Two weeks with Alpaca 403: IP allowlist is the top-priority unresolved blocker for the entire strategy
+- SLB order submitted pre-mkt but stop never placed = hard rule violation; exposure is live and unprotected
+- Energy thesis (Hormuz disruption, WTI $101+, oilfield services capex) correct for 2 full weeks
+- Trump-Xi no-deal outcome resets Materials sector; avoid FCX until new catalyst
+- Research quality has been high both weeks — infrastructure is the only gap between ideas and results
 
 ### Adjustments for Next Week
-- PRIORITY 1: Resolve Alpaca IP allowlist before Monday 9:00 ET — no trading until confirmed
-- Re-evaluate AMAT entry if post-earnings strength holds; stop 10% below reaction low
-- Track Trump-Xi tariff outcome for FCX/copper thesis continuation
-- Run SLB/HAL diligence session — oilfield services sector in momentum, untouched thesis
-- NVDA earnings May 20 — avoid long semis into binary; evaluate post-reaction
+- PRIORITY 1: Resolve Alpaca IP allowlist BEFORE Monday 9:00 ET — no other work until confirmed
+- PRIORITY 2: Verify SLB fill via API; if confirmed, place 10% GTC trailing stop IMMEDIATELY
+- If SLB confirmed open: portfolio ~81% cash — room for 1-2 more positions within 5-6 max
+- AMAT: evaluate post-earnings strength into next week; entry only if R:R ≥2:1 at new level
+- FCX: PASS — no tariff deal; re-evaluate in 2+ weeks if new catalyst emerges
+- NVDA earnings May 20: avoid new long semis into binary; assess post-reaction
 
-### Overall Grade: D
-*Research quality: A. Execution: F (infrastructure blocked). Discipline: A. Net grade D — correct reads, zero shots taken due to API failure. Not an F because strategy and patience rules were followed.*
+### Overall Grade: D+
+*Research quality: A. Execution: D (1 order submitted but unconfirmed, critical stop gap). Discipline: B (rule violation on stop placement). Infrastructure: F (Alpaca 403 week 2). Slight improvement over prior week — position attempted, thesis correct, but uncovered stop is a hard violation.*
