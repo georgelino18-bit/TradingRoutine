@@ -204,3 +204,61 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-15 — Pre-Market Research (Day 2, Friday)
+
+**[NOTE: Perplexity API 403 — falling back to WebSearch]**
+**[NOTE: Alpaca API 403 — IP not whitelisted; account state estimated from Day 0 baseline]**
+
+### Account Snapshot
+- Equity: UNAVAILABLE (Alpaca 403)
+- Cash: ~$100,000 (Day 0 baseline; no trades confirmed placed)
+- Positions: 0
+- Open orders: unknown
+- Day trades used: 0
+- Buying power: ~$100,000 estimated
+
+### Market Context
+- **WTI:** $104.81 | **Brent:** $106.89 — elevated; Hormuz disruption structural bid; pump prices +12.3% in April
+- **S&P 500:** Closed at record 7,500+ on May 14 (+0.8%); futures -0.37% to -0.7% premarket May 15 — pullback after record
+- **Nasdaq 100:** Closed at ATH 26,635 on May 14; slight pullback premarket
+- **VIX:** ~17.90 (range 18.00–18.90 today) — calm; slight uptick; no panic
+- **NVDA:** ~$233.60 (+3.41% in 24h); H200 chips approved for 10 Chinese firms (Alibaba, Tencent); earnings May 20
+- **April Retail Sales (released May 14):** +0.5% MoM (in-line), third consecutive gain, +4.9% YoY — consumer resilient despite gas surge
+- **Today's releases:** April Industrial Production & Capacity Utilization; no CPI/PPI/FOMC today
+- **April CPI (released May 12):** Beat estimates; rate-cut odds for 2026 largely eliminated; rate-hike odds rising
+- **Warsh Fed:** First FOMC June 16–17; hawkish posture risk remains
+
+### Key Catalysts
+- **AMAT Q2 2026 earnings (released May 14 AH):** EPS $2.86 vs est $2.68 (+6.7% beat); revenue $7.91B vs $7.69B est (record); CEO guided semis equipment biz +30% CY2026. Shares surged ~8% AH/PM on May 14, but CLOSING premarket May 15 DOWN ~$14 (~$426 vs close $440.56) → **SELL-THE-NEWS reversal. Thesis invalidated: not a gap-up. PASS.**
+- **Trump–Xi summit (concluded May 14–15):** No new tariff deal. China agreed to buy beef + 200 Boeing jets; trade truce maintained but not extended. Result: "warm words, few wins" (CBC). Risk-off for materials/copper without structural tariff relief.
+- **FCX:** ~$68.59 (May 13); 52-week high $70.97. No tariff breakthrough; thesis remains weak.
+- **XOM:** XOM ex-div $1.03 today May 15; no entry.
+- **SLB:** Analysts raising targets (Bernstein $71, Barclays $66); dividend raised 3.5% to $0.295/qtr; $2B senior notes issued May 12; WTI $104.81 structural bid = E&P capex acceleration.
+
+### Sector Momentum (YTD 2026)
+- **Leading:** Materials (+22%), Energy, Industrials, Consumer Staples — commodity/defensive rotation
+- **Improving:** REITs, Utilities
+- **Lagging:** Technology (cooling post-AI run), Financials, Consumer Discretionary
+- **Healthcare:** Surprising flight-to-safety performer YTD
+
+### Trade Ideas
+1. **AMAT** — **PASS.** Gap-DOWN premarket (~$426 vs $440 close) despite earnings beat. Sell-the-news dynamic. Entering into a reversal is not our pattern. Do not chase.
+2. **FCX** — **PASS.** Near 52-week high $70.97; Trump–Xi produced no tariff extension or concrete copper catalyst. R:R below 2:1 at current levels.
+3. **SLB** — **WATCH/POTENTIAL.** Energy sector leading YTD; WTI $104.81 structural; analyst upgrades (targets $66–$71); dividend raised. WTI elevated = E&P capex accelerating = oilfield services bid. Need to confirm: current price, R:R calc (stop 10% below entry, target +15–20%), sector not already 2-strike. **If entry ~$52–54 zone materializes → size $15–18k, stop ~$47–49, target ~$60–63. Monitor next session.**
+4. **NVDA** — **MONITOR only.** Pre-earnings drift ongoing ($233.60, +15% in May). H200 China approval is fresh positive. BUT: earnings binary May 20 is 5 days away. Do not hold through binary. If not already positioned, too late to enter pre-earnings unless very short-term. Pass for now.
+
+### Risk Factors
+- Alpaca API inaccessible — no order placement/verification possible until IP allowlisted
+- AMAT sell-the-news confirms AI capex stocks can reverse even on beats — market bar is high
+- Trump–Xi no tariff extension = copper, materials vulnerable to disappointment unwind
+- VIX uptick (18.90 high) + futures pullback after record close = potential distribution day
+- Warsh FOMC June 16–17 — hawkish surprise kills growth/rate-sensitive sectors
+- WTI $105 = energy cost headwind for consumer, industrials margins
+- NVDA binary May 20 — Nasdaq highly levered to outcome; avoid new tech longs near expiry
+- Rate-hike odds rising post-April CPI — financial conditions tightening
+
+### Decision
+**HOLD — No new trades.** AMAT thesis broken (gap-down, not gap-up). FCX no catalyst. NVDA binary risk imminent. SLB is the lone watch candidate but needs price confirmation and R:R diligence before entry. Alpaca API must be resolved before any order can be placed. Patience > activity. Monitor SLB into next week post-NVDA binary resolution.
