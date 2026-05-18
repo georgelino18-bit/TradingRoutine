@@ -204,3 +204,65 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-18 — Pre-market Research (Market-Open Inline, Week 2 Monday)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 "Host not in allowlist" (persists from Week 1)
+- Cash: ~$100,000 estimated (SLB order May 15 status unknown — cannot confirm fill)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (fresh week)
+- Open positions: 0 confirmed (SLB order unconfirmed)
+
+### Market Context
+- WTI: ~$107.35/bbl — Hormuz closure driving; +11% last week; market pricing sustained disruption
+- S&P 500: Closed Fri ~7,408.50 (−1.24%); mild risk-off tone; VIX prior close 18.43
+- VIX: 18.43 close, futures 20.66 at open — elevated; mild fear spike at open
+- Energy sector YTD: +30.3% (leader, vs Tech +16.1%) — structural momentum intact
+- Today's catalysts:
+  - Hormuz closure ongoing (US-Iran war month 3+) — WTI structural floor ~$105–110
+  - AMAT Q2 earnings beat May 14 (post-close): EPS $2.86 vs $2.68 est (+6.7%), Rev $7.91B (+11.4% YoY); analysts raised PT to $550 (Deutsche Bank, B. Riley, Wolfe Research)
+  - Trump-Xi summit: "constructive outcomes" noted but no formal tariff deal finalized yet; FCX thesis partially confirmed
+  - Warsh era Fed; first FOMC June 16-17; hawkish tail risk persists
+  - NVDA earnings May 20 — avoid adding semis longs into binary
+- Earnings before open: Check for major names — none identified as market movers today
+- Sector momentum: Energy +30.3% YTD (1st), Materials (2nd), Industrials (3rd); Tech, Disc lagging
+
+### Trade Ideas
+
+1. **AMAT** — AI capex beat confirmed; post-earnings dip bought; analysts raised PTs to $550
+   - Thesis: Q2 beat (EPS +6.7%, Rev +11.4% YoY); AI capex buildout structural ($650-725B 2026); PT $550 (Deutsche Bank, B. Riley, Wolfe); 4th consecutive beat
+   - Entry: ~$432.79 (confirm price action holds gains at open — NOT if VIX spike takes market lower)
+   - Stop: $389.00 (~10% below entry)
+   - Target: $550 (analyst consensus PT) — +27% upside
+   - R:R: ~2.7:1 ✓ (exceeds 2:1 minimum)
+   - Size: 46 shares (~$19,900 = ~20% of equity)
+   - Caveat: VIX futures 20.66 vs 18.43 close = risk-off at open; confirm AMAT holding before entry; NVDA binary May 20 = semis headwind
+
+2. **SLB** — Oilfield services; WTI $107 structural; may already be in position (unconfirmed)
+   - Thesis: WTI $107; Hormuz closure structural bid; SLB 52-wk high $57.20 near current; committed $4B+ shareholder returns 2026
+   - Current price: $55.24 (range $55.10–$55.89)
+   - Entry: ~$55.24 (only if SLB order May 15 did NOT fill — cannot confirm without API)
+   - Stop: $50.00 (~9.5% below)
+   - Target: $64.00 (+16% from entry)
+   - R:R: ~1.7:1 — BORDERLINE (below 2:1 minimum); enter only on confirmed fill or momentum day
+   - Size: 360 shares (~$19,900 = ~20% of equity)
+
+3. **HAL** — Energy services, lower conviction
+   - Current: $41.59; but revenue fell 3.24% and operating income −39.82% — fundamentally weaker than SLB
+   - PASS — SLB preferred in this sector
+
+### Risk Factors
+- Alpaca API 403 "Host not in allowlist" — EXECUTION BLOCKED AGAIN; all trades are paper-theoretical
+- NVDA binary May 20 — semis longs (AMAT) exposed to post-earnings sector flush if miss
+- VIX spike at open (18.43 → 20.66 futures) — risk-off morning; wait for price action to confirm
+- SLB May 15 order status unknown — possible double-buy if order filled and we re-enter
+- Warsh FOMC June 16-17 — hawkish risk for growth stocks
+
+### Decision
+**AMAT — TRADE (if API accessible and price action confirms at open)**
+**SLB — HOLD pending order status confirmation**
+**HAL — PASS**
+Cannot execute: Alpaca API blocked (same Week 1 issue). ClickUp also 403. Both APIs inaccessible. Manual intervention required to whitelist sandbox IP on Alpaca paper account settings.
