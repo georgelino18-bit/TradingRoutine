@@ -204,3 +204,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-18 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (day 5+, IP restriction unresolved)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed fills)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- **CRITICAL:** SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, submitted pre-market 2026-05-15) — status UNCONFIRMED; API has been 403 every session since submission
+  - If filled ~$58 avg: current $55.80 = -3.8% unrealized (~-$748) — above -7% cut rule, hold
+  - If NOT filled: 100% cash, re-evaluate entry at open
+
+### Market Context
+- WTI: ~$107.75 (+2.21%) — 2-week high; Hormuz still closed; new catalyst: UAE Barakah nuclear plant drone strike (Iranian-origin, no radiation leak, fire contained but risk premium spiking)
+- Brent: ~$111.27 (+1.84%) — both benchmarks gained >7% last week; UAE attack adds fresh premium this morning
+- S&P 500 futures: -0.6% (~-42 pts) — risk-off on UAE nuclear plant attack + oil above $110; DOW futures down sharply
+- VIX: ~18.99–19.27 (up ~3–7% from Friday's ~18.43) — elevated caution, not panic; watch for acceleration toward 22+
+- Key catalysts today:
+  - **UAE Barakah nuclear plant drone strike (May 17 overnight)** — Iranian-origin drones; fire near facility; no meltdown; US-Iran war escalating; Brent >$111, WTI >$107; S&P futures -0.6%
+  - **NVDA earnings Wed May 20 AMC** — $78B revenue est, $1.76 EPS, forward guidance ~$87B key; 97% beat probability already priced in; bar is high; Nasdaq susceptible to flush on any miss or soft guidance
+  - Walmart reports Thu May 21 — retail sentiment read
+  - No major economic releases today — lighter macro Monday
+  - ~50 earnings reports today, none market-moving flagged
+- Sector momentum YTD: Energy (XLE) #1, Materials (XLB) #2, Industrials/Defense strong | Tech (XLK), Comms, Discretionary, REITs — lagging
+- Analyst activity on SLB: Bernstein PT raised $56→$71 (Outperform); Barclays PT raised $51→$66 (Overweight) — bullish confirmation of oilfield services thesis
+
+### Trade Ideas
+1. **SLB — PRIORITY: confirm fill status** — If filled at ~$58: current $55.80 = -3.8%, hold (above -7% cut); UAE attack = oilfield services thesis strengthened (WTI $107+ drives E&P capex); analyst PTs $66–$71. If NOT filled: fresh entry valid at $55.80, stop ~$52 (-7%), target $63–$71 (R:R ~2–2.8:1). Size ≤20% (~$20k). Energy sector #1 YTD — thesis intact.
+2. **RTX (Raytheon)** — Emerging setup: UAE nuclear plant attack accelerates US defense spend narrative; US-Iran war ongoing; RTX Q1 beat (EPS $1.78 vs $1.52 est, +17%); guidance raised to $6.70–$6.90 FY26. Current ~$178.74, stop ~$161 (-10%), target ~$206 (+15%), R:R ~1.5:1. Borderline — wait for open; if dips on broader market sell-off → R:R may improve toward 2:1. No entry above $178 premarket. Monitor at open.
+3. **PASS — tech/semis** — NVDA binary Wednesday; do not enter AMAT, NVDA, or any semis ahead of event. Nasdaq at all-time highs with a massive binary two days out = asymmetric downside risk.
+
+### Risk Factors
+- Alpaca API 403 persists — CANNOT place or verify orders; all trade execution blocked
+- SLB fill unconfirmed — if filled and declining further, stop at -7% (~$52 if $58 fill) must be set immediately once API resolves
+- UAE escalation: could extend to Saudi facilities or Hormuz interdiction; WTI >$115 = growth shock + rate risk
+- NVDA Wed binary: if miss/soft guidance → broad Nasdaq/S&P flush; VIX could spike to 22-25
+- Market at all-time highs with elevated geopolitical risk = fragile setup; don't add into risk-off open
+- Warsh era: first FOMC June 16-17; hawkish surprise = rate shock
+
+### Decision
+HOLD — Alpaca API remains inaccessible (cannot execute). SLB fill status unconfirmed; if filled, thesis is intact and strengthened by UAE attack (WTI $107+, analyst upgrades). Energy remains #1 sector. RTX defense setup emerging but R:R borderline today — revisit at market open if broad sell-off creates better entry. Do NOT touch tech/NVDA into Wednesday binary. Priority action: resolve Alpaca IP allowlist to confirm SLB position and place 10% trailing stop if filled.
