@@ -31,3 +31,25 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-05-18 — Midday Scan (Day 4, Monday)
+**Status:** BLOCKED — Alpaca API returning "Host not in allowlist" (403). Persistent since 2026-05-14.
+
+### Actions Taken
+- None — API inaccessible; cannot pull positions, orders, or quotes
+
+### Loser Cuts (-7% rule)
+- BLOCKED — cannot read unrealized_plpc
+
+### Stop Tightening
+- BLOCKED — cannot read current prices or stop orders
+
+### Thesis Check
+- SLB order (ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`, 340sh market buy, submitted 2026-05-15 pre-market): status unknown. Market order should have filled at open 2026-05-15 (~$59.xx estimated). Three trading days have elapsed with no stop in place. **CRITICAL: 10% trailing stop unconfirmed.**
+- Energy thesis (WTI Hormuz floor, sector momentum) remains structurally intact as of last research.
+
+### Unresolved Action Items (manual intervention required)
+1. Whitelist sandbox egress IP in Alpaca paper account settings
+2. Confirm SLB fill: `bash scripts/alpaca.sh positions`
+3. If filled with no stop: place immediately — `bash scripts/alpaca.sh order '{"symbol":"SLB","qty":"340","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'`
+4. Apply stop-tightening rules once position confirmed (up ≥+15% → 7%, up ≥+20% → 5%)
