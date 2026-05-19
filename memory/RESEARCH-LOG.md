@@ -204,3 +204,58 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-19 — Pre-market Research
+*[NOTE: Perplexity API 403 (IP allowlist). All research via WebSearch fallback.]*
+*[NOTE: Alpaca API 403 (IP allowlist). Account data UNAVAILABLE.]*
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked (IP not in allowlist)
+- Cash: ~$100,000 estimated (Day 0 baseline; SLB order fill unconfirmed)
+- Buying power: UNAVAILABLE
+- Daytrade count: UNAVAILABLE
+- Open positions: UNCONFIRMED — SLB 340sh market buy submitted 2026-05-15 (order 6c529f05); fill not confirmed
+- Open orders: UNCONFIRMED — 10% trailing stop on SLB never placed (API blocked)
+- **ACTION REQUIRED**: Manually check Alpaca dashboard to confirm SLB fill and place GTC trailing stop
+
+### Market Context
+- WTI / Brent: WTI ~$102.90 (−1.38%) | Brent ~$110.10 (−1.82%) — oil pulling back on Trump calling off scheduled Iran attack; Hormuz structural floor still intact
+- S&P 500 futures: −0.49% | Nasdaq 100: −0.78% | Dow: −0.31% | Russell 2000: −0.62% — broad risk-off
+- VIX: ~18.99 (+3.04%) — slightly elevated but not panic; 52-wk range high ~35
+- Today's catalysts:
+  - **Moody's US credit downgrade** (Aaa → Aa1) — 10Y yield 4.459%, 30Y briefly >5.00%; deficit projected to 9% of GDP; major macro headwind for rate-sensitive growth stocks
+  - **NVDA binary TOMORROW** (May 20 AMC) — consensus $1.78 EPS (+120% YoY), revenue $79.2B (+79.5% YoY), Q2 guide ~$87B expected; stock up +20% in a month, nearly priced in; failed to move on last 3 of 4 beats; entire Nasdaq susceptible to flush if guide disappoints
+  - **Trump called off Iran strike** — oil selling off on de-escalation signal; energy sector bid softens
+  - **Tech selloff continuation** — Nasdaq sank Friday/Monday on yield spike and Moody's shock; tech bear-steepened by rising 30Y
+  - Bond yields breaching key levels: 2Y >4.0%, 10Y >4.50%, 30Y >5.0% — broad risk-off for equities
+- Earnings before open: No major names identified (40 reports scheduled, none tier-1 BMO)
+- Economic calendar: No major releases confirmed for May 19; next key event — NVDA AMC May 20; FOMC June 16-17
+
+### SLB Position Update (held ticker)
+- Last confirmed price: $55.64 (May 12)
+- Analyst targets raised: Bernstein $71 | Barclays $66 (Overweight) | Citi $68 (Buy)
+- SLB raised $2B in senior notes May 7 — capital management, no emergency signal
+- WTI pulling back −1.38% today on Trump-Iran de-escalation; temporary headwind, structural Hormuz bid intact
+- Management guided lower near-term revenues — watch for deteriorating fundamentals
+- If 340sh filled at ~$55.64, position = ~$18,918 (~18.9% of $100k) — within 20% cap
+- **CRITICAL**: 10% trailing stop (~$50.08) was NEVER placed due to API block — position unprotected
+- Ex-dividend: June 3, 2026 ($1.18/yr, ~2.15% yield) — do not exit before then if holding
+
+### Trade Ideas
+1. **SLB (HOLD/PROTECT)** — If fill confirmed, immediately place 10% GTC trailing stop via Alpaca dashboard. Entry ~$55.64, stop ~$50.08, target $66–71 (Barclays/Citi/Bernstein range). R:R at current price: risk ~$5.56 vs reward ~$10–15 = 1.8–2.7:1. Hold thesis intact (Hormuz structural, oilfield services capex cycle). Do NOT add to position today given oil pullback.
+2. **NVDA — PASS today, reassess post-earnings** — Binary event tomorrow AMC. Nearly priced in. Stock ran +20% in one month. Risk of "sell the news" high. If blowout beat + guide >$90B Q2 → consider entry on first pullback day post-event, stop 10% below reaction low, size ≤20%.
+3. **MPC (Marathon Petroleum)** — Surging +7.5% premarket; refining margin story. Not yet researched. Monitor for pullback entry if sector rotation into energy continues. Requires diligence session.
+
+### Risk Factors
+- Moody's downgrade: 30Y >5% = sustained headwind for growth/tech; could accelerate rotation into energy/value
+- NVDA binary May 20: entire Nasdaq levered to single print; avoid tech longs into event
+- SLB unprotected position: no stop in place — if WTI breaks below $95, SLB likely tests $48–50 (−14% from $55.64). URGENT to place stop manually.
+- Trump-Iran de-escalation removes acute Hormuz tail-risk bid — oil could retrace to $95–98 range if deal progresses
+- Treasury yield spike (Moody's) could trigger broader equity de-rating; defensive posture warranted
+- Alpaca API still inaccessible — cannot trade, place stops, or verify fills remotely
+
+### Decision
+HOLD — No new trades. Oil in risk-off mode (−1.4%), tech selling off, NVDA binary tomorrow, bond yields spiking on Moody's downgrade. **Priority action: manually access Alpaca dashboard to (1) confirm SLB fill, (2) place 10% GTC trailing stop immediately, (3) update TRADE-LOG.md with confirmed fill price.** Patience > activity — wait for NVDA binary to resolve before any new tech exposure.
+
