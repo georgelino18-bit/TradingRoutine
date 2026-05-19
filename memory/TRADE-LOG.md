@@ -31,3 +31,29 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-05-19 — Market-Open (Day 5, Tuesday)
+**Status:** BLOCKED — Alpaca 403 "host_not_allowed" persists (6th consecutive session). ClickUp 403. Perplexity 403.
+
+**No trades placed.** No account data accessible.
+
+**SLB position status (unverified):**
+- Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, submitted May 15) — fill UNCONFIRMED
+- SLB ~$56.80 today (up from ~$55.29 May 15 close if filled at open); thesis intact
+- **CRITICAL: If filled, no 10% trailing stop exists. Stop must be placed immediately upon API restoration.**
+  ```
+  bash scripts/alpaca.sh order '{"symbol":"SLB","qty":"340","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'
+  ```
+
+**Market context:**
+- WTI ~$102.31, Energy sector +30.3% YTD — SLB thesis intact
+- NVDA binary tomorrow (May 20 AH) — hold all positions, no new entries until resolved
+- US 30y yield >5% — risk-off headwind; no new buys today
+
+**Trades this week (May 18–22):** 0 confirmed
+
+**Manual action required:**
+1. Whitelist sandbox IP in Alpaca paper account: Settings → API Keys → IP Allowlist
+2. Run: `bash scripts/alpaca.sh positions` — confirm SLB fill and filled_avg_price
+3. Place trailing stop immediately (cmd above)
+4. Run: `bash scripts/alpaca.sh account` — confirm equity and buying power

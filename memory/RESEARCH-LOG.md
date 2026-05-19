@@ -3,6 +3,53 @@
 Daily pre-market research entries will be appended here.
 Format each entry:
 
+## 2026-05-19 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 "host_not_allowed" (persistent IP restriction, Day 6)
+- Cash: ~$100,000 estimated (no confirmed fills; SLB order from May 15 unverified)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (no confirmed trades)
+- SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, May 15) — status UNCONFIRMED
+- NOTE: ClickUp API also 403. Perplexity API also 403. All research via WebSearch.
+
+### Market Context
+- WTI: ~$102.31 (range $102.16–$104.09) — elevated; Hormuz disruption entering 3rd month
+- S&P 500: 7,403.05, -0.07% — flat; tech sell-off headwind
+- VIX: 17.91, +0.51% — moderate, stable
+- US Treasury yields: 2y >4.0%, 10y >4.5%, 30y >5.0% — bond market stress; JGB at 1997 high
+- Energy sector YTD: +30.3% (was +22.7% mid-May, accelerating)
+- Oil services (OIH) YTD: +57.6%
+- Today's catalysts:
+  - **HD Q1 2026 earnings BMO**: EPS $3.43 beat ($3.41 est), revenue $41.77B beat ($41.52B est); shares fell slightly premarket — sector-neutral
+  - **NVDA earnings tomorrow May 20 AH**: EPS est $1.78/sh (+120% YoY), revenue $79.2B (+79.5% YoY) — MASSIVE binary; market-wide risk
+  - Bond yield breakout (30y >5%) — risk-off headwind for growth/tech
+- Sector momentum: Energy +30.3% (leader, accelerating), Materials, Industrials strong; Tech/Semis under NVDA binary risk; Consumer Discretionary lagging
+
+### SLB Status (unverified)
+- SLB May 15 close: ~$55.29
+- SLB May 18 range: $55.08–$57.59 (up 3.8% on crude spike)
+- SLB May 19 approx: ~$56.80
+- If filled at ~$55.29 → unrealized P&L ~+$513 (+2.7%); NO STOP IN PLACE (critical)
+- Bernstein PT raised to $71 (from $56.10); thesis intact
+
+### Trade Ideas
+1. **SLB** — If API available: confirm fill, immediately place 10% trailing stop ($51.26 floor if filled at $55.29). Thesis remains intact — energy +30.3% YTD, WTI $102+, Hormuz structural disruption, analyst PT $71. HOLD position if filled.
+2. **HAL (Halliburton)** — Oil services co-momentum (+57.6% OIH YTD); could complement SLB if API restored and position count allows. Requires research before entry.
+3. **All other entries HOLD** — NVDA binary tomorrow creates market-wide risk; bond yield stress adds headwind. No new entries until NVDA resolves.
+
+### Risk Factors
+- Alpaca API 403 (6th consecutive session) — CANNOT TRADE until IP whitelisted
+- NVDA binary tomorrow (May 20 AH) — biggest earnings event of week; Nasdaq/semis/growth flush risk
+- US 30y yield >5% — rate shock could pressure P/E multiples broadly
+- SLB has NO stop order in place (unknown if position even exists)
+- JGB 10y at 1997 highs — global bond stress, risk-off contagion possible
+
+### Decision
+HOLD / BLOCKED — API inaccessible (403, 6th session). Even with clear energy thesis, no orders can be placed. NVDA binary tomorrow adds market-wide risk. Priority: resolve Alpaca IP whitelist. If API restored mid-session, only action is to verify SLB fill and place stop — no new entries until NVDA resolves Wednesday.
+
+---
+
 ## YYYY-MM-DD — Pre-market Research
 
 ### Account
