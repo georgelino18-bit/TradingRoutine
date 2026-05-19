@@ -204,3 +204,38 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-19 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 "Host not in allowlist" (persistent since 2026-05-14)
+- Positions: UNKNOWN — last known: SLB 340sh market buy order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` submitted 2026-05-15; fill/status unconfirmed
+- Cash: UNKNOWN (baseline ~$100,000 if order never filled; ~$82,000 estimated if SLB filled)
+- Daytrade count: UNKNOWN
+
+### APIs
+- Alpaca: 403 Host not in allowlist — positions, orders, account all inaccessible
+- Perplexity: 403 — no market research possible
+- ClickUp: 403 — notification fallback to DAILY-SUMMARY.md
+
+### Actions Taken
+- None — cannot execute via API
+
+### Loser Cuts (-7% rule)
+- BLOCKED — Alpaca API inaccessible; cannot read unrealized P&L or execute closes
+
+### Stop Tightening
+- BLOCKED — Alpaca API inaccessible; cannot read unrealized P&L or cancel/replace orders
+
+### Thesis Check
+- SLB thesis (energy sector + Hormuz disruption + WTI structural bid): intact as of last research (2026-05-14). Cannot confirm current price vs entry. API access required to evaluate.
+
+### Decision
+NO ACTION — all APIs blocked. Manual intervention required:
+1. Whitelist sandbox IP in Alpaca paper account settings
+2. Confirm SLB fill and current P&L
+3. If SLB filled: verify 10% trailing stop is active; tighten if at +15%/+20% thresholds
+4. If SLB not filled: cancel stale order, re-evaluate entry
+5. Re-run midday scan once API access restored
