@@ -204,3 +204,43 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-20 — Pre-market Research (Market-Open)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP not in allowlist; persistent since Day 1)
+- Cash: ~$100,000 estimated (baseline; no confirmed trades)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- Open positions: UNKNOWN — SLB order 6c529f05 (340sh, market buy, May 15 pre-market) status unconfirmed
+- Trades this week (May 18–22): 0 confirmed
+
+### Market Context
+- WTI: ~$103/bbl (retreating from $105.47 high; Hormuz closure structural, US-Iran negotiations)
+- S&P 500: 3rd consecutive down session as of May 19; tech under pressure; risk-off tone
+- VIX: ~18.43 (last close May 15); elevated, watching for push toward 20
+- Key catalyst: **NVDA earnings tonight after close** — Q1 FY2027; EPS est $1.78 (+120% YoY), Rev ~$79.2B (+79.5%); bar extremely high; dominant market event today
+- Iran: Trump postponed strike; negotiations ongoing; breakdown = oil spike + broad risk-off
+- Sector momentum: Utilities, Consumer Cyclical, Communications leading; AI/Semis under pressure; Energy structurally elevated
+- SLB: ~$57.15 (Bernstein raised PT to $71 on May 9; Buy consensus; +$5 from May 12 ~$55.64)
+
+### Trade Ideas
+1. **SLB** — Energy services, Hormuz/WTI structural bid; Bernstein PT $71; if API resolves and fill confirmed at ~$52–55, position is +4–10% unrealized — verify stop placement (10% trail GTC)
+2. **NVDA** — HOLD: binary tonight; do NOT enter long ahead of earnings
+3. **AMAT** — Post-earnings setup (reported May 14 after close): if gap-up confirmed, viable entry; entry TBD on open price; needs API access first
+
+### Risk Factors
+- Alpaca API 403 — CRITICAL blocker; no execution possible
+- NVDA binary tonight — avoid new long semis/tech
+- Iran negotiation failure = oil spike $110+ + risk-off flush across equities
+- S&P 3-day slide + VIX trending toward 20 — momentum fragile
+- SLB fill status unknown — may be long 340sh without stop protection
+
+### Decision
+**HOLD — NO NEW TRADES**
+- API inaccessible (403) — cannot execute or verify
+- NVDA earnings tonight = binary risk; rule: no new positions into major binaries
+- Patience > activity
+- Priority if API resolves: (1) confirm SLB fill + place 10% trailing stop, (2) evaluate NVDA post-earnings reaction tomorrow
