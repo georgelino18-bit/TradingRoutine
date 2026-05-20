@@ -204,3 +204,76 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-20 — Pre-market Research
+
+**NOTE:** Perplexity API returned HTTP 403 (network policy block, not missing key). All research via WebSearch fallback. Alpaca API also 403 — live account state unavailable. Last known state: SLB 340sh market buy submitted 2026-05-15 (order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`), fill and stop unconfirmed.
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP not whitelisted, persistent)
+- Cash: ~$100,000 estimated (no fills confirmed since Day 0)
+- Buying power: UNAVAILABLE
+- Daytrade count: UNAVAILABLE
+- **CRITICAL:** SLB 340sh order status unknown — cannot confirm fill, stop, or unrealized P&L. Manual verification required.
+
+### Market Context
+- WTI: ~$103/barrel (easing — Trump called off planned Iran military strike; Gulf allies sought de-escalation; optimism on restarting negotiations; Hormuz structural bid intact but some geopolitical premium unwinding)
+- Brent: ~$111.06/barrel open
+- S&P 500 futures: +0.21% — cautiously positive; Polymarket 71% probability of higher open
+- Bond yields ELEVATED: 10yr 4.687%, 30yr briefly >5.19% — hostile for growth stocks
+- VIX: 18.17 (May 19 close) — elevated but below panic; 52-week high 35.30
+- Today's catalysts:
+  - **NVDA earnings TONIGHT after close** — Q1 FY2027: EPS est $1.78 (+120% YoY), revenue est $44.06B (+79.5% YoY). Actual: EPS $0.81 beat vs $0.75 est (+8%); Rev $44.06B (+69.2% YoY); Data Center $39.11B; BUT $4.5B H20 inventory charge from US export controls on China. Q2 guidance $45B (absorbing $8B H20 loss). **Nasdaq binary — entire market directional on NVDA reaction tomorrow**
+  - **FOMC minutes ~2:00 PM ET** — April 28-29 meeting (Powell era final chapter). Fed held 3.50–3.75%. Inflation elevated partly from energy; Middle East uncertainty noted. Hawkish surprise risk today
+  - Bond yield pressure: 30yr >5.19% — compression on growth/tech multiples
+- Earnings before open: No major BMO confirmed (39 reports today; most after close including NVDA)
+- Economic calendar: FOMC meeting minutes 2:00 PM ET (primary event); no CPI/PPI today
+
+### Sector Momentum (YTD through mid-May)
+| Sector | Status | Notes |
+|--------|--------|-------|
+| Energy (XLE) | LEADING | Hormuz structural bid; WTI elevated |
+| Materials (XLB) | LEADING | +22% YTD — dominant leader |
+| Industrials (XLI) | LEADING | |
+| Consumer Staples (XLP) | LEADING | |
+| Technology (XLK) | LAGGING | TMT concentrated but lagging ex-NVDA |
+| Communications (XLC) | LAGGING | |
+| Consumer Discretionary (XLY) | LAGGING | |
+
+S&P 500 YTD +10% through May 14; 78% of return from 10 names; SPMO momentum ETF +30% over 7 weeks.
+
+### SLB Update (held ticker)
+- Current price: ~$57.15 (up from ~$54 estimated entry on May 15)
+- Unrealized: ~+$1,071 (+5.8%) if 340sh @ $54 filled — UNCONFIRMED
+- Bernstein raised PT to $71 (Outperform); Barclays raised to $66 (Overweight)
+- $2B senior notes issued May 7 (3 tranches: 2031/2033/2036, 4.55–5.15%)
+- WTI easing slightly today on Iran de-escalation; monitor for stop hit
+- Trailing stop: UNCONFIRMED — may not be placed (last session aborted on API failure)
+
+### AMAT Update (tracked)
+- Q2 2026 reported May 14: EPS $2.86 vs $2.68 est (+6.7% beat); Rev $7.91B vs $7.68B est
+- Non-GAAP gross margin crossed 50% for first time in 25+ years
+- Q3 guidance $8.95B (+23% YoY); full-year semis industry outlook raised >20% → >30%
+- Analysts raised PT ~17% to ~$506
+- BUT: stock -0.89% May 15 day session (broader market selloff) — no clean gap-up entry
+- PASS — did not deliver the gap-up confirmation required by our entry rule
+
+### Trade Ideas
+1. **NVDA (post-binary)** — DO NOT ENTER TODAY (binary tonight). If gap-up >5% tomorrow morning on strong guidance interpretation: enter at open, 10% trailing stop, target +20%, R:R ≥2:1, size ≤20% (~$20k). H20 export control ($4.5B charge, $8B Q2 loss) is known headwind; market reaction tomorrow determines entry. Be disciplined — only enter if gap-up holds first 15 min.
+2. **SLB (confirm hold)** — Verify fill and stop immediately. If filled ~$54, current $57.15 = +5.8%. Bernstein/Barclays targets $66–71; thesis intact. WTI pull-back risk on Iran de-escalation but Hormuz structural. Confirm 10% trailing stop GTC is live; tighten to 7% if $54 entry touches +15% (~$62.10).
+3. **AMAT** — PASS. Earnings beat but no clean gap-up entry; stock sold into strength. Wait for reset or new catalyst.
+4. **Materials sector (XLB/FCX/NEM)** — Monitor only. XLB +22% YTD leading. If NVDA binary clears upside and risk appetite returns, materials breakout could continue.
+
+### Risk Factors
+- NVDA binary tonight — Nasdaq susceptible to flush if H20 headwind dominates narrative
+- FOMC minutes today 2 PM — hawkish surprise risks further yield spike (10yr already 4.687%)
+- Bond yields at levels that historically compress tech/growth multiples
+- WTI easing on Iran de-escalation — could pressure SLB thesis; watch $100 support
+- SLB stop unconfirmed — account at risk if price drops sharply and no GTC stop is active
+- Alpaca API still inaccessible — critical operational risk; account management blind
+- TMT concentration risk (85% of S&P YTD from 10 names) — fragile if NVDA disappoints
+
+### Decision
+**HOLD** — Two blockers: (1) NVDA binary tonight dictates Nasdaq direction tomorrow; (2) Alpaca API inaccessible so SLB position status/stop unconfirmed. No new trades. Post-NVDA reaction tomorrow is first actionable entry window (NVDA long if gap-up holds). Patience > activity.
