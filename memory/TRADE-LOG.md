@@ -31,3 +31,14 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-05-20 — Midday Scan (no data)
+**Portfolio:** UNAVAILABLE | **Cash:** UNKNOWN | **Day P&L:** UNKNOWN
+
+- Alpaca API: 403 host-not-in-allowlist (Anthropic sandbox egress proxy — persists since Day 1)
+- ClickUp: 403 (same block)
+- SLB fill status: still unconfirmed — order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`
+- Loser cuts: N/A (no data)
+- Stop tightening: N/A (no data)
+- NVDA earnings today after close — market event; cannot monitor positions
+- **Action required:** resolve sandbox network allowlist to restore API access

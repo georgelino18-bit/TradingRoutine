@@ -204,3 +204,36 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-20 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (sandbox IP not in allowlist; persists since Day 1)
+- Positions: UNKNOWN — SLB 340sh market buy submitted 2026-05-15 (order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`); fill status unconfirmed
+- Cash: UNKNOWN — last confirmed $100,000 (Day 0)
+
+### Actions Taken
+- None — cannot access Alpaca API; cannot verify positions, stops, or P&L
+
+### Loser Cuts (-7% rule)
+- UNABLE TO CHECK — API blocked
+
+### Stop Tightening
+- UNABLE TO CHECK — API blocked
+- Note: NVDA reports today (2026-05-20); if SLB position exists, no stop action needed (energy unrelated to NVDA binary)
+
+### Thesis Check
+- SLB thesis (energy sector, Hormuz disruption, WTI $101+ floor): INTACT based on macro — cannot verify position or price intraday
+- NVDA earnings today after close — binary event; if account holds tech exposure it would need monitoring
+
+### Intraday Notes
+- NVDA earnings 2026-05-20 after close — major market event; Nasdaq volatile; energy sector insulated
+- WTI / Hormuz disruption thesis remains structural
+- ClickUp notification: FAILED (HTTP 403) — fallback logged to DAILY-SUMMARY.md
+- Root cause: Anthropic sandbox egress proxy blocks Alpaca and ClickUp endpoints (confirmed by TLS cert issuer `O=Anthropic; CN=sandbox-egress-production`)
+- Resolution requires: network allowlist update in sandbox environment settings (not Alpaca account settings)
+
+### Decision
+NO ACTION — API inaccessible. Last known state: $100,000 cash, SLB fill unconfirmed. Manual verification of SLB position and stop required at next available session with API access.
