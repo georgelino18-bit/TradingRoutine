@@ -31,3 +31,30 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-05-16 — EOD Snapshot (Day 3, Monday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** No API access confirmed for this session. Alpaca paper returning 403 "Host not in allowlist." No trades placed or confirmed. SLB order (6c529f05) submitted 2026-05-15 remains unconfirmed — fill status unknown. Week 2 opens with zero confirmed positions and zero execution capability.
+
+## 2026-05-19 — EOD Snapshot (Day 4, Tuesday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** API block persists. No confirmed data. Week 2 Day 2 lost to infrastructure failure.
+
+## 2026-05-20 — EOD Snapshot (Day 5, Wednesday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Alpaca paper API still returning 403 "Host not in allowlist" — 5th consecutive blocked session across two weeks. ClickUp also blocked (403), fallback logged to DAILY-SUMMARY.md. No trades today. SLB order from 2026-05-15 fill status still unconfirmed. NVDA earnings day — avoided semis per plan. Phase P&L: unknown; last confirmed equity $100,000 (2026-05-13). CRITICAL: IP allowlist must be resolved manually via Alpaca dashboard before any execution is possible. Week 2 trades: 0/3 used.
