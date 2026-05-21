@@ -204,3 +204,66 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-21 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction persists across all sessions)
+- Cash: ~$81,171 estimated (if SLB filled ~340sh @ $55.38 on May 15)
+- Buying power: ~$81,171 estimated
+- Daytrade count: unknown
+- **UNCONFIRMED POSITION: SLB 340sh** — market order submitted 2026-05-15 pre-market (order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`); last SLB close May 15 = $55.38; current SLX = $57.15; estimated unrealized gain ~+$602 (+3.2%); stop NOT placed (API inaccessible)
+- NOTE: Cannot confirm fill, stop status, or any order state without API access
+
+### Market Context
+- WTI / Brent: WTI ~$98.52–$99.96 (recovering after Trump "final stages" Iran talks comment dropped WTI 5% to $98.26 close on May 20) | Brent ~$105.11–$106.56; Hormuz still disrupted but de-escalation risk rising
+- S&P 500: Closed 7,432.97 (+1.08%) on May 20; futures +0.09% premarket May 21 (66% Polymarket odds of open up); Nasdaq +1.54% yesterday lifted by NVDA post-earnings
+- VIX: ~17.26 (range 16.18–21.56 past month); declining trend — market not panicking
+- Today's catalysts:
+  - **NVDA Q1 FY27 beat**: Rev $81.6B (data center $75.2B), EPS $1.87 vs $1.76 est; Q2 guidance $91B; dividend raised $0.01→$0.25; stock +1.93% post-earnings (market "shrugged" — muted vs blowout size)
+  - **WMT Q1 beat BMO**: EPS $0.74 vs $0.73 est; Rev $190.7B vs $190.4B; e-commerce +24%; stock +0.77% premarket — consumer resilient
+  - **DE Q2 beat BMO**: EPS $6.55 vs $5.74 est; Rev $13.37B (+5%); FY net income guide $4.5–5.0B; Large Ag -15–20% headwind
+  - **Iran nuclear talks "final stages"**: Trump said negotiations near conclusion; WTI dropped 5% yesterday on de-escalation signal; Hormuz blockade may end; binary risk to all energy longs
+  - Figma beat-and-raise; Ackman took MSFT stake citing "compelling valuation"
+  - Moody's US downgrade (Aa1) backdrop from May 2025 — 30yr yield ~4.92%, 10yr ~4.46%; elevated but stable
+- Earnings before open: WMT (beat), DE (beat), NIO Q1 (~48 total reports today)
+- Economic calendar: Initial jobless claims, housing starts & permits, Philly Fed Manufacturing, PMI Composite Flash, EIA natural gas report, Kansas City Fed Manufacturing — no CPI/PPI/FOMC today
+- Sector momentum YTD: Energy (leader), Materials +22%, Industrials, Staples strong | Tech/Comm/Discretionary/Financials lagging — **Energy thesis at risk if Iran deal materializes**
+
+### Trade Ideas
+1. **SLB (existing unconfirmed position)** — Thesis conditional; oil services exposed to Iran de-escalation
+   - Estimated fill: ~$55.38 (May 15 close); current ~$57.15 (+3.2% est)
+   - Bernstein PT raised to $71 from $56.10; 20 analysts Buy consensus
+   - 10% trailing stop MUST be placed at open if fill confirmed (~$51.42 on current price)
+   - **Iran risk**: deal = WTI $70–80 range possible → SLB could retrace to $48–52
+   - Action: Confirm fill via API. If filled → place 10% trailing stop immediately. If Iran deal confirmed, reassess vs. -7% cut rule
+   - Hard stop: cut at $51.50 (7% below ~$55.38 estimated fill)
+
+2. **WMT** — Consumer Staples momentum + beat-and-raise
+   - Catalyst: E-commerce +24%, ad revenue +46%; consumer spending resilient despite inflation; FY guide solid
+   - Entry: ~$98–100 on open confirmation (validate premarket gap vs. prior close)
+   - Stop: 7% below entry
+   - Target: 2:1 R:R minimum
+   - Note: HOLD — need clean open print, API must be accessible to place order, max 1 more new position this week (3-trade weekly limit)
+
+3. **AMAT (deferred from May 14)** — AI capex cycle intact post-NVDA confirmation
+   - NVDA's $75.2B data center quarter and $91B Q2 guide validates AI capex super-cycle; AMAT = picks-and-shovels
+   - Entry: post-open confirmation if semis sustain bid; stop 10% below entry; target +15%, R:R 2:1
+   - Note: HOLD pending — need API access; semis showing muted NVDA reaction, don't chase
+
+### Risk Factors
+- **Iran deal = #1 risk**: If Hormuz deal announced, WTI craters to $70–80 range; energy sector loses leadership; SLB long would hit stop quickly
+- API still blocked — cannot confirm SLB fill, place stops, or enter new positions; all risk management manual/manual override required
+- NVDA "shrug" reaction despite blowout = suggests "sell the news" mentality in semis; Nasdaq catalyst may fade
+- Rising bond yields (10yr 4.46%, 30yr 4.92%) + Moody's Aa1 backdrop = P/E compression risk
+- Jobless claims + Philly Fed today — if labor weakens, conflicting signals for Fed; if strong, hawkish rate pressure
+- DE guidance: Large Ag -15–20% = economic demand signal for equipment/industrial sector; potential growth slowdown
+- Weekly trade limit: used 0 of 3 new trades this week (SLB unconfirmed); max 3 new trades/week
+
+### Decision
+**HOLD new entries** — Iran binary is live and is the single biggest threat to the only likely open position (SLB). Entering energy or oil-adjacent names today into a potential Hormuz resolution is low conviction.
+**CRITICAL ACTION REQUIRED**: Confirm SLB fill and place 10% trailing stop immediately when API access restored.
+**Monitor**: WMT open for Consumer Staples entry candidate if SLB stop is placed and a second position slot is available. AMAT secondary candidate if semis sustain bid post-NVDA.
+**Patience > activity.**
