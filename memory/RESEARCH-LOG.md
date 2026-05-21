@@ -204,3 +204,27 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-21 — Market-Open (API BLOCKED)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 `host_not_allowed` (IP restriction persists since 2026-05-14)
+- Cash: ~$100,000 estimated (no confirmed trades; SLB order from 2026-05-15 unconfirmed)
+- Buying power: unknown
+- Daytrade count: 0
+
+### Market Context
+- All live data unavailable — Alpaca (trading + data) and ClickUp both returning 403
+
+### Trade Ideas
+- None executable — API blocked
+
+### Risk Factors
+- **CRITICAL:** Alpaca IP allowlist blocking all API access from this cloud environment
+- SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh, ~$19.8k) from 2026-05-15 — fill status unknown; trailing stop may not be placed
+- Every session since 2026-05-14 has been blocked; portfolio is effectively unmanaged
+
+### Decision
+HOLD — API inaccessible. No trades placed. Manual intervention required: remove IP restriction in Alpaca paper account settings (Dashboard → Security → remove allowlist or add cloud IP). Also verify SLB position and trailing stop manually.
