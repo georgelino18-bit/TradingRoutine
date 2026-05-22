@@ -204,3 +204,42 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-22 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 "Host not in allowlist" (week 2, persistent)
+- Positions: UNVERIFIABLE — SLB 340sh market buy submitted 2026-05-15 pre-market; fill status unknown
+- Cash: ~$100,000 estimated (no confirmed fills; baseline)
+- Perplexity API: also 403 blocked — WebSearch fallback
+
+### Market Context (WebSearch)
+- WTI: ~$98.32 (down from $101–102 on 2026-05-14; eased ~3% over week)
+- S&P 500: ~7,445.72 (+0.17% today)
+- VIX: ~16.76 (−3.9% — low, complacent market)
+- SLB current: ~$55.65 | 52-wk high $57.21 | Analyst PT $59.50–$71 (Strong Buy consensus)
+- Energy sector: WTI softening from Hormuz peak; oilfield services (SLB) holding bid
+
+### Loser Cuts (-7% rule)
+- UNEXECUTABLE — Alpaca API blocked; cannot pull positions or P&L
+
+### Stop Tightening
+- UNEXECUTABLE — cannot query or modify orders
+
+### Thesis Check
+- SLB thesis (oilfield services / elevated crude): WTI $98 vs $101 entry context — thesis intact
+  but partially weakened; crude softened ~3% week-over-week; Hormuz disruption ongoing structural bid
+- If SLB filled ~$55 on 2026-05-15 → current ~$55.65 ≈ +1.2% unrealized; no cut required
+- Full thesis assessment impossible without confirmed fill price and API account access
+
+### Intraday Notes
+- NVDA binary event was May 20 — market did not flush; S&P holding 7,445
+- SLB analyst upgrades (BofA $60, Bernstein $71, Barclays $66) reinforce energy thesis
+- VIX at 16.76 signals no panic — market structure constructive
+- API block entering week 2 — critical priority: resolve Alpaca IP allowlist
+
+### Decision
+NO ACTION — API inaccessible; cannot execute any rule-based actions. SLB order status unknown.
+Infrastructure failure remains sole blocker. Thesis intact; no discretionary cuts warranted by market data.
