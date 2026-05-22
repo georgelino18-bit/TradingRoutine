@@ -31,3 +31,15 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-05-22 — Market-Open Session (Friday, Day 7)
+**Status:** BLOCKED — Cloud execution environment network policy denies all outbound API access (x-deny-reason: host_not_allowed). Affects Alpaca, ClickUp, Perplexity.
+
+**No trades executed.** Account state unverifiable since 2026-05-14.
+
+**Outstanding action items (MANUAL required):**
+1. Login to alpaca.markets/paper → confirm SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` fill status
+2. If SLB is open and unprotected → place 10% trailing stop immediately via web UI
+3. Check all open positions and stop orders
+4. Resolve network access: switch to environment with open outbound access, or configure allowed hosts to include api.alpaca.markets, api.perplexity.ai, api.clickup.com
+5. Run manual weekly review (Friday)

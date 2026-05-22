@@ -204,3 +204,34 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-22 — Pre-market Research (market-open session, Friday)
+
+### Account
+- Equity: UNAVAILABLE — ALL external APIs blocked by cloud execution environment network policy (x-deny-reason: host_not_allowed)
+- Cash: ~$100,000 estimated (no confirmed positions since Day 0)
+- Buying power: ~$100,000 estimated
+- Daytrade count: unknown
+- NOTE: Alpaca, ClickUp, AND Perplexity APIs all return 403 host_not_allowed. This is an execution environment network restriction, not an Alpaca-side IP whitelist issue. No outbound internet access to financial APIs from this container.
+
+### Market Context
+- UNAVAILABLE — Perplexity API blocked. No live market data retrievable.
+- Last known: WTI ~$101–102 (2026-05-14); Energy sector leading YTD; S&P ~6,657–7,444 range
+- SLB order (340sh market buy, 2026-05-15, ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) — status unknown; may have filled pre-market May 15
+
+### Trade Ideas
+- NONE — no market data, no account data, no order placement possible
+
+### Risk Factors
+- Cloud execution environment has no outbound network access to financial APIs
+- SLB position status unknown — could be open with no stop protection if filled
+- All planned trades (AMAT post-earnings, FCX/XOM momentum) remain unexecuted since Day 0
+
+### Decision
+HOLD / NO ACTION — environment network policy blocks all API access. Manual intervention required:
+1. Check Alpaca dashboard manually: confirm SLB order fill status and any open positions
+2. If SLB is open: place 10% trailing stop manually via Alpaca web UI immediately
+3. Resolve network policy: either switch to a non-restricted environment or configure allowed hosts
+4. Today is Friday (weekly review day) — defer to manual /weekly-review once API access restored
