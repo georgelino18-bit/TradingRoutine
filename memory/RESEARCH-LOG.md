@@ -204,3 +204,56 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-22 — Pre-market Research
+*Note: Alpaca API 403 "Host not in allowlist" — account snapshot unavailable. Perplexity API also blocked. All market data via WebSearch fallback.*
+
+### Account
+- Equity: UNKNOWN (API inaccessible)
+- Cash: ~$100,000 estimated (Day 0 baseline, no confirmed fills)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- **CRITICAL:** SLB 340sh market buy (order ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) submitted 2026-05-15 — fill status UNCONFIRMED. No stop placed. 8 calendar days unhedged if filled.
+
+### Market Context
+- WTI: ~$96–99/bbl (retreating from $101+ highs; Iran deal optimism pulling oil lower)
+- Brent: ~$102–104/bbl (up 1.89% on May 22 open; peaked $110+ in March; structural Hormuz bid fading)
+- S&P 500 futures: +0.39% premarket; 78% Polymarket probability of up open
+- VIX: ~17.26 (range 16.18–21.56 over past 30 days; calm/normal; no panic)
+- Today's catalysts:
+  - US-Iran MOU negotiations: one-page deal nearly finalized — Hormuz reopening, nuclear enrichment moratorium, sanctions relief. If signed: oil -15-20%, energy sector collapses, bond yields fall, risk-on rally. Deal fell short of expectations multiple times this week.
+  - NVDA Q1 FY27 earnings (reported May 20 post-close): BEAT — EPS $1.87 vs $1.78 est; revenue $81.6B vs $79.2B est. Stock traded DOWN 1.4-1.9% (sell-the-news). Nasdaq still near 3rd consecutive record high.
+  - Figma: +15% on beat-and-raise quarter
+  - CAVA: +7.5% on strong SSS (+10% YoY), beat on earnings
+  - Micron: +3% (Samsung worker strike through Jun 7 tightens HBM supply)
+  - Bill Ackman / Pershing Square announced new MSFT stake
+  - 30-yr Treasury yield peaked 5.197% (May 19, highest since 2007); eased to 5.08% today; 10-yr 4.60%
+  - Markets pricing ~40% probability of 25bps hike in December (Warsh era hawkish risk)
+- Earnings before open: Intuit (INTU), ~17 total reports; no major energy sector names
+- Economic calendar: Michigan Consumer Sentiment Final 10:00 ET; NY Fed Nowcast 12:45 ET. No CPI/PPI/FOMC today.
+- Sector momentum (YTD): Consumer Staples, Industrials, Materials, Energy leading. Tech/Semis concentrated (10 stocks = 78% of SPX return). Healthcare weakening. Discretionary, Comms lagging.
+
+### SLB Update (held ticker)
+- SLB trading $57.15 as of May 18; analyst upgrades: BofA PT→$60, Bernstein PT→$71, Barclays PT→$66
+- 20 analysts: Buy consensus
+- Raised $2B in senior notes (May 7) — capital deployment, not distress
+- **Iran deal risk: if MOU signed, Hormuz reopens, WTI drops to $80s — SLB thesis broken. Exit required.**
+- Insider selling noted in early May (minor negative)
+
+### Trade Ideas
+1. **SLB STOP — URGENT ACTION** — If SLB filled ~$57 (340sh ≈ $19,380, ~19% of portfolio), place 10% trailing GTC stop immediately. No entry — stop placement only. Command: `bash scripts/alpaca.sh order '{"symbol":"SLB","qty":"340","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'`
+2. **MU (Micron)** — Samsung strike through Jun 7 tightens HBM/DRAM supply; AI memory demand structural. MU benefits directly. Watch for pullback to 20-DMA for entry if Samsung situation extends. Entry if confirming setup appears; target +15%, stop -10%. Size ≤$20k. R:R: monitor.
+3. **MSFT** — Ackman/Pershing Square new position is confirming catalyst. AI monetization (Copilot) + Activision integration. Consolidating near highs. Entry on 3-5% pullback only; no chasing. Target +15%, stop -10%, R:R 1.5:1 at current; better at pullback.
+
+### Risk Factors
+- SLB unhedged position (if filled) — Iran deal = energy reversal; no stop = unlimited risk
+- Iran deal imminent: energy sector binary event; could trigger -15-20% move in SLB/HAL/XOM
+- 30-yr yield at 5.08% (near 19-yr highs): bond vigilante pressure; fiscal deficit concern; rate-hike probability rising
+- NVDA sell-the-news: Nasdaq at record highs, narrow breadth (10 stocks driving 78% of SPX gains); vulnerable to rotation
+- Alpaca API inaccessible: cannot confirm fills, place stops, or trade until IP allowlist resolved — THIS IS THE HIGHEST PRIORITY OPERATIONAL RISK
+- Concentration risk: 10 stocks driving nearly all SPX gains = fragile rally; any earnings miss = sharp sector rotation
+
+### Decision
+HOLD new entries. **One critical operational action: resolve Alpaca API access and confirm SLB fill + place stop immediately.** Iran deal binary makes SLB a potential forced exit. If SLB is filled and no stop placed, this is an emergency — must whitelist sandbox IP or access Alpaca through alternate means. No new positions until SLB status confirmed and API accessible.
