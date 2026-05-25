@@ -204,3 +204,34 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-25 — Midday Scan (Memorial Day — Market CLOSED)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP not in allowlist; persistent)
+- Positions: 0 confirmed (Day 0 baseline; SLB order from 2026-05-15 unconfirmed)
+- Cash: ~$100,000 estimated
+
+### Actions Taken
+- None — market closed; API inaccessible
+
+### Loser Cuts
+- N/A — market closed
+
+### Stop Tightening
+- N/A — market closed
+
+### Thesis Check
+- N/A — market closed
+
+### Intraday Notes
+- US markets closed Memorial Day (May 25, 2026)
+- Next market day: Tuesday 2026-05-26
+- Persistent blocker: sandbox container IP not whitelisted on Alpaca paper account
+- SLB order `6c529f05` (340sh market buy, 2026-05-15) — status unconfirmed; if filled, needs 10% trailing stop immediately on next accessible session
+- Watch list for Tue open: AMAT post-earnings drift, energy sector (WTI/Hormuz), FCX on tariff developments
+
+### Decision
+NO ACTION — holiday. Resolve IP allowlist issue before 2026-05-26 pre-market.
