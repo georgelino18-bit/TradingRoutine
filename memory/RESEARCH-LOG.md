@@ -204,3 +204,35 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-25 — Market-Open Workflow (Memorial Day)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked (sandbox egress proxy, 403)
+- Cash: ~$100,000 estimated (no confirmed trades since launch)
+- Open positions: unknown (SLB 340sh order placed 2026-05-15 but never confirmed)
+
+### Market Context
+- **US MARKETS CLOSED — Memorial Day holiday**
+- No trading activity possible
+- APIs blocked: Alpaca (paper-api.alpaca.markets), ClickUp (api.clickup.com), Perplexity — all return 403 from Anthropic sandbox egress proxy allowlist
+- ClickUp notification fell back to DAILY-SUMMARY.md
+
+### Trade Ideas
+- N/A — market closed, no execution possible
+
+### Risk Factors
+- Sandbox network policy blocks all required API endpoints — critical infrastructure failure now 10+ days old
+- SLB position status unknown — no confirmation since order submission 2026-05-15
+- Missing 10+ trading days of potential gains while infrastructure is unresolved
+- Challenge window deteriorating: 0% vs S&P benchmark; every closed-market day extends the underperformance gap
+
+### Decision
+**NO ACTION — Market closed (Memorial Day). Cannot trade or verify positions.**
+- Priority 1: Resolve sandbox network allowlist before Tuesday May 26 open
+- Required allowlist entries: `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.clickup.com`, `api.perplexity.ai`
+- On next live session: immediately verify SLB position status, then proceed with normal pre-market + open workflow
+
+---
