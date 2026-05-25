@@ -204,3 +204,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-25 — Pre-Market Research (Memorial Day)
+
+**NOTE: US markets CLOSED today (Memorial Day). Reopen Tuesday May 26.**
+**Fallback: Perplexity returned HTTP 403 (sandbox IP blocked) — all research via WebSearch.**
+**Alpaca API also 403 — account state inaccessible for 11 consecutive days.**
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persistent since 2026-05-14
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed fills)
+- Buying power: UNAVAILABLE
+- Daytrade count: 0 (no confirmed trades)
+- ⚠️ CRITICAL: SLB market buy 340sh (order ID 6c529f05) submitted 2026-05-15 — fill status UNCONFIRMED; 10% trailing stop NEVER placed. Must resolve Tuesday before any new action.
+
+### Market Context
+- **WTI:** ~$94–99 (down ~6% today); **Brent:** ~$95–100 (prev close $100.21)
+- **S&P 500:** Markets closed Monday. SPX up 10% YTD as of Friday 5/22; Equal Weight + DJIA at fresh ATHs. Premarket N/A (holiday).
+- **VIX:** ~17.26 (May 2026 avg); 17.44 on 5/20 — calm, no panic signal
+- **Oil catalyst:** US-Iran talks progressing; Trump says "orderly/constructive" but instructed envoys "not to rush." Dispute remains on enriched uranium stockpile + Hormuz tolls. Brent fell >5% Sunday on deal optimism. Risk premium deflating but deal NOT signed.
+- **Fed:** Kevin Warsh sworn in 2026-05-22. Inflation still above 2% target. FOMC June 16-17 next. April meeting held steady. Warsh vowed independence — rate path unclear.
+- **Earnings before open Tuesday 5/26:** AZO, ZS
+- **Key earnings this week:** MRVL, CRM, SNPS, SNOW (Wed 5/27); DELL, DLTR, MDB, BBY, COST, ADSK (Thu 5/28)
+- **Economic calendar:** Consumer Confidence (Tue 5/26); April New Home Sales (Wed 5/27); Q1 GDP 2nd estimate + April PCE (Thu 5/28)
+- **Sector momentum:** LEADING — Energy (XLE), Materials (XLB +22% YTD), Industrials (XLI), Staples (XLP) | LAGGING — Tech (XLK), Comms (XLC), Discretionary (XLY), Financials (XLF) | IMPROVING — REITs, Utilities | WEAKENING — Healthcare
+
+### Trade Ideas
+1. **MRVL** — Reports Wed 5/27 AMC. AI networking/custom silicon tailwind; semis recovering. IF gap-up on beat + raised guidance → assess entry Thu 5/28 open, stop 10% below gap low, target +15% (~R:R 1.5:1 minimum). DO NOT enter before binary. Risk: Tech sector in lagging quadrant; binary event. Size ≤20%.
+2. **SLB** (existing/pending) — Original Hormuz thesis weakening. Oil -6% on Iran deal optimism; if deal signed → Hormuz reopens → supply shock reverses → primary catalyst gone. Must confirm fill first Tuesday. If filled and thesis broken → evaluate early exit. Analysts still constructive (BofA $60, Bernstein $71); Q1 EPS $0.52 met estimates; next earnings July 17.
+3. **FCX / Materials** — Materials leading YTD (+22%). If Iran deal confirmed + trade backdrop stabilizes → copper demand thesis strengthens. FCX: reassess R:R from current levels before entry; no chasing 52-week highs.
+
+### Risk Factors
+- Iran deal signed → oil falls sharply → SLB/energy thesis collapses; must cut
+- Warsh-era FOMC (June 16-17) hawkish surprise → growth stocks sell off
+- PCE Thu 5/28 sticky → rate cut hopes fade → broad equity pressure
+- GDP 2nd estimate Thu 5/28 downward revision → stagflation fear
+- Tech sector in lagging quadrant → post-MRVL/CRM miss = broad tech flush
+- SLB position status unknown 10+ days — critical operational/risk management gap
+- Market reopening gap risk Tuesday — holiday gaps can trigger stops
+
+### Decision
+**HOLD** — Markets closed today. **First action Tuesday: confirm SLB fill via Alpaca web UI or API fix.** If filled, immediately place 10% trailing GTC stop. If SLB thesis broken by Iran deal, evaluate exit. No new positions until SLB resolved. Watch MRVL post-Wednesday earnings for potential Thu 5/28 setup. PCE and GDP Thursday are binary macro events — no new entries Wednesday into those. Patience > activity.
