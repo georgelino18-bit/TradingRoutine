@@ -204,3 +204,53 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-26 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, every session since Day 1)
+- SLB position: Market order 340sh submitted pre-market 2026-05-15 (order ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) — fill status UNCONFIRMED; ~$80k deployed if filled at ~$57 open
+- Cash: ~$100,000 if unfilled | ~$80,600 if SLB filled at ~$57
+- Daytrade count: Unknown
+- NOTE: 12-day gap since last research session (2026-05-14). Post-Memorial Day holiday (May 25) return.
+
+### Market Context
+- WTI: ~$92.85 (-5% today) | Brent: ~$98.11 (+0.89%) — WTI gapping down hard on Iran peace talk optimism; both well below $101–108 range of mid-May; Brent still +33% vs pre-war levels
+- S&P 500 futures: +0.54% — positive; SPX on 8th consecutive weekly gain (longest streak since late 2023); Dow + S&P equal weight at ATH; post-Memorial Day catchup rally
+- VIX: ~16.68 — calm (down from ~18 on May 14); no fear signal
+- Today's catalysts:
+  - **Iran peace talks (DOMINANT)**: Trump: talks "proceeding nicely"; Iran sent updated peace proposal via Pakistan mediators; Hormuz ceasefire discussions ongoing but Strait STILL CLOSED pending US blockade lift; mixed signals — Trump "not rushing into a deal"; Brent +0.9% rebound off lows suggesting market skeptical deal imminent
+  - **NVDA Q1 FY27 earnings (May 20)**: Beat — EPS $1.87 vs $1.78 est; rev $81.62B vs $79.2B est; stock +11% MTD, +20% YTD; down 1.4% Monday post-earnings — mild exhaustion signal despite big beat
+  - **SLB analyst upgrades since May 14**: BofA $60 target, Bernstein $71 target, Barclays $66 target (all raised May 2–19); SLB ex-div $0.295 June 3
+  - **ZS (Zscaler) earnings tonight AMC** — cybersecurity read-through for CRWD, PANW
+  - **AZO (AutoZone) earnings today** — consumer spending health check
+  - **CB Consumer Confidence today** (Conference Board monthly release — last Tuesday of month)
+  - **First trading day back post-Memorial Day** — catchup on weekend geopolitical news, volume asymmetric
+- Consumer sentiment: Michigan Sentiment record low 44.8 for May (prev 52.2); inflation expectations +4.7% year-ahead (largest MoM jump since Apr 2025); stagflation structural concern
+- Sector momentum YTD: Materials +22% (leader), Energy +22%, Industrials strong, Tech/XLC lagging | Cybersecurity (CRWD, PANW, DDOG) hitting 52-week highs | TODAY: energy sector facing Iran peace talk headwind
+
+### Holdings (unconfirmed — API inaccessible)
+- **SLB**: Current $57.28 — bullish analyst consensus (20/20 Buy); May 15 market order status unknown
+  - If filled ~$57 on May 15: position +0.5% unrealized; 10% trailing stop should be at ~$51.55
+  - Thesis risk: Iran deal → Hormuz reopens → WTI collapses → E&P capex pressure on SLB
+  - Thesis support: Brent still elevated (+33% pre-war); Hormuz physically still closed; ex-div June 3 ($0.295)
+  - Action: DO NOT sell on single-day oil drop; let trailing stop do its job
+
+### Trade Ideas
+1. **CRWD (CrowdStrike)** — $655 area, 52-week high $674 hit yesterday; cybersecurity AI/defense tailwind structural; ZS earnings tonight = sector read-through. IF ZS beats strongly, evaluate entry tomorrow at open near $655–670, stop ~$590 (~10%), target $760 (+15%), R:R ~2:1. Size ≤20% (~$20k = ~30 shares). **Wait for ZS reaction first.**
+2. **PANW (Palo Alto Networks)** — $260, at 52-week high; own earnings likely late May/early June — DO NOT enter ahead of binary. Monitor post-earnings for setup.
+3. **SLB add/confirm** — If API access restored and SLB confirmed filled with stop in place: thesis still intact while Hormuz closed. No add until position confirmed.
+
+### Risk Factors
+- Iran peace deal closing → Hormuz reopens → WTI -20%+ from current → SLB stop triggers
+- Consumer confidence record low + inflation 4.7% YoY = stagflation → growth multiple compression
+- NVDA post-earnings fade despite huge beat = semi/tech momentum may be topping
+- 8-week SPX winning streak = Goldman flags historically high mean reversion probability
+- Alpaca API 403 = CRITICAL — cannot place stops, cut losers at -7%, or confirm positions; manual action required
+- ZS earnings miss tonight = cybersecurity sector sell-off, CRWD thesis invalidated
+- Post-holiday volume = can exaggerate moves in either direction
+
+### Decision
+HOLD — API inaccessible (critical); SLB fill unconfirmed. Iran peace talk progress is BEARISH signal for energy thesis but Hormuz remains physically closed and deal not finalized; do not sell on headlines alone. ZS earnings tonight = key cybersecurity gate before any CRWD entry. No new trades today. Resolve Alpaca IP whitelist before next session — this is the single biggest operational risk.
