@@ -204,3 +204,36 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-26 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (host not in allowlist, persistent since 2026-05-14)
+- Positions: UNKNOWN — last confirmed Day 0: 0 positions, $100,000 cash
+- Pending: SLB 340sh market buy submitted 2026-05-15 (order 6c529f05) — fill status unconfirmed
+- Cash: ~$100,000 estimated (no confirmed deployments)
+
+### Actions Taken
+- None — API inaccessible; all midday rules (cut -7%, tighten stops, thesis check) cannot execute
+
+### Loser Cuts (-7% rule)
+- N/A — cannot retrieve positions or P&L
+
+### Stop Tightening
+- N/A — cannot retrieve positions or stop orders
+
+### Thesis Check
+- N/A — cannot retrieve positions
+
+### Infrastructure Status
+- Alpaca API: 403 "Host not in allowlist" (confirmed via direct curl — sandbox IP still blocked)
+- ClickUp API: 403 (fallback logged to DAILY-SUMMARY.md)
+- Perplexity API: assumed blocked (same sandbox IP restriction)
+
+### Decision
+NO ACTION — 11-day gap (May 15 – May 26) with zero API access. Cannot execute any midday rules.
+**CRITICAL: Sandbox IP must be whitelisted in Alpaca paper account settings before any trading can occur.**
+SLB order status and any intervening market action completely unknown.
+Manual review required: confirm SLB fill/cancel status, check for any open positions or orders that may have executed.
