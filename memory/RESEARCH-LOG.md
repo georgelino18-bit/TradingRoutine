@@ -204,3 +204,52 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-26 — Pre-market Research (market-open session; post-Memorial Day)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction persists across all sessions)
+- Cash: ~$100,000 estimated (Day 0 baseline); SLB fill status UNKNOWN
+- Buying power: UNKNOWN
+- Daytrade count: 0 estimated
+- Open positions: UNVERIFIED — SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy submitted 2026-05-15) status unknown; trailing stop was NEVER confirmed
+- Weekly trades so far (week of May 26): 0 confirmed
+
+### Market Context
+- WTI: ~$92/bbl — down ~6% over Fri/Mon on US-Iran deal optimism; Hormuz reopening in sight
+- S&P 500: ~7,473 (last close Fri May 22); 8-week win streak; bullish tone
+- Nasdaq: ~26,344; up 7 of last 8 weeks; AI tailwind intact
+- VIX: ~16.7 — low/complacent; risk-on
+- Today's catalysts: May Consumer Confidence report; ~73 earnings (AZO, ZS)
+- Big events this week: Thu Q1 GDP 2nd estimate + PCE; Salesforce, Costco, Dell earnings
+- Sector momentum YTD: Energy +22%, Industrials +16%, Consumer Defensives +13%; Tech/Comms lagging
+- US-Iran/Hormuz: Deal "largely negotiated" per Trump (May 23); 60-day ceasefire framework; NOT signed yet — headline risk both ways; Iran disputes terms
+- Fed: Holding rates; cuts expected Q3-Q4 2026; core inflation ~3%
+- SLB: ~$57.28; 20 analysts Buy consensus, PT $61.15; ex-div $0.295 Jun 3
+
+### Critical Risk
+- **SLB position (if filled at ~$55-58):** No confirmed trailing stop. WTI -6% = oilfield services headwind. If Iran deal is signed, energy/SLB likely sells off hard. Stop must be placed IMMEDIATELY once API access is restored.
+- Entry was ~$55-58 (May 15 market open); 10% trailing stop would be ~$50-52. SLB at $57.28 is currently above that range.
+- If SLB filled and price holds above $51.55 (10% below $57.28), trailing stop is still in-range.
+
+### Trade Ideas
+- **NO NEW TRADES** — API inaccessible; cannot verify existing SLB position or place orders
+- If API restored: First priority = verify SLB position and place 10% trailing stop immediately
+- If SLB filled and price < $51.55 (−10% from $57.28): cut manually per -7% rule
+- Second priority if API restored and SLB confirmed: re-evaluate energy thesis given WTI $92 vs prior $101; Iran deal = structural headwind for energy sector
+
+### Risk Factors
+- Alpaca API 403 — cannot trade, verify, or stop-loss protect any position
+- Iran deal signing = energy sector selloff; SLB unprotected if stop never placed
+- WTI structural decline ($101 → $92) breaks energy momentum thesis
+- VIX 16.7 = complacency; any surprise = sharp vol spike
+
+### Decision
+**NO ACTION — BLOCKED** (API 403 persists). Cannot place or verify any orders.
+**CRITICAL:** SLB trailing stop unconfirmed since May 15. Manual action required:
+1. Whitelist sandbox IP in Alpaca paper account settings
+2. `bash scripts/alpaca.sh positions` — confirm SLB fill price and shares
+3. Immediately place 10% trailing stop: `bash scripts/alpaca.sh order '{"symbol":"SLB","qty":"340","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'`
+4. If SLB down >7% from entry — cut position immediately

@@ -31,3 +31,18 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-05-26 — Market Open (post-Memorial Day)
+**Status:** BLOCKED — Alpaca API 403 persists. No trades placed. No positions verified.
+
+- WTI now ~$92 (down from $101 on May 15) — Iran deal optimism; energy thesis weakening
+- SLB at ~$57.28; trailing stop STILL unconfirmed from May 15 attempt
+- **No orders placed this session**
+- ClickUp API also 403; fallback logged to DAILY-SUMMARY.md
+
+**Manual action required (URGENT):**
+1. Whitelist sandbox IP in Alpaca paper account settings (Settings → API → IP allowlist)
+2. Verify SLB fill: `bash scripts/alpaca.sh positions`
+3. If SLB filled: immediately place trailing stop (10%): `bash scripts/alpaca.sh order '{"symbol":"SLB","qty":"340","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'`
+4. If SLB < −7% from entry: close immediately: `bash scripts/alpaca.sh close SLB`
+5. Re-evaluate energy thesis — WTI $101→$92 is a significant change; Iran deal closing = further pressure
