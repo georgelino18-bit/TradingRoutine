@@ -204,3 +204,66 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-27 — Pre-market Research (Market-Open Inline, WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (sandbox egress block, same as prior sessions)
+- Cash: ~$80,960 estimated (if SLB filled May 15 at ~$56 × 340sh = $19,040 deployed; unconfirmed)
+- Open positions: SLB × 340sh — ORDER UNCONFIRMED (submitted 2026-05-15, fill never verified)
+- Trailing stop on SLB: NOT PLACED (API was blocked at time of order; CRITICAL)
+- Weekly trade count: 0 (week of May 26; Monday May 26 = Memorial Day holiday, today is first trading day)
+- Daytrade count: 0
+
+### Market Context
+- WTI / Brent: WTI ~$90.27 | Brent ~$103.54 — crude sliding; down ~8-10% from May 14 highs (~$101-102)
+- S&P 500: Closed May 26 at 7,519.12 (+0.61%); futures +0.37% at ~7,564 — fresh records, AI-driven
+- VIX: ~16.81 (open), prior close 17.01 — calm, low fear
+- US-Iran deal: MOU being negotiated; Hormuz reopening expected during 60-day window; Hormuz closing "1B bbl/day" disruption unwinding — structural energy headwind
+- Earnings catalysts resolved:
+  - NVDA: Reported May 20 — beat; AI capex $1.3T market; no longer binary
+  - AMAT: Q2 beat, Q3 guidance raised to $8.95B (~15% beat vs estimates); raised calendar 2026 semi-equipment growth to >30%; stock +3.18% May 26, trading ~$455-467
+  - AMD: Post-earnings surge; SOXX ETF +6.1% to all-time high; Bernstein PT $525 (from $265); AMD +125% YTD, trading ~$512
+- Sector momentum YTD: Energy +34.5% (leader but thesis weakening on Iran deal), Tech +22.3%, Semis SOXX at ATH
+- Key: May sector leader shifting — Tech/Semis outperforming Energy in May (+10.6% vs energy declining)
+- Memorial Day week: typically light volume; institutional desks returning today
+
+### SLB Position Status (CRITICAL)
+- SLB trading at ~$57.98 today (vs. ~$56 estimated entry) — roughly flat to slightly positive
+- WTI has dropped from ~$101 to ~$90 (−11%) since SLB was ordered on May 15
+- Iran deal threatens to reopen Hormuz → oilfield services thesis materially weakened
+- No trailing stop in place — exposed to unprotected downside
+- Manual action required: verify fill via Alpaca UI, place 10% trailing stop immediately
+
+### Trade Ideas
+1. **AMAT** — Highest conviction new entry if API restored
+   - Catalyst: Q2 beat + Q3 guidance raise to $8.95B, >30% 2026 semi-equipment growth, AI capex $1.3T supercycle
+   - Entry: ~$455-460 at open; stop $409 (10% below), target $523 (+15%), R:R ~1.7:1
+   - Size: 43-44 shares (~$20K = ~20% of est. equity); fits within rules if SLB position confirmed
+   - Risk: Only if SLB position confirmed AND total positions ≤6; need API access
+
+2. **AMD** — Secondary; near Bernstein PT $525 → thin upside at $512
+   - Entry only on pullback to ~$480-490; stop 10% below entry; target +15-20%
+   - PASS at current $512 — insufficient margin to PT; wait for better level
+
+3. **Energy (SLB, XOM, MPC)** — EXIT THESIS WATCH
+   - WTI at $90 and falling; Iran deal = Hormuz reopening = structural oil supply increase
+   - If SLB confirmed in portfolio: evaluate cutting if WTI continues toward $85; original thesis (WTI $101+, Hormuz closed) no longer intact
+   - Energy sector weighting should be reduced
+
+### Risk Factors
+- API inaccessible — cannot verify SLB position, place stops, or execute any orders
+- SLB has no stop — maximum unprotected downside exposure
+- US-Iran MOU finalizing — Hormuz reopening = energy sector headwind continuing
+- Thin Memorial Day week volume — gaps and whipsaws more likely
+- AMD/AMAT both at/near highs; buying momentum stocks at top = elevated risk
+
+### Decision
+**HOLD** — API inaccessible; no orders can be placed or verified. Zero actionable trades this session.
+- Priority 1 (manual): Whitelist sandbox IP in Alpaca paper account settings — persistent blocker for 12+ days
+- Priority 2 (manual): Verify SLB fill and place 10% trailing stop immediately
+- Priority 3 (manual): If SLB filled and confirmed, evaluate AMAT entry as second position (R:R 1.7:1, AI capex thesis strong)
+- AMAT is the highest-conviction setup when API access is restored
+- AMD at $512 = HOLD; only enter on pullback to $480-490

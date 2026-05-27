@@ -31,3 +31,40 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+---
+
+## 2026-05-27 — Market-Open Session (Tuesday; Memorial Day week)
+**Status:** NO TRADES — Alpaca API 403 (sandbox egress block) persists for 12+ days
+
+### Account (estimated — unverifiable)
+| Field | Value |
+|---|---|
+| Equity | ~$100,000 (if SLB never filled) or ~$99,680 (if SLB filled at ~$56 × 340sh) |
+| Cash | ~$100,000 or ~$80,960 |
+| Positions | 0 confirmed; SLB (340sh) unconfirmed |
+| Weekly trades | 0 (week of May 26) |
+
+### Trades Executed
+None — API inaccessible.
+
+### SLB Status (CRITICAL — unresolved since 2026-05-15)
+- Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy, submitted 2026-05-15 pre-market
+- Fill: UNVERIFIED
+- Trailing stop: NOT PLACED (API blocked at time of placement)
+- SLB current price: ~$57.98 (flat vs ~$56 entry estimate)
+- WTI at $90.27 (down from $101 at entry thesis) — energy thesis partially invalidated by US-Iran deal progress
+- **Risk:** No stop on this position; manual intervention required immediately
+
+### Top Setups Identified (execution pending API access)
+1. **AMAT** ~$455-460 — AI semi-equipment; Q2 beat, Q3 guide raised to $8.95B; R:R 1.7:1
+2. **AMD** pullback to $480-490 — AI training; SOXX ATH; Bernstein PT $525; 125% YTD
+
+### ClickUp Notification
+Fallback to DAILY-SUMMARY.md (ClickUp also 403) — API block blocks both channels
+
+### Required Manual Actions
+1. Whitelist sandbox IP in Alpaca paper account (Settings → Security → IP Allowlist)
+2. Run: `bash scripts/alpaca.sh positions` — confirm SLB fill status
+3. Run trailing stop if filled: `bash scripts/alpaca.sh order '{"symbol":"SLB","qty":"340","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'`
+4. Evaluate cutting SLB if WTI falls below $85 (thesis no longer intact at current levels)
