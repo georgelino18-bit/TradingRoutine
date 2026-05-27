@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-05-27 — EOD Snapshot (Day 9, Wednesday)
+**Portfolio:** UNKNOWN | **Cash:** UNKNOWN | **Day P&L:** UNKNOWN | **Phase P&L:** UNKNOWN
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Alpaca API returned HTTP 403 for the 10th consecutive trading session — sandbox IP remains blocked ("Host not in allowlist"). No account data, positions, or orders could be retrieved. Last confirmed equity: $100,000.00 (Day 0, 2026-05-13). No trades have been confirmed since launch. This week (post-Memorial Day): 0 confirmed trades. Phase P&L relative to $100,000 baseline is uncomputable without live account data. Persistent infrastructure failure is the sole blocker; strategy research and discipline rules are intact. Action required: whitelist this environment's IP in Alpaca paper account settings before market open Thursday May 28. Without API access, zero capital is deployed and bot cannot execute the challenge strategy.
