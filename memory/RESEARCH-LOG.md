@@ -204,3 +204,31 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-27 — Midday Scan (Wednesday, 12 days since last activity)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (sandbox egress firewall; `x-deny-reason: host_not_allowed`)
+- Cash: ~$100,000 estimated (last confirmed Day 0 baseline)
+- Positions: UNCONFIRMED — SLB 340sh market buy submitted 2026-05-15 (order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`); unknown fill/rejection status
+- NOTE: Perplexity API also blocked; no intraday research available
+
+### Actions Taken
+- None — Alpaca API unreachable; cannot read positions, orders, or execute
+
+### Loser Cuts (-7% rule)
+- N/A — cannot retrieve positions
+
+### Stop Tightening
+- N/A — cannot retrieve positions
+
+### Thesis Check
+- SLB thesis (energy/Hormuz) unverifiable — no market data access
+- If SLB filled ~$51.25 (pre-market May 15), 12 trading days have elapsed with no stop in place
+- Critical risk: if position is open with no trailing stop, it is unprotected
+
+### Decision
+NO ACTION — full API block persists. SLB position status unknown; risk unquantifiable.
+**MANUAL ACTION REQUIRED**: Verify SLB fill and place 10% trailing stop immediately from a whitelisted IP.

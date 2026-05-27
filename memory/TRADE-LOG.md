@@ -31,3 +31,20 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+---
+
+## 2026-05-27 — Midday Scan (Day 10 approx., first session since May 15)
+**Portfolio:** UNAVAILABLE | **Cash:** ~$100,000 estimated | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Status | Unrealized P&L | Stop |
+|--------|--------|-------|--------|----------------|------|
+| SLB? | 340? | ~$51.25? | UNCONFIRMED — fill unknown | UNKNOWN | NONE PLACED |
+
+**Actions:** None taken — Alpaca API 403 block persists (sandbox egress firewall).
+
+**Critical:** SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` submitted 2026-05-15 pre-market. If filled, position has been running 12 days with NO trailing stop. Immediate manual verification required from whitelisted IP:
+1. `bash scripts/alpaca.sh positions` — confirm SLB fill, current price, unrealized P&L
+2. If open and >-7%: place 10% trailing stop immediately
+3. If open and <=-7%: close position, log exit
+4. If not filled: no action needed; assess fresh setups
