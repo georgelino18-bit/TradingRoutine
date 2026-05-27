@@ -204,3 +204,53 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-27 — Pre-market Research
+
+### Account Snapshot
+- **Alpaca API:** 403 BLOCKED — IP not whitelisted (persistent since May 14). Cannot pull live account data.
+- **Estimated state:** ~$100,000 equity / ~$100,000 cash (0 confirmed positions)
+- **SLB 340sh market buy** (order ID `6c529f05`, submitted pre-market May 15): fill status UNKNOWN. No stop order confirmed. Manual verification required.
+- Daytrade count: UNKNOWN (API blocked)
+
+### Market Context
+- **WTI crude:** ~$93–94/bbl — near 5-week lows, down ~7–8% from $101 thesis level. Iran deal = Hormuz reopening narrative driving oil lower.
+- **Brent crude:** ~$99.18/bbl (-0.41%)
+- **S&P 500 futures:** +0.3–0.5% — Dow futures +0.45%, Nasdaq 100 futures +0.49%. S&P set new ATH on May 25-26 led by tech/MU.
+- **VIX:** ~16.59 (prior close May 26) — calm, no fear
+- **Iran war / Hormuz:** Trump says deal "largely negotiated," Hormuz reopening imminent. 60-day ceasefire extension proposed; Iran resumes oil exports freely, US lifts blockade. **Structural bearish shift for energy sector.** Gas $4.56/gal national avg (4-year high) — deal = demand destruction offset.
+- **MU / AI:** Micron +178% YTD, UBS tripled PT to $1,625, $1T valuation crossed — momentum concentration risk, do not chase.
+- **Q1 2026 earnings:** 74% S&P 500 beat revenue, 82% beat EPS. EPS growth +27.5% YTD.
+
+### Earnings Calendar Today (May 27)
+- **MRVL** (Marvell) — after close: EPS est $0.79, rev $2.41B (+26% YoY). Stock ~$196, +100% YTD. Strong Buy, 44 analysts. AI custom silicon / cloud ASICs. BINARY — do NOT enter pre-report.
+- **CRM** (Salesforce) — after close: EPS est $3.13 (+21% YoY), rev $11.06B (+12.5% YoY). Agentforce AI rev +169% YoY. Stock **-32% YTD** (lowest bar). Options pricing 8.7% swing. BINARY — do NOT enter pre-report.
+- **DKS** (Dick's Sporting), **ANF** (Abercrombie), **HPQ** (HP Inc) — also reporting today.
+
+### Economic Releases Today
+- April New Home Sales — timing unclear; no major macro (no CPI, FOMC, jobs data today)
+- Next major: FOMC June 16–17 (Warsh era)
+
+### Sector Momentum (YTD 2026)
+- **Leading:** Materials (+22% — top sector), Energy, Industrials, Consumer Staples
+- **Lagging:** Tech (XLK), Comm Services, Discretionary, Financials
+- *Note:* Index return dominated by 10 mega-cap names (78% of S&P return YTD); sector rotation toward defensive/cyclical visible
+
+### Trade Ideas
+1. **MRVL post-earnings (watch)** — If beats EPS + guides up tonight → enter tomorrow at open, stop 10% below reaction low, target +15%. Size ≤20% (~$20k). BUT stock +100% YTD — extended; only enter if gap-up confirms. R:R must be ≥2:1.
+2. **CRM post-earnings (watch)** — Stock -32% YTD = low bar; Agentforce the key metric. If gap-up on Agentforce beat → recovery play. Stop 10% below post-earnings low, target +15%. Size ≤20%. R:R must be ≥2:1.
+3. **PASS energy sector** — Iran deal → Hormuz reopens → WTI could fall further below $90. SLB/HAL thesis structurally weakened. If SLB position confirmed, assess stop and -7% cut rule.
+
+### Risk Factors
+- **SLB thesis at risk:** WTI $93 vs $101 thesis entry. Iran deal = permanent supply unlock = sustained oil weakness. If Hormuz reopens, SLB target cuts likely from Wall Street. Manual stop check urgent.
+- **MRVL/CRM binary tonight** — no pre-event exposure
+- **Iran deal finalization** — if signed this week, energy sector flush; cyclicals/defensives benefit
+- **Momentum concentration** — 78% of S&P return in 10 names; any AI-narrative crack = outsized drawdown
+- **Alpaca API blocked** — cannot place stops, verify fills, or trade until IP allowlist resolved. CRITICAL.
+
+### Decision
+**HOLD** — No new positions today. Two major binaries after close (MRVL, CRM). Iran deal accelerating = structural headwind for energy, the only sector with a live thesis. No API access = cannot trade safely. Monitor MRVL/CRM post-earnings for tomorrow setup. **Urgent: Resolve Alpaca IP allowlist so SLB stop can be verified and placed.**
+
+*WebSearch fallback used — Perplexity API 403 (same IP restriction as Alpaca).*
