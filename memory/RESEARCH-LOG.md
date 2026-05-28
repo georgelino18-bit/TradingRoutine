@@ -204,3 +204,45 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-28 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP "Host not in allowlist" persists, ~13 days unresolved)
+- Cash: ~$100,000 estimated (no confirmed fills; SLB 340-share market order from 2026-05-15 unverified)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- **CRITICAL**: SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, submitted 2026-05-15 pre-market) status UNKNOWN — may have filled, expired, or been rejected. Cannot place stops or manage any position without API access.
+
+### Market Context
+- WTI: ~$88.39 (lowest since April 2026; down from $101 Hormuz peak)
+- Brent: ~$96.30 (+2.13% today); volatile — peace deal swings $5–10/day
+- S&P 500 futures: 7,538.50 (flat to +0.1%); market near ATH; Equal Weight + DJIA hitting fresh all-time highs
+- VIX: ~17.26 — calm, no panic; normal range
+- Today's catalysts:
+  - **Iran peace deal** — Trump said deal "largely negotiated" May 23; US launched fresh strikes May 26 (contradicting); Iran still demands uranium stockpile deal + Hormuz tolls; conditional ceasefire holds but ~1,550 vessels stranded, strait effectively closed. Each "deal near" headline = WTI -$5; each new strike = WTI +$3
+  - **CRM (Salesforce) beat last night** — non-GAAP EPS $3.88 (+50% YoY), revenue $11.1B (+13%); Agentforce AI strong; gap-up expected at open
+  - **GDP Q1 2026 Second Estimate + PCE Prices** — 8:30 ET; Q1 advance showed GDP -1.4%, PCE +4.5%; stagflationary confirmation = bad for growth
+  - **DELL Q1 FY27** — after close tonight; est EPS $3.00, rev ~$34.95B; AI server demand read-through
+  - **Durable Goods Orders + Initial Claims** — 8:30 ET
+  - Earnings today: BBY pre-open; DELL/COST/SNOW/ZS/NTAP/MRVL after close
+- Sector momentum: Materials +22% YTD (leader), Energy outperforming (Hormuz bid), Industrials, Healthcare, Technology strong. Lagging: Real Estate (XLRE), Utilities (XLU). TMT (tech+comm+AMZN+TSLA) driving ~85% of S&P 500 YTD return.
+- SLB specific: $57.98, +39.5% YTD; analyst consensus Buy; BofA target $60 (May 19), Bernstein target $71 (May 11). Down ~3.4% on peace deal progress days.
+
+### Trade Ideas
+1. **CRM (Salesforce)** — AI Agent Cloud momentum; crushed Q1 FY27 EPS $3.88 (+50% YoY), rev $11.1B (+13%). IF gap-up >5% confirmed at open and holds, consider entry after first 15-min candle confirms direction. Stop 10% below reaction low. Target +15% (~1.5:1 min). Size ≤20% (~$20k). **BLOCKED** — cannot enter without API access.
+2. **SLB (existing unconfirmed position)** — IF the May-15 order filled at ~$53–55, unrealized gain ~6–9% at $57.98. Thesis partially intact (Hormuz still closed). At +15% threshold (~$61), tighten trail to 7%. RISK: peace deal = energy sector flush. Watch Iran headlines. **BLOCKED** — cannot verify position or place/adjust stop.
+3. **MRVL (Marvell)** — AI custom silicon + data center infrastructure; reports this week. IF beats tonight and gaps up, monitor for post-earnings entry. Sector (semis) in momentum. Entry only if R:R ≥2:1. **BLOCKED** — cannot act without API access.
+
+### Risk Factors
+- **API blockage** (operational, critical): 13 days with no Alpaca access. SLB position and stop status completely unknown. This is the #1 risk — no position management possible.
+- **Iran peace deal** — if signed, Hormuz opens, 100M+ stranded barrels flood market, WTI could drop $15–20 rapidly. Energy thesis collapses. SLB -15–25% scenario.
+- **GDP/PCE stagflation print** — Q1 PCE was 4.5%; if second estimate confirms or revises higher → risk-off, growth stocks sell. Warsh Fed (confirmed Chair) seen as hawkish.
+- **DELL binary tonight** — if miss, AI server demand narrative cracks; NVDA, AMD, semis at risk.
+- **US strikes on Iran (May 26)** — peace deal talks are fragile; escalation could spike oil but also trigger broad risk-off.
+- **Long weekend** — if open positions exist, gap risk over 3-day weekend (Sunday–Monday).
+
+### Decision
+HOLD / NO NEW TRADES — Alpaca API inaccessible; no order execution possible regardless of setup quality. CRM post-earnings setup is compelling but unactionable. Primary action required: resolve Alpaca IP allowlist issue URGENTLY — account has been unmanageable for 13 days. Monitor Iran deal headlines and 8:30 ET GDP/PCE print closely. If API access restored, reassess CRM gap and SLB position immediately.
