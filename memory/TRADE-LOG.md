@@ -31,3 +31,33 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-05-28 — Midday Scan (12:00–12:30 ET)
+**Status:** API BLOCKED — Alpaca 403 (IP restriction, 13th consecutive session)
+
+### Account
+- Equity: UNAVAILABLE
+- Cash: UNAVAILABLE
+- Positions: UNAVAILABLE
+
+### Actions Taken
+- None — Alpaca API returns 403 for all endpoints; no positions or orders retrievable
+
+### Loser Cuts (-7% rule)
+- BLOCKED — cannot retrieve positions
+
+### Stop Tightening
+- BLOCKED — cannot retrieve positions
+
+### Thesis Check
+- BLOCKED — cannot verify SLB status (order 6c529f05 submitted 2026-05-15, unconfirmed)
+
+### Last Known State
+- SLB: 340sh market buy submitted pre-market 2026-05-15 (order ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15); fill and stop unconfirmed
+- All other positions: none confirmed since Day 0
+
+### Notification
+- ClickUp also 403 — fallback logged to DAILY-SUMMARY.md
+
+### Action Required
+Whitelist this sandbox container's IP in Alpaca paper account settings (alpaca.markets → API → IP allowlist). Session IP changes on each container restart — consider removing the allowlist restriction entirely for paper trading, or disabling IP restriction.
