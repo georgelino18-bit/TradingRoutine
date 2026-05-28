@@ -204,3 +204,39 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-28 — Pre-market Research (market-open inline, APIs blocked)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 "host_not_allowed" (IP restriction persists 14 days)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed trades; SLB order May 15 status unknown)
+- Buying power: ~$100,000 estimated
+- Daytrade count: unknown
+- Positions: unknown (SLB 340sh order submitted 2026-05-15, never confirmed due to API block)
+
+### Market Context
+- ALL LIVE DATA UNAVAILABLE — Perplexity API also returning 403
+- Last known macro snapshot (2026-05-14): WTI ~$101–102, Hormuz disruption, S&P near ATH, VIX ~18
+- Sector momentum last known: Energy #1 (+22%+), Materials #2, Industrials #3, Semis strong
+- NVDA earnings (May 20) — post-event outcome unknown
+- Trump–Xi tariff outcome (May 14–15) — final deal status unknown
+
+### Trade Ideas
+- NONE — cannot validate any thesis without live data or account access
+
+### Risk Factors
+- Critical infrastructure failure: Alpaca API blocked 14 consecutive days (since 2026-05-14)
+- Perplexity blocked simultaneously — dual research + execution failure
+- Unknown position status: SLB 340sh order may or may not have filled; no stop in place if filled
+- Maximum risk: 340sh SLB with no confirmed stop = unquantifiable downside on unknown position
+- Every day blocked = compounding lag vs S&P benchmark
+
+### Decision
+**NO TRADE — INFRASTRUCTURE BLOCKED**
+- Cannot access account, positions, quotes, or live market data
+- Cannot safely enter any new position without knowing current exposure
+- Cannot confirm SLB order status or place stop if filled
+- PRIORITY: Resolve Alpaca IP allowlist restriction immediately
+  Action required: Log into Alpaca paper account dashboard → Settings → API → remove IP restriction or add this host's IP
