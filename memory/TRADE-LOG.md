@@ -31,3 +31,17 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-05-29 — Market-Open (No Trades)
+**Status:** API BLOCKED — 403 "Host not in allowlist" persists (day 15+)
+
+No trades placed. No live data retrieved. SLB order + stop status remain unconfirmed.
+Perplexity, ClickUp, and all web market data feeds also 403 from this environment.
+
+**Estimated state (unconfirmed):** ~$100,000 cash | 0–1 positions (SLB unknown) | 0 trades this week
+
+**Manual action required:**
+1. Whitelist sandbox IP in Alpaca paper account settings
+2. Confirm SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` fill status
+3. If SLB filled: place 10% trailing stop immediately (`bash scripts/alpaca.sh order '{"symbol":"SLB","qty":"340","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'`)
+4. If SLB not filled: cancel order and reassess
