@@ -204,3 +204,49 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-05-29 — Pre-market Research (Friday; Memorial Day weekend eve)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (sandbox IP not whitelisted; persistent since Day 1)
+- Cash: ~$100,000 estimated (no confirmed fills since launch)
+- Buying power: ~$200,000 estimated (2× margin)
+- Daytrade count: 0 (no confirmed trades)
+- SLB order (340sh market buy, submitted 2026-05-15, ID 6c529f05): STATUS UNKNOWN — cannot verify fill without API access; assume unconfirmed until manual check
+- **API fallback: All Perplexity and Alpaca calls returned 403; research via WebSearch**
+
+### Market Context
+- WTI: ~$89.53 (May 28 close, +0.96%) — down from $101–102 range mid-May; Iran-US peace talks (possibly preliminary/bogus per TheStreet) dragged oil lower; Hormuz risk bid partially unwinding
+- Brent: ~$96.57 (May 28 close, +2.41% day-over-day) — Brent-WTI spread widened; geopolitical premium persists but fading
+- S&P 500 futures: ESM26 7,585.50, +0.33% premarket — muted positive; market at/near record highs
+- VIX: 15.74, -3.38% — complacency zone; 52-week high 35.30 (Mar 9), low 13.38 (Dec 24 2025)
+- Today's catalysts:
+  - Memorial Day long weekend — market closes today; reopens Tuesday June 2
+  - April PCE Deflator released 8:30 ET: +3.8% YoY — highest in nearly 3 years; stagflation signal
+  - Iran-US peace talks circulating (TheStreet flagged as possibly bogus report) — if real, oil collapses further; energy sector at risk
+  - S&P 500 Equal Weight + DJIA both at all-time highs; Nasdaq near record high
+  - Dell Q1 FY27: revenue $43.84B (+88% YoY), beat; AI server demand confirmed
+  - Dollar Tree +17% after beat + raised guidance
+  - S&P Manufacturing PMI: highest reading in 4 years — economy resilient despite hot PCE
+- Earnings before open: ~19 companies; no mega-caps; BKE, GCO among them — no actionable setups
+- Economic calendar: April PCE Deflator 8:30 ET (already released, hot); next major release post-holiday; FOMC June 16–17 (Warsh first meeting)
+- Sector momentum: Tech leading YTD (AI buildout, NVDA/Dell earnings beats); Energy mixed (WTI declining on peace-talk rumor, still above $85 floor); Industrials + Materials solid; REITs/Utilities lagging
+
+### Trade Ideas
+1. **SLB (contingent on position status)** — If 340sh SLB filled on May 15, current price ~$54–57 range (analyst targets: BofA $60, Bernstein $71, Barclays $66; Buy consensus 20 analysts). Action: verify fill manually; if filled, confirm 10% trailing stop GTC is active; if not filled, reassess entry below $50 when API restored. Oil at $89 = energy capex still positive but declining thesis momentum. DO NOT add shares today — holiday weekend risk.
+2. **NVDA** — AI supercycle intact (Dell AI server +88% YoY confirms demand); Nasdaq near record. No specific catalyst today (next catalyst: next earnings cycle). Entry: pull-back to $130–135 range (10% below recent ATH); stop 10% below entry; target +20%. Size ≤20% (~$20k). Pre-holiday = no entry today; mark as watchlist.
+3. **AMAT** — flagged May 14 for post-earnings gap-up entry. Unknown outcome (API inaccessible, no position data). If AMAT gapped up on its earnings (reported May 14 post-close) and we missed entry — no chase. Monitor for re-entry after holiday on confirmed AI capex momentum.
+
+### Risk Factors
+- Hot PCE (+3.8%) = FOMC June 16–17 must address; Warsh likely hawkish; tech/growth valuations at risk if rates rise
+- Iran-US peace talks — if validated, WTI drops toward $70–75; energy sector flush (SLB, HAL, XOM all at risk)
+- Pre-holiday thin volume today — wide spreads, exaggerated moves, no reliable signals
+- Weekend geopolitical gap risk — 3 days of news flow with markets closed
+- SLB position uncertainty — if filled without stop, naked downside risk over weekend; manual check mandatory
+- Alpaca API still inaccessible — cannot manage positions, place stops, or verify fills; core operational risk
+- Market at record highs with VIX at 15.74 = complacency; correction risk elevated if any catalyst surprises
+
+### Decision
+**HOLD** — Pre-Memorial Day Friday: zero new entries. Pre-holiday volume is thin, R:R on any setup is degraded by 3-day weekend gap risk. Hot PCE and Iran peace-talk uncertainty create binary risk too wide to size into. Priority action: manually verify SLB order fill status and confirm stop placement before market close today. No new trades until API access is restored and SLB position is confirmed or cancelled.
