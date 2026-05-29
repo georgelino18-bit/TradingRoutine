@@ -31,3 +31,35 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-05-29 — Midday Scan (12:00 ET)
+**Status:** BLOCKED — Alpaca API returns 403 `host_not_allowed` from cloud sandbox IP (persistent since Day 1)
+
+### Account State
+- Equity: UNAVAILABLE
+- Positions: UNKNOWN — last documented: SLB 340sh order placed pre-market 2026-05-15 (fill unconfirmed)
+- Cash: UNKNOWN — Day 0 baseline $100,000
+
+### Actions Taken
+- None — API inaccessible; cannot read positions, orders, or execute trades
+
+### Loser Cuts (-7% rule)
+- CANNOT CHECK — manual review required
+
+### Stop Tightening
+- CANNOT CHECK — manual review required
+
+### Thesis Check
+- CANNOT CHECK — API blocked
+
+### CRITICAL: Manual Action Required
+1. Log into Alpaca paper account dashboard
+2. Check if SLB 340sh filled (order ID: `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`)
+3. If filled: verify 10% trailing stop exists; if not, place immediately
+4. Check all positions for -7% losers and cut immediately
+5. Check any winner ≥+15% for stop tightening (7% trail) or ≥+20% (5% trail)
+6. Whitelist cloud sandbox IP in Alpaca paper account settings to restore bot access
+7. Update this log with actual position states
+
+### ClickUp Alert
+- Attempted notification — ClickUp also returned 403 (same IP restriction)
