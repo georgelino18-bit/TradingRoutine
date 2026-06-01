@@ -31,3 +31,32 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-01 — Midday Scan (Monday, Day 14+)
+**Status:** CRITICAL — Alpaca API 403 persists. SLB order status unresolved since 2026-05-15.
+
+### API Status
+- Alpaca: 403 "Host not in allowlist" — all endpoints blocked
+- ClickUp: 403 — notifications impossible
+
+### Account (estimated)
+- Equity: UNAVAILABLE
+- Cash: ~$100,000 (Day 0 baseline; no positions confirmed ever)
+- Positions: UNKNOWN — SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, 2026-05-15) status unverifiable
+
+### Actions
+- Loser cuts: SKIPPED — cannot pull positions
+- Stop tightening: SKIPPED — cannot pull positions
+- Thesis check: SKIPPED — cannot pull positions
+
+### Unresolved
+- SLB order 2026-05-15: market buy 340sh submitted pre-market; Alpaca API blocked before fill confirmation. If filled, no trailing stop was ever placed — **critical exposure risk**.
+
+### Required (manual)
+1. Whitelist sandbox IP in Alpaca paper account settings
+2. Run `bash scripts/alpaca.sh positions` and `bash scripts/alpaca.sh orders`
+3. If SLB position open with no stop: place 10% trailing stop immediately
+4. If SLB position down ≥7%: close immediately per cut rule
+
+### Decision
+NO ACTION — API inaccessible for 14+ days. FOMC June 16-17 approaching; SLB stop situation may be critical.

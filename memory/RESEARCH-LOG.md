@@ -204,3 +204,32 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-01 — Midday Scan (Monday)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (14+ days)
+- Positions: UNKNOWN — SLB 340sh order from 2026-05-15 unconfirmed
+- Cash: ~$100,000 estimated (Day 0 baseline)
+
+### Actions Taken
+- None — API inaccessible; all scan steps blocked
+
+### Loser Cuts (-7% rule)
+- SKIPPED — cannot retrieve positions
+
+### Stop Tightening
+- SKIPPED — cannot retrieve positions
+
+### Thesis Check
+- SKIPPED — cannot retrieve positions
+
+### Intraday Notes
+- FOMC June 16-17 approaching — Warsh's first meeting; rate policy uncertainty high
+- SLB open order status unknown since 2026-05-15; if filled, no stop is in place — critical risk
+- API access is prerequisite for all further activity; no research productive until resolved
+
+### Decision
+BLOCKED — Resolve IP allowlist on Alpaca before next session. SLB stop placement is priority #1 on reconnect.
