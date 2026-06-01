@@ -204,3 +204,48 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-01 — Pre-market Research
+
+> **API NOTE (fallback):** Alpaca paper-API and Perplexity both returning HTTP 403 `host_not_allowed` — sandbox IP still not whitelisted. Account state estimated from last known baseline. All market research via WebSearch fallback.
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403
+- Cash: ~$100,000 (estimated — no confirmed fills since launch)
+- Buying power: ~$200,000 (estimated 2× margin)
+- Daytrade count: UNAVAILABLE
+- Open positions: UNCONFIRMED — SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, submitted 2026-05-15) never verified; assume unfilled until API accessible
+- Open orders: UNCONFIRMED
+
+### Market Context
+- WTI / Brent: WTI ~$88 | Brent ~$91.2 — oil collapsed 16–17% in May; US-Iran ceasefire extension talks advancing, Hormuz risk receding sharply
+- S&P 500 futures: +0.3% premarket (4:00 AM ET); Nasdaq futures +0.5% — record momentum from May continuing; AI/tech leading
+- VIX: ~15.32 (closed May 29) — low, calm market; well below 52-wk high of 35.30 (Mar 9)
+- Today's catalysts:
+  - **NVDA Computex Taipei keynote** — Jensen Huang presenting AI/GPU roadmap live; major AI sector catalyst; NVDA up 6 consecutive sessions
+  - **ISM Manufacturing Index (May)** — 10:00 AM ET; first market-moving macro data of the week
+  - **Construction Spending (April)** — 10:00 AM ET (minor)
+  - Week ahead: ADP (Wed Jun 4), ISM Services (Wed), NFP + Unemployment Rate (Fri Jun 5)
+  - Bank of America named NVDA and AAPL top picks for June
+- Earnings before open: No major US large-cap BMO confirmed for June 1
+- Economic calendar: ISM Manufacturing 10:00 AM ET; NFP week (key event Fri Jun 5)
+- Sector momentum: **Technology leading YTD** (NVDA/AI buildout driving); Energy now **lagging** — WTI -17% in May reverses prior leadership; Materials, Industrials mixed
+
+### Trade Ideas
+1. **NVDA** — Computex keynote today is live AI catalyst; Tech sector leading YTD; BofA top pick for June. Risk: 6-session run = overextended; do NOT chase opening print. Plan: monitor intraday for consolidation / pullback to ~$120–125 range; if holds, enter with 10% trail stop, target +15%, R:R ≥2:1. Size ≤20% (~$20k). Binary risk: keynote disappointment could flush 5–8%.
+2. **AMAT** — AI capex cycle intact; reported Q2 ~May 14–15 (unknown reaction since API down). If post-earnings reaction was positive and stock holds above earnings-day high, trailing entry valid. Needs current price check before entry. Stop 10% below entry, target +15%.
+3. **SLB** — PASS this week. Ex-dividend **June 3** ($0.295/sh) — do not enter within 3% of current price, and ex-div in 2 days. Oil thesis weakened: WTI -17% in May, Hormuz risk receding. Original unconfirmed May 15 order must be resolved first. Re-evaluate post-ex-div if oil stabilizes and API access restored.
+
+### Risk Factors
+- API access blocked — cannot confirm SLB order, position sizes, or place stops; CRITICAL until resolved
+- NVDA keynote binary — disappointment = gap-down, Nasdaq flush risk
+- NFP Friday (Jun 5) — hot jobs = hawkish Warsh Fed = rate shock; could reset entire risk appetite
+- ISM Manufacturing 10AM — weak print could trigger growth scare; strong = inflationary
+- Oil collapse removes energy sector tailwind; SLB / HAL thesis materially weakened
+- US-Iran deal not finalized — if talks collapse, oil spikes back, stagflation risk returns
+- Warsh Fed first FOMC Jun 16–17 — unknown posture; hawkish surprise risk
+
+### Decision
+HOLD — Energy thesis structurally weakened (WTI -17% May, Hormuz receding). SLB unconfirmed order + ex-div June 3 = no energy entries this week. NVDA is the cleanest AI catalyst today but is 6 sessions extended — wait for post-keynote consolidation before sizing in. ISM data at 10AM is first read on May manufacturing; let it print before committing. API access is the #1 blocker — no stops verifiable, no fills confirmable. Patience > activity.
