@@ -31,3 +31,26 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-01 — Market-Open Session (Week 3, Day 1)
+**Status:** BLOCKED — Alpaca + ClickUp + Perplexity APIs all 403 (sandbox IP not whitelisted). No trades placed.
+
+**Market snapshot (WebSearch):**
+- S&P 500: ~7,592 (+0.16%), new ATH
+- WTI: ~$89.69/bbl (+2.67% today; -16.2% in May on Iran ceasefire talks)
+- VIX: ~15.32 (benign)
+- SLB: ~$55.65; ex-div $0.295 on June 3
+
+**SLB position status (still unconfirmed):**
+- Order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, May 15) — fill unknown
+- 10% trailing stop was NEVER placed — position unprotected if filled
+- Energy thesis weakened (WTI down from $102 to $89); still viable if ceasefire is partial/slow
+
+**Trades this week:** 0 (fresh week — max 3 remaining)
+
+**CRITICAL — manual actions required before any session can proceed:**
+1. Whitelist sandbox IP in Alpaca paper account settings
+2. Run `bash scripts/alpaca.sh positions` — confirm SLB fill and avg price
+3. If SLB filled: immediately place trailing stop (`trail_percent: 10`, GTC)
+4. If SLB NOT filled (order expired day TIF): order is cancelled; account still $100k cash
+5. Update this log with confirmed status

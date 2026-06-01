@@ -204,3 +204,40 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-01 — Pre-market Research (Market-Open, WebSearch fallback — Alpaca + Perplexity + ClickUp APIs all 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 "host_not_allowed" persists (sandbox IP not whitelisted)
+- Cash: UNKNOWN — last confirmed Day 0: $100,000
+- SLB position: UNCONFIRMED — order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy) submitted 2026-05-15 pre-market; fill and stop status unknown
+- Daytrade count: UNKNOWN
+- Open orders: UNKNOWN
+
+### Market Context
+- WTI: ~$89.69/bbl (+2.67% today) — down ~16.2% in May from $102 peak; Iran ceasefire talks progressing
+- S&P 500: ~7,580 (May 29 close); +0.16% at open (~7,592) — hitting new all-time highs; third record week
+- VIX: ~15.32 (-2.67%) — benign, low fear
+- Iran/Hormuz: Preliminary US-Iran ceasefire framework emerging; Hormuz partially reopening; WTI range $88–100 expected through 4Q26 (EIA); energy supply disruption fear fading
+- Sector momentum 2026: **Technology/AI leading** (AMAT +67%, LUMN +121%, NVDA, WDC, STX surging on AI infra) | Energy still +YTD but oil down 16% May; Defense/Space (RKLB, ASTS) strong
+- Key catalysts today: First day of June; S&P at ATH; Iran ceasefire risk to energy thesis
+- SLB: ~$55.65 (ex-div $0.295 on June 3); analysts raised PTs to $60–$71 (BofA, Bernstein, Barclays); Q1 rev $8.7B +3% YoY; margin headwind from Hormuz shut-ins
+
+### Trade Ideas
+1. **SLB (if confirmed filled)** — Hold; thesis weakened (WTI -16% May) but ceasefire = gradual Hormuz reopening; E&P capex still intact; ex-div June 3 adds $0.30/sh; stock holding $55–57 range. Verify fill + place 10% trailing stop immediately when API accessible.
+2. **AMAT** — AI capex cycle intact; +67% YTD; HBM/advanced packaging demand; strong guidance confirmed post-May 14 earnings. Entry only on pullback; R:R ≥2:1 required at current levels.
+3. **WDC / STX** — AI storage boom; Morningstar raised FV ~50%; AI inference/data center demand structural. Monitor for clean entry with 10% stop.
+4. **PASS on new energy entries** — Oil down 16% May; Iran ceasefire = structural headwind for energy momentum; exit sector after thesis breaks.
+
+### Risk Factors
+- Alpaca API inaccessible — cannot place, verify, or stop any orders
+- SLB stop NEVER placed (May 15 API block) — unprotected if filled; CRITICAL
+- Iran ceasefire could break energy thesis entirely if Hormuz fully reopens
+- S&P at ATH = mean reversion risk; VIX at 15 leaves little fear buffer
+- Fed (Warsh era): first FOMC June 16–17; hawkish surprise = growth/tech headwind
+
+### Decision
+HOLD — API inaccessible; zero confirmed positions; cannot verify SLB fill or place protective stops.
+**CRITICAL ACTION REQUIRED:** Whitelist sandbox IP in Alpaca paper account settings. SLB stop has never been placed. If SLB filled May 15, position is unprotected. Immediate manual verification required.
