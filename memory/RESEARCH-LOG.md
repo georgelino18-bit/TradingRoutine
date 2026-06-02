@@ -204,3 +204,44 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-02 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 "Host not in allowlist" (IP restriction, persists since May 14)
+- Cash: UNKNOWN — last confirmed state: $100,000 (Day 0 baseline; SLB 340sh market buy submitted pre-market May 15 but fill UNCONFIRMED)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Open positions: UNVERIFIED — SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` submitted May 15; stop never placed; fill unknown
+- Weekly trades placed (this week, May 26–Jun 2): 0 confirmed
+
+### Market Context
+- WTI / Brent: WTI ~$92/bbl (+6% today) — Iran suspended communications with Washington, threatening Hormuz closure; down from $101+ peak in mid-May
+- S&P 500: ~7,599.96 (Jun 1 close); slipping slightly Jun 2 after testing record highs (-0.19% intraday)
+- Nasdaq: +0.21% Jun 2 — AI/semis driving; third record high week
+- VIX: +4.77% today (slightly elevated; moderate concern)
+- Key catalysts:
+  - **NVDA RTX Spark Superchip** (Computex Jun 1-2): AI-native PC entry; MediaTek collab; Blackwell RTX + 20-core Grace CPU; 30+ laptops/10+ desktops fall 2026 (Dell, Lenovo, HP, ASUS, MSI). NVDA +5.7% → $224.33 close Jun 2. Vera Rubin (next-gen data center) entered full production (OpenAI, Anthropic, xAI, Dell, Oracle, CoreWeave as early customers).
+  - **Iran/Hormuz**: Fresh threat Jun 2; WTI +6% to ~$92. Hormuz assumed closed through late May, traffic picking up in June — but risk remains live.
+  - **Oracle** +9.9%, **Dell** +10.8%, **Micron** +6.6% — AI buildout momentum intact
+  - **SLB ex-dividend** $0.295 on Jun 3 — if position held, dividend capture tomorrow
+- Earnings before open: None material
+- Economic calendar: No major releases today
+- Sector momentum: Tech/AI (leader, NVDA/MSFT/ORCL), Energy (bid on Hormuz), Materials | Lagging: REITs, Utilities, Consumer Discretionary
+
+### Trade Ideas
+1. **NVDA** — Strongest catalyst stack today: RTX Spark PC entry (new TAM ~$40B), Vera Rubin in production, AI PC war with AMD/Intel. Already +5.7% — entry on any intraday pullback to $218–220 range. Stop $196 (~10%). Target $260 (~18%). R:R ~2.1:1. Size ~$20k (~91 shares). **Highest conviction — if API accessible.**
+2. **SLB** — If May 15 fill confirmed (~$47–50 based on May data), position is up ~12–18%. Oil at $92 (lower than $101 thesis level) but Hormuz risk structural. SLB ex-div $0.295 Jun 3. Consider tightening stop to 7% (at +15% threshold) if fill was ~$47–48. Cannot act without API.
+3. **ORCL** — +9.9% today on AI cloud/data center demand. Entering extended; wait for pullback entry setup. Monitor.
+
+### Risk Factors
+- Alpaca API 403 (IP block) — cannot place or verify any orders; CRITICAL blocker
+- ClickUp 403 — notification fallback to DAILY-SUMMARY.md only
+- VIX elevated (+4.77%) — slight macro uncertainty
+- Iran/Hormuz binary: deal = energy flush; escalation = growth drag
+- NVDA already gapped up 5.7% — chasing risk if entering at open; need pullback
+
+### Decision
+HOLD — API completely inaccessible (403 on Alpaca + ClickUp). Cannot confirm SLB fill, cannot place NVDA or any other order. **Manual intervention required: whitelist this sandbox IP in Alpaca paper account settings before next session.** If API access restored intraday, top priority: (1) verify SLB position and place trailing stop immediately, (2) evaluate NVDA on pullback to ~$218–220.
