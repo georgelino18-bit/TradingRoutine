@@ -1,6 +1,65 @@
 # Research Log
 
 Daily pre-market research entries will be appended here.
+
+---
+
+## 2026-06-02 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (sandbox IP not whitelisted; persistent since 2026-05-14)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed fills)
+- Buying Power: UNAVAILABLE
+- Daytrade Count: UNAVAILABLE
+- **CRITICAL:** SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy submitted 2026-05-15) — fill status UNCONFIRMED. Manual check required immediately.
+- **SLB ex-dividend $0.295 tomorrow June 3** — if held, must be in position by EOD today to collect
+
+### Market Context
+- **WTI Crude:** ~$91.51–$92.64 (range today); spiked ~+6% June 1 on renewed Iran-Hormuz threat
+- **Brent Crude:** ~$94.58 (-0.42% today after Monday's +4.24% spike)
+- **Geopolitical:** Iran halted US communications on June 2 (via intermediaries) and renewed threat to close Strait of Hormuz + Bab el-Mandeb. Ceasefire fragile since April 17. Oil supply disruption risk elevated. *Fallback: WebSearch (Perplexity API 403)*
+- **S&P 500 Futures:** -0.07% premarket; markets hit fresh all-time highs June 1 (AI-led, NVDA +2%)
+- **Nasdaq:** Strong; NVDA driving AI narrative; AVGO, PANW earnings this week
+- **VIX:** ~16.05 (closed June 1) — calm; range 16–17 in May; no panic
+- **JOLTS (April openings):** 10:00 ET today — prior March reading 6.866M (beat). Watch for labor market signal; could move rates
+- **PANW earnings:** Tonight after close (June 2) — revenue est. $2.94B (+28.4% YoY); NGS ARR ~$7.95B (+56% YoY). Do NOT enter before binary
+- **AVGO earnings:** June 3 after close — AI semi revenue guide $10.7B (+140% YoY). Do NOT enter before binary
+- **NVDA:** ~$223.97; Computex 2026 ongoing (June 2–5, Taipei); Jensen Huang unveiled RTX Spark AI laptop chip + DSX AI factory playbook; ex-div $0.25 June 4 (minor)
+
+### Sector Momentum
+- **Leading:** Materials (+22% YTD), Energy, Industrials, Consumer Staples
+- **Cooling/Lagging:** Technology (broader index), Consumer Discretionary, REITs, Utilities
+- **Semis exception:** NVDA, MU, GOOGL driving outsized EPS revisions; AI capex thesis intact
+
+### Trade Ideas
+1. **SLB (Energy/Oilfield Services)** — PRIORITY RESOLVE
+   - Unconfirmed order from May 15; analyst targets raised to $60–$65 (BofA $60, Susquehanna $65, BMO $63)
+   - Ex-div $0.295 June 3 — must own by today EOD
+   - Thesis: Iran-Hormuz structural oil bid, E&P capex acceleration, Energy sector leading
+   - If filled: verify stop placed (10% GTC trailing). If not filled: evaluate entry today, size ≤20%, stop 10% below entry, target $63–$65 (R:R ≥2:1 from ~$57–58)
+   - Action: Manual `bash scripts/alpaca.sh positions` + `orders` required immediately
+
+2. **NVDA (Semis/AI)** — WATCH for Computex-driven entry
+   - Catalyst: RTX Spark (AI laptops) + Computex keynote (June 2–5); analyst consensus "Strong Buy," target $296 (+32% from $224)
+   - Entry: Only if stock holds >$220 and Computex momentum sustains through today; stop 10% below entry (~$200–201); target $250–260 (R:R ~2:1)
+   - Ex-div June 4 ($0.25) — minor factor, do not let it force entry
+   - Size ≤20% (~$20k); will not be 5th/6th position if SLB still open
+
+3. **AVGO (AI Semis)** — Post-earnings entry June 4 ONLY if gap-up
+   - Binary June 3 after close; AI semi revenue +140% YoY; strong setup
+   - Do NOT enter before earnings
+   - If gap-up June 4 on beat + strong AI guidance → evaluate setup with stop 10% below reaction low
+
+### Risk Factors
+- Iran ceasefire fragile; communications halt June 2 is escalation signal — energy spike = stagflation risk for growth stocks
+- JOLTS at 10:00 ET — surprise weakness could signal labor slowdown; surprise strength could push rate-hike fears
+- PANW binary tonight, AVGO binary tomorrow — avoid entering either pre-report
+- NVDA ex-div June 4 — do not enter solely for dividend capture
+- Alpaca API inaccessible (403) — cannot verify positions, stops, or order fills; all capital at risk if SLB filled with no stop
+- Multiple concurrent binaries this week — elevated headline risk across semis/tech
+
+### Decision
+**HOLD** on new entries today. One exception: if SLB position is confirmed (manual API check) and no stop exists, place 10% GTC trailing stop IMMEDIATELY before market open. NVDA is watch-only today — enter only on confirmed Computex strength with >$220 hold. Patience > activity; three binaries this week (PANW tonight, AVGO tomorrow, jobs Friday) — let events resolve before adding exposure.
 Format each entry:
 
 ## YYYY-MM-DD — Pre-market Research
