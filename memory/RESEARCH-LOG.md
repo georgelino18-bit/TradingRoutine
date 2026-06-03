@@ -204,3 +204,44 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-03 — Pre-market Research (market-open inline; WebSearch fallback — Alpaca 403 persists)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction, unresolved since May 14)
+- Cash: ~$100,000 (Day 0 baseline; 0 confirmed positions)
+- Buying power: ~$100,000 estimated
+- Daytrade count: UNKNOWN (API blocked)
+- Open positions: 0 confirmed (SLB order from 2026-05-15 never confirmed filled)
+- This week's trades: 0
+
+### Market Context
+- WTI / Brent: WTI ~$95.68/bbl — up 3rd straight session on Iran tensions + 6.8M bbl inventory draw
+- S&P 500: Closed at record 7,609.78 (June 2); futures slightly lower today (-0.10%); Polymarket 47% open higher
+- VIX: ~15.77 (down 1.74% from June 2) — calm; well off 35.30 high from March 2026
+- ADP payrolls: +122K (May, beat est. 120K); pay growth +4.4% YoY; labor market solid
+- Key catalysts:
+  - US-Iran: US Central Command strikes Qeshm Island; peace talks ongoing but uncertain; risk of rapid oil reversal on deal
+  - Iran peace deal progress: SLB fell 3.4% on last peace deal report — MAJOR RISK for energy longs
+  - WTI below $100 (down from $101+ in May) — Hormuz risk premium partially priced in
+  - April durable goods + factory orders due today
+  - BLS nonfarm payrolls due Friday (est. +80K)
+- Sector momentum: Energy still leading YTD but Iran peace deal = binary reversal risk; Semis/AI strong; Materials solid
+
+### Trade Ideas
+1. **SLB** — ❌ SKIP. Near 52-week high ($56–57 vs high $57.98). Iran peace deal = 3.4% downside trigger. R:R <2:1. Chasing territory.
+2. **HAL** — ❌ SKIP. Same Iran risk as SLB; lower conviction. Q1 rev $5.40B (slight beat) but oil price torque = downside if peace deal.
+3. **Energy broadly** — ❌ HOLD. Iran-US talks progressing; adding energy exposure here risks catching a reversal.
+4. **Semis / AI infrastructure** — Monitor. AI capex cycle intact ($650–725B 2026 est); post-AMAT and NVDA binary both resolved. Possible setup if pullback provides entry with ≥2:1 R:R.
+
+### Risk Factors
+- Iran-US peace deal could close rapidly → WTI -$15–20 = energy sector flush
+- ADP beat front-runs Friday BLS; strong jobs = hawkish Fed = equity multiple compression
+- S&P 500 at all-time high → narrow risk-reward for fresh longs at these levels
+- Alpaca API still blocked (403) — zero execution capability
+- SLB order from May 15 fill status unknown; may have phantom position
+
+### Decision
+HOLD — Alpaca API blocked; even if resolved, energy thesis weakened by Iran peace talk progress. No trade meets entry checklist today: (1) API inaccessible; (2) SLB/energy R:R <2:1 near highs; (3) Iran deal = binary reversal risk. Monitor for API resolution and Iran outcome. Patience > activity.
