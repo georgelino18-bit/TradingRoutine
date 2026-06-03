@@ -204,3 +204,45 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-03 — Pre-market Research
+*WebSearch fallback — Perplexity API 403 (sandbox IP restriction)*
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction persists)
+- Cash: Unknown — SLB 340sh market buy submitted 2026-05-15 (order ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15); fill UNCONFIRMED
+- Buying power: Unknown
+- Daytrade count: Unknown
+- **CRITICAL:** API inaccessible since Day 1. SLB stop (10% trailing GTC) placement unconfirmed. Manual verification required.
+
+### Market Context
+- WTI: ~$95/bbl (+3rd straight session gain); geopolitical risk premium from Iran-Hormuz standoff
+- Brent: ~$96.89/bbl (+0.93% today); Iran-Kuwait/Bahrain missile strikes overnight
+- S&P 500 futures: -0.10% premarket; SPX closed at record 7,609.78 on June 2; Dow/SPX/Nasdaq all at all-time highs
+- VIX: ~15.77 (June 2 close); declining from March high of 35.30; calm surface, elevated geopolitical tail risk underneath
+- Today's catalysts:
+  - US struck Iran's Qeshm Island overnight ("self-defense"); Iran launched missiles at Kuwait/Bahrain — escalation risk elevated
+  - US-Iran nuclear talks: Iran state media says exchanges stopped days ago; Trump/Rubio say talks ongoing — fragile/stalled
+  - Strait of Hormuz: still partially closed; central to any deal; reopening Phase 1 of any ceasefire
+  - AVGO (Broadcom) Q2 2026 earnings AMC tonight — EPS est. $2.40, Rev est. $22.11B; AI custom silicon / hyperscaler backlog in focus; stock +3% pre-earnings positioning
+  - Sector rotation: Energy/Materials/Industrials leading YTD; Tech cooling after AI run; Discretionary/Comms lagging
+- Earnings before open: No major BMO reports identified
+- Economic calendar: ADP Employment (May, 8:15 ET); Factory Orders (10 ET); ISM Non-Manufacturing (10 ET); EIA Crude Inventories (~10:30 ET)
+
+### Trade Ideas
+1. **SLB (EXISTING — unconfirmed)** — If filled ~$54.75 (est. May 15 entry), current price $57.08 = +4.2% unrealized (~+$780). Thesis intact: WTI $95 sustained, Iran talks stalled = Hormuz premium = E&P capex elevated. Target $63–71 still valid. At +4.2%, stop not yet at tighten threshold (+15%). NO ACTION until API confirmed and stop verified live.
+2. **AVGO** — AI custom silicon mega-cycle; Google/Anthropic/Meta design wins; EPS estimates up 11% in 90 days. Reports TONIGHT AMC. DO NOT enter before binary. If gap-up tomorrow on beat + raised guidance → entry at open, stop 10% below reaction low, target +15%–20%, R:R ≥2:1. Size ≤20% (~$20k). Watch for AI backlog commentary and margin mix.
+3. **HAL (Halliburton)** — Energy services, same Hormuz/WTI thesis as SLB. If SLB fill confirmed and R:R remains valid, HAL provides diversification within energy sector (already 1 energy position). Only add if SLB stop confirmed and portfolio <5 positions; do not exceed 40% energy exposure.
+
+### Risk Factors
+- Iran talks breakdown + new missile strikes → WTI spike + VIX shock → risk-off flush across equities
+- ADP/ISM hot → hawkish Fed expectations → rate-sensitive sectors sold; ADP cold → recession fears re-emerge
+- AVGO earnings tonight — binary event; if miss or guidance light, semis/AI names could flush -5-10%
+- SLB 10% trailing stop unverified — if not placed, position is unprotected; manual priority
+- Alpaca API restriction blocks all order management; no safety net on any hypothetical positions
+- SPX at all-time highs + geopolitical escalation = asymmetric downside if Iran situation worsens
+
+### Decision
+HOLD/MONITOR — SLB thesis intact; position and stop status unresolvable until API access restored. DO NOT enter AVGO before tonight's earnings. Watch for AVGO gap-up setup tomorrow. No new trades today. Priority action: resolve Alpaca IP allowlist to confirm SLB fill and verify 10% trailing stop is live.
