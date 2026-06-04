@@ -204,3 +204,48 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-04 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction)
+- Cash: Unknown; baseline ~$100,000 (Day 0); SLB 340sh order submitted 2026-05-15 status unconfirmed
+- Buying power: Unknown
+- Daytrade count: Unknown
+- Open positions: UNCONFIRMED — SLB 340sh mkt buy submitted pre-market 2026-05-15 (Order ID 6c529f05); fill/stop unverified since API blocked
+- NOTE: Perplexity API also 403. All research via WebSearch fallback.
+
+### Market Context
+- WTI: ~$93.64–$96.04 (futures range Jun 3); climbed above $95 for 3rd consecutive session; Brent ~$96.97 (−0.86% Jun 4)
+- Hormuz: US struck Iranian oil tanker; Iran retaliated with attacks on US naval bases in Bahrain and Kuwait — Hormuz shipping subdued
+- S&P 500 futures: ESM26 ~7,538.50, −0.44% premarket; weakness driven by Iran/US military exchange and tech earnings misses
+- VIX: ~16.05 (Jun 1 close); mid-15s range; well below Mar 2026 spike (>30); calm despite geopolitical pressure
+- Key catalysts today:
+  - US/Iran military exchange overnight — oil supportive, risk-off elsewhere
+  - Broadcom (AVGO) −13% in extended trading (Q2 revenue miss)
+  - CrowdStrike (CRWD) −10% on weak guidance
+  - House passed resolution limiting Trump's Iran military ops authority
+  - Initial Claims + Productivity/Unit Labor Costs data due 8:30 ET
+  - SpaceX IPO expected Nasdaq June 12 — upcoming catalyst
+- Earnings before open: CIEN (Ciena), LULU (Lululemon), PL (Planet Labs)
+- Economic calendar: Initial Claims, Continuing Claims, Productivity-Revised, Unit Labor Costs-Revised (8:30 ET); EIA Natural Gas Inventories (10:30 ET); no CPI/FOMC today; next FOMC June 16–17
+- Sector momentum YTD (S&P ~7,610): **Materials +22% (leader)** | Healthcare, Consumer Staples, Industrials, Energy — leading quadrant | Technology, Communications, Consumer Discretionary, Financials — lagging/cooling
+
+### Trade Ideas
+1. **SLB** — IF FILLED (unconfirmed): thesis intact; WTI $95+, Iran/US escalation = sustained E&P capex; analyst PT range $60–$65 (Buy consensus, 20 analysts); current price ~$61; if entry was ~$55 (May 15), unrealized ~+11%. Verify 10% trailing stop is live; tighten to 7% trail if gain confirmed ≥+15%. If NOT yet filled: entry ~$61 now gives stop ~$55 (−9%), target $71 (+16%), R:R ~1.8:1 — marginal; only enter on strong oil/geopolitical bid.
+2. **HAL (Halliburton)** — Energy services sibling to SLB; US-onshore focused; benefits same Iran/Hormuz thesis. Entry TBD at open, stop 10% below, target +15%, R:R ≥2:1. Second position only after SLB confirmed. Do NOT enter both same day (max 3 new trades/week).
+3. **NEM (Newmont)** — Materials sector leader; gold benefits from Iran/US escalation (safe haven + USD hedge); NEM is largest gold miner. Entry TBD, need clean open print; stop 10% below, target +15%. Monitor only — do not enter without further diligence session.
+
+### Risk Factors
+- Iran/US military exchange binary: ceasefire = energy dump; escalation = broad market fear (VIX spike risk from ~16 toward 25+)
+- AVGO −13% + CRWD −10% could ripple into broader tech/semis complex — Nasdaq drag likely
+- S&P mildly risk-off (−0.44%) but VIX calm; not a full panic setup
+- Alpaca API inaccessible — cannot place/verify orders or confirm SLB fill
+- SLB stop status unknown — if filled and no stop placed, exposed to full downside
+- LULU earnings before open — if miss, consumer sentiment drag; not a position but macro read
+- No CPI today; next FOMC June 16–17; labor cost data at 8:30 could reprice rate expectations
+
+### Decision
+**HOLD** — Cannot confirm account state or SLB position (API 403). Geopolitical binary (Iran/US) adds tail risk. AVGO/CRWD misses weigh on tech. Energy thesis (SLB/HAL) remains intact with WTI $95+ and Hormuz disruption structural. NEM/Materials noteworthy but need diligence. **Priority action: resolve Alpaca IP allowlist to confirm SLB fill, verify stop is live, and assess P&L before any new entry.**
