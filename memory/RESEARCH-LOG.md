@@ -204,3 +204,32 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-04 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists ("Host not in allowlist")
+- Positions: UNKNOWN — last confirmed Day 0 ($100,000 cash, 0 positions, 2026-05-13)
+- SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh, submitted 2026-05-15) — fill status UNCONFIRMED
+
+### Actions Taken
+- None — API inaccessible; no positions/orders retrievable
+
+### Loser Cuts (-7% rule)
+- BLOCKED — cannot pull positions
+
+### Stop Tightening
+- BLOCKED — cannot pull positions or orders
+
+### Thesis Check
+- BLOCKED — cannot verify position state
+
+### API Status
+- Alpaca paper API: 403 "Host not in allowlist" (persistent since Day 1, 2026-05-14)
+- ClickUp API: 403 fallback triggered
+- Root cause: sandbox egress IP (proxied via Anthropic infra, cert issuer `O=Anthropic; CN=sandbox-egress-production TLS Inspection CA`) is not whitelisted in Alpaca paper account settings
+
+### Decision
+NO ACTION — API access blocked. **MANUAL ACTION REQUIRED:** Log into Alpaca paper account dashboard and whitelist the current sandbox egress IP. Until resolved, bot cannot execute any workflow step requiring live account data.
