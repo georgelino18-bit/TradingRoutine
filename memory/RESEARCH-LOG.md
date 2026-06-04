@@ -204,3 +204,58 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-04 — Pre-market Research (market-open inline, WebSearch fallback — Alpaca + Perplexity APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, same as prior sessions)
+- Cash: ~$100,000 estimated (no confirmed positions; SLB May-15 order unverified)
+- Buying power: ~$100,000 estimated
+- Daytrade count: UNKNOWN — API inaccessible
+- Weekly trades (Jun 2–4): 0 confirmed
+- **CRITICAL: SLB 340sh buy submitted 2026-05-15 (order ID 6c529f05) — fill & stop status UNVERIFIED. Current price $57.05. If filled ~$50–53, unrealized gain ~$7–15/sh with NO trailing stop placed. Manual verification urgent.**
+
+### Market Context
+- WTI / Brent: WTI ~$95.50 (range $93.64–$96.04) — pulled back from May highs of $101–105; Iran geopolitical premium still present
+- S&P 500: 7,553.68 (Wed Jun 3 close, −0.74%); futures sliding; 86% probability down open per prediction markets; snapped 9-session win streak
+- VIX: ~16.05 (Jun 1 close) — calm; below long-term average
+- Catalysts today:
+  - Iran escalation: Iran struck Kuwait International Airport overnight; US carried out additional "self-defense strikes" on Qeshm Island — direct energy supply-chain threat
+  - Initial jobless claims (8:30 ET) — prior 200K; any upside surprise = stagflation reinforcement
+  - Q1 productivity & unit labor costs (8:30 ET)
+- Sector momentum YTD: Energy +37% Q1 (XLE leader), Materials +22%, Consumer Staples, Industrials leading | Tech, Discretionary, Utilities lagging
+
+### Trade Ideas
+1. **DVN (Devon Energy)** — Permian Basin pure-play; +53% YTD; Morgan Stanley PT $59; Permian low-cost structure unaffected by Hormuz disruption; Goldman conviction buy on energy names
+   - Entry: at open confirmation (~current); stop 10% below entry; target +15%; R:R ~2:1
+   - Size: ≤20% (~$20k at ~$100k equity)
+   - **BLOCKED: cannot execute — Alpaca API 403**
+
+2. **OXY (Occidental Petroleum)** — Buffett 26.64% stake; Permian low-cost producer; elevated oil = margin expansion; defensive energy with institutional backing
+   - Entry: open confirmation; stop 10% below; target +15%; R:R ~2:1
+   - Size: ≤20% (~$20k)
+   - **BLOCKED: cannot execute — Alpaca API 403**
+
+3. **SLB** — Potentially already held. $57.05 current; analyst PT $61.15 (+7.2%); Q1 EBITDA beat +6.8%; international demand strong (82% revenue ex-NA); NA soft but priced in
+   - Action needed: verify fill → place 10% trailing stop immediately if position open
+   - **BLOCKED: cannot verify or act — Alpaca API 403**
+
+### Risk Factors
+- Alpaca API 403 — HARD BLOCKER: zero trading capability
+- S&P futures down; broad market risk-off could pressure all equities including energy
+- WTI at $95.50 vs May highs of $105+ — possible peak in oil price, narrowing energy upside
+- Iran escalation binary: rapid de-escalation = energy flush
+- SLB unverified position: if filled without stop, exposed to -10%+ without protection
+
+### Decision
+**HOLD — Alpaca API 403 blocks all trading. No orders can be placed or verified.**
+
+Manual action required before next session:
+1. Whitelist sandbox IP in Alpaca paper account settings (https://app.alpaca.markets → Account → API → Allowed IPs)
+2. `bash scripts/alpaca.sh positions` — verify SLB fill status
+3. If SLB open: `bash scripts/alpaca.sh order '{"symbol":"SLB","qty":"340","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'`
+4. If DVN/OXY R:R still valid at next open — queue both for /market-open (0 trades this week, room for 3)
+
+---
