@@ -204,3 +204,43 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-05 — Pre-market Research (market-open workflow; WebSearch fallback — all APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, same sandbox issue since 2026-05-14)
+- Cash: ~$100,000 estimated (no confirmed fills; SLB May-15 order ID `6c529f05` status unknown)
+- Buying power: unknown
+- Daytrade count: unknown (estimated 0 — no confirmed trades placed)
+- Open positions: UNKNOWN — SLB 340sh market buy submitted 2026-05-15 pre-market; never confirmed or stopped
+- Trades this week (Jun 2–6): 0 confirmed
+- Trades all-time: 0 confirmed
+
+### Market Context
+- WTI: ~$92.13/bbl (Jun 5 range $91.97–$95.92); down from $101–102 peak (May 15) but Hormuz disruption ongoing — US/Iran standoff; US crude inventories fell 6th consecutive week approaching minimum operating levels
+- S&P 500: -0.63% today; closed above 7,600 for first time on Jun 2; ~+10% YTD
+- Nasdaq 100: -1.13% — Broadcom (AVGO) "sell the news" dragging chips; AVGO Q2 revenue +48% YoY ($22.19B), Q3 guidance +84% ($29.4B) — stock still declining post-print
+- Russell 2000: +1.45% — small-cap rotation on jobs beat; financials, industrials, consumer names leading
+- VIX: ~15.40 (down -2.31% 24h; calm; 52-week high ~35.30 was March 2026)
+- Jobs report May 2026 (released today 8:30 ET): +172K nonfarm vs +80K est; unemployment 4.3% unchanged; revisions +93K cumulative for Mar/Apr — strong labor market
+- Sector momentum YTD: Financials +25% | Industrials +22% | Energy (Hormuz bid, WTI $92) | Tech/semis: sell-the-news pullback | Small caps outperforming large caps
+- Fed: Warsh era; first FOMC Jun 16–17; strong jobs = hawkish repricing headwind, rate cut odds near zero
+- Russell US Indexes semi-annual reconstitution in progress (June 2026)
+
+### Trade Ideas
+1. **SLB** — CONFIRM STATUS FIRST. If filled and stop active: monitor 10% trail. WTI $92 (down from $101) weakens thesis but Hormuz structural floor still intact. Target $63–71. If unfilled: entry no longer valid at original $47–50 level (SLB now ~$56.56); would need fresh setup.
+2. **Small-cap industrials rotation** — Russell +1.45% on jobs beat; strong labor = domestic capex acceleration. IWM or individual name (screen for breakout). Entry TBD, size ≤20%, stop 10%, target 2:1 R:R.
+3. **Chips/semis dip** — AVGO sell-the-news after massive beat. Wait for stabilization (1-3 sessions); entry only if S&P recovers and AVGO finds support. Not today.
+
+### Risk Factors
+- Alpaca API still blocked — cannot execute, confirm positions, or manage stops
+- Hawkish Fed repricing (strong jobs) = P/E headwind for growth/tech
+- Broadcom sell-the-news = near-term chip sector overhang
+- WTI declining from $101 → $92 weakens energy thesis; OPEC+ output increase risk
+- SLB unconfirmed position: could be filled and stopped out already (10% trail from any $57 high ~$51.30 stop); unknown P&L
+- Russell reconstitution rebalancing = unusual small-cap flows this week
+
+### Decision
+HOLD — Alpaca API inaccessible (IP restriction); cannot execute, quote, or confirm any positions. Priority action: whitelist sandbox IP in Alpaca paper account settings. SLB status unknown — must confirm before any new entry. No new trades until API access restored. Best setups queued: small-cap industrials rotation (IWM) once API live.
