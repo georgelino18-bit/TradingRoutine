@@ -204,3 +204,54 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-05 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP allowlist restriction persists across all sessions)
+- Cash: ~$100,000 estimated (per Day 0 baseline; no confirmed positions)
+- Buying power: ~$100,000 estimated
+- Daytrade count: unknown (API blocked)
+- Open positions: UNKNOWN — SLB order (340sh, ID: 6c529f05) submitted 2026-05-15 UNCONFIRMED
+- **CRITICAL:** SLB fill status unknown for 3 weeks. If filled ~$50 and oil now ~$64 (WTI), position would be -22% — far below -7% cut rule. Manual verification required urgently.
+- NOTE: Perplexity API also blocked (same host restriction). All research via WebSearch fallback.
+
+### Market Context
+- WTI: ~$64–65/bbl (inferred — Brent $95.25 per search; significant retreat from $117 peak in late May on Iran ceasefire/peace talks)
+- Brent: $95.25 — down ~3% prior session; up ~4% for the week; Iran negotiations no meaningful progress; Israel-Lebanon conflict obstacle
+- S&P 500 futures: -0.61% premarket; E-mini ~7,564.50; NFP beat driving hawkish repricing
+- VIX: ~16.05 — below long-term average; calm vs. March highs above 30; no panic
+- Today's catalysts:
+  - **May NFP 8:30 ET MASSIVE BEAT**: +158K jobs added vs +85K est (prior: +115K April); unemployment steady 4.3%; hot labor market = hawkish Fed signal = rate cut odds collapsing further
+  - **FOMC June 16–17**: Warsh's first meeting; 97% probability rates held; no cuts priced through year-end; some rate-hike risk by September per CME FedWatch
+  - **AVGO Q2 earnings (June 3 after close)**: EPS $2.44 vs $2.40 est (beat); Rev $22.19B vs $22.27B est (slight miss); Hock Tan did NOT raise $100B AI chip sales forecast → stock -10 to -15% reaction; semis sentiment dented
+  - **CRWD Q1 FY2027 earnings (June 3 after close)**: Revenue guided $1.360–1.364B; reaction negative per broader context
+  - Iran peace talks: Trump signaled willingness to meet Iran Supreme Leader; ceasefire fragile but holding → oil structurally lower than May peak
+  - Energy XLE: +24% YTD but thesis weakening as Hormuz reopens on ceasefire trajectory
+- Earnings before open June 5: ~28 reports; no large-cap movers identified (small/mid cap only)
+- Economic calendar: May NFP (8:30 ET TODAY, BEAT); next: June 10 May CPI + Oracle + Chewy earnings; June 11 ECB + PPI; June 16–17 FOMC
+- Sector momentum YTD: Energy +24% (leader, weakening), Materials +22%, Consumer Staples strong, Industrials | Lagging: Technology (AVGO/CRWD drag), Communications, Consumer Discretionary | Healthcare improving (flight-to-safety); MRVL +33% in June (semis outlier)
+
+### Trade Ideas
+1. **HOLD — no new entries** — SLB position status unknown; if filled at ~$50 with oil now $64–65 WTI implied, position may be catastrophically breaching -7% rule. Must confirm via manual API test or account login before any new trade.
+2. **Healthcare defensive play (post-NFP)** — Hot jobs = hawkish Fed = growth/tech headwind; healthcare (UNH, LLY, DHR) is flight-to-safety and YTD outperforming. Valid setup IF account status confirmed clean. Entry only on pullback to support, stop -7%, target 2:1 R:R.
+3. **Materials (FCX)** — China trade deal status post-Trump–Xi summit unclear; if tariff resolution confirmed, copper demand surge thesis intact. FCX entry $42–44 range if it retests, stop $38, target $51. Not actionable today — validate China trade status first.
+4. **AVOID energy adds** — Oil retreating from $117 to $95 (Brent); peace talks progressing; energy thesis structurally weakening. Do NOT add to SLB if confirmed held; apply -7% cut rule immediately if position is down >7%.
+
+### Risk Factors
+- SLB unknown position = largest risk; if filled and down >7% = MUST cut immediately per rules
+- NFP massive beat = Fed stays hawkish; kills rate-sensitive equities; amplifies volatility at open
+- AVGO -15% post-earnings = semis sentiment crack; Nasdaq drag likely
+- Oil peace deal finalizing = energy sector tailwinds evaporating; XLE -24% YTD gains at risk
+- FOMC June 16–17 overhang = markets cautious on risk asset adds
+- Alpaca API still inaccessible = cannot execute, verify stops, or check positions programmatically
+
+### Decision
+**HOLD — no new trades**
+- API inaccessible: cannot place orders or confirm existing positions
+- SLB status unknown for 3+ weeks: manual account check is URGENT before any action
+- NFP beat = hawkish volatility at open; wrong environment to add risk
+- Energy thesis structurally weakening (oil $95 vs $117 peak)
+- Patience > activity. If SLB confirmed held and down >7%: CUT immediately per rules.
