@@ -31,3 +31,27 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-08 — EOD Snapshot — BLOCKED (no data)
+**Status:** CRITICAL — All external APIs unreachable from sandbox
+
+Alpaca, ClickUp, and Perplexity all returned `403 Host not in allowlist`
+(`x-deny-reason: host_not_allowed`) despite `.claude/settings.json`
+already listing `paper-api.alpaca.markets`, `data.alpaca.markets`,
+`api.perplexity.ai`, and `api.clickup.com` in `allowedDomains`. This is
+an environment-level network policy block, not a config issue inside
+the repo — confirmed by testing each host directly with curl.
+
+No account/position/order data could be pulled, no EOD metrics could be
+computed, and the ClickUp EOD message could not be sent (ClickUp itself
+is blocked). Last confirmed account state remains Day 0: $100,000 cash,
+0 positions (2026-05-13).
+
+**Action required:** Environment owner must enable outbound network
+access to the four allowlisted hosts above for this sandbox/session
+(this is a recurring issue — same block hit on 2026-05-14).
+
+**Notes:** No trades, no EOD metrics, no ClickUp notification this
+session — full external API blackout. Tomorrow: retry once network
+allowlist is confirmed active; if still blocked, escalate outside the
+bot loop since ClickUp itself cannot be reached.
