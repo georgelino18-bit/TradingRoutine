@@ -177,6 +177,51 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ---
 
+## 2026-06-09 — Market-Open Research (API blocked — WebSearch fallback)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 "Host not in allowlist" (persistent; unresolved since 2026-05-14)
+- Cash: ~$100,000 estimated (last confirmed Day 0; SLB order status unknown — submitted 2026-05-15 as DAY order, may have expired unfilled)
+- Buying power: unknown
+- Daytrade count: unknown
+- Open positions: 0 confirmed; possible SLB 340sh if May 15 order filled (unverifiable)
+
+### Market Context
+- WTI / Brent: WTI ~$89.38 — down ~20% from 2026 peak (~$101); ceasefire talks with Iran advancing; Hormuz reopening expected
+- S&P 500: Opened ~7,537 (prev close 7,405.73 Mon); chip-led rebound; Polymarket 89% probability open higher
+- VIX: ~18.56 (down 13.7%); declining toward pre-war levels
+- Key catalysts:
+  - Trump stated Iran deal "2-3 days away"; Hormuz to reopen "immediately" after deal → oil war premium collapsing
+  - INTC +11% Mon (June 8): Google named INTC as AI chip manufacturer for 3M chips; +180% YTD
+  - AMAT +8.64% Mon: Record Q2 revenue; raised semi equipment 2026 growth forecast to >30%
+  - AMD +5.14% Mon to $490.33; +119% YTD
+  - Chip rebound continues Tuesday; SOXX +5.9% Monday
+- Sector momentum TODAY: Technology +1.47%, Consumer Cyclical +0.89%, Energy +0.89% | Real Estate -1.10%, Utilities -1.56%
+- Sector momentum YTD: Technology leading (rotation underway); Energy fading on oil drop; Healthcare/Consumer Cyclical emerging
+- Earnings before open: None flagged as major movers
+- Upcoming: MU fiscal Q3 earnings June 24 (memory demand / AI supply chain indicator)
+
+### Trade Ideas
+1. **INTC** — AI chip foundry deal w/ Google; multi-year rebound thesis; +180% YTD = extended, chasing risk. HOLD — wait for pullback to confirm new base.
+2. **AMAT** — Record Q2, >30% semi equipment growth; +8.64% yesterday. Already ran — chasing at open = poor R:R. HOLD.
+3. **AMD** — AI CPU/GPU demand; +119% YTD at $490. Extended. HOLD.
+4. **AVGO** — AI networking/custom chip; +82% past 12 months; less extended than pure semis. Needs diligence session. Monitor.
+5. **MU** — AI memory demand; +682% EPS growth; June 24 earnings binary. Pre-earnings drift possible but binary in 2 weeks = risk. HOLD.
+6. **Energy (SLB/HAL/XOM)** — ABORT. WTI -20% from peak; Hormuz reopening = energy thesis structurally broken. Previous thesis invalidated.
+
+### Risk Factors
+- Alpaca API still blocked — zero execution capability; all research academic until resolved
+- Iran deal not yet signed; any re-escalation could spike oil back above $95
+- Semis already ran big (Mon +5-11%); entering Tuesday = chasing gap-up
+- MU June 24 earnings binary — lowers conviction on pre-earnings entries
+- S&P at 7,537 — if INTC/AMAT runs stall, profit-taking flush possible
+- Week of June 9: unknown weekly trade count (3 weeks of sessions missed, no record of trades)
+
+### Decision
+HOLD — Two blockers: (1) Alpaca API 403 persists; cannot execute any orders. (2) All high-conviction setups (INTC, AMAT, AMD) already ran significantly on Monday — entering Tuesday gap = chasing. Energy thesis reversed on Hormuz ceasefire. No actionable trade until API access restored AND a clean pullback entry forms. Priority action: user must whitelist sandbox container IP in Alpaca paper account settings.
+
+---
+
 ## 2026-05-14 — Midday Scan
 
 ### Account
