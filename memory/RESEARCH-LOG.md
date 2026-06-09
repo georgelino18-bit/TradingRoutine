@@ -204,3 +204,71 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-09 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction; same as all prior sessions)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed fills ever)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- SLB position (340sh order placed 2026-05-15): UNCONFIRMED — order ID 6c529f05; fill status unknown; Alpaca inaccessible every session
+- Open orders: UNKNOWN — cannot verify via API
+
+### Market Context
+- WTI / Brent: WTI ~$91–95 (trading range today); Brent ~$94.48 (June 8 close) — oil DOWN ~20% from 2026 peak (~$115) on Iran/US ceasefire optimism; worst monthly decline since COVID (May 2026)
+- S&P 500: Closed 7,405.73 Monday (+0.30%); futures +0.35–0.71% premarket Tuesday; chip stocks rebounding from Friday AVGO-driven rout; 89% Polymarket probability of up open
+- VIX: ~18.92 (June 8 close, -12% that day); 1-month range 15.18–21.57; 52-week high 35.30 on 2026-03-09 — moderate fear, not alarming
+- Today's catalysts (June 9):
+  - Chip rebound: Semis recovering from AVGO-driven Friday selloff; AVGO fell 15% June 4 after AI chip guidance $16B vs $17.2B est; buy-the-dip opportunity emerging in quality semis
+  - Apple WWDC kicked off Monday: new AI Siri unveiled; AAPL catalyst ongoing this week
+  - Marvell (MRVL) +9%: added to S&P 500 effective June 22
+  - Corning (GLW) +9.31%: Amazon multibillion-dollar optical fiber deal
+  - Alphabet: $85B equity raise for AI infra; large dilution but bullish AI capex signal
+  - Iran/US ceasefire: "mostly agreed" 60-day MOU under negotiation; pending Trump approval; oil -20% from peak on optimism; UBS notes 6–8 months before Hormuz flows normalize even if deal signed
+- Earnings before open June 9: No large-cap movers identified
+- Economic calendar June 9: Light day — no major releases
+  - **TOMORROW June 10 (CRITICAL): May CPI 8:30 ET** — April was 3.8% YoY (highest since May 2023); consensus expects MoM >0.3% (55% probability per prediction markets); hot print = rate hike risk; clean print = relief rally
+  - June 11: PPI May
+  - June 12: UMich Consumer Sentiment
+  - June 16–17: FOMC (Warsh's first meeting)
+- Sector momentum YTD 2026: Financials +22% (new leader); Healthcare strong (safety bid); Tech/AI cooling post-AVGO; Energy MATERIALLY WEAKER (oil -20% from highs — thesis has shifted); Commodity Chemicals +49% (top subsector YTD thru March); Consumer Electronics +20%
+
+### Trade Ideas
+
+1. **MRVL (Marvell Technology)** — S&P 500 inclusion catalyst + AI custom silicon thesis intact
+   - Catalyst: New S&P 500 addition (effective June 22) = forced index-fund buying; AI custom chip revenue growing despite AVGO noise; MRVL less overvalued than AVGO
+   - Entry: ~$95–100 on confirmed open strength (validate at 9:31 AM)
+   - Stop: ~7–8% below entry (~$87–93)
+   - Target: +15–20% (~$110–120); R:R ≥2:1
+   - Size: ≤20% (~$20k)
+   - Risk: CPI tomorrow could flush semis; MRVL ran +9% already — don't chase pre-CPI
+
+2. **JPM or BAC (Financials)** — Sector leader YTD +22%; Warsh hawkish = yield curve steepener = bank margin expansion
+   - Catalyst: Financials leading YTD; Warsh Fed era (hawkish) benefits banks via higher NII; resilient consumer (retail sales data solid)
+   - Entry: After CPI confirmation Wednesday — wait for macro clarity
+   - Stop: 7% below entry
+   - Target: +15%; R:R ≥2:1
+   - Size: ≤20% (~$20k)
+   - Risk: Hot CPI + recession fears could reverse even financials
+
+3. **SLB (existing/unconfirmed position)** — URGENT THESIS CHECK
+   - Original thesis: Energy momentum + WTI ~$101 Hormuz floor; entry target ~$50
+   - Thesis NOW: WTI dropped to ~$92–95 (from $101–115 peak); oil -20%; ceasefire talks advancing; energy sector tailwind GONE
+   - SLB analyst consensus PT $61.15 (BofA PT $60); stock still has Buy consensus despite energy softness
+   - If filled and held: check unrealized P&L when API accessible — if down -7% from entry, MUST cut per strategy rules
+   - Action: Immediately verify position + stop order when Alpaca API becomes accessible
+
+### Risk Factors
+- **CPI TOMORROW (June 10, 8:30 ET)** — binary macro event; April was 3.8% (hottest since 2023); hot print = rate hike repricing, equity flush; this is the week's biggest risk
+- **SLB unconfirmed position** — if filled and oil has dropped -20% from peak, could be near -7% cut threshold; critical to verify immediately
+- **Energy thesis reversal** — Iran ceasefire optimism has taken oil from $115 to $92–95; oilfield services stocks (SLB, HAL) facing headwinds
+- **AVGO contagion** — semi sector broadly repriced post-guidance miss; AI capex skepticism rising; don't buy semis ahead of CPI
+- **FOMC June 16–17** — Warsh's first meeting; hawkish posture risk; market positioning uncertain
+- **Hormuz** — even if ceasefire MOU signed, UBS notes 6–8 months for flows to normalize; energy supply disruption still possible
+- **Alphabet $85B dilution** — large equity raise signals cash burn; growth spending acceleration (bullish long-term AI, short-term EPS dilutive)
+
+### Decision
+**HOLD** — CPI tomorrow (June 10) is a binary macro event; no new positions before data. Energy thesis materially changed (oil -20% from highs); sector momentum has rotated to Financials. MRVL setup interesting post-S&P inclusion but ran +9% — wait for CPI print to enter. Priority action: get Alpaca API unblocked to verify SLB position and stop order status. If SLB filled and at/near -7% from entry → cut immediately. Patience > activity; let CPI print guide the week.
