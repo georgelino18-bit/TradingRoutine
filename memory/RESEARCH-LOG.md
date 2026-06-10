@@ -204,3 +204,44 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-10 — Pre-market Research (WebSearch fallback — Alpaca/Perplexity/ClickUp all 403 "Host not in allowlist")
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API still returns 403 "Host not in allowlist" (same as 2026-05-14/05-15, ~4 weeks unresolved despite `.claude/settings.json` allowlist entry)
+- Cash: UNKNOWN
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- **CRITICAL OPEN ISSUE**: 2026-05-15 log shows a 340sh SLB market buy (order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) was submitted but never confirmed filled, and the 10% trailing stop was never placed. If filled, this position has been unprotected for ~4 weeks. Account access has been broken for the entire period — cannot verify or remediate from this session.
+- Perplexity and ClickUp also 403 "Host not in allowlist" — no live notification possible.
+
+### Market Context
+- WTI / Brent: WTI ~$88.20 (-3.4% Tue), Brent ~$91.45 (-2.97% Tue), today's range WTI $86–91.5 / Brent $89.6–94.4. Oil down sharply from mid-May ~$101 highs but still ~+30% YTD off the Feb Iran/Israel-strike base.
+- S&P 500 futures: -0.47% premarket Wed; SPX closed Tue at 7,386.65 (-0.26%)
+- VIX: ~20.45 (Jun 9, +8% on the day) vs 18.92 close Jun 8 — elevated and rising
+- Today's catalysts:
+  - **May CPI release 8:30 AM ET TODAY** — headline forecast +0.5% MoM / +4.2% YoY (first >4% print since May 2023), core +0.3% MoM / +2.9% YoY. Lands 6 days before June 16-17 FOMC — major volatility event.
+  - Iran-Israel ceasefire holding after near-collapse this week (Iran missiles → Israel strikes → ceasefire); US Energy Sec. says Hormuz ship traffic "rising very meaningfully" — driving oil's sharp pullback
+  - SpaceX IPO begins trading "next Friday" (largest IPO in history) — possible rotation/selling of recent winners to fund allocations
+  - 2yr Treasury yield at 4.164%, 52-week high, after blowout jobs report (3-mo avg private payrolls +166k, best in 3+ years) — hawkish
+  - GOOGL announced $85B equity raise for AI infra buildout; AVGO sank ~20% post-earnings on lackluster guidance — AI capex jitters weighing on tech
+- Earnings before open: CASY (Casey's General Stores), AAL (American Airlines) among ~15 reports today; ORCL/DKNG/CHWY/SMCI typically AMC
+- Economic calendar: May CPI 8:30 AM ET (key event); June 16-17 FOMC ahead
+- Sector momentum: Leading = Consumer Staples, Industrials, Materials, Energy (Energy YTD +22% but momentum fading fast as oil reverses); Weakening = Healthcare; Lagging = Tech, Communications, Consumer Discretionary, Financials; Improving = Real Estate, Utilities
+
+### Trade Ideas
+1. **SLB** — watch only, no new entry. Bullish news flow (Qualcomm edge-AI MOU 6/8, OneSubsea BP contract 6/3, BofA PT raised to $60, consensus PT $61.15, Buy rating, P/E 24.2). However oil has reversed sharply (-3.4% WTI Tue) on Hormuz reopening — thesis weakening. If the existing 5/15 order filled, this is an EXISTING position needing a stop, not a new trade.
+2. No new long ideas queued — CPI print this morning is a binary that can move the whole tape ±1-2%; entering ahead of it violates "patience > activity" and risks immediate stop-outs either direction.
+
+### Risk Factors
+- May CPI today forecast at 4.2% YoY (first >4% since 2023) — a hot print risks a hawkish repricing sell-off across equities, especially rate-sensitive sectors; a cool print could spark a relief rally — wait for the print and reaction before any action
+- VIX rising (18.92 → 20.45) signals building uncertainty into CPI/FOMC week
+- Oil's sharp reversal (-3.4%) undercuts the Energy-sector momentum thesis that drove May trade ideas
+- SpaceX IPO next week — possible liquidity drain/rotation out of mega-cap winners
+- AI capex jitters (AVGO guidance, GOOGL $85B raise) — Tech/Comms already lagging, could worsen
+- **Account/API access has been down for ~4 weeks** — cannot confirm positions, cannot place/verify stops, cannot send live notifications. This is now the top operational risk regardless of market conditions.
+
+### Decision
+HOLD — No new trades. CPI print at 8:30 ET today is a binary risk event; do not enter ahead of it. Top priority is resolving the Alpaca/Perplexity/ClickUp network allowlist issue (403 "Host not in allowlist" on all three despite `.claude/settings.json` config) so the SLB order status and any unprotected position can be verified and a stop placed if needed. Flagging this to the user as urgent — likely requires fixing the sandbox network policy at the environment-configuration level (outside this session's git-trackable config).
