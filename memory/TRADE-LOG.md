@@ -31,3 +31,16 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-10 — Midday Scan — BLOCKED (Day 26 of outage)
+
+**Status:** CRITICAL — Alpaca, ClickUp, and Perplexity all return `403 Host not in allowlist`
+
+- `bash scripts/alpaca.sh positions` / `orders` — 403, cannot pull account state
+- `bash scripts/clickup.sh` — 403, fell back to DAILY-SUMMARY.md
+- Perplexity API — 403, no research possible
+- `.claude/settings.json` already lists the correct `allowedDomains` (added 2026-05-13, commit d06f23e) but the sandbox network policy is still rejecting these hosts at the environment level — this requires the user to fix the environment's network policy (outside repo config).
+- Steps 3-7 (cut losers, tighten stops, thesis check, research, notify) skipped — no data.
+- Open issue carried over from 2026-05-15: SLB 340sh market buy (order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) — fill price, stop order, and current P&L still UNCONFIRMED. No trailing stop verified placed.
+
+**Action required (user):** This is now a 26-day outage (since 2026-05-14). Fix the sandbox/environment network allowlist for `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.alpaca.markets`, `api.clickup.com`, `api.perplexity.ai` before any further automated runs are useful.
