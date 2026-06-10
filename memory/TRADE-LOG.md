@@ -31,3 +31,16 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-10 — EOD Snapshot (BLOCKED)
+**Status:** CRITICAL — All external API calls blocked by sandbox network policy
+
+**Portfolio:** UNAVAILABLE | **Cash:** UNAVAILABLE | **Day P&L:** UNAVAILABLE | **Phase P&L:** UNAVAILABLE
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** `bash scripts/alpaca.sh account` failed — direct curl test returned `Host not in allowlist` (HTTP 403) for `paper-api.alpaca.markets`. Same result for `api.clickup.com` and `api.perplexity.ai` — every external API host is blocked at the sandbox network level for this session, despite `.claude/settings.json` already listing all three domains in `sandbox.network.allowedDomains` (added 2026-05-14, commit `d06f23e`). This is the same "Host not in allowlist" failure first seen 2026-05-14/15, still unresolved ~4 weeks later. No account data, positions, or orders could be retrieved; no ClickUp alert could be sent. Last confirmed account state remains Day 0 baseline ($100,000 cash, 0 positions) — the 2026-05-15 SLB order (`6c529f05-19c5-4078-ba9d-9fb42bc7ee15`, 340sh market buy) was never confirmed filled or stopped, and its status is still unknown.
+
+**Action required (cannot be fixed from within the session):** The sandbox network allowlist is an environment-level setting chosen when the Claude Code environment was created — it is not read from this repo's `.claude/settings.json`. The user must update the environment's network policy (Settings → environment → network access) to allow `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.alpaca.markets`, `api.clickup.com`, and `api.perplexity.ai`, then re-run this routine to confirm true account state, locate/resolve the SLB order, and resume trading.
