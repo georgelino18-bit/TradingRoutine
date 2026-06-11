@@ -31,3 +31,15 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-11 — Midday Scan — BLOCKED, no API access
+
+**Status:** Same network-allowlist failure as 2026-05-14/05-15, persisting almost a month later.
+
+- `bash scripts/alpaca.sh positions` / `orders` -> `403 Host not in allowlist`
+- `bash scripts/clickup.sh` -> `403 Host not in allowlist`
+- `.claude/settings.json` already whitelists the correct domains (paper-api.alpaca.markets, data.alpaca.markets, api.perplexity.ai, api.clickup.com) — block is at the session/environment network-policy layer, not repo config
+- No positions/orders could be checked. No loser cuts, stop tightening, or thesis checks performed.
+- Last confirmed account state remains the 2026-05-15 entry (SLB 340sh order submitted, trailing stop never confirmed placed)
+
+**Manual action required:** check SLB fill/stop status directly in Alpaca dashboard; fix session network allowlist before next scheduled run.

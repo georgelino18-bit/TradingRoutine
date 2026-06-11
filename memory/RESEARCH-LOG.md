@@ -204,3 +204,34 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-11 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — `bash scripts/alpaca.sh positions` and `orders` both return `403 Host not in allowlist`
+- Last confirmed state: 2026-05-15 log (SLB 340sh order submitted, stop placement never confirmed)
+
+### Actions Taken
+- None — blocked at Step 2 (pull current state)
+
+### Loser Cuts (-7% rule)
+- N/A — no account data available
+
+### Stop Tightening
+- N/A — no account data available
+
+### Thesis Check
+- N/A — no account data available
+
+### Notification
+- ClickUp also blocked — `api.clickup.com` returns `403 Host not in allowlist`
+
+### Root Cause
+- `.claude/settings.json` `sandbox.network.allowedDomains` correctly lists `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.perplexity.ai`, `api.clickup.com` (commit d06f23e, 2026-05-13)
+- Despite this, all three hosts are rejected at the environment's network-policy layer with `403 Host not in allowlist` — same failure mode as 2026-05-14/05-15, now persisting into 2026-06-11
+- This is a session/environment-level network allowlist setting (configured outside this repo when the cloud session is created), not fixable via repo config
+
+### Decision
+NO ACTION — cannot pull positions/orders, cannot cut losers, cannot tighten stops, cannot notify ClickUp. Escalating to user. Manual check of SLB position/stop strongly recommended given it's been unconfirmed since 2026-05-15.
