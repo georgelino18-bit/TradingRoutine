@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-11 — EOD Run BLOCKED (network allowlist)
+**Status:** CRITICAL — `bash scripts/alpaca.sh account` and ClickUp both return `403 Host not in allowlist`.
+
+No live data retrieved (account, positions, orders all inaccessible). No EOD snapshot computed — last confirmed state remains Day 1 (2026-05-14): $100,000 cash, 0 confirmed positions (SLB buy from 2026-05-15 still unconfirmed, no log entries since).
+
+**Diagnosis:** This is the same "Host not in allowlist" 403 first seen on Day 1, persisting ~4 weeks later. `.claude/settings.json` already lists `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.perplexity.ai`, `api.clickup.com` in `sandbox.network.allowedDomains` (added 2026-05-14, commit `d06f23e`), and the block reproduces even with the local sandbox disabled — so this is the remote execution environment's outbound network policy (egress allowlist), not this repo's config, and must be fixed in the environment settings (outside this repo).
+
+**Action required (cannot be done by the agent):** Update the cloud environment's network policy to allow `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.perplexity.ai`, and `api.clickup.com`, then re-run this routine.
