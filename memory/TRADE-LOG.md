@@ -31,3 +31,33 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-11 — Market-Open Execution (BLOCKED)
+**Status:** CRITICAL — All external APIs blocked, no trades placed
+
+**Blocker:** Alpaca, Perplexity, and ClickUp all return `403 Host not in allowlist`
+(`x-deny-reason: host_not_allowed`) for every request, despite
+`.claude/settings.json` already listing `paper-api.alpaca.markets`,
+`data.alpaca.markets`, `api.perplexity.ai`, and `api.clickup.com` in
+`sandbox.network.allowedDomains`. This is an environment-level network
+policy issue (set when the remote session is created), not a repo config
+issue — the repo-side allowlist is already correct.
+
+**Impact:**
+- Cannot fetch account/positions/orders — SLB position (340sh, order ID
+  `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`, submitted 2026-05-15) status
+  remains UNCONFIRMED. Last known book: $100,000 cash, 0 confirmed positions.
+- Cannot validate live data (Strategy STEP 2) — per CLAUDE.md, no trades
+  placed without live validation.
+- Cannot notify ClickUp (also blocked).
+- No RESEARCH-LOG entry exists for 2026-06-11; pre-market research could not
+  be run (Perplexity blocked).
+
+**Gap noted:** Last logged activity was 2026-05-15. ~4 weeks of trading days
+elapsed with this same blocker first flagged 2026-05-14 and marked PRIORITY 1
+in the 2026-05-15 weekly review. Still unresolved.
+
+**Action required (human):** Fix the network allowlist at the remote
+execution environment level (Claude Code on the web environment settings),
+not just in `.claude/settings.json`. Until resolved, this bot cannot trade,
+research, or notify.
