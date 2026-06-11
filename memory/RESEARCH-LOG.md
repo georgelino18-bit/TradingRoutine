@@ -204,3 +204,43 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-11 — Pre-market Research (WebSearch fallback — Alpaca/Perplexity/ClickUp APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API returns `403 host_not_allowed` ("Host not in allowlist") on paper-api.alpaca.markets
+- Cash: UNAVAILABLE
+- Buying power: UNAVAILABLE
+- Daytrade count: UNAVAILABLE
+- **Last confirmed state (2026-05-15):** SLB market buy order (340sh, order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) submitted but fill/stop never confirmed due to prior credential issue. True current position status UNKNOWN.
+
+### Market Context
+- WTI / Brent: WTI ~$92, Brent ~$92–95 — down from ~$101–102 in mid-May, but still elevated. Oil surged again overnight on US strikes on Iran (2nd consecutive day) and Iranian retaliatory missile/drone attacks on US bases in Jordan, Kuwait, Bahrain — ceasefire from April effectively broken.
+- S&P 500 futures: +0.78% premarket bounce after S&P 500 fell -1.62% to 7,267 yesterday (worst day in weeks) on Iran escalation + hot CPI. Polymarket implied 95% probability of higher open today.
+- VIX: ~20.75, down -6.6% from yesterday's spike close of 22.22 (+11.8% on the day) — volatility elevated but receding from the spike.
+- Today's catalysts:
+  - **US-Iran conflict escalation** — dominant macro driver; binary/headline risk both directions (de-escalation = oil/VIX crash, further strikes = oil spike + risk-off)
+  - **May PPI report due 8:30 ET today** — follows yesterday's hot May CPI (+4.2% YoY, 3-yr high; energy +23.5% YoY drove the surge)
+  - Markets pared early losses on "lukewarm" CPI internals but inflation trend is now clearly accelerating on energy costs
+- Earnings before open: None of note — ADBE and LEN report after today's close; ~12 reports total today, none pre-market market-moving
+- Economic calendar: May PPI 8:30 ET (today); May CPI already released yesterday at 4.2% YoY
+- Sector momentum YTD: Energy still #1 (+21–34.5% depending on source, driven by Iran-war oil premium), Materials #2 (~+17%, AI/electricity capex), Industrials and Consumer Staples also strong (~+12-15%). Tech led in May specifically but S&P 500 broadly flat YTD; Utilities the May laggard (-4.9%)
+
+### Trade Ideas
+1. **SLB** — Held position thesis intact if fill confirmed: analyst consensus Buy, $62.36 avg PT (+12% from ~$55 level), Digital Investors Day June 17 (ChampionX integration update), oil tailwind from Iran conflict. NO ACTION POSSIBLE — cannot verify fill, current price, or stop status via blocked API. If position exists and stop never placed, this is a live risk-management gap.
+2. **Energy/oilfield services broadly** — Sector remains #1 YTD and the Iran conflict is a direct tailwind, but this is now a war-driven price spike, not a structural setup — extremely binary (any ceasefire headline reverses oil sharply). PASS on new entries until conflict trajectory clarifies.
+3. **No new entries today** — PPI release at 8:30 ET is a second inflation binary right after yesterday's hot CPI; combined with active war escalation, conditions are too volatile/headline-driven for a disciplined entry, and account state can't be verified anyway.
+
+### Risk Factors
+- **CRITICAL — infrastructure blocker persists (4th consecutive failed session since 2026-05-14):** Alpaca, Perplexity, and ClickUp APIs all return `403 host_not_allowed` despite `.claude/settings.json` allowlist (added 2026-05-13) listing all four domains. This is a sandbox-level network policy outside this session's control — needs to be fixed in the environment's network configuration by the user. Cannot verify positions, place orders, manage stops, or send ClickUp alerts until resolved.
+- **Unconfirmed SLB position from 2026-05-15** — if filled, it has had NO trailing stop for ~4 weeks. This is the highest-priority item to resolve once API access is restored.
+- US-Iran conflict active and escalating — binary headline risk on oil, VIX, and broad market in either direction
+- May PPI (8:30 ET) — second inflation surprise risk same week as hot CPI; could extend yesterday's selloff
+- Energy sector leadership is now war-driven, not structural — vulnerable to sharp reversal on any ceasefire news
+
+### Decision
+HOLD — No new trades. Cannot access account/trading API (persistent 403 allowlist block, unresolved since 2026-05-14). Even if access were available, active Iran-Israel-US war escalation + PPI release today = too much binary risk for new entries. Top priority for next session with working API access: confirm SLB fill status and place/verify the 10% trailing stop immediately (order has been unprotected since 2026-05-15 if filled).
+
+**Notification:** ClickUp also blocked (403) — could not send alert. Flagging here for user: network allowlist for paper-api.alpaca.markets / api.perplexity.ai / api.clickup.com is not effective in this sandbox despite settings.json config; needs environment-level fix.
