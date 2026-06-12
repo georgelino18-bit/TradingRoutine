@@ -97,3 +97,56 @@ Template for each entry:
 
 ### Overall Grade: D
 *Research quality: A. Execution: F (infrastructure blocked). Discipline: A. Net grade D — correct reads, zero shots taken due to API failure. Not an F because strategy and patience rules were followed.*
+
+---
+
+## Week ending 2026-06-12
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (last verified 2026-05-13; no confirmed activity since) |
+| Ending portfolio | $100,000.00 (unverifiable — Alpaca API blocked) |
+| Week return | $0 (0.00%, assumed — unverifiable) |
+| S&P 500 week | +1.6% (9th straight weekly gain, multiple record highs) |
+| Bot vs S&P | -1.6% |
+| Trades | 0 confirmed (W:0 / L:0 / open:0); 1 unconfirmed order pending |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | No closed trades |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| SLB (status unknown) | order placed 2026-05-15, 340sh, unconfirmed | unknown — API blocked | unknown | not placed (credential issue at time of order) |
+
+### What Worked
+- WebSearch fallback again supplied usable market context (S&P 500 weekly performance) despite API block
+- Discipline maintained — no unauthorized or unverifiable actions attempted; no new orders placed blind
+
+### What Didn't Work
+- Alpaca, Perplexity, and ClickUp APIs ALL still return 403 "Host not in allowlist" — identical failure to Week 1 (2026-05-14/15), now unresolved for 4 consecutive weeks
+- The settings.json fix from 2026-05-14 (commit d06f23e, added allowedDomains for all three hosts) did NOT resolve the block — the live network policy in this environment is evidently controlled at environment-creation level, not by repo-level .claude/settings.json
+- Zero account/position visibility all week — cannot confirm fill status, stop placement, or P&L on the SLB order (340sh, order ID 6c529f05) submitted 2026-05-15
+- No research log entries since 2026-05-14 — either no sessions ran or sessions hit this same blocker before any work could be committed (fresh-clone model means unsaved work is lost)
+- S&P 500 has run a 9-week win streak while bot capital sat fully idle — opportunity cost compounding every week this persists
+
+### Key Lessons
+- A repo-level settings.json change is NOT sufficient to fix sandbox network egress — this requires reconfiguration of the remote execution environment itself (network policy chosen at environment creation)
+- This blocker cannot be self-healed by the bot: no trade execution, no research API, and no ClickUp path to escalate
+- "PRIORITY 1" flagged 4 weeks ago with zero resolution — needs human/operator intervention outside agent sessions
+
+### Adjustments for Next Week
+- ESCALATE (human action required): reconfigure this environment's network egress policy to allow paper-api.alpaca.markets, data.alpaca.markets, api.perplexity.ai, api.clickup.com — repo settings.json alone has not worked
+- Until resolved: continue WebSearch-only market monitoring for RESEARCH-LOG, take zero trade actions
+- On first session with working Alpaca access: pull account + positions immediately, reconcile SLB order 6c529f05 (fill status, P&L, stop), and update TRADE-LOG before anything else
+- Re-verify max-3-trades/week budget once SLB status is known — it may already consume this week's allotment
+
+### Overall Grade: F
+*4th consecutive week of zero verified activity due to unresolved network egress block. No research, no trades, no account visibility, no ClickUp notification possible. Same root cause flagged as PRIORITY 1 in the prior review remains unaddressed.*
