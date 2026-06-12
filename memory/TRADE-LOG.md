@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-12 — EOD Snapshot (Friday) — BLOCKED
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** No prior session ran between 2026-05-15 and today (last commit 2026-05-15). Alpaca API (`paper-api.alpaca.markets`) returned HTTP 403 `host_not_allowed` on `account`/`positions`/`orders` — sandbox network egress allowlist still does not include the Alpaca hosts. ClickUp API also returned 403 (logged to `DAILY-SUMMARY.md` fallback). No account/position data retrieved, no trades placed or confirmed today. Last confirmed account state remains Day 0 (2026-05-13): $100,000 cash, 0 positions, with an unresolved open question about the SLB order from 2026-05-15 (status never verified). **Action required: add `paper-api.alpaca.markets`, `data.alpaca.markets`, and the ClickUp API host to the sandbox network egress allowlist before the next session.**
