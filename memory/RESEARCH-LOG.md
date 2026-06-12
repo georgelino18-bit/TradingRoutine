@@ -204,3 +204,39 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-12 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity + ClickUp APIs blocked 403)
+
+### Account
+- Equity / Cash / Buying power / Daytrades: UNAVAILABLE — Alpaca API still returns "Host not in allowlist: paper-api.alpaca.markets" (403). Same issue first hit 2026-05-14/05-15, now unresolved for ~4 weeks.
+- **CRITICAL OPEN ISSUE**: 2026-05-15 SLB market buy (340sh, order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) — fill price and stop-loss were NEVER confirmed (credentials unavailable that session). If the order filled, this position has had **no verified protective stop for ~4 weeks**. Needs manual verification the moment API access is restored.
+
+### Market Context
+- WTI / Brent: WTI fell >4% to below $84/bbl (8-week low); Brent ~$87/bbl (-3.8%) — sharp reversal from May's "Hormuz disruption" premise.
+- S&P 500 futures: +0.18% premarket (Polymarket implies 83% odds of a green open)
+- VIX: ~19.44, sharply lower vs Wed's spike (Dow fell >900pts June 10 on inflation fears + escalation; now reversing on peace-deal headlines)
+- Today's catalysts:
+  - **US–Iran peace deal**: Trump says deal to end the war + reopen a key trade route could be finalized this weekend. Mehr News reports a 14-point draft incl. lifting oil sanctions + Iran reopening the Strait of Hormuz within 30 days. Oil crashing on this.
+  - **SpaceX IPO (ticker SPCX)**: debuts today — largest IPO in history, $75B raise, ~$1.77T valuation. Major market liquidity/volatility event.
+- Earnings before open: ~8 reports scheduled (no major megacaps identified)
+- Economic calendar: Univ. of Michigan June prelim consumer sentiment due today. Latest CPI 4.2% (as of 6/10), unemployment 4.3% (as of 6/5) — inflation still elevated.
+- Sector momentum: Energy was 2026 Q1 leader (+37% on Hormuz/geopolitical premium) but reversing hard now as peace-deal odds rise — opposite of the May thesis that justified the SLB entry.
+- SLB-specific: current price ~$57.23 (+5.4% past month, +70% YoY). BofA raised PT to $60 (Buy). 2026 Digital Investors Day June 17. Qualcomm edge-AI partnership; OneSubsea/bp Thunder Horse contract.
+
+### Trade Ideas
+No new entries — account state unknown and macro just inverted vs. the thesis behind the only open position.
+1. **SLB (existing, unconfirmed)** — May thesis (sustained high oil from Hormuz closure) is now at risk from a possible Iran peace deal crushing oil prices. If position is live with no stop, this is the top-priority item once API access returns: verify fill, place 10% trailing GTC stop immediately, reassess thesis given oil's reversal.
+2. **No new energy longs** — sector tailwind from May (Hormuz premium) is unwinding; do not add exposure into a falling-oil, peace-deal-pending tape.
+3. **SpaceX IPO (SPCX)** — too new/volatile for day-1 entry; monitor only.
+
+### Risk Factors
+- CRITICAL: Alpaca API blocked for ~4 weeks straight — cannot verify positions, cash, or stop orders. Possible unprotected SLB position is the top operational risk.
+- Binary Iran peace deal this weekend — signing = oil/energy likely keeps falling (bad for SLB); collapse of talks = oil could snap back violently. Either way, high volatility for the one open position.
+- SpaceX IPO — massive liquidity event, unpredictable market-wide flows today.
+- Inflation still 4.2%, stagflation risk persists; Dow's >900pt drop on 6/10 shows fragility.
+- Perplexity and ClickUp also returned 403 "Host not in allowlist" — same sandbox network egress restriction as Alpaca. Used native WebSearch fallback for all research.
+
+### Decision
+HOLD — no new trades. Account/API access still blocked (4th consecutive week); the only open position's thesis (oil staying elevated) just inverted on Iran peace-deal headlines. Top priority: restore Alpaca network access and verify/protect the SLB position. Patience > activity.
