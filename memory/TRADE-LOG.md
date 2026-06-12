@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-12 — Midday Scan
+**Status:** BLOCKED — network egress allowlist still blocks Alpaca and ClickUp
+
+`scripts/alpaca.sh positions` and `account` both return 403 "Host not in allowlist: paper-api.alpaca.markets". `scripts/clickup.sh` returns 403 "Host not in allowlist: api.clickup.com". No position/order data retrievable, no actions possible (loser cuts, stop tightening, notification all N/A).
+
+**State as of last confirmed data (2026-05-15):** SLB 340sh open, no trailing stop confirmed placed, fill price unconfirmed.
+
+**Action required:** Operator must add `paper-api.alpaca.markets`, `data.alpaca.markets`, and `api.clickup.com` to this environment's network egress allowlist. Until then, no scheduled routine (pre-market, market-open, midday, daily-summary, weekly-review) can execute.

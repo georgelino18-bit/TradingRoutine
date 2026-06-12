@@ -204,3 +204,16 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+## 2026-06-12 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API returned 403 "Host not in allowlist: paper-api.alpaca.markets"
+- Positions/Orders: UNAVAILABLE — same block
+- ClickUp: also blocked — 403 "Host not in allowlist: api.clickup.com"
+
+### Actions Taken
+- None — both Alpaca and ClickUp endpoints blocked by sandbox network egress allowlist. Cannot read positions/orders, cannot cut losers, cannot tighten stops, cannot notify.
+
+### Decision
+NO ACTION — environment network egress is blocking paper-api.alpaca.markets, data.alpaca.markets, and api.clickup.com. This is the same class of failure first seen on Day 1 (2026-05-14). Needs operator to add these hosts to the environment's egress allowlist before any live workflow can run. Logged to TRADE-LOG.
