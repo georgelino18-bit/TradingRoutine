@@ -31,3 +31,28 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-12 — Market-Open: BLOCKED (all external APIs unreachable)
+**Status:** CRITICAL — no trades executed
+
+- `bash scripts/alpaca.sh account` -> `HTTP/2 403`, `x-deny-reason: host_not_allowed`, "Host not in allowlist: paper-api.alpaca.markets"
+- `bash scripts/alpaca.sh positions` -> same 403 host_not_allowed
+- `bash scripts/perplexity.sh` -> `curl: (22) ... 403` (api.perplexity.ai also blocked)
+- `bash scripts/clickup.sh` -> HTTP 403, fell back to `DAILY-SUMMARY.md`
+
+`.claude/settings.json` already lists `paper-api.alpaca.markets`, `data.alpaca.markets`,
+`api.perplexity.ai`, `api.clickup.com` under `sandbox.network.allowedDomains` (added in
+commit `d06f23e`, 2026-05-14), but this session's network policy is still rejecting all
+four hosts. This is the third consecutive session (2026-05-14, 2026-05-15, 2026-06-12)
+with this exact failure — the fix has not taken effect.
+
+No account/position data could be confirmed. Last confirmed state: Day 0 baseline
+($100,000 cash, 0 positions) plus the unresolved SLB order from 2026-05-15
+(order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`, 340sh, stop never placed).
+
+**Action required (human):** This is an environment/network-policy setting on the
+session itself (chosen when the environment is created), not something fixable via
+repo commits. Re-create the session with a network policy that allows
+`paper-api.alpaca.markets`, `data.alpaca.markets`, `api.perplexity.ai`, and
+`api.clickup.com`, then re-run market-open. Also reconcile the outstanding SLB order
+manually if it filled.
