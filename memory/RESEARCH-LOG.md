@@ -204,3 +204,39 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-15 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity blocked, 30 days no activity)
+
+### Account
+- Equity: UNAVAILABLE — `bash scripts/alpaca.sh account` returns `403 Host not in allowlist: paper-api.alpaca.markets`
+- Cash / Buying power / Daytrade count: UNAVAILABLE (same block)
+- Last known state: Day 0 baseline $100,000 cash, 0 positions, PLUS an unconfirmed 340sh SLB market buy (order `6c529f05-...`) submitted pre-market 2026-05-15 whose fill price was never confirmed and whose required 10% trailing-stop GTC order was NEVER PLACED (credentials unavailable that day). No log entry since 2026-05-15 — **30 calendar days with zero account verification**.
+
+### Connectivity Diagnosis (escalation — see below)
+- `paper-api.alpaca.markets` and `api.perplexity.ai` → `403 Host not in allowlist` (network policy level, not auth). This is despite `.claude/settings.json` already listing both hosts (plus `data.alpaca.markets`, `api.clickup.com`) in `sandbox.network.allowedDomains` since commit `d06f23e` (2026-05-14).
+- `api.clickup.com` IS reachable at the network layer, but the API call itself returns `HTTP 403` (auth/permission issue with the ClickUp key, workspace, or channel ID) — message logged via fallback to DAILY-SUMMARY.md.
+- Perplexity research and Alpaca account/order access fully fall back to WebSearch per STEP 3.
+
+### Market Context (WebSearch)
+- WTI / Brent: WTI ~$80.14 (-5.6% day, -4.8% on the futures roll), Brent ~$83.77-$87.33 — crude broke below $80 for first time since March on a reported US-Iran peace deal reopening the Strait of Hormuz. **Down ~21% from the ~$101-102 level that justified the original SLB energy thesis one month ago.**
+- S&P 500 futures: Up sharply pre-market — Asia rallied, dollar softer, oil sliding on Iran deal headlines; ~59% implied odds of an up close today.
+- VIX: ~17.7 (opened lower from prior close ~19.5) — vol compressing on de-escalation news.
+- Today's catalysts: US-Iran peace deal / Hormuz reopening (dominant), Capacity Utilization, Empire State Manufacturing, Industrial Production, NAHB Housing Index. FOMC 2-day meeting starts tomorrow (decision Wed June 17).
+- Earnings before open: no major pre-market reporters identified for our universe.
+- Economic calendar: CPI (Jun 12) and PPI/jobless claims (Jun 13) already out; FOMC decision Wed June 17.
+- Sector momentum: Materials leads YTD (+22%); over the latest week Energy/Healthcare/Real Estate led while Tech/Discretionary/Communications lagged. Energy reaction to the oil drop is mixed — XOM/CVX +1% on lower input costs even as crude itself sells off.
+- SLB-specific: trading ~$57.08 (range $54.49-$57.92), Buy-rated, analyst PT ~$61. SLB Digital Investor Day June 17 (same day as FOMC).
+
+### Trade Ideas
+No new trade ideas generated — account state unverifiable and an existing position likely needs urgent stop-loss action (see below). Per strategy rule 8 (max 3 new trades/week) and "patience > activity," do not add new positions until account access is restored and the SLB stop is confirmed in place.
+
+### Risk Factors
+- **CRITICAL: possible unprotected ~20%-of-portfolio SLB position.** If the 2026-05-15 SLB buy filled, it has carried zero stop-loss for 30 days through a ~21% oil price collapse — a direct violation of strategy rule #4 (10% trailing GTC stop on every position).
+- Oil collapse to sub-$80 removes the structural catalyst (Hormuz/$101 floor) behind the SLB thesis; energy services names are exposed to lower activity/pricing if crude stays depressed.
+- FOMC decision Wed June 17 + SLB Investor Day same day = binary risk stacking on top of an unmanaged position.
+- Sandbox network policy blocks Alpaca + Perplexity at the host level — this is an environment configuration issue outside the repo (settings.json already correct) and needs the account owner to update the Claude Code on the web environment's network policy.
+
+### Decision
+HOLD (forced) — cannot place or verify any trades. **Escalating to account owner**: (1) manually verify the SLB position and fill price in the Alpaca dashboard and place the 10% trailing-stop GTC sell if missing — most urgent given the oil price move, (2) update this environment's network policy to allow `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.perplexity.ai`, `api.clickup.com` so future automated runs can function, (3) check ClickUp API key/workspace/channel — `api.clickup.com` is reachable but auth returns 403.
