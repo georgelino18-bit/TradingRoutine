@@ -31,3 +31,26 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-15 — Market-Open: BLOCKED (network egress)
+
+**Status:** CRITICAL — no API access for 1+ month running
+
+All three external APIs return `403 host_not_allowed`:
+- `paper-api.alpaca.markets` — account/positions/orders unreachable
+- `api.perplexity.ai` — research unreachable
+- `api.clickup.com` — notification unreachable
+
+`.claude/settings.json` already lists these domains in `sandbox.network.allowedDomains`
+(added 2026-05-13, commit `d06f23e`) but the sandbox network policy still denies them —
+this is an environment-level setting, not fixable from inside the session.
+
+No trades evaluated or placed. SLB position status from 2026-05-15 (340sh, order
+`6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) remains UNCONFIRMED — fill price, stop
+placement, and current P&L are still unknown after a full month.
+
+**Manual action required:** Update the Claude Code on the web environment's
+network egress allowlist (Settings) to permit `paper-api.alpaca.markets`,
+`data.alpaca.markets`, `api.perplexity.ai`, `api.clickup.com`. This cannot be
+fixed via a repo commit — the existing `.claude/settings.json` entry is being
+ignored.
