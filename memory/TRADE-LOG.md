@@ -31,3 +31,21 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-15 — EOD Snapshot (Day N, Monday) — BLOCKED
+
+**Status:** CRITICAL — All external APIs blocked by sandbox network policy
+
+`bash scripts/alpaca.sh account` (and `positions`, `orders`), `bash scripts/clickup.sh`, and `bash scripts/perplexity.sh` all return:
+```
+403 Host not in allowlist: <host>. Add this host to your network egress settings to allow access.
+```
+for `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.clickup.com`, and `api.perplexity.ai` respectively.
+
+This is a sandbox-level network egress policy issue (per-environment, configured at environment creation), distinct from `.claude/settings.json`'s `sandbox.network.allowedDomains`, which already lists all four hosts (added 2026-05-14, commit `d06f23e`). That fix did not resolve the issue.
+
+No account/position/order data could be retrieved. No EOD metrics computed. No ClickUp notification sent (ClickUp itself blocked). Last confirmed real state remains Day 0 (2026-05-13): $100,000 cash, 0 positions — over a month stale.
+
+**Action required (cannot be done from within this session):** The user/owner must enable network egress to `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.clickup.com`, and `api.perplexity.ai` in this environment's network policy settings (Claude Code on the web environment configuration, not the repo's settings.json).
+
+**Notes:** This is the same class of failure first logged 2026-05-14/05-15, now persisting a full month with zero successful EOD snapshots or trade confirmations. The SLB position/stop from 2026-05-15 (order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) remains unverified.
