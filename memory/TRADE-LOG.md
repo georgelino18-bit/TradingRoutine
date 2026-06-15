@@ -31,3 +31,22 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-15 — Midday Scan — BLOCKED (1-month-old outage persists)
+
+**Status:** CRITICAL — Alpaca, Perplexity, and ClickUp all return `403 Host not in allowlist`.
+
+No session has successfully reached the trading APIs since 2026-05-15 (one month ago).
+`.claude/settings.json` already lists `paper-api.alpaca.markets`, `data.alpaca.markets`,
+`api.perplexity.ai`, `api.clickup.com` in `sandbox.network.allowedDomains` (added 2026-05-13),
+but the environment's network egress policy is still rejecting all three hosts. This is an
+environment-level config (outside repo control) and needs the user to update the remote
+execution environment's network allowlist.
+
+Cannot execute steps 2-7 (positions/orders pull, loser cuts, stop tightening, thesis check,
+research, ClickUp notify) — no data available. Last known confirmed state remains Day 0:
+$100,000 cash, 0 positions (SLB buy order from 2026-05-15 was never confirmed filled).
+
+**Action required (user):** Update the environment's network policy to allow outbound access
+to `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.perplexity.ai`, `api.clickup.com`,
+then re-run pre-market/market-open to confirm SLB order status and resume normal operation.
