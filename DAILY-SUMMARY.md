@@ -9,3 +9,7 @@ Open positions: none confirmed (last known: 0 positions, Day 0)
 ALERT: Both Alpaca + ClickUp APIs blocked — sandbox IP not whitelisted.
 Action required: whitelist IP in Alpaca paper account settings.
 Tomorrow: whitelist IP, then run pre-market + normal workflow.
+
+---
+## 2026-06-16 11:08 UTC (fallback — HTTP 403)
+Pre-market 2026-06-16: CRITICAL — SLB thesis broken (Hormuz reopens, WTI -24% to 7). SLB -4.4% today. Stop NEVER confirmed placed (API 403). Alpaca still 403. FOMC hold expected June 17. HOLD all action until API access restored.
