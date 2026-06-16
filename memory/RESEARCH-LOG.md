@@ -204,3 +204,34 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-16 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API returning 403 (IP not allowlisted)
+- Positions: UNKNOWN — cannot retrieve
+- Cash: UNKNOWN — cannot retrieve
+- Environment outbound IP: **146.148.42.91** (must be whitelisted in Alpaca paper account settings)
+
+### Actions Taken
+- None — API inaccessible; no position data retrievable
+
+### Loser Cuts (-7% rule)
+- BLOCKED — cannot check unrealized P&L
+
+### Stop Tightening
+- BLOCKED — cannot check position gains
+
+### Thesis Check
+- BLOCKED — no position data
+
+### Intraday Notes
+- API block has persisted since 2026-05-14 across every scheduled run
+- Root cause: remote execution environment IP (146.148.42.91) not in Alpaca paper account IP allowlist
+- Fix: log into Alpaca dashboard → Paper Account → API → IP Restrictions → add 146.148.42.91
+- Note: If IP allowlist is dynamic (ephemeral container IPs rotate), consider disabling IP restriction entirely on paper account
+
+### Decision
+NO ACTION — API inaccessible. **URGENT: whitelist IP 146.148.42.91 in Alpaca paper account to restore bot functionality.**
