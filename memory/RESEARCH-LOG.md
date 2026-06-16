@@ -204,3 +204,55 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-16 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction; persistent since 2026-05-14)
+- Cash: UNKNOWN — last confirmed $100,000 (Day 0, May 13)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Open positions: UNCONFIRMED — SLB 340sh order (ID: 6c529f05) submitted pre-market May 15; fill NEVER confirmed
+- Open orders: UNCONFIRMED — trailing stop for SLB NEVER confirmed placed
+
+### ⚠️ CRITICAL — SLB Situation
+- Order 6c529f05: 340sh SLB market buy submitted May 15 — fill status unknown
+- SLB today: ~$53.71, DOWN 4.4% on US-Iran peace deal / Hormuz reopening
+- SLB 52-week high: $58.82 (May 26); current ~$53.71 (down ~$5 from peak)
+- **THESIS BROKEN**: Hormuz closure was the core catalyst → US-Iran peace deal signed June 14-15, strait reopening
+- WTI crashed from ~$101 (May) to ~$77.31 (-24%); Brent from ~$105 to ~$80.47
+- Stop order was NEVER confirmed placed — open-ended downside risk if position is live
+- Strategy rule: "Follow sector momentum" — Energy is now YTD LAGGARD
+- Action required: Immediately restore Alpaca API access → verify fill → if held, EXIT (thesis broken) or at minimum place stop
+
+### Market Context
+- WTI: ~$77.31 | Brent: ~$80.47 — down ~24% from May peak; -5% on June 15 on Iran deal
+- S&P 500 futures: ESM26 +1.22% premarket — risk-on rally; S&P closed +1.65% Monday June 15
+- VIX: ~16.20 — moderate, declining; market calming post-Hormuz resolution
+- Today's catalysts:
+  - **FOMC Day 1** (June 16-17): First meeting chaired by Kevin Warsh (sworn in May 22); rate hold at 3.50–3.75% — 97% probability per CME FedWatch
+  - Rate decision announced **Wednesday June 17 2:00 PM ET**; Warsh press conference 2:30 PM ET with updated dot plot — major binary event tomorrow
+  - Building Permits, Housing Starts, Export/Import Prices released today
+  - FIFA World Cup 2026 prediction market volumes boosting HOOD (+4.7% premarket)
+  - OMAB +7.1% on easing geopolitical tensions (Hormuz reopening beneficiary)
+- Earnings before open: ~8 reports on June 16 — no large-cap US movers
+- Economic calendar: Building Permits + Housing Starts 8:30 ET; FOMC decision June 17 2:00 PM ET
+- Sector momentum YTD: **Industrials #1 | Communications + Technology strong** | Energy = YTD LAGGARD (negative for year) | Healthcare mixed
+
+### Trade Ideas
+1. **NO NEW ENTRIES TODAY** — FOMC binary tomorrow (June 17 2pm ET); Warsh first presser + dot plot = binary risk; wait for post-FOMC clarity
+2. **Post-FOMC setup (June 17 EOD or June 18)** — If Warsh holds + signals patient stance → tech/growth rally continuation. Watch NVDA, MSFT, GOOGL for AI/momentum entry. Sector momentum now firmly Industrials + Tech. R:R and entry after press conference only.
+3. **SLB EXIT CANDIDATE** — If SLB is confirmed filled: thesis broken (Hormuz reopening), energy is YTD laggard, oil down 24% from thesis entry. Exit on next API-accessible session regardless of P&L. Do not hold a thesis-broken position.
+
+### Risk Factors
+- Alpaca API persistent 403 — cannot verify SLB fill, place stops, or execute any trade
+- SLB stop NEVER placed — if held, position has unlimited downside with no protection
+- Hormuz reopening fully breaks energy/oil services thesis
+- FOMC binary tomorrow — Warsh dot plot could surprise; hawkish tilt = tech sells off
+- Energy sector now YTD laggard — rule: follow sector momentum; energy no longer qualifies
+- WTI $77 floor not guaranteed — further supply normalization could push to $70s
+
+### Decision
+**HOLD / CRITICAL ALERT** — No new trades. Cannot act (API inaccessible). Urgent: restore Alpaca API access — verify SLB fill and place emergency stop immediately. If SLB held with any profit, exit: thesis broken. Max 3 trades/week rule unaffected (0 confirmed trades). Monitor FOMC June 17 for post-decision entry window in Tech/Industrials.
