@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-16 — EOD Snapshot (Day 34, Monday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** CRITICAL INFRASTRUCTURE ISSUE — PERSISTENT. Root cause confirmed: the Claude Code remote execution environment's **network egress policy** is blocking outbound connections to both `paper-api.alpaca.markets` and `api.clickup.com`. Error: "Host not in allowlist: add this host to your network egress settings." This is NOT an Alpaca IP whitelist issue — it is an outbound egress filter on the container side. Every scheduled session since May 14 has been unable to reach any external APIs. No account data retrieved, no trades confirmed, no ClickUp notifications sent. **Action required: In Claude Code remote environment settings, add `paper-api.alpaca.markets`, `data.alpaca.markets`, and `api.clickup.com` to the network egress allowlist.** See https://code.claude.com/docs/en/claude-code-on-the-web for environment configuration docs.
