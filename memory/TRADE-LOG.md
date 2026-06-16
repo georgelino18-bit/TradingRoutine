@@ -31,3 +31,23 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-16 — Market-Open Run (Blocked)
+**Status:** CRITICAL — Network egress blocks ALL external APIs (Alpaca, Perplexity, ClickUp)
+
+- Alpaca paper API: 403 "Host not in allowlist: paper-api.alpaca.markets"
+- Perplexity API: 403
+- ClickUp API: 403
+
+No trades placed. Cannot verify account state or SLB position from 2026-05-15.
+
+**Persistent issue since 2026-05-14 — over 1 month of API inaccessibility.**
+
+**Manual action required:**
+1. Whitelist in Claude Code remote network egress settings:
+   - paper-api.alpaca.markets
+   - data.alpaca.markets
+   - api.perplexity.ai
+   - api.clickup.com
+2. Verify SLB position and stop placement: `bash scripts/alpaca.sh positions`
+3. Re-run /market-open after network access is restored
