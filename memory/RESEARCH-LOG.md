@@ -204,3 +204,33 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-17 — Market-Open Execution (BLOCKED)
+
+### Account
+- Equity: UNAVAILABLE
+- Cash: UNAVAILABLE
+- Positions: UNAVAILABLE
+- Daytrade count: UNAVAILABLE
+
+### API Status
+- Alpaca (paper-api.alpaca.markets): **403 — Host not in allowlist**
+- Perplexity (api.perplexity.ai): **403 — Host not in allowlist**
+- ClickUp (api.clickup.com): **403 — Host not in allowlist**
+
+### Root Cause
+Remote execution environment (Claude Code on the Web) does not have these external API hosts in its network egress allowlist. All three APIs are blocked at the infrastructure level — not an authentication issue.
+
+### Action Required (owner)
+Add the following hosts to the network egress settings for this environment:
+1. `paper-api.alpaca.markets`
+2. `data.alpaca.markets`
+3. `api.perplexity.ai`
+4. `api.clickup.com`
+
+Docs: https://code.claude.com/docs/en/claude-code-on-the-web
+
+### Decision
+BLOCKED — No trades placed. No live data available. Workflow cannot run until egress allowlist is updated.
