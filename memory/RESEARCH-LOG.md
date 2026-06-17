@@ -204,3 +204,50 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-17 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, same as all prior sessions)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed fills ever)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- ⚠️ UNRESOLVED: SLB 340sh market buy order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` submitted 2026-05-15 — NEVER CONFIRMED. Status unknown. SLB currently trading ~$57.08.
+
+### Market Context
+- WTI / Brent: WTI ~$78.57 | Brent ~$78.89 — 5th straight down session; down ~25% from $101 peak. US-Iran ceasefire signed, Strait of Hormuz reopening (formal signing June 19 Switzerland). ~1.5-2M bbl/day Iranian supply returning.
+- S&P 500 futures: +0.28% premarket. SPX +9.08% YTD. Polymarket 78% odds open higher today.
+- VIX: ~15.77 — low/calm; no fear.
+- Today's catalysts:
+  - **FOMC announcement 2:00 PM ET** — Warsh's first meeting as Fed Chair. Rate hold 97% priced (3.50–3.75%). Real event = dot plot: May CPI 4.2% YoY means easing bias likely stripped, 2026 cut removed from dot. Hawkish signal risk. Press conference 2:30 PM ET.
+  - **US-Iran ceasefire** — signed agreement expected June 19. Oil down ~4-5% on removal of Hormuz premium. Energy sector thesis fundamentally broken.
+  - **BofA market-top checklist** at 70% — matches historical 7 major market tops. Cycle risk elevated.
+- Earnings before open: ~8 reports scheduled today; no mega-cap confirmed BMO.
+- Economic calendar: FOMC decision 2:00 PM ET only major release today. No CPI/PPI/jobs today.
+- Sector momentum (as of mid-June 2026):
+  - Leading: Materials (+22% YTD), Industrials, Consumer Staples, Energy (still in momentum quadrant but retreating on oil collapse)
+  - Lagging: Technology, Communications, Consumer Discretionary, Financials
+  - Improving: REITs, Utilities
+
+### SLB / Energy Thesis Review
+- **Thesis BROKEN**: WTI $78 vs $101 at thesis initiation (May 2026). Hormuz reopening removes the structural supply disruption underpinning energy capex thesis.
+- SLB at ~$57.08 (range today: $54.49–$57.92). If original order filled ~$55, currently ~+4% — above -7% cut but well below +15% tighten level.
+- Cannot verify position, stop, or P&L via API.
+- **Action required**: Confirm SLB fill status manually. If filled, energy thesis is impaired; monitor stop closely. Original 10% trailing stop from $55 = ~$49.50 floor.
+
+### Trade Ideas
+1. **XLB / Materials** — Sector YTD leader +22%. Copper, industrial metals benefit from US-China trade thaw and lower energy input costs. FCX: if pulling back from 52-week high, reassess R:R at new level — need R:R ≥2:1. No chase.
+2. **Industrials** (XLI) — Lower oil = margin tailwind for airlines, trucking, defense/aerospace. Watch GE Aerospace (GEV), RTX. Need specific catalyst before entry.
+3. **HOLD all new entries today** — FOMC at 2 PM ET is a binary event. Warsh presser could reprice rate path sharply. No new positions before announcement.
+
+### Risk Factors
+- FOMC hawkish surprise (dot plot removes cuts + Warsh signals hikes) → tech/growth selloff
+- BofA 70% warning checklist → cycle top proximity; reduce aggression
+- Energy collapse — SLB unconfirmed position may be live in a broken thesis sector
+- Oil below $75 would further pressure energy names
+- Alpaca API inaccessible — cannot place, confirm, or stop any positions
+
+### Decision
+HOLD — FOMC binary at 2 PM ET blocks all new entries today. Energy thesis structurally broken; if SLB position is live, it is at risk from oil weakness — flag for manual review. Post-FOMC reaction tomorrow: re-evaluate Materials/Industrials for entry if Warsh holds and tone isn't hawkish. Patience > activity.
