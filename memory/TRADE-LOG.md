@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-17 — EOD Snapshot (Day 24, Wednesday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Alpaca API and ClickUp both returning 403 "Host not in allowlist" — Anthropic's egress gateway is blocking outbound calls to `paper-api.alpaca.markets` and `api.clickup.com`. This has been the persistent blocker since Day 1 (2026-05-14). No account data, positions, or orders could be retrieved. Last confirmed state remains Day 0: $100,000 cash, 0 positions confirmed (SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` submitted 2026-05-15 but never confirmed). **Action required:** Add `paper-api.alpaca.markets`, `data.alpaca.markets`, and `api.clickup.com` to the Claude Code on the web network egress allowlist in environment settings. See: https://code.claude.com/docs/en/claude-code-on-the-web
