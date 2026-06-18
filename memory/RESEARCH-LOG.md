@@ -204,3 +204,48 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-18 — Pre-market Research (market-open inline — Alpaca, ClickUp, Perplexity APIs all blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 "host_not_allowed" (network egress policy blocks paper-api.alpaca.markets)
+- Cash: UNKNOWN
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Open positions: UNCONFIRMED — SLB 340sh market buy submitted 2026-05-15 (fill never confirmed; stop never placed)
+- Open orders: UNCONFIRMED
+
+### Market Context
+- WTI / Brent: WTI ~$74.56/bbl (-2.91% today) — down 25%+ from ~$101 peak; US–Iran ceasefire + Hormuz reopening crushed oil
+- S&P 500: Closed June 17 at 7,420.10 (-1.21%); Nasdaq futures +today after Fed held rates
+- VIX: ~16.41 (June 16 close); spiked to 22.22 on June 10 ahead of Fed meeting; now easing
+- Fed: Kevin Warsh first meeting concluded June 17 — rates held unchanged; rate hike signaled for late 2026
+- May Retail Sales: +0.9% MoM vs +0.5% est (strong consumer beat)
+- Earnings June 18: Accenture (ACN), Kroger (KR), CRMT, KFY
+- Sector momentum: AI/Semis leading all YTD — SNDK +464%, INTC +197%, AVGO +82%, STX/WDC ~+180%; Energy stalling (XLE -2% in Q2 after +32% Q1)
+
+### SLB Status (CRITICAL)
+- Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB submitted 2026-05-15; fill NEVER confirmed
+- SLB current price: ~$53.82 (June 16); 52-wk range $31.64–$58.82
+- Original thesis: WTI $101+, Hormuz disruption, energy sector leadership — ALL invalidated
+- WTI at $74.56 removes the key catalyst; energy sector lost momentum in Q2
+- Stop was NEVER placed (May 15 agent could not access API)
+- If filled ~$47–50: position up ~7–14% but thesis broken → TIGHTEN or EXIT
+- MANUAL ACTION REQUIRED: Check Alpaca dashboard for SLB fill/position/stop status
+
+### Trade Ideas
+1. **AVGO (Broadcom)** — AI networking momentum, +82% TTM; AI capex cycle intact; sector leader; entry TBD on open confirmation, stop 10% below entry, target +15–20%, R:R ≥2:1; size ≤20% (~$20k)
+2. **MU (Micron)** — AI memory demand (HBM), strong momentum; entry TBD, stop 10% below entry, target +15%, R:R ≥2:1; size ≤20%
+3. **HOLD SLB** — if filled and up, tighten trail to 7% (position +15%); if near breakeven or below entry -7%, exit immediately; thesis is broken
+
+### Risk Factors
+- Alpaca API inaccessible — CANNOT place or verify ANY orders from this environment
+- Rate hike signaled for late 2026 (Warsh) → valuation headwind for high-multiple semis
+- Nasdaq post-record high susceptibility to profit-taking
+- WTI at $74 may stabilize or bounce if Hormuz situation reverses
+- Iran ceasefire may not hold — binary event risk
+
+### Decision
+HOLD — Alpaca API blocked; no trades can be executed from this environment. SLB situation is CRITICAL (unconfirmed fill, no stop placed, broken thesis). Sector rotation away from energy toward AI/semis now clear. User must manually verify SLB status on Alpaca dashboard and place stop or exit. New entry candidates: AVGO, MU — queue for next API-accessible session.
