@@ -204,3 +204,42 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-18 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE
+- Positions: UNAVAILABLE
+- Cash: UNAVAILABLE
+
+### API Status
+- **BLOCKED — Network egress not configured.**
+- `paper-api.alpaca.markets` → "Host not in allowlist"
+- `data.alpaca.markets` → "Host not in allowlist"
+- `api.clickup.com` → "Host not in allowlist"
+- Root cause: Claude Code on the web environment lacks egress rules for Alpaca and ClickUp hosts.
+
+### Actions Taken
+- None — cannot reach Alpaca API to check positions, P&L, or orders.
+
+### Loser Cuts (-7% rule)
+- BLOCKED — cannot check unrealized P&L.
+
+### Stop Tightening
+- BLOCKED — cannot check position gains.
+
+### Thesis Check
+- BLOCKED — no live data.
+
+### Decision
+**NO ACTION — environment misconfigured. Manual fix required before any scheduled run can execute.**
+
+**Required fix:** In the Claude Code on the web environment settings, add these hosts to the network egress allowlist:
+- `paper-api.alpaca.markets`
+- `data.alpaca.markets`
+- `api.clickup.com`
+- `api.perplexity.ai` (for research workflow)
+
+See docs: https://code.claude.com/docs/en/claude-code-on-the-web
