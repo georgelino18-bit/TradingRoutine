@@ -204,3 +204,42 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-18 — Pre-market Research
+*Perplexity API 403 (sandbox IP restriction) — all queries via WebSearch fallback.*
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction persists, all endpoints)
+- Cash: ~$100,000 estimated (last confirmed Day 0 baseline)
+- Positions: UNCONFIRMED — SLB 340sh market buy order submitted 2026-05-15 (order ID 6c529f05); fill status unknown
+- Day trades: N/A
+- **URGENT:** SLB order fill status unresolved for 34 days. SLB currently $53.91 (-4% today). If filled ~$57 entry, position is -5.4% unrealized — approaching -7% cut threshold. Manual verification required immediately.
+
+### Market Context
+- **WTI:** $74.56 (-2.91% today) | **Brent:** ~$79.45 (Jun 17) — oil -20% from 2026 peaks
+- **S&P 500 futures:** +0.87% | **Nasdaq 100 futures:** +1.44% — bouncing after yesterday's 507-pt Dow drop
+- **VIX:** 16.41 — complacent; was 22.22 on June 10 ahead of FOMC
+- **Iran Peace Deal (MOU signed Jun 18):** Trump-Iran 14-point memorandum signed remotely, in effect. Hormuz reopening → structural oil supply glut narrative (IEA: supply +8M bpd by 2027 vs demand +2M bpd). Oil thesis that drove energy sector is now broken.
+- **Intel-Apple chip deal:** Trump confirmed on Truth Social. INTC +9% premarket. Apple to use Intel's 18A foundry process. INTC up ~250% YTD (started <$20, now ~$126).
+- **Fed (Jun 17 FOMC):** Held 3.50%-3.75% as expected. Dot plot SHOCK — 9/18 members project rate hike before year-end; median year-end 3.8% (was 3.4%); PCE inflation forecast raised to 3.6% (was 2.7%). September hike odds ~50%. Market sold off hard yesterday.
+- **Earnings today (Jun 18):** Accenture (ACN) BMO, Kroger (KR) BMO — ~13 total reports.
+- **Economic releases:** No major CPI/PPI/NFP today; next FOMC September 2026.
+- **Sector momentum YTD:** Materials +22% (leader) | Healthcare strong (flight-to-safety) | Technology (AI/semis) rebounding | Energy DAMAGED — Iran deal = Hormuz reopening = oil glut thesis
+
+### Trade Ideas
+1. **INTC — PASS:** Up ~250% YTD; +9% premarket on Apple foundry deal. Extended. Chasing a 52-week high into a Fed hike cycle = asymmetric risk. Wait for a 10-15% pullback and defined stop before considering entry.
+2. **FCX (copper/materials) — WATCHLIST:** Materials sector YTD leader (+22%). Iran deal reduces geopolitical premium but China stimulus = copper demand tailwind. Current price unknown; needs fresh entry setup with 7-10% stop below support and ≥2:1 R:R before entry.
+3. **SLB/HAL/XOM — AVOID:** Energy thesis broken by Iran peace deal. SLB -4% today, HAL -3.3%. Oil -20% from peak. E&P capex cuts will follow. Exit sector per strategy rule (2 consecutive failed trades in sector).
+
+### Risk Factors
+- Fed hawkish pivot: September rate hike ~50% odds → multiple compression on growth/tech
+- Oil glut (Iran deal + IEA supply forecast): energy sector structural headwind, not a dip
+- SLB unknown position: if filled and down >7%, must cut immediately per rules
+- Alpaca API still inaccessible: cannot verify positions, place stops, or cut losers
+- INTC momentum exhaustion: up 250% YTD — mean reversion risk after catalyst-driven spike
+- PCE inflation 3.6%: elevated inflation + rate hike = stagflation concern for discretionary/growth
+
+### Decision
+**HOLD / NO NEW ENTRY** — Energy thesis broken (Iran deal). INTC too extended post-250% run. Fed hawkish surprise adds macro headwind for growth. No high-conviction setup meeting 2:1 R:R with clean stop today. CRITICAL: Manually verify SLB fill status — if position exists and is approaching -7%, cut immediately. Resolve Alpaca API access before any trade can be placed or managed.
