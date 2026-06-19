@@ -127,7 +127,7 @@ Validate all entries at 9:31 AM ET before pulling trigger.
 - Warsh era begins with hawkish uncertainty; first FOMC June 16-17
 - Alpaca API inaccessible (IP restriction) — cannot place or verify orders
 - AMAT binary tonight; NVDA binary May 20 — two event landmines this week
-- Hormuz escalation = energy spike + growth drag (stagflation amplifier)
+- Hormuz escalation (US-Iran war ongoing) — energy shock + recession risk
 
 ### Decision
 HOLD — Two binary events pending (Trump–Xi summit, AMAT tonight). No account access to place orders. PPI stagflation alarm makes macro complex. Energy (XOM) and Materials (FCX) remain highest-conviction setups — queue both for /market-open if summit produces deal. AMAT entry deferred to post-earnings reaction tomorrow.
@@ -204,3 +204,42 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-19 — Market-Open Execution (Blocked)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 "Host not in allowlist" (IP restriction persists)
+- Cash: Unknown (last confirmed: $100,000 Day 0 baseline; no trades ever placed)
+- Buying power: Unknown
+- Daytrade count: Unknown
+- Open positions: Unknown
+
+### API Status
+- `paper-api.alpaca.markets` → 403 `x-deny-reason: host_not_allowed`
+- `api.clickup.com` → 403 `x-deny-reason: host_not_allowed`
+- Both APIs blocked at network egress level — same root cause as 2026-05-14
+
+### Market Context
+- Unable to fetch live data (Perplexity and Alpaca both blocked)
+- No trade plan in RESEARCH-LOG for today (pre-market routine did not run)
+
+### Actions Taken
+- None — cannot place orders, cannot confirm positions, cannot send ClickUp notification
+
+### Decision
+NO TRADE — API egress block prevents all trading operations.
+
+**MANUAL ACTION REQUIRED:**
+1. Go to Claude Code on the web → environment settings
+2. Add to network egress allowlist:
+   - `paper-api.alpaca.markets`
+   - `api.alpaca.markets`
+   - `data.alpaca.markets`
+   - `api.clickup.com`
+   - `api.perplexity.ai`
+3. Re-run `/market-open` after allowlist update
+4. Confirm account state — unknown since 2026-05-13
+
+---
