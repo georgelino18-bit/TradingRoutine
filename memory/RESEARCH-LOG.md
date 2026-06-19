@@ -204,3 +204,34 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-19 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked (network egress: `paper-api.alpaca.markets` not in allowlist)
+- Positions: UNKNOWN — cannot query
+- Cash: UNKNOWN — cannot query
+
+### Actions Taken
+- None — API inaccessible
+
+### Loser Cuts (-7% rule)
+- N/A — cannot read positions
+
+### Stop Tightening
+- N/A — cannot read positions
+
+### Thesis Check
+- N/A — cannot read positions
+
+### Infrastructure Status
+- Alpaca paper API (`paper-api.alpaca.markets`): **BLOCKED** — network egress restriction in remote environment
+- ClickUp API (`api.clickup.com`): **BLOCKED** — same egress restriction
+- Issue persists since 2026-05-14 (35+ days)
+- Root cause: Claude Code remote environment network policy does not allow outbound to these hosts
+- Resolution required: add `paper-api.alpaca.markets` and `api.clickup.com` to network egress allowlist in environment settings
+
+### Decision
+NO ACTION — API infrastructure blocked. Bot is blind and cannot trade. **Immediate manual fix required**: update network egress settings at https://code.claude.com/docs/en/claude-code-on-the-web to allowlist Alpaca and ClickUp endpoints.
