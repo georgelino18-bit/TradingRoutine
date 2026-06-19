@@ -177,6 +177,71 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ---
 
+## 2026-06-19 — Pre-market Research (Juneteenth Holiday — Markets CLOSED; WebSearch fallback — Alpaca + Perplexity APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, same as all prior sessions)
+- Cash: UNKNOWN — last confirmed $100,000 (Day 0, 2026-05-13); SLB 340sh market order submitted 2026-05-15 (order ID 6c529f05) — fill unverified
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Open positions: UNVERIFIED — possible SLB 340sh (fill unconfirmed)
+- NOTE: 35-day data gap (last research 2026-05-14); manual API access required to confirm portfolio state
+
+### Market Context
+- **Today: Juneteenth Federal Holiday — U.S. markets CLOSED.** MOU signing ceremony US-Iran in Geneva today (June 19).
+- WTI: ~$77/bbl | Brent: ~$79.95/bbl — dramatic collapse from May peak of $101-110 due to US-Iran peace deal (MOU signed June 15; Hormuz reopened toll-free June 15)
+- S&P 500: ~7,600 area, up ~10% YTD as of early June, multiple record highs reached; CAPE ratio 42.5 (dot-com era levels). Markets CLOSED today; resume Monday June 22.
+- VIX: ~16.41 (June 16 close) — calm; low-to-mid 16 range
+- **FOMC June 16-17 (Warsh's first meeting):** Rates HELD at 3.50-3.75% (12-0 vote); dot plot flipped hawkish — 9 of 18 members now expect a hike in 2026 (was cut in March). Median year-end rate revised to 3.8% (from 3.4%). Market pricing first hike as early as October.
+- **US-Iran MOU (June 15):** 14-point framework — ceasefire, Hormuz toll-free, US naval blockade lifted, 60-day nuclear/sanctions negotiation window. Formal signing Geneva June 19. Not final deal; implementation details disputed.
+- Oil collapse context: WTI $101 → $77 (-24%) as Hormuz reopens = major headwind for energy/oilfield services sector thesis from May
+
+### Week Ahead (June 22-26) Catalysts
+- **Tuesday June 23:** Flash PMIs (S&P Global — US, Germany, Eurozone, UK)
+- **Thursday June 25:** US PCE Price Index (KEY — inflation print post-FOMC hawkish shift), Final Q1 GDP estimate, Japan CPI
+- **PBOC policy decision Monday June 22**
+- Earnings: light week; no major confirmed reports identified
+- Macro tone: PCE on Thursday is the week's defining print — hot reading validates October hike thesis, cold reading may ease market anxiety
+
+### SLB Position Assessment (if filled)
+- SLB at $53.91 (June 8, 2026), up 34.1% YTD; 52-week high $58.01
+- May entry thesis: Hormuz disruption = E&P capex acceleration (oil $101). That thesis has INVERTED — WTI now $77 (-24%)
+- E&P companies typically slash capex within weeks of sharp oil price declines — lagging SLB revenue risk
+- If 340sh SLB filled ~$47-52 in May: at $53.91 = roughly +4-15% unrealized. Trailing stop (10%) should still be active.
+- **Stop check required ASAP:** Must verify fill price, unrealized P&L, and whether 10% trail stop (GTC order) was ever placed. If WTI holds $77 → consider tightening or exiting SLB.
+- CRITICAL: Cannot place, verify, or manage any orders until API access is restored
+
+### Sector Momentum (June 2026)
+- Leaders: Healthcare (+22% YTD), Materials (breakout potential), Tech/AI (Nvidia driving Nasdaq records)
+- Energy: structurally weakened — WTI $77 vs May peak $101; thesis may be over unless Hormuz deal collapses
+- FOMC hawkish pivot = headwind for rate-sensitive sectors (REITs, Utilities, Discretionary)
+
+### Trade Ideas (for Monday June 22 — if API access restored)
+1. **Healthcare sector leader (XLV or high-conviction name)** — +22% YTD, defensive in high-CAPE environment, Warsh hawkish era favors quality. Catalyst: PCE data June 25 could amplify if hot (flight to defensive). Entry: sector breakout candidate with 10% stop, target +15%, R:R ≥2:1. Size ≤20%.
+2. **NVDA / AI infrastructure** — S&P hitting records driven by AI capex; Nvidia new PC processor launched; momentum intact. Risk: CAPE 42.5 = multiple compression danger; not a new entry unless clear momentum catalyst. MONITOR only.
+3. **SLB EXIT candidate** — If position confirmed open, evaluate closing given Hormuz resolution (thesis inverted). Do NOT add to energy. Await fill confirmation.
+- **NEW ENTRIES: 0 — cannot trade without API access. Hold queue until access restored.**
+
+### Risk Factors
+- Alpaca API 403 (IP restriction) — CRITICAL: cannot manage stops, cut losers, or place orders; account blind for 35+ days
+- FOMC hawkish tilt: October rate hike priced → growth/tech multiple compression risk; CAPE 42.5 is vulnerable
+- US-Iran MOU fragile: "framework not final deal"; implementation disputes could re-escalate Hormuz
+- PCE June 25 — if hot, accelerates hike expectations; risk-off for high-multiple equities
+- SLB stop never confirmed placed (May 15 session aborted due to no .env file); position may have no stop protection
+- 35-day portfolio blindness — unknown current state, possible drawdowns unmanaged
+
+### Decision
+**HOLD / MONITOR — Markets closed today (Juneteenth). No trades possible.**
+Priority for Monday June 22:
+1. Restore Alpaca API access (whitelist remote sandbox IP) — URGENT
+2. Verify SLB fill + stop status immediately on access restoration
+3. If SLB filled with no stop → place 10% GTC trailing stop immediately
+4. Assess SLB thesis: WTI $77 = thesis inverted; lean toward exit if energy sector weakening
+5. Research Healthcare sector leadership names for first new position (if ≤5 positions open and capital headroom allows)
+Patience > activity. API blindness is the #1 risk; resolve before any new trade.
+
+---
+
 ## 2026-05-14 — Midday Scan
 
 ### Account
