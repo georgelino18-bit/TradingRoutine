@@ -204,3 +204,49 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-22 — Pre-Market Research (WebSearch fallback — Perplexity + Alpaca APIs returning 403)
+
+### Account Snapshot
+- **Equity / Cash / Buying Power:** UNAVAILABLE — Alpaca API 403 (IP restriction persists since May 14)
+- **Positions:** UNKNOWN — SLB 340sh market buy submitted 2026-05-15 (order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) NEVER CONFIRMED. Must verify manually.
+- **Day Trades (DTD):** UNKNOWN
+- **Action required:** Whitelist sandbox IP in Alpaca paper-trading dashboard to restore API access
+
+### Market Context
+- **WTI:** ~$77.54/bbl (+0.27% today; BUT -8% on the week — US-Iran nuclear deal talks progressing, easing Hormuz/supply fears)
+- **Brent:** ~$79 (-4% premarket today; hedge funds ramping bearish bets on Iran deal supply unlock)
+- **S&P 500 Futures:** ~7,556 (range 7,537–7,568); market attempting recovery after post-FOMC selloff
+- **VIX:** ~16.78 — calm; peaked at 22.22 on June 10 (pre-FOMC anxiety), now below long-term avg; 52-wk high 31.05 (late March)
+- **FOMC (Warsh):** Held rates June 16-17; hawkish on inflation. PCE Thursday (May print) the week's key release — Wells Fargo expects +0.5% MoM / 4.1% YoY; core PCE +0.3% / 3.4% YoY
+- **Earnings today BMO:** No major names (23 minor reports)
+- **Earnings this week:** FDX after close Tuesday; **MU after close Wednesday June 24** (binary event — EPS est $19.95, +942% YoY; rev est $34.66B; MU at ~$1,145)
+- **Geopolitics:** US-Iran nuclear deal talks "notable progress" → WTI structural bid from Hormuz COLLAPSING. Core energy thesis fundamentally changed since May 15.
+
+### Sector Momentum (YTD 2026)
+- **Leading:** Energy (+22% YTD), Healthcare, Consumer Staples, Industrials, Materials
+- **Cooling:** Technology (AI capex ROI questions mounting; Nasdaq lagging from peak)
+- **Note:** Energy leads YTD but losing momentum NOW — Iran deal supply unlock is a sector headwind. Memory/semis (SK Hynix +350% YTD, MU +700% YoY) dominating near-term flows
+
+### Held Ticker News — SLB
+- SLB last print: $53.82 (June 16); 52-wk range $31.64–$58.82; analyst avg target $62.36 (high $71)
+- 25/27 analysts: BUY. YoY: +74.52%. 30-day: +3.59%
+- **THESIS CHANGE:** WTI dropped from ~$101 (entry thesis) to ~$77 (-24%). Iran deal supply unlock removes the Hormuz structural bid that drove the original SLB thesis. Near-term oilfield services capex at risk if WTI < $75.
+- **IF SLB position exists:** 340sh × ~$54 entry = ~$18.4k (~18% of portfolio). Current ~$53.82 ≈ flat. 10% trailing stop = ~$48.60 floor. Not triggered. BUT thesis is broken — monitor for exit signal.
+
+### Trade Ideas
+1. **SLB (existing / unconfirmed)** — IF filled: thesis weakened by Iran deal. Hold only while above 10% trail; manually exit if WTI breaks $73 (capex cut trigger). Do NOT add. PRIORITY: verify position via manual Alpaca login.
+2. **MU (post-earnings Wednesday)** — Binary event June 24 after close. EPS est $19.95 (+942% YoY). Bar is extremely high at $1,145/sh. If beats + strong guidance → entry Thursday open; stop 10% below reaction low; target +15%; size ≤20%. DO NOT enter before binary.
+3. **Memory sector (LRCX / KLAC)** — SK Hynix +5.6% today signals AI memory demand boom intact. Watch for MU beat to lift sector; entry post-MU reaction only.
+
+### Risk Factors
+- Iran nuclear deal finalizing → WTI sub-$75 possible → SLB/energy thesis breaks
+- PCE Thursday: +0.5% MoM upside surprise → Warsh hawkish pivot → rate selloff
+- MU binary Wednesday: expectations at record highs ($1,145/sh, 942% EPS growth) — any miss = violent flush across memory/semis
+- Alpaca API inaccessible — CANNOT place stops, verify positions, or execute any trades. Critical operational risk.
+- SpaceX IPO (SPCX) -3.59% premarket — risk-off sentiment in speculative names
+
+### Decision
+**HOLD** — Cannot trade (Alpaca API inaccessible). Even if API restored: no new entries ahead of MU binary Wednesday or PCE Thursday. SLB thesis weakened but stop not triggered — hold and monitor. Manual action required: login to Alpaca dashboard to verify SLB fill status and confirm trailing stop is live at ≥$48.60.
