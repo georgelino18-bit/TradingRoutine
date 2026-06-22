@@ -204,3 +204,32 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-22 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 `host_not_allowed` (network egress restriction)
+- Positions: UNVERIFIABLE — last known state: 0 positions, $100k cash (2026-05-13)
+- SLB order (6c529f05) from 2026-05-15: status unknown
+
+### Actions Taken
+- None — API inaccessible; cannot read positions, place orders, or verify stops
+
+### Loser Cuts (-7% rule)
+- N/A — cannot access position data
+
+### Stop Tightening
+- N/A — cannot access position or order data
+
+### Thesis Check
+- N/A — cannot access position data
+
+### Intraday Notes
+- All three APIs blocked: Alpaca, ClickUp, Perplexity (`host_not_allowed` 403)
+- This restriction has persisted since 2026-05-14 — over 5 weeks
+- No trading activity possible until egress allowlist is updated
+
+### Decision
+NO ACTION — API egress blocked. **Manual intervention required:** add `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.clickup.com`, `api.perplexity.ai` to network egress allowlist in environment settings.

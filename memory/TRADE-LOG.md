@@ -31,3 +31,24 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-22 — Midday Scan (12:00 ET)
+**Status:** BLOCKED — All external APIs inaccessible (network egress restriction persists)
+
+- Alpaca (`paper-api.alpaca.markets`): 403 `host_not_allowed`
+- ClickUp (`api.clickup.com`): 403 `host_not_allowed`
+- Perplexity (`api.perplexity.ai`): 403 `host_not_allowed`
+
+**No positions could be verified. No actions taken. No stops confirmed or adjusted.**
+
+Last known state (2026-05-13): $100,000 cash, 0 positions.
+SLB order from 2026-05-15 status unknown — cannot verify fill or stop placement.
+
+**Action required (manual):**
+1. Add these hosts to network egress allowlist in Claude Code on the web environment settings:
+   - `paper-api.alpaca.markets`
+   - `data.alpaca.markets`
+   - `api.clickup.com`
+   - `api.perplexity.ai`
+2. Verify SLB order status manually via Alpaca dashboard
+3. Confirm all stops are in place before next session
