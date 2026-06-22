@@ -177,6 +177,43 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ---
 
+## 2026-06-22 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (host_not_allowed, network egress block persists since 2026-05-14)
+- Cash: ~$100,000 estimated (Day 0 baseline; SLB fill unconfirmed — see TRADE-LOG)
+- Buying power: UNKNOWN
+- Daytrade count: 0 (estimated — no confirmed trades)
+
+### Market Context
+- WTI / Brent: WTI ~$77.54 (down 23% from ~$101 in May; -17.4% past month; energy sector headwind)
+- S&P 500: Tech/AI-led recovery; FOMC held 3.50–3.75% but hawkish dots (9 officials project hikes, 6 project 2+)
+- VIX: ~18.55 (moderate; opened 18.70, range 18.50–18.96)
+- Sector leaders (June): Semis/AI (recovering from early-June 10% SOXX crash), Defense, Industrials
+- Sector laggards: Energy (oil down hard), REITs, Consumer Staples
+- Today's catalysts: No major earnings Monday. AVGO ex-div $0.65 today — avoid entry.
+- Earnings this week: FDX Tuesday 6/23, MU Wednesday 6/24 (MU at all-time highs ~$1,145 — binary risk)
+- Semis context: Early June selloff — NVDA dropped 6% ($5T mktcap breach), AVGO -22% on weak AI guide miss; both recovering. NVDA ~$210.69 today.
+- SLB: ~$53.82 as of 6/16; -14.1% last week (week of June 15); 52-wk high $58.82 — energy pullback accelerating
+
+### Trade Ideas
+1. **NVDA** — Semis recovering; AI capex intact ($650–725B 2026 est); FOMC hold removes acute headwind; entry ~$210–213 on open confirmation; stop $190 (~10% below); target $252 (+20%); R:R ~2.1:1; size ≤20% (~$20k ≈ 94 shares). **Highest conviction when API restored.**
+2. **MU** — PASS — binary Wednesday after close (all-time highs, expectations elevated)
+3. **AVGO** — Monitor; ex-div today, post-earnings gap still healing; re-evaluate next week
+4. **SLB** — VERIFY FIRST: check if stop was filled; oil down 23% from entry context — may already be stopped out
+
+### Risk Factors
+- Alpaca API blocked (403 egress) — NO trades can be placed; persistent 5+ weeks
+- SLB: stop was never confirmed placed (2026-05-15 credential failure); position may be unprotected or already stopped
+- FOMC hawkish dots: 2+ rate hikes possible in 2026 — headwind for growth/semis
+- MU binary Wednesday: if disappoints, Nasdaq flush risk
+- Oil collapse ($101→$77) invalidates energy thesis from May; energy positions at risk
+
+### Decision
+HOLD — API blocked, no trades possible. NVDA is highest-conviction setup for when API is restored. CRITICAL: manually verify SLB position and ensure stop is placed before next session.
+
+---
+
 ## 2026-05-14 — Midday Scan
 
 ### Account
