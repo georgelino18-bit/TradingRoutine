@@ -204,3 +204,58 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-23 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction, persistent across all prior sessions)
+- Cash: ~$100,000 estimated (no confirmed fills; SLB 340sh order from 2026-05-15 UNVERIFIED)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Note: Perplexity API also 403 — all research via WebSearch fallback
+
+### Market Context
+- **WTI:** ~$73.67 (-0.26%) — 3-month low; Iran MOU driving supply relief
+- **Brent:** ~$76.68-77.52 (range 76.16-77.90); extending losses as Hormuz reopens
+- **S&P 500 futures:** -1.43% premarket — broad tech selloff; Nasdaq under pressure
+- **VIX:** ~16-22 range; was 22.22 June 10; likely high teens today given futures weakness
+- **FOMC (June, Warsh's first):** Held 3.50-3.75%; hawkish dot plots — 9 officials lean toward hikes, 6 projecting 2+ hikes in 2026; growth headwind
+- **Today's catalysts:**
+  - GOOGL -6.5% (was -5% premarket) — Noam Shazeer (Gemini VP) left to OpenAI; John Jumper (Nobel laureate, AlphaFold) left to Anthropic; $269B market cap lost in 5 weeks; contagion to AMZN, META, MSFT
+  - US–Iran MOU signed ~June 19 Geneva — Strait of Hormuz reopening; 60-day nuclear negotiation window; WTI dropped from ~$93 to ~$74 in weeks → **ENERGY THESIS BROKEN**
+  - GDP 3rd Release 8:30 ET today
+  - Michigan Consumer Survey Final 10:00 ET today
+  - Micron (MU) earnings TOMORROW June 24 after close — $20.25 EPS consensus (+942% YoY), $34.66B revenue; all 2026 HBM contracted; crossed $1T market cap; binary risk — do not enter before print
+- **Earnings before open (June 23):** SMCI, AAL, AVAV, BWIN, APGE among ~29 reports; no high-conviction setup
+- **Sector momentum YTD 2026:** Materials (+22%, LEADER), Industrials, Consumer Staples, Energy — LEADING; Technology, Comms, Discretionary, Financials — LAGGING; Healthcare weakening after flight-to-safety run
+
+### CRITICAL FLAG — SLB Position
+- Original SLB thesis: WTI ~$101, Hormuz structural closure → E&P capex acceleration
+- Current WTI: ~$73.67 (-27% from thesis basis); Hormuz reopening per Iran MOU
+- SLB current price: ~$57.08
+- **Thesis is FUNDAMENTALLY BROKEN** — Hormuz reopening eliminates supply-disruption premium
+- If SLB 340sh order from 2026-05-15 was ever filled (~$47-50 entry range): position may be profitable (+14-21%) but thesis catalyst is gone — exit criteria met (thesis invalidated)
+- **Manual action required:** Verify SLB via `bash scripts/alpaca.sh positions` when API accessible; if held, EXIT immediately
+
+### Trade Ideas
+1. **MU (post-earnings)** — Reports June 24 after close. If beat + strong HBM guidance → enter June 25 at open, stop 10% below reaction low, target +15%. Size ≤20%. DO NOT enter before binary. Tech sector is lagging but AI/memory is the exception; Micron $1T market cap, 272% revenue growth YoY, fully contracted HBM. Risk: last Q was beat + bullish guidance but bearish reaction — expectations are very high.
+2. **Defense/Industrials (RTX or LMT)** — Post-Iran war defense spending elevated; Industrials in sector momentum leadership. RTX/LMT: clear catalyst (defense budget expansion post-conflict), sector tailwind. Entry on any dip; stop 10% below entry, target +15%. Size ≤20%.
+3. **GOOGL (contrarian, NOT YET)** — Down 6.5% on AI talent. At ~$344. Selling may not be done. Wait for stabilization + volume exhaustion before considering entry. Thesis: Google still leads in AI infrastructure and ad revenue despite talent departures. R:R needs to clear 2:1 from entry level. WATCH ONLY.
+
+### Risk Factors
+- Tech selloff contagion — GOOGL talent risk spreading to broader Mag 7; Nasdaq futures -1.4%+ premarket
+- FOMC hawkish (Warsh era) — higher-for-longer scenario kills growth multiples; rate hike risk in H2 2026
+- Micron binary (June 24) — massive expectations priced in; beat may not be enough
+- Oil thesis reversal — WTI at $73, Hormuz reopening; energy positions must be reassessed
+- Alpaca API inaccessible — cannot confirm SLB position or place stops/exits
+- GDP surprise today (8:30 ET) — weak GDP could compound risk-off move
+
+### Decision
+**HOLD — no new entries today.**
+- Tech sector in broad selloff; wait for stabilization
+- Micron binary tomorrow — set up for June 25 post-earnings entry if beat confirms
+- Defense/Industrials (RTX/LMT) is the highest-conviction setup once tech dust settles
+- **URGENT: Resolve Alpaca API access — SLB thesis broken; if position held, EXIT**
+- Max 3 trades/week rule: preserve capacity for MU post-earnings setup (June 25)
