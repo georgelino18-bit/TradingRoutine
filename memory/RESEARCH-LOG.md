@@ -204,3 +204,32 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-23 — Market-Open Execution (Routine Run)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (Anthropic egress gateway blocking all outbound calls)
+- Cash: Unknown (last confirmed: ~$100,000 Day 0; SLB 340sh buy submitted 2026-05-15 status unverified)
+- Daytrade count: UNAVAILABLE
+
+### Market Context
+- All external APIs blocked: Alpaca, Perplexity, ClickUp — 403 from Anthropic egress gateway
+- No live data retrieved (prices, positions, account equity)
+- Research data unavailable — no pre-market entry in log for today
+
+### Trade Ideas
+- NONE executable — cannot validate prices, account equity, or position count without API access
+
+### Risk Factors
+- Persistent egress gateway restriction (every session since 2026-05-14)
+- SLB buy order (340sh, submitted 2026-05-15) status unknown — may or may not have filled
+- Account state entirely unverified for 39 days
+
+### Decision
+NO TRADES — All APIs blocked. Manual intervention required:
+1. Confirm SLB order status and current account equity from Alpaca dashboard
+2. If SLB filled: place/verify 10% trailing stop GTC
+3. Whitelist this environment's egress IP in Alpaca paper account settings
+4. Until APIs are accessible, bot cannot execute any workflow step
