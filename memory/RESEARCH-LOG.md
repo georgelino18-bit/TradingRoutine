@@ -204,3 +204,48 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-24 — Pre-market Research
+
+**NOTE: Perplexity API blocked by proxy egress policy (403). All research via WebSearch fallback.**
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked by proxy egress policy (paper-api.alpaca.markets 403)
+- Cash: ~$100,000 estimated (no confirmed trades since launch)
+- Buying power: ~$100,000 estimated
+- Daytrade count: UNKNOWN
+- Open positions: UNKNOWN — SLB order (340sh, Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) submitted 2026-05-15, NEVER CONFIRMED; API has been inaccessible since
+- **⚠️ URGENT — SLB SITUATION**: SLB now trading ~$47.95 (June 22 close). If filled at ~$54 entry target → unrealized loss ~-11.2% (BELOW -7% cut rule AND below 10% trailing stop level ~$48.60). Manual verification and immediate action REQUIRED before market open. Check Alpaca directly via browser.
+
+### Market Context
+- WTI / Brent: WTI $72.50–74.44 | Brent $76.16–77.90 — sharp drop from $101/$110 in May; US–Iran ceasefire MoU June 15 + Treasury issued 60-day Iran oil sales license → supply concerns eased; HOWEVER Hormuz fragile (Tehran reportedly re-closed it; Trump threatened fresh strikes June 22)
+- S&P 500 futures: Tick higher (+~0.2–0.5%) after two straight sessions of losses; Nasdaq 100 lost $1T market cap Mon–Tue; memory chips bouncing pre-market (MU +3.8%, Sandisk +3.5%)
+- VIX: ~19.49 (elevated; up from 16.41 on June 16; 52-wk high ~35.30)
+- Today's catalysts:
+  - **MU (Micron) earnings AFTER CLOSE tonight** — Q3 FY2026; EPS est $20.57–$20.83, Rev est ~$35B; HBM demand/guidance is THE number; MU at $1,145 (vs $460 last quarter) — expectations extreme; options imply ~13% move; semis (SOXX) already down -7.88% yesterday
+  - **BoA rate hike note (issued June 22–23)** — BofA now forecasts 3 quarter-point hikes in 2026 (Sep, Oct, Dec) vs prior expectation of cuts; this triggered 2-day Nasdaq selloff and is the dominant macro theme
+  - Debt-funded hyperscaler AI spending under scrutiny — tech/AI valuation stretch questioned; Nasdaq down 2.2% yesterday (580 pts)
+  - South Korea equity market crash contributed to Asian-led semiconductor rout yesterday
+  - PAYX (Paychex) Q4 FY2026 earnings BMO — Rev est $1.6B (+12.3% YoY); payroll/employment indicator
+- Earnings before open: PAYX (Paychex) Q4 FY2026 BMO; ~16 total reports today
+- Economic calendar: No major data identified today; next key = FOMC (next meeting TBD post-June 16–17 meeting); BoA rate hike forecast shift is the dominant macro narrative
+- Sector momentum: Materials leading YTD (+22%, inflation hedge); Healthcare (flight to safety); Energy lagging (May laggard; oil -28% from May highs); Tech/Semis cooling sharply after AI runup; Consumer Staples, Industrials holding
+
+### Trade Ideas
+1. **MU post-earnings play** — DO NOT enter before binary tonight. If gap-up tomorrow on HBM beat + tight supply guidance → evaluate entry at open; stop 10% below reaction low; target +15%. BUT: MU at $1,145 is elevated; expectations extremely high; entry R:R must clear 2:1 minimum before committing. Size ≤20% (~$20k). Caution — semis took -7.88% rout yesterday; if MU disappoints, another major leg down.
+2. **Materials (NEM / FCX)** — Materials +22% YTD, acting as sticky-inflation hedge; if BoA rate hike narrative drives stagflation trade → gold/copper names may lead. NEM (gold) safer play if risk-off persists. Need specific setup and R:R analysis at open. DO NOT chase without catalyst confirmation.
+3. **Energy (SLB/HAL)** — PASS. Energy thesis broken: WTI at $73 vs $101 in May, Hormuz ceasefire (fragile but holds for now); E&P capex acceleration thesis weakened. SLB itself potentially at a -11% loss if order was filled — resolve before any new energy idea.
+
+### Risk Factors
+- **API CRITICAL**: Alpaca and Perplexity both blocked by proxy egress policy → cannot place orders, verify positions, or confirm stops; manual Alpaca browser access required
+- **SLB UNRESOLVED**: ~340sh order May 15 never confirmed; if filled at ~$54, now -11.2% at $47.95 — below -7% cut rule; requires IMMEDIATE manual check
+- BoA rate hike shock: 3 hikes (Sep/Oct/Dec) vs prior cut path — major headwind for growth/tech, compresses P/E multiples
+- MU binary tonight: extreme expectations (MU 3× since last quarter); 13% implied vol; if disappoints → SOXX -10%+ possible
+- Hormuz fragile: ceasefire MoU is not a final deal; Hormuz reportedly re-closed (per CNBC June 22); any re-escalation spikes oil and kills growth names
+- VIX 19.49 elevated — risk-off; not panic, but not buy-the-dip territory without clarity
+- South Korea market crash + Asian semi rout — global risk-off ripple not fully absorbed
+
+### Decision
+**HOLD** — API inaccessible (cannot trade anyway). SLB situation requires urgent manual resolution before any new trade. MU binary tonight is only near-term actionable catalyst; wait for post-close reaction. BoA rate hike narrative + VIX 19.49 + Hormuz fragility = patience > activity. If MU beats cleanly with HBM upside, re-evaluate at tomorrow's pre-market. No new entries today.
