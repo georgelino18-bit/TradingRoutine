@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-24 — EOD Snapshot (Day ~29, Wednesday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Alpaca API (`paper-api.alpaca.markets`) continues to be blocked by the Claude Code remote environment's egress proxy policy — 403 on every CONNECT attempt. ClickUp API is also blocked (`api.clickup.com`). This has been the persistent state since Day 1 (2026-05-14). Last confirmed portfolio state: $100,000 cash, 0 confirmed positions. The SLB market-buy order (ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`, 340sh, submitted pre-market 2026-05-15) has an unknown fill status — cannot verify via API. **Action required by user:** The Claude Code remote session's network policy must whitelist `paper-api.alpaca.markets` and `api.clickup.com` before this bot can operate. See proxy docs at https://code.claude.com/docs/en/claude-code-on-the-web.
