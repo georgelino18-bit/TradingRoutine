@@ -204,3 +204,44 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-24 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (cloud proxy egress policy blocks paper-api.alpaca.markets)
+- Cash: Unknown (SLB order placed May 15 — fill status unconfirmed)
+- Buying power: Unknown
+- Daytrade count: Unknown
+- Open positions: Unknown — SLB 340sh order submitted 2026-05-15, never confirmed filled
+
+### Market Context
+- WTI / Brent: WTI ~$72.06 | Brent ~$75.86 — DOWN ~29% from May peak (~$101); Iran peace deal progress restoring Hormuz flow
+- S&P 500: ~7,433 (down 1.33% today); Nasdaq +16% YTD, S&P +11% YTD
+- VIX: ~19.49 (up from ~18 in May; moderate volatility, well below Q1 peak of 31)
+- Today's catalysts:
+  - Micron (MU) earnings after close: EPS est +$20.05 (+946% YoY), revenue $35B (+276% YoY) — AI memory demand
+  - Japan BOJ Summary of Opinions release
+- Earnings before open: None major
+- Economic calendar:
+  - Thursday June 26: PCE inflation (Fed's preferred gauge) — est +0.5% MoM, core +0.3% YoY
+  - Dallas Fed Manufacturing Survey June 26
+- Sector momentum YTD: Energy still leading (crude-adjusted), Tech strong, Financials strong | Semis volatile
+- US-China: 60-day tariff pause (June 11 summit); US tariffs on China at 30%; rare earths resuming
+
+### Trade Ideas
+1. **MU (Micron)** — AI memory capex cycle; earnings tonight. DO NOT enter before binary. If gap-up on beat + strong HBM guidance → consider entry tomorrow. Stop 10% below reaction low, target +15%, R:R ≥2:1. Size ≤20%.
+2. **SLB** — Digital AI marketplace (June 15 launch), UBS target raised to $69. Oilfield services less crude-sensitive than E&P. BUT: crude dropped ~29% since our thesis; entry fill unconfirmed. Cannot act until API access restored.
+3. **Energy sector**: Original thesis partially reversed — Hormuz disruption easing, WTI $72 vs $101. Refiner thesis (MPC) weakened. Oilfield services (SLB) holding on AI/digitization tailwinds.
+
+### Risk Factors
+- Alpaca AND ClickUp APIs both blocked by environment egress policy — CANNOT TRADE OR NOTIFY
+- SLB position status unknown — may have ~-29% crude headwind if filled at May prices
+- Micron binary tonight — do not enter before print
+- PCE Thursday — hot print = hawkish repricing
+- Iran peace deal = energy sector structural headwind if crude stays $70-75
+- VIX at 19.49, market risk-off today — not ideal entry environment
+
+### Decision
+HOLD — Cannot access Alpaca API to verify account, positions, or execute any orders. Egress policy blocks paper-api.alpaca.markets. No trades possible until API access restored. MU post-earnings entry possible tomorrow if beat confirmed. SLB thesis needs re-evaluation given crude reversal.

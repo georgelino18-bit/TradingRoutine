@@ -31,3 +31,21 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-24 — Market-Open Session (API Blocked)
+**Status:** CRITICAL — Alpaca API blocked by cloud proxy egress policy (403 on paper-api.alpaca.markets). No trades executed.
+
+**Account state:** Unknown. SLB fill from 2026-05-15 (order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) still unconfirmed — 40 calendar days unresolved.
+
+**Market context:** WTI crude ~$72 (down ~29% from May $101 on Iran peace deal). S&P 500 ~7,433 (-1.33% today). VIX ~19.49. Micron earnings tonight.
+
+**Trades fired:** NONE — API inaccessible.
+
+**Trades this week (June 23–27):** UNKNOWN — cannot query Alpaca.
+
+**Action required:**
+1. Restore API access (see Alpaca paper account → OAuth Apps / API access settings)
+2. Run `bash scripts/alpaca.sh positions` — confirm SLB fill status and current P&L
+3. If SLB filled and down >7%: CUT immediately (energy thesis reversed, crude -29%)
+4. If SLB filled and trailing stop not yet placed: place 10% GTC trailing stop NOW
+5. Consider MU entry tomorrow if Micron beats tonight (AI memory demand, post-earnings gap-up)
