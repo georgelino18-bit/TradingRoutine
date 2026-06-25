@@ -204,3 +204,32 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-25 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked by environment proxy (403 CONNECT rejected for paper-api.alpaca.markets)
+- Positions: UNKNOWN (cannot retrieve)
+- Cash: UNKNOWN
+
+### API Status
+- `bash scripts/alpaca.sh positions` → 403 Forbidden (proxy policy denial)
+- `bash scripts/alpaca.sh orders` → 403 Forbidden (proxy policy denial)
+- Root cause: Remote execution environment proxy blocks outbound CONNECT tunnel to paper-api.alpaca.markets:443
+
+### Actions Taken
+- None — API inaccessible; cannot evaluate positions, cuts, or stops
+
+### Loser Cuts (-7% rule)
+- BLOCKED — cannot retrieve position P&L
+
+### Stop Tightening
+- BLOCKED — cannot retrieve position data
+
+### Thesis Check
+- BLOCKED — cannot retrieve positions
+
+### Decision
+NO ACTION — Alpaca API unreachable from this environment (persistent proxy block). **Action required: whitelist paper-api.alpaca.markets in environment network policy, or grant direct API access without proxy filtering.**
