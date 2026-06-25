@@ -9,3 +9,11 @@ Open positions: none confirmed (last known: 0 positions, Day 0)
 ALERT: Both Alpaca + ClickUp APIs blocked — sandbox IP not whitelisted.
 Action required: whitelist IP in Alpaca paper account settings.
 Tomorrow: whitelist IP, then run pre-market + normal workflow.
+
+---
+## 2026-06-25 13:34 UTC (fallback — ClickUp not configured)
+MARKET-OPEN 2026-06-25: Alpaca API blocked by egress policy (proxy 403 — paper-api.alpaca.markets not allowlisted). No trades placed. No account data available. Manual action required: run /market-open from a whitelisted environment.
+
+---
+## 2026-06-25 13:34 UTC (fallback — curl network error)
+MARKET-OPEN 2026-06-25: Alpaca API blocked by egress policy (proxy 403). No trades placed. Manual action required from whitelisted environment.

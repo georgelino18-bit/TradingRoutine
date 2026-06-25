@@ -204,3 +204,38 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-25 — Pre-market Research (Market-Open Run)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress policy blocks paper-api.alpaca.markets:443)
+- Cash: UNKNOWN (last confirmed: $100,000 Day 0; SLB 340sh order submitted 2026-05-15 — fill unconfirmed)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+
+### API Status
+- Alpaca: BLOCKED — proxy egress policy denial (403 CONNECT tunnel)
+- ClickUp: BLOCKED — same egress policy
+- Perplexity: BLOCKED — same egress policy
+
+### Trade Ideas
+- NONE — cannot validate live prices or account state
+
+### Risk Factors
+- Cannot place, verify, or manage any orders
+- SLB position from 2026-05-15 may be live and unmonitored (no 10% trailing stop confirmed)
+- Account state unknown for 40+ days
+
+### Decision
+NO ACTION — All APIs blocked by sandbox egress policy. Manual intervention required from a whitelisted IP.
+
+**Manual action required:**
+1. `bash scripts/alpaca.sh account` — confirm equity and cash
+2. `bash scripts/alpaca.sh positions` — check if SLB (340sh) is open
+3. If SLB open and no stop: place trailing stop immediately
+4. Check weekly trade count before any new trades
+5. Whitelist sandbox IP in Alpaca paper account settings or run from local machine
+
+---
