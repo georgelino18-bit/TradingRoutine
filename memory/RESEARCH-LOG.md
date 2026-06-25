@@ -204,3 +204,45 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-25 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403 by proxy policy)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (proxy policy blocks paper-api.alpaca.markets)
+- Cash: ~$100,000 estimated (no confirmed fills since Day 0)
+- Buying power: ~$100,000 estimated
+- Daytrade count: UNKNOWN
+- ⚠️ CRITICAL: SLB 340sh market buy (order ID: 6c529f05) submitted 2026-05-15 — fill status UNKNOWN. No stop was ever confirmed. WTI has crashed from ~$101 to <$70 since that order. If filled ~$57, position is down ~16% with no stop. Immediate manual check required.
+
+### Market Context
+- **WTI / Brent**: WTI <$70 | Brent <$74 — US-Iran peace deal signed; Strait of Hormuz reopening; supply fear premium collapsed. Oil -30% from May peak. Energy thesis INVALIDATED.
+- **S&P 500 futures**: +0.79% — Micron (MU) blowout earnings (+15% premarket) reviving AI/semiconductor trade
+- **VIX**: 18.63 (6/24 close) — range 15.18–23.34 past 30 days; elevated, manageable
+- **Fed**: Held rates at 3.50–3.75% (June FOMC, Warsh's first meeting). Hawkish tilt — 9 of 18 officials project rate hike by year-end. Not yet a market killer but a headwind for rate-sensitive sectors.
+- **Today's releases (8:30 ET)**: Final Q1 GDP (consensus 1.6%) | May PCE price index (Core MoM est +0.1–0.2%, YoY est 2.6%) | May personal income (+0.4%) | Initial claims (225K) | May durable goods (+0.2%)
+- **Earnings notable**: MU (reported after close 6/24 — massive beat; up ~15% premarket) | AAL, HTZ BMO
+- **Geopolitical**: US-Iran ceasefire signed — oil supply shock reversed. Risk-off energy trade over.
+- **SLB**: Trading ~$47.95 (6/23 close). Analyst avg target $62.36 (Buy consensus). Digital Investors Day was June 17. Q2 earnings July 24. At ~$48, stock is well below our unconfirmed entry thesis.
+
+### Sector Momentum (YTD 2026)
+- **Leaders**: Materials (+22%), Semiconductors, Defense, Industrials (reshoring, CAT orders backlog 24+ months)
+- **Mixed**: Energy — was leader; WTI crash on ceasefire reverses YTD gains
+- **Laggards**: Tech (cooling after AI run), Consumer Discretionary, REITs (rate-sensitive), Utilities
+
+### Trade Ideas
+1. **MU (Micron Technology)** — Q3 2026 EPS $25.11 vs $20.28 est (+23.8% beat). Rev $41.46B vs $35.25B est. Gross margins 84.6%. Q4 guidance $50B revenue, EPS $31. Signed $100B in long-term customer agreements. AI memory supercycle confirmed. Catalyst: strongest memory beat in years. Entry: wait for intraday pullback from gap (stock +15% premarket ~$275+ area). Stop: 10% below entry. Target: +15–20%. R:R: ≥2:1 if entered on pullback. Size: ≤20% (~$20k). Do NOT chase the open gap — wait for first 30min consolidation.
+2. **NVDA / AVGO** — Micron beat reactivates AI trade. Sympathy play in semis. Watch for sector rotation confirmation. NVDA tested and held technical support in June — could extend if MU gap sustains. Lower conviction than MU post-earnings catalyst.
+3. **SLB — DO NOT ENTER / WATCH FOR EXIT** — WTI thesis invalidated ($101 → <$70 on ceasefire). If SLB position from May 15 is confirmed as filled (~340sh at ~$55-57), it is ~15-16% underwater with NO stop. Immediate action: manual verification required. If position exists → cut immediately (already past -7% manual rule). Do NOT add.
+
+### Risk Factors
+- PCE print today — if Core PCE above 2.8% YoY, hawkish repricing, growth stocks sell off
+- Fed hawkish tilt (9/18 expect hike) — rate-sensitive names vulnerable
+- MU gap chase risk — +15% open is a sell-the-news trap if macro disappoints
+- SLB unknown position — largest risk; could be sitting on an unprotected -16% loss
+- Alpaca API inaccessible — cannot place, verify, or exit any orders from this environment
+- Energy sector thesis structurally reversed; avoid energy longs until oil stabilizes
+
+### Decision
+**HOLD / WATCH** — Cannot trade without Alpaca API access. MU is the highest-conviction idea (clear catalyst, AI structural demand), but entry should be on intraday pullback, not gap open. Manual action required to verify/cut SLB position. Patience > activity — but SLB situation is urgent if position exists.
