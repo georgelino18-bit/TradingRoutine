@@ -204,3 +204,44 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-26 — Pre-market Research (market-open run, APIs blocked)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy egress policy blocks paper-api.alpaca.markets)
+- Cash: UNKNOWN — last confirmed state May 15: SLB 340sh market buy submitted, fill unconfirmed
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- NOTE: Perplexity (api.perplexity.ai) and ClickUp (api.clickup.com) also 403 at proxy. All three APIs blocked. WebSearch used for research.
+
+### Market Context
+- WTI / Brent: WTI ~$70.90 (below $71) — 3rd consecutive weekly drop; Hormuz shipping flows fastest pace since war began; US-Iran diplomacy progressing; Cushing stockpiles critical-low at 19M bbl
+- S&P 500 futures: -0.74%; Nasdaq 100 -1.52% — broad tech sell-off on AI data center cost concerns (ON semi -15% premarket)
+- VIX: 18.68 (+0.27%) — elevated but not panic territory
+- Today's catalysts:
+  - **MU (Micron) Q3 FY2026 earnings** (reported June 24 after close): Revenue $41.5B vs $35.8B est (+16% beat); EPS $25.11 vs $20.20 est (+24% beat); Q4 guidance $50B vs $43.58B est (+15% beat); gross margin 84.9%; data center revenue up 7x; $22B in long-term commitments. MU +3.6% premarket diverging from sector sell-off.
+  - Tech sector broadly selling — ON Semiconductor -15%, Avery Dennison -6.1%, SanDisk -5.4%
+  - Hormuz: cargo ship struck by unidentified projectile off Oman coast — brief spike then reversal; flows still at fastest pace since war
+  - Wendy's (WEN) +21.9% premarket on short-squeeze momentum (no fundamental basis)
+- Earnings before open: No major market-moving reports
+- Economic calendar: No major US macro releases today (Friday end-of-week)
+- Sector momentum YTD: XLK (Tech) +32-33% (leader), XLE (Energy) +21%, XLF outperform-rated | Energy weakening as WTI dropped from $101 (May) to $71 (June)
+
+### Trade Ideas
+1. **MU (Micron)** — STRONGEST catalyst in months. AI memory demand exploding: data center revenue up 7x, gross margin 84.9%, Q4 guidance 15% above consensus. Stock +3.6% premarket despite Nasdaq -1.52% — showing relative strength. CANNOT trade today (Alpaca API blocked). Queue for next session when API access restored. Entry: gap-open level or intraday pullback to VWAP. Stop: 10% below entry. Target: +15-20% (2:1 R:R). Size: ≤20% (~$20k if equity ~$100k).
+2. **SLB** — Status unknown. May 15 market buy (340sh) submitted but fill unconfirmed. If filled ~$55 (May 15 level), current price ~$56 (YTD +47%) — still viable. Must confirm position via Alpaca before any action. Energy thesis degrading (WTI $101→$71).
+3. **Energy sector** — Thesis weakening. WTI fallen 30% since May entry thesis. If SLB position held, approaching -7% cut zone depending on fill price. MUST verify via Alpaca when API access restored.
+
+### Risk Factors
+- All trading APIs blocked at proxy — no trades possible, no positions verifiable
+- Tech sector sell-off may drag MU despite earnings beat (sector risk)
+- WTI collapse ($101→$71) undermines energy sector; SLB status unknown
+- VIX 18.68 — normal but rising; tech volatility elevated
+- Hormuz projectile incident — if escalates, WTI spikes but macro headwinds increase
+
+### Decision
+**NO TRADES** — Alpaca API blocked at proxy (egress policy 403). Cannot verify positions, equity, or place orders.
+**MU is highest-conviction setup** — queue immediately for next session when API access is restored.
+**Critical action needed:** Restore API access (Alpaca paper-api, ClickUp, Perplexity all 403). Verify SLB position status on next access. If SLB fill price >$60.20, stop may already be triggered.
