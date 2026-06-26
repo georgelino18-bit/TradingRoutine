@@ -204,3 +204,45 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-26 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs 403 persistent)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, every session since Day 1)
+- Cash: Unknown — last confirmed $100,000 Day 0
+- Buying power: Unknown
+- Daytrade count: Unknown
+- **⚠️ CRITICAL: SLB 340-share market buy submitted 2026-05-15 (order ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15). Fill status unconfirmed. Stop NEVER placed (API blocked on placement day). If filled ~$55-58 (May highs), current price ~$47.50 = -13% to -18% loss — FAR past -7% cut rule. Manual verification urgent.**
+
+### Market Context
+- WTI: ~$70–71/bbl | Brent: ~$74.43 — down ~30% from May highs (~$101-102); US-Iran peace deal signed June 14; Hormuz Strait formal reopening TODAY (signing ceremony in Switzerland)
+- S&P 500 futures: -0.2% to -0.37% premarket — tech-led risk-off; Samsung/SK Hynix plunged 10-12% overnight (Kospi briefly halted); MU, WDC, SNDK down premarket
+- VIX: ~18.89 (June 25 close, up 1.4%) — elevated; mild fear, trending up
+- Today's catalysts:
+  - **Hormuz Strait formally reopens today** — structural collapse of energy trade thesis
+  - **PCE May (released June 25):** 4.1% YoY (3-year high; 3.4% core vs 3.3% est; monthly +0.4%) — hot; stagflation signal
+  - **Fed holding at 3.50-3.75%** — hawkish dot plot; 9 officials project hikes, 6 see 2+ hikes in 2026
+  - **Memory chip rout:** AI valuation concerns + potential DRAM supply glut warning from Morningstar; sector-wide selloff
+  - **University of Michigan final June consumer sentiment** — released today; consumer mood under inflation pressure
+- Earnings before open: 4 total reports; no large-cap movers identified
+- Economic calendar: UMich consumer sentiment (today); next major = Nike + Constellation Brands June 30
+- Sector momentum YTD (updated): Materials +22% (leader) | Healthcare gaining (flight-to-safety) | Tech cooling/selling off | **Energy now lagging — thesis broken by Hormuz reopening** | Consumer Staples holding
+
+### Trade Ideas
+1. **PASS all new entries** — macro risk-off: PCE hot, tech rout, VIX rising, energy thesis dead. No edge today.
+2. **FCX (monitor only)** — Materials still #1 sector YTD; Trump-Xi tariff deal tailwind for copper; but FCX trading $61-69 range, near ATH $72.28 — chasing risk at this level. R:R insufficient unless pullback to ~$58 with stop $52, target $72 = 2.3:1. Monitor for dip.
+3. **SLB — MANUAL ACTION REQUIRED** (not a new entry; an existing crisis): If position is open (~$47.50 now), it is past the -7% cut threshold. Must be cut immediately. Cannot act via bot — Alpaca API blocked.
+
+### Risk Factors
+- Alpaca API inaccessible — cannot manage any open positions; SLB stop was never placed
+- PCE 4.1% = Fed hike risk; kills growth multiple across tech and discretionary
+- Memory chip rout deepening — tech sector contagion risk; AI capex scrutiny rising
+- Hormuz reopening is front-running scenario — logistics hiccups or geopolitical relapse could spike oil briefly
+- VIX trending up; tech selling off = broad market vulnerable to further drawdown
+- Warsh Fed: June 16-17 FOMC held steady but hawkish; next FOMC TBD; rate hike tail risk real
+
+### Decision
+**HOLD — no new positions.**
+**⚠️ URGENT: Manually verify SLB position status immediately. If open, cut at market — price ~$47.50 is well past -7% cut rule from any May entry price. Stop was never placed. Energy thesis is structurally broken (Hormuz open, WTI $70-71).**
