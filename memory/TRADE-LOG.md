@@ -31,3 +31,25 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-26 — Midday Scan (BLOCKED)
+**Portfolio:** UNAVAILABLE | **Cash:** UNAVAILABLE | **Positions:** UNAVAILABLE
+
+### API Status
+- Alpaca paper-api: **403 BLOCKED** — proxy policy denial (cloud environment)
+- ClickUp: **403 BLOCKED** — proxy policy denial
+- Perplexity: **403 BLOCKED** — proxy policy denial
+
+### Actions Taken
+- None — all APIs blocked by managed cloud environment proxy
+
+### Outstanding Risk (from 2026-05-15 log)
+- SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, pre-market 2026-05-15) — **NEVER CONFIRMED FILLED OR CANCELLED**
+- No stop order ever placed for SLB
+- Status unknown for 6+ weeks — MANUAL CHECK REQUIRED IMMEDIATELY
+
+### Required Manual Actions
+1. Open Alpaca paper trading dashboard and check positions + orders
+2. If SLB filled: confirm unrealized P&L, place 10% trailing stop if not already done
+3. If SLB down > -7%: close immediately per strategy rules
+4. To fix bot access: add `paper-api.alpaca.markets`, `api.clickup.com`, `api.perplexity.ai` to Claude Code on the web network allowlist
