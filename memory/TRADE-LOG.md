@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-29 — EOD Snapshot (Day 33, Monday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** CRITICAL — All API access remains blocked by the remote execution environment's proxy network policy. Both `paper-api.alpaca.markets` and `api.clickup.com` return 403 "connect_rejected" at the proxy gateway. No account data, positions, or orders can be retrieved. No trades can be placed or monitored. This issue has persisted since Day 1 (2026-05-14). Last confirmed portfolio state: $100,000 cash, 0 positions (Day 0, 2026-05-13). SLB order `6c529f05` placed 2026-05-15 — fill status unknown. Immediate manual action required: add `paper-api.alpaca.markets`, `data.alpaca.markets`, and `api.clickup.com` to the proxy allowlist in Claude Code on the web environment network settings. Without this, the bot cannot operate.
