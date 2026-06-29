@@ -204,3 +204,55 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-06-29 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction)
+- Cash: ~$100,000 estimated (no confirmed positions since Day 0)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- **CRITICAL:** SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, submitted 2026-05-15) — fill status UNKNOWN. Cannot verify via API.
+
+### Market Context
+- WTI / Brent: WTI ~$69.33–70.79 | Brent ~$72.01 — DOWN ~$25 from a month ago, ~$40 from 2026 peak (~$110). US-Iran Doha talks scheduled today on Hormuz/conflict resolution; geopolitical risk premium collapsing.
+- S&P 500 futures: +0.53% premarket; 86% probability of up open (Benzinga contracts). Nasdaq 100 futures +0.49%. Broad green, stabilization from Middle East de-escalation.
+- VIX: ~16.41 (June monthly close); intramonth range 15.18–23.34. Benign/normal — no panic.
+- Today's catalysts:
+  - **GOOGL/Alphabet replaces Verizon in Dow Jones effective today** — GOOGL at ~$345 will carry ~7x the daily index influence vs VZ at ~$46. Index funds forced to buy millions of GOOGL shares; rebalance buying pressure. Stock fell 6% last week on key personnel departures — potential buy-the-dip + index inflow setup.
+  - **PCE 4.1% YoY (May, released June 25)** — 3-year high; core 3.4% vs 3.3% est. Stagflation signal. Fed rate hike September 2026 now consensus. Warsh hawkish era ongoing.
+  - **US-Iran Doha talks** on Strait of Hormuz — if deal/ceasefire, oil stays suppressed; energy thesis structurally weakened.
+  - KOSPI -10% this week (SK Hynix, Samsung deleveraging) — tech/memory contagion risk for semis.
+  - Alphabet (~$345) joining Dow — first session in index.
+- Earnings before open: None major BMO today. Nike (NKE) + Constellation Brands (STZ) report June 30.
+- Economic calendar: No major release today. June jobs report due early July. PCE already released June 25 (4.1% — stagflation alarm active). FOMC next meeting TBD (September hike expected).
+- Sector momentum (YTD leaders/laggards):
+  - **Leading:** Materials (+22% YTD, dominant), Healthcare (flight-to-safety), Consumer Staples, Industrials
+  - **Lagging:** Technology (AI capex doubt, KOSPI contagion), Communications, Consumer Discretionary, Financials
+  - **Energy:** Structural weakness — WTI -$40 from peak; original Hormuz thesis partially resolved via Doha talks
+
+### SLB Position Update
+- SLB current price: ~$47.50 (one source); ~$57 (another source — data inconsistent); analyst consensus Buy, price target $60–$64.
+- Entry thesis was WTI ~$101 (Hormuz crisis). WTI now ~$70 — thesis materially impaired.
+- If SLB filled in May at ~$57–60: unrealized loss ~$25–33% at $47.50 — would trigger -7% cut rule immediately. At $57, breakeven; at $60 fill, down ~21%.
+- SLB Digital Investors Day held June 17 — digital/AI pivot positive long-term but doesn't offset near-term oil crash.
+- **CANNOT CONFIRM POSITION** — API inaccessible. Must manually verify before any action.
+
+### Trade Ideas
+1. **GOOGL** — Dow index rebalance forced buying today; GOOGL at $345 carries 7x Dow weighting vs VZ. Stock already sold off 6% on personnel news — potential buy-the-dip + mechanical inflow catalyst. Entry: ~$340–345 on open, stop -10% (~$307), target +15% (~$394). R:R ~1.5:1 — borderline; size ≤15% (~$15k). **Only viable if account accessible and no SLB loss eating capital.**
+2. **Materials sector (NEM / FCX / CLF)** — #1 YTD sector +22%. Copper still driven by electrification/grid buildout; tariff uncertainty resolved partially. FCX at ~$52 (vs May target $51 — missed upside run). NEM benefits from gold in stagflation (+PCE 4.1%). Entry requires diligence session. Momentum sector confirmed.
+3. **Healthcare defensive (UNH / LLY / ABBV)** — Flight-to-safety in stagflation + hawkish Fed environment. PCE 4.1% = Fed must hike = growth stocks pressured = defensive rotation continues. No specific catalyst today — sector thesis only.
+
+### Risk Factors
+- Alpaca API 403 — cannot place or verify orders; CRITICAL blocker for all trading
+- PCE 4.1% stagflation + Fed September hike = multiple contraction headwind for growth/tech
+- SLB unconfirmed fill — if position open, may be in -7% cut territory (API inaccessible to verify)
+- KOSPI -10% tech contagion — semis, memory, AI names remain under selling pressure
+- GOOGL -6% personnel departure risk — new hires/departure news could extend selloff
+- US-Iran Doha talks — if breakthrough, oil further suppresses; if breakdown, oil spikes (short-term volatility)
+- VIX 16 — benign now, but intramonth high was 23; complacency risk if geopolitics re-escalate
+
+### Decision
+HOLD — Alpaca API still blocked (IP 403 — same issue since May 14). Cannot confirm SLB position, verify fills, or place orders. Materials sector momentum is highest conviction; GOOGL Dow rebalance is interesting one-day catalyst. No action until API access is restored. **Manual action required: whitelist sandbox IP in Alpaca paper account settings.**
