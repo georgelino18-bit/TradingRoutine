@@ -31,3 +31,13 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-30 — Midday Scan ABORTED — Alpaca + ClickUp blocked at network egress
+
+**Status:** CRITICAL — no API access; could not pull positions/orders, no scan performed.
+
+`bash scripts/alpaca.sh positions` and `orders` both failed: `curl: (56) CONNECT tunnel failed, response 403`. Proxy status endpoint confirms this is an org-level egress policy denial (not a missing-credential issue): `paper-api.alpaca.markets:443` and `api.clickup.com:443` both rejected at the CONNECT layer. Per proxy README, this is a non-retriable policy block, not a transient error.
+
+No position data available — could not cut losers, tighten stops, or do thesis checks this session. Last confirmed state remains 2026-05-15 (SLB 340sh, stop placement unconfirmed — see entry above).
+
+**This is the same class of failure logged 2026-05-14/05-15, now recurring after a ~6 week gap with no logged sessions in between.** Action required: have the environment owner allowlist `paper-api.alpaca.markets` and `api.clickup.com` in the sandbox/session network policy. ClickUp notification also failed (proxy-blocked) and fell back to `DAILY-SUMMARY.md`.
