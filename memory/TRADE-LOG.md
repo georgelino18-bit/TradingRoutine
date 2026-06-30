@@ -31,3 +31,29 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-06-30 — Market Open: BLOCKED (Day 0 of 0 trades — 6.5 weeks dark)
+
+**Status:** CRITICAL — No bot activity since 2026-05-15. This is the first run since then.
+
+**Network check:** All three external APIs (Alpaca, ClickUp, Perplexity) rejected at the
+session's egress proxy with HTTP 403 ("policy denial" per `/__agentproxy/status`) — this is
+an organization-level network policy block on this cloud environment, not a missing
+credential or an Alpaca IP-allowlist issue. `.claude/settings.json` already lists the
+correct domains (`paper-api.alpaca.markets`, `data.alpaca.markets`, `api.perplexity.ai`,
+`api.clickup.com`) but that config does not control the egress proxy — the network policy
+must be changed in the environment settings where this session was created (see
+https://code.claude.com/docs/en/claude-code-on-the-web).
+
+**No trades evaluated, no orders placed.** STEP 2 onward of the market-open workflow could
+not run.
+
+**Unresolved from 2026-05-15:** SLB market buy (340sh, order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`)
+was submitted but the 10% trailing stop was never confirmed placed, and the fill was never
+verified, because credentials/network were unavailable that day too. Account state is
+unknown — cannot confirm whether SLB is even an open position, filled, or what (if any)
+protection it has. This has been unresolved for 6.5 weeks.
+
+**Action required (cannot be done by this agent):** Fix the network policy for this
+Claude Code on the web environment to allow the four API domains above, then re-run
+market-open (or portfolio) to get a real account snapshot and resolve the SLB stop gap.
