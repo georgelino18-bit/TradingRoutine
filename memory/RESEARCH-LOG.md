@@ -204,3 +204,29 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+## 2026-06-30 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked at sandbox egress policy level (403 "gateway answered 403 to CONNECT (policy denial)" for paper-api.alpaca.markets). This is NOT a missing-credential issue (keys verified present/exported) and NOT the IP-allowlist issue logged 2026-05-14 — `.claude/settings.json` already lists `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.perplexity.ai`, `api.clickup.com` under `sandbox.network.allowedDomains`, but the org-level proxy policy for this session denies all four hosts regardless.
+- Cash / Buying power / Daytrade count: UNAVAILABLE — same block.
+- **CRITICAL UNRESOLVED ISSUE CARRIED FORWARD 46 DAYS:** Per 2026-05-15 log entry, 340sh SLB market buy (order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) filled pre-market 2026-05-15 and **no trailing stop was ever placed** (credentials/API were unavailable that day too). No bot run has reached Alpaca since. Fill price, current P&L, and whether SLB is even still held are all unconfirmed — last known state is a 340sh unhedged stock position with zero downside protection for 6+ weeks. WebSearch shows SLB trading ~$46-48 in June 2026 vs. an original profit target of $63-71 set at entry — if the disclosed entry price held anywhere near that thesis, this position is likely sitting at a material unrealized loss with no stop ever enforced.
+
+### Market Context (WebSearch fallback — Perplexity API also blocked, same proxy denial)
+- VIX: ~17.5, S&P 500 VIX futures ~18.4 — not elevated, no panic signal
+- WTI crude: ~$70.55/bbl (Aug contract), down slightly — sharply lower than the ~$101-102 Hormuz-disruption pricing referenced in the original SLB thesis (2026-05-15). The energy/oil catalyst behind the SLB trade appears to have fully reversed.
+- SLB: ~$46-48/share recently (down from ~$48 prior close); 29-analyst consensus still "Buy," $62.36 12mo PT; next earnings July 24, 2026 (EPS est. -29.7% YoY)
+- Today (June 30): ~116 economic events, 11 earnings scheduled — no single dominant catalyst identified via WebSearch
+- Could not pull VIX/oil/catalysts via Perplexity (blocked); WebSearch coverage is shallower than the normal Perplexity sweep — sector momentum, full earnings/economic calendar, and held-ticker-specific news were not fully researched this session
+
+### Trade Ideas
+None generated — no account access means no order placement is possible regardless of setup quality.
+
+### Risk Factors
+- **Alpaca, Perplexity, and ClickUp APIs all return 403 at the proxy/gateway level this session — this is an organization egress-policy denial, not fixable from within the agent.** Confirmed via `$HTTPS_PROXY/__agentproxy/status`: `connect_rejected` / "gateway answered 403 to CONNECT (policy denial or upstream failure)" for all three hosts.
+- SLB position (if still held) has had no stop-loss enforcement since entry on 2026-05-15 — 46 days of uncapped downside risk, compounded by oil falling from ~$101 to ~$70 over that period (the entire thesis catalyst reversed).
+- Cannot confirm current portfolio equity, cash, or whether any other positions exist.
+- ClickUp notification also blocked — alert routed via fallback log (DAILY-SUMMARY.md) only; user has not been reachable via the normal channel this entire outage window.
+
+### Decision
+**HOLD — forced, not discretionary.** No live account access means no trade can be placed or verified. Per CLAUDE.md, this is flagged as a STOP-and-alert condition: API access is blocked, not just unconfigured. Escalating directly to the user since ClickUp is also unreachable. Next session must re-verify proxy/network policy before attempting any trading action — do not retry Alpaca calls beyond a single confirmation check per the agent-proxy guidance (org policy denials should be reported, not retried).
