@@ -204,3 +204,55 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-01 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (persistent IP allowlist issue, same as prior sessions)
+- Cash: ~$100,000 estimated (last confirmed Day 0 baseline)
+- Positions: UNKNOWN — SLB 340sh market buy submitted 2026-05-15 (order ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15); fill/stop status unverifiable
+- Buying Power: UNAVAILABLE
+- Daytrade Count: UNAVAILABLE
+- **CRITICAL:** WTI has collapsed from ~$101 (May 15) to ~$70 today. If SLB filled, 10% trailing stop likely triggered weeks ago. Assume no open positions until API confirms.
+
+### Market Context
+- **Oil:** WTI $70.55 (-0.49%), Brent $72.25 (-0.96%) — BUT rising early Wed on Iran-US talks breakdown concern; WTI +$0.34 to $69.84 at 0339 GMT. Brent has fallen ~$45 QoQ (largest quarterly drop since 2008 GFC). Iran-US MoU (60-day ceasefire framework) agreed, but no final deal; Iranian officials refusing direct US meetings; breakdown in final agreement → supply risk back.
+- **S&P 500 Futures:** -0.38% premarket. S&P 500 finished H1 2026 +9.6%; Q2 alone +14.9% (best quarter since Q2 2020). Starting H2 on cautious footing.
+- **VIX:** ~17.54 (range today 16.27–17.75) — calm, no panic. Below 20.
+- **Fed:** Warsh held 3.50–3.75% at first June FOMC. Removed easing bias; 9 of 19 officials favor ≥1 hike by year-end. PCE inflation revised to 3.6% for 2026. Zero cuts expected; possible hike cycle. HAWKISH — headwind for growth/rate-sensitive sectors. Warsh speaks today.
+- **Today's Releases:**
+  - 7:15 ET — ADP Employment Change (est 118K vs prior 122K); leading indicator for Friday NFP
+  - 9:00 ET — ISM Manufacturing PMI + Prices (ISM Prices prev 82.1 → est 77.7); ISM Mfg Employment (prev 48.6, still contractionary)
+  - EIA Crude Oil Inventories (weekly)
+  - Shortened week (July 4 holiday Friday) — NFP Friday
+- **Earnings July 1:** 12 reports; no major market-moving BMO names identified
+- **Sector Momentum (YTD 2026):**
+  - Leaders: Technology (+26.1%), Materials (+22%), Industrials, Semis, Defense
+  - Laggards: REITs, Consumer Discretionary, Utilities (rate-sensitive)
+  - Energy: major H1 laggard — oil crashed $45/bbl QoQ on Iran-US ceasefire progress
+- **Macro Theme:** Warsh hawkish pivot + oil collapse = energy sector thesis fundamentally broken. AI buildout sustaining tech. Jobs data + ISM key today for rate-hike expectations.
+
+### Trade Ideas
+1. **No new energy entries** — WTI $70 vs $101 at peak. Hormuz structural bid has collapsed as ceasefire MoU progressed. Energy sector is now H1's biggest laggard. Strategy rule: exit sector after 2 failed trades. Wait for Alpaca API to confirm SLB status before any action.
+2. **Tech/Semis re-entry candidate — NVDA** — Down 23% from May ATH on institutional rotation + Fed hawkish pivot. AI capex cycle (Azure, data center, TSMC orders) intact. If ADP/ISM come in soft (rate-hike fear cools), NVDA could bounce. Entry thesis: AI infrastructure secular trend unbroken; pullback creates R:R. RISK: Warsh hike signal could flush further. Do NOT enter until API access confirmed and ADP/ISM data prints.
+   - Hypothetical entry: ~market open if data soft; stop 10% below entry; target +15–20%; size ≤20% (~$20K if $100K cash)
+3. **Materials sector (XLB or FCX)** — +22% YTD, benefiting from tariff uncertainty + infrastructure demand. FCX was previously passed at $67+ near 52-week highs. Monitor for pullback to establish R:R ≥2:1. Not actionable today without API access.
+
+### Risk Factors
+- Alpaca API 403 — cannot place or verify any orders (persistent since Day 1; must resolve before any trade)
+- SLB position fate unknown — if filled and stopped out, account is still ~$100K; if somehow still open, it's catastrophically underwater vs oil crash
+- Warsh hawkish surprise today — rate hike signal could reprice tech/growth lower
+- ADP beat (>140K) = hike fear = market selloff
+- Iran-US final deal breakdown = oil spike, but energy sector already oversold
+- NFP Friday = shortened week, low liquidity, elevated headline risk
+- NVDA -23% from ATH: support levels unclear; don't catch falling knife without confirmation
+
+### Decision
+**HOLD — No new trades.** Alpaca API inaccessible (403 error); cannot place, verify, or manage orders. Energy thesis broken by oil crash ($101→$70). Priority: resolve API access via IP whitelist. Watch ADP (7:15 ET) and ISM (9 ET) data for direction. If tech data supports soft landing narrative and API comes online, NVDA pullback is highest-conviction idea for next entry. Patience > activity.
+
+**Action Required (human):**
+1. Whitelist current sandbox IP on Alpaca paper account → allows API access
+2. Confirm SLB order fill/stop status immediately via Alpaca dashboard
+3. Update TRADE-LOG.md with SLB outcome (filled + stopped, filled + open, or cancelled)
