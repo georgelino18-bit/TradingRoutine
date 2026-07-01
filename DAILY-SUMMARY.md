@@ -9,3 +9,7 @@ Open positions: none confirmed (last known: 0 positions, Day 0)
 ALERT: Both Alpaca + ClickUp APIs blocked — sandbox IP not whitelisted.
 Action required: whitelist IP in Alpaca paper account settings.
 Tomorrow: whitelist IP, then run pre-market + normal workflow.
+
+---
+## 2026-07-01 11:07 UTC (fallback — curl network error)
+Pre-mkt 2026-07-01: HOLD. API 403 persists — whitelist IP urgently. Oil 0 (was 01); energy thesis broken. SLB status unknown. VIX 17.5, SPX H1 +9.6%. Watch ADP 7:15ET + ISM 9ET. Next idea: NVDA pullback if API restored.
