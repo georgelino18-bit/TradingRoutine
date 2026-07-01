@@ -204,3 +204,49 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-01 — Pre-market Research (market-open run, WebSearch fallback — all APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress policy blocks paper-api.alpaca.markets)
+- Cash: UNKNOWN — no data since Day 0 baseline ($100,000)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- ClickUp: BLOCKED (api.clickup.com 403)
+- Perplexity: BLOCKED (api.perplexity.ai 403)
+
+### CRITICAL — Unresolved SLB Position (since 2026-05-15)
+- Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`: 340sh SLB market buy submitted 2026-05-15
+- NEVER confirmed filled or cancelled — API has been inaccessible every session since
+- WTI then: ~$101 | WTI now: ~$70 — if filled, position is deeply underwater
+- MANUAL ACTION REQUIRED: Log in to Alpaca paper account dashboard immediately
+  1. Check if SLB order filled (340sh @ ~$57 level)
+  2. If filled: check if trailing stop triggered; current SLB price vs entry
+  3. If position open: evaluate cut at -7% rule or reassess
+
+### Market Context
+- WTI / Brent: WTI ~$70/bbl (range $69.33–$70.79) — sharply lower from $101 in May; US-Iran peace talks in Doha deflating Hormuz premium
+- S&P 500: Closed 7,499.36 on June 30 (strongest Q2 since 2020); July 1 futures -0.38% — modest pullback after strong run
+- VIX: ~16.41 (June avg); recent range 15.18–23.34 — moderate, not alarming
+- Today's catalysts: Q3 first trading day, post-strongest-quarter sentiment; 71 economic events scheduled; AI supercycle driving 13–15% earnings growth
+- Sector momentum YTD: Energy +24.12% (leader despite WTI drop — refiners driving); Morningstar US Market +11.22%
+- Energy sub-sector: Refiners leading (VLO +69% YTD, MPC +45% YTD); AI/infra midstream also strong
+
+### Trade Ideas
+- HOLD ALL — APIs blocked; cannot verify account state, positions, or execute orders
+- If SLB unresolved: must clear that before any new positions (at 6-position cap risk)
+- Energy refiners (MPC, VLO) remain structurally attractive if WTI stays ~$70 (margin support)
+- No new setups executable today without API access
+
+### Risk Factors
+- SLB may be open underwater (WTI -30% since order) — unknown P&L drag
+- APIs blocked every session since launch — systemic issue, not transient
+- S&P at 7,499 after strongest quarter since 2020 — mean reversion risk into Q3
+- US-Iran peace talks = further WTI downside; energy thesis weakening
+- Week 0 of July: 0 trades placed, 0 confirmed positions, 0 live account data
+
+### Decision
+NO TRADE — All APIs blocked (403 egress policy). Cannot execute, verify, or manage positions.
+**Manual action required:** Log in to Alpaca dashboard to resolve SLB order status before next automated session.
