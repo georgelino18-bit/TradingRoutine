@@ -204,3 +204,45 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-02 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction unchanged)
+- Cash: UNKNOWN (last confirmed $100,000 Day 0; SLB market order submitted 2026-05-15 — fill status unknown due to API block)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Open positions: UNKNOWN — SLB 340sh market order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` from 2026-05-15 may or may not have filled; no trailing stop confirmed placed
+
+### Market Context
+- WTI / Brent: WTI ~$67.95 | Brent ~$73.51 — **oil has COLLAPSED from ~$101 at time of SLB entry to $68 now**; US-Iran peace deal signed June 26, Strait of Hormuz fully reopened, war premium fully erased
+- S&P 500: Closed June 30 at 7,499 (+9% YTD); currently pulling back slightly on July 1 (~7,512 intraday); index is 18% off its 2026 lows
+- VIX: ~16.45 (closed July 1 at 16.59, up 0.85%) — benign, moderate
+- Today's catalysts:
+  - **June NFP (BLS 8:30 ET today)**: Wall St expects +115K; unemployment steady 4.3%; ADP came in weak at 98K (below 110K est); weak print = dovish Fed, stocks likely up; strong print (+130K+) = rate hike fears, USD spikes
+  - **Fed Chair Warsh (July 1)**: Said inflation "too high", declined to hint at July decision; June FOMC held rates at 3.5–3.75% unanimously with hawkish dots — median end-2026 rate 3.8% (at least one hike)
+  - June factory orders also due today
+  - Markets pricing ~34% chance of July rate hike; 49% chance of Sept hike (up from 27% yesterday)
+- Earnings before open: No major large-cap names — ~9 small reports
+- Economic calendar: June NFP (8:30 ET), June Unemployment (8:30 ET), June Hourly Earnings (8:30 ET), June Factory Orders
+- Sector momentum (YTD 2026): XLE energy +20.4% YTD (but fading fast — oil at $68); S&P +9% YTD; energy thesis structurally broken by Hormuz reopening; AI/tech and midstream energy showing relative resilience
+
+### Trade Ideas
+1. **HOLD — no new energy positions**: Energy thesis BROKEN. WTI collapsed from $101 to $68. Hormuz open. OPEC+ supply returning. SLB down 15.3% past month, analyst PTs cut (UBS $66→$66, TD Cowen $69→$62, Citi $68→$63). If SLB filled, check position urgently. Stop would have been at ~$50 on 10% trail from ~$56 entry. Current price ~$62, but trailing stop may have protected gains if placed. Cannot verify — API blocked.
+2. **Speculative watch — tech/growth if NFP weak**: Weak NFP (<100K) would signal dovish Fed pivot, compress rate hike odds, and lift growth/tech. NVDA, AMAT, MSFT could run. Entry only on post-NFP confirmation. Entry TBD, stop 7-10%, R:R ≥2:1. Size ≤20%.
+3. **Midstream energy resilience**: MLPs (ET, EPD) showing resilience vs E&P/services despite oil drop — dividend yield + pipeline fees not directly tied to WTI. Monitor for setup; not actionable today with no account access.
+
+### Risk Factors
+- NFP binary at 8:30 ET: Strong print = rate hike repricing, broad equity selloff
+- Alpaca API still inaccessible — cannot verify SLB position, stop status, or any fills since May 15
+- SLB stop placement never confirmed — potential unprotected position; energy thesis broken
+- Warsh hawkish pivot: 49% Sept hike probability creating headwind for equities broadly
+- Oil oversupply building as Hormuz reopens + OPEC+ supply returns
+- S&P at 7,500 near resistance after 18% recovery from lows — rotation or pause expected
+
+### Decision
+**HOLD** — NFP binary at 8:30 ET prevents any entry today. Alpaca API unavailability blocks all order management. Most urgent issue: SLB position status unknown — if filled, trailing stop may never have been placed and thesis has broken (oil -33% from entry thesis). **Manual action required**: whitelist sandbox IP in Alpaca + verify SLB position immediately. Default: no new trades until API access restored.
+
+---
