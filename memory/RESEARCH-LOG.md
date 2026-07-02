@@ -204,3 +204,47 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-02 — Market-Open Research (inline; Alpaca + Perplexity + ClickUp all 403-blocked)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked by egress proxy (paper-api.alpaca.markets:443 → 403)
+- Cash: ~$100,000 estimated (no confirmed fills since May 14; SLB May 15 order status UNKNOWN)
+- Buying power: ~$100,000 estimated
+- Daytrade count: UNKNOWN (cannot query)
+- Positions: UNKNOWN (SLB 340sh order submitted May 15, fill never confirmed; may or may not be live)
+- NOTE: ClickUp 403 (blocked); Perplexity 403 (blocked); all external APIs unreachable this session
+
+### Market Context
+- WTI / Brent: WTI ~$67.75 (-1.21% today) — MAJOR SHIFT from $101-102 in May; Hormuz ceasefire signed June 14; strait reopening
+- S&P 500 futures: ~7,530 (opened 7,530.50; range 7,510–7,532 today)
+- VIX: ~16.59 (closed July 1; calm, normal range 15-25; 52-wk high 35.30 on Mar 9)
+- Key macro shift: US-Iran 60-day ceasefire formal agreement ~June 14; Hormuz mines cleared; Iran selling oil freely; WTI down ~33% from May crisis peak
+- Sector rotation: Tech (XLK) now #1 YTD +27.5%; Semis (SOXQ) +99% YTD; Small caps +23%; Energy collapsed (oil -33%)
+- MAGS/Magnificent Seven: down 7% YTD (rotation out of mega-cap growth)
+- Fed: Holding 3.5-3.75% (June 17 decision); July 28-29 FOMC — 79.5% odds HOLD, 19.4% odds +25bps hike; dot-plot revised hawkish
+- Earnings: Q2 season starting; peak second week of July; June CPI July 14 (critical before FOMC)
+- FactSet est: S&P 500 FY2026 EPS growth +24%; Goldman raised S&P year-end target to 8,000
+
+### Trade Ideas
+1. **NVDA** — AI/GPU leader; Semis sector dominant (+99% SOXQ YTD); Blackwell demand; need price/R:R at open to size (≤20% of equity)
+2. **MU (Micron)** — HBM memory demand; +112% YTD on AI memory cycle; momentum A-grade; very extended — wait for pullback entry
+3. **AVGO (Broadcom)** — Custom AI silicon; Q2 AI revenue $10.7B guided; strong fundamentals; need current price for sizing
+4. **HOLD energy** — Oil at $67.75, down -33% from May thesis; SLB oilfield services thesis DEAD if position open; needs manual review
+5. COCO / FCX / XOM / SLB — All prior theses invalidated by macro shift
+
+### Risk Factors
+- Alpaca API inaccessible — zero trading capability this session
+- SLB position status unknown — if filled at ~$57 (May 15), sitting on major loss with oil at $67 (SLB likely down 20%+); URGENT MANUAL CHECK
+- July 29 FOMC: 20% odds of rate hike; hawkish = headwind for growth/tech valuations
+- June CPI July 14 — hot print could accelerate hike odds and crush semis
+- Semis (SOXQ +99%) extended; momentum trades at top require tight stops
+- Q2 earnings binary risk starting; NVDA reports late July
+
+### Decision
+HOLD — Cannot access Alpaca (proxy egress blocks paper-api.alpaca.markets). Cannot place or verify any orders.
+URGENT: If SLB position is live, oil at $67.75 means thesis is broken; manual check required.
+Next valid entry: Tech/AI sector (NVDA, AVGO) on confirmed account access. Watch July 14 CPI and July 28-29 FOMC.
+Patience > activity.

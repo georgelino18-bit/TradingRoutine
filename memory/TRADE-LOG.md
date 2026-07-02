@@ -31,3 +31,31 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+---
+
+## 2026-07-02 — Market-Open Scan (No Trades — API Blocked)
+**Status:** BLOCKED — Alpaca API, Perplexity, ClickUp all 403-blocked by egress proxy policy
+
+**Account (estimated):** ~$100,000 cash | Positions: UNKNOWN | SLB fill status unresolved since May 15
+
+**No trades placed this session.**
+
+**CRITICAL — SLB POSITION STATUS UNKNOWN:**
+- Order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` submitted May 15 pre-market; fill never confirmed
+- If filled at ~$57 (est. May 15 price), current SLB price likely near $42–$46 with WTI at $67.75 (vs $101 thesis basis)
+- Energy thesis DEAD — Hormuz ceasefire June 14, WTI down -33% from May peak
+- IF POSITION OPEN: Cut per -7% rule (already well past); stop should have triggered
+- Manual check urgent: `bash scripts/alpaca.sh positions`
+
+**Market shift since last entry:**
+- WTI $67.75 (was $101-102 in May); US-Iran ceasefire signed June 14
+- Tech/Semis now sector leader (XLK +27.5% YTD, SOXQ +99% YTD)
+- S&P 500 futures ~7,530; VIX ~16.59
+- Fed holding 3.5-3.75%; July 29 FOMC (79.5% hold, 19.4% hike)
+
+**Action required by user:**
+1. Resolve proxy/API access for this environment
+2. Check positions (`bash scripts/alpaca.sh positions`)
+3. If SLB open and below -7%: close immediately (`bash scripts/alpaca.sh close SLB`)
+4. Update this log with actual account state
