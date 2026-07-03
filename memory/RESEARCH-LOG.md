@@ -204,3 +204,49 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-03 — Pre-market Research (Holiday — preps Monday July 7 open)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction persists, same issue since Day 1)
+- Cash: ~$100,000 estimated (baseline; no confirmed fills)
+- Buying power: UNAVAILABLE
+- Daytrade count: UNAVAILABLE
+- Open positions: UNCONFIRMED — SLB 340sh market buy submitted 2026-05-15 (order 6c529f05) was NEVER confirmed; API has been inaccessible since launch
+- **CRITICAL:** SLB estimated entry ~$58; current price $45.01 (-22.5% implied) — FAR past -7% cut rule and 10% trailing stop. MUST verify and act at Monday open.
+
+### Market Context
+- WTI: ~$68.56/bbl (-0.19%) — down sharply from $101+ in May; Hormuz supply RESTORED (UAE exports 3.9M bbl/day normalized)
+- Brent: ~$70.57/bbl (-0.83%)
+- S&P 500 futures: MARKET CLOSED today (July 4 holiday observance); last close July 2; S&P 500 +8.1% YTD
+- VIX: ~15.94 (opened 17.54, falling on holiday-shortened session) — benign, no fear
+- Today's catalysts: US markets CLOSED — Independence Day observance; no trading
+- Earnings before open: None — markets closed
+- June Jobs Report (released July 2): NFP +57,000 vs +115,000 expected — massive miss; unemployment 4.2%; prior months revised down 74,000 combined; wages +3.5% YoY; leisure/hospitality -61,000. Headline: "Weak jobs report quiets rate-hike conversation"
+- Economic calendar next week: FOMC June meeting minutes July 8 (Warsh's first FOMC — hawkish watch); Delta Air Lines (DAL) earnings July 11 BMO; bank earnings season starts July 14-15
+- Sector momentum: Materials (XLB) leading (+22% YTD), Consumer Staples, Industrials, Energy leading | Tech, Communications, Consumer Discretionary, Financials lagging | Healthcare weakening
+
+### Trade Ideas
+1. **SLB — URGENT SELL (Monday open)** — Thesis fully invalidated. Oil fell from $101 to $68 (Hormuz supply restored). SLB at $45.01, estimated entry ~$58 = -22.5% unrealized. -7% cut rule triggered long ago. MUST exit immediately at Monday open if position exists. Do NOT average down.
+2. **DAL (Delta Air Lines)** — Reports July 11 BMO. Oil at $68 = massive fuel cost tailwind vs. prior year. Travel demand resilient. Enter Monday-Tuesday with 10% trailing stop; close before binary (July 10 EOD). Size ≤15% (~$15k). Entry ~$55-60 (verify), stop -10%, target +15%. Fuel cost story is the catalyst, not the earnings beat.
+3. **FCX (Freeport-McMoRan)** — Materials sector leading (+22% YTD). FCX hit ATH $72.28 on June 17; copper driven by AI buildout + electrification + infrastructure spending; 44.6% EPS growth expected. BUT: already at/near ATH — need to verify current price and R:R before entry. Only enter on pullback with R:R ≥2:1.
+
+### Risk Factors
+- SLB position (if filled) is a severe unmanaged loss — top priority Monday
+- FOMC minutes July 8: Warsh is hawkish — surprise hawkish tone would hurt growth/materials
+- Weak jobs report (57K) signals slowing economy — risk of recession narrative
+- Oil at $68: energy sector thesis degraded; Hormuz fear premium gone
+- Alpaca API inaccessible: cannot place/verify orders without manual intervention or IP whitelist
+- Bank earnings July 14-15: binary risk for financial sector; market-moving if misses
+- Holiday-thin liquidity July 3-7: gap risk at Monday open
+
+### Decision
+HOLD today (markets closed). **Priority action Monday July 7:**
+1. Verify SLB position immediately — if filled, EXIT at open (thesis dead, -22% unmanaged loss)
+2. Research DAL entry setup (oil tailwind + July 11 earnings)
+3. Check FCX current price for pullback entry if R:R ≥2:1
+Resolve IP whitelist issue with Alpaca before Monday open — all other actions are blocked without API access.
+
+**Perplexity API:** Also returned 403 (same IP restriction). Research completed via WebSearch fallback.
