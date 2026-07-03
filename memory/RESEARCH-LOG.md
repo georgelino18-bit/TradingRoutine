@@ -204,3 +204,35 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-03 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked (egress proxy policy denial, `paper-api.alpaca.markets:443`)
+- Positions: UNKNOWN — last confirmed state Day 0: $100,000 cash, 0 positions
+- Open orders: UNKNOWN
+
+### Actions Taken
+- None — API inaccessible; cut/stop/tighten rules cannot be evaluated
+
+### Loser Cuts (-7% rule)
+- N/A — cannot retrieve position data
+
+### Stop Tightening
+- N/A — cannot retrieve position data
+
+### Thesis Check
+- N/A — cannot retrieve position data
+
+### Intraday Notes
+- Proxy (127.0.0.1:46759) is blocking `paper-api.alpaca.markets:443` with policy denial (403)
+- ClickUp API also blocked (same proxy policy)
+- Perplexity API assumed blocked (same environment)
+- Issue is persistent: first logged 2026-05-14; still unresolved as of 2026-07-03
+- **Root cause:** Cloud execution environment egress policy does not whitelist Alpaca, ClickUp, or Perplexity domains
+- **Resolution required:** User must whitelist `paper-api.alpaca.markets`, `api.clickup.com`, and `api.perplexity.ai` in the Claude Code on the web environment's network policy, OR run these sessions from a local environment
+
+### Decision
+NO ACTION — API inaccessible. No trades can be placed, verified, cut, or managed until egress policy is updated.
