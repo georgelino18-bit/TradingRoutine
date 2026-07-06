@@ -204,3 +204,54 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-06 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, unchanged since May 14)
+- Cash: UNKNOWN — last known state was ~$100K; SLB order submitted May 15 but never confirmed filled
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- **CRITICAL: SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, pre-market May 15) — status unconfirmed. If filled at ~$58 entry, position is currently ~-22% at $45.01 (July 2). Trailing stop was never confirmed placed. Manual verification URGENT.**
+
+### Market Context
+- WTI: ~$69/bbl | Brent: ~$72/bbl — oil CRASHED from $101–107 (May) to $69 on Hormuz reopening + OPEC+ output hike + US-Iran ceasefire; global demand revision -1.1M b/d for 2026
+- S&P 500: Best Q2 since 2020 (+14.9%); futures July 7 premarket +0.5% (ES), Nasdaq 100 +1.1% — positive week open; tech/AI/semis propelled the rally
+- VIX: ~15.81 (July 3 close) — low fear; range was 15.56–23.34 over past month; benign environment
+- Key catalysts: Earnings season starts July 14 (JPM, BAC, GS, Citi); Q2 EPS growth est ~22% (FactSet), AI/semis expected to drive ~40% of S&P EPS growth (NVDA + MU); Fed rate decision July 28; AI capex $650–725B 2026
+- Earnings July 7 before open: No major names (Enerpac Tool Group only notable report)
+- Economic calendar July 7: No major releases; CPI June due mid-July; Fed July 28
+- Sector momentum YTD 2026: **IT/Semis now leading** — S&P IT sector #2 YTD; all top-20 S&P performers are tech names; Energy thesis DEAD — oil down $32/bbl from May peak on Hormuz resolution and OPEC+ supply surge; Materials and Industrials faded; AI infrastructure the dominant theme
+
+### Trade Ideas
+1. **MU (Micron Technology)** — AI memory demand surge; expected ~40% S&P EPS contribution with NVDA; beneficiary of HBM (high-bandwidth memory) buildout for AI training; sector in clear momentum
+   - Catalyst: AI capex cycle intact ($650-725B 2026); HBM demand exploding; data center DRAM pricing recovery; Q4 FY2026 earnings upcoming
+   - Entry: Wait for confirmation at open; look for pullback to recent support
+   - Stop: 10% below entry (GTC trailing stop required by rules)
+   - Target: 2:1 R:R minimum; 15%+ upside before trail tightens
+   - Size: ≤20% (~$20k) — only after SLB situation resolved and API access restored
+2. **JPM (JPMorgan Chase)** — Earnings July 14 pre-announcement setup; bank earnings typically set tone for broader market; strong consumer/credit card data expected given resilient retail; avoid holding through binary (earnings day)
+   - Catalyst: Q2 earnings July 14; rising rates boost NIM; AI integration reducing costs; market outperformer YTD
+   - Entry: Pre-earnings run-up window; enter Mon/Tue, exit before July 14 close to avoid binary
+   - Stop: 7% below entry
+   - Target: 2:1 R:R; ~8-10% run pre-earnings feasible in good environment
+   - Size: ≤20% (~$20k)
+3. **NVDA** — Dominant AI beneficiary; expected to co-drive ~40% of S&P 500 EPS; fiscal Q2 ends July 27 (earnings late August); structural AI capex demand floor
+   - Note: Already very extended; require deep pullback or clear consolidation break for entry; DO NOT CHASE at all-time highs; monitor only for now
+
+### Risk Factors
+- **CRITICAL: SLB position unknown** — if filled May 15 and not stopped out, est. loss ~-22% (-$4,400+ on 340 shares); oil thesis collapsed; immediate manual verification required
+- API (Alpaca + Perplexity) blocked since May 14 — cannot place, cancel, or verify any orders; strategy execution fully impaired
+- Earnings season binary risk July 14+ — do not hold through without clear plan
+- Fed July 28 — rate decision; any hawkish surprise would pressure growth/tech, which is now the primary thesis
+- VIX low (15.81) = complacency risk; single macro shock (Middle East re-escalation, CPI miss) could spike vol rapidly
+- Oil $69 — energy sector is a minefield; avoid all energy names until oil stabilizes and new thesis forms
+
+### Decision
+**HOLD all new trades — API access required before any order can be placed.**
+**URGENT: Manually verify SLB fill status and account state via Alpaca dashboard or direct API from whitelisted IP. If SLB position exists and is not already stopped out, cut it immediately (currently ~-22%, well beyond -7% and -10% stop rules).**
+Pre-position ideas: MU (AI memory), JPM (pre-earnings run) — queue for next session once API restored.
+
+---
