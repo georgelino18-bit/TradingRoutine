@@ -31,3 +31,25 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-06 — Market-Open Run (BLOCKED)
+**Status:** CRITICAL — Alpaca API, ClickUp, and Perplexity ALL returning 403 (proxy connect_rejected)
+
+**APIs blocked:**
+- paper-api.alpaca.markets — 403 (proxy policy denial)
+- data.alpaca.markets — 403 (proxy policy denial)
+- api.clickup.com — 403 (proxy policy denial)
+- api.perplexity.ai — 403 (proxy policy denial)
+
+**Account state:** UNKNOWN. No positions, orders, or account data retrievable.
+
+**SLB exposure risk:** Order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh SLB market buy, submitted 2026-05-15) — fill status still unconfirmed. WTI crude has since crashed from ~$101 to ~$68-69 (-32%). If SLB filled, position is likely stopped out or severely underwater. Verify immediately on API restoration.
+
+**No trades placed today.**
+
+**Manual action required:**
+1. Whitelist sandbox IP in Alpaca paper account AND network policy for: paper-api.alpaca.markets, data.alpaca.markets
+2. Whitelist api.clickup.com and api.perplexity.ai if needed
+3. Run: `bash scripts/alpaca.sh account` then `bash scripts/alpaca.sh positions` to confirm state
+4. Check SLB order fill/stop status; if position open with no stop, place immediately
+5. Energy thesis (SLB) is now invalid — WTI at $68-69, -32% from thesis entry point

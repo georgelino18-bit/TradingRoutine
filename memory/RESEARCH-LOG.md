@@ -204,3 +204,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-06 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy connect_rejected for paper-api.alpaca.markets AND data.alpaca.markets)
+- Cash: UNKNOWN — last confirmed baseline $100,000 (Day 0); SLB order may or may not have filled
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- NOTE: Perplexity API also blocked (403). ClickUp also blocked. All research via WebSearch fallback.
+
+### Market Context (WebSearch)
+- WTI crude: ~$68–69/bbl — DOWN from ~$101 in mid-May; Hormuz disruption apparently resolved
+- S&P 500: ~7,498.70 (+0.21% on July 2); Dow notched fresh record ~July 2
+- VIX: ~15.81 prev close — calm; well below May levels
+- June jobs report (July 2): 57K payrolls added vs 115K expected (MISS); prior 2 months revised -74K; unemployment 4.2% (labor force exit driven); wage growth below inflation 3rd straight month — labor market softening
+- Fed: September rate hike now off table; October possible per CME FedWatch
+- Nasdaq: down 0.8% on July 2 — chip sector continuing slide (3rd+ session)
+- Sector momentum YTD: Industrials +16%+, Consumer Defensive, Energy (weakened), Communication Services; Tech lagging
+- Key event: Weak jobs data = dovish lean = good for equities broadly; bad for tech on valuation concerns
+
+### Trade Ideas
+1. **ENERGY (SLB/XOM/MPC)** — PASS: WTI collapsed from $101 to $68-69 (-32% since May). Energy thesis invalidated. If SLB order filled in May, it is likely stopped out (-10%) or worse given the crude crash. Verify position status as soon as API access restored.
+2. **Industrials (CAT)** — Possible setup: leading YTD +16%+, AI data center buildout tailwind, Caterpillar mentioned as key contributor. Needs R:R check with live data. HOLD until API accessible.
+3. **Consumer Defensive (WMT)** — Possible: cost-conscious consumer + sector leadership. No catalyst today. HOLD.
+4. **Semis/Tech** — AVOID: chip sector in multi-session decline; Nasdaq underperforming; jobs miss reduces near-term catalyst.
+
+### Risk Factors
+- Alpaca API completely inaccessible — cannot verify account, positions, or place orders
+- SLB pending order from May 15: unknown fill status; if filled, crude crash likely triggered stop at large loss
+- Labor market softening + wage below inflation = stagflation lite; growth concern
+- Fed uncertainty (October hike risk) — keeps equities tentative
+- Chip/semi sell-off ongoing — contagion risk to broad market
+- No PDT check possible (daytrade count unavailable)
+
+### Decision
+**HOLD — NO TRADES. API BLOCKED.**
+Cannot verify account state, positions, or risk exposure. Energy thesis dead (WTI -32% since entry thesis). No new entries until:
+1. Alpaca API access restored (whitelist sandbox IP for paper-api.alpaca.markets and data.alpaca.markets)
+2. Confirm SLB order status (filled or cancelled?) and current P&L
+3. Reassess sector momentum with live data
+Industrials (CAT) and Consumer Defensive (WMT) are the next candidates — need live data before any entry.
