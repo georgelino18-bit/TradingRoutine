@@ -204,3 +204,52 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-07 — Pre-market Research
+
+**Note:** Perplexity API returned 403 (IP restriction). All market data sourced via WebSearch fallback.
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction, unresolved since May 14)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed fills)
+- Buying power: UNAVAILABLE
+- Daytrade count: UNAVAILABLE
+- **CRITICAL:** SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, submitted 2026-05-15) — status UNKNOWN. May be filled and exposed with oil at $69 vs original $101 thesis.
+
+### Market Context
+- WTI: ~$69/bbl | Brent: ~$72.94 — MAJOR REVERSAL from $101 in May. OPEC+ raised production quotas; Hormuz traffic recovering. Energy structural-bid thesis is DEAD.
+- S&P 500 futures: -0.25% premarket; S&P closed at 7,537.43 on July 6 (Dow set new all-time closing record >53K)
+- VIX: ~15.81 (July 3 close) — calm, no fear
+- Today's catalysts:
+  - **SPCX (SpaceX)** joins Nasdaq-100 effective today — $4.3B forced buying from QQQ into a 3–5% public float; ~$161/share, $2.1T market cap, 54x forward sales
+  - Samsung Q2 earnings (today, pre-open): ~18x YoY profit increase expected — AI/HBM demand signal
+  - Foxconn reported stronger-than-expected Q2 sales (Sunday) — sustained AI demand
+  - AI sector rebound: tech helping drive pre-holiday gains
+- Earnings before open: No major BMO S&P 500 names today; PepsiCo (Thu) and Delta (Fri) later this week
+- Economic calendar: Trade Balance 8:30 ET; Consumer Expectations 11:00 ET. No CPI/PPI/NFP today (NFP released July 2). Next FOMC: July 28–29 (rates 3.50–3.75%, unchanged since December 2025).
+
+### Sector Momentum
+- Leading: Energy (YTD +22% despite recent oil pullback), Industrials, Consumer Staples, Healthcare (defensive)
+- Recovering: Tech/Semis (AI capex intact; Foxconn/Samsung beat)
+- Lagging: Nothing flagged as exit-level failed
+
+### Trade Ideas
+
+1. **SPCX (SpaceX)** — Nasdaq-100 inclusion today creates $4.3B forced buying from index funds into a 3–5% float. Squeeze potential is real intraday. HOWEVER: 54x forward sales, $2.1T market cap, no earnings history = no clean R:R. Would not meet 2:1 minimum with a disciplined 10% stop given valuation uncertainty. **PASS — not a strategy-compliant setup.**
+
+2. **Energy sector (SLB reassessment)** — WTI at $69 (down ~32% from $101 in May) fundamentally breaks the original oilfield services thesis. If SLB filled at ~$56 in May, we'd be near flat or slightly up — but the thesis is gone. **Action: verify SLB order status immediately when API restored. If filled: evaluate exit given broken thesis.**
+
+3. **Semis/AI infrastructure (AMAT or NVDA pullback)** — Samsung 18x YoY profit confirmed AI/HBM demand cycle intact. S&P futures slightly negative; watch for intraday dip in semis as entry opportunity. AMAT (original idea from May) — no earnings catalyst near term, sector momentum intact. If price pulls back 5–7% from recent highs and sector holds: would revisit. Size ≤20%, stop 10% below entry, target +15–20%, R:R ≥2:1. **MONITOR — no entry today without API access.**
+
+### Risk Factors
+- Alpaca API inaccessible — cannot confirm positions, place orders, or verify SLB status
+- SLB unknown exposure — if filled at ~$56 with oil at $69, position may be near breakeven but thesis is broken
+- OPEC+ supply increase + Hormuz recovery = sustained oil headwind; energy sector may underperform H2 2026
+- SPCX inclusion creates index volatility — QQQ rebalancing could affect Nasdaq-100 composition broadly
+- FOMC July 29 — rates unchanged expected, but Warsh press conference tone matters
+- Trade data at 8:30 ET — deficit widening could pressure risk assets
+
+### Decision
+**HOLD — API inaccessible, cannot trade.** Priority #1: resolve Alpaca 403 (whitelist sandbox IP). Priority #2: verify SLB order fill status — if filled and oil thesis broken, evaluate exit. No new positions until API is restored and account state is confirmed. Energy thesis dead at $69 WTI. SPCX exclusion — too speculative for strategy rules. Semis/AI infrastructure on watchlist for next compliant setup.
