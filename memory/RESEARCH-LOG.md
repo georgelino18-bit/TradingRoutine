@@ -204,3 +204,43 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-07 — Pre-market Research (WebSearch fallback — Alpaca + ClickUp APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (egress proxy policy denial, paper-api.alpaca.markets blocked)
+- Cash: Unknown — last confirmed $100,000 (Day 0). SLB 340sh order ID 6c529f05 from 2026-05-15 unconfirmed fill.
+- Buying power: Unknown
+- Daytrade count: Unknown
+- Open positions: UNVERIFIABLE — API blocked continuously since 2026-05-14
+- NOTE: ClickUp API also blocked (api.clickup.com:443 403). Fallback to DAILY-SUMMARY.md.
+
+### Market Context
+- WTI / Brent: WTI ~$68.99 (+0.64% today) — Hormuz incident (LNG carrier struck near Oman coast). BUT: WTI down ~24% over past month (was $101-102 in May). US-Iran initial ceasefire deal announced; OPEC+ production quotas increased; Saudi Aramco cut Arab Light $11/bbl for Asia.
+- S&P 500: Previous close 7,537.43 (+0.72% July 6). Pre-market: contracts -0.1%. Semiconductor weakness (Samsung -11% Seoul; Micron/Sandisk -4%+ premarket).
+- VIX: ~15.81–16.41 — low, calm markets.
+- Today's catalysts:
+  - Samsung Q2 earnings: profit +19x YoY but disappointed investors; dragging chip sector globally
+  - Micron Q3 (reported recently): revenue $41.5B (+346% YoY), EPS +1,215%; AI HBM fully sold out 2026 — best quarter ever
+  - Micron pre-market +3.6% on Citi 90-day catalyst watchlist addition
+  - Alphabet investing €411M in Proxima Fusion (AI/energy catalyst)
+  - Earnings due this week: PepsiCo (PEP) Thu, Delta Air Lines (DAL) Fri; Magnificent 7 soon
+- Sector momentum: Energy REVERSED (US-Iran ceasefire, OPEC+ supply increase, XLE 10-day crossed below 50-day on 2026-06-16 — bearish). Semis volatile but AI demand structural. S&P near all-time highs.
+
+### Trade Ideas
+1. **MU (Micron)** — AI memory sold out 2026; best-ever quarter; Citi catalyst watchlist; structural AI demand. Risks: sector volatile post-Samsung; prior -13% single-day drop; Mag7 binary events upcoming. Entry only on confirmed open strength. Entry TBD (need clean print), stop 10% below entry, target +15%, R:R ≥2:1. Size ≤20%.
+2. **Energy (XOM/MPC/SLB)** — PASS. Thesis broken: WTI $69 (was $101-102); US-Iran deal reopening Hormuz; OPEC+ supply surge; XLE bearish MA cross. DO NOT enter new energy. Monitor SLB existing position status once API restored.
+3. **All others** — HOLD. Mag7 earnings season starting = multiple binary events. S&P near highs = limited upside without a catalyst.
+
+### Risk Factors
+- Alpaca API inaccessible since 2026-05-14 — unknown account state, cannot place/confirm trades
+- SLB position (340sh, ~$20k) may or may not exist — stop status unknown, could be stopped out
+- Samsung miss = semiconductor risk-off; MU pre-market volatile
+- Mag7 earnings = binary events; Nasdaq susceptible to sentiment shifts
+- VIX at 15-16 = complacency risk; any shock amplified
+- Energy thesis fully reversed; prior energy positions at risk
+
+### Decision
+HOLD — API inaccessible, cannot place or verify any orders. Energy thesis broken (WTI -24% from May highs; Hormuz ceasefire). MU interesting but sector volatile and binary events ahead. No edge sufficient to justify manual override. CRITICAL: Account state unknown since May 14 — manual API access required to assess SLB position and current equity before any trades.
