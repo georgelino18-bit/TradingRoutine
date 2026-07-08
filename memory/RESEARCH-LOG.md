@@ -204,3 +204,52 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-08 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, same as all prior sessions)
+- Cash: UNKNOWN — last confirmed baseline $100,000 (Day 0, May 13)
+- Positions: UNCONFIRMED — SLB 340sh market buy submitted May 15 (order ID 6c529f05) never confirmed filled; API inaccessible since submission
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- **CRITICAL:** SLB now trading at $45.72 (July 7). If order filled ~$57–60 in May, position is -19% to -23% — far past the -7% manual cut rule. Cannot confirm or act without API access. Manual intervention required.
+
+### Market Context
+- **Oil:** WTI surged +5.8% to $74.55 | Brent +5.6% to $78.00+ — Trump declared Iran ceasefire "over" at NATO summit (Ankara); U.S. struck Iran after Hormuz ship attacks; Iran struck U.S. bases in Bahrain and Kuwait; Treasury re-imposed sanctions on Iranian oil
+- **S&P 500 Futures:** ~7,592 E-mini (+0.48% prior session); Dow futures tumbling pre-open on Iran escalation news
+- **VIX:** 16.36 (+5.07%; opened 15.87) — moderate elevated; 30-day range 15.53–23.34
+- **Today's releases:** FOMC June meeting minutes (2pm ET) — June meeting was Warsh's first; pause decision amid energy-inflation pressure; Wall St looking for rate path signals
+- **Earnings BMO:** LEVI (Levi Strauss) + ~6 others unspecified; no high-conviction binary risk pre-open
+- **Semis drag:** Samsung decline Monday pulled memory/semiconductor stocks lower; weakness persisting
+- **Sector momentum (YTD):** Materials +22% (leader), Healthcare (flight to safety), Industrials/Defense strong | Energy volatile (lagged -13% in June, now re-accelerating on Iran), Tech cooling (AI capex ROI questions), Semis mixed
+
+### SLB Specific News
+- SLB at $45.72 (July 7); down ~19% past month
+- Q2 2026 earnings call scheduled July 24; seven-year Kuwait Oil Company contract announced
+- Analyst consensus: 25 Buy / 2 Sell; avg 12-mo target $61.79; UBS cut target to $66 from $69 on July 1
+- At $45.72 vs. avg target $61.79 = potential +35% upside IF energy thesis re-activates (Iran escalation today = tailwind)
+- However: -7% cut rule means position should have been cut months ago if filled and stop not functioning
+
+### Trade Ideas
+1. **HOLD all new entries** — Cannot confirm account state or existing position. API inaccessibility is the primary blocker.
+2. **Energy re-entry (XOM / CVX / SLB)** — Iran ceasefire collapse + oil +6% today re-activates energy sector. IF account access restored and SLB position confirmed stopped-out: XOM or CVX as cleaner re-entry vs SLB; wait for oil price stabilization post-spike before entering. Entry only after Alpaca access confirmed.
+3. **Avoid semis near-term** — Samsung drag + AI capex skepticism; NVDA/AMD weak momentum; not a sector to add now.
+4. **Materials (FCX / NEM)** — YTD leader (+22%); geopolitical uncertainty benefits gold/copper. Monitor only; no entry without API access.
+
+### Risk Factors
+- **Iran escalation** — ceasefire collapsed; full re-escalation could spike WTI to $90-100+ (stagflation risk), hammer equities broadly
+- **FOMC minutes (2pm ET)** — if Warsh signals fewer cuts or hawkish tilt, growth/tech selloff; energy/defensives benefit
+- **SLB position unknown** — if still open and unprotected, deeply underwater; potential -$3,000 to -$4,000 loss on 340sh at $45.72 vs $57 fill
+- **Alpaca API 403** — cannot place stops, exits, or new orders; account unmanaged since May 15
+- **Samsung/memory contagion** — semis broad weakness possible if selloff accelerates
+- **Market volatility elevated** — Iran + FOMC minutes = two risk events today; VIX elevated +5%
+
+### Decision
+**ALERT — HOLD + URGENT MANUAL ACTION REQUIRED**
+- No new trades — account unmanaged since May 15; cannot confirm positions
+- If SLB is open: price is -19%+ from likely fill; -7% stop rule violated long ago; manual close needed immediately
+- Energy re-accelerating on Iran (oil +6%) but cannot trade without API access
+- Top priority: restore Alpaca API access (whitelist sandbox IP) before next session
