@@ -204,3 +204,32 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-08 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (network policy blocks `paper-api.alpaca.markets:443`)
+- Positions: UNKNOWN (API inaccessible)
+- Cash: UNKNOWN (API inaccessible)
+
+### Actions Taken
+- None — API blocked; loser cuts, stop tightening, and thesis checks cannot execute
+
+### Loser Cuts (-7% rule)
+- BLOCKED — cannot read `unrealized_plpc` for any position
+
+### Stop Tightening
+- BLOCKED — cannot query open orders or positions
+
+### Thesis Check
+- BLOCKED — no position data retrievable
+
+### Intraday Notes
+- Proxy status: `connect_rejected` 403 on `paper-api.alpaca.markets:443` and `api.clickup.com` — persistent since first session (2026-05-14)
+- ClickUp notification also blocked (same policy)
+- This is a recurring critical blocker: the managed execution environment's network policy must whitelist `paper-api.alpaca.markets` and `data.alpaca.markets` for any live trading activity
+
+### Decision
+NO ACTION — API inaccessible. **CRITICAL: notify owner to update network policy / add domain allowlist in Claude Code on the Web environment settings.**
