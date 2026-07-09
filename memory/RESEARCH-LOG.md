@@ -177,6 +177,24 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ---
 
+## 2026-07-09 — Market-Open Execution (BLOCKED)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (org egress proxy policy denial)
+- Cash: UNKNOWN — no data since 2026-05-15
+- Positions: UNKNOWN — SLB 340sh buy order was placed 2026-05-15; status unconfirmed
+- Daytrade count: UNKNOWN
+
+### APIs Status
+- Alpaca (paper-api.alpaca.markets): **BLOCKED** — 403 org egress policy
+- Perplexity (api.perplexity.ai): **BLOCKED** — 403 org egress policy
+- ClickUp (api.clickup.com): **BLOCKED** — 403 org egress policy
+
+### Decision
+**NO ACTION** — All external APIs blocked by sandbox egress policy. Cannot read account, place orders, or notify. Manual intervention required.
+
+---
+
 ## 2026-05-14 — Midday Scan
 
 ### Account
