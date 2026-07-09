@@ -31,3 +31,17 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-09 — Midday Scan
+**Status:** API BLOCKED — 403 Forbidden (proxy CONNECT tunnel rejected)
+
+- Alpaca API unreachable: HTTPS proxy returns 403 on `paper-api.alpaca.markets:443`
+- No position data retrievable; no orders checked
+- No cuts, no stop adjustments possible this session
+- Last known state: SLB 340sh market buy submitted 2026-05-15 (unconfirmed fill); $100k cash baseline otherwise
+
+**Action required (manual):**
+- Whitelist this sandbox IP in Alpaca paper account settings
+- Run `bash scripts/alpaca.sh positions` and `bash scripts/alpaca.sh orders` to confirm SLB fill status
+- Place 10% trailing stop on SLB if filled and unprotected
+- Confirm unrealized P&L and apply tighten-stop rules if eligible (+15% → 7% trail; +20% → 5% trail)
