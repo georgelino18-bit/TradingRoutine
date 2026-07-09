@@ -204,3 +204,64 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-09 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, same as all prior sessions)
+- Cash: ~$100,000 estimated (no confirmed fills since Day 0)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (assumed; no access)
+- Positions: UNCONFIRMED — SLB order (340sh, ID 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) submitted 2026-05-15 but never confirmed due to API block; status unknown
+- NOTE: Both Perplexity and Alpaca APIs returning 403. All research via WebSearch fallback.
+
+### Market Context
+- WTI: ~$74/bbl (up ~5-7% from $68.65 on July 7); Brent: ~$78/bbl — sharp spike on July 8 as US launched new airstrikes on Iran; Iran retaliated against Gulf countries
+- S&P 500 futures: +0.2% premarket; Polymarket 85% probability S&P opens higher despite geopolitical headwinds
+- VIX: ~15.87–16.64 (relatively calm; no panic)
+- Today's catalysts:
+  - **US-Iran military escalation (CRITICAL)**: US launched new airstrikes vs Iran; Iran retaliated targeting Gulf countries; oil inventories drop feeding fuel price concern; WTI spiked ~5-7% July 8
+  - **June FOMC minutes (released July 8, HAWKISH)**: 9 of ~18 dots project ≥1 rate hike in 2026; rates held 3.50–3.75%; hints of cuts removed; Warsh abstained from dot plot; futures now price FF rate →4% by year-end
+  - **10-yr Treasury yield**: ~4.58% (4-week high); 1-yr inflation expectations 3.7%
+  - **Momentum trade unwinding**: MTUM ETF -6.6% in July; SOXX (semiconductors) -11.4% in July
+  - **PepsiCo Q2 (BMO today)**: EPS $2.20 vs $2.21 est (slight miss); revenue $24.18B +6.4% (beat); organic +2.4%; reiterated full-year guidance → mixed
+  - June existing home sales data due today
+- Earnings before open: PepsiCo (PEP) Q2 — mixed results (see above); 13 total reports BMO
+- Economic calendar:
+  - Weekly jobless claims: 215K vs 220K est — beat; labor market firm; 4-wk avg 222K
+  - CPI June: July 14 (next big event)
+  - PPI June: July 15
+  - FOMC rate decision: July 29
+  - SLB earnings: July 24
+- Sector momentum YTD: **Energy, Materials, Industrials, Consumer Staples leading** | Tech, Comm, Discretionary, Financials lagging | Semis getting hit hard (SOXX -11.4% in July) | S&P 500 +9.3% YTD, Equal Weight +12.2% (broad participation)
+
+### SLB Update (potential open position)
+- Current price: ~$61.58 (at analyst consensus PT — no upside per street)
+- Down ~19.15% over past month (oil moved from ~$101→$68 pre-Iran spike)
+- Analyst cuts: UBS $66→$66, TD Cowen $66→$62, Citi $68→$63
+- Kuwait Oil Company 7-yr contract win (AIV initiative) — strategic positive
+- Earnings: July 24, 2026; EPS est $0.52
+- Iran escalation oil spike (+5-7% July 8) = short-term positive tailwind for oilfield services
+- IF position is open: oil spike gives SLB a boost today; watch if trailing stop (10% GTC) has already triggered; SLB entry target was ~$57.58, current ~$61.58 = +6.9% unrealized (IF position filled and stop not triggered)
+
+### Trade Ideas
+1. **Energy sector (XOM, CVX, HAL)** — US-Iran military escalation = renewed structural bid for oil; WTI $74 with trajectory to $80+ if Hormuz supply disruption worsens; Energy sector #1 YTD; hawkish Fed + stagflation scenario = energy still works. Cannot execute without Alpaca access.
+2. **HOLD SLB (if position open)** — Oil spike today is a tailwind; earnings July 24 upcoming binary; do NOT add. Tighten stop to 7% if SLB +15% from entry (from $57.58 that would be ~$66.22) — cannot verify or act without API access.
+3. **AVOID Tech/Semis** — Momentum unwind brutal (-11.4% SOXX in July); hawkish Fed headwind; no catalyst to re-enter yet.
+
+### Risk Factors
+- Alpaca API inaccessible — cannot place, verify, or manage any orders (persistent 403, IP restriction unresolved since May 14)
+- Hawkish FOMC minutes: 9 dots pointing to rate hike; kills growth/tech; adds to inflation concern
+- Iran escalation binary: ceasefire = energy dump; escalation = oil spike + growth drag (stagflation amplifier)
+- Momentum trade unwind contagion — if semis flush further, drags S&P down despite "leading sectors"
+- CPI June (July 14) — if hot again, rate hike probability spikes; broad market pressure
+- SLB position uncertainty: unknown fill status, unknown stop status, unknown P&L — critical to restore API access
+
+### Decision
+**HOLD — NO NEW TRADES** (API inaccessible; cannot execute)
+- Energy sector remains highest-conviction macro setup (Iran escalation + hawkish inflation environment)
+- IF API access restored: evaluate XOM or HAL entry for ~15-20% position size; energy catalyst stack intact
+- SLB: monitor July 24 earnings; if position open, do NOT add; ensure 10% trailing stop is active
+- Priority action: RESTORE Alpaca API access (whitelist sandbox IP in paper trading settings) — this is the blocker for all execution
