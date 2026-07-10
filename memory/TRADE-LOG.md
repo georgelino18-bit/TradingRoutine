@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-10 — EOD Snapshot (Day 57, Friday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** PERSISTENT API BLOCK — outbound proxy (port 33929) is returning HTTP 403 on CONNECT tunnel to both `paper-api.alpaca.markets:443` and `api.clickup.com:443`. This is a network policy denial at the proxy level, not an Alpaca credential issue. No account data retrievable; no positions, orders, or P&L can be confirmed. Credentials are correctly exported in environment (key PKX7RYHY...). Last confirmed state: Day 0 pre-launch $100,000 cash, 0 positions. ClickUp notification could not be sent. **Action required: The cloud execution environment's outbound network policy does not allow connections to Alpaca or ClickUp. This must be resolved at the environment/infrastructure level before any automated trading workflow can function.**
