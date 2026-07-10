@@ -204,3 +204,47 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-10 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API returning 403 (IP restriction; unresolved since 2026-05-14)
+- **Positions:** UNKNOWN — SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, submitted 2026-05-15) never confirmed; may or may not have filled
+- **Cash:** ~$100,000 estimated (last confirmed Day 0 baseline)
+- **Daytrade count:** UNKNOWN
+- **Gap:** ~56 trading days with no API access; no live data since May 14
+
+### Market Context (WebSearch fallback; Perplexity 403)
+- **WTI:** ~$72–73/barrel | **Brent:** ~$75–77/barrel ($76.58 at 05:00 GMT)
+- **S&P 500 ES futures:** +0.2%, ~7,586–7,588; SPX closed 7,543.64 on July 9
+- **VIX:** 16.90 (July 9 close) — normal mid-range; no panic; 52-week high ~35.30
+- **10Y Treasury yield:** ~4.6%; sticky; weighing on growth names
+- **S&P 500 YTD:** +9.3% (cap-weighted) | +12.2% (equal-weight) — breadth expanding
+- **Geopolitical:** US-Iran war active; renewed US strikes overnight; Strait of Hormuz shipping "grinding to a halt" (Lloyd's List). Trump says Iran seeking negotiations. Oil steady despite disruption.
+- **Semis catalyst:** SK Hynix ADR debuts today at $149 (raised $26.5B). Micron pledged $250B US investment through 2035. PHLX Semi index +3% yesterday. KOSPI +2.52%.
+- **Earnings today (BMO):** Delta Air Lines (DAL) Q2 — EPS est $1.48; affirmed 2026 guidance; pricing power intact; passing fuel costs to consumers. CEO bullish.
+- **Next week:** CPI Tuesday — next major catalyst for yield/market direction
+- **HAL earnings:** July 16 | **SLB earnings:** July 24
+- **Sector momentum:** Materials (+22% YTD) > Energy > Industrials > Staples leading. Tech/momentum trade rolling over (-6.6% in first 2 sessions of July after 44% 3-month run).
+
+### Ticker Updates
+- **SLB:** $47.43 (was ~$58 in May); down ~18% from 52-week high $58.82; up 34.1% YTD; earnings July 24; Wolfe target $62 / Citi cut to $63; Hormuz bid structural but EPS est -29.7% YoY
+- **HAL:** $34.78; down 19.1% from $42.98 May high; up 17.5% YTD; earnings July 16; more room to run vs SLB
+
+### Trade Ideas
+1. **HAL (Halliburton)** — Oilfield services structural bid from Hormuz crisis; largest US oilfield services play after SLB; 19% below May high while crude holds $72+; earnings catalyst July 16 (check positioning risk). Entry zone: $34–35, stop 10% below entry (~$31–31.50), target $42–45 (+20–28%). R:R ~2:1+. Size ≤20% (~$20k). **Requires API access.**
+2. **MU (Micron)** — SK Hynix IPO hype + $250B domestic investment pledge = HBM/memory shortage narrative; analysts expect HBM prices to double in 2027; Semi index in strong uptrend. Risk: Momentum trade rolled over in July; broader tech caution. Entry on pullback to $80–85 range if available; verify current price first. **Requires API access.**
+3. **DAL (Delta Air Lines)** — Q2 beat + guidance affirm this morning; pricing power confirmed; airlines benefiting from travel demand. Risk: Fuel cost pass-through can't last forever; geopolitical (Hormuz = jet fuel price risk). Setup only if stock gaps up >3% with volume confirmation. **Requires API access.**
+
+### Risk Factors
+- **CRITICAL: Alpaca API 403** — cannot place, monitor, or confirm any orders. All trade ideas are theoretical until resolved.
+- Hormuz escalation risk — oil shock could reverse if fighting widens; recession signal if WTI breaks $85+
+- CPI print Tuesday — hawkish surprise would spike yields, compress multiples, hurt semis
+- Momentum unwind — momentum ETF -6.6% early July; rotation risk is real
+- HAL/SLB earnings risk — HAL July 16, SLB July 24; avoid entering within 3 days of binary
+- SLB unconfirmed order — if filled in May at ~$58 and stopped out at $52.20 (10% trail), potential loss of ~$1,900; if still open and at $47.43, unrealized loss ~$3,590 on 340 shares
+
+### Decision
+**HOLD — blocked by Alpaca API 403 (unresolved 56+ trading days).** Cannot place or verify orders. HAL is the best current setup given Hormuz structural bid and proximity to May lows. Will enter HAL on first session Alpaca API is restored if price remains in $33–36 range. Patience > activity — but API fix is now URGENT.
