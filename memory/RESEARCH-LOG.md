@@ -204,3 +204,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-10 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs proxy-blocked)
+
+### Account
+- Equity: UNAVAILABLE — proxy blocks paper-api.alpaca.markets (403 CONNECT tunnel rejected)
+- Cash: ~$100,000 estimated (last confirmed Day 0 baseline; SLB position status unknown — order submitted 2026-05-15 but stop placement failed)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Open positions: UNKNOWN (SLB 340sh market buy submitted 2026-05-15 — fill/status unconfirmed)
+
+### Market Context
+- WTI: ~$76.70 (down significantly from May's $101+ but holding above ascending support; Hormuz tensions renewed — US strikes on Iran + retaliatory attacks on US bases)
+- S&P 500 futures: Mixed/slightly negative (-0.22%) — SK Hynix Nasdaq debut weighing on sentiment
+- VIX: 15.94 (calm, up +0.63% on day — no panic)
+- Sector rotation H2 2026: **Energy +22% YTD (leader)** | Industrials +16% | Materials strong | **Tech -4.8% in first 5 sessions of July** (rotation trade — selling winners, buying cyclicals)
+- Key catalyst: **SK Hynix (SKHY) Nasdaq debut today** — $29B IPO, largest-ever foreign listing, 7× oversubscribed; HBM memory leader (60% market share), NVDA/GOOG/MSFT customer; may pressure MU, INTC (both down 17-24% in July)
+- FOMC minutes due this week — Fed hawkish posture ongoing; rate cut odds near zero
+- US-Iran: Hormuz closure risk renewed after collapse of interim peace agreement; WTI structurally bid on supply disruption fears
+- Earnings before open: No major US large-cap movers noted
+
+### Trade Ideas
+1. **XOM / CVX** — Energy still #1 sector YTD +22%; WTI Hormuz floor; if Alpaca becomes accessible
+   - Entry: Validate at open; do not chase prior highs
+   - Stop: 10% trailing GTC
+   - Note: XOM was $151.70 on May 14; need fresh quote to assess R:R
+2. **SKHY (SK Hynix)** — PASS — first-day IPO, no price history, no clean stop level; avoid
+3. **MU / INTC** — PASS — tech sector selling off in July; both down 17-24% this month; no catalyst
+4. **SLB** — Need to confirm May 15 fill status; if position open, check P&L and stop status
+
+### Risk Factors
+- Alpaca API proxy-blocked (persistent since May 14) — cannot place any orders
+- SLB position status unknown — no stop confirmed; potential uncapped risk if position open
+- SK Hynix debut creates sector volatility in semis and memory stocks
+- FOMC hawkish posture + Hormuz = stagflation risk
+- Tech rotation unwind (NVDA, MU, INTC selling) could spill into broader market
+- No pre-market research catalyst for new entry with sufficient edge today
+
+### Decision
+**HOLD — API inaccessible. No trades can be placed.**
+Priority: Resolve Alpaca proxy block before any trading. Until then, document and notify only.
+Next: If API becomes accessible, XOM/CVX energy setup is highest conviction given sector momentum.

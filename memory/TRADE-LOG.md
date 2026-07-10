@@ -31,3 +31,17 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-10 — Market-Open Scan
+**Status:** BLOCKED — Alpaca proxy-blocked (403 CONNECT tunnel rejected by environment proxy)
+
+**No trades placed.** All APIs inaccessible:
+- Alpaca: paper-api.alpaca.markets blocked by environment proxy (persistent since 2026-05-14)
+- Perplexity: 403
+- ClickUp: 403 (fallback log to DAILY-SUMMARY.md)
+
+**SLB position status UNKNOWN** — order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy submitted 2026-05-15) was never confirmed filled or cancelled. No trailing stop placed. Manual check required.
+
+**Market context (WebSearch):** Energy +22% YTD (leader); Tech -4.8% in July; VIX 15.94; WTI ~$76.70; SK Hynix (SKHY) Nasdaq debut today ($29B IPO). Sector rotation: cyclicals/energy in, tech out.
+
+**Action required:** Whitelist this environment's IP in Alpaca paper account settings before next session. Until resolved, bot cannot trade.
