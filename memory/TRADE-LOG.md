@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-13 — EOD Snapshot (Day N, Monday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** CRITICAL — Alpaca API (`paper-api.alpaca.markets`) blocked by egress policy (proxy 403 policy denial, confirmed via `/__agentproxy/status`). ClickUp API also blocked. This is a persistent infrastructure issue spanning every scheduled run since launch. No account data retrievable; no trades confirmable; no ClickUp notifications deliverable. Last confirmed state: Day 0 (2026-05-13) $100,000 cash, 0 positions. Action required: add `paper-api.alpaca.markets` and ClickUp's API host to the egress allowlist for this Claude Code remote session environment, or switch to an environment with unrestricted HTTPS egress.
