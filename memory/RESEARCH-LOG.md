@@ -204,3 +204,32 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-13 — Pre-market Research (market-open run)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked (proxy policy denial on paper-api.alpaca.markets:443)
+- Cash: UNKNOWN — last confirmed state was Day 0 $100,000 cash, 0 positions (2026-05-13)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Note: SLB 340sh market buy was submitted 2026-05-15 pre-market (order ID 6c529f05) — fill status unconfirmed; stop was never placed
+
+### Market Context
+- All market data APIs blocked (Perplexity also returns 403 via proxy)
+- Cannot retrieve WTI, S&P futures, VIX, or sector data
+- Date gap: 59 calendar days since last session (2026-05-14) — significant drift risk
+
+### Trade Ideas
+- NONE — cannot validate any setup without live account data or market context
+
+### Risk Factors
+- CRITICAL: Proxy policy blocks outbound connections to paper-api.alpaca.markets AND api.perplexity.ai
+- Unknown SLB position status (may be open/filled without stop protection since 2026-05-15)
+- 59-day gap in monitoring — positions may have hit stops, reversed, or been liquidated
+- Cannot enforce any strategy rules without live account state
+
+### Decision
+NO TRADE — APIs blocked. Cannot access account, positions, or market data.
+Manual intervention required: whitelist proxy or switch to a non-restricted execution environment.
