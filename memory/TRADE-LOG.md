@@ -31,3 +31,23 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-13 — Midday Scan (~12:00 ET)
+**Status:** BLOCKED — Agent proxy policy denies paper-api.alpaca.markets (403 CONNECT)
+
+- Alpaca: 403 — proxy egress policy blocks paper-api.alpaca.markets
+- ClickUp: 403 — proxy egress policy blocks api.clickup.com
+- Perplexity: 403 — proxy egress policy blocks api.perplexity.ai
+
+**No live data available.** Cannot pull positions, orders, quotes, or place/cancel orders.
+
+**Last confirmed state (2026-05-15):**
+- Cash: ~$100,000 estimated
+- Positions: Unknown — SLB 340sh order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` was submitted pre-market 2026-05-15 but never confirmed. Status of that position and all subsequent account changes unknown.
+
+**Action required:**
+1. Log into Alpaca paper account manually and check current positions/P&L
+2. Verify SLB fill and stop status
+3. Check if any positions are at -7% loss threshold (require manual cut)
+4. Whitelist `paper-api.alpaca.markets`, `api.clickup.com`, `api.perplexity.ai` in session egress policy, OR run bot from a network without proxy restrictions
+5. Add these domains to .claude/settings.json allowed network list if possible
