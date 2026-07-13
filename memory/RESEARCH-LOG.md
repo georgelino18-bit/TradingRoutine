@@ -204,3 +204,66 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-13 — Pre-Market Research (Monday)
+
+### Account Snapshot
+- **API Status:** BLOCKED — Alpaca paper-api returning 403 (sandbox IP not whitelisted by org egress policy). Perplexity also blocked. All data via WebSearch fallback.
+- **Equity / Cash / Buying Power:** UNAVAILABLE
+- **Positions:** UNKNOWN — Cannot verify. SLB 340sh market buy submitted 2026-05-15 (order ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) was never confirmed filled. Status unclear for ~2 months.
+- **Day Trades (PDT):** UNAVAILABLE
+- **⚠ CRITICAL:** If SLB was filled at ~$54–55 (May 2026 price), current price ~$46.42 (Jul 7) = ~-15% to -18%. This has blown through the 7% stop rule by a wide margin. Human must verify and cut immediately if position is open.
+
+### Market Context
+- **WTI:** ~$73.15 (+2.44% today) | **Brent:** ~$78.85 (+3.74% today)
+  - Ceasefire between US and Iran ended — US struck Iran again over Hormuz attacks on commercial ships. Oil spike structural.
+- **S&P 500 Futures:** -0.3% premarket (some sources show +0.4% — conflicting; net: cautious/flat open)
+- **VIX:** ~15.03 (Jul 10 close) — still low but geopolitical re-escalation may push higher
+- **Geopolitical:**
+  - US-Iran ceasefire declared "over" by Trump at NATO summit in Turkey. US struck Iran Tue/Wed for Hormuz ship attacks. Iran closed strait again citing Israeli violations.
+  - Hormuz throughput ~20% of global oil — renewed closure risk = sustained energy bid
+  - Brent $79, WTI $73 (well below $120 war-peak; elevated supply risk priced partially)
+- **Economic Calendar This Week:**
+  - Mon Jul 13: No major data. 26 earnings reports (Fastenal pre-market)
+  - **Tue Jul 14:** CPI (June) 8:30 ET + Fed Chair Warsh testimony (House) 10 AM + JPM, BAC, GS, WFC, C earnings
+  - **Wed Jul 15:** PPI (June) 8:30 ET + ASML Q2 earnings + Warsh Senate testimony
+  - **Thu Jul 16:** TSMC Q2 earnings + Advance Retail Sales 8:30 ET
+  - **Fri Jul 17:** UMich Consumer Sentiment (prelim July)
+  - FOMC meeting: July 28–29 (statement July 29)
+- **Sector Momentum (YTD as of early Jul):**
+  - Leaders: Consumer Staples (XLP), Industrials (XLI), Materials (XLB +22% YTD), Energy (XLE)
+  - Lagging: Technology (XLK), Communications (XLC), Consumer Discretionary (XLY), Financials (XLF)
+  - Weakening: Semis (SOXQ -11.4% MTD in July), Healthcare
+  - Improving: Real Estate (XLRE), Utilities (XLU)
+  - S&P 500 YTD: +9.3%
+
+### Currently Held Tickers (if SLB filled)
+- **SLB (~$46.42 Jul 7, down 18% past month):**
+  - Q1 EPS met ($0.52); revenue $8.72B slightly beat; $200M shortfall from Hormuz disruptions
+  - Analyst median target $59.50 (range $41–$71)
+  - If position open at ~$54–55 entry = ~-15% to -18% — STOP VIOLATION, must cut
+  - With oil re-escalating, thesis partially restored but price action bearish; cannot enter new position
+
+### Trade Ideas
+1. **HOLD — No new entries today.** Too much binary risk ahead (CPI Tue, bank earnings Tue, ASML Wed, TSMC Thu). Market could gap either direction.
+2. **Banks (JPM/BAC/GS/WFC/C) — Watch only.** Earnings Tue pre-market. If CPI cools and Warsh sounds less hawkish → banks may rally on NIM stability. Entry only post-earnings-reaction if R:R ≥2:1, sector confirmed in momentum. Currently in Lagging quadrant — do not enter sector in downtrend.
+3. **ASML (Jul 15) / TSMC (Jul 16) — Watch only.** EUV bookings + AI capex guidance key reads. Semis hit hard (-11% MTD). Wait for post-earnings reaction. If beat + strong guidance → gap-up entry thesis on ASML or SMH. Risk: momentum still negative.
+4. **Energy (XLE / SLB / HAL) — Monitoring.** Oil spike resumes with Hormuz re-escalation. XLE leader YTD. But SLB down 18% past month despite oil — poor relative strength. HAL may be cleaner. Do not add energy until SLB position clarified.
+
+### Risk Factors
+- SLB may be open at -15% to -18% — immediate stop violation requiring human intervention
+- CPI tomorrow — hot print = Warsh stays hawkish, growth/tech flush
+- Warsh testimony unknown quantity — first as Fed chair; hawkish posture = rate shock
+- Hormuz closure risk re-escalates — energy shock amplifies stagflation
+- Semis in confirmed downtrend (SOXQ -11.4% MTD) — AI trade showing signs of exhaustion
+- Bank earnings Tue — largest single-day catalyst of Q2 earnings season
+- TSMC/ASML binary risk Wed/Thu — could reverse semi selloff or confirm it
+
+### Decision
+**HOLD — No new trades.**
+- Cannot confirm any open positions (API blocked). Human must verify SLB status immediately.
+- Week is binary: CPI + bank earnings + ASML + TSMC = wait for data to clear.
+- Patience > activity. Monitor CPI and bank reactions Tue morning before any decision.
+- API access issue has persisted since May 14. Escalate to human: Alpaca paper account must whitelist the current sandbox IP to enable any trade execution.
