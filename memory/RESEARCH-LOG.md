@@ -204,3 +204,59 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-14 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (proxy/IP restriction, unchanged since 2026-05-14)
+- Cash: ~$100,000 estimated (no confirmed fills; SLB order from 2026-05-15 status unknown)
+- Buying power: ~$100,000 estimated
+- Daytrade count: unknown
+- NOTE: 2-month log gap (May 14 → Jul 14). Both Alpaca and Perplexity APIs blocked. All research via WebSearch fallback.
+
+### Market Context
+- WTI: ~$80.35/bbl (+2.83% premarket) | Brent: ~$86.35–$86.99/bbl (+3.66%)
+  - Trump reinstated Hormuz "blockade" on Iranian shipping + announced 20% cargo fee on ALL Hormuz vessels
+  - Iran/US resumed hostilities (ceasefire declared over ~Jul 8); fresh US airstrikes; Iran claims Strait closure
+  - Hormuz disruption round 2 — oil spiking again from ~$68–70 June lows
+- S&P 500 futures: -0.2% premarket — market pausing ahead of dual macro prints (CPI + bank earnings)
+- VIX: ~17.16 (Jul 13 close, range 16.03–17.41) — mid-range, no panic; recent peak 31.05 in late March
+- FOMC context: July 28–29 FOMC meeting; today's CPI is the last major print before it
+- Today's catalysts:
+  - **June CPI 8:30 ET** (most market-moving event): Expected -0.1% MoM, +3.8% YoY (vs May's +0.5% MoM, +4.2% YoY); Core +0.2% MoM, +2.9% YoY. June gasoline -10% provides disinflation tailwind. Dovish print → rate cut odds up → risk-on. Hawkish upside surprise → rate hike fears revived
+  - **Bank earnings BMO**: JPM (EPS est $5.67), GS (EPS est $14.47), BAC, WFC, C — all five major banks reporting today. Beat = financials lift; miss = broad selling
+  - **Fed Chair Warsh testimony** to Congress — first major public remarks; any hawkish signal = headwind
+  - **Trump Hormuz toll** — 20% cargo fee on all vessels; airlines, consumer/industrial cost pressures; energy names bid
+  - **NVDA premarket**: Broke key support floor $191.23; new "white-list" export restrictions eliminating >50% Asian customers (neo-cloud providers); stock at ~$190.87 below support
+- Sector momentum (YTD as of Jul 3, S&P 500 +9.3%):
+  - Leading: Materials (XLB +22% YTD), Consumer Staples (XLP), Industrials (XLI), Energy (XLE — recovering after Q2 selloff)
+  - Lagging: Technology (XLK — export restriction drag), Communications (XLC), Consumer Discretionary (XLY)
+  - Energy note: XLE large caps -13% in Q2 (Hormuz ceasefire triggered profit-taking); NOW reversing on new escalation
+
+### Held Positions (from May context — status UNCONFIRMED)
+- SLB: Order placed 2026-05-15 (340sh market buy, order ID 6c529f05) — fill status UNKNOWN; if filled, last known at ~$47.76 (Jul 10), down ~18% from May high. Current Hormuz context: bullish. Stop check required.
+- All other positions: 0 confirmed
+
+### Energy Sector Snapshot (potential setups)
+- **SLB** ~$47.76 (Jul 10): Down 18% from May peak but Hormuz re-escalation is direct thesis confirmation. If in position: stop at -10% from fill price. NOT chasing here without API confirmation.
+- **HAL** ~$34.39 (Jul 10): +17.5% YTD, 19% below 52-week high $42.98. Hormuz beneficiary. Stop ~$31, target ~$40. R:R ~1.6:1 — below 2:1 minimum; PASS unless R:R improves.
+- **XOM** ~$135 (est, down ~23% from $176 peak): 43-year dividend raiser, Hormuz bid. Stop ~$122, target ~$155. R:R ~1.5:1 — PASS.
+
+### Trade Ideas
+1. **HOLD SLB** (if filled from May order) — Hormuz thesis fully intact. Verify fill + current price + stop status the moment API access is restored. If stop was never placed, URGENT: place 10% trailing stop immediately.
+2. **PASS on new entries** — Cannot verify account state, no API access. R:R on all energy candidates below 2:1 minimum at current levels. No chasing.
+3. **Bank earnings watch** — If JPM/GS beat + CPI dovish → financials (XLF) could set up for entry. Monitor post-open. No action pre-data.
+4. **AVOID NVDA** — Broke support $191.23; new export restrictions = structural headwind. Do not enter.
+
+### Risk Factors
+- CPI upside surprise → rate hike fears → broad risk-off selloff
+- NVDA support break spreads to Nasdaq/tech
+- Hormuz escalation beyond rhetoric → oil shock + stagflation amplifier
+- Bank earnings miss → Q2 growth concerns, credit spread widening
+- Warsh hawkish testimony → June rate cut odds collapse
+- Alpaca API blocked — cannot place stops, verify fills, or manage existing positions
+
+### Decision
+HOLD / NO NEW TRADES — API access is the critical blocker. If SLB filled in May, the position may be running unmanaged (no stop confirmed). Priority #1: restore Alpaca API access and verify all positions. Priority #2: place trailing stop on SLB if confirmed open. Patience > activity — no new entries until account is confirmed and R:R ≥2:1 setup emerges post-CPI reaction.
