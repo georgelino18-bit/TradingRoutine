@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-14 — EOD Snapshot (Day ~41, Monday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Alpaca API returned 403 (sandbox IP not whitelisted) — no account data retrievable. ClickUp API also returned 403 (CONNECT tunnel failed). Last confirmed state: Day 0 baseline $100,000, no confirmed positions. This is a persistent infrastructure block; all automated workflows have been unable to retrieve live data since 2026-05-14. **Urgent action required:** whitelist the remote execution environment IP in Alpaca paper account settings and ClickUp to restore trading operations. Trades today: none confirmed. Trades this week: none confirmed.
