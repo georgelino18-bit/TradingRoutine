@@ -204,3 +204,48 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-14 — Pre-market Research (market-open inline, WebSearch fallback — all APIs blocked)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy egress policy blocks paper-api.alpaca.markets:443)
+- Cash: UNKNOWN — no account access since 2026-05-15
+- Positions: UNKNOWN — SLB order 6c529f05 submitted 2026-05-15 but fill never confirmed
+- Daytrade count: UNKNOWN
+- NOTE: ClickUp and Perplexity APIs also blocked 403. All research via WebSearch.
+
+### Market Context
+- WTI / Brent: WTI ~$79.56 (+2% today) | Brent ~$84.95 (+1.98%) — DOWN ~27.5% from May $101+ highs
+- S&P 500 futures: -0.06% to -0.3%; Nasdaq 100 +0.61% (tech outperforming)
+- VIX: data unavailable via API
+- Sector momentum: Technology + Healthcare leading July 2026 | Energy sinking on Iran deal
+- Today's catalysts:
+  - US-Iran interim peace deal announced — Strait of Hormuz reopening; WTI war premium removed; oil down ~27.5% past month
+  - Trump reinstating blockade (conflicting signals) — binary risk on Iran situation
+  - AMAT Q2 2026 beat (reported ~May 2026): $7.91B revenue (record), EPS beat, CEO guides >30% semis growth in 2026
+  - AMAT +5.3% premarket | TER +4.9% | MPWR +4.5% — semis/AI buildout continues
+  - Middle East situation remains fragile; Iranian attacks on vessels reported over the weekend
+
+### CRITICAL — Energy Thesis Assessment
+- **THESIS BROKEN**: US-Iran peace deal removes the Strait of Hormuz disruption premium
+- SLB (last confirmed close 2026-07-13): $47.36
+- SLB original order: 340sh market buy submitted 2026-05-15 (fill price UNKNOWN)
+- If filled ~$55-60 range (May 2026 prices), unrealized loss ~-14% to -21% — 10% trailing stop should have triggered
+- XOM, MPC at unknown prices but energy sector -27.5% from May highs
+- Action required: manually check Alpaca for SLB position status IMMEDIATELY
+
+### Trade Ideas (cannot execute — API blocked)
+1. **AMAT** — AI capex supercycle thesis intact; record Q2 beat; CEO guided >30% equipment growth 2026; +5.3% premarket today. Entry: open price, stop 10% below, target +15-20%, R:R ≥2:1. SIZE ≤20% equity. HIGH CONVICTION if account is clean.
+2. **HOLD all energy** — Do NOT add SLB, XOM, MPC, HAL. Thesis broken. Hormuz reopening removes structural oil bid.
+
+### Risk Factors
+- SLB position may be open at major loss (-14 to -21% estimated) — CRITICAL
+- API blocked — cannot place orders, verify positions, or set stops
+- Iran deal fragile; Hormuz not fully reopened; binary oil risk remains
+- Trump blockade rhetoric = conflicting signals on Iran resolution
+- Gap in trade log: 2026-05-15 to 2026-07-14 (2 months of unknown P&L)
+
+### Decision
+**HOLD — NO TRADES EXECUTABLE**: Alpaca API blocked by egress policy. Cannot confirm account status, position count, or weekly trade tally. Even if API were available: energy sector thesis is broken; SLB position requires manual review before any new entries. If API restored, priority action is: (1) check SLB position, (2) evaluate cut/hold based on current stop status, (3) AMAT is the top new-trade candidate in new momentum regime (semis/tech).
