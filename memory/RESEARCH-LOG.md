@@ -204,3 +204,25 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-15 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked by egress policy
+- Positions: UNAVAILABLE
+- Cash: UNAVAILABLE
+
+### API Status
+- **CRITICAL BLOCKER:** Remote execution environment egress policy blocks `paper-api.alpaca.markets:443`
+- Error: proxy 403 "connect_rejected: gateway answered 403 to CONNECT (policy denial or upstream failure)"
+- This is a **network policy denial**, NOT an Alpaca IP allowlist issue
+- Per proxy README: do not retry or route around it — host must be added to the session's egress allowlist by the account owner
+- Same class of blockage as May 14–15 sessions; still unresolved as of 2026-07-15
+
+### Actions Taken
+- None — API unreachable; cannot read positions, cannot cut losers, cannot tighten stops
+
+### Decision
+NO ACTION — egress policy blocks all Alpaca API calls. Manual intervention required: add `paper-api.alpaca.markets` to the allowed hosts for this remote session's network policy. See https://code.claude.com/docs/en/claude-code-on-the-web for environment configuration.
