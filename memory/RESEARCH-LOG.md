@@ -204,3 +204,35 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-15 — Market-Open Execution (Automated Run)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy policy denial; paper-api.alpaca.markets not in allowlist)
+- Cash: UNKNOWN (last known: ~$100,000 — no positions placed through May 15)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Open positions: UNKNOWN
+- Open orders: UNKNOWN (SLB 340sh market buy submitted 2026-05-15 — fill status unknown)
+
+### API Status
+- Alpaca (paper-api.alpaca.markets): BLOCKED — egress proxy 403 policy denial (same as May 14-15 sessions)
+- ClickUp (api.clickup.com): BLOCKED — egress proxy 403 policy denial
+- Perplexity: NOT TESTED (blocked in May sessions)
+
+### Actions Taken
+- None — cannot access account, positions, or market data
+- Cannot place orders or verify fills
+- SLB stop placement from 2026-05-15 remains unconfirmed
+
+### Decision
+NO ACTION — Alpaca API inaccessible (egress proxy policy denial). No trades placed. SLB order status from May 15 still unresolved.
+
+### Action Required (Manual)
+1. Whitelist sandbox IP in Alpaca paper account settings
+2. Confirm SLB order status: was 340sh market buy (ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) filled?
+3. If filled: place 10% trailing stop immediately
+4. If not filled: cancel and re-evaluate
+5. Whitelist sandbox IP in ClickUp workspace (or run notifications from a whitelisted host)
