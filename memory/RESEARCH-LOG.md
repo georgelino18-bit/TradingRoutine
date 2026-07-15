@@ -204,3 +204,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-15 — Pre-Market Research
+
+**Note:** 2-month gap since last entry (2026-05-14). Alpaca API and Perplexity API both blocked by network proxy (403). Research via WebSearch fallback. SLB fill from May 15 order (6c529f05) still unconfirmed — assume cash position until API access restored.
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked (403, proxy policy denial)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed fills)
+- Positions: 0 confirmed
+- Open orders: Unknown — SLB 340sh market buy from 2026-05-15 status unresolved
+- Daytrade count: Unknown
+- Buying power: ~$100,000 estimated
+
+### Market Context
+- **WTI:** ~$78/bbl (July 14 close). **Brent:** $84.73–$85.39 — up 2.5% premarket, third consecutive session gain
+- **Catalyst (oil):** US launched third consecutive night of strikes against Iran; Hormuz naval blockade reinstated; Brent had biggest single-day gain in 6+ years Monday (+9.6%)
+- **S&P 500 futures:** +0.11–0.25% premarket; SPY $753.68 (+0.25%); QQQ $723.30 (+0.50%)
+- **VIX:** ~16.50–17.21 — normal band (12–20), no panic signal
+- **CPI (released July 14):** June CPI 3.5% YoY, -0.4% MoM — cooler than expected. July Fed hike probability fell to 17% (from 42% day prior)
+- **Fed:** Warsh testifies before Senate Banking Committee today at 10am ET. Next FOMC: July 29, 2026
+- **Retail Sales (Census):** Due July 16 8:30 ET (tomorrow). NRF card data: 9th consecutive month of growth, +0.33% MoM, +9.41% YoY
+- **Earnings BMO today:** JNJ (EPS est $2.86, rev est $25.0B; stock at $258, +25.6% YTD), ASML (BEAT: €9.3B sales +21% YoY, EPS €7.59 beat by €0.60, raised FY guidance to €43–45B), BlackRock, PNC, Progressive, BNY Mellon
+- **Earnings AMC today:** United Airlines, JB Hunt
+- **Sector momentum:** Leading: Materials (+22% YTD), Industrials, Consumer Staples, Energy | Lagging: Tech, Communications, Discretionary, Financials | Weakening: Healthcare | Improving: REIT, Utilities
+- **Momentum factor warning:** Invesco S&P 500 Momentum ETF +44% Q2 (record), but down 6.6% in first two sessions of July — seasonal rotation risk
+
+### Trade Ideas
+1. **ASML** — Beat Q2 hard: €9.3B sales (+21% YoY), EPS beat €0.60, raised FY guidance to €43–45B and Q3 guide €11–12B (vs €10.37B est). Semiconductor capex structurally intact. But: semi sector is "Lagging" per rotation map; stock ~$1800, very high per-share price limiting position size to ~11sh at 20% ($20k). WAIT — watch premarket reaction; enter only if pullback from initial gap to a clean level, not chasing. Binary resolved as bullish.
+2. **SLB** — Down 18% past month. Hormuz third night of US strikes = oil above $85, E&P capex still elevated. SLB Middle East accounts for ~33% of 2025 revenue / 50% of profits — that's a double-edged sword: high oil = capex tailwind, but actual operations disruption is a risk. Original May thesis still valid structurally but entry at -18% from May price = potential mean-reversion. **Cannot place orders until API access restored.** Flag for consideration.
+3. **XOM/Energy majors** — Brent above $85, Hormuz structural disruption. XOM already ran past original target ($146). Do not chase. Energy sector in "Leading" quadrant — thesis intact but need a fresh setup with R:R ≥2:1.
+
+### Risk Factors
+- **Iran escalation:** Third night of strikes — if Hormuz fully closes, oil shock + global recession risk overwhelms any energy trade
+- **Momentum unwind:** July historically weak for momentum; +44% Q2 momentum factor is historically prone to violent reversal
+- **Fed Warsh (10am):** Hawkish tone = risk-off across growth/tech; cooler CPI already baked in at 17% July hike probability
+- **Retail Sales tomorrow (July 16):** Surprise miss could rattle consumer/discretionary sector
+- **API inaccessible:** Cannot verify account state, place orders, or manage stops. CRITICAL — no risk management possible until resolved
+- **SLB unconfirmed fill:** If May 15 order filled and no stop was placed, position could be deep underwater (SLB down ~18%)
+
+### Decision
+HOLD / NO ACTION — Cannot place or verify orders (Alpaca API blocked). Assume $100k cash position. Even if API were available: markets mildly green with complex crosscurrents (Iran escalation vs cool CPI). Warsh testimony at 10am is the key unknown. ASML beat is constructive for semis but sector is lagging — watch for pullback entry. Energy structurally bullish but no clean R:R ≥2:1 setup without knowing SLB fill status. **Priority: resolve API access before any trade.**
