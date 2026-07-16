@@ -9,3 +9,7 @@ Open positions: none confirmed (last known: 0 positions, Day 0)
 ALERT: Both Alpaca + ClickUp APIs blocked — sandbox IP not whitelisted.
 Action required: whitelist IP in Alpaca paper account settings.
 Tomorrow: whitelist IP, then run pre-market + normal workflow.
+
+---
+## 2026-07-16 11:07 UTC (fallback — curl network error)
+2026-07-16 pre-mkt: HOLD. SLB ~7 vs ~6 entry = CRITICAL -15% — manual account check URGENT. APIs blocked (403). TSM earnings BMO key. Iran sanctions reinstate July 17 (oil catalyst). WTI 8-80. VIX 15.67.
