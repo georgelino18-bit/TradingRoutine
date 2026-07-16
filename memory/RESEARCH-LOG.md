@@ -204,3 +204,52 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-16 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (persistent IP restriction; all 3 endpoints blocked)
+- Cash: UNKNOWN — last confirmed state Day 0 ($100,000); SLB order submitted 2026-05-15 (order ID 6c529f05) fill status UNCONFIRMED
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- **CRITICAL: SLB 340-share market buy order (2026-05-15) fill unconfirmed. Estimated fill ~$55–56. Current SLB price ~$47.36 (July 13 close). Estimated loss ~-15% — WELL PAST -7% stop-cut rule. Manual account check REQUIRED.**
+
+### Market Context
+- WTI / Brent: WTI ~$78–80/bbl | Brent ~$84–85/bbl — materially lower than May thesis ($101 WTI). US-Iran hostilities renewed (US strikes on Iran July 8); Hormuz partially disrupted. Iranian oil sanctions REINSTATE July 17 (tomorrow) → potential fresh crude spike
+- S&P 500: Closed 7,572.40 on July 15 (+0.38%); futures down ~0.1% this morning. S&P +11.4% YTD. Polymarket 37% probability opens higher today
+- VIX: 15.67 (prev close) — low, market calm despite geopolitical tension
+- Today's catalysts:
+  - **TSM Q2 BMO**: Guided $39–40.2B revenue, GM 65.5–67.5%; AI chip demand intact; stock +39.9% in Q2. Binary event — key AI/semis read
+  - **UNH Q2 BMO**: Healthcare earnings — significant
+  - **NFLX AMC** (after close): Consumer entertainment read
+  - **GE Aerospace BMO**: Industrials bellwether
+  - Iranian oil sanctions reinstate July 17 → oil price catalyst tomorrow
+  - Initial Claims + Advance Retail Sales 8:30 ET
+  - Philly Fed Manufacturing Survey
+  - SpaceX Starship launch 6:45 PM ET (SpaceX below $135 IPO price — SpaceX sentiment negative)
+- Earnings before open: TSM, UNH, GE Aerospace, ABT, ISRG, PLD, STT, USB
+- Economic calendar: Initial Claims (8:30 ET), Advance Retail Sales (8:30 ET), Philly Fed Survey; CPI released July 14 (easing consumer prices per Schwab); FOMC July meeting active (rate hike risk elevated per market commentary)
+- Sector momentum YTD: Materials +22% (leader) | Industrials, Consumer Staples leading | Energy LAGGED Q2 (-13% large caps) — major reversal from May thesis | Tech +43% Q2 but now cooling | Healthcare improving (flight-to-safety) | Real Estate/Utilities improving
+
+### Trade Ideas
+1. **TSM** — AI chip demand structural; Q2 revenue guide $39–40.2B strong; stock surged Q2 on AI buildout. DO NOT enter before earnings print (binary today BMO). If beats + strong H2 guide → enter at open, stop 10% below open print, target +15–20%. R:R ≥2:1. Size ≤20%. **Highest conviction post-print.**
+2. **FCX** — Materials sector leader YTD (+22%); copper demand driven by AI infrastructure buildout and industrial renaissance; US-Iran tensions lifting commodities broadly. Entry only if price action confirms — no chase near 52-wk highs. Stop 10% below entry. R:R ≥2:1. Diligence required before entry.
+3. **Energy spike watch (July 17)** — Iranian sanctions reinstate tonight; Hormuz Strait probability of normal traffic by July 31: 1.4% YES (effectively zero). Energy likely spikes tomorrow. BUT energy sector fundamentally lagged Q2 — any spike is a trade, not a thesis. Monitor XOM/MPC/SLB reaction tomorrow only.
+
+### Risk Factors
+- **SLB position critical**: If filled May 15 @ ~$55–56 and now ~$47.36, position is -15% — violates -7% cut rule by 2x. API block prevents verification or order placement. Manual action may be overdue
+- Energy sector reversal: WTI $78–80 vs $101 in May — the Hormuz thesis partially deflated; any long energy is weaker than May setup
+- FOMC July meeting: rate hike risk re-emerging (oil spikes = stagflation = hike pressure on Warsh's first cycle)
+- TSM binary today — do not enter ahead of print
+- VIX low (15.67) but geopolitical risk (US-Iran active hostilities) creates gap risk overnight
+- Alpaca API blocked: cannot place stops, cut losers, or enter new positions programmatically — all trades manual until IP allowlist resolved
+
+### Decision
+**HOLD** — No new entries today until TSM print confirmed.
+- Post-TSM reaction: if strong → enter TSM at open as primary idea
+- SLB: **URGENT MANUAL CHECK** — if position exists and is down >7%, cut immediately per strategy rules
+- FCX: valid secondary setup; enter only on pullback with R:R ≥2:1
+- Iranian sanctions reinstate July 17 → monitor energy tomorrow; do not pre-position
+- API status: Alpaca + Perplexity both 403 (IP restriction). Research via WebSearch fallback noted.
