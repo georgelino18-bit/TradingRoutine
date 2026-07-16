@@ -9,3 +9,12 @@ Open positions: none confirmed (last known: 0 positions, Day 0)
 ALERT: Both Alpaca + ClickUp APIs blocked — sandbox IP not whitelisted.
 Action required: whitelist IP in Alpaca paper account settings.
 Tomorrow: whitelist IP, then run pre-market + normal workflow.
+
+---
+## 2026-07-16 20:01 UTC (fallback — curl network error)
+EOD 2026-07-16 — API BLOCKED
+Alpaca paper-api.alpaca.markets:443 blocked by session egress policy (403).
+Account, positions, and orders data unavailable.
+Last confirmed state: Day 0 (2026-05-13), $100,000 cash, 0 positions.
+SLB order status from 2026-05-15 still unconfirmed.
+Action needed: Enable Alpaca API access in session network policy.
