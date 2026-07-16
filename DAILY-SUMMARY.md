@@ -9,3 +9,7 @@ Open positions: none confirmed (last known: 0 positions, Day 0)
 ALERT: Both Alpaca + ClickUp APIs blocked — sandbox IP not whitelisted.
 Action required: whitelist IP in Alpaca paper account settings.
 Tomorrow: whitelist IP, then run pre-market + normal workflow.
+
+---
+## 2026-07-16 13:35 UTC (fallback — curl network error)
+TEST: checking ClickUp reachability from market-open run 2026-07-16
