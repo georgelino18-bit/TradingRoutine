@@ -204,3 +204,63 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-17 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked (proxy policy 403 on paper-api.alpaca.markets; same persistent restriction)
+- Perplexity: BLOCKED (proxy 403); all research via WebSearch fallback
+- Estimated cash: UNKNOWN — last confirmed baseline $100,000 (Day 0)
+- ⚠️ UNRESOLVED: SLB 340sh market buy order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` submitted 2026-05-15; fill never confirmed; trailing stop never placed; position status unknown for 63 days
+
+### Market Context
+- WTI: ~$80/bbl (July 16 close $79.63) | Brent: $85.95 (+2.04% today) — elevated on US-Iran conflict
+- US-Iran: Active military conflict. US struck ~90 Iranian targets overnight. Iranian missiles hit 2 UAE tankers in Hormuz, killing 1 crew. US also struck oil tanker near Iran's main export terminal. Tanker traffic through Hormuz slowing. Brent up 9.59% in single day last week.
+- S&P 500 futures: DOWN premarket — chip selloff dragging. TSM +77% YoY earnings yet fell 4%+ (AI capex concern). UAL -3% (fuel cost guidance). ABT +4% (earnings beat + raised guidance).
+- VIX: 16.73 (July 16 close, +6.76% on the day) — trending upward, not yet alarming but rising
+- Earnings today (July 17): TRV, TFC, FITB (all financial sector); ABT already reacting positively
+- Economic data today: June housing starts, building permits, industrial production, UMich sentiment (prelim)
+- Prior key releases this week: CPI July 14, PPI July 14, June retail sales +0.2% MoM (miss vs +0.3% est) — consumer softening
+- FOMC: Kevin Warsh as Fed Chair (confirmed 54-45); upcoming rate decision pending; hawkish uncertainty persists
+- Sector momentum YTD: Materials +22% (leader), Consumer Staples, Industrials strong | Healthcare improving (flight-to-safety surge) | Tech/XLK lagging (AI capex ROI concerns) | Momentum ETF (MTUM) down 6.6% so far in July after +44% in prior 3 months — significant rotation underway
+- SLB specific: Stock at ~$47.36 (July 13, -0.84% that day). DOWN ~18% over past month. Morgan Stanley PT cut to $54, BofA cut to $56. Q2 earnings call July 24.
+
+### ⚠️ CRITICAL — SLB Position Alert
+- Order submitted 2026-05-15: 340sh SLB market buy; thesis at WTI ~$101 Hormuz floor; target $63-71
+- Estimated fill price: ~$57-60 (market price range mid-May 2026)
+- Current price (July 13): ~$47.36 — implies ~17-20% loss if position is open
+- -7% manual cut rule should have triggered at ~$53-56
+- Trailing stop GTC order was NEVER placed (credentials unavailable in May)
+- MANUAL ACTION REQUIRED: Verify SLB position in Alpaca; if open, cut immediately (rule: -7% losers)
+
+### Trade Ideas
+1. **ABT (Abbott Labs)** — Healthcare sector improving as flight-to-safety; Q2 EPS beat + raised FY2026 guidance; +4% premarket today
+   - Entry: ~$145-148 on open confirmation (validate direction after open print)
+   - Stop: ~7% below entry (~$135-138)
+   - Target: +15% (~$167-170), R:R ~2:1
+   - Size: ≤20% (~$20k)
+   - Note: DO NOT enter until SLB situation resolved and account access confirmed
+
+2. **XLV (Healthcare ETF) or defensive individual names** — Sector rotation from momentum/tech into safety plays; broad healthcare exposure reduces single-stock risk
+   - Monitor: CVS, JNJ, UNH for clean setups if market sells off further
+
+3. **PASS on Energy (SLB, XOM, HAL)**: Crude elevated but oilfield services under pressure (-18% on SLB). WTI ~$80 is well below the $101 thesis from May. Do not add energy exposure until SLB resolved.
+
+### Risk Factors
+- SLB potential position: deep loss (~17-20%) unmanaged for 63 days; broker stop never placed; MOST URGENT
+- Alpaca API inaccessible (proxy 403) — cannot verify, manage, or exit any positions
+- US-Iran escalation: Hormuz disruption = crude spike risk AND global growth risk simultaneously
+- Momentum unwind: -6.6% in July for MTUM after massive 3-month run; rotation risk across tech names
+- TSM signal: 77% earnings gain = sell the news; signals AI capex ROI skepticism spreading
+- UAL fuel cost guidance: rising crude → airline cost pressure → broader consumer caution
+- UMich sentiment (today): watch for miss — June retail miss already flagging consumer softening
+- FOMC uncertainty: Warsh first rate decision timing unknown; hawkish posture likely
+
+### Decision
+**HOLD — no new trades**
+- Cannot trade without Alpaca API access (blocked since May 14)
+- ⚠️ MANUAL INTERVENTION NEEDED: Check Alpaca account immediately for SLB open position; cut if it exists (position violates -7% loss rule by ~10+ points)
+- Market environment: futures down, rotation underway, not a buy-the-dip day
+- Best setup post-API restoration: ABT on healthcare strength if market stabilizes
