@@ -204,3 +204,8 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-17 — Market-Open Research
+**Status:** BLOCKED — All external APIs (Alpaca, Perplexity, ClickUp) denied by execution environment egress policy. No market data available. No trades can be placed. Manual intervention required.

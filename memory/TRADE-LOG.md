@@ -31,3 +31,25 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-17 — Market-Open Workflow (Attempted)
+**Status:** BLOCKED — Execution environment network egress policy denies all external API calls
+
+### APIs Blocked
+- `paper-api.alpaca.markets` — 403 CONNECT tunnel rejected by proxy
+- `data.alpaca.markets` — 403 CONNECT tunnel rejected by proxy
+- `api.perplexity.ai` — connection failed (000)
+- `api.clickup.com` — connection failed (000)
+
+### State Unknown
+- Cannot verify if SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, 2026-05-15) filled or expired
+- Cannot read current positions, equity, or cash
+- Cannot pull market quotes or research
+- No trades placed this session
+
+### Action Required (manual)
+1. Check Alpaca paper account for SLB position and any existing stops
+2. Run `bash scripts/alpaca.sh account` and `bash scripts/alpaca.sh positions` from a whitelisted IP
+3. If SLB is open and unprotected, place 10% trailing stop immediately
+4. Update TRADE-LOG with confirmed position state
+5. Contact Anthropic/Claude Code support to allowlist `paper-api.alpaca.markets` and `data.alpaca.markets` in session egress policy
