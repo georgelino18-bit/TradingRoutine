@@ -204,3 +204,60 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-20 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (sandbox IP still not whitelisted; ongoing since 2026-05-14)
+- Cash: UNKNOWN
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- **CRITICAL:** SLB 340sh market-buy order (ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) submitted 2026-05-15 premarket — fill NEVER confirmed due to API block. SLB now $46.99 (Jul 19 close). If filled at ~$57, unrealized loss ≈ -17.6% — well past -7% cut rule AND 10% trailing stop was NEVER placed (API blocked). Manual check urgently required.
+
+### Market Context
+- **WTI / Brent:** WTI ~$83 (range $82.93–$84.59 today) | Brent ~$88 — up ~14% this week as US-Iran conflict re-escalates in Strait of Hormuz. Down significantly from May highs ($101–$102).
+- **S&P 500 futures:** +0.29–0.30% premarket — boosted by chipmakers rising; Trump says Iran "very, very badly damaged." Dow +131pts. 65%+ Polymarket odds of positive open.
+- **VIX:** ~18.77 (Jul 17 close, +12.19% that day) — elevated but below panic threshold. 1-month range 14.96–20.72.
+- **Geopolitics:** US-Iran war ongoing. June ceasefire MOU collapsed. Iran struck vessels Jul 6–7 → Trump declared truce over. US struck Iran again Jul 13 and Jul 15. Jul 17 — "no sign of de-escalation." US blockade reinstated. ~6 vessels transiting Hormuz daily vs. ~20% of global oil normally. Fragile; oil bid structural.
+- **Earnings this week (key):**
+  - Mon Jul 20 (today): Steel Dynamics (STLD), Domino's (DPZ), Ryanair, Zions (ZION), AGNC — 42 total
+  - Tue Jul 21: NOC, 3M (MMM), GM, Danaher (DHR), Chubb, Capital One, Novartis
+  - Wed Jul 22: **Alphabet (GOOGL), Tesla (TSLA), AT&T, Texas Instruments (TXN)**
+  - Thu Jul 24: **SLB (Q2 EPS est $0.52)** — Critical; binary event; do NOT enter before.
+- **Economic calendar:** No major data today. FOMC meeting: **July 29** (no rate change expected). CPI next: Aug 12. Fed Chair Warsh (since May 22) — hawkish uncertainty ongoing.
+- **Sector momentum YTD:**
+  - Leading: Consumer Staples (XLP), Industrials (XLI), Materials (XLB), Energy (XLE)
+  - Lagging: Tech (XLK), Comms (XLC), Discretionary (XLY), Financials (XLF)
+  - Improving: Real Estate (XLRE), Utilities (XLU)
+  - S&P 500 YTD: +11.4% (as of Jul 10)
+  - XLE: crossed above 50-day MA on Jul 13; MACD turned positive Jul 7. Pivot high $57.09.
+  - Momentum ETF (SPMO) down 6.6% in July after +44% in Q2 — rotation underway.
+
+### SLB Update (URGENT)
+- Price: $46.99 (Jul 19 close)
+- Analyst cuts: Morgan Stanley target $54 (from $57), BofA $56 (from $60), Barclays $64 (from $66) — all cuts in July
+- Q2 earnings: Jul 24 BMO, EPS est $0.52 — binary event
+- Data center/power alliance with Liberty Energy announced Jul 14
+- If filled at ~$57 → -17.6% (past -7% cut rule; 10% stop never placed; must manually verify and cut/stop immediately)
+
+### Trade Ideas
+1. **GOOGL (post-earnings, Wed Jul 22)** — Alphabet reports Wednesday. AI capex cycle ($650–725B 2026 est) + hyperscaler spend = key catalyst for semis/AI thesis. IF beat + strong AI/GCP guidance → enter at open Thursday, stop 10% below reaction low, target +15%, R:R ≥2:1. Size ≤20% (~$20k). DO NOT enter pre-earnings.
+2. **NOC / LMT (Defense, post-earnings)** — Northrop Grumman (NOC) reports Tue Jul 21. Active US-Iran war = defense spending surge. If beat + raised guidance → entry at open Wed, stop 10% below reaction low. Pure defense macro thesis (Hormuz + ongoing conflict). R:R ≥2:1 required.
+3. **STLD (Steel Dynamics, today)** — Reports today; Materials sector #1/#2 YTD. Infrastructure + AI data center construction = steel demand. If gap-up on beat → monitor at open, entry only if R:R ≥2:1 and stop level clean.
+
+### Risk Factors
+- **Account inaccessible** — Cannot confirm positions, orders, P&L, or stops. Possible unhedged SLB loss.
+- **SLB binary Thursday Jul 24** — Do not hold into earnings without stop
+- **GOOGL/TSLA binary Wednesday** — Could flush Nasdaq if miss; semis exposed
+- **US-Iran war** — Potential de-escalation spike (Trump "damaged" comment) = energy sell-off; or re-escalation = oil spike + stagflation
+- **Warsh FOMC Jul 29** — First full meeting; hawkish posture possible
+- **Momentum unwind** — Rotation out of momentum stocks underway in July after H1 run
+- **Hormuz Strait** — ~6 ships/day vs. normal 100+; rerouting to Cape of Good Hope adds cost/delays; structural bid for energy
+
+### Decision
+**HOLD — CRITICAL ACCOUNT ACTION REQUIRED**
+- Alpaca API has been blocked since May 14. SLB order from May 15 may be unhedged and -17.6%. This must be resolved manually.
+- No new trades until account is accessible. Multiple binary earnings events this week.
+- Queue: GOOGL (post-Wed), NOC (post-Tue), STLD (today reaction). Enter only post-binary, R:R ≥2:1.
