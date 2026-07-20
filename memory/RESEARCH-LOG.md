@@ -177,6 +177,34 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ---
 
+## 2026-07-20 — Market-Open Execution (BLOCKED)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy policy denial)
+- Cash: Unknown (last confirmed Day 0: $100,000; SLB 340sh buy submitted 2026-05-15, unconfirmed)
+- Buying power: Unknown
+- Daytrade count: Unknown
+
+### API Status
+- **paper-api.alpaca.markets** — 403 BLOCKED (egress proxy policy denial)
+- **api.perplexity.ai** — 403 BLOCKED (egress proxy policy denial)
+- **api.clickup.com** — 403 BLOCKED (egress proxy policy denial)
+
+### Market Context
+- Unable to retrieve — Perplexity blocked, no WebSearch substitution run
+- Last known context: 2026-05-14
+
+### Decision
+HOLD — All three external APIs blocked by egress proxy. Cannot verify account, quotes, or positions. Cannot place orders. Cannot notify ClickUp. No trades executed.
+
+**Manual action required:** Whitelist the following hosts in the egress proxy policy (or Alpaca/ClickUp/Perplexity allowlists):
+- `paper-api.alpaca.markets`
+- `data.alpaca.markets`
+- `api.perplexity.ai`
+- `api.clickup.com`
+
+---
+
 ## 2026-05-14 — Midday Scan
 
 ### Account
