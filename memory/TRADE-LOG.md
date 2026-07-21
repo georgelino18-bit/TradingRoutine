@@ -31,3 +31,11 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-21 — Midday Scan (No-Op)
+**Status:** ALL APIs BLOCKED — Alpaca, Perplexity, and ClickUp all return 403 from egress proxy.
+- Positions: unverifiable (last confirmed: 0 positions, Day 0)
+- Orders: unverifiable
+- Action: NONE — loser cut, stop tighten, thesis check all skipped (no data)
+- ~68-day gap since last log entry; bot has been unable to trade due to persistent network restriction
+- Manual fix required: authorize trading API hosts in network policy settings

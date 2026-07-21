@@ -204,3 +204,36 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-21 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress policy blocks paper-api.alpaca.markets)
+- Positions: Unknown (last confirmed state: 0 positions, Day 0, 2026-05-13)
+- Cash: ~$100,000 estimated (no confirmed trades since launch)
+
+### Actions Taken
+- None — Alpaca API unreachable; cannot pull positions, orders, or quotes
+
+### Loser Cuts (-7% rule)
+- N/A — cannot retrieve positions
+
+### Stop Tightening
+- N/A — cannot retrieve positions or quotes
+
+### Thesis Check
+- N/A — cannot retrieve positions
+
+### Intraday Notes
+- Alpaca paper-api.alpaca.markets: 403 CONNECT rejected by egress proxy (persistent since 2026-05-14)
+- Perplexity API: 403 blocked (same egress policy)
+- ClickUp API: 403 blocked (same egress policy); fallback logged to DAILY-SUMMARY.md
+- Last known state: 0 positions, $100,000 cash, no trades placed since bot launch
+- Gap of ~68 days since last log entry — bot has been unable to operate due to network restriction
+
+### Decision
+NO ACTION — All trading APIs (Alpaca, Perplexity, ClickUp) blocked by session egress policy.
+Root cause: sandbox IP not in Alpaca paper account allowlist / org policy restricts these hosts.
+Manual action required: authorize paper-api.alpaca.markets, data.alpaca.markets, api.perplexity.ai, api.clickup.com in the Claude Code on the web environment network policy.
