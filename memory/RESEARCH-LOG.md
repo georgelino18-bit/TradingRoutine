@@ -204,3 +204,86 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-21 — Pre-market Research
+*(Perplexity API 403 — all research via WebSearch fallback)*
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP not whitelisted; persistent since Day 1)
+- Positions: 0 (last confirmed state May 2026; ~$100k cash)
+- Cash: ~$100,000 (estimated)
+- Buying Power: ~$100,000 (estimated)
+- Daytrade count: 0
+
+### Market Context
+
+**Oil:**
+- WTI: ~$82.50 (−0.9% on ceasefire news)
+- Brent: ~$88.01 (−1.4%)
+- Driver: Mediators proposed 10-day US–Iran ceasefire; oil falling on reduced Hormuz risk. Counter-risk: Houthis threatening Saudi Arabia naval blockade — binary geopolitical situation.
+
+**Indices / Futures (premarket):**
+- S&P 500 futures: +0.45–0.5% (bounce from Monday weakness on Iran tensions)
+- Nasdaq 100 futures: +1.3% (chip stocks leading; bounce ahead of Magnificent Seven earnings)
+- Polymarket: 95% probability S&P opens higher today
+
+**VIX:** ~18.65 (closed July 20 at 18.65, −0.64%). Mid band (12–20); normal volatility; no panic.
+
+**10yr Treasury yield:** ~4.52% (eased on cooler inflation data)
+
+**Today's Catalysts:**
+- GM (BMO), 3M (BMO), Novartis, Charles Schwab — all reporting before the open today
+- Alphabet (GOOGL) + Tesla (TSLA) report AC Wednesday July 22 — key AI capex + EV margin read
+- Intel (INTC), IBM, Verizon also report this week
+- IBM: WARNING — crashed −25% last week on disappointing preliminary results; high risk
+- FOMC meeting July 28–29 (83.4% probability no change priced); no action today
+
+**Economic Calendar:**
+- No major macro releases today (July 21)
+- FOMC July 28–29; July CPI expected mid-August
+
+**Sector Momentum (YTD):**
+- Leading: Materials (+22% YTD — dominant), Consumer Staples, Industrials, Energy
+- Lagging/rotation: Tech (XLK), Communications, Discretionary, Financials
+- Improving: Real Estate, Utilities
+- July headwind: Historically weak month for momentum strategies (avg −5% five-year return for momentum in July)
+
+### Trade Ideas
+
+1. **GOOGL — Post-earnings entry (Thursday July 23, if beats)**
+   - Catalyst: Reports AC Wed July 22; Google Cloud margin expansion (~30%), AI monetization, ad resilience
+   - Entry: Thursday open if gap-up confirms beat + strong CapEx guidance
+   - Stop: 10% below Thursday reaction low (GTC trailing stop)
+   - Target: +15% from entry (tighten trail to 7%)
+   - R:R: ~2:1 minimum; size ≤20% (~$20k)
+   - Risk: Binary miss sends stock −10%+ overnight — DO NOT enter before report
+
+2. **Materials sector stock (XLB leader) — Watch**
+   - Catalyst: Materials YTD +22%; sector leading momentum rotation
+   - Need specific stock with individual catalyst before entry
+   - Monitor FCX (copper/gold) — if tariff/China trade deal materializes, re-evaluate entry only if R:R ≥2:1 from current level (last seen at 52-week high; do not chase without new catalyst)
+   - Action: Research specific name with setup before committing
+
+3. **TSLA — Post-earnings play (Thursday July 23, if beats)**
+   - Catalyst: Reports AC Wed July 22; Q2 deliveries beat; Cybercab rollout, AI/autonomy narrative
+   - Entry: Thursday open on confirmed beat + margin beat
+   - Stop: 10% trailing GTC
+   - Target: +15%
+   - R:R: ≥2:1; size ≤20% (~$20k)
+   - Risk: High CapEx pressure on free cash flow; volatile binary
+
+### Risk Factors
+- Alpaca API inaccessible (403) — CRITICAL: cannot place or verify orders until IP whitelist resolved; no trades possible
+- US–Iran ceasefire binary: if ceasefire fails, oil spikes, energy/materials shock
+- Houthi Saudi blockade threat — secondary geopolitical tail risk
+- IBM −25% last week — contagion risk in tech/industrials; avoid IBM
+- July seasonal weakness for momentum trades
+- FOMC uncertainty (July 28–29) creates overhang as week progresses
+- Earnings binary risk Wed AC: GOOGL + TSLA could flush or rally Nasdaq significantly
+
+### Decision
+**HOLD** — Zero positions; Alpaca API still inaccessible (cannot execute trades even if conditions align). Wait for GOOGL/TSLA earnings AC Wednesday. If either beats convincingly, prepare to enter the winner Thursday with a 10% trailing stop. No blind entry into binaries. Materials watch-list needs specific catalyst before committing. Patience > activity.
+
+**Action required (manual):** Resolve Alpaca API 403 error — sandbox IP must be added to Alpaca paper account allowlist before any trades are possible.
