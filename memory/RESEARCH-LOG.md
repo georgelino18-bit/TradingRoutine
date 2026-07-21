@@ -204,3 +204,31 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-21 — Pre-market Research (BLOCKED SESSION)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked by session network proxy (403 on paper-api.alpaca.markets:443)
+- Cash: Unknown — last confirmed $100,000 (Day 0, May 13 2026)
+- Buying power: Unknown
+- Daytrade count: Unknown
+- NOTE: Perplexity and ClickUp APIs also blocked (same egress policy)
+
+### Market Context
+- All live data UNAVAILABLE — APIs blocked by session network policy
+- Last known state (May 2026): WTI ~$101-102, S&P elevated, energy sector leading (+22%)
+- SLB market buy (340sh) submitted 2026-05-15 but fill/stop status unknown since then
+
+### Trade Ideas
+- NONE — no live data, no account access, no position visibility
+
+### Risk Factors
+- Unknown position state; SLB order from May 2026 may or may not have filled
+- 2+ months of untracked price action; stop orders may have triggered
+- Session network policy blocks paper-api.alpaca.markets — persistent blocker
+
+### Decision
+HOLD — API completely inaccessible. No trades placed. Manual action required.
+Run /market-open from a session or environment where Alpaca paper-api is accessible.
