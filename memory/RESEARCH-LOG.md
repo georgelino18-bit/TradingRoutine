@@ -204,3 +204,57 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-22 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy policy denial; paper-api.alpaca.markets blocked)
+- Cash: UNKNOWN — last confirmed Day 0 baseline $100,000; SLB order placed 2026-05-15 unconfirmed
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Open positions: UNKNOWN — SLB 340sh market order (ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) placed 2026-05-15 fill status unconfirmed
+- NOTE: Alpaca trading API, Alpaca data API, Perplexity API, and ClickUp API all returning 403/connection refused (proxy network policy). Research via WebSearch only.
+
+### Market Context
+- WTI: ~$87/bbl (up on 11th consecutive US strike on Iran; was $78 in June, $114 peak April 7)
+- Brent: ~$94/bbl — oil rising on geopolitical risk
+- S&P 500: 7,493.69 at open (-0.21%); futures -0.33% premarket
+- Nasdaq: futures -1.26% — led by binary earnings risk tonight
+- VIX: 17.36, up +1.82% — moderate fear, not panic
+- Today's catalysts:
+  - **Alphabet (GOOGL) + Tesla (TSLA) earnings TONIGHT after close** — biggest binary events of Q2 season; market-wide risk
+  - US Iran strikes (night 11) — oil elevated, inflation/stagflation concern
+  - Trump readying permanent tariffs replacing 10% global duties; 100% tariff on generic drugs floated
+  - Intel earnings also this week — semis binary
+- Earnings before open: None large-cap moving today; big reports tonight (GOOGL, TSLA)
+- Economic calendar: No major macro print today
+- Sector momentum: Energy recovering (WTI $78→$87); Semis/Tech heavy ahead of GOOGL/TSLA binary; Oil services names pulled back from April highs
+
+### Trade Ideas
+
+1. **SLB** — AVOID: Q2 earnings July 24 (2 days out). Stock at ~$46.88, down from April high ~$52.66. EPS est -31.1% YoY. Binary in 48hrs → no entry.
+
+2. **MPC** — AVOID: At/near all-time high ~$317-320. R:R poor from here — 10% stop = $285 risk; need $349+ target for 2:1. No clear catalyst today. Do not chase ATH.
+
+3. **XOM** — MONITOR: WTI $87 provides floor; pulled back from spring highs. Needs clean price confirmation. Without API access cannot validate entry level.
+
+4. **GOOGL / TSLA** — HOLD: Binary tonight. Enter post-earnings reaction TOMORROW ONLY if gap-up + guidance confirms. Do not hold through earnings.
+
+### Risk Factors
+- All APIs inaccessible — no orders can be placed or confirmed
+- Alphabet + Tesla binary tonight — market-wide volatility risk
+- SLB Q2 earnings July 24 — EPS -31% YoY; do not enter ahead of binary
+- Oil at $87 = inflation pressure → rate-hike tail risk
+- Trump tariff escalation (100% generics) = health care and consumer shock
+- SLB May 15 order status unknown — may have open position with no monitored stop
+
+### Decision
+HOLD — Alpaca API inaccessible (proxy network policy; same block as May 2026 sessions). No trades can be placed.
+
+Additionally: Two major earnings binaries tonight (GOOGL, TSLA). SLB earnings July 24. MPC at all-time high with poor R:R. No valid entry setup passes rules with current constraints.
+
+**URGENT ACTION REQUIRED:** Whitelist this environment's IP on Alpaca paper account. Confirm SLB order fill from 2026-05-15. If filled: verify trailing stop is in place.
+
+---
