@@ -9,3 +9,7 @@ Open positions: none confirmed (last known: 0 positions, Day 0)
 ALERT: Both Alpaca + ClickUp APIs blocked — sandbox IP not whitelisted.
 Action required: whitelist IP in Alpaca paper account settings.
 Tomorrow: whitelist IP, then run pre-market + normal workflow.
+
+---
+## 2026-07-22 11:07 UTC (fallback — curl network error)
+2026-07-22 pre-market: HOLD — GOOG+TSLA binaries tonight; Brent 2-95 (Iran war); VIX 18.65; SLB unknown position may be -19%+ (API blocked 403 still)
