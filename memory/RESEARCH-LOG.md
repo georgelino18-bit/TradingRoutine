@@ -204,3 +204,53 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-22 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API returning 403 (IP restriction persists since Day 1)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed positions)
+- Buying power: ~$100,000 estimated
+- Daytrade count: Unknown
+- ⚠️ OPEN RISK: SLB 340-share market buy order (ID: 6c529f05) was submitted pre-market 2026-05-15 but NEVER confirmed due to API block. If filled ~$57-58, SLB now at $46.99 = approx -19% unrealized loss. BELOW -7% cut rule AND 10% trailing stop threshold. API access needed urgently.
+
+### Market Context
+- WTI: ~$82-84/bbl | Brent: ~$92-95/bbl — elevated; US carrying out 11th consecutive night of strikes on Iran; Hormuz disruption ongoing
+- S&P 500 futures: -0.3% premarket — market cautious ahead of GOOG + TSLA earnings tonight; 88% of Q2 reporters so far beat estimates
+- VIX: 18.65 (prev close) — calm; well below 20-30 danger zone
+- Today's key catalysts:
+  - GOOG (Alphabet) Q2 earnings TONIGHT after close — $101B rev est, $2.10 EPS; AI capex story; cloud growth focus
+  - TSLA Q2 earnings TONIGHT after close — $26.4B rev est, $0.53 EPS; 480K deliveries (+25% YoY); margins = the real read
+  - BMO earnings: T (AT&T), PM, GEV (GE Vernova), MCO (Moody's), OTIS, CME, NTRS, TDY, WAB, PHM
+  - FOMC July 28-29 next week — rate hold at 3.65% expected; no SEP update
+  - US-Iran war escalating; WTI eyeing $100 again; energy stocks mixed (high oil ≠ oilfield services upside)
+- Economic calendar: No major releases today. FOMC July 28-29. Jobs/CPI in August.
+- Sector momentum YTD (as of July 2026):
+  - Leading: Materials (+22%), Healthcare (flight-to-safety), Consumer Staples, Industrials
+  - Lagging: Technology, Communications, Consumer Discretionary, Financials
+  - Mixed: Energy (oil high but services stocks depressed — SLB at $46.99 with -31% EPS expected Friday July 24)
+  - Improving: Real Estate, Utilities
+
+### ⚠️ SLB Alert
+- SLB reports Q2 earnings July 24 (this Friday); analysts expect EPS -31.1% YoY
+- Price at $46.99 vs 50-day MA ~$51.90, 200-day MA ~$50.31 — in downtrend
+- If original SLB position filled at ~$57-58 in May → unrealized loss ~-19% to -23%
+- This is a CRITICAL UNKNOWN. API access must be resolved to check position and apply -7% cut rule
+
+### Trade Ideas
+1. **GOOG** — Binary tonight. DO NOT enter before close. If Q2 beats on revenue + AI capex guidance strong → enter Thursday morning on gap-up confirmation. Entry TBD, stop 10% below reaction low, target +15%, R:R ≥2:1. Size ≤20% (~$20K). Highest conviction setup this week if beat confirmed.
+2. **TSLA** — Binary tonight. DO NOT enter before close. If beats on margins (key metric) → evaluate Thursday morning. Secondary to GOOG. More speculative.
+3. **Materials (FCX or NEM)** — Sector momentum #1 YTD. FCX: copper demand from AI data centers + infrastructure. NEM: gold safe haven + Iran war risk premium. Needs dedicated diligence session before entry. Monitor.
+
+### Risk Factors
+- GOOG/TSLA binary tonight — two major tech earnings; miss on either = Nasdaq flush
+- FOMC July 28-29 — rate hold expected but inflation still elevated; any hawkish surprise = risk-off
+- SLB unknown position potentially -19%+ in loss; if confirmed, must cut immediately under -7% rule
+- US-Iran war escalating — 11 consecutive nights of US strikes; oil supply shock real but energy stocks mixed
+- Alpaca API still blocked (403) — no order placement, position verification, or stop management possible
+- July seasonality historically weak for momentum strategies
+
+### Decision
+**HOLD** — Two binary events tonight (GOOG, TSLA). No API access to place or verify orders. SLB position status unknown but potentially severely underwater — requires urgent resolution. If GOOG beats with strong AI capex guidance, enter Thursday morning. Patience > activity. Sector rotation toward Materials + Healthcare worth monitoring for next position after API access restored.
