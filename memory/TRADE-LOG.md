@@ -31,3 +31,16 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-22 — Midday Scan
+**Status:** BLOCKED — Alpaca API returning 403 (IP not whitelisted)
+
+- Positions: UNAVAILABLE — cannot retrieve
+- Orders: UNAVAILABLE — cannot retrieve
+- Loser cuts: N/A (no data)
+- Stop tightening: N/A (no data)
+- Thesis check: N/A (no data)
+
+**Last known state (2026-05-15):** SLB 340sh market buy submitted (order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`), fill unconfirmed. No positions confirmed since Day 0.
+
+**Action required:** Whitelist sandbox IP in Alpaca paper account settings to restore API access. Over 2 months since last confirmed API contact.
