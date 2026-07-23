@@ -204,3 +204,44 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-23 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction persists, same as prior sessions)
+- Cash: ~$100,000 estimated (last confirmed Day 0 baseline; no positions ever filled)
+- Positions: 0 (no confirmed fills; SLB order from 2026-05-15 unverified)
+- Daytrade count: UNAVAILABLE
+
+### Market Context
+- **WTI:** $88.17/bbl (+1.54%); **Brent:** ~$98.49/bbl — oil surging on Houthi tanker strikes + Trump threatens more Iran strikes
+- **S&P 500 futures:** SPY -0.25% at $745.57 premarket — slightly lower; Dow, Nasdaq, S&P all slipping
+- **VIX:** ~17.21 at open (range 16.15–17.56) — normal, no panic; 52-week high ~35.30
+- **10yr Treasury yield:** ~4.63% (near 2-month high) — borrowing costs elevated; headwind for growth
+- **Iran/Hormuz:** 11th consecutive round of US strikes against Iran; Houthis claim 2 Saudi tankers hit in Red Sea; ~2.5Mbpd Saudi output at risk; structural energy bid intact; ceasefire failed July 7-8
+- **GOOGL (after close Wed):** Beat revenue/EPS, Cloud +82% YoY, but capex $195–205B 2026 shocked market → premarket -3.63%
+- **TSLA (after close Wed):** EPS $0.33 vs $0.50 est (miss), EBITDA miss, revenue +26% YoY (beat) → premarket -4%
+- **Today earnings BMO:** FCX (EPS est $0.60, rev $6.47B; avg beat 32.1%), RTX, LMT, HON, NDAQ, TMUS, TMO, UNP, BX, CMCSA, INTC, SAP, NEM
+- **Economic calendar:** No CPI/PPI/jobs today; FOMC meeting July 28–29 (next week); July jobs data coming later in August
+- **Sector momentum:** Materials (+22% YTD, leader), Healthcare (flight-to-safety), Consumer Staples, Industrials leading; Tech (XLK), Comms (XLC), Discretionary lagging; Energy structural bid (Hormuz)
+
+_(Note: Perplexity API also 403 — all market research via WebSearch fallback)_
+
+### Trade Ideas
+1. **FCX** — Reports BMO today. AI/copper demand structural theme; avg earnings beat 32.1%; EPS est +11.1% YoY. BUT: revenue est -14.6% YoY; copper sales guidance cut (Grasberg delays); stock near prior 52-week high. RULE: if strong beat + gap-up confirmed at open → evaluate entry ONLY if R:R ≥2:1 at open level; stop 10% below open. No pre-binary entry.
+2. **Energy (SLB/HAL)** — WTI $88, Brent $98, Hormuz at standstill (structural bid, not temporary). SLB unresolved from May order. If API access restored and R:R ≥2:1 at current price → initiate diligence. Max 20% position (~$20k). Sector leader thesis intact.
+3. **NEM (Newmont)** — Reports BMO today. Gold miner; Materials sector leading YTD (+22%); gold benefits from Hormuz/Iran risk-off and weak USD. If beat + gap-up → evaluate entry. Not a primary focus until FCX resolved.
+
+### Risk Factors
+- **Alpaca API 403:** Cannot place or verify ANY orders — critical blocker. No trades possible until resolved.
+- GOOGL/TSLA post-earnings drag → tech headwind; Nasdaq susceptible
+- 10yr yield at 4.63% + oil at $98 Brent → stagflation risk; growth names suffer
+- Iran escalation binary: next round of US strikes could spike Brent toward $110 → energy leads, growth lags
+- FOMC July 28-29: Warsh (new Fed Chair) likely hawkish; rate cut off the table near-term
+- FCX: missed copper volume guidance; Grasberg delays; miss risk despite historical beat record
+- Hormuz closure tail risk: global recession + supply shock
+
+### Decision
+**HOLD** — Alpaca API inaccessible (403), zero trades possible. Even if ideal setups emerge, cannot execute. Market tone cautious (SPY -0.25%, GOOGL/TSLA drag on sentiment, yields elevated). Monitor FCX open reaction; if strong beat gap-up and R:R ≥2:1, flag for immediate entry once API access is restored. Energy thesis (SLB/HAL) remains strongest structural trade. Patience > activity.
