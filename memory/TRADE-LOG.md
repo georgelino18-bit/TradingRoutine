@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-24 — EOD Snapshot (Day ~50, Friday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Alpaca API and ClickUp both returning 403 at the HTTPS proxy tunnel level — this is an environment-level network restriction, not an Alpaca IP allowlist issue. The proxy at 127.0.0.1:40771 blocks CONNECT to paper-api.alpaca.markets. No account data, positions, or orders retrievable. No trades confirmed. Last verified equity: $100,000 (Day 0, 2026-05-13). Issue has persisted since Day 1. Trades today: none confirmed. This week: none confirmed. Manual intervention needed to resolve proxy restriction or switch to an environment with direct API access.
