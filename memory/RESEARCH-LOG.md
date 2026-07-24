@@ -204,3 +204,49 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-24 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress policy blocks paper-api.alpaca.markets; persistent issue since May 2026)
+- Cash: ~$100,000 estimated (no fills confirmed since launch; SLB order ID 6c529f05 submitted May 15 but never confirmed)
+- Buying power: ~$100,000 estimated
+- Daytrade count: unknown
+- NOTE: Perplexity API also blocked (403). All research via native WebSearch fallback.
+- NOTE: 10-week gap since last session (May 14 → Jul 24). API restriction means no trades have been verifiably placed or tracked.
+
+### Market Context
+- WTI / Brent: WTI ~$92.36 (Jul 23 close, +6.4% day-over-day); Brent ~$100.40 (Jul 24 premarket, down ~2% from $100.65 Jul 23 close); Brent 1-month change +36.5% — oil surged on Middle East escalation / shipping disruptions
+- S&P 500 futures: ES +0.2% premarket — bounce attempt after Thursday's steepest 1-day drop in a month; Mag7 shed ~$800B market cap Thursday; Nasdaq on track for weekly loss
+- VIX: ~18.70 (Jul 23 close, +12.4% on day) — elevated, trending up; range 13.38–35.30 past 52 wks; not panic but rising
+- Today's catalysts:
+  - **New US tariffs effective today**: 10–12.5% duties on imports from 60 economies — inflation risk, supply chain disruption; China-US talks on $30B reciprocal tariff cuts accelerating
+  - **TSLA Q2 results** (reported Wed): rev beat, adj EPS miss → -14.5% Thursday (~$200B market cap lost)
+  - **GOOGL Q2 results** (reported Wed): rev $119.8B beat, EPS $2.26 beat, cloud +82%; raised capex to $195–205B → -7.1% Thursday (~$300B lost)
+  - Both TSLA + GOOGL reported negative FCF Q2; market punishing AI spend without clear profit proof
+  - **FOMC July 28–29** (next week): Brent above $100 + tariff inflation = hawkish repricing pressure
+  - S&P Global Flash PMI (July) and New Home Sales (June) releasing today
+- Earnings before open (Jul 24):
+  - **AXP** — EPS est $4.40 (vs $4.08 YoY), rev est $19.7B; call 8:30 ET; beat 3 of last 4 quarters, avg surprise +4%
+  - BAH, CNI, CHTR, NEE also reporting Friday
+- Economic calendar: Flash PMI (Mfg + Services) 9:45 ET; New Home Sales (June) 10:00 ET; FOMC Jul 28–29
+- Sector momentum YTD: **Leading — Consumer Staples, Industrials, Materials (+22% YTD), Energy** | **Lagging — Technology, Communications, Consumer Discretionary, Financials** | Healthcare flight-to-safety bid; S&P 500 +9.3% YTD overall
+
+### Trade Ideas
+1. **AXP** — Consumer spending resilient despite tariff/inflation headwinds; AXP track record strong (beat 3/4 quarters); reports BMO today. **DO NOT buy before print.** If gap-up on beat + raised guidance → enter at open, stop 10% below reaction low, target +15%, R:R ≥2:1. Size ≤20% (~$20k). Watch 8:30 ET call.
+2. **SLB** — Energy sector leading YTD; Brent $100+ structural bid = E&P capex acceleration; analyst consensus PT ~$60 vs current ~$47 = 28% upside. Stop 10% below entry (~$42.30). Target $60. R:R ~2:1. HOWEVER: Iraq force majeure pressuring Q2; price below 50-day MA (~$51.90) and 200-day MA (~$50.31) — technically weak. **Cannot enter until Alpaca API accessible to verify if prior SLB order (ID 6c529f05) ever filled.** SLB-Liberty Energy alliance for AI data center power adds diversification catalyst.
+3. **Materials (pass for now)** — Sector leading (+22% YTD) but new tariffs on 60 economies create near-term noise for commodity names. China-US tariff cut talks could be catalyst — reassess once outcome clear.
+
+### Risk Factors
+- New US tariffs (10–12.5% on 60 economies) effective today — stagflation amplifier; supply chain disruption; retaliatory tariff risk
+- AI capex skepticism: Mag7 selloff ongoing; market demanding proof of returns before rewarding spend
+- Brent at $100+ → hawkish Fed repricing heading into FOMC Jul 28–29; rate cut expectations pushed out
+- VIX rising (18.70, +12% Thursday) — risk-off environment; market in weekly loss territory
+- Alpaca API remains inaccessible — cannot confirm positions, verify SLB fill, or place stops
+- Unconfirmed SLB order (May 15) — unknown whether filled; if filled without stop, uncovered risk exists
+- FOMC July 28–29 binary — tariff + oil inflation could trigger hawkish surprise
+
+### Decision
+HOLD — Market in risk-off mode (Mag7 rout, new tariffs effective, VIX elevated, FOMC next week). No confirmed account access. AXP is the only clean setup today — watch post-open reaction to BMO print; enter only on gap-up with strong guidance. SLB thesis intact long-term but technically weak and account state unverified. Patience > activity.
