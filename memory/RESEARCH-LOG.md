@@ -204,3 +204,56 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-24 — Pre-market Research (Market-Open Run, WebSearch fallback — Alpaca + ClickUp + Perplexity APIs all blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked by egress proxy (403 policy denial on paper-api.alpaca.markets:443)
+- Cash: UNKNOWN — cannot verify; last confirmed state was ~$100,000 Day 0 baseline (SLB order status unconfirmed)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Open positions: UNKNOWN (SLB 340sh market buy submitted 2026-05-15 — fill never confirmed due to persistent API block)
+- Note: All three external APIs blocked — Alpaca, ClickUp, Perplexity — same proxy-policy denial as prior sessions
+
+### Market Context
+- WTI: ~$91.77/bbl (+5.4% yesterday) | Brent: >$100/bbl for first time since May 26 — Houthi attacks on two Saudi oil tankers in Red Sea (missiles + drones)
+- S&P 500: Closed 7,408.30 yesterday (−1.21%, worst day since June 23); futures tentative recovery today
+- VIX: 18.97 (+1.44%) — elevated but not panic
+- 10-yr Treasury: Briefly above 4.7% — traders pricing in additional Fed rate hike
+- Today's key catalysts:
+  - **NEW TARIFFS IN EFFECT TODAY** — Trump imposed 10–12.5% duties on 60+ economies (July 24 deadline); "Mag 7" shed ~$797B market cap on tariff + AI concerns
+  - **Alphabet** (GOOGL): EPS $2.26 vs $2.24 est; rev $119.8B vs $117B est; raised capex to $195–205B (2× YoY); stock fell −7.1%
+  - **Tesla** (TSLA): Beat revenue but negative FCX; raised AI capex >$25B; stock fell −14.5%
+  - AI spending concern narrative dominant — market wants profit proof, not more spend
+  - Houthi Red Sea attacks: Trump threatening Iran with "major military punishment" — escalation risk
+  - China-US tariff talks ongoing ($30B reciprocal cuts under discussion)
+- Sector momentum: Energy leading (Brent >$100 catalyst) | Tech/Discretionary/Consumer under pressure | Industrials/Autos tariff headwind
+
+### Trade Ideas
+1. **XOM / CVX** — Energy #1 catalyst day (Brent >$100, Red Sea supply disruption, Iran escalation)
+   - Thesis: Houthi tanker attacks + Trump Iran threat = sustained oil bid; XOM +momentum, CVX same
+   - BLOCKED: Cannot quote live price, verify account equity, check position count, or place order
+   - If API accessible: entry at open confirmation, stop 10% below entry, target +15%, R:R ≥2:1, size ≤20%
+   - High conviction setup — queue for next session with live API access
+
+2. **SLB / HAL / OIH** — Oilfield services, oil price leverage, capex acceleration thesis
+   - BLOCKED: Same — cannot execute. Pending confirmation of original SLB order from May 15
+
+### Risk Factors
+- Alpaca/ClickUp/Perplexity APIs blocked by proxy — ZERO ability to execute or verify any trade
+- Tariff escalation: 60 countries, 10–12.5% rates; broad market headwind, especially industrials/autos/semis
+- AI capex selloff spreading (GOOGL −7%, TSLA −14.5%); risk of contagion to other tech/AI names
+- Rising Treasury yields (>4.7%) = multiple compression for growth stocks
+- Houthi/Iran escalation risk: if US strikes Iran → energy spike + risk-off flush simultaneously
+- SLB position status unknown — may have open position from May 15 with no confirmed stop
+
+### Decision
+**NO ACTION — API blocked, trades impossible.** Cannot verify positions, check weekly trade count, get live quotes, or place orders. ClickUp notification also blocked (fallback logged to DAILY-SUMMARY.md).
+
+**Human action required (URGENT):**
+1. Whitelist `paper-api.alpaca.markets:443` and `data.alpaca.markets:443` in the Claude Code egress proxy policy
+2. Confirm SLB order status (ID: `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) — fill or cancel
+3. If SLB filled: place 10% trailing stop immediately (stock may be well-moved by now)
+4. Energy setup (XOM/CVX) is high-conviction on today's Brent >$100 catalyst — ready to execute at next available session with live API access
