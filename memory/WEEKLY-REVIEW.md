@@ -97,3 +97,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Research quality: A. Execution: F (infrastructure blocked). Discipline: A. Net grade D — correct reads, zero shots taken due to API failure. Not an F because strategy and patience rules were followed.*
+
+---
+
+## Week ending 2026-07-24
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | -0.70% (Nasdaq -2.00%; Iran tensions + tech selloff) |
+| Bot vs S&P | +0.70% (cash preserved in down week) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: SLB 340sh market buy (order ID 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) submitted pre-market 2026-05-15 remains unconfirmed — assumed unfilled as API has been blocked since Day 1. Portfolio assumed at $100,000 cash.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades confirmed |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation: S&P -0.70%, Nasdaq -2.00% — flat portfolio technically outperformed
+- Avoided Iran-driven tech/chip selloff (Nasdaq -2.0%) by being in cash
+- Energy thesis (oil ~$100, Hormuz disruption) remains structurally valid — 10 weeks later
+- Patience rule upheld: zero forced trades despite 10-week dry spell
+- Sector read accurate: energy + commodities holding while growth/tech sold off
+
+### What Didn't Work
+- Alpaca API 403 blocked for 10+ consecutive weeks — infrastructure failure persists unresolved
+- Perplexity API still blocked — all research degraded to WebSearch fallback
+- SLB order from May 15 fill status completely unknown — possible ghost position
+- Zero capital deployed across 10 weeks of a viable market — massive opportunity cost
+- Phase P&L effectively 0% across ~10 weeks while market has had multiple tradeable swings
+
+### Key Lessons
+- A single unresolved IP allowlist issue has cost 10 weeks of alpha generation
+- Cash is a position: in volatile down weeks, flat beats the index — but this is luck, not edge
+- Iran/Hormuz energy thesis identified in May proved durable; WTI still ~$100 ten weeks later
+- Tech/AI selloff risk flagged in May materialized — Nasdaq -2% this week validates rotation thesis
+- Without API access, even perfect research and flawless discipline produce zero returns
+
+### Adjustments for Next Week
+- PRIORITY 1 (10 weeks unchanged): Resolve Alpaca IP allowlist — escalate to Alpaca support with current sandbox IP
+- If API restored: SLB/HAL energy thesis still valid on oil ~$100; enter on pullback with 10% trail
+- Avoid tech longs until Nasdaq stabilizes — Iran uncertainty + chip selloff ongoing
+- Verify SLB order 6c529f05... status immediately if API access resumes
+- Begin logging weekly even without API data — gaps in log hurt context
+
+### Overall Grade: D
+*Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
