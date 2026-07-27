@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-07-27 11:11 UTC (fallback — curl network error)
+Pre-market 2026-07-27: SPX +0.8% on US-Iran ceasefire, oil -7.8%. FOMC+Mag7 earnings this week. HOLD — no new positions. NUE watch tonight. Alpaca API still 403.
