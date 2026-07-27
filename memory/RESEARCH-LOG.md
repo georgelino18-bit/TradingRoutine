@@ -204,3 +204,52 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-27 — Pre-market Research (WebSearch fallback — Perplexity + Alpaca APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (sandbox IP restriction, persistent issue)
+- Cash: ~$100,000 estimated (last confirmed baseline May 2026)
+- Positions: UNCONFIRMED — SLB 340sh market buy submitted 2026-05-15, fill status unknown (API blocked)
+- Stops: UNCONFIRMED — cannot verify GTC trailing stop orders via API
+- Action required: Resolve Alpaca IP allowlist before any trade management is possible
+
+### Market Context
+- **WTI crude:** $83.51/bbl (-7.69%) — massive drop on US-Iran pause in strikes
+- **Brent crude:** $90.28/bbl (-8.23%) — same driver; was $90.43 at 6:35 AM ET
+- **S&P 500 futures (ES):** +0.8%, ~7,450–7,497; 88% probability of up open
+- **VIX:** ~18.70 (July 24 close); recent range 14.96–20.31; no panic
+- **US-Iran:** Weekend pause in military strikes → relief rally across equities, oil dump. NOT a final deal. Ceasefire history: broke down in June, restarted; fragile. Trump must approve any extension.
+- **Durable Goods 8:30 ET:** MoM +1.6% forecast (prior -4.5%); Core +0.9% (prior +1.4%)
+- **Dallas Fed Mfg 10:30 ET:** Forecast -12.0 (prior -15.1) — still contraction
+- **FOMC Wednesday:** Hold 3.50–3.75% expected; Kevin Warsh first press conference — tone risk
+- **GDP Q2 Thursday 8:30 ET:** +2.3% annualized est
+- **Core PCE Thursday 8:30 ET:** +0.1% MoM; +2.6% YoY — still above 2% target
+- **Big Tech earnings this week:** MSFT + META Wed; AAPL + AMZN Thu — massive binaries
+- **Earnings today:** NUE (Nucor) after close; EPS est $4.63, guided $4.70–4.80; 6 reports BMO
+- **Sector momentum YTD:** Tech +34.68% | Capital Goods +32.38% | Energy +22.38% | Transportation +18.53% | Services -3.08%
+
+### SLB Update
+- Q2 earnings beat (reported ~July 25): revenue $8.97B vs $8.67B est; +10–11% stock surge post-report
+- Current price: ~$57.08 (vs $52.42 on July 24); offshore + AI data center alliance confirmed
+- Today: oil -7-8% = near-term headwind; Q2 beat already priced in
+- If position filled at ~$50–55: profitable; stop should be 10% trailing GTC (cannot verify)
+- If position not filled: do NOT chase at $57 — entry window closed
+
+### Trade Ideas
+1. **NUE (Nucor) — Watch for Tuesday entry** | Catalyst: Q2 earnings tonight (beat expected per guidance $4.70–4.80). Capital Goods sector +32% YTD, infrastructure demand, tariff-protected domestic steel. IF gap-up on beat + strong guidance → entry Tuesday morning. Stop 10% below reaction low; target +15–20%; max $20k. DO NOT enter before report binary.
+2. **MSFT (Microsoft) — Watch for Thursday entry** | Catalyst: Reports Wed after close; Azure cloud 39–40% growth; AI capex leader. IF beats and gaps up → entry Thursday open. Stop 10%. Strongest structural AI thesis. Binary: do NOT enter before report.
+3. **SLB — Maintain if filled; no new entry** | If stop active, let GTC trailing stop manage risk. Oil pullback today = monitor. If position was never filled, stand aside — thesis still valid but entry price is gone.
+
+### Risk Factors
+- US-Iran ceasefire fragile — oil can spike 7%+ instantly on breakdown; energy/SLB downside
+- FOMC Wednesday — Warsh hawkish surprise kills growth/tech; any tightening signal = selloff
+- Mag7 binary stack (MSFT, META, AMZN, AAPL Wed-Thu) — wrong week to add positions
+- GDP/PCE Thu — 2.6% core PCE above target; stagflation scenario if growth disappoints simultaneously
+- Alpaca API 403 — cannot verify SLB fill, cannot manage stops; critical operational risk
+- Alphabet Q2 disappointed market → raised bar for remaining Mag7; any miss = broad selloff
+
+### Decision
+HOLD — Binary-stacked week: FOMC + 4 Mag7 earnings + GDP/PCE all resolve Wed-Thu. No new positions until clarity emerges Thursday. Monitor NUE tonight for potential Tuesday setup IF gap-up beat. Resolve Alpaca API access before any trade action. Patience > activity.
