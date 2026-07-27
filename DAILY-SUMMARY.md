@@ -20,3 +20,17 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-07-27 20:01 UTC (fallback — curl network error)
+test ping
+
+---
+## 2026-07-27 20:03 UTC (fallback — curl network error)
+EOD 2026-07-27
+Portfolio: N/A (Alpaca API 403 — egress policy blocks paper-api.alpaca.markets)
+Cash: N/A
+Trades today: none (API unreachable)
+Open positions: unknown — SLB order May-15 still unconfirmed after ~50 trading days
+ALERT: 10+ week API blackout. Challenge stalled. Root cause: session egress policy must whitelist paper-api.alpaca.markets and api.clickup.com.
+Tomorrow: no action until network policy fixed.
