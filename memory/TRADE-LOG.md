@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-27 — Market-Open Attempt (Week 11+ of API block)
+**Status:** NO TRADES — Alpaca API 403 proxy block persists
+- paper-api.alpaca.markets: CONNECT tunnel rejected by gateway proxy
+- api.clickup.com: CONNECT tunnel rejected by gateway proxy
+- No account data retrievable; no orders placeable
+- Portfolio estimated: $100,000 cash, 0 confirmed positions
+- SLB ghost order (6c529f05-19c5-4078-ba9d-9fb42bc7ee15) still unconfirmed
+**Action required:** Resolve proxy/IP allowlist for Alpaca paper trading endpoint
