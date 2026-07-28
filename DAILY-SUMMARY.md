@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-07-28 11:10 UTC (fallback — curl network error)
+2026-07-28 pre-market: HOLD — chip selloff deepening (SK Hynix -14.7%), FOMC + MSFT/META binaries tomorrow. API still 403 — SLB position/stop UNCONFIRMED. Watch July 30 for gap-up entries post-earnings.
