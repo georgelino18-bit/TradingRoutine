@@ -204,3 +204,52 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-28 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (sandbox proxy blocks paper-api.alpaca.markets; persistent since May 2026)
+- Cash: ~$100,000 estimated (last confirmed Day 0 baseline)
+- Buying power: UNAVAILABLE
+- Daytrade count: UNAVAILABLE
+- Positions: UNCONFIRMED — SLB 340sh market buy was submitted 2026-05-15 (order ID 6c529f05) but fill was never confirmed. Stop was never confirmed placed. SLB reported Q2 beat July 24 (+11% reaction), pre-earnings price ~$47. If filled ~$56 May, would be ~-16% (stop should have triggered but stop placement unconfirmed). Cannot manage risk without API access.
+- NOTE: Perplexity API also blocked by proxy (403). All research via WebSearch fallback.
+
+### Market Context
+- WTI: ~$93.45 (pulling back, topping out); Brent: $86.58 (-1.54%). Oil well off Hormuz-spike highs of ~$101+ in May. US-Iran pause in strikes = cautious optimism, easing supply risk.
+- S&P 500 futures: Mixed/weak. Nasdaq 100 futures -0.6% on chip selloff. S&P flat to slightly red premarket.
+- VIX: 18.58 (closed July 27); recent range 14.96–20.31; elevated but not panic; 52-week high ~35.30 March 2026.
+- Today's catalysts:
+  - FOMC meeting Day 1 (decision Wednesday July 29 2 PM ET): 62% probability hold at 3.50–3.75%; Warsh hawkish but expected to hold; JPMorgan says rate HIKE possible as soon as September. Market binary tomorrow.
+  - CHIP SELLOFF deepening: SK Hynix -14.7%, Samsung -13.4% (worst single-day in 2 decades). Bloomberg chip index worst since April 2025. Drivers: AI spending ROI doubts + China advanced chipmaking progress + circular funding fears. Nasdaq 100 futures -0.6%.
+  - Mag 7 earnings blitz this week: MSFT + META report tomorrow July 29 after close. AAPL + AMZN report later this week. MSFT Azure guidance key (below 36% growth = sell-off). META Q2 rev est $60.17B (+26.6% YoY).
+  - Economic data today 10 AM ET: Consumer Confidence, Richmond Fed, Dallas Fed Retail Survey.
+  - Iran/US: Pause in strikes creating cautious oil optimism; de-escalation risk for energy thesis.
+- Earnings before open today: No major Mag 7 BMO today. MSFT/META after close tomorrow.
+- Economic calendar:
+  - July 28: Consumer Confidence 10 AM ET
+  - July 29: FOMC decision 2 PM ET, Warsh press conf 2:30 PM ET; MSFT + META earnings after close
+  - July 30: GDP Q2 1st release 8:30 AM ET; PCE Deflator / Personal Income
+- Sector momentum (YTD July 2026):
+  - Leaders: Industrials, Communications, Healthcare (flight-to-safety bid)
+  - Laggards: Energy (NEGATIVE YTD — major reversal from May 2026 when energy led), Tech/Semis (chip selloff)
+  - Semis under acute pressure today on AI-ROI doubts
+
+### Trade Ideas
+1. **MSFT** — Azure cloud + AI buildout thesis intact; Q2 guidance est +27% rev YoY. DO NOT enter before binary (reports July 29 after close). If gap-up July 30 on beat + Azure ≥38% growth → enter at open, stop 10% below reaction low, target +15%. Size ≤20% (~$20k). R:R ≥2:1 required.
+2. **META** — Ad revenue resilient; AI investment monetizing via ad targeting. Same binary rule: reports July 29 after close. Enter July 30 only on beat + bullish guidance. Stop 10% below reaction low, target +15%.
+3. **ENERGY/SLB REASSESSMENT** — Original thesis weakened. WTI back to ~$86–93 (off $101+ Hormuz highs). Iran de-escalation risk. Energy sector NEGATIVE YTD. SLB position status unknown (may be at -16% loss if filled in May). If API accessible: verify fill immediately, check stop status, cut if below -7% and stop not in place.
+
+### Risk Factors
+- FOMC binary July 29: Warsh could signal September hike → growth/tech rotation selloff
+- Chip selloff contagion: if Nasdaq 100 breaks support → broad risk-off
+- MSFT/META binary July 29 after close: do not hold new positions through earnings
+- API inaccessible: cannot verify SLB position, stops, or account equity — CRITICAL operational risk
+- Iran de-escalation: oil supply risk fades → energy further underperforms
+- Mag 7 disappointment: if MSFT Azure misses → tech-led market decline
+
+### Decision
+HOLD — Multiple binaries in next 24h: FOMC July 29 + MSFT/META earnings July 29 after close. No new entries before these resolve. Priority 1: resolve API access to confirm SLB position and stop status. If SLB is open at -7% or below without a confirmed stop, manual cut required immediately. Post-binary: MSFT and META offer high-quality setups if they beat on July 30 gap-up.
+
