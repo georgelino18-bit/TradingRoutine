@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-07-29 11:08 UTC (fallback — curl network error)
+2026-07-29 pre-market: HOLD — FOMC 2pm + MSFT/META AMC binaries. Oil +4% (Iran attack, Brent 9.53). SLB 0 top idea post-FOMC. Alpaca API 403 persists — verify SLB May order fill manually.
