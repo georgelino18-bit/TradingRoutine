@@ -204,3 +204,47 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-29 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, ongoing since Day 1)
+- Cash: ~$100,000 estimated (no confirmed fills ever; SLB May order unverified)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- Open positions: 0 confirmed (SLB May order status unknown; assume unfilled until verified)
+
+### Market Context
+- **WTI / Brent:** WTI ~$84 | Brent $89.53 (+4% today) — Iran launched surprise attack on US base; oil reversed 3-day 16% slide. Still well below May peak of ~$101.
+- **S&P 500 Futures:** +0.2%, 7,480.25 premarket — muted bullish; 70% Polymarket probability of higher open
+- **VIX:** ~18.67 (mildly elevated; 30-day range 14.96–20.31) — no panic; binary events ahead
+- **Today's catalysts:**
+  - FOMC rate decision 2:00 PM ET — held at 3.50–3.75% expected; 30% chance hike; no dot plot (non-SEP meeting); Warsh presser 2:30 PM ET
+  - **MSFT + META earnings after close** — MSFT Q4 EPS est $4.22-4.24, rev $87.5B; META Q2 EPS est $7.18-7.24, capex raised to $125-145B; AI capex ROI under microscope after GOOGL spooked markets last week
+  - Iran attacked US base Tuesday → oil spike, pauses diplomatic reset
+  - BMO earnings: Procter & Gamble (PG), Vertiv (VRT), General Dynamics (GD), Aon (AON)
+  - AMC earnings: MSFT, META, LRCX, ARM, QCOM, SBUX
+- **Sector Momentum YTD:**
+  - Leading: Energy (XLE), Materials (XLB +22% YTD), Industrials, Consumer Staples
+  - Lagging: Technology, Communications, Discretionary, Financials
+  - S&P 500 YTD: +9.3%
+
+### Trade Ideas
+1. **SLB (~$49.98)** — Down 18% past month, below 50DMA ($51.90) and 200DMA ($50.31). Wall St consensus Moderate Buy, avg target $60 (~20% upside). Iran oil bid = energy tailwind. New AI data center power alliance with Liberty Energy (diversification catalyst). Setup: entry ~$50, stop ~$45.50 (-9%), target $59-60 (+18-20%), R:R ~2:1. HOLD until post-FOMC clarity and oil bid confirmed sustainable. Also need to verify May SLB order fill status.
+2. **VRT (Vertiv)** — AI data center infrastructure. Reports BMO today. If beat + raised guidance → strong AI capex signal vs. GOOGL fear. Watch post-earnings reaction; entry only on confirmed breakout with ≥2:1 R:R.
+3. **QCOM (~50DMA est)** — Reports AMC. Mobile + AI edge compute. If MSFT/META confirm AI capex growth tonight, semis get a bid. Wait for post-earnings gap-up reaction tomorrow; entry only if setup confirms.
+
+### Risk Factors
+- FOMC 2pm binary — Warsh hawkish surprise (30% hike probability) = immediate risk-off; dollar spikes, tech/growth hit hard
+- MSFT + META post-close binary — AI capex fear (GOOGL precedent) could crater Nasdaq after hours
+- Iran escalation escalation — oil spike helps energy, but risks broader risk-off if conflict widens
+- Oil came off -16% in 3 days before today's bounce — energy sector not uniformly strong; Brent $84-89 vs May $101 peak = structural bid weakened
+- Alpaca API inaccessible — cannot place, verify, or stop-manage any positions
+- May SLB order (ID: 6c529f05) unverified — if somehow filled at ~$52 with no trailing stop, account is unprotected; MANUAL CHECK REQUIRED
+
+### Decision
+HOLD — Three stacked binary events today: FOMC 2pm, MSFT AMC, META AMC. No entry until all three resolve. Patience > activity. SLB and VRT are highest-conviction setups if oil bid holds and AI capex narrative reasserts. Re-evaluate pre-market Thursday.
+
+**URGENT:** Manual action required — verify SLB order fill status (ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) and place 10% trailing stop if filled. Alpaca IP allowlist must be resolved.
