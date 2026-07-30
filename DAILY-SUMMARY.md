@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-07-30 17:04 UTC (fallback — curl network error)
+MIDDAY SCAN 2026-07-30: Alpaca API remains blocked by egress proxy (403 policy denial). Cannot check positions, stops, or P&L. Manual account review required via Alpaca web portal. This blocker has persisted since 2026-05-14. No trades placed, no stops adjusted.
