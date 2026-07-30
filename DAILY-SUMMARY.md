@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-07-30 11:09 UTC (fallback — curl network error)
+Pre-market 2026-07-30: HOLD. SPX +0.5% premarket (recovering Fed selloff). MSFT +8.3% (Azure +43% beat). AAPL+AMZN binary tonight. VIX 20.66, 30yr yield >5.2%. Alpaca API blocked — no trades possible.
