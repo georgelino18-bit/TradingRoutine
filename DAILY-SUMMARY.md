@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-07-30 20:02 UTC (fallback — curl network error)
+EOD 2026-07-30 — API BLOCKED: Alpaca paper-api.alpaca.markets is blocked by cloud egress policy (403). No account data could be retrieved. Same persistent issue as 2026-05-14/15. Manual action required: whitelist paper-api.alpaca.markets in cloud environment network policy.
