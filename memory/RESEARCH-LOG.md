@@ -177,6 +177,55 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ---
 
+## 2026-07-30 — Pre-market Research (WebSearch fallback — all APIs proxy-blocked)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy policy blocks paper-api.alpaca.markets — week 11+)
+- Cash: ~$100,000 estimated (no confirmed fills since Day 0)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (no trades ever executed)
+- SLB order 6c529f05-19c5-4078-ba9d-9fb42bc7ee15 from 2026-05-15: status UNKNOWN; assume unfilled
+
+### Market Context
+- WTI: ~$83–84/bbl (down ~$0.60 on day); Brent ~$100+; US struck dozen Iranian targets overnight — renewed escalation risk
+- S&P 500: +0.63% recovery today (bouncing from -1.52% yesterday post-Fed); Nasdaq +1.57% (MSFT beat driving); Dow +0.40%
+- VIX: Elevated (30yr Treasury at 5.2%+ highest since 2007; fear priced in rates not equities)
+- Today's catalysts:
+  - Fed held 3.5–3.75% yesterday (July 29); 3 dissenters wanted hike — hawkish tilt confirmed
+  - GDP Q2 2026: +1.5% (miss vs +1.8% est; slowdown from +2.1% Q1)
+  - PCE: +3.7% YoY — inflation sticky; -0.1% MoM (slight monthly relief)
+  - Microsoft Q2: EPS $4.74 (beat $4.25 est), rev +17% YoY — AI strategy validation; driving Nasdaq recovery
+  - Meta Q2: Reporting today; market watching for AI monetization signal
+  - US strikes on Iran overnight — could re-escalate; oil supply fear premium returning
+- Sector momentum July 2026: Consumer Defensive (+54%), Healthcare (+52%), Basic Materials (+45%); Energy elevated on Iran; Semis (AMAT, NVDA-adjacent) strong on AI
+- API status: Alpaca 403 (proxy blocks paper-api.alpaca.markets:443); Perplexity 403 (same); ClickUp 403 (same); ALL BLOCKED
+
+### Trade Ideas
+1. **MSFT** — AI capex beat; rev +17% YoY; EPS $4.74 vs $4.25 est; Nasdaq recovery leader; Consumer Defensive/Tech blend
+   - Entry: TBD at open (gap-up likely — validate before entry)
+   - Stop: 10% below entry GTC
+   - Target: 2:1 R:R minimum
+   - BLOCKED — cannot execute (Alpaca API unavailable)
+2. **Energy (SLB/HAL/XOM)** — Iran re-escalation, WTI ~$84 with upside risk; thesis intact from May
+   - BLOCKED — same reason
+3. **Healthcare/Consumer Defensive** — rotation out of tech into defensive; July sector leaders
+   - BLOCKED — same reason
+
+### Risk Factors
+- Fed hawkish (3 dissenters); 30yr yield 5.2%+ kills growth-stock P/E multiples
+- Iran escalation binary — oil spike = stagflation amplifier
+- GDP miss (+1.5% vs +1.8%) signals slowing growth with still-hot PCE = stagflation
+- Meta earnings today — miss = Nasdaq reversal of morning gains
+- Alpaca proxy block week 11: CRITICAL — no trades possible without resolution
+
+### Decision
+HOLD (forced) — Zero execution capability (all APIs proxy-blocked). If APIs restored:
+- Primary: MSFT post-earnings pullback entry (AI thesis confirmed by Q2 beat)
+- Secondary: Energy name (SLB/XOM) on Iran escalation; WTI structural bid intact
+Manual action required: whitelist paper-api.alpaca.markets in proxy allowlist or Alpaca paper account settings.
+
+---
+
 ## 2026-05-14 — Midday Scan
 
 ### Account
