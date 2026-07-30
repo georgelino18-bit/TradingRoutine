@@ -204,3 +204,57 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-30 — Pre-Market Research
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API 403 (proxy blocks paper-api.alpaca.markets at gateway level; same restriction since May 2026)
+- **Cash:** ~$100,000 estimated (no confirmed trades placed since bot launch)
+- **Positions:** 0 (last confirmed state)
+- **Open Orders:** UNKNOWN — API inaccessible
+- **DayTrade Count:** UNKNOWN
+- **Note:** Perplexity API also blocked (api.perplexity.ai 403 at proxy). All research via WebSearch fallback.
+
+### Market Context
+- **WTI:** ~$84.20/bbl | **Brent:** ~$89.43/bbl (+6.92% in 24h) — oil surging; Middle East tensions + supply concerns
+- **S&P 500 Futures:** +0.5% premarket (recovering from Wednesday -1.52% Fed Day selloff; SPX closed at 7,316.15)
+- **VIX:** 20.66 (+13.45% yesterday) — elevated; range 14.96–20.88 past month; no panic but risk-off pressure
+- **Fed (Jul 29):** Held rates at 3.50–3.75% (9-3 vote). Three hawkish dissenters (Hammack/Cleveland, Kashkari/Minneapolis, Logan/Dallas) wanted a hike. 5th consecutive hold. Next FOMC: Sept 15-16.
+- **30-yr Treasury yield:** >5.2% — highest since 2007; compresses growth/tech multiples
+- **Fed Chair:** Kevin Warsh — shorter, less forward-guidance-heavy statements
+
+### Today's Key Releases (Jul 30, 8:30 ET)
+- **Q2 GDP Annualized:** est +2.3% (prev +2.1%) — economy still expanding
+- **Core PCE (MoM Jun):** est +0.1% (prev +0.3%) — inflation cooling but above 2% for 5+ years
+- **Core PCE (YoY Jun):** est +3.3% (prev +3.4%)
+- **PCE Price Index (YoY):** est +3.6% (prev +4.1%)
+- **Initial Jobless Claims:** prev 187k
+
+### Earnings Today
+- **BMO:** Mastercard (MA), Shell (SHEL), Anheuser-Busch InBev (BUD), Bristol-Myers Squibb (BMY), Altria (MO)
+- **AMC (tonight):** Apple (AAPL) — est EPS $1.88; Amazon (AMZN) — est EPS $1.81, AWS the key swing
+- **Reported last night (Jul 29 AMC):** MSFT beat big — EPS $4.74 vs $4.24 est, Revenue $90B vs $87.6B est, Azure +43% YoY (>$100B revenue first time); MSFT +8.3% premarket; META also reported (details pending)
+
+### Sector Momentum
+- **Leaders:** Materials (+22% YTD), Energy, Industrials, Consumer Staples
+- **Lagging:** Technology (XLK), Communication Services (XLC), Consumer Discretionary (XLY), Financials
+- **Improving:** Real Estate (XLRE), Utilities (XLU)
+- S&P 500 YTD: +9.3%; rotation away from mega-cap tech toward cyclicals/defensives
+
+### Trade Ideas
+1. **AMZN** — AWS the key AI cloud swing factor; analysts raising cloud estimates. If AMZN reports beat + strong AWS growth tonight (~+30%?), gap-up setup tomorrow morning. Entry: wait for reaction, buy at open if strong reaction, stop 10% below reaction low, target +15-20%. R:R ≥2:1. Size ≤20% (~$20k). BINARY tonight — DO NOT enter before.
+2. **AAPL** — Reports tonight. iPhone revenue + margin pressure (rising memory costs) + Apple Intelligence traction. Stock near 52-week high. IF beat + strong guidance → gap-up entry tomorrow. Same framework: enter reaction, 10% trailing stop, ≤20% size. BINARY tonight — DO NOT enter before.
+3. **XOM / CVX (Energy)** — Brent surging toward $90. Oil structural bid (Middle East). Materials leading YTD. But without API access, cannot execute. Monitor for entry once API restored.
+
+### Risk Factors
+- AAPL + AMZN binary tonight — market direction unclear until post-close
+- 30-yr yield >5.2% = sustained headwind for growth names; hawkish dissenters = hike risk at Sept FOMC
+- VIX elevated at 20.66 — risk-off environment persists post-Fed
+- PCE/GDP data at 8:30 — hot PCE could spike yields and reverse futures gains
+- Oil +7% in 24h — stagflation amplifier if sustained
+- Alpaca API inaccessible (proxy policy block) — cannot execute any trades this session
+
+### Decision
+**HOLD** — AAPL and AMZN both binary tonight; do not enter anything before resolution. VIX elevated, yields at 2007 highs, Fed hawkish dissenters present. MSFT gap is too extended to chase without API access. Best setup is post-AAPL/AMZN reaction tomorrow morning. Priority action: resolve Alpaca API proxy access before any trade can be placed.
