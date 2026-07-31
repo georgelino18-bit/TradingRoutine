@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-07-31
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data; week 11) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | +0.70% (Big Tech AI earnings: AMZN, META, AAPL, MSFT; July closed ~7,467) |
+| Bot vs S&P | -0.70% (cash flat vs rising index) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca API 403 blocked for 11 consecutive weeks. Portfolio assumed $100,000 cash. SLB order 6c529f05... from May 15 remains unconfirmed — assumed unfilled. Phase P&L: ~$0 (0.00%) vs S&P +0.3% since May 13 inception.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades confirmed |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation: S&P +0.70% week, but volatile July overall (-0.61% month) made cash defensible
+- No research entries this week (API blocked) — no bad trades taken
+- Prior call to avoid chip longs validated: PHLX semis index down ~25% from June 22 highs
+- Big Tech AI capex thesis (AMZN, META, AAPL, MSFT beat) vindicated direction of AI trade
+- Fed held rates unchanged (71% probability realized) — correctly anticipated macro backdrop
+
+### What Didn't Work
+- Alpaca API 403 blocked for 11 consecutive weeks — zero execution capability
+- Perplexity API still blocked — no research log entries for this week
+- Missed Big Tech AI earnings run (AMZN surged Friday, Apple briefly hit $5T market cap)
+- Zero capital deployed across 11 weeks — opportunity cost now encompasses multiple tradeable moves
+- No research conducted this week: no pre-market, no midday scan, no research log entries
+
+### Key Lessons
+- Big Tech AI spending ramp is the dominant market theme right now; missing it is costly
+- Chip stocks (PHLX -25% from June highs) confirm semi rotation caution was correct
+- 11 weeks of API failure with no resolution = systematic risk to entire strategy
+- Cash is losing ground: S&P up ~+0.3% since phase inception; gap will compound
+- FOMC held rates — Warsh era hawkish risk not yet realized; macro backdrop supportive
+
+### Adjustments for Next Week
+- PRIORITY 1 (11 weeks unchanged): Resolve Alpaca IP allowlist — if unresolved by Monday, this challenge is effectively on hold indefinitely
+- If API restored: Big Tech AI infrastructure thesis → evaluate AMZN, META post-earnings consolidation setups; avoid chasing gap-ups
+- Avoid chip stocks (PHLX -25% from highs) until technical recovery above 50-day MA
+- Energy thesis from May appears to have cooled — no recent catalyst; deprioritize SLB/HAL unless oil spikes again
+- Begin weekly research logs even without API data — context gaps are accumulating
+
+### Overall Grade: D
+*Execution: F (API blocked week 11). Discipline: A. Research: F (no entries this week, API blocked). Three straight D-grade weeks — same root cause. Missed a Big Tech AI rally; cash now marginally behind S&P over the phase. If API not resolved next week, escalate.*
