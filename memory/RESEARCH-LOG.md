@@ -204,3 +204,54 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-31 — Pre-market Research (Friday, market-open inline fallback — Alpaca/Perplexity/ClickUp all 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy gateway blocking paper-api.alpaca.markets, week 11+)
+- Cash: ~$100,000 estimated (no positions confirmed; SLB order from May 15 still unverified)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (estimated)
+- Open positions: UNKNOWN — SLB 340sh order (ID 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) from 2026-05-15 still unconfirmed
+
+### Market Context
+- WTI: ~$81.47/bbl (down ~9.5% over 7 days; vs $101+ when energy thesis built in May — significant mean reversion)
+- S&P 500 futures: +0.48% premarket, last ~7,424 — driven by Amazon Q2 beat (post-Thursday close) + cooler June PCE
+- VIX: prior close 17.09; opened 19.56, intraday range 18.11–20.08 — end-of-month positioning noise; not panic
+- Fed: held rates unchanged at July meeting; June PCE cooler — Fed pause narrative reinforced
+- Q2 GDP: softer than expected — dovish macro backdrop
+- BOJ decision in focus (Asia session)
+- Earnings today: XOM, CVX, ABBV, ETN, ENB
+- Economic calendar: U of Michigan final July sentiment; month-end rebalancing flows
+- Sector momentum YTD: Energy ETFs +96% (leader), Semis +68-100%, Memory/DRAM +77% | Lagging: not specified
+
+### Q2 Earnings — Key Names
+| Ticker | EPS Est | EPS Actual | Beat? | Revenue | Notes |
+|--------|---------|-----------|-------|---------|-------|
+| SLB | $0.51 | $0.55 | ✅ +8% | $8.97B beat | Reported Jul 24; analysts raised targets; +9% post-earnings |
+| HAL | $0.54 | $0.55 | ✅ +2% | $5.71B beat | Reported Jul 21; intl revenue best Q2 in a decade |
+| FCX | $0.62 | $0.74 | ✅ +19% | $7.03B beat | Reported Jul 22; copper $6.50+/lb; Grasberg ramp on track |
+| XOM | $3.60 | $3.52 | ❌ miss | — | Reporting today; stock -2% premarket; Q2 net income +67% QoQ |
+| MPC | — | — | — | — | Reports Aug 4; EPS est $14.52 (+267% YoY); stock +52% over 6mo |
+| AMAT | — | — | — | — | +70.3% YTD; no earnings this week; dividend $0.53 (ex-date Aug 20) |
+| NVDA | — | — | — | — | No earnings this week; chipmakers rebounding broadly |
+
+### Trade Ideas
+1. **SLB** — Beat Q2 strongly; analysts raised targets; oilfield services maintain momentum even as WTI pulls back to $81 (E&P capex commitments locked in). **CANNOT ENTER** — API blocked. NOTE: 340sh SLB order from 2026-05-15 still unconfirmed; must verify status before entering new position.
+2. **HAL** — Q2 beat; international best Q2 in a decade; companion to SLB thesis. **CANNOT ENTER** — API blocked.
+3. **FCX** — Strong Q2 beat; copper $6.50+/lb is a powerful structural catalyst; Grasberg ramp adds supply optionality. **CANNOT ENTER** — API blocked.
+4. **XOM** — EPS miss today + stock -2% premarket — SKIP; no clean entry.
+5. **MPC** — Reports Aug 4; avoid entering ahead of binary earnings event.
+
+### Risk Factors
+- WTI drop from $101 → $81 (-20%) weakens energy thesis structurally; Hormuz risk partially priced out
+- VIX elevated at open (19.56) — end-of-month noise; false signals likely
+- Month-end rebalancing flows can produce sharp intraday reversals
+- XOM EPS miss may drag energy sector intraday
+- BOJ decision — JPY volatility could spill into equities
+- Alpaca API blocked 11+ consecutive weeks — zero execution capability again today
+
+### Decision
+**HOLD / NO ACTION** — API blocked week 11; zero execution capability. Best setups remain SLB + HAL (oilfield services beat, sector momentum intact despite WTI pullback) and FCX (copper structural bid). All three require API access to enter. Priority: resolve proxy allowlist for paper-api.alpaca.markets before any further sessions. Weekly trade count this week: 0 (estimated; no API access to verify).

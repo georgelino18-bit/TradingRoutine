@@ -31,3 +31,9 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-07-31 — Market Open (Friday, Week 11 API failure)
+**Status:** NO TRADES EXECUTED — Alpaca API 403 (proxy gateway blocking paper-api.alpaca.markets; week 11 consecutive)
+**SLB order 6c529f05...:** Still unconfirmed; fill status unknown for 77 days. Must verify manually.
+**Best setups identified (cannot execute):** SLB (Q2 beat +8%, analysts raised targets), HAL (Q2 beat, intl record), FCX (Q2 beat +19%, copper $6.50+/lb)
+**Action required:** Resolve proxy allowlist for paper-api.alpaca.markets before any trading can resume.
