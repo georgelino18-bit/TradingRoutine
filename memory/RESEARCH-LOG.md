@@ -204,3 +204,62 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-07-31 — Pre-Market Research
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API 403 (sandbox IP not whitelisted; persistent)
+- **Cash:** ~$100,000 estimated (last confirmed Day 0, 2026-05-13)
+- **Positions:** UNKNOWN — SLB 340sh market buy submitted 2026-05-15 (order ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15); fill status unconfirmed
+- **Day trades used:** UNKNOWN
+- **Note:** Perplexity API also blocked (exit 22, proxy/IP restriction). All research via WebSearch fallback.
+
+### Market Context
+- **Oil:** WTI ~$83.87/bbl (July 30 close, down 0.70%); Brent ~$90.46–$92.65/bbl — easing from prior Hormuz-bid highs; US-Iran peace talks softening structural premium
+- **S&P 500 futures:** +0.48% premarket — broad rally driven by MSFT +16% and AMZN Q2 massive beat
+- **VIX:** ~18.01 (July 30, -12.83% on day from 20.66) — fear receding; normal range; market risk appetite returning
+- **FOMC (July 29):** Held at 3.50%–3.75% for 5th consecutive meeting (9-3 vote); 3 dissents wanted +25bp; inflation still elevated above 2% target; year-end projections 3.6%–4.1% — hold is equity-positive, hawkish dissents a caution flag
+- **Mega-cap earnings (July 30 AMC):**
+  - MSFT: Azure cloud +43%; stock +16% (+$450B market cap added); AI spending paying off
+  - AMZN: Revenue $200.6B (vs $196.85B est), EPS $5.75 (2x expectations), AWS +36.7% YoY for 5th consecutive acceleration; net income +243% YoY; $53.4B Anthropic gain; Q3 guide $197–202B (slightly below $204B est)
+- **Today's earnings (July 31 BMO):** XOM (EPS est $3.68–$3.88, conf call 8:30 CT), CVX, ABBV (EPS est $3.67), ETN, ENB — energy-heavy reporting day
+- **Economic releases today:** U. Michigan final July consumer sentiment; month-end positioning; no CPI/jobs (August releases)
+- **SLB update:** Q2 2026 beat July 24 — EPS $0.55 vs $0.51 est; revenue $8.97B (+$215M beat); stock +9.6% to ~$51.73 on earnings day; Middle East revenue -13% due to disruptions + US-Iran peace talks headwind; digital/AI revenue growing 9% QoQ; Q3 guide +3–4% sequential + 75bp margin expansion; Q4 guided to exceed $10B
+
+### Sector Momentum (YTD 2026)
+| Sector | YTD | Momentum |
+|--------|-----|----------|
+| Energy | +22.34% | LEADING |
+| Consumer Staples | +15.97% | LEADING |
+| Materials | +15.67% | LEADING |
+| Industrials | +11.92% | LEADING |
+| Healthcare | positive | Weakening |
+| Comm Services | -0.89% | LAGGING |
+| IT | -3.83% | LAGGING |
+| Consumer Disc | -4.62% | LAGGING |
+| Financials | -5.70% | LAGGING |
+
+### Trade Ideas
+1. **XOM** — Reporting today (July 31 BMO). Energy sector #1 YTD (+22.34%). EPS est $3.68–$3.88 (potential 136% YoY surge). Company has beaten EPS est 4 consecutive quarters. Oil at $83–$92 range supportive. **WAIT** — do not enter pre-result; monitor post-open reaction. If beat confirmed and stock opens strong: entry possible, stop 10% below reaction low, target +15% = R:R ~1.5:1 from current estimates. Need to confirm actual R:R ≥2:1 before entry. Size ≤20% (~$20k).
+2. **CVX (Chevron)** — Also reporting BMO today. Same energy tailwind. Similar thesis to XOM. **Same wait-and-react protocol.**
+3. **AMZN** — Massive Q2 beat (EPS 2x, AWS +36.7% for 5th straight acceleration). Stock gapping up premarket. S&P futures +0.48% confirming broad lift. IT sector is YTD lagging (-3.83%), BUT AMZN beat is fundamental, not sector-driven — AWS AI buildout is a secular trend. Strategy requires sector momentum — caution here. **HOLD** unless sector rules relaxed by thesis strength. Monitor open gap size; if gap +5%+ without giveback, pass (can't chase). Better to look at energy names on XOM/CVX results.
+4. **SLB** — Beat Q2 handsomely; stock surged ~10% post-earnings. Currently trading ~$51.73. Unconfirmed fill from May 15 — cannot assess position size. **ACTION REQUIRED MANUALLY:** Confirm if May 15 order filled and at what price, then verify/update trailing stop at 10% GTC.
+
+### Risk Factors
+- **Alpaca API inaccessible** — no order placement or position verification possible from this environment
+- **AMZN Q3 guide** slightly below consensus ($197–202B vs $204B est) — potential morning fade after initial gap
+- **FOMC hawkish dissents** — 3 of 12 wanted to hike; if inflation data surprises upside in August, rate hike risk re-emerges
+- **Oil price decline** — WTI $83.87 (from $101+ in May) signals US-Iran progress reducing Hormuz premium; net negative for SLB/energy names if sustained
+- **XOM/CVX binary today** — do not enter energy positions before Q2 results clear
+- **SLB unknown fill** — critical to resolve before placing new trades; may already be overexposed in energy
+
+### Decision
+**HOLD** — Cannot trade (API inaccessible). Even if API resolved:
+- XOM/CVX: WAIT for post-earnings reaction confirmation at open
+- AMZN: Strong fundamental case but IT sector is YTD lagging — marginal pass on sector rules
+- SLB: Must confirm May 15 fill status before any new entry
+
+**Priority:** Resolve Alpaca IP allowlist. Confirm SLB order status manually. If XOM beats today and opens +2-4%, monitor for entry entry on energy add.
+
