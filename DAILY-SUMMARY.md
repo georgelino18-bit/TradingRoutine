@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-07-31 11:09 UTC (fallback — curl network error)
+2026-07-31 Pre-market: VIX 18, S&P futs +0.48% (MSFT+16%/AMZN mega-beat), WTI 3.87, FOMC held 3.5-3.75%. XOM/CVX earnings BMO today — wait for reaction. API still 403, SLB fill unconfirmed. HOLD.
