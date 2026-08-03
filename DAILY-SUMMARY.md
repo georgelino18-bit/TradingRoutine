@@ -20,3 +20,14 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-03 20:03 UTC (fallback — curl network error)
+test
+
+---
+## 2026-08-03 EOD Summary (Day ~55, Monday)
+Portfolio: $100,000 (assumed) | Day P&L: N/A | Phase P&L: N/A
+Trades today: 0 | Trades this week: 0
+ALERT: Alpaca API still blocked (403 proxy) — week 12 of API blockage
+Action required: Resolve sandbox IP allowlist immediately
