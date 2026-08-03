@@ -204,3 +204,55 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-03 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, unchanged since May 2026)
+- Cash: UNKNOWN — cannot confirm account state
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Positions: UNCONFIRMED — SLB 340sh market order submitted 2026-05-15 (order ID `6c529f05`) but NEVER confirmed due to persistent API block
+- **CRITICAL:** SLB now at $49.59. If May fill was ~$55–57, position is -10% to -13% → should have hit -7% manual cut long ago. MANUAL VERIFICATION REQUIRED.
+
+### Market Context
+- **WTI:** ~$84.67 (Jul 31) | **Brent:** ~$87.93 — DOWN from $101/$105 in May; US-Iran temporary pause, Hormuz reopening hopes removed supply shock premium
+- **S&P 500 futures:** +0.63% premarket — Middle East de-escalation + earnings optimism; prediction markets 86% probability of Up open
+- **VIX:** ~15.99 (Jul 31 close) — LOW/normal; 1-month range 14.96–20.88; no fear
+- **10-yr Treasury:** ~4.7–4.8% — elevated; Fed signaling "prepared to raise rates further"
+- **Michigan Consumer Confidence:** 55.2 July — 5-month high, still historically depressed
+- **Today's catalysts:**
+  - PLTR earnings TONIGHT AMC (Aug 3) — est. revenue +80% YoY to $1.8B; AI/gov demand; binary event, DO NOT enter before
+  - AMD earnings Tue Aug 4 AMC — est. revenue +47% YoY to $11.3B; AI accelerator demand; binary event
+  - JOLTS job openings Tue Aug 5
+  - ADP private payrolls + jobless claims Thu Aug 7
+  - NFP July jobs report Fri Aug 7 — most critical macro event of week
+  - DIS, MCD, SHOP, PFE reporting this week
+- **Earnings before open today (Aug 3):** 135 total; no major market-movers identified
+- **Sector momentum:** Leaders — Materials (+22% YTD), Consumer Staples, Industrials, Energy | Lagging — Tech, Communications, Consumer Discretionary, Financials | Improving — Real Estate, Utilities
+- **US-Iran:** Temporary pause in hostilities; Hormuz reopening prospects → WTI dropped to $84; energy supply-shock thesis materially weakened vs. May 2026
+
+### SLB Situation (Unresolved)
+- SLB at $49.59 (+1.39%), analyst consensus Strong Buy, targets $55–$66 (TD Cowen $64, Evercore $66, MS $55)
+- Q2 revenue beat: $8.97B vs. $8.67B est.; offshore + data-center demand strong
+- BUT: oil at $84 vs. $101 at time of thesis; Hormuz risk premium gone
+- **Action required:** Manually verify via `bash scripts/alpaca.sh positions` from a whitelisted IP. If SLB position exists and is below -7% from entry → cut immediately per strategy rules.
+
+### Trade Ideas
+1. **PLTR** — Reports tonight AMC. AI software + government contracts, revenue +80% YoY. DO NOT enter before binary. If gap-up tomorrow (Aug 4): enter at open, stop 10% below reaction low, target +15–20%, R:R ≥2:1. Size ≤20% (~$20k). High conviction if guidance strong.
+2. **Materials sector (XLB/individual)** — Sector leader YTD +22%; inflation hedge + sticky-macro tailwind. FCX overextended. Screen for fresh setup with specific catalyst post-NFP Friday. Queue for next week.
+3. **AMD** — Reports Tue AMC. AI accelerator demand (+47% YoY est.). Same protocol: no entry before binary; watch for post-earnings gap-up Wed morning. Secondary idea behind PLTR.
+
+### Risk Factors
+- **NFP Friday (Aug 7)** — Will move rate expectations; avoid entering new positions Mon–Thu without accepting that risk
+- **Fed hawkish posture** — "Prepared to raise rates further"; 10-yr at 4.7-4.8% headwind for growth stocks
+- **PLTR + AMD binaries** — Two major tech earnings this week; gap-down risk if guidance disappoints
+- **US-Iran pause could reverse** — Any escalation spikes oil; also triggers risk-off flush
+- **SLB unresolved** — Potential open position underwater; IP restriction blocking verification for 80+ days is a critical operational gap
+- **Alpaca API block** — Cannot manage stops, place orders, or verify fills from this environment
+
+### Decision
+**HOLD** — Two binary events this week (PLTR tonight, AMD tomorrow) and NFP Friday. No confirmed positions to manage. API inaccessible — cannot place or verify orders. Best setup: post-PLTR gap-up entry Tuesday morning if AI narrative confirmed. Energy thesis (SLB/XOM) materially weakened by Hormuz de-escalation; do not add energy until oil stabilizes or new catalyst emerges. Patience > activity.
+
