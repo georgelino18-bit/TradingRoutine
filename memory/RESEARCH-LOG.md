@@ -204,3 +204,56 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-04 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction unchanged)
+- Cash: UNKNOWN — last confirmed baseline May 2026: ~$100,000 / possible SLB position unverified
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- **CRITICAL:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh SLB market buy, submitted 2026-05-15) fill status NEVER confirmed. Position and stop status unknown. Manual verification required.
+
+### Market Context
+- **WTI:** ~$86.21 | **Brent:** ~$83.82 — down ~4.68% Mon Aug 3; major reversal from ~$101+ May levels; Trump pause of Iran strikes removed Hormuz risk premium
+- **S&P 500 futures:** +0.21% premarket; S&P near all-time high; Polymarket 77% probability opens higher today; tech-led rally Mon extended AH
+- **VIX:** 15.99 (closed Mon Aug 3) — low/benign; no fear; 52-week range 13.38–35.30
+- **Catalysts today (Aug 4):**
+  - Palantir (PLTR) +16% premarket — Q2 beat + raised FY forecast; AI/data analytics demand robust
+  - SpaceX first-ever earnings report — Wall St broadly bullish; Starship progress in focus
+  - AMD reports today (direction unclear — check BMO vs AMC)
+  - Amazon AI earnings in focus this week
+  - Trump paused Iran strikes — geopolitical de-escalation; oil risk premium collapsed
+  - ISM manufacturing: new export orders +4.5pts to 53.0, production 58.5 (+6.3pts), employment 52.8 (expansion first time in 33 months) — industrial base strengthening
+- **Earnings BMO Aug 4:** CAT, MCD, PFE, MRK, CMI, BP, MPC, SPOT, TM, DD, ADM, IDXX, GWW + many more
+- **Economic calendar:** No CPI/FOMC/NFP today; ISM data already strong; next major: NFP first Friday of August (Aug 7)
+- **Sector momentum YTD 2026:**
+  - Leaders: Industrials (#1 YTD), Communications, Technology (+43% Q2 surge)
+  - Laggards: **Energy NEGATIVE YTD** — significant regime change from May; Hormuz premium gone, OPEC+ supply concerns
+  - Healthcare: mixed (flight-to-safety but volatile)
+
+### SLB Update
+- SLB ~$49.87 (Aug 2 session; 52-wk range $31.64–$58.82)
+- Q2 2026 earnings Jul 24: revenue $8.97B beat vs $8.68B est — strong international + digital services
+- TD Cowen raised PT to $64; BMO Buy; consensus Strong Buy
+- BUT: Energy sector NEGATIVE YTD — strategy rule requires sector momentum alignment
+- WTI $86 vs $101 in May = thesis materially weakened
+- Cannot verify if position exists or stop is active (API blocked)
+
+### Trade Ideas
+1. **CAT (Caterpillar)** — Reports BMO today; Industrials sector #1 YTD; ISM manufacturing in expansion (production 58.5); infrastructure spend ongoing. If beats + raises guide → enter on pullback from open gap, stop 9% below entry, target +15–18%, R:R ~2:1. Size ≤20% (~$20k). WAIT for reaction first.
+2. **PLTR (Palantir)** — Up 16% premarket on earnings beat + raised FY. AI/defense/data analytics secular trend. Risk: gap-fade common day-of; prefer entering on first 30-min pullback if holds >$5 above prev close. Stop 10% below entry. R:R needs 2:1 minimum — calculate after open. ≤20% size.
+3. **Tech sector broad (QQQ proxy)** — Near all-time high, +43% Q2, low VIX, geopolitical de-escalation. AMD reports today; if beats, tech momentum continues. No single-name until AMD result known.
+
+### Risk Factors
+- SLB unverified position — if long from May ~$46, unrealized gain; if stop not placed, exposed to full drawdown
+- Energy sector regime flip (negative YTD) — exit energy exposure if confirmed
+- Oil at $86 vs $101 — 15% decline; further downside if OPEC+ adds supply
+- S&P near ATH — mean-reversion risk; overbought signals possible
+- AMD earnings unknown direction — could pivot tech sentiment
+- API access (Alpaca 403) — cannot place/verify/adjust any orders; all actions manual
+
+### Decision
+HOLD — Cannot confirm account state or positions (API blocked). Energy thesis (SLB) materially weakened; sector negative YTD; WTI -15% from May. If SLB position exists without stop: **manual priority — verify fill and place 10% trailing stop immediately**. New entries deferred until: (1) API access restored or manual confirmation obtained, (2) CAT/PLTR post-open reactions evaluated. Patience > activity.
