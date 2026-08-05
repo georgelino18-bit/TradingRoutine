@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-05 11:10 UTC (fallback — curl network error)
+URGENT: Pre-market 2026-08-05 | Alpaca API 403 still down | SLB order from May 15 UNCONFIRMED — if filled, -10-15% underwater with no stop. Oil 4 (was 01). ANET +13% on Q2 beat. HOLD + manual SLB check required.
