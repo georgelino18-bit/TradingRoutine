@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## Aug 05 — EOD Snapshot (Day 57, Wednesday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Alpaca API blocked again — network proxy returning 403 on CONNECT to paper-api.alpaca.markets (policy denial, same as May 14–15). All three endpoints (account, positions, orders) unreachable. Last confirmed account state: Day 0, $100,000 cash, 0 confirmed positions. SLB order submitted May 15 (order ID 6c529f05) status still unknown — may or may not have filled. Day P&L and Phase P&L cannot be computed. No trades executed today. Action required: the cloud environment's egress to paper-api.alpaca.markets must be whitelisted in the network policy before any bot workflow can function.
