@@ -204,3 +204,66 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-05 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction persists, same as May 2026)
+- Cash: Unknown — last confirmed state $100,000 (Day 0, May 13)
+- Positions: UNCONFIRMED — SLB 340sh market buy submitted May 15 (Order ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15); never confirmed filled due to API failures
+- Buying power: Unknown
+- Daytrade count: Unknown
+- Perplexity: 403 error — fallback to WebSearch (noted)
+
+### ⚠️ CRITICAL — SLB Position Risk
+- SLB order (340sh market buy) submitted pre-market 2026-05-15 — UNCONFIRMED fill
+- SLB current price: $49.31 (Aug 5)
+- If filled ~$55–58 in May (market open price range given $101 WTI then): unrealized loss = -10% to -15%
+- -7% cut rule: would have triggered at ~$51–54; no stop ever placed (API inaccessible)
+- 10% trailing stop was NEVER placed (see Trade Log May 15 entry)
+- **Manual verification required immediately**: confirm fill, place stop or close position
+
+### Market Context
+- **WTI Crude**: ~$74–80/bbl (down sharply from ~$101 in May); US Treasury authorized Iranian crude sales through August; Brent ~$77.90–83.72
+- **US-Iran talks**: "great progress" per VP Vance; geopolitical risk premium unwinding; Brent fell 3.3%, WTI -2.3% Monday; oil bear thesis building
+- **S&P 500**: Futures +0.3–0.39% premarket; cash closed at record high 7,736.52 (+1.79%) Aug 4; S&P above 7,700 first time ever; 87% Polymarket odds of higher open today
+- **VIX**: 16.5, +4.04% — mild uptick, "undercurrent of caution beneath surface exuberance"; still in normal zone
+- **Q2 Earnings season**: 61% of S&P 500 reported; 86% positive EPS surprises; 77% revenue beats; broad strength
+
+### Today's Catalysts
+- **ANET (Arista Networks)**: Reported Q2 Aug 4 after close — $3.04B revenue (+37.7% YoY), beat by 7.2%; EPS $1.02 vs $0.90 est; raised Q3 guidance; +13–14% premarket. First $3B quarter.
+- **NVDA**: +1.6% premarket (~$209.95); SpaceX named NVDA exclusive AI hardware provider (first SpaceX earnings call as public co); AMD -8%, MU/INTC lower — mixed semis day
+- **NFP Friday Aug 7**: July payrolls due 8:30 ET; consensus ~130k; prior 57k (very weak June print); major market mover
+- **CPI**: Next release Aug 12 — no macro print today
+- **Earnings before open today**: DIS, UBER, LLY, SHOP, CVS, PSX, EOG, GPN, KHC (major names; binary events — do not enter pre-print)
+
+### Sector Momentum (YTD 2026)
+- **Leading**: Materials (+22% YTD, dominant), Industrials, Energy, Consumer Staples
+- **Improving**: Real Estate, Utilities
+- **Lagging**: Technology, Communications, Consumer Discretionary, Financials
+- **Note**: Energy still leading YTD but oil structural thesis (Hormuz) weakening — Iran deal in progress
+
+### Trade Ideas
+1. **ANET** — Best setup: Q2 beat (+37.7% YoY rev), raised guidance, AI cloud networking infrastructure, expanding margins. +13% gap-up premarket. Entry rule: wait for intraday pullback/consolidation after open; entry on fade toward gap fill or first 30-min VWAP test; stop 10% below entry; target +15–20%; R:R ≥2:1. Size ≤20% (~$20k). **Do not chase the gap.**
+2. **NVDA** — SpaceX exclusive AI deal = durable catalyst; +1.6% premarket. Entry: if pulls back to VWAP after open; stop 10% below; target $230+. Semis environment mixed (AMD -8%) — proceed with caution. Size ≤20%.
+3. **DIS (Disney)** — Reporting before open today. Streaming growth + theme park recovery thesis ongoing. **Binary event — do not enter before print.** If strong beat + guidance raise → evaluate post-reaction setup same rules as above.
+
+### Risk Factors
+- **SLB position uncertainty**: If filled in May ~$55–58, now -10 to -15% with no stop — most urgent risk
+- **Oil collapsing**: WTI ~$74 vs $101 in May = SLB/HAL thesis materially weakened; E&P capex could slow
+- **NFP Friday**: June 57k print = labor weakness; soft July = recession narrative resurges = risk-off
+- **VIX uptick**: 16.5 +4% = quiet nervousness building; AI earnings binary risk ongoing
+- **AMD -8%**: Earnings miss rippling; NVDA/ANET bucking trend but semis environment mixed
+- **API inaccessibility**: Cannot place or verify any orders — persistent 403 on all Alpaca endpoints
+
+### Decision
+**HOLD + URGENT MANUAL ACTION REQUIRED**
+
+Cannot trade — Alpaca API 403 blocks all order activity. Primary risk is the unconfirmed SLB position:
+if that order filled in May, the position is -10 to -15% underwater with no stop and needs immediate manual review via Alpaca web dashboard. The -7% cut rule was violated by API failure, not by choice.
+
+If API access restored: (1) check SLB position first; (2) close if still open and below -7%; (3) only then consider ANET/NVDA entries on pullback.
+
+Patience > activity. Watch NFP Friday.
