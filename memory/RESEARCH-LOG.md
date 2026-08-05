@@ -204,3 +204,26 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-05 — Market-Open Execution Attempt
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy gateway policy denial — 11th+ consecutive week)
+- Cash: ~$100,000 (estimated; no live data)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (no trades have executed)
+- Open positions: 0 (assumed; SLB order from 2026-05-15 unconfirmed, likely unfilled)
+
+### API Status
+- Alpaca (paper-api.alpaca.markets): **BLOCKED** — proxy 403 CONNECT tunnel rejected
+- ClickUp (api.clickup.com): **BLOCKED** — proxy 403 CONNECT tunnel rejected
+- Perplexity (api.perplexity.ai): **BLOCKED** — proxy 403 CONNECT tunnel rejected
+- Root cause: Remote execution environment proxy policy denies all three trading APIs
+
+### Actions Taken
+- None — cannot retrieve account data, check positions, or place orders
+
+### Decision
+HOLD — All three APIs blocked by environment proxy. No trades possible. This is the same infrastructure failure as weeks 1–10 (2026-05-14 through 2026-07-24). **CRITICAL: Alpaca IP allowlist must be resolved — 11+ weeks of zero execution.**
