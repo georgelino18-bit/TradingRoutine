@@ -204,3 +204,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-06 — Pre-market Research (market-open inline, WebSearch fallback — all APIs blocked)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (network egress policy blocks paper-api.alpaca.markets:443)
+- Cash: UNKNOWN (last known: ~$100,000 Day 0 baseline; SLB order may or may not have filled in May)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- NOTE: Perplexity API also blocked (api.perplexity.ai:443). ClickUp also blocked (api.clickup.com:443). All three external APIs denied by proxy egress policy. Research via WebSearch only.
+
+### Market Context
+- WTI / Brent: WTI ~$75–76/bbl (down sharply from May's ~$101–102; Hormuz deal reportedly near, reducing supply fear premium)
+- S&P 500: Closed 7,723.55 on Aug 5 (-0.17%); Dow at record high; S&P first crossed 7,700 on Aug 3
+- Premarket Aug 6: S&P 500 futures +0.11%, Nasdaq 100 -0.58%, Dow +0.22% — mixed/slightly positive
+- VIX: ~15.50 (down 6.06%) — low volatility, calm market; March 2026 spike to 31 fully recovered
+- Today's catalysts:
+  - **LLY (Eli Lilly)** +5% premarket — EPS $8.38 (+$2.37 beat), revenue +47.7% YoY to $22.97B; Mounjaro +91%, Zepbound +44%; raised FY2026 guidance. Massive beat.
+  - **DIS (Disney)** +3% premarket — EPS beat by $0.20; FY2026 guidance reaffirmed; parks + entertainment solid
+  - SpaceX +1.7% premarket — strong prior session (+14%), giving back slightly
+  - Busy earnings day — multiple large-cap reports
+  - Fed path: Warsh as chair (confirmed 54-45); FOMC June 16-17 passed; next rate action uncertain
+  - Hormuz: deal reportedly being negotiated — WTI pressure continues if resolved
+- Earnings today: Dense calendar; LLY + DIS biggest movers
+- Economic calendar: Standard week, no major macro prints identified
+- Sector momentum (updated): Energy weakened (WTI -25% from May highs); Healthcare (LLY) surging; Consumer Discretionary (DIS); AI/Tech still leading Nasdaq
+
+### Trade Ideas
+1. **LLY** — GLP-1 dominance, massive earnings beat, guidance raise. +5% gap-up is large; wait for pullback to prior resistance ~$960–980 if setup forms intraday. Stop 7% below entry, target +15%, R:R ≥2:1. Size ≤20%.
+2. **DIS** — Earnings beat + guidance reaffirmed; +3% premarket. Entry at open confirmation, stop 7% below, target +12%, R:R ~1.7:1. Lower conviction due to R:R — secondary idea.
+3. **Energy (XOM/SLB)** — PASS. WTI at $75-76 vs $101 in May; Hormuz resolution removes the core catalyst. Energy sector tail wind is gone.
+
+### Risk Factors
+- Cannot verify account state, positions, or open orders (API blocked) — critical unknown
+- SLB order from May 15 (340sh market buy submitted) — status unknown; if filled and held, oil drop from $101→$76 likely triggered stop or manual cut
+- Hormuz deal = energy sector headwind; energy positions (if any) under pressure
+- Nasdaq 100 -0.58% premarket despite Dow strength — tech mixed
+- Busy earnings = binary event risk; do not hold positions through earnings tonight
+- Cannot place stops via API even if trade identified
+
+### Decision
+**NO TRADE** — API access completely blocked (Alpaca, Perplexity, ClickUp all denied by network egress policy). Cannot verify account state, existing positions, or execute orders safely. Market is healthy (VIX 15.5, Dow record) and LLY is the strongest catalyst today, but trading blind without account data violates risk management rules. Manual action required to resolve API access before next session.

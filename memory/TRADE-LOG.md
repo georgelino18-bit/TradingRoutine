@@ -31,3 +31,26 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+---
+
+## 2026-08-06 — Market-Open Run (Automated, ~9:35 ET)
+**Status:** ABORTED — All external APIs blocked by network egress policy
+
+| API | Endpoint | Status |
+|-----|----------|--------|
+| Alpaca | paper-api.alpaca.markets:443 | 403 policy denial |
+| Perplexity | api.perplexity.ai:443 | 403 policy denial |
+| ClickUp | api.clickup.com:443 | 403 policy denial |
+
+**No trades placed.** Cannot validate account state or execute orders without API access.
+
+**Market context (WebSearch):** S&P 500 ~7,723 | VIX ~15.5 | WTI ~$75–76 (down sharply from May). LLY +5% premarket on massive earnings beat. Energy thesis from May invalidated — oil -25% from $101 highs.
+
+**SLB position (May 15 order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`):** Status unknown. If filled, 10% trailing stop likely triggered given WTI drop from ~$101 → ~$76 (~25%). Manual verification required.
+
+**Action required:**
+1. Check Alpaca paper account network allowlist — bot's sandbox IP must be whitelisted
+2. Run `bash scripts/alpaca.sh account` and `bash scripts/alpaca.sh positions` to verify state
+3. Verify SLB status; if still open, decision: hold (thesis dead) or close manually
+4. Consider LLY setup for next market-open if API access restored (strong catalyst today)
