@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-06 11:11 UTC (fallback — curl network error)
+2026-08-06 pre-market: HOLD. API blocked. Hormuz deal imminent (WTI 5). SLB unconfirmed fill may be -11%+ (cut signal). COP BMO watch. NFP tomorrow. Materials sector +22% YTD = next candidate.
