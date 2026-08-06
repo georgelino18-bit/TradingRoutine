@@ -204,3 +204,49 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-06 — Pre-market Research
+*(Perplexity blocked at proxy; all data via WebSearch fallback)*
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy policy blocks paper-api.alpaca.markets)
+- Cash: ~$100,000 estimated (no confirmed fills since Day 0)
+- Buying power: UNAVAILABLE
+- Daytrade count: UNAVAILABLE
+- **CRITICAL:** SLB 340sh market buy submitted 2026-05-15 was NEVER confirmed. SLB now ~$50.53. If filled at ~$56-57 entry implied by thesis → -11% to -13% drawdown. Must verify and cut immediately when API accessible (-7% rule triggered).
+
+### Market Context
+- WTI: ~$75.16/bbl | Brent: ~$75.69/bbl — DOWN sharply from $101 (May) as Hormuz deal nears
+- S&P 500 futures: +0.08% Thursday; S&P closed -0.17% at 7,723.55 Wednesday; Mag 7 / AI driving; S&P up >3% first 2 days of August
+- VIX: 16.15 (open); range 15.48–18.43; 1-month avg 17.07 — benign, no panic
+- Today's catalysts:
+  - **Hormuz deal IMMINENT** — Iran/Oman/US finalizing; awaiting Supreme Leader approval. If closed → WTI plunge → energy names collapse. Energy thesis entirely invalidated.
+  - **PLTR beat massive** (Aug 3): Rev $1.935B (+93% YoY), EPS $0.41 vs $0.35 est. Stock +29.5% to $162.66 Aug 4. Extended; do not chase.
+  - **AMD beat but fell** sharply post-earnings. Classic sell-the-news.
+  - **SOXX -21.3% MTD** — semiconductor sector worst month since Dec 2002 despite AI capex confirmed (AMZN + MSFT lifted hyperscaler spend).
+  - NFP July report tomorrow Aug 7 8:30 ET — major binary. Do not add exposure pre-NFP.
+- Earnings before open: **COP Q2 BMO today** (est EPS $2.89, rev $17.54-19.83B; 4-quarter beat streak); Cloudflare NET; Airbnb ABNB
+- Economic calendar (8:30 ET today): Challenger Job Cuts (July); Nonfarm Productivity Q2 prelim (exp +0.7% vs +0.3%); Initial Jobless Claims (prev 197k); Continuing Claims (prev 1.782M). Big event: July NFP **tomorrow** Aug 7.
+- Sector momentum: Materials +22% YTD (leader); Consumer Staples, Industrials, Energy leading. Tech/Comms/Discretionary lagging. SOXX in freefall.
+
+### Trade Ideas
+1. **COP** — BMO today; 4-quarter beat streak; EPS est $2.89. BUT Hormuz deal closing = structural bearish for oil. If closes Hormuz → WTI drops to $60s → COP gets crushed. Wait for: (a) Hormuz deal outcome clarity AND (b) COP post-earnings reaction. If Hormuz still uncertain + COP beats + guidance raised → enter $5 above reaction low, 10% trail, target +15%, ≤20% position.
+2. **Materials (XLB or specific)** — Sector +22% YTD, true leader. Needs 1-session diligence to pick best name. No catalyst binary risk today. Viable candidate for next entry if API restored.
+3. **PLTR** — Already +29.5% post-earnings Aug 4. Too extended. Skip — do not chase.
+
+### Risk Factors
+- Hormuz deal: if finalized today, WTI crashes, energy sector collapses; SLB/COP thesis fails
+- NFP tomorrow Aug 7 = major binary; weaker jobs = rate cut hope; stronger jobs = hawkish fear
+- Semiconductor selloff (SOXX -21.3% MTD) may bleed into broader market
+- AMD sell-the-news dynamic warns: earnings beats not guaranteed to pump
+- Alpaca API still blocked — cannot verify positions, stops, or place orders
+
+### Decision
+**HOLD / NO NEW TRADES**
+- API still inaccessible → cannot verify SLB position status or place stops
+- Hormuz deal closure imminent → energy thesis invalidated; do not add energy exposure
+- NFP tomorrow Aug 7 → binary; patience
+- If SLB fill confirmed when API restored: CUT immediately (>7% loss likely)
+- Next entry candidate: Materials sector after Hormuz clarity + NFP print
