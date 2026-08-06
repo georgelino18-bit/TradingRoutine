@@ -31,3 +31,23 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-08-06 — Midday Scan
+
+**Status:** BLOCKED — Proxy egress policy denying all API calls
+
+- `paper-api.alpaca.markets` → 403 (proxy CONNECT denied)
+- `data.alpaca.markets` → 403 (proxy CONNECT denied)
+- `api.clickup.com` → 403 (proxy CONNECT denied)
+
+No positions data retrievable. No orders data retrievable. Loser cuts, stop tightening, and thesis checks cannot execute.
+
+**Root cause:** Claude Code on the web egress policy does not permit outbound HTTPS to these hosts. This has been the blocking issue since 2026-05-14 (Day 1).
+
+**Action required (manual, by user):**
+- Add these hosts to the allowed egress policy in Claude Code on the web session configuration:
+  - `paper-api.alpaca.markets`
+  - `data.alpaca.markets`
+  - `api.clickup.com`
+- Reference: https://code.claude.com/docs/en/claude-code-on-the-web
+- Once whitelisted, re-run `/midday` to execute scan with live data.
