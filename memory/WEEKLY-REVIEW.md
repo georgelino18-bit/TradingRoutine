@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-08-07
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | +3.50% (best week since April; soft jobs report, strong earnings season) |
+| Bot vs S&P | -3.50% (flat cash in strong bull week — third consecutive miss) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca API returned 403 all week — IP not in allowlist. Perplexity API also blocked. All market data via WebSearch fallback. Portfolio assumed $100,000 cash (Day 0 baseline unchanged). SLB order 6c529f05... from May 15 assumed unfilled.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades possible |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation again: S&P +3.50% is a strong bull week, but held vs being short
+- No rule violations — discipline and patience rules followed perfectly
+- WebSearch fallback continued to provide usable market context
+- Correct read on soft jobs report catalyst (market rallied on rate-hike fear reduction)
+- No forced or emotional trades despite 12-week zero-execution drought
+
+### What Didn't Work
+- Alpaca API 403 persists — now week 12+ of total infrastructure failure
+- Perplexity API remains blocked; research quality degraded
+- S&P +3.50% — one of the strongest weeks of the year; fully missed in cash
+- Phase P&L still at 0% while index has rallied substantially since May 13 launch
+- No progress on IP allowlist resolution despite 3 consecutive review entries flagging it as Priority 1
+
+### Key Lessons
+- 12-week infrastructure failure is not a discipline problem — it is a structural/operational problem requiring manual intervention outside the bot's control
+- Soft jobs report → rate hike fears reduced → broad equity rally: exactly the macro playbook that should have produced Tech long entries (NVDA, AAPL, META) — thesis-building usable even without trades
+- Atlassian +35.3% this week (earnings beat) — confirms post-earnings gap-up entry strategy has alpha potential when API is live
+- Cash is not an edge — luck of sitting out a -0.70% week has reversed into -3.50% underperformance this week
+- Every week this API is blocked is a week of compounding underperformance vs the benchmark
+
+### Adjustments for Next Week
+- PRIORITY 1 (12 weeks unchanged): Resolve Alpaca IP allowlist — this is the only blocker; escalate urgently
+- If API restored: evaluate rate-sensitive Tech (NVDA, META, AAPL) on soft-landing macro + strong earnings tailwind
+- Energy thesis (WTI/Hormuz) may have cooled — re-assess crude price level before re-entering
+- Confirm SLB order 6c529f05... is cancelled/unfilled the moment API is live
+- Begin deploying capital week 1 of API restoration — do not delay; 12 weeks of missed opportunity
+
+### Overall Grade: D
+*Execution: F (API blocked week 12). Discipline: A. Research: B (WebSearch fallback). Full -3.50% underperformance vs S&P in a strong bull week. Cumulative opportunity cost is now severe. Grade unchanged — same root cause, same outcome. Only resolution: restore API access.*
