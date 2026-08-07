@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-07 11:11 UTC (fallback — curl network error)
+Pre-market 2026-08-07: HOLD — Alpaca API still 403; jobs report binary at 8:30am; SLB extended +9% 2-day; VST earnings binary today; energy leading YTD. No trades.
