@@ -31,3 +31,17 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+---
+
+## 2026-08-07 — Market-Open Run (BLOCKED)
+**Status:** CRITICAL — All APIs (Alpaca, ClickUp, Perplexity) returning 403 from proxy gateway
+
+No trades placed. No positions confirmed. Challenge has been completely idle since 2026-05-13.
+
+**Persistent blocker:** The remote execution environment routes all outbound traffic through a proxy (`127.0.0.1:34549`). The proxy's upstream gateway is denying CONNECT to `paper-api.alpaca.markets:443` with a 403 policy denial. This is NOT an Alpaca-side allowlist issue (no IP to allowlist); it is a **proxy network policy** that the user must fix by either:
+1. Adding `paper-api.alpaca.markets` to the Claude Code on the web environment's allowed domains, OR
+2. Running the trading bot locally (not in a remote cloud session), OR
+3. Using a different execution environment that permits outbound connections to Alpaca
+
+**State as of today:** $100,000 cash, 0 confirmed positions, 0 trades executed in ~12 weeks.
