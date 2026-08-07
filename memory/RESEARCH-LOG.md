@@ -204,3 +204,50 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-07 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction unchanged since May 2026)
+- Positions: UNCONFIRMED — SLB 340sh market buy submitted 2026-05-15 never confirmed; assuming 0 positions / $100,000 cash baseline
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (assumed)
+- NOTE: Manual account verification required before any trade placement
+
+### Market Context
+- **WTI / Brent:** WTI ~$77.75–$78.75 | Brent ~$82.15 (down 0.41%) — materially lower than May ($101–102); Hormuz crisis priced in; EIA sees Brent falling to $89 Q4 2026, $79 in 2027 as production returns
+- **S&P 500 Futures:** +0.13%; current ~7,749.50 (opened 7,763.25); Polymarket 67% probability of green open; S&P fell 0.2% Thu, Nasdaq -0.4%
+- **VIX:** ~15.34–16.03 — calm/low; no fear signal; 52-week high ~35.30 back in March
+- **Strait of Hormuz:** Still effectively closed (US/Israel attacks on Iran began Feb 28, 2026); Houthis attacked Saudi oil tanker Aug 5; Iran + Oman negotiating reopening; Trump said "soon" Aug 6 — binary reopening risk for oil prices
+- **Jobs Report (8:30 AM ET today):** July NFP expected +83,000–97,500; UE held at 4.2%; June was only +57,000 — weak labor trend; market sensitive to miss/beat
+- **CPI:** Next release Aug 12 (not today)
+- **FOMC:** Next decision Sep 16, 2026
+- **Sector momentum YTD:**
+  - Leading: Energy XLE +21.6%, Materials XLB +22%, Industrials XLI, Consumer Staples XLP
+  - Improving: Real Estate XLRE, Utilities XLU (flight-to-safety)
+  - Lagging: Technology XLK, Communications XLC, Consumer Discretionary XLY, Financials XLF
+- **Chip sector:** Sandisk disappointing outlook Thu → contagion across semis → Nasdaq drag
+- **Earnings today:** VST (Vistra Energy) Q2 2026 BMO — expected $6.29B rev / $1.54 EPS; ±6.4% implied move; TTWO also reporting; ~109 companies total
+
+### Holdings Update
+- **SLB** (~$51.54, +4.09% premarket Aug 7; +5.03% Aug 6): Strong Q2 reported — $8.97B revenue, $0.55 EPS beat. Analyst avg target $61.88 (TD Cowen raised to $64). Dividend ex-date Sep 2 ($0.295). Hormuz structural tailwind intact. Stock up 9%+ in two days — likely extended near-term.
+  - POSITION STATUS UNCONFIRMED — cannot verify via Alpaca API
+
+### Trade Ideas
+1. **SLB** — If Alpaca restored: entry on pullback to ~$48–50 (not at current $51.54 after 9% two-day run). Hormuz closure = sustained oilfield services demand; analyst targets $62–64. Stop $46 (~9%), target $62 (+25%), R:R ~2.8:1. Size ≤20% (~$20k). Do NOT chase; wait for consolidation.
+2. **VST (Vistra Energy)** — Reports this morning; ±6.4% implied move. AI data center power demand (nuclear/gas) is multi-year tailwind; energy sector leading YTD. DO NOT enter before binary. If clean beat + guidance raise → enter Monday open; stop 10% below reaction low; target +15%; R:R ≥2:1. Size ≤20%.
+3. **XOM / CVX** — Energy sector momentum intact (XLE +21.6% YTD); Hormuz still closed = structural oil floor. WTI now $78 vs $101 in May — some compression already priced. Monitor for reentry if Trump's "soon" reopening rhetoric fails and oil rebounds above $85. Pass today; wait for clarity on Hormuz resolution.
+
+### Risk Factors
+- **Jobs report binary (8:30 AM ET):** Miss below 83k could signal recession; beat + wage growth could kill rate-cut hopes → both scenarios risk-off for different reasons
+- **Hormuz reopening:** If Iran-Oman deal announced imminently, oil collapses → energy sector flush; reverses our thesis
+- **Chip sector contagion:** Sandisk + broader semi weakness could drag Nasdaq and tech; creates risk-off pressure
+- **SLB overextension:** +9% in 2 days; chasing here = poor R:R; need confirmation of pullback entry
+- **VST binary today:** Do not hold through earnings
+- **Alpaca API inaccessible:** Cannot place, verify, or manage any orders/stops until IP resolved
+- **FOMC Sep 16:** Next major macro catalyst 6 weeks out
+
+### Decision
+**HOLD** — Cannot place orders (Alpaca 403); jobs report binary at 8:30am creates whipsaw risk; SLB overextended after 9% two-day surge (wait for pullback to $48–50); VST binary today (defer to Monday). No entry until: (1) Alpaca API restored, (2) jobs report resolved, (3) SLB consolidates to better entry. Patience > activity.
