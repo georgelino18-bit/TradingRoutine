@@ -204,3 +204,62 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-10 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, same since Day 1)
+- Cash: Unknown — SLB market buy order (ID: 6c529f05, 340sh submitted 2026-05-15) fill status unconfirmed
+- Buying power: Unknown
+- Daytrade count: Unknown
+- NOTE: Must resolve API access to know true portfolio state. All figures are estimated.
+
+### Market Context
+- WTI / Brent: WTI ~$78.82/bbl (+0.81%), Brent ~$84.18/bbl (+0.75%) — sharply lower from April $115 peak as Hormuz deal approaches
+- S&P 500 futures: +0.6% premarket; market eyeing new ATH. July NFP -23k (job loss) + wage deceleration → September rate cut now 85% odds (CME FedWatch). 10-yr yield ~4.60%, 1-yr inflation exp 3.6%.
+- VIX: ~14.9–15.3 — calm, no fear premium
+- Today's catalysts:
+  - Strait of Hormuz: Iran–Oman talks "in final stages"; deal likely close but Iran still demanding US concessions + compensation. Fragile — Iranian ships still harassing commercial traffic. Oil ~$79 pricing in partial deal.
+  - July NFP -23k: Labor market cooling → September 25bp cut at 85%. First cut since rate hikes. Broad equity tailwind IF CPI confirms.
+  - Shopify (SHOP): Surged 17% on Q2 beat — revenue +34% YoY to $3.58B; AI integration tripled customer traffic. Confirmed AI/e-commerce strength.
+  - AMD: Down 7% despite Q2 beat (rev +50% YoY, data center +107%) + strong Q3 guide — expectations bar too high. Warning on high-flyer sentiment.
+  - Zoetis (ZTS): -5.97% on full-year guidance cut. Watch animal health / staples as canary.
+  - S&P 500 touching new ATHs; NVDA + Micron driving most of the index gain.
+- Earnings before open (Aug 10): 7 BMO reports (names unconfirmed from search); 8 after close. Major upcoming: AMAT implied large move this week.
+- Economic calendar:
+  - **Tuesday Aug 11**: CPI + Core CPI (July) — KEY EVENT. Determines September cut conviction.
+  - **Thursday Aug 14**: PPI (July) + Retail Sales
+  - **Friday Aug 15**: UMich Consumer Sentiment (prelim)
+  - **Next FOMC**: September 17–18 — 85% priced cut
+- Sector momentum YTD:
+  - Leading: Energy (XLE +21%), Materials (XLB +22%), Industrials (XLI), Consumer Staples (XLP)
+  - Individual winners: AMAT +110%, Lumentum +141%, NVDA strong
+  - Improving: Real Estate (XLRE), Utilities (XLU) — rate-cut beneficiaries
+  - Lagging: Tech (XLK), Communications (XLC), Discretionary (XLY), Financials (XLF) at sector level
+
+### SLB Update (Held Thesis)
+- SLB Q2 beat: $8.97B rev, $0.55 EPS. Stock +5.03% on Aug 6. TD Cowen target raised to $64.
+- Current SLB ~$48.78–$56 range (sources conflicting). If May 15 fill ~$57 → position down ~14–15% → likely already stopped via 10% trailing stop (auto-executed or not, unknown without API).
+- Hormuz deal incoming = bearish for oil prices = bearish for oilfield services E&P capex. SLB digital/offshore segment partially offsets.
+- Cannot confirm position or stop status without API access.
+
+### Trade Ideas
+1. **Rate-cut beneficiaries (XLRE/VRT/STX)** — September 25bp cut 85% odds + cooling jobs = tailwind for rate-sensitive names. Real estate (XLRE) most direct play. Entry post-CPI if cool print Tuesday confirms. Stop 7% below entry, target +15%, R:R ~2:1. Size ≤20%.
+2. **AMAT** — AI infrastructure, +110% YTD. Implied large swing this week. DO NOT enter pre-print. If holds momentum after earnings re-rate + cool CPI confirms AI capex cycle intact → re-evaluate entry post-Tuesday. Stop 10% below reaction low, target +15%, R:R ≥2:1.
+3. **Energy (XLE/SLB/HAL)** — PASS. Hormuz deal close = oil price ceiling. WTI at $79 vs $115 April high already pricing most of it. Sector still +21% YTD but momentum may shift to rate-sensitive plays. Do not add energy until Hormuz resolution is clear.
+
+### Risk Factors
+- **CPI Tuesday (Aug 11)**: Hot print kills September cut rally, reverses morning gains. Binary — do not open new positions ahead of it.
+- **Hormuz deal fragility**: Iran still demanding US concessions. Incomplete deal = continued oil volatility, not a clean sell signal for energy.
+- **High expectations**: AMD -7% despite beat. Market punishing anything short of perfection. AMAT, NVDA, others vulnerable.
+- **Thin breadth at ATH**: NVDA + Micron driving most of S&P gain. Narrow leadership = fragile rally.
+- **SLB position uncertainty**: Cannot verify fill or stop status without API. Portfolio state unknown — risk of holding unknown loss or miss.
+- **July NFP job loss**: -23k = first negative print; could accelerate to recession narrative if CPI still elevated.
+- **API access (critical)**: Cannot trade, verify positions, or place stops without Alpaca access. Priority blocker.
+
+### Decision
+**HOLD** — CPI Tuesday (Aug 11) is the week's binary event; entering new positions ahead of it violates patience discipline. Rate-cut thesis compelling but needs CPI confirmation. Energy sector headwind (Hormuz deal). Unknown portfolio state (Alpaca API blocked). Queue rate-cut plays (XLRE, VRT) for post-CPI entry if print confirms disinflation.
+
+Priority action: Resolve Alpaca API IP whitelist before next session.
