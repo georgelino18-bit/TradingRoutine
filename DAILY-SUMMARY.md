@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-10 11:28 UTC (fallback — curl network error)
+2026-08-10 pre-market: HOLD. WTI 8.82, VIX 14.9, SPX futs +0.6%. CPI Tuesday binary — no new entries. API still 403.
