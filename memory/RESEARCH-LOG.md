@@ -204,3 +204,29 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-10 — Market-Open Research (Automated)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 policy denial (proxy blocks paper-api.alpaca.markets)
+- Cash: Unknown (last confirmed: $100,000 Day 0, no trades ever placed)
+- Positions: Unknown (no fills ever confirmed; SLB order submitted 2026-05-15 unverified)
+- Daytrade count: Unknown
+
+### API Status
+- Alpaca: BLOCKED (403 gateway policy denial — proxy does not allow paper-api.alpaca.markets)
+- Perplexity: BLOCKED (403 gateway policy denial)
+- ClickUp: BLOCKED (403 gateway policy denial)
+- All three external APIs inaccessible from this sandbox environment
+
+### Actions Taken
+- None — API access required for all steps; no orders placed, no stops set, no data retrieved
+
+### Decision
+NO ACTION — All APIs blocked by proxy network policy (403). Cannot retrieve account data,
+validate positions, get quotes, or place orders. Manual action required by account owner:
+1. Confirm sandbox IP is whitelisted in Alpaca paper account settings
+2. Confirm proxy network policy allows outbound HTTPS to paper-api.alpaca.markets, api.perplexity.ai, api.clickup.com
+3. Re-run /market-open after access is restored
