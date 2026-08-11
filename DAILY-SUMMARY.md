@@ -20,3 +20,12 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-11 17:05 UTC (fallback — curl network error)
+MIDDAY SCAN 2026-08-11 — API BLOCKED (12+ weeks)
+Portfolio: UNAVAILABLE (Alpaca 403 proxy policy denial)
+Positions: Unknown — last confirmed 0 positions (Day 0, 2026-05-13)
+SLB order 2026-05-15: status unknown — potential ghost position or unprotected open
+Actions: NONE — all API calls blocked
+CRITICAL: paper-api.alpaca.markets and api.clickup.com both 403 by proxy policy. Challenge at risk — resolve IP allowlist immediately.
