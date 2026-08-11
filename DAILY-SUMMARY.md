@@ -20,3 +20,12 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-11 20:01 UTC (fallback — curl network error)
+EOD 2026-08-11 - API BLOCKED
+Portfolio: N/A (Alpaca 403 - sandbox IP not whitelisted)
+Status: Cannot retrieve account data
+Action required: Whitelist this environment's IP in Alpaca paper account settings
+Last known state: $100,000 cash, 0 confirmed positions (as of 2026-05-14)
+Note: SLB 340sh market buy was submitted 2026-05-15 but fill unconfirmed
