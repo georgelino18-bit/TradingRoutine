@@ -204,3 +204,61 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-11 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403 at proxy)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy blocks paper-api.alpaca.markets + api.perplexity.ai)
+- Cash: UNKNOWN — last confirmed: $100,000 Day 0 (2026-05-13)
+- Possible open position: SLB 340sh market buy submitted 2026-05-15 (order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) — fill/status UNCONFIRMED; trailing stop placement also unconfirmed
+- Daytrade count: UNKNOWN
+- NOTE: ~88 trading days since last confirmed account state; manual verification urgently needed
+
+### Market Context
+- WTI / Brent: WTI ~$82/bbl | Brent ~$88–92/bbl — down from $101/$107 in May 2026; Hormuz still disrupted (only 8–15 vessel crossings/day vs ~130 pre-conflict); Iran demanding US ease sanctions + pay war reparations before reopening; oil climbed today on Iran foreign minister comments
+- S&P 500 futures: Flat/slightly down (SPY -0.03%, QQQ -0.04%) — wait-and-see ahead of CPI tomorrow; prior day Dow/S&P lower on "no Iran weekend progress"; Nasdaq up slightly on rate-hike-fear easing
+- VIX: ~15.46 prev close (range ~15.46–15.81) — calm, low volatility; well below May spike risk
+- Today's catalysts:
+  - July payrolls: -23,000 (soft) — reduces rate hike odds; positive for risk assets overall
+  - **CPI July TOMORROW Aug 12 8:30 ET (binary event)**: Headline 3.4% YoY (est), Core 2.5% YoY — expected easing from 3.5%/2.6%; this is the dominant macro catalyst for the week
+  - Iran/Hormuz: No weekend progress; Trump demanding "compensation from Iran" — standoff continues
+  - Q2 earnings season largely over; ONON (On Holding) -15.4% premarket after Q2 miss
+  - DDOG reported Aug 6: Beat EPS/rev (Q2 rev +36% YoY to $1.12B) but fell 17% on largest-customer usage decline warning; avoided
+  - Treasury auctions + AI earnings scattered later in week
+- Earnings before open Aug 11: ~166 reports; no major S&P 500 market-movers flagged
+- Economic calendar: CPI July Aug 12 8:30 ET (dominant); FOMC next meeting TBD (Warsh era)
+- Sector momentum YTD Aug 2026: **Industrials #1, Communications #2, Technology #3** — AI buildout + capex; **Energy NEGATIVE YTD** (dramatic reversal from +22% in May 2026 — oil drop from $101→$82 killed the thesis); Healthcare as flight-to-safety; Consumer Discretionary weak
+
+### Trade Ideas
+1. **Post-CPI Industrial play (deferred to tomorrow)** — Industrials is YTD #1 sector; AI infrastructure buildout (data centers, power grid, defense) driving capex; names: GE Vernova (GEV), Honeywell (HON), Caterpillar (CAT)
+   - Gate: CPI soft print tomorrow (3.4% or below YoY) unlocks entry
+   - Entry: At open Aug 12 post-CPI if futures gap up on soft read; wait for direction to confirm at 9:31 AM ET
+   - Stop: 7–10% below entry; target 2:1 R:R minimum
+   - R:R: TBD at entry; need specific level
+   - Size: ≤20% (~$20k, assuming ~$100k equity)
+   - Risk: Hot CPI = rate hike repricing = broad selloff; skip entirely if CPI above 3.5%
+
+2. **SLB position review (if filled May 15)** — SLB at $52.85 (Aug 10); 52-week high $58.82 (2026-05-26); 52-week low $31.64
+   - Entry was likely ~$47–50 range based on May 2026 context (stock peaked at $58.82 on May 26); unrealized P&L direction uncertain without fill confirmation
+   - Energy sector now NEGATIVE YTD — original thesis (Hormuz structural bid, WTI $101+) materially weakened; WTI now $82
+   - Q2 results (July): EPS $0.55, +7.84% beat; revenue $8.97B, +3.46% beat; shares surged 9.6% post-earnings; analysts: Evercore ISI PT $66, TD Cowen PT $64, MS PT $55
+   - ACTION: Urgently need to verify fill + stop placement via Alpaca when API accessible; if holding and down >7%, CUT per strategy rules; if trailing stop is active, leave it alone
+
+3. **AI Tech (watchlist)** — NVDA, MSFT, or AI infrastructure name; sector recovering; but await CPI first; no entry pre-binary
+
+### Risk Factors
+- CPI hot print (>3.5% YoY) = rate hike repricing, broad selloff; kills any entry thesis
+- Iran/Hormuz no resolution; oil spike risk if talks collapse or military escalation
+- Alpaca API inaccessible for 88 days — unknown position state; possible SLB position not risk-managed; CRITICAL operational risk
+- DDOG customer concentration warning = signal that AI spending may be concentrating / companies cutting cloud costs
+- VIX low (15.46) = complacency; reversal risk if CPI surprises hot
+- Economy: July payrolls -23k = softening labor market; potential recession signal if trend continues
+
+### Decision
+**HOLD — pre-CPI binary event tomorrow dominates**
+- No new entries today; all eyes on Aug 12 CPI at 8:30 ET
+- If CPI soft (≤3.4% YoY): Consider Industrials entry post-open (GEV, HON, or CAT); validate price action 9:31 AM ET
+- If CPI hot (>3.5% YoY): Stay cash; reassess next week
+- **URGENT**: Account state unknown for 88 days — Alpaca API must be unblocked to verify SLB position status and ensure trailing stop is active; if position open and down >7%, mandatory cut per strategy rules
