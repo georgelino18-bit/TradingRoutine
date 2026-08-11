@@ -204,3 +204,38 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-11 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked (proxy policy denial on paper-api.alpaca.markets:443)
+- Cash: Unknown — last confirmed $100,000 (Day 0 baseline; SLB order submitted 2026-05-15 but never confirmed due to persistent API block)
+- Buying power: Unknown
+- Daytrade count: Unknown
+- NOTE: Same IP/proxy restriction blocking Alpaca since 2026-05-14 — no account data retrievable. ClickUp also blocked. WebSearch fallback only.
+
+### Market Context
+- WTI: ~$82/bbl (up 5.1% prior session; 4th straight up day on Iran/Hormuz war uncertainty; potential US-Iran deal negotiations adding volatility)
+- Brent: ~$87.72/bbl
+- S&P 500: closed ~7,753.11 (Aug 10); futures nearly unchanged premarket; 59% Polymarket probability of higher open Aug 11
+- VIX: 15.46 (up 3.76% on Aug 10) — moderate, not alarming
+- Fed: Weak July jobs report reduced rate-hike expectations; ~50% chance of September hike (down from 67% prior week); no immediate hike expected
+- Sector momentum Aug 2026: **Industrials, Consumer Defensive, Energy outperforming** | Technology, Comm Services, Consumer Cyclical, Financials lagging
+- Key catalysts: Iran/Hormuz uncertainty supporting energy; AI data center demand driving infrastructure/power plays; no major earnings releases confirmed for today
+
+### Trade Ideas
+1. **Energy sector** (SLB/HAL/XOM) — WTI $82 with Hormuz tension + 4-session rally; prior thesis intact. BLOCKED — cannot execute without Alpaca access.
+2. **Infrastructure/Power plays** (e.g. NEE, STRL) — AI data center electricity demand structural; Industrial sector outperforming. BLOCKED — no account access.
+3. **HOLD all new ideas** — until API access is restored.
+
+### Risk Factors
+- Alpaca API proxy block: persistent since 2026-05-14 — **critical blocker, no trades possible**
+- ClickUp API also blocked — no notification channel except push notification and DAILY-SUMMARY.md fallback
+- Potential US-Iran deal = energy spike reversal risk
+- Weak jobs data + 50% rate-hike probability = macro uncertainty
+- SLB order status unknown (submitted 2026-05-15, never confirmed; may be filled, expired, or cancelled)
+
+### Decision
+NO ACTION — Alpaca API inaccessible (proxy policy blocks paper-api.alpaca.markets). Cannot retrieve account state, positions, or execute orders. **Persistent blocker since May 2026.** Manual intervention required: whitelist paper-api.alpaca.markets in sandbox proxy/network policy.
