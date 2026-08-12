@@ -204,3 +204,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-12 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress policy blocks paper-api.alpaca.markets; persistent since May 14)
+- Cash: ~$100,000 estimated (last confirmed Day 0 baseline; SLB 340sh market buy submitted 2026-05-15 UNCONFIRMED)
+- Positions: UNKNOWN — cannot confirm SLB fill or any other positions via API
+- Buying Power: UNKNOWN
+- Daytrade count: UNKNOWN
+- **ACTION REQUIRED**: Manually verify SLB fill status and current account equity
+
+### Market Context
+- **WTI**: ~$82–85/bbl (down significantly from $101 at original SLB thesis; fell 5%+ past week on Iran peace progress rumors)
+- **Brent**: ~$91.60/bbl (down ~$0.94 on the day premarket)
+- **S&P 500 futures**: Flat to slightly negative; traders cautious ahead of July CPI 8:30 ET; 10Y yield ~4.7%
+- **VIX**: ~15.28 — low/normal; market not fearful
+- **US-Iran**: US re-imposed naval blockade after Iran attacks resumed on commercial vessels; Iran-Oman talks ongoing; Strait of Hormuz partly disrupted but abating — oil prices reflect easing tension
+- **CPI (July)**: Released 8:30 ET today — est. +0.2% MoM core, ~2.9% YoY headline; dominant market catalyst for the session; a beat spooks rate-cut odds instantly
+- **Earnings today**: Cisco (CSCO) Q4 FY2026 after close 4:30 ET — EPS est $1.17 (+18.2% YoY), rev $16.82B (+14.7% YoY); options pricing ±8.21% move; networking/AI infrastructure play
+- **EIA Crude Inventories**: Scheduled today (secondary catalyst)
+
+### Sector Momentum (YTD 2026, S&P 500 +~12%)
+- **Leaders**: Consumer Staples, Industrials, Materials (+22% YTD — dominant), Energy
+- **Improving**: Real Estate, Utilities
+- **Lagging**: Technology, Communications, Consumer Discretionary, Financials
+
+### Trade Ideas
+1. **CSCO (post-earnings tomorrow)** — Q4 FY2026 reports tonight 4:30 ET. AI Ethernet networking buildout thesis (NVDA networking up 199% YoY confirms hyperscale demand). If beats + strong guidance → monitor for gap-up setup at open Aug 13; enter only if price action confirms, stop 10% below reaction low, target +15% (R:R ≥2:1), size ≤20%. RISK: tech sector lagging YTD — tension with sector momentum rule; options pricing 8.21% move = wide gap risk; wait for clean setup, not a chase.
+2. **Materials/XLB theme** — Sector YTD +22%, dominant leader. Copper (FCX), gold miners (NEM, GOLD), or industrial metals in AI/infrastructure buildout narrative. FCX previously passed at 52-week high; reassess entry level and R:R if pullback to clean structure offers 2:1. Do NOT chase highs.
+3. **NEE / Power infrastructure** — NextEra Energy: 21 GW data center pipeline, renewable backlog 33 GW. AI power demand secular growth. Utilities sector improving. More conservative entry, lower volatility. Worth adding to watchlist for a dip entry with 2:1 R:R.
+
+### Risk Factors
+- **CPI surprise today** (8:30 ET): Hot print = rates higher for longer = growth/tech selloff; cold print = risk-on; binary for the session
+- **CSCO binary tonight**: Do not hold through earnings; enter only post-reaction
+- **SLB unresolved**: If the May 15 SLB order filled at ~$57–58, current price ~$53.68 = unrealized loss of ~7–8%; may be at or past the -7% cut rule — MUST verify manually
+- **Oil thesis erosion**: WTI dropped from $101 to ~$83 since original SLB/HAL thesis; Hormuz fears partially unwinding; energy sector still leading but oilfield services thesis weaker
+- **10Y yield at 4.7%**: Headwind for growth stocks and real estate; watch for CPI-driven spike
+- **Alpaca API inaccessible**: Cannot place, verify, or manage stops without manual intervention
+
+### Decision
+**HOLD** — No new entries today. CPI at 8:30 ET is binary; wait for print before any action. CSCO is the primary watchlist candidate for tomorrow morning (post-earnings). Critical manual action needed: verify SLB fill status and current P&L via Alpaca dashboard; if SLB is held at a loss ≥7%, cut immediately per strategy rules. Patience > activity.
