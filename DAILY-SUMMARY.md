@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-12 11:23 UTC (fallback — curl network error)
+Pre-market 2026-08-12: HOLD. CPI 8:30 ET binary catalyst. CSCO earnings tonight (watch for tomorrow). Alpaca API still 403 — verify SLB fill manually (may be at -7% cut threshold). VIX 15, WTI 3, Brent 1.60.
