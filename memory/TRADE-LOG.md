@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-08-12 — EOD Snapshot (Day 64, Wednesday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Alpaca API (paper-api.alpaca.markets) and ClickUp API both blocked at egress proxy — 403 policy denial on CONNECT tunnel. Same persistent sandbox network restriction as prior sessions (Days 1, 15). No live account data retrievable. Last confirmed state remains Day 0: $100,000 cash, 0 positions. Trades today: 0 confirmed. Trades this week: 0 confirmed. CRITICAL: This blockage has persisted since launch — manual intervention required to either (1) whitelist paper-api.alpaca.markets in egress policy, or (2) run the bot from a network-unrestricted environment. SLB stop from 2026-05-15 status unknown.
