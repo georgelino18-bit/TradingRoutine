@@ -31,3 +31,17 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-08-13 — Market-Open Session
+**Status:** BLOCKED — Alpaca API 403 (sandbox IP not in allowlist, persistent 10+ weeks)
+
+**No trades placed.** No account data accessible.
+
+**Key context:**
+- VIX: 14.53 (risk-on), S&P near record highs
+- PPI July flat (dovish), CPI July +0.1% (tame) — rate cut Sept likely
+- Energy sector +32% YTD, Tech +30% YTD
+- AMAT reports Q3 after close today (~$9B rev, $3.36 EPS est) — watch for gap-up tomorrow
+- SLB order from 2026-05-15 still unconfirmed (ghost position risk)
+
+**Action required:** Whitelist sandbox IP in Alpaca paper account settings, then re-run /market-open.

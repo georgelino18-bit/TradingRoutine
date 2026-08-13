@@ -204,3 +204,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-13 — Pre-market Research (inline, market-open session)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (sandbox IP not whitelisted, persistent since May 2026)
+- Cash: ~$100,000 estimated (last confirmed: Day 0 baseline; no trade confirmations ever received)
+- SLB order from 2026-05-15 (340sh, market buy) status unknown — possible ghost position
+- Buying power: unknown
+- Daytrade count: 0 assumed
+
+### Market Context
+- VIX: 14.53–14.68 — low, risk-on environment
+- S&P 500: Near record highs, modest positive open indicated; 61% probability of higher open
+- CPI (July, released yesterday): +0.1% MoM — tame, matched expectations; rate cut Sept increasingly likely
+- PPI (July, today 8:30 ET): Flat vs +0.2% expected — dovish surprise, supports Fed easing narrative
+- Sector momentum YTD: Energy +32.11% (leader), Technology +30.69%, Transportation +26.30%, Capital Goods +25.24%
+- Earnings today after close: AMAT (Q3 2026, EPS est $3.36 +35.5% YoY, Rev est $9.0B +23.3% YoY) — BINARY, do not enter before
+- Other earnings today: BN (Brookfield), NTES, JD, TPR, NU, CBRS (missed estimates, down)
+- Iran war / Hormuz: Energy structural bid ongoing; oil elevated (same thesis as May)
+- Fed: Rate cut September increasingly priced in; Warsh Fed era, first FOMC June already passed
+
+### Trade Ideas
+1. **AMAT** — AI capex cycle intact; $8.95B rev / $3.36 EPS expected Q3; avg 6% upside surprise last 4 qtrs.
+   DO NOT enter before binary tonight. If gap-up tomorrow on beat + strong guidance → enter at open,
+   stop 10% below reaction low, target +15%, R:R ≥2:1. Size ≤20% (~$20k).
+   Current price ~$548 (per Vantage Markets analysis Aug 13).
+   
+2. **Energy sector (SLB / XOM / MPC)** — Hormuz structural + Energy +32% YTD leadership.
+   No entry today due to API blocker; queue for next session if API restored.
+
+### Risk Factors
+- Alpaca API blocked (403) — no trade execution possible this session
+- AMAT binary tonight — enter post-reaction tomorrow only
+- Low VIX (14.5) could mean complacency; any macro surprise = sharp repricing
+- Ghost SLB position from May 15 unresolved — unknown P&L exposure
+- 10 weeks without a confirmed trade; challenge window deteriorating
+
+### Decision
+NO TRADE — API blocked; cannot verify positions, equity, or place orders.
+Primary watch: AMAT post-earnings reaction tomorrow morning.
+Action required: Resolve Alpaca API 403 (whitelist sandbox IP in paper account settings).
