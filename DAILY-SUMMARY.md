@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-13 11:25 UTC (fallback — curl network error)
+Pre-market 2026-08-13: WTI 2 (-1.4%), SPX futs +0.2%, CPI tame (3.4%). AMAT earnings tonight AMC — NO entry before close. SLB position UNCONFIRMED (API still 403). Decision: HOLD.
