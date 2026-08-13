@@ -204,3 +204,47 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-13 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (sandbox IP restriction, unchanged since May)
+- Cash: ~$100,000 estimated (no confirmed fills; Day 0 baseline)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (unverified)
+- **CRITICAL:** SLB market buy order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh) submitted pre-market 2026-05-15 — fill status UNCONFIRMED after 3 months of API blockage. SLB now ~$53.68 (Aug 11). If filled ~$56 area, position is -4.1% and approaching -7% cut zone. Manual verification urgently needed.
+
+### Market Context
+- **WTI:** $82.11 (-1.39%) | **Brent:** $87.92 (-1.19%) — oil rolling over; well off May Hormuz peak of $101+; structural supply disruption has eased
+- **S&P 500 futures:** +0.2% premarket (Thursday Aug 13) — muted bid; stocks rising as oil falls + CPI tame
+- **VIX:** ~16.5 (last confirmed Aug 4); estimated similar today — normal zone, no panic
+- **July CPI (Aug 12 release):** +0.1% MoM / +3.4% YoY — tame print, cooled from 3.5%. Core CPI +0.2% MoM / +2.5% YoY (down from 2.6%). Energy index -1.5% MoM. Market-friendly.
+- **Today's releases (8:30 ET):** July PPI (forecast +0.2% vs prior -0.3%) + Initial Jobless Claims (forecast 202K vs prior 199K); FOMC Member Barkin speaks 8:40 ET
+- **S&P 500 YTD:** +13%; rose 3%+ in August's first two sessions
+- **Key catalyst:** AMAT reports fiscal Q3 TONIGHT after close (Aug 13 AMC) — management guided ~$8.95B revenue; stock ~$537 premarket, down ~17% from July peak ($603→$498 range) but +100% YTD. THIS IS THE BINARY identified in May. DO NOT enter before close.
+- **Wendy's (WEN):** +13% on Trian Fund (Nelson Peltz) private-equity bid rumor — unrelated to our thesis
+- **Retail Sales (Aug 14):** Tomorrow — third straight macro reading in a row (CPI→PPI→Retail)
+
+### Sector Momentum (YTD 2026)
+- **Leading:** Materials +22% (top performer), Industrials, Consumer Staples, Energy
+- **Lagging:** Technology, Communications, Consumer Discretionary, Financials
+- **Improving:** Real Estate, Utilities
+- **Note:** Mega-cap tech (Magnificent 7) + AI names bucking sector laggard trend; S&P EW ETF (RSP) at record high — broad market participation
+
+### Trade Ideas
+1. **AMAT (post-earnings play)** — Q3 earnings TONIGHT AMC. If gap-up on beat + strong Q4 guide → enter at open Aug 14. Stop 10% below reaction low. Target +15–20%. R:R ≥2:1. Size ≤20% (~$20k). DO NOT enter before close today — binary risk.
+2. **SLB (existing/uncertain position)** — Stock at $53.68; analysts avg target $61.97 / high $71. Strong Buy consensus. Q2 beat ($8.97B revenue, EPS $0.55). Energy sector still a sector leader YTD despite oil pullback. However: WTI at $82 (well off May's $101 Hormuz peak) is a headwind. If SLB fill confirmed at ~$56, position is -4.1% — approaching -7% cut rule. MUST verify fill via manual API check before next market open.
+3. **Materials sector (XLB)** — Leading sector YTD +22%. Screen for catalyst-driven breakout names post-macro data. Queue for next research session with specific names.
+
+### Risk Factors
+- Alpaca API still 403 — cannot confirm SLB position, stops, or any order history; manual intervention urgently required
+- AMAT binary tonight — largest catalyst risk of the day; stock already -17% from peak, miss could accelerate decline
+- PPI print 8:30 ET — hotter than expected (+0.2%) could reverse CPI-driven rally; Barkin speech 8:40 ET adds Fed hawkish risk
+- Oil falling (-1.4%) — headwind for energy sector (SLB, XOM, HAL); Hormuz premium has faded
+- Market +13% YTD — elevated valuation risk if macro disappoints
+- API blockage = blind flying; zero position confirmation, zero stop verification
+
+### Decision
+HOLD — AMAT binary tonight; no entry before close. SLB position status unknown; manual API verification is the #1 action item before any trade. PPI data at 8:30 ET could swing tone. Default to patience; monitor AMAT post-close reaction for Aug 14 setup.
