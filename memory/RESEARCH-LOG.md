@@ -204,3 +204,29 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-14 — Midday Scan (Afternoon addendum)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy block, week 13+)
+- Positions: 0 confirmed (SLB order 6c529f05 fill status unknown)
+- Cash: ~$100,000 estimated (Day 0 baseline)
+
+### API Status
+- Alpaca paper API: BLOCKED (proxy 403 on `paper-api.alpaca.markets:443`)
+- Perplexity: BLOCKED (proxy 403)
+- ClickUp: BLOCKED (proxy 403)
+- All external APIs inaccessible — same root cause since 2026-05-14
+
+### Market Context (no live data — cannot retrieve)
+- No intraday data accessible; no research possible without Perplexity or Alpaca
+- S&P 500, VIX, sector performance: UNAVAILABLE
+
+### Actions
+- None — no positions to manage; APIs blocked
+
+### Decision
+NO ACTION — infrastructure blocked. Manual intervention required to resolve proxy allowlist.
+PRIORITY: Whitelist `paper-api.alpaca.markets` in sandbox network policy or Alpaca account settings.

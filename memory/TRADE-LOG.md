@@ -31,3 +31,29 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-08-14 — Midday Scan (Week 13+)
+**Status:** BLOCKED — Proxy 403 on all external APIs (Alpaca, Perplexity, ClickUp)
+**Portfolio:** $100,000 est. (Day 0 baseline; no confirmed trades since launch)
+**Positions:** 0 confirmed | SLB order 6c529f05 fill status unknown (may be ghost)
+
+### Actions Taken
+- None — API access denied; stop/cut rules cannot be evaluated
+
+### Loser Cuts (-7% rule)
+- N/A — no accessible positions
+
+### Stop Tightening
+- N/A — no accessible positions
+
+### Thesis Check
+- N/A — no accessible positions
+
+### Intraday Notes
+- Proxy (`127.0.0.1:46843`) returns 403 CONNECT for `paper-api.alpaca.markets:443`
+- Same block applies to `api.perplexity.ai` and ClickUp
+- 13+ consecutive weeks of API blockage — infrastructure failure unresolved
+- **MANUAL ACTION REQUIRED:** Resolve sandbox IP allowlist in Alpaca paper account settings
+
+### Decision
+NO ACTION — zero confirmed positions; all APIs proxy-blocked. Stand by.
