@@ -20,3 +20,21 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-14 20:03 UTC (fallback — curl network error)
+API connectivity test 2026-08-14
+
+---
+## 2026-08-14 20:04 UTC (fallback — curl network error)
+EOD 2026-08-14 (Day 67, Friday)
+Portfolio: N/A — Alpaca API blocked by proxy (CONNECT 403)
+Cash: N/A
+Trades today: none (API unreachable)
+Open positions: unconfirmed — SLB order from 2026-05-15 status unknown
+This week: 0 trades (Mon–Fri)
+
+ALERT: proxy policy denies paper-api.alpaca.markets:443 + api.clickup.com
+Action required: whitelist both hosts in proxy/network policy
+Challenge status: 67 trading days elapsed, 0 confirmed trades, /bin/bash P&L data
+Tomorrow: N/A (weekend) — resolve proxy before Monday open
