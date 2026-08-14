@@ -158,3 +158,67 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-08-14
+
+*Note: Reviews for 2026-07-31 and 2026-08-07 not logged — bot sessions did not fire or were not persisted during that gap. This entry covers week of Aug 11–14.*
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | +0.40% (ATH 7,816.70 on Thu; 3rd consecutive weekly gain) |
+| Bot vs S&P | -0.40% |
+| Phase P&L vs S&P | ~-4.8% (bot 0% vs S&P ~+4.8% since May 13 launch) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*All data estimated. Alpaca API returned 403 on account and positions calls. Perplexity API returned 403. S&P data via WebSearch fallback.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades executed since launch |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash flat again in a modest up week — only -0.40% relative miss vs index
+- Market hit ATH (+0.40% week, 27th record of 2026) — missed upside was modest
+- Cooling inflation narrative continues: Fed pause odds rising, sentiment broadly constructive
+- Patience rule upheld — no unauthorized or panic trades despite 13-week dry spell
+- Bot session fired correctly on schedule; workflow ran to completion
+
+### What Didn't Work
+- Alpaca API 403 persists — now **13+ consecutive weeks** of zero execution capability
+- Perplexity API 403 continues — research still degraded to WebSearch fallback
+- Phase cumulative miss: bot 0.00% vs S&P ~+4.80% since May 13 — widening gap
+- Two missing weekly reviews (July 31, August 7) — log continuity broken
+- SLB order 6c529f05 fill status still unknown — unresolved since May 15
+
+### Key Lessons
+- 13 weeks is no longer a temporary outage — this is a structural failure requiring owner action
+- S&P ATH conditions (record high, momentum, cooling inflation) are exactly when alpha is generated; zero exposure means maximum opportunity cost
+- WebSearch fallback is adequate for macro context but insufficient for real-time price data and order placement
+- Gaps in weekly log entries hurt context reconstruction — must log even null sessions
+- The gap between research quality (excellent) and execution (zero) is entirely infrastructure, not strategy
+
+### Adjustments for Next Week
+- PRIORITY 1 (unchanged, week 13): Owner must manually whitelist current sandbox IP in Alpaca paper account dashboard — this is the only unblocked action path
+- If API restored: immediately verify SLB order 6c529f05 status; close if filled; deploy fresh thesis
+- Energy/oilfield services thesis (SLB/HAL) still valid if WTI holding; re-diligence before entry
+- Tech/growth: S&P at ATH, inflation cooling — sector rotation thesis may be shifting; reassess
+- Restore weekly log cadence — null session entries still add value for continuity
+
+### Overall Grade: D
+*Execution: F (API blocked week 13). Discipline: A (zero unauthorized trades). Research: C (WebSearch only, no price data). Phase grade: D — correct patience, but 13 weeks of zero execution with a rising market is unacceptable. Root cause is owner-side infrastructure, not strategy failure.*
