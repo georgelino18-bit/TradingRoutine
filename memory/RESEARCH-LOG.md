@@ -204,3 +204,51 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-14 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, unchanged since May 14)
+- Cash: ~$100,000 estimated (Day 0 baseline; no positions confirmed)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- **SLB alert:** Market buy order submitted pre-market 2026-05-15 (order ID `6c529f05`) — status UNCONFIRMED. API inaccessible for 3 months. SLB now ~$53.68 (Aug 11); if filled ~$54, position is ~break-even. Requires manual verification.
+
+### Market Context
+- **WTI:** ~$81.27/bbl (+0.02%) — significantly off May highs ($101+); Hormuz crisis clearly moderated
+- **Brent:** ~$87.18/bbl (+0.13%)
+- **S&P 500:** Futures ~flat (+0.01%); cash closed at record 7,798.99 yesterday; Dow +0.1%, Nasdaq slightly red
+- **VIX:** ~14.68 (range 14.39–14.80) — very low, market complacent; 52-week high 20.88
+- **CPI July (Aug 12):** +0.1% MoM, +3.4% YoY (down from 3.5%); core +0.2% MoM, +2.5% YoY — cooling, rate-hike fears easing
+- **PPI July (Aug 13):** flat MoM (below +0.2% consensus), +4.7% YoY; core +0.2% MoM — also cooling
+- **Retail Sales July (today 8:30 ET):** est. +0.3% MoM; key read on consumer strength
+- **NVDA earnings:** Aug 26 — major binary event; pre-earnings drift ongoing (~$225.30 today, target avg $302)
+- **Earnings today:** ~71 reports; Plug Power (±19.5% expected move), Archer Aviation, NBIS; no market-moving megacap BMO
+- **Next week:** TGT, WMT earnings; NVDA Aug 26
+
+### Sector Momentum (YTD 2026)
+- **Leading:** Energy, Materials (+22%), Industrials, Consumer Staples — value rotation intact
+- **Lagging:** Technology (XLK), Communications (XLC), Discretionary (XLY), Financials (XLF)
+- **Improving:** Real Estate (XLRE), Utilities (XLU)
+- **Context:** S&P 500 +13% YTD; index below 50-day MA since July 23 — rotation from growth to value ongoing; semis showing life (Samsung, SK Hynix +14% this week on AI)
+
+### Held Position News
+- **SLB (~$53.68 Aug 11):** Q2 beat — $8.97B rev vs $8.67B est, EPS $0.55 vs $0.51; free cash flow $716M; EBITDA margin 21.2%. TD Cowen raised PT to $64. Avg analyst target $61.97 (high $71). Dividend ex-date Sept 2. **Thesis intact if position is live** — but cannot confirm fill.
+
+### Trade Ideas
+1. **HOLD/MONITOR SLB** — If May order filled (~$54), currently ~break-even. Q2 beat strong; analyst target $61.97. Would need 10% trailing stop verified at ~$48. API access required to confirm. Do NOT add to unknown position.
+2. **NVDA (post-earnings, Aug 27+)** — Earnings Aug 26; do NOT enter before binary. If blowout + gap-up Aug 27, enter at open. Entry TBD, stop 10% below reaction low, target +15%. R:R assessment at open. Size ≤20% (~$20k). AI capex cycle ($650–725B) intact; 58 of 59 analysts bullish.
+3. **XLI / Industrial names** — Sector rotation toward value/industrials continuing; no specific catalyst today. Monitor for individual setups next week after retail data (TGT/WMT).
+
+### Risk Factors
+- Alpaca API inaccessible — cannot place, confirm, or stop any orders; SLB position status unknown
+- NVDA Aug 26 binary — Nasdaq susceptible to flush if misses sky-high expectations
+- VIX at 14.68 = extreme complacency; any surprise catalyst = sharp vol spike
+- WTI $81 — energy thesis structurally weaker vs May ($101+); SLB thesis partially diluted
+- Retail Sales report (8:30 ET today) — miss could rattle record-high market
+- Wage growth 3.2% < CPI 3.4% — real consumer purchasing power still negative
+
+### Decision
+HOLD — Market at all-time highs, VIX compressed. No high-conviction R:R ≥2:1 setup available. NVDA is highest-conviction idea but binary Aug 26 enforces patience. SLB unconfirmable via API. **Critical action required: resolve Alpaca API 403 (IP whitelist) before next trade cycle.** Patience > activity.
