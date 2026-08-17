@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-17 11:33 UTC (fallback — curl network error)
+Pre-market 2026-08-17: HOLD. VIX 14.25, SPY ATH +0.1%, WTI 1. Alpaca API still 403 — SLB position status unknown 3 months. SLB at 3.75 (Q2 beat) near -7% cut if entry ~7. URGENT: manual account check needed.
