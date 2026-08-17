@@ -204,3 +204,49 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-17 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, same as all prior sessions)
+- Cash: Unknown — last confirmed Day 0: $100,000; SLB order placed 2026-05-15 (340sh, unconfirmed fill)
+- Buying power: Unknown
+- Daytrade count: Unknown
+- ⚠️ CRITICAL: Account has been inaccessible since 2026-05-14. SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` placed pre-market May 15; fill/position/stop status all unconfirmed.
+
+### Market Context
+- **WTI / Brent**: WTI ~$81.51–81.83 | Brent ~$88.31 — sharply lower from May's $101/bbl peak; US-Iran talks about Hormuz reopening dragged WTI to $77.11 on some sessions; Brent forecast ~$85/bbl avg Q3 per EIA. Hormuz throughput down from 21.6mb/d (Q4 '25) to 4.9mb/d (Q2 '26) — still severely disrupted but diplomacy easing.
+- **S&P 500 futures**: +0.1%; SPY $777.42 premarket (+0.14%); QQQ +0.49% to $734.63; market at ATH, Russell 2000 also at ATH (broadening out). 62% prediction market probability of higher open today.
+- **VIX**: 14.25 — low/benign; no fear in market.
+- **Today's catalysts**:
+  - AI spending momentum: Anthropic PBC posted stellar revenue growth → SanDisk and Micron rallying premarket; AI capex confidence reinforced.
+  - FOMC minutes (July meeting) released this week — key; 3 members dissented in July wanting +25bps; Sept hike odds ~30%.
+  - No major earnings before open today (Mon Aug 17).
+  - Home Depot (HD), Baidu (BIDU), Toll Brothers (TOL) report Tue Aug 18 BMO.
+  - July housing starts + building permits (Tue Aug 18, 8:30 ET).
+  - July industrial production (Tue Aug 18).
+  - Q2 GDP second estimate: Aug 26 (advance: +1.5% ann., down from +2.1% Q1).
+- **Jackson Hole**: Aug 27-29 (Warsh's first keynote Aug 28) — "Financial Innovation: Implications for Payments and Policy" — major macro event looming.
+- **NVDA earnings**: Aug 26 AC — est $28.7B revenue (+50% YoY); huge binary; pre-earnings AI drift ongoing.
+- **SLB update**: Q2 2026 beat — EPS $0.55 vs $0.51 est; revenue $8.97B; stock +3.24% to $53.75 recently. Analyst avg target $61.97 (high $71). BUT: WTI declined ~20% from May; macro oil headwind.
+- **Sector momentum YTD**: Energy +22.34% | Consumer Staples +15.97% | Materials +15.67% | Industrials +11.92% | S&P 500 +13% — leading. Tech -3.83% | Discretionary -4.62% | Financials -5.70% — lagging. Significant rotation from '25 leaders to value/defensive.
+- **Fed**: Rates unchanged at 3.50%–3.75% (5th consecutive hold); 3 FOMC dissenters in July favored +25bps; inflation eased to 3.5% in June (first decline in 5 months); Sept hike odds ~30%.
+
+### Trade Ideas
+1. **MU (Micron)** — AI storage demand directly confirmed today by Anthropic revenue surge; rallying premarket; sector (Tech sub: semiconductors) weak YTD but AI storage is carve-out. IF price confirms >3% above recent base at open and sector turns, entry ≤20% ($20k), stop 10% below entry, target +15%. R:R check required at open. *Do not chase premarket gap.*
+2. **NVDA pre-earnings drift** — earnings Aug 26 AC; AI capex confirmed; pre-event drift ongoing but MUST exit before Aug 26. High risk: binary 9 days out. Only consider if clear technical setup at open; max 15% position given binary overhang. Not recommended without API access to manage stop.
+3. **SLB monitor (existing/unconfirmed position)** — If SLB position exists at ~$54-57 entry, current $53.75 price is at or near the -7% manual cut threshold (e.g., $57 entry → $53.01 cut level). ⚠️ Possible stop trigger territory. Requires immediate manual position check. Fundamental thesis intact (Q2 beat, analyst avg target $61.97) but WTI headwind from Hormuz diplomacy.
+
+### Risk Factors
+- Alpaca API inaccessible — cannot confirm SLB position, place or verify stops; account in blind state for 3 months
+- SLB near -7% cut threshold IF filled near May 15 highs (~$57); WTI down ~20% from entry thesis price
+- NVDA binary Aug 26 — Nasdaq susceptible to flush if expectations too high; AI hype could exhaust
+- Jackson Hole Aug 27-29 (Warsh hawkish) — Fed uncertainty could reprice equities
+- Sept FOMC: 30% hike odds; 3 dissenter votes signal hawkish lean → growth headwind
+- FOMC minutes this week could shock market if hawkish tone more serious than July statement
+- US-Iran Hormuz diplomacy → WTI further decline possible → Energy sector YTD gains at risk
+
+### Decision
+HOLD — No new trades. Account status blind for 3 months. Cannot manage risk without API access. **Urgent manual action required: confirm SLB fill and current price vs -7% stop.** If SLB was filled near $57 and is now at $53.75, manual cut may be overdue. AI storage momentum (MU/SNDK) is interesting but no new entries without account visibility. Patience > activity.
