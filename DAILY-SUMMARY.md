@@ -20,3 +20,14 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-17 20:03 UTC (fallback — curl network error)
+EOD 2026-08-17 — BLOCKED
+Portfolio: N/A (Alpaca 403 — egress policy denial)
+Cash: N/A
+Trades today: none (API unreachable)
+Open positions: none confirmed (last known state: Day 0, $100k cash, 0 positions from 2026-05-13)
+ALERT: Both Alpaca + ClickUp still blocked by org egress policy — 3rd consecutive month.
+Action required: allow-list paper-api.alpaca.markets, data.alpaca.markets, api.clickup.com, api.perplexity.ai in this environment's network policy.
+Tomorrow: same — bot cannot function until allow-list is fixed.
