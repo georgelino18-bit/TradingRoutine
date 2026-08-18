@@ -204,3 +204,31 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-18 — Market-Open Execution Attempt
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked by cloud proxy (403 policy denial on paper-api.alpaca.markets)
+- Cash: UNKNOWN
+- Positions: UNKNOWN
+- Daytrade count: UNKNOWN
+
+### API Status
+- Alpaca paper API: BLOCKED (proxy 403 — connect_rejected, policy denial)
+- Perplexity API: BLOCKED (proxy 403)
+- ClickUp API: BLOCKED (proxy 403) — fallback written to DAILY-SUMMARY.md
+
+### Actions Taken
+- None — all external APIs inaccessible from cloud environment
+
+### Decision
+NO ACTION — cloud proxy blocks all three external APIs (Alpaca, Perplexity, ClickUp). No positions could be checked, no trades executed, no quotes retrieved. Manual intervention required.
+
+**Manual actions needed:**
+1. `bash scripts/alpaca.sh account` — check equity and daytrade count
+2. `bash scripts/alpaca.sh positions` — verify open positions and stops
+3. Review TRADE-LOG.md for pending SLB stop (order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`)
+4. Execute any planned trades per strategy rules
+5. Confirm IP allowlist for sandbox environment in Alpaca paper account settings

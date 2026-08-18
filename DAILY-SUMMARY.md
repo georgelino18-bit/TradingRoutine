@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-18 13:36 UTC (fallback — curl network error)
+🚨 MARKET-OPEN 2026-08-18 — API BLOCKED: Cloud proxy denies outbound access to paper-api.alpaca.markets and api.perplexity.ai (policy 403). No positions checked. No trades placed. Manual action required: check account, positions, and execute any planned trades directly.
