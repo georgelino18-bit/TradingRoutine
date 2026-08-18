@@ -204,3 +204,49 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-18 — Pre-market Research (WebSearch fallback — Perplexity + Alpaca APIs 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP not whitelisted)
+- Cash: ~$100,000 estimated (no confirmed positions since Day 0)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (estimated)
+- SLB position: UNCONFIRMED — May 15 market buy order (340sh) status unknown; cannot verify via API
+
+### Market Context
+- **WTI**: ~$85/bbl (+0.6%) — Trump rejected Iran ceasefire extension; fighting renewed in Lebanon; Hormuz threat revived
+- **Brent**: ~$91/bbl — up on geopolitical risk premium
+- **S&P 500 futures**: -0.41% premarket; 27% chance of higher open (prediction markets); bearish tone
+- **Nasdaq 100 futures**: -0.76%
+- **VIX**: 15.19 (hit 2026 low of 14.2 on Aug 16, now ticking up); strategists warn mid-Aug to mid-Oct historically stormy
+- **Key catalysts today**:
+  - Trump rejected Iran ceasefire extension → oil spike, Lebanon fighting escalated; Hormuz passage risk re-elevated
+  - **Home Depot (HD) Q2 2026 BMO 6:00 AM ET**: EPS est $4.71 (+0.6% YoY), Rev est $47.5B (+4.9% YoY); guidance intact; stock at $338.70 vs avg target $374
+  - Consumer sentiment fell to 51.0 (from 55.2 July) — weakening confidence
+  - July retail sales MISS + weak jobs data — consumer caution signal
+  - **FOMC meeting <1 week away**: PPI July hot (+0.7% vs +0.4% est, hottest since April); stagflation risk
+  - S&P 500 stuck below 50-DMA since July 23
+- **Sector momentum YTD**:
+  - Leaders: Energy +22.34%, Consumer Staples +15.97%, Materials +15.67%, Industrials +11.92%, Healthcare (flight-to-safety)
+  - Laggards: Tech -3.83%, Consumer Discretionary -4.62%, Financials -5.7%
+- **SLB update**: $53.68 (Aug 11); Q2 beat ($0.55 EPS vs $0.51 est, Rev $8.97B vs $8.67B est); 26 Buy / 2 Sell; avg target $61.97; next earnings Oct 16
+
+### Trade Ideas
+1. **SLB** (if confirmed no position) — Oil spike today (+0.6% WTI to $85, Brent $91) with Trump-Iran breakdown; SLB beat Q2, analyst consensus Buy, target $61.97 (+15.5% from $53.68). Entry: $53–55 on pullback from open spike; stop: 10% below entry (~$48–49); target: $61–65; R:R ~2:1. Size ≤20% (~$20k). **Energy sector YTD +22% momentum confirms sector alignment.** Must first confirm Alpaca position status.
+2. **XLE ETF** — Broad energy play on Iran-risk oil spike; sector leading YTD. Less single-stock binary risk vs SLB. Entry on open if oil holds above $84; stop 10%; target +15%. Simpler execution if API unlocks.
+3. **HD** — AVOID today; binary earnings BMO (beat or miss unknown). If beats and stock gaps up >3%, consider next session entry for housing/remodel cycle thesis. Do not chase on open.
+
+### Risk Factors
+- Alpaca API 403 continues — cannot place or verify any orders; ALL trade ideas are theoretical until resolved
+- SLB May 15 order status unconfirmed — could already be holding position with unmanaged stop
+- FOMC in <1 week; hot PPI = hawkish surprise risk
+- Consumer weakening (sentiment 51, retail miss) = growth slowdown
+- Oil spike on geopolitics can reverse suddenly (ceasefire deal could emerge)
+- S&P 500 below 50-DMA; tech sector -3.8% YTD drag; broad market heavy
+- VIX at multi-month low = complacency; correction risk elevated in Aug-Oct window
+
+### Decision
+**HOLD** — Alpaca API still inaccessible; cannot place or verify orders. SLB position status unknown — confirm via manual API check before any action. Energy thesis remains strongest (sector +22% YTD, oil $85–91 today). If API access restored, prioritize: (1) confirm SLB position/stop; (2) evaluate SLB add or XLE entry. No blind entries without position verification. Patience > activity.
