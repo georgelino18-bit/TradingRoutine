@@ -20,3 +20,11 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-18 17:05 UTC (fallback — ClickUp not configured)
+Midday scan 2026-08-18: Alpaca API blocked by proxy (403) — cannot read positions or place orders. Account state unknown since 2026-05-15. Manual verification required.
+
+---
+## 2026-08-18 17:06 UTC (fallback — curl network error)
+ALERT midday 2026-08-18: Alpaca API proxy-blocked (403) since May 2026 — 3 months no account access. SLB order from 2026-05-15 unconfirmed. Challenge effectively stalled. Manual IP allowlist resolution required.
