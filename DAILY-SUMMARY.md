@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-18 11:12 UTC (fallback — curl network error)
+Pre-market 2026-08-18: HOLD — Alpaca API 403, SLB position unconfirmed. Oil WTI 5 (+0.6%) Iran ceasefire rejected. SPX futures -0.41%. Energy +22% YTD leader. HD earnings BMO. FOMC <1wk, hot PPI. No trades until API access restored.
