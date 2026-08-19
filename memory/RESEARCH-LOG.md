@@ -204,3 +204,29 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-19 — Market-Open Execution (Automated Run)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP not whitelisted; persistent since May 2026)
+- Cash: Unknown (last known: ~$100,000 Day 0)
+- Positions: Unknown (SLB order from May-15 possibly ghost; never confirmed)
+- Daytrade count: Unknown
+
+### Market Context
+- APIs blocked: Alpaca 403, ClickUp 403 (cloud container IP not whitelisted)
+- Research unavailable without Perplexity/web fallback
+
+### Trade Ideas
+- NONE — cannot access account, positions, quotes, or place orders
+
+### Risk Factors
+- Ongoing IP restriction blocks all API access (3+ months unresolved)
+- SLB order from 2026-05-15 (340sh, ~$57 entry) status unknown — possible ghost position
+- Challenge window eroding — 0 trades executed since launch
+
+### Decision
+NO ACTION — Alpaca API 403 blocks all trading. CRITICAL: resolve IP allowlist immediately.
+Manual required: log into alpaca.markets → paper account settings → whitelist cloud container IP.
