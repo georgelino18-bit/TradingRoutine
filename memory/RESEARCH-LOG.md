@@ -204,3 +204,53 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-19 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, ongoing since 2026-05-13)
+- Cash: ~$100,000 estimated (Day 0 baseline; no trades confirmed placed)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- Positions: Unknown — SLB market buy (340sh) submitted 2026-05-15 was UNCONFIRMED (API blocked at submission); possible open position at ~$57 entry if order filled
+- CRITICAL: Manual IP allowlist fix required to restore API access
+
+### Market Context
+- WTI: ~$82.43/bbl (Aug 17); Brent: ~$91.52/bbl (Aug 19, +0.55%) — 4th consecutive up session; Hormuz 60-day ceasefire expired without resolution; supply disruption intact
+- S&P 500 futures: -0.18% premarket; Asian markets rout — KOSPI -5.5%, MSCI Asia Pacific -2%; semiconductor selloff deepening
+- VIX: ~15.84 close Aug 18 (+4.28% on day); 2026 low 14.2 hit Aug 15; complacency unwinding — historically choppy mid-Aug to mid-Oct
+- Today's catalysts:
+  - **FOMC Minutes 2:00 PM ET** — primary event; Fed language on rate path critical; hawkish surprise = sell growth/tech
+  - **TJX, TGT (Target), LOW (Lowe's), ADI (Analog Devices), EL (Estee Lauder)** earnings BMO — 38 total reports today; consumer health test
+  - Semiconductor selloff: Samsung -7%+, SK Hynix -7%+ tracking US semi weakness; contagion risk to NVDA, AMD, AMAT
+  - 60-day Hormuz ceasefire ended with no deal; bond yields + oil climbing globally — stagflation pressure persists
+  - Dow on track for 5th straight positive month; S&P + Nasdaq first positive month in 3 — rally stretched
+  - Home Depot (HD) Q2 results last week impressed (reported Aug 13); provides Dow support
+- Earnings BMO Aug 19: TJX Companies, Target, Lowe's, Analog Devices, Estee Lauder + 33 others
+- Economic calendar: FOMC Minutes 2 PM ET; UK CPI (foreign, not actionable); no major US data releases
+- Sector momentum YTD (as of July 31, 2026): Energy +32% (#1), Tech +31%, Transportation +26%, Capital Goods +25%, Materials +15%, Utilities +14%, Healthcare +13%, Financials +10%, Retail +4%, Services -1%, Consumer Discretionary -4% (worst)
+
+### SLB Position Monitor
+- SLB last close: $53.92 (Aug 17), up 40%+ YTD
+- Q2 2026: Revenue $8.97B (beat $8.67B est), EPS $0.55 (beat $0.51 est) — solid
+- Analyst consensus: 26 Buy / 2 Sell; fresh targets low-$60 range
+- **IF SLB was filled at ~$57 entry (unconfirmed May 15 order): unrealized ~-5.6% → approaching -7% cut rule**
+- Action needed: verify position via API or manually ASAP; place/confirm 10% trailing stop
+
+### Trade Ideas
+1. **SLB (position verification)** — Thesis intact (Hormuz + E&P capex cycle); Q2 beat; analyst targets $60s. IF position is open and stop is unplaced, this is URGENT. If at -7% from entry (~$53.00 stop), cut immediately per rules. Current $53.92 is above that level but narrow margin.
+2. **ADI (Analog Devices)** — Reports BMO today; AI/industrial semiconductor exposure; watch for strong guidance → gap-up entry opportunity. Stop 10% below reaction low, target +15%. Size ≤20%. Enter post-reaction only; do not front-run binary.
+3. **Energy sector (HAL / SLB adds)** — Hormuz unresolved + Brent $91 + Energy YTD #1 (+32%); oilfield services capex cycle structural. HAL alternative if SLB position is unclear. Requires API access to execute.
+
+### Risk Factors
+- **Alpaca API 403 — CRITICAL**: Cannot confirm SLB position, verify stops, or execute any trades
+- Semiconductor selloff deepening (Asia -5-7%); US chip names NVDA/AMD/AMAT vulnerable intraday
+- FOMC Minutes 2 PM — hawkish tone = bond yield spike = multiple compression for tech/growth
+- VIX rising from 2026 lows; seasonal chop Aug-Oct; don't chase longs into headwinds
+- Consumer Discretionary YTD worst; TGT/LOW miss risk real (if consumer stressed, retail misses)
+- Hormuz ceasefire failure = oil spike + stagflation; growth names suffer most
+
+### Decision
+HOLD / MONITOR — Primary blocker: Alpaca API inaccessible. Cannot confirm SLB position, place stops, or enter new trades. IF SLB is held, it is approaching -7% cut threshold and needs immediate verification. All new entries deferred until API access restored. Premarket weakness (semis -5-7% Asia, S&P futs -0.18%) + FOMC Minutes 2 PM + rising oil/bonds = defensive posture. Patience > activity. No new positions today.
