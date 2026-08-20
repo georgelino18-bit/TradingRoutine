@@ -204,3 +204,61 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-20 — Pre-market Research
+*(Perplexity 403 — all data via WebSearch fallback)*
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction persists since 2026-05-14)
+- Positions: 0 (last confirmed state: $100,000 cash, no positions)
+- Cash: ~$100,000 estimated
+- Daytrade count: Unknown (API inaccessible)
+- Open orders: Unknown (API inaccessible)
+
+### Market Context
+- **WTI:** ~$84–85/bbl (range 84.25–84.92 over trailing 30 days) — significant pullback from $101 Hormuz peak in May
+- **Brent:** $93.01 (+1.52% today) — premium spread vs WTI elevated
+- **S&P 500 futures:** +0.16% premarket — modest gain; SPX +16% YTD, near all-time highs
+- **VIX:** 15.81 (opened); 2026 low 14.18 hit Aug 15; 52-week high 35.30 on Mar 9 — low fear, complacent market
+- **Q2 2026 earnings:** +50.4% YoY blended growth (FactSet) — blockbuster season, AI primary driver
+
+### Today's Catalysts
+- **WMT BMO:** Q2 FY2027 results at 6 AM CDT. Est. EPS $0.73 (+7.4% YoY), rev $186.3B (+5%). Consumer health read; tariff pass-through test. Stock very extended.
+- **DE BMO 6:20 AM ET:** Est. EPS $4.71. Ag equipment demand + guidance key. Watch for guidance cut on farm income pressure.
+- **BABA BMO:** Est. EPS $2.12. China consumer + cloud segment.
+- **NTES BMO:** Est. EPS $1.65.
+- **Ross Stores (ROST) AMC:** Off-price retail read.
+- **Fed minutes:** FOMC minutes release this week — rate path guidance key.
+- **8:30 AM ET:** Weekly jobless claims + Philadelphia Fed Manufacturing Index.
+- **10:00 AM ET:** Conference Board Leading Economic Index (July).
+- **Jackson Hole:** Approaching (next week ~Aug 21–23) — positioning caution before Fed speak.
+
+### Sector Momentum (YTD)
+- **Leaders:** Industrials (XLI), Communications (XLC) — YTD leaders
+- **Recent (week):** Energy (XLE) +1.76%, Health Care (XLV) +1.60%, Consumer Staples (XLP) modest
+- **Lagging:** Technology cooling after AI-driven run; trailing broader market
+- **Energy thesis shift:** WTI now $84 vs $101 in May — Hormuz bid faded; energy sector weaker fundamental case
+
+### Trade Ideas
+1. **DE (Deere & Co.)** — Ag equipment cycle; if beat + strong guidance BMO → watch for gap-up entry. Entry only if R:R ≥2:1 from reaction level, stop 10% below gap-up low, target +15–20%. Size ≤20% (~$20k). WAIT for report to print — do NOT enter before.
+2. **XLI / Industrials play** — Sector leading YTD; AI capex driving industrial demand (power infrastructure, grid, data center construction). Research specific names: ETN, PWR, HUBB. Needs full diligence session — ideas only, no entry today.
+3. **WMT** — PASS. Revenue and EPS expectations modest; stock near all-time highs; tariff cost pass-through uncertainty; R:R poor at current levels. No entry.
+
+### Risk Factors
+- Alpaca API inaccessible — cannot place, verify, or manage orders until IP allowlist resolved (CRITICAL — no trading possible)
+- Jackson Hole next week — potential volatility around Fed Chair commentary; avoid new entries into a Fed catalyst
+- VIX at 15.81 / near 2026 lows = complacency; risk of volatility spike
+- WTI collapse from $101 to $84 — energy sector tailwind from Hormuz faded; reassess energy thesis
+- DE guidance risk — farm income under pressure; tariff uncertainty on ag exports; miss could gap down -5 to -10%
+- BABA China policy risk — regulatory overhang
+- S&P 500 +16% YTD at all-time highs — limited margin of safety for new longs at index level
+
+### Decision
+**HOLD — No new trades today.**
+- API inaccessible prevents any order execution; operational blocker remains
+- Jackson Hole approaching — patient stance correct
+- WTI at $84 undercuts energy thesis from May; sector momentum shifted to Industrials/Comms
+- DE is actionable ONLY post-report if gap-up + guidance beat + R:R ≥2:1 — monitor but do not pre-position
+- Priority: Resolve Alpaca API IP allowlist before next trade session
