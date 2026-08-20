@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-20 11:19 UTC (fallback — curl network error)
+Pre-market 2026-08-20: HOLD. VIX 15.81, SPX +0.16% futures, WTI 4 (Hormuz bid faded). WMT/DE/BABA BMO. Alpaca API 403 persists — no trades possible. Jackson Hole approaching.
