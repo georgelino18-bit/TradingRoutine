@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-20 17:05 UTC (fallback — curl network error)
+MIDDAY SCAN 2026-08-20: Alpaca API blocked by egress policy (403). Cannot read positions or place orders. Bot unable to execute midday workflow. Manual intervention required to enable paper-api.alpaca.markets in the environment network policy.
