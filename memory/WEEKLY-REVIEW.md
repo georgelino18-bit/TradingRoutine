@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-08-21
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | -1.40% (tech -3%+; utilities/industrials dragged) |
+| Bot vs S&P | +1.40% (cash preserved in down week) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca API 403 persists for ~14 consecutive weeks. No live account data. No trades placed. All portfolio values estimated at $100,000 cash (last confirmed May 13).*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades confirmed |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation: S&P -1.40%, tech -3%+ — flat portfolio outperformed meaningfully in a down week
+- Avoided tech/info-tech selloff (sector -3%+ this week) by being fully in cash
+- Discipline upheld: no forced trades, no impulse to redeploy without API access
+- Patience > activity rule observed for 14th consecutive week
+- S&P 500 Friday close at 7,681 (+0.53% day) — partial recovery noted; not chased
+
+### What Didn't Work
+- Alpaca API 403 persists unchanged — infrastructure failure now in week ~14 since inception
+- Perplexity API also blocked — research degraded to WebSearch again
+- Zero capital deployed across another week of viable market conditions
+- Tech selloff created short-sale opportunities that were unactionable without API access
+- Cumulative opportunity cost continues to compound with each week of zero execution
+
+### Key Lessons
+- Cash IS a valid position in a down week; +1.40% relative this week is not skill — it's default
+- Tech weakness (Amkor -15%, Credo -11% WoW) validates the rotation-away-from-semis thesis held since May
+- A 14-week API block is a platform failure, not a market problem — escalation required
+- S&P at 7,681 on Friday close: market has moved significantly since $100k baseline in May 2026
+- Without the ability to execute, research quality and strategy discipline are theoretical exercises only
+
+### Adjustments for Next Week
+- PRIORITY 1 (14 weeks unchanged): Resolve Alpaca IP allowlist — sandbox IP must be whitelisted
+- Avoid tech longs until sector stabilizes (Nasdaq tech -3%+ WoW; semi names under pressure)
+- Monitor S&P 7,681 level: if market continues lower, cash position benefits naturally
+- Utilities/industrials selling off too — energy/materials remain preferred re-entry sectors if API restores
+- If API restores: reassess SLB/HAL (energy services) thesis; WTI trajectory determines conviction
+
+### Overall Grade: D
+*Execution: F (API blocked week ~14). Discipline: A. Research: B (WebSearch fallback only). Cash outperformed S&P +1.40% this week but by structural default, not edge. Grade unchanged — same root cause, now in its 14th week. Infrastructure failure is the only constraint.*
