@@ -204,3 +204,49 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-21 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction; blocked since 2026-05-14)
+- Positions: 0 (last confirmed: Day 0 baseline, $100,000 cash)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- **CRITICAL: Cannot place or verify any orders until API access restored**
+
+### Market Context
+- **WTI:** ~$86.16 (Aug 20 close, +2.09% yesterday) | **Brent:** ~$94.00
+- **S&P 500 futures:** +0.25% premarket — recovering from Thursday's selloff; 65% probability of higher open (prediction markets); but conditional on yields/oil stabilizing
+- **VIX:** 16.03 (prev close 16.01); 1-month range 14.18–20.88; 52-week high 35.30 — low/normal, no panic
+- **10-yr Treasury:** 4.71% (elevated) | **30-yr:** 5.25% — persistent rate pressure
+- **Gold:** $4,540 (+0.5% today, +3.6% weekly) — safe-haven bid elevated; contradicts risk-on futures narrative
+- **Today's data:** S&P flash manufacturing + services PMI at 9:45 ET — key gauge of economic pulse
+- **Earnings today BMO:** BJ's Wholesale Club (BJ, EPS est $1.02), KE Holdings (BEKE) — not market movers
+- **NVDA Q2 FY2027 earnings:** August 26 AMC — est rev ~$92B, EPS ~$2.06; AI/data center demand; DO NOT enter before this binary
+- **Jackson Hole:** Aug 27–29 — Warsh's DEBUT keynote as Fed Chair Aug 28 morning; biggest macro risk of the month; gold surge signals market is already hedging hawkish surprise
+
+### Sector Momentum (August 2026)
+- Leaders: Healthcare (defensive, flight-to-safety), Materials, Financials (yield curve steepening)
+- S&P 500 YTD: +14.1% (as of early August)
+- Energy recovering on WTI rebound; still structural post-Hormuz
+
+### Trade Ideas
+1. **ENERGY (SLB/HAL/XOM)** — WTI $86 (+2.09% yesterday), structural Hormuz floor still present; SLB remains highest-conviction energy idea; entry only post-API restoration + confirmed momentum; stop 10% below entry; target +15%; R:R ~2:1 if entry ≤$55 on SLB. **DO NOT enter blind without API access.**
+2. **HEALTHCARE (LLY/UNH)** — Defensive momentum, sector showing strength in August; insulates against Warsh hawkish Jackson Hole surprise; entry if SPX holds flat/up post-PMI; stop 10%; target +15%. Queue for post-Jackson Hole clarity.
+3. **NVDA** — PASS. Earnings Aug 26 AMC = binary. Per strategy: no entry before known binary. If gap-up +5%+ on beat + raised guidance → enter Sept 1 open, stop 10% below reaction low. Do not chase into the print.
+
+### Risk Factors
+- Jackson Hole Aug 27–29: Warsh's first speech = massive unknown; hawkish surprise = rate spike + equity flush
+- NVDA Aug 26 AMC: binary; Nasdaq susceptible to flush if expectations overextended
+- Rising yields (10yr 4.71%, 30yr 5.25%): valuation headwind for growth stocks
+- Gold +3.6% weekly surge: smart money hedging risk-off; contradicts bullish futures drift
+- WTI recovery could stall; energy thesis needs confirmation above $90
+- **Alpaca API inaccessible:** ZERO trades can be placed or monitored — this is the #1 operational risk; 3 months unresolved
+
+### Decision
+**HOLD** — Two major binaries loom next week: NVDA (Aug 26 AMC) and Jackson Hole/Warsh debut (Aug 28 AM). Entering any position now takes binary risk on both. Gold surge signals caution behind the overnight futures bounce. API access remains blocked — cannot execute even if a setup emerged. No new trades until: (1) API access restored, (2) NVDA binary resolves Aug 26, (3) Jackson Hole Warsh tone confirmed Aug 28. Earliest credible entry window: Mon Aug 31 / Tue Sept 1. Patience > activity.
+
+**Action Required (manual):** Resolve Alpaca API 403 — whitelist this environment's IP in paper account settings at alpaca.markets. Without this, the bot is blind.
+
