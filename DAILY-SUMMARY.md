@@ -20,3 +20,13 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-21 21:12 UTC (fallback — curl network error)
+Week ending 2026-08-21
+Portfolio: $100,000 (0.00% week, 0.00% phase)
+vs S&P 500: -1.40% (cash +1.40% relative)
+Trades: 0 (W:0 / L:0 / open:0)
+Best: N/A  Worst: N/A
+One-line takeaway: API 403 block now week ~14; cash outperformed down week by default, not edge.
+Grade: D
