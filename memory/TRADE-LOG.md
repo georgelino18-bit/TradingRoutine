@@ -31,3 +31,28 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-08-21 — Midday Scan (12:00 ET)
+**Status:** BLOCKED — environment network policy denies all external financial API traffic
+
+### API Access
+- Alpaca: 403 (proxy policy denial on `paper-api.alpaca.markets:443`) — no positions/orders readable
+- ClickUp: 403 (same proxy block) — notification fallback to DAILY-SUMMARY.md
+
+### Actions Taken
+- None — cannot read positions, cannot execute trades, cannot confirm any order state
+
+### Last Known State (as of 2026-05-15)
+- SLB order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy) submitted — fill status unknown
+- Trailing stop for SLB: NOT confirmed placed (credentials were missing in prior sessions)
+- Cash: ~$100,000 estimated (no confirmed fills)
+
+### Root Cause
+Proxy at `127.0.0.1:38819` rejects CONNECT tunnel to `paper-api.alpaca.markets`. This environment's network policy must explicitly allowlist Alpaca and ClickUp domains before any trading workflow can function.
+
+### Manual Action Required
+1. Go to Claude Code on the web → Environment settings → Network policy
+2. Add `paper-api.alpaca.markets` and `api.clickup.com` to allowed domains
+3. Check Alpaca paper account manually: https://app.alpaca.markets/paper/portfolio/positions
+4. If SLB order filled: confirm fill price, place 10% trailing stop immediately
+5. Re-run midday scan after network policy updated
