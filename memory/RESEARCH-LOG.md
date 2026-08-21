@@ -204,3 +204,40 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-21 — Pre-market Research (market-open routine, WebSearch fallback — Alpaca + Perplexity + ClickUp APIs all blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API returning 403 (proxy restriction; persistent since May 2026)
+- Positions: UNKNOWN — cannot confirm SLB fill (340sh market buy order submitted 2026-05-15, order ID 6c529f05-19c5-4078-ba9d-9fb42bc7ee15; never confirmed)
+- Cash: UNKNOWN — estimated ~$100,000 if SLB fill failed; less if filled
+- Daytrade count: 0 (estimated)
+
+### Market Context
+- WTI / Brent: WTI ~$86.88, range $85.81–$88.07 today — Iran Hormuz tensions persist; 60-day MOU expired without successor deal; WTI down from May peak of ~$101; 1-mo implied vol 51%
+- S&P 500 futures: +0.08% pre-market; S&P +0.4%, Dow +0.5%, Nasdaq +0.5% at open; Polymarket 65% bullish for today
+- VIX: 16.01 — calm, low fear
+- 10-yr Treasury: 4.71%; 30-yr: 5.25% — yields elevated, bonds not confirming equity bounce
+- Today's catalysts: Trump "economic warfare" plan vs Iran; bitcoin soaring; no major earnings
+- Earnings before open: No large-cap movers noted
+- Economic calendar: No major prints today (Friday)
+- Sector momentum YTD: Energy XLE +32% (leader); XOM +29-31%; SLB was +34.5% YTD but -11.7% since US-Iran war escalation — oilfield services under pressure; LNG stocks biggest winners in energy; Financial Services also strong (GS, TRV)
+
+### Trade Ideas
+1. **NO NEW TRADES** — Alpaca API blocked; cannot check positions, equity, or place orders
+2. **SLB status CRITICAL** — May 15 order (340sh) unconfirmed for 3+ months; if filled, position may have trailed up then reversed -11.7%; trailing stop may or may not have triggered; MANUAL VERIFICATION REQUIRED
+3. **XOM** — +29-31% YTD, still energy leader; but was already at target in May; skip without fresh R:R
+4. **NESR** — Oilfield services, Q2 rev +59%, EPS +109% YoY, beat by 26%; Zacks Strong Buy; potential setup IF API accessible
+
+### Risk Factors
+- Alpaca/ClickUp/Perplexity APIs all blocked by proxy — no trading capability this session
+- SLB position status unknown for 3+ months — manual account check required
+- Iran US-Iran war ongoing; Hormuz disruption; WTI vol elevated (51% IV)
+- 10-yr at 4.71% = valuation headwind for growth
+- Warsh Fed era; next FOMC TBD
+- Friday = lower liquidity, wider spreads
+
+### Decision
+NO TRADE — API infrastructure blocked (403 proxy). Cannot verify account state, confirm SLB fill, or place orders. Manual intervention required: log into Alpaca paper dashboard directly, confirm SLB position, check trailing stop status. If SLB is open and down >7% from cost, cut manually per strategy rules.
