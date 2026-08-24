@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-24 11:21 UTC (fallback — curl network error)
+Pre-market 2026-08-24: HOLD. API 403 persists. NVDA earnings Wed + Warsh Jackson Hole Fri = binary week. VIX 15.8, WTI 5.65 falling on Iran sanctions. No new entries.
