@@ -204,3 +204,32 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-24 — Pre-market Research (market-open run)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API returning 403 (sandbox IP not whitelisted)
+- Cash: UNAVAILABLE
+- Buying power: UNAVAILABLE
+- Daytrade count: UNAVAILABLE
+- Open positions: UNKNOWN — last confirmed state: 0 positions (Day 0 baseline)
+- NOTE: Perplexity API also 403. ClickUp also 403. All external APIs blocked.
+
+### Market Context
+- ALL UNAVAILABLE — sandbox IP blocked on all API endpoints
+
+### Trade Ideas
+- NONE — cannot validate prices, account state, or catalysts without API access
+
+### Risk Factors
+- Sandbox IP not whitelisted on Alpaca paper account (403 persists since 2026-05-14)
+- Perplexity API blocked (same IP restriction)
+- ClickUp blocked (same IP restriction)
+- No account data; cannot confirm position count, equity, or weekly trade count
+- Cannot place, confirm, or verify any orders
+
+### Decision
+NO ACTION — all external APIs blocked (403). No trades placed. Manual intervention required.
+Action required: whitelist this sandbox IP in Alpaca paper account settings (and Perplexity / ClickUp if applicable).
