@@ -20,3 +20,12 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-24 — Midday Scan (fallback — curl network error)
+Midday 2026-08-24 — API BLOCKED
+Portfolio: UNKNOWN (Alpaca unreachable — CONNECT tunnel 403)
+Positions: UNKNOWN
+Actions: none — API inaccessible
+Status: 10+ weeks, zero trades, same block as May 14
+Action required: whitelist paper-api.alpaca.markets in environment network policy
