@@ -204,3 +204,54 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-24 — Pre-Market Research (WebSearch fallback — Alpaca/Perplexity both 403)
+
+### Account Snapshot
+- **Status: CRITICAL** — Alpaca API returning 403 for 3+ months (IP not whitelisted)
+- Equity: UNKNOWN — cannot retrieve
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed position fills)
+- SLB order (340sh, market buy, May 15): status UNKNOWN — order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` submitted but never confirmed due to persistent API block
+- Perplexity API: also 403 — used WebSearch fallback (noted per protocol)
+
+### Market Context
+- **WTI:** ~$85.65/bbl (-1.62%) | **Brent:** ~$93.09/bbl (-1.38%) — falling on imminent Iran sanctions details from Trump admin; oil well off Hormuz-panic highs of ~$101-110
+- **S&P 500 futures:** mixed/flat; ES slipped ~0.1-0.2%; Nasdaq-100 futures +0.3%; recent all-time high 7,814.88 (mid-Aug)
+- **VIX:** ~15.82 (range 15.08–15.88) — near 2026 lows; complacent market
+- **10Y Treasury:** ~4.74% (20-month high) — bond market tightening financial conditions
+- **Fed Funds Rate:** 3.50–3.75%; hold expected September FOMC; July CPI/PPI cooler than expected
+- **Key catalysts this week:**
+  - **NVDA earnings Wednesday after close** — biggest AI spending referendum of 2026; Jensen Huang comments on Rubin chip + China relationship; Nasdaq vulnerable to flush if miss
+  - **Fed Chair Warsh Jackson Hole keynote Friday** — first as chair; hawkish posture = growth/tech headwind
+  - **Iran sanctions (today)** — Trump admin announcing "toughest-ever" campaign; WTI weakness = energy sector headwind vs prior Hormuz thesis
+  - **US–Canada trade talks broke down** — tariff threats flaring; macro uncertainty
+  - **Alibaba -8% premarket** — HK share offering $10.2B for AI/infra; tech risk-off tone in Asia
+- **Earnings BMO today:** No major reports before open; 38 total today; NVDA is Wednesday
+- **Economic calendar today:** Light; week features PCE/CPI revision data + Jobs; main event = Jackson Hole Friday
+- **Sector momentum (YTD):** Materials +22% (leader); Energy strong mid-Aug (+6% wk); Consumer Staples, Industrials also leading — Tech/Comms/Discretionary/Financials in lagging quadrant per momentum rotation
+
+### Held Ticker: SLB
+- SLB ~$53.55 (Aug 20 close), up 38.68% YTD; Q2 beat $0.55 vs $0.51 est
+- Analyst avg target: $61.93–$63.47; 26 Buy / 2 Sell
+- Thesis intact (oilfield services, Energy sector strength) — BUT WTI now ~$86 (down from $101 thesis price); Iran sanctions = demand-side uncertainty
+- Ex-dividend: $0.295, ex-date Sept 2, 2026
+- **Cannot confirm if position exists** — API inaccessible
+
+### Trade Ideas
+1. **SLB (if position confirmed)** — Thesis degrading; WTI dropped from $101 to $86. If filled at ~$54 and still open, position is near breakeven. Monitor oil/Iran sanctions resolution. Hold if stop not triggered; if down -7% from fill, manual cut required. Cannot execute without API access.
+2. **NVDA (post-earnings)** — If Thursday gap-up on Wednesday beat → potential entry at open. AI capex cycle intact (Alibaba raising $10B for AI/infra = demand confirmation). Stop 10% below reaction low. Size ≤20% (~$20k). DO NOT enter before binary.
+3. **Energy sector re-eval** — WTI falling on Iran sanctions weakens oilfield services thesis. Wait for Iran headline resolution before adding energy exposure. XOM, HAL, SLB all affected.
+
+### Risk Factors
+- Alpaca API inaccessible — cannot place, monitor, or confirm any orders (**primary blocker**)
+- NVDA binary Wednesday — Nasdaq could flush -3 to -5% on miss; do not hold positions through
+- Warsh Jackson Hole Friday — hawkish surprise = rate shock; tech/growth sell-off
+- Iran sanctions = WTI demand uncertainty; energy thesis weakened
+- US–Canada tariff escalation — trade war risk broadening
+- 10Y at 4.74% = valuation headwind for growth stocks
+- VIX at 15.8 = complacency; crowded long positioning
+
+### Decision
+**HOLD / NO NEW ENTRIES** — Two major binary events (NVDA Wednesday, Warsh Friday) make this a wait-and-see week. API inaccessibility blocks any execution regardless. Cannot confirm SLB position status. Default: patience > activity. Monitor Wednesday NVDA reaction for potential Thursday entry if strong beat + guidance. Re-evaluate SLB thesis after Iran sanctions details + oil price stabilization.
