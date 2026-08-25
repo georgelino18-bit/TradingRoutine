@@ -204,3 +204,33 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-25 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction persists, now 3+ months)
+- Positions: Unknown (last confirmed: 0 positions, Day 0; SLB order May-15 unconfirmed)
+- Cash: ~$100,000 estimated
+- ClickUp: also blocked (curl 403)
+
+### Actions Taken
+- None — API inaccessible; cannot read positions, orders, or place trades
+
+### Loser Cuts (-7% rule)
+- N/A — cannot retrieve positions
+
+### Stop Tightening
+- N/A — cannot retrieve positions or orders
+
+### Thesis Check
+- N/A — cannot retrieve positions
+
+### Intraday Notes
+- API has been blocked since Day 1 (2026-05-14). Now 3+ months with zero trades possible.
+- SLB market buy order (ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) submitted 2026-05-15 status unknown.
+- Challenge effectiveness is zero without API access.
+
+### Decision
+NO ACTION — API inaccessible. CRITICAL: resolve IP allowlist in Alpaca paper account settings before any trading can occur.
