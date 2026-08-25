@@ -204,3 +204,50 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-25 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, same as all prior sessions)
+- Cash: ~$100,000 estimated (no confirmed positions since Day 0 baseline May 13)
+- Buying power: ~$100,000 estimated
+- Daytrade count: UNKNOWN
+- NOTE: SLB order 340sh (ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) submitted May 15 — fill status still unconfirmable. Treat as 0 positions pending API access.
+
+### Market Context
+- **WTI**: ~$85.40 (+0.4% early Aug 25) — recovering from Monday's -2.5% drop to $84.89 on Iran sanctions announcement
+- **Brent**: ~$92.40 (+0.3% early Aug 25) — recovering from Monday's -2.3% drop to $92.20
+- **Oil driver**: Trump admin expanded global secondary sanctions on Iran (announced Aug 24). Market views as economic pressure, not imminent supply disruption. Hormuz risk NOT priced as escalation today — WTI drifted to 1-week low before stabilizing.
+- **S&P 500 futures**: +0.12% premarket; 68% probability of higher open (prediction markets). Nasdaq 100 futures +0.37%, QQQ up ~1.0% intraday.
+- **VIX**: 15.13 close Aug 24 — 2026 low was 14.2 mid-August. Extremely low volatility; complacency risk ahead of NVDA binary tomorrow.
+- **Today's key releases** (relatively light day):
+  - S&P/Case-Shiller HPI June (9:00 ET)
+  - New Home Sales July (10:00 ET)
+  - Consumer Confidence August (10:00 ET)
+  - Richmond Fed Manufacturing August (10:00 ET)
+- **This week's macro landmines**:
+  - GDP Q2 2nd estimate (Thursday Aug 28)
+  - Initial Jobless Claims (Thursday Aug 28)
+  - PCE Price Index July (Friday Aug 29) — Fed's preferred inflation gauge; CPI last read 3.4% YoY July
+  - FOMC next meeting: September 16, 2026
+- **Sector momentum YTD**: Materials +22% (leader), Energy +~6% this week (recovering), Healthcare strong (flight-to-safety); Tech/XLK lagging YTD but Nasdaq positive today
+- **S&P 500 YTD**: +13%
+- **NVDA earnings**: TOMORROW Aug 26 after close — $5T market cap; EPS est +80% YoY; $1T order book 2026-27; analysts targeting $238 (+7%); entire AI/semis complex binary tomorrow
+
+### Trade Ideas
+1. **SLB/HAL (Energy services)** — WTI ~$85 pullback from $102 May high; Iran sanctions = sustained supply floor; sector up ~6% this week. IF API resolves, entry $35-38 range on SLB after confirming May order status first. Stop 10% below entry, target +15%. Size ≤20%. Catalyst: oil stabilization + Iran sanction sanctions structural. **Wait for API access first.**
+2. **XLE (Energy ETF)** — Broad sector play; safer than single names. If oil holds $85 support and Iran doesn't de-escalate, sector momentum trade. Entry on pullback confirmation. Stop 10%, target +15%. R:R ~2:1.
+3. **Post-NVDA reaction play (Aug 27)** — NVDA reports tomorrow. If strong beat + guide: enter NVDA or SMCI/AVGO sympathy names at open Aug 27 on gap-up. If miss: avoid tech entirely. DO NOT enter before binary.
+
+### Risk Factors
+- **NVDA binary tomorrow** — entire tech/AI complex moves on NVDA earnings; do not hold tech into close Aug 26
+- **Iran escalation risk** — economic sanctions now in place; military escalation would spike WTI +10%, crash growth stocks
+- **PCE Friday** — if PCE > 3.4% YoY, rate hike risk re-emerges; kills growth/rate-sensitive names
+- **Low VIX (15.13)** — complacency; any shock will amplify
+- **Alpaca API blocked (403)** — cannot place or verify orders; no active management possible
+- **May SLB order unresolved** — position status unknown; possible 340sh SLB on books unmonitored since May 15
+
+### Decision
+HOLD — Three blockers: (1) API still 403, orders impossible. (2) NVDA binary tomorrow — entire market pivots on it; no new tech entries. (3) PCE Friday macro risk. Best setups: post-NVDA reaction entry Aug 27 (if beat), and energy re-entry if oil holds $85 (next week). Patience > activity. Resolve API access before any trade.
