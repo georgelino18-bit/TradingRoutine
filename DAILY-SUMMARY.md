@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-25 13:37 UTC (fallback — curl network error)
+🚨 MARKET-OPEN 2026-08-25 — BLOCKED: Alpaca API (paper-api.alpaca.markets) remains blocked by environment proxy (403 policy denial). No account data, no positions, no trades possible. This has blocked every session since Day 1 (2026-05-14). Action required: allowlist paper-api.alpaca.markets and data.alpaca.markets in the remote execution environment network policy. Check claude.ai remote environment settings to update the network policy.
