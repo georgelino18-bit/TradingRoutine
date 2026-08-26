@@ -204,3 +204,36 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-26 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP not whitelisted; persistent since 2026-05-14)
+- Positions: Unknown (cannot query)
+- Cash: Unknown
+
+### Actions Taken
+- None — API inaccessible; cannot read positions, orders, or prices
+
+### Loser Cuts (-7% rule)
+- BLOCKED — Alpaca 403 prevents position query
+
+### Stop Tightening
+- BLOCKED — cannot query or cancel/replace orders
+
+### Thesis Check
+- BLOCKED — no price data accessible
+
+### Intraday Notes
+- Alpaca API: 403 on both positions and orders endpoints (IP allowlist issue)
+- ClickUp API: also 403 (tunnel blocked)
+- This blocker is **persistent** — no trades have ever been placed; account still at Day 0 baseline
+- **CRITICAL**: Manual action required to whitelist sandbox IP in Alpaca paper account settings
+  - Go to Alpaca paper trading dashboard → API → IP Allowlist
+  - Add current container egress IP
+  - Verify: `bash scripts/alpaca.sh positions` returns JSON, not 403
+
+### Decision
+NO ACTION — API inaccessible. Midday scan cannot be completed until Alpaca IP allowlist is resolved.
