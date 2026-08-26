@@ -204,3 +204,57 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-26 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, same sandbox issue since May)
+- Cash: UNKNOWN — baseline $100,000 if no SLB fill; estimated ~$83,600 if SLB 340sh filled ~$48
+- Positions: UNKNOWN — SLB order (340sh market buy, order ID 6c529f05) submitted 2026-05-15, never confirmed
+- Daytrade count: UNKNOWN
+- **Action required:** Alpaca IP whitelist still blocking all API calls
+
+### Market Context
+- **WTI / Brent:** WTI ~$80.78 (-1.92% today, -20% from May peak ~$101) — US pivoted to economic pressure on Iran; Hormuz escalation risk has materially eased; structural energy premium unwinding
+- **S&P 500 futures:** -0.1%; Nasdaq 100 futures -0.2% — cautious ahead of heavy data day (PCE + GDP + NVDA earnings)
+- **VIX:** ~15.13 (-5.5%) — at 2026 low range (14.18 YTD low); complacency signal heading into historically choppy September; 52-week high 35.30
+- **Today's major catalysts (HIGH IMPACT):**
+  - **Q2 GDP 2nd estimate** 8:30 AM ET: est 1.5% vs prior 2.1% — slowdown signal; below-consensus print = recession fear
+  - **Core PCE Deflator (July)** 8:30 AM ET — Fed's preferred inflation gauge; surprise hawkish = rate cut hopes crushed
+  - **Personal Income & Spending (July)** 8:30 AM ET
+  - **Durable Orders (July)** 8:30 AM ET
+  - **NVDA Q2 FY2027 earnings** AFTER CLOSE ~4:20 PM ET: EPS est $2.09 (+~100% YoY), Revenue est $92.2B (+97.4% YoY) — BINARY EVENT; 13-consecutive beats streak; guidance is the key
+  - **Fed Chair Warsh at Jackson Hole** FRIDAY — big macro catalyst pending; hawkish = selloff
+  - FOMC Member Barkin speaks 10:45 AM ET
+- **Earnings before open:** ~49 companies; major AMC: NVDA, Salesforce (CRM), CrowdStrike (CRWD), HP (HPQ), Synopsys (SNPS), Agilent (A), Williams-Sonoma (WSM), Okta (OKTA)
+- **Sector momentum YTD:**
+  - Leading: Materials +22% (#1), Consumer Staples, Industrials, Energy (6% this week alone)
+  - Improving: Real Estate, Utilities
+  - Lagging: Technology, Comm Services, Discretionary, Financials, Healthcare (weakening)
+
+### SLB Update (held/unknown position)
+- SLB current price: ~$53.29 (-1.31% today)
+- Q2 2026 beat: EPS $0.55 vs $0.51 est; analyst avg target $61.93–$63.47
+- YTD: +40%; Morgan Stanley Buy rating; BSP offshore contract awarded mid-August
+- **If SLB filled at ~$48 (May 2026):** unrealized gain ~+11%; 10% trailing stop should now be ~$47.96 (trailed from fill price); original thesis (oilfield services capex) intact despite WTI pullback to $80 — global drilling activity supporting
+- **Oil risk:** WTI at $80.78 (vs $101 thesis entry) — Iran war risk unwound; E&P capex could moderate; watch for guidance cuts. Not yet a thesis-breaker at $80 (still well above $60 break-even range for most E&P operators)
+
+### Trade Ideas
+1. **HOLD SLB (if filled)** — Q2 beat, analyst upgrades, +40% YTD. If stop properly trailed to ~$48, risk is managed. Do NOT add to position today — binary macro day.
+2. **NVDA — NO ENTRY pre-earnings** — Binary event tonight. Watch for post-earnings reaction tomorrow. If gap-up on beat + strong guidance → evaluate entry with 10% stop below reaction low. Caution: stock down for potential 5th consecutive post-earnings quarter (high expectations baked in at $92.2B revenue est).
+3. **Materials sector (XLB / NEM / NUE)** — #1 YTD sector at +22%; sector momentum rule favors this; needs specific catalyst + setup. Queue for research after NVDA binary resolves. Do not enter today on a binary data day.
+
+### Risk Factors
+- NVDA earnings tonight: entire Nasdaq susceptible to violent move either way; avoid new tech entries
+- GDP 2.1% → 1.5% revision: slowdown narrative; could hit cyclicals
+- Core PCE surprise hawkish: kills rate cut expectations; pressure on multiples
+- VIX at 15 = complacency; September historically choppy; mean reversion risk
+- Warsh Jackson Hole Friday: can reprice entire rate path; hold cash reserves
+- Alpaca API inaccessible: cannot verify SLB fill, cannot place/confirm stops — HIGH OPERATIONAL RISK
+- Oil thesis weakening: WTI $80.78 vs May's $101; structural Hormuz premium gone
+
+### Decision
+**HOLD** — Triple binary today: GDP/PCE data at open + NVDA after close + Warsh Friday. Account state unknown (API inaccessible). Even if SLB position exists and is profitable, adding risk into this data gauntlet violates patience > activity rule. Monitor NVDA reaction post-close for potential tomorrow entry if thesis confirms. No new trades until API access is restored and position state is verified.
+
