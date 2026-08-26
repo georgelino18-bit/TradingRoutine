@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-26 13:35 UTC (fallback — curl network error)
+MARKET-OPEN 2026-08-26 BLOCKED: Alpaca API returning 403 (IP not whitelisted). Cannot access account, positions, or place orders. Manual action required: whitelist sandbox IP in Alpaca paper account settings.

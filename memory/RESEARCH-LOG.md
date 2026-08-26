@@ -204,3 +204,23 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-26 — Market-Open Execution (Week 15)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API returning 403 (IP restriction, persistent since 2026-05-14)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed trades ever executed)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- Open positions: 0 confirmed (SLB order 6c529f05-19c5-4078-ba9d-9fb42bc7ee15 from 2026-05-15 still unconfirmed; assumed unfilled)
+
+### Status
+- **BLOCKED — Alpaca API 403 (IP not in allowlist)**
+- ClickUp API also 403 — notification logged to DAILY-SUMMARY.md fallback
+- No account data retrievable; no orders placeable
+- Week count this challenge: 15 weeks, 0 trades executed
+
+### Decision
+NO ACTION — API blocked. Manual resolution required: whitelist sandbox IP in Alpaca paper account settings.
