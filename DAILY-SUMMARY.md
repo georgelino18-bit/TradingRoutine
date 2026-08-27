@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-27 11:25 UTC (fallback — curl network error)
+2026-08-27 Pre-Market: NVDA massive beat (+106% rev YoY), SPX futs +0.35%, VIX 15.65, WTI 1.36 (-1%). Decision: HOLD — API 403 blocks execution; watch MRVL tonight, FCX/energy for next entry.
