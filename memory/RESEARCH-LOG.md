@@ -204,3 +204,59 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-27 — Pre-Market Research
+
+### Account Snapshot
+- **Status:** UNAVAILABLE — Alpaca API 403 (sandbox IP not whitelisted; persistent issue since 2026-05-14)
+- **Last confirmed state:** $100,000 cash, 0 positions, 0 open orders (Day 0 baseline)
+- **Perplexity:** Also 403 — all research via WebSearch fallback
+
+### Market Context
+| Indicator | Value | Change |
+|-----------|-------|--------|
+| WTI Crude | $81.36/bbl | -1.06% |
+| Brent Crude | $86.93/bbl | -1.03% |
+| S&P 500 Futures | +0.35% premarket | 71% chance higher open (Polymarket) |
+| VIX | ~15.65 open | Range 14.18–20.88 past 30d |
+| 10yr Treasury | 4.66% | ↑ (pressure on growth) |
+
+### Key Catalysts
+- **NVDA Q2 FY27 BEAT (after close Aug 26):** EPS $2.22 (+100%+ YoY), Revenue $96.2B (+106% YoY), gross margin 75%. AWS deal: 2M GPU purchase + Vera CPU. Massive beat — AI capex cycle confirmed.
+- **PCE Inflation (Aug 26):** Core +0.2% MoM — in line. Fed on hold for rest of 2026.
+- **GDP (Aug 26):** Released yesterday; no major surprise implied by futures.
+- **Earnings today:** DG, DLTR, BBY (pre-open); MRVL, ADSK, WDAY, ULTA, BURL, AFRM (after close).
+- **10yr at 4.66%:** Elevated yields still weigh on tech multiples.
+
+### Sector Momentum (YTD)
+| Sector | Status | YTD |
+|--------|--------|-----|
+| Materials (XLB) | LEADING | +22% |
+| Consumer Staples (XLP) | LEADING | strong |
+| Industrials (XLI) | LEADING | strong |
+| Energy (XLE) | LEADING | +6% last week |
+| Technology (XLK) | LAGGING | — |
+| Communications (XLC) | LAGGING | — |
+| Consumer Discretionary (XLY) | LAGGING | — |
+
+### Trade Ideas
+1. **Materials dip-buy (XLB / FCX)** — Sector leader at +22% YTD with clear momentum. FCX thesis: copper demand from AI infrastructure buildout + industrial re-shoring. Entry on any 2-3% pullback toward 50d MA. Stop: -7%. Target: +15-20%. R:R: ~2:1. Catalyst: AI infrastructure capex confirmed by NVDA/AWS deal drives copper demand.
+   - *Watch:* FCX 50d MA support; reject if copper breaks $4/lb floor.
+
+2. **Energy dip-buy (XLE / SLB)** — Energy leading sector last week (+6%). WTI down 1% today to $81 — potential dip entry if WTI holds $80 floor. SLB had a pending order from May (unknown fill status due to API block).
+   - *Watch:* WTI $80 floor; confirm before entry. Do not enter if WTI trends below $79.
+
+3. **MRVL post-earnings (tomorrow)** — Marvell reports after close today (Aug 27). AI infrastructure semi name. If beats like NVDA, gap-up play tomorrow AM. AVOID tech sector per rotation rule — only if sector rotation confirms AI semis as breakout sub-sector. Monitor after-hours reaction.
+
+### Risk Factors
+- Alpaca API 403 — **zero trade execution capability** until IP resolved
+- Tech is lagging sector — NVDA beat may be one-stock phenomenon, not sector confirmation
+- 10yr at 4.66% — growth multiple compression ongoing
+- WTI declining today — weakens energy thesis if sustained
+- No open positions — patience warranted; miss the gap, wait for next entry
+
+### Decision
+**HOLD** — API access remains blocked; no trades executable regardless of thesis quality. Even if access restored: wait for NVDA post-earnings dust to settle (stocks often give back initial gap), confirm WTI holds $80 before energy entry, and watch MRVL report tonight. Next actionable window: 2026-08-28 pre-market if API unlocked. Priority action: resolve Alpaca sandbox IP whitelist.
+
