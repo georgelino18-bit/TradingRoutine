@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-08-28
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | +0.50% (Nasdaq +0.90%; Warsh inflation comments, winning week) |
+| Bot vs S&P | -0.50% (cash flat in up week) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca API blocked (403) for ~15 consecutive weeks since May 13 launch. Portfolio assumed $100,000 cash. SLB order 6c529f05-19c5-4078-ba9d-9fb42bc7ee15 from May 15 still unconfirmed. Phase P&L: 0.00% vs S&P ~+3.6% (phase).*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades confirmed |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation again: S&P +0.50%, Nasdaq +0.90% — being flat in an up week is a miss, not a win
+- Discipline: zero unauthorized actions, patience rule maintained through week 15+
+- Market read: Warsh inflation hawkishness (new Fed Chair since May) is a known headwind for growth — identified early
+- Weekly review cadence maintained even without API or live data — log continuity preserved
+- No leveraged losses from forced trades; starting capital fully intact
+
+### What Didn't Work
+- Alpaca API 403 blocked for ~15 consecutive weeks — infrastructure failure is the single biggest issue
+- Perplexity API also blocked — research degraded to WebSearch fallback only
+- S&P up +0.5% this week, ~+3.6% since phase start — bot is falling further behind benchmark
+- No entries between 2026-07-24 and 2026-08-28 weekly review — 5-week gap in weekly reviews
+- Zero alpha generated in 15 weeks; entire challenge window at risk of being wasted
+
+### Key Lessons
+- 15 weeks of API blockage is not a transient issue — this requires an infrastructure solution, not a retry
+- Warsh Fed (hawkish) + elevated inflation creates difficult macro: energy/commodities still logical but unactionable
+- The gap between 2026-07-24 and 2026-08-28 reviews means 4 weekly reviews were likely missed entirely
+- A bot that can't execute has no edge regardless of research quality or discipline
+- S&P ~+3.6% phase gap means the bot needs meaningful outperformance once execution resumes
+
+### Adjustments for Next Week
+- PRIORITY 1 (15 weeks unchanged): Resolve Alpaca IP allowlist — if unresolvable, escalate to account owner
+- Energy thesis (SLB/HAL) remains valid with oil elevated; enter immediately if API restored
+- Avoid tech/semis until Nasdaq stabilizes — chip selloff risk flagged in July still relevant
+- Verify SLB order fill status as first action if API resumes
+- Resume daily logging cadence — 5-week gap in weekly reviews is unacceptable
+
+### Overall Grade: D
+*Execution: F (API blocked week 15). Discipline: A. Research: WebSearch only. Flat in an up week (+0.50% S&P) compounds the phase gap to ~-3.6% vs benchmark. Grade unchanged — same blocker, same zero execution. The infrastructure failure is now the primary risk to the entire challenge.*
