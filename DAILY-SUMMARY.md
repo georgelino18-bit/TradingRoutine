@@ -20,3 +20,13 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-28 21:10 UTC (fallback — curl network error)
+Week ending 2026-08-28
+Portfolio: $100,000 (0.00% week, 0.00% phase)
+vs S&P 500: -0.50% (S&P +0.50%)
+Trades: 0 (W:0 / L:0 / open:0)
+Best: N/A  Worst: N/A
+One-line takeaway: Alpaca API blocked week 15 — zero execution, phase gap now ~-3.6% vs S&P
+Grade: D
