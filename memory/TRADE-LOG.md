@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## Aug 28 — EOD Snapshot (Day 77, Friday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Alpaca API blocked again — proxy policy (403) denies CONNECT to paper-api.alpaca.markets:443 from this remote environment. ClickUp also unreachable via same proxy. This is Day 77 of the challenge with the same recurring network outage that has persisted since Day 1. Last confirmed state remains $100,000 cash, 0 confirmed positions (SLB order from 2026-05-15 still unconfirmed — possible ghost fill). No trades placed or confirmed today. Trades this week: 0. Challenge is effectively paused until egress policy is updated to allow paper-api.alpaca.markets and api.clickup.com.
