@@ -204,3 +204,48 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-28 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (IP restriction, unchanged since May)
+- Positions: UNKNOWN — estimated 0 (SLB order from 2026-05-15 status unconfirmed; stop placement never confirmed)
+- Cash: UNKNOWN — estimated ~$100,000 (Day 0 baseline)
+- Daytrade count: UNKNOWN
+- **ACTION REQUIRED:** Alpaca IP whitelist still blocking all API calls. Manual check needed.
+
+### Market Context
+- **WTI:** ~$83.10/bbl (-0.51%) | **Brent:** ~$88.22/bbl (-0.34%) — down from May's ~$101 Hormuz spike; structural bid remains but stockpile drawdowns ongoing
+- **S&P 500 futures:** -0.12% premarket — slightly bearish open; Nasdaq 100 -0.1% (NVDA post-earnings enthusiasm faded, MRVL drag)
+- **VIX:** ~15.81 — calm; 2026 low was 14.2 on Aug 14; no fear signal
+- **Key today:**
+  - Fed Chair Warsh speaking at **Jackson Hole** — major rates/dollar catalyst; hawkish surprise = whipsaw risk
+  - **Chicago PMI** 9:45 ET | **U of M Consumer Sentiment Final** 10:00 ET — sentiment fell ~8% in August, weakest in months; short/long-run business conditions sank 11-17%
+  - **NVDA Q2 FY2027 (reported Aug 26 after close):** Revenue $96.2B (+106% YoY), EPS $2.22 — massive beat; guided $108B next quarter (vs $104.2B est) — no China data center sales included; initial AH spike partially faded
+  - **CRM (Salesforce, reported Aug 26 AH):** Revenue $11.35B (+10.8% YoY); EPS $5.90 vs $3.27 est (80% beat); raised FY27 EPS guide to $16.69 from $14.09; expanded Anthropic "Claudeforce" partnership; +18.9% in session
+  - **MRVL (reported Aug 27 AH):** Revenue $2.74B (+beat), EPS $0.94 (+beat); raised Q3 guide to $3.15B; BUT margin concerns sent shares -7% extended
+- **Sector momentum (YTD leaders):** Materials (+22%), Energy, Healthcare, Industrials, Consumer Staples | Lagging: Tech, Comm, Discretionary, Financials
+- **Hormuz:** 8-15 vessel transits/day vs pre-war 130-140; Iran won't reopen until US meets conditions (sanctions relief + war reparations); IEA warning on stockpile depletion; escalation risk into Q4
+
+### Positions of Note
+- **SLB** (pending confirmation): Order for 340sh market buy submitted 2026-05-15; fill + stop placement unconfirmed due to persistent API block. SLB ~$53.78 (Aug 14); +41% YTD; analyst avg target $61.93 (+15% from $53.78). Energy sector strong.
+- All other positions: none confirmed
+
+### Trade Ideas
+1. **SLB (confirm first)** — If the May-15 buy filled, SLB is our live position. Energy momentum intact (+6% wk of Aug 13). Analyst target $61.93 implies ~15% upside from ~$53.78. Hormuz structural bid ongoing. Confirm fill + ensure 10% trailing stop is live before any new entry.
+2. **CRM** — Massive beat + Anthropic partnership = structural catalyst. Trading +18.9% in session; likely gapping ~$300+ area today. Entering after an 18.9% gap is chasing. PASS unless intraday pullback offers entry with R:R ≥2:1 and sector alignment.
+3. **NVDA** — Beat + $108B guide = fundamentally intact. But Nasdaq futures weak on MRVL drag. If NVDA dips to reaction support (watch $210 area) and holds — potential add. Not a chase at open. Monitor.
+
+### Risk Factors
+- Warsh Jackson Hole speech — hawkish surprise (rate hike bias) would hammer growth stocks, NVDA, CRM
+- Consumer sentiment -8% in August — demand caution; discretionary and growth at risk
+- MRVL -7% after-hours — could drag semis and AI names at open
+- Hormuz unresolved — Iran conditions (sanctions + reparations) = no near-term reopening; oil stuck elevated
+- Alpaca API down — cannot confirm SLB position, stops, or buying power
+- S&P futures mildly red — risk-off lean into Warsh speech
+
+### Decision
+**HOLD** — Cannot trade without account visibility. Warsh Jackson Hole is a binary event for rate path; wait for speech to clear before any new entries. SLB confirmation is priority #1 (manual Alpaca login required). If confirmed filled + stopped properly, no action needed on SLB. CRM and NVDA are post-earnings gap plays — not entering at open after 18-19% moves. Patience > activity.
+
