@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-28 11:23 UTC (fallback — curl network error)
+2026-08-28 pre-market: HOLD. VIX 15.8, S&P fut -0.12%. NVDA beat (6.2B rev, +106% YoY, 08B guide). CRM +19% (Anthropic deal). MRVL -7%. Warsh Jackson Hole = binary. Alpaca API still 403 — SLB position unconfirmed. Patience.
