@@ -31,3 +31,21 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-08-31 — Market-Open Run (Automated)
+**Status:** BLOCKED — Egress proxy denying all outbound connections
+
+- Alpaca API: 403 (paper-api.alpaca.markets blocked by org policy)
+- ClickUp API: 403 (same egress proxy block)
+- Perplexity API: untested (assumed blocked)
+- Trades placed: 0
+- No research log entry for 2026-08-31 (cannot fetch without Perplexity)
+- Last known state: Day 0 baseline $100,000 cash / 0 confirmed positions
+  (SLB 340sh order from 2026-05-15 status unknown — never confirmed)
+
+**Manual action required:**
+1. Whitelist current sandbox IP in Alpaca paper account settings
+2. Run `bash scripts/alpaca.sh positions` to confirm SLB fill status from May
+3. If SLB is open and no trailing stop: place stop immediately (see 2026-05-15 entry)
+4. Run pre-market research for 2026-08-31 and update RESEARCH-LOG.md
+5. Execute any planned trades manually or re-run market-open after IP whitelisted
