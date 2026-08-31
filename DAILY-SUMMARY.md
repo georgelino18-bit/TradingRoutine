@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-08-31 11:24 UTC (fallback — curl network error)
+2026-08-31 pre-market: US-Iran strikes +oil to 0 Brent; Warsh Sept hike odds 57.5%; HOLD — API blocked, SLB position status unknown
