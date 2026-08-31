@@ -204,3 +204,47 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-08-31 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (org proxy blocks paper-api.alpaca.markets)
+- Cash: ~$100,000 estimated (no confirmed fills since Day 0 baseline)
+- Buying power: ~$100,000 estimated
+- Daytrade count: unknown
+- **CRITICAL:** SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, submitted 2026-05-15) — status UNCONFIRMED for 3.5 months. Cannot verify position or stop without API access.
+
+### Market Context
+- **WTI:** ~$85.51 (+2.53% premarket) | **Brent:** ~$90.43 (+3–5%) — US struck Iranian rocket launchers near Strait of Hormuz overnight; Iran retaliated on US bases in Jordan and UAE; first active exchange in ~1 month
+- **S&P 500 futures:** -0.1% (4 AM ET); Polymarket 36% chance of green open; bearish lean on geopolitical + Fed shock
+- **VIX:** 14.43 (Aug 28 close, 2026 YTD low of 14.13); expect spike today on Iran escalation
+- **Today's catalysts:**
+  - US-Iran military exchange: US struck Larak Island/Strait of Hormuz rocket launchers; Iran hit Jordan/UAE US bases — oil structural floor reinforced; Hormuz closure risk elevated
+  - Warsh Jackson Hole (Aug 28): "work to do" on inflation; hawkish reading; September rate hike odds jumped to 57.5% (from 35.4% prior day); puts Warsh at odds with Trump rate-cut demand
+  - Apple: John Ternus begins as new CEO this week; pre-fall product cycle
+  - NFP week: August nonfarm payrolls likely Friday Sept 4; no major releases today
+- **Earnings today:** No major names before open; small caps only (AIJTY, BANL, CISS, GDEV, INTJ, JGH, JMM)
+- **Economic calendar:** No high-impact releases Aug 31; NFP ~Sept 4; next FOMC September (rate hike increasingly priced)
+- **Sector momentum YTD:**
+  - Leader: Energy (XLE +32% YTD — US-Iran geopolitical bid; WTI/Brent surge)
+  - Strong: Industrials, Technology, Communications
+  - Weak: Utilities, Staples, Discretionary, REITs
+  - Energy surged 7.6% mid-August and re-surging today on oil shock
+
+### Trade Ideas
+1. **XOM / CVX / OXY (energy majors)** — WTI $85.51, Brent $90.43, Hormuz risk elevated; XLE +32% YTD; sector momentum strongest in market. XOM ~$158.44. Entry only possible if API access restored; risk: rate-hike fears weigh on broader market even as oil benefits E&P. If API restored → evaluate XOM entry: stop 10% below ($142.60), target +15% ($182.20), R:R ~1.5:1 — borderline. CVX or OXY may offer better R:R from lower base.
+2. **SLB / HAL (oilfield services)** — Same Hormuz thesis as May; oil above $85 = E&P capex structural. SLB order unconfirmed from May. If API restored and SLB unconfirmed → treat as 0 shares; re-evaluate entry with fresh stop placement.
+3. **Defensive energy (cash)** — Warsh Sept rate hike 57.5% = headwind for growth/tech; rate-sensitive sectors suffer. Energy + cash is appropriate posture today. No new longs in tech until rate trajectory clearer.
+
+### Risk Factors
+- US-Iran escalation could widen (Hormuz closure = major supply shock)
+- Warsh September rate hike now >50% — growth stocks, REITs, bonds all under pressure
+- Alpaca API inaccessible — cannot place stops, verify positions, or enter new trades
+- NFP week — strong labor data reinforces Warsh hike; weak data = mixed signal
+- Apple CEO transition uncertainty; no major tech catalyst today
+- SLB position status unknown — could have unmanaged open position with no stop for 3.5 months
+
+### Decision
+HOLD — Cannot trade (API blocked). Even if access restored, geopolitical + rate hike double-shock demands caution on entry timing. Energy sector remains highest-conviction thesis (XLE +32% YTD, Hormuz structural). **Action required:** Restore Alpaca API access to (1) verify SLB fill status, (2) place stop if filled, (3) assess portfolio vs $100k baseline. Patience > activity.
