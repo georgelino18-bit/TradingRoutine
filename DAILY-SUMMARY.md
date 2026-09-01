@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-01 11:28 UTC (fallback — curl network error)
+2026-09-01 pre-market: HOLD — Hormuz tanker attack overnight, oil +0.9% (WTI 6.57/Brent 1.28), S&P futs -0.3%, VIX 14.57 complacent. Alpaca API blocked — SLB position/stop UNVERIFIED since May 2026. API access fix URGENT.
