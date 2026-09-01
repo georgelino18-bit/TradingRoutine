@@ -204,3 +204,70 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-01 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked by egress proxy (connect_rejected; same restriction as May 2026)
+- Cash: ~$100,000 estimated baseline (no confirmed trades ever executed)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (estimated)
+- **CRITICAL:** SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, submitted 2026-05-15) — status UNKNOWN for 3.5 months; manual verification required immediately
+
+### Market Context
+- WTI: ~$86.57/bbl (+0.94%) — Hormuz tanker attack overnight
+- Brent: ~$91.28/bbl (+0.87%)
+- S&P 500 futures: -0.27% to -0.5% premarket — Hormuz escalation, elevated bond yields
+- VIX: ~14.57 (range 14.13–14.84); YTD low touched Aug 28 at ~14.13 — market complacent despite geopolitical risk
+- US-Iran: Saudi + South Korean tankers struck by projectiles overnight in Hormuz; Iran attacked 2 US bases in Jordan; June 2026 MOU ceasefire broke down July 2026; conflict ongoing
+- S&P 500 YTD: +12.8% through Aug 28; August +3.0%; September historically worst month seasonally
+
+### Economic Calendar Today
+- 10:00 AM ET: ISM Manufacturing PMI, JOLTS, Construction data
+- 10:30 AM ET: Dallas Fed Texas Retail Outlook
+- This week: ADP (Sep 2), ISM Services + Initial Claims (Sep 3), NFP (Sep 4)
+
+### Earnings
+- PANW (Palo Alto Networks) — possibly today, timing unconfirmed
+- DELL (Dell Technologies) — possibly today, timing unconfirmed
+- No major BMO confirmed; next SLB earnings Oct 16, 2026
+
+### Sector Momentum YTD 2026
+| Sector | ETF | YTD | Status |
+|--------|-----|-----|--------|
+| Energy | XLE | +32% | LEADING |
+| Materials | XLB | +22% | LEADING |
+| Industrials | XLI | — | LEADING |
+| Consumer Staples | XLP | — | LEADING |
+| Technology | XLK | — | LAGGING |
+| Comm Services | XLC | — | LAGGING |
+| Consumer Disc | XLY | — | LAGGING |
+| Financials | XLF | — | LAGGING |
+| Healthcare | XLV | — | WEAKENING |
+| Real Estate | XLRE | — | IMPROVING |
+| Utilities | XLU | — | IMPROVING |
+
+### SLB Update (last known position)
+- Price: ~$59.90 (+4.22% today on Hormuz + oil spike)
+- Ex-dividend Sep 2 ($0.295/sh) — do NOT enter new position today
+- Q2 2026 beat; Kelvion acquisition ($4.1B, data center cooling) adds AI capex angle
+- If position exists from May 2026 fill: roughly flat to slightly down depending on actual fill price
+
+### Trade Ideas
+1. **SLB (existing)** — If position confirmed, it is valid HOLD: energy leading sector, Hormuz structural bid, ex-div tomorrow captures $0.295. Stop status unknown — verify and tighten to 7% if at +15%.
+2. **XOM / CVX** — Top XLE names. Energy +32% YTD, structural Hormuz bid ongoing. Cannot place orders (API blocked). Queue for /market-open once API restored. Entry only at clean R:R ≥2:1 with proper stop.
+3. **FCX (Materials)** — Materials sector +22% YTD, LEADING. If tariff/trade environment still favorable and price has pulled back from May highs, worth re-evaluating entry. Needs fresh chart review.
+
+### Risk Factors
+- Hormuz escalation spike → oil +$5–10 possible; stagflation amplifier kills growth stocks
+- September seasonal headwind — historically worst month for S&P 500
+- Bond yields elevated; hawkish Warsh Fed (next FOMC Sept 16-17); growth stock compression
+- Alpaca API blocked — cannot verify SLB stop order, position size, or place any orders
+- SLB ex-dividend tomorrow (Sep 2) — no new entry today
+- VIX ~14.57 (complacent) vs. active Hormuz attacks = potential volatility spike risk
+- PANW/DELL binary events today (if reporting AMC)
+
+### Decision
+**HOLD** — Energy thesis intact (XLE +32% YTD, oil bid on Hormuz), but API blockage prevents position verification or new orders. September seasonal headwind. SLB ex-div tomorrow. VIX appears complacent relative to geopolitical risk level — potential for sharp volatility spike. No new trades until API access confirmed. Priority: restore Alpaca API access (IP whitelist or environment config fix).
