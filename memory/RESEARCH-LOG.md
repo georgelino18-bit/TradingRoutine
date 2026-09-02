@@ -204,3 +204,30 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-02 — Pre-market Research (Market-Open Session)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (sandbox proxy policy blocking paper-api.alpaca.markets)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed trades since inception)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (no trades placed)
+- NOTE: ClickUp and Perplexity also blocked (same host restriction). All external APIs inaccessible.
+
+### Market Context
+- All external data unavailable — proxy blocks outbound connections to financial APIs
+- Last known state (2026-07-24 weekly review): 0 positions, $100k cash, 0 trades in 10 weeks
+
+### Trade Ideas
+- NONE — cannot access live data, cannot validate setups, cannot place orders
+
+### Risk Factors
+- CRITICAL: Sandbox proxy policy has blocked paper-api.alpaca.markets since at least 2026-05-14
+- No trades executed in ~16 weeks; challenge window at risk
+- Manual intervention required: whitelist paper-api.alpaca.markets in Claude Code remote environment
+
+### Decision
+HOLD — API blocked. No trades possible. Same blocker as every prior session.
+Action required: Resolve proxy whitelist before next session.
