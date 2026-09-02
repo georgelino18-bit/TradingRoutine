@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-02 11:20 UTC (fallback — curl network error)
+2026-09-02 pre-market: HOLD — Energy +42% YTD, WTI ~$91 Iran/Hormuz spike, VIX 16.81 risk-off. AVGO/SNOW AMC tonight. Alpaca API STILL 403 BLOCKED since Day 1 — critical, no trades possible.
