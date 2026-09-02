@@ -204,3 +204,49 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-02 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (egress proxy blocked; same as all prior sessions)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed positions or trades placed)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (estimated)
+- Open positions: 0 (last confirmed)
+- Open orders: 0 (last confirmed — SLB 340sh market buy from 2026-05-15 status unknown; cannot verify)
+- NOTE: Perplexity API also 403 blocked. All research via WebSearch fallback.
+
+### Market Context
+- WTI: ~$91/bbl (elevated; +5.9% prior session swing on Iran escalation) | Brent: ~$94.86/bbl (+0.23% today, +40% YoY)
+- S&P 500 futures: ESU26 -0.28% premarket; Dow fell 400+ pts last session — risk-off tone
+- VIX: 16.81 (+2.88%) — ticking up; recent range 14.13–18.43; not panic but elevated vs recent lows
+- Today's catalysts:
+  - Iran/Hormuz: US struck Iranian rocket launchers on Larak Island; reopening negotiations collapsed — tankers at risk; sustained oil bid
+  - Rising bond yields squeezing tech/growth valuations
+  - ADP August Nonfarm Employment (time TBD) — jobs data ahead of Friday NFP
+  - July Factory Orders (today)
+  - Fed Beige Book (~2pm ET)
+  - Hut 8 (HUT) +4% premarket on Anthropic/Lambda Texas data center deal
+- Earnings before open: BMO list unconfirmed (~33 total today); no confirmed major large-cap BMO names
+- Earnings after close tonight: AVGO, SNOW, HPE, NTAP, DELL — heavy semis/tech slate; potential Nasdaq volatility tomorrow
+- Economic calendar: ADP jobs today; CPI/PPI/NFP later in September; next FOMC October 2026
+- Sector momentum YTD: Energy +42% (dominant), Materials +15.86%, Health Care +14% (strongest 3-month), Tech/Discretionary/Comm negative or lagging
+
+### Trade Ideas
+1. **Energy pullback entry (SLB / HAL / MPC)** — Energy +42% YTD structural leader; Hormuz closure extends oil bid; but do NOT chase gap-up on today's Iran news spike. Wait for intraday pullback to prior support; entry only on confirmed hold with stop 7–10% below, target 2:1 R:R. Size ≤20%.
+2. **Health Care (XLV / defensive names)** — Strongest 3-month sector momentum (+14%); risk-off rotation defensive; rising yields hurt growth but benefit value/defensives. Research specific catalyst names in next session.
+3. **AVGO post-earnings reaction (tomorrow)** — AVGO reports tonight AMC. If gap-up on strong AI networking demand guidance, enter next morning on confirmation, stop 10% below reaction low, target +15%, R:R ≥2:1. DO NOT trade binary tonight.
+
+### Risk Factors
+- Alpaca API inaccessible — cannot verify account state, confirm fills, or place any orders (critical blocker)
+- Iran/Hormuz escalation binary — surprise ceasefire = energy gap-down; escalation = risk-off spike
+- Rising bond yields — structural headwind for growth/tech; watch 10-yr carefully
+- VIX 16.81 and rising — not the day to add new positions at full size
+- AVGO/SNOW/DELL/HPE all report tonight AMC — Nasdaq/semis volatile tomorrow morning; don't enter tech pre-earnings
+- SLB buy order from 2026-05-15 status unknown — may or may not have filled; no stop confirmed
+
+### Decision
+HOLD — Alpaca API inaccessible (cannot verify positions or place orders). Macro risk-off (Iran escalation, rising yields, VIX ticking up). Energy already extended on today's spike — chasing is against rules. Monitor AVGO post-earnings reaction for potential entry tomorrow. No new trades until API access is restored.
+**URGENT: Alpaca API has been blocked since Day 1 (2026-05-14). This must be resolved to operate the trading bot.**
