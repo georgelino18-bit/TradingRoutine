@@ -20,3 +20,12 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-03 20:01 UTC (fallback — curl network error)
+EOD 2026-09-03 — API BLOCKED
+Alpaca API returning 403 (proxy policy blocks paper-api.alpaca.markets).
+No live account data available.
+Last known state: 00,000 cash, 0 positions (pre-launch Day 0).
+SLB order submitted 2026-05-15 (unconfirmed fill — API unavailable that day too).
+Action required: whitelist sandbox egress IP on Alpaca paper account OR access from allowed IP.
