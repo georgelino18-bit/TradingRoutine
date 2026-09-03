@@ -204,3 +204,55 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-03 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (network policy blocks paper-api.alpaca.markets)
+- Cash: Unknown — last confirmed $100,000 (Day 0 baseline May 13)
+- Buying power: Unknown
+- Daytrade count: Unknown
+- CRITICAL: SLB 340sh market buy submitted May 15 — fill UNCONFIRMED; no trailing stop placed; status unknown for 3.5 months
+
+### Market Context
+- WTI / Brent: WTI ~$74/bbl | Brent ~$92–95/bbl — significant decline from May peak ($101/$110); US-Iran ceasefire talks drove ~20% oil pullback in late May; Hormuz partially reopening
+- S&P 500 futures: -0.05% premarket; slightly negative; Benzinga prediction market shows 41% higher-open probability; DJIA closed +0.6% Wed at 53,061; Nasdaq 26,217 (+0.5%)
+- VIX: 16.81 (+2.88% early Sep 3) — prev close 16.34; moderate, slight uptick on Middle East strikes
+- Today's catalysts:
+  - US struck Iran targets Aug 31 — renewed skirmishes, ceasefire talks still active; binary energy supply risk
+  - CIEN Q3 BMO 7:00 ET: Revenue $1.67B (+37% YoY) — major AI networking beat; EPS ~$1.72
+  - LULU Q2 AMC tonight: EPS est $1.82 | Rev est $2.46B; CEO transition ongoing; stock ~$120 (down from highs)
+  - NFP **tomorrow Sep 4 8:30 ET** — ADP weak today; major binary risk for rate path
+  - PCE 4.1% (June) — persistent inflation; stagflation concern
+  - FOMC Sep 15-16: 60% market probability of 25bps HIKE (Warsh era, hawkish)
+  - JOLTs Job Openings + Factory Orders + Fed Beige Book today (Sep 3)
+- Earnings before Sep 3 open: CIEN (beat +37% revenue), ~47 total reports today
+- Economic calendar: JOLTs + Factory Orders + Beige Book today; **NFP Sep 4 8:30 ET**; FOMC Sep 15-16
+- Sector momentum YTD: Energy +32.1% (leader) | Tech +30.7% | Transportation +26.3% | Materials +22% | Consumer Discretionary -4.3% (worst)
+
+### SLB Update (open position — UNCONFIRMED)
+- Current price: $57.15 (down 4.91% today — ex-dividend $0.295 Sep 2 explains ~$0.30 of decline)
+- Q2 2026: Revenue $8.97B (+5% YoY, +3% QoQ); Kelvion acquisition $3.4B for AI data center thermal management (expected close H1 2027)
+- Analysts: Buy consensus, PT range $62–66
+- If filled May 15 at ~$50–55: unrealized gain +$2.15 to +$7.15/share (~$730–2,430 on 340sh)
+- URGENT: No trailing stop placed (API was blocked May 15); stop is 3.5 months overdue
+
+### Trade Ideas
+1. **CIEN** — AI networking beat this morning (+37% rev YoY); entry on open price confirmation; stop 10% below entry; target +15–20% (~$1.67B rev + accelerating AI capex cycle); R:R ~2:1. Size ≤20%. Tech sector +30.7% YTD momentum. NOTE: do not chase gap-up; wait for clean open print.
+2. **SLB** — IF position confirmed: urgently tighten trailing stop. At $57.15, approaching analyst target $62–66. Kelvion pivot to AI data centers diversifies from pure oil. Energy sector still #1 YTD. Hold through FOMC unless stop triggers.
+3. **HOLD FCX / XOM** — both ran past original targets (missed in May); no new setups at current levels.
+
+### Risk Factors
+- FOMC Sep 15-16: 60% rate HIKE — hawkish headwind for all equities; particularly kills tech/growth
+- NFP Sep 4 tomorrow: ADP weak; surprise downside = growth scare; could accelerate hike expectations
+- Persistent inflation PCE 4.1% — stagflation risk; compresses multiples
+- Middle East: US strikes Iran Aug 31; ceasefire talks ongoing but binary; oil spike possible if breaks down
+- Alpaca API still blocked — cannot confirm position, place stop, or trade; 3.5 months of unprotected exposure
+- September seasonal weakness pattern for US equities
+- LULU binary tonight (AMC) — avoid new consumer discretionary exposure
+
+### Decision
+**HOLD** — Two major binary events in next 48h: NFP tomorrow + FOMC Sep 15-16. API access still blocked (cannot trade or confirm positions regardless). CIEN setup is highest-conviction near-term idea — defer entry to post-NFP Friday or Monday if strength holds. SLB status remains critical unknown; IP allowlist resolution is the #1 blocker.
+**NOTE (WebSearch fallback):** Perplexity API blocked same as Alpaca (403 network policy). All data sourced from WebSearch.
