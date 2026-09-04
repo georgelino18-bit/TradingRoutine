@@ -20,3 +20,17 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-04 21:07 UTC (fallback — curl network error)
+API test
+
+---
+## 2026-09-04 21:08 UTC (fallback — curl network error)
+Week ending Sep 04
+Portfolio: $100,000 (0.00% week, 0.00% phase — API blocked wk 17)
+vs S&P 500: N/A (Perplexity blocked)
+Trades: 0 (W:0 / L:0 / open:0)
+Best: N/A  Worst: N/A
+One-line takeaway: 17 weeks, 0 trades — egress proxy blocking all APIs; environment change required
+Grade: D
