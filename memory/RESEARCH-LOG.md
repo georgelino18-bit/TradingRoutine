@@ -204,3 +204,59 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-04 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked by proxy)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy policy blocks paper-api.alpaca.markets)
+- Cash: Unknown — last confirmed state was Day 0 ($100,000) or potential SLB position from May 2026
+- Buying power: Unknown
+- Daytrade count: Unknown
+- Open positions: Unverified — SLB 340sh market buy was submitted 2026-05-15 (order ID 6c529f05); never confirmed due to persistent API blockage
+- NOTE: All account data UNAVAILABLE for 3.5 months — manual verification required
+
+### Market Context
+- WTI: ~$74 | Brent: ~$95.23 (down 0.31% from prior day) — elevated but off Hormuz highs; energy sector remains structurally bid
+- S&P 500 futures: +0.06% at 7,759.75 — recovering after 3 straight sessions of losses as oil prices and bond yields retreated
+- VIX: ~14.32 (closed Sept 3) / range 14.13–18.43 over past 30 days — LOW, no panic
+- S&P 500 YTD: +12.8% through Sept 3; up 3.0% in August
+- Today's catalysts:
+  - **August NFP (jobs report) at 8:30 ET** — PRIMARY catalyst today; determines Fed rate expectations for Sept 16 FOMC
+  - Fed Governor Waller: supports holding rates steady if inflation continues to ease
+  - FOMC meeting: Sept 15-16 — rate decision imminent; market pricing hike/hold based on today's data
+  - PPI: Sept 10 | CPI: Sept 11 | FOMC decision: Sept 16
+- Earnings before open: No major market-moving reports identified for Sept 4
+- Economic calendar: NFP 8:30 ET today — only major release; rest of month stacked (PPI/CPI/FOMC)
+- Sector momentum YTD:
+  - **LEADING:** Energy (+strong), Materials (+22%), Industrials, Consumer Staples
+  - **LAGGING:** Technology, Communications, Consumer Discretionary, Financials
+  - **IMPROVING:** Real Estate, Utilities | **WEAKENING:** Healthcare
+
+### SLB Specific Update
+- Ex-dividend: $0.295 ex-date Sept 2, 2026 (already passed)
+- Kelvion acquisition ($3.4B, closes H1 2027): expands AI data center thermal mgmt — positive long-term
+- Analyst consensus: Buy maintained (Barclays, TipRanks); price target trimmed to $62 (TipRanks Sept 1)
+- Thesis still intact: energy sector leading, AI data center pivot, oilfield services demand
+
+### Trade Ideas
+1. **WAIT — NFP reaction** — Do NOT enter any new position on NFP day before 8:30 ET print. Binary event. Strong NFP (>200k, unemployment steady) → Fed hawkish → yields up → equities pressure. Weak NFP → rate cut Sept 16 priced in → growth/tech rally. Read the print first.
+2. **SLB (if no position)** — Post-NFP Monday entry if: price > $58 with momentum, stop -10%, target ~$67 (Kelvins + energy momentum thesis). R:R viable only below $60. Do not chase near $62 analyst target.
+3. **FCX / NEM (Materials sector)** — Materials leading YTD +22%; FCX copper plays on inflation + stimulus; NEM gold plays on rate cut scenario. Size ≤20% each. Entry after NFP clarity, not today.
+
+### Risk Factors
+- **NFP binary today (8:30 ET)** — do not trade before the number; violent move in either direction possible
+- Alpaca API remains inaccessible — cannot verify SLB position, stops, or account state; CRITICAL ongoing issue
+- FOMC Sept 16 — 12 days away; hawkish surprise would pressure all positions
+- Oil price retracement ($95 Brent from $110 peak) — energy thesis softening; monitor
+- September historically weakest month for equities
+- SLB price target trimmed to $62 — limited upside if thesis fully priced
+
+### Decision
+**HOLD — NFP binary event at 8:30 ET. No new entries today.** 
+- Cannot verify existing positions or stops (API blocked) — manual intervention required
+- Post-NFP Monday (Sept 7 is Labor Day — market CLOSED): first opportunity Tuesday Sept 8 if reaction favorable
+- Patience > activity. Let NFP print confirm direction before any new exposure.
+- CRITICAL: Owner must manually verify Alpaca account state, confirm SLB fill/stop status, and resolve API access issue.
+
