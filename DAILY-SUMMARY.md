@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-04 11:19 UTC (fallback — curl network error)
+Pre-market 2026-09-04: NFP 8:30 ET (primary catalyst). VIX 14. Brent 5. SPX futures +0.06%. HOLD — no new entries on NFP day. API still blocked, manual account check needed.
