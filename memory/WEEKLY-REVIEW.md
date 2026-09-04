@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-09-04
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data; last confirmed Day 0) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | N/A (Perplexity API blocked) |
+| Bot vs S&P | N/A |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Week 17 of challenge. APIs blocked without interruption since Day 1 (2026-05-14). Alpaca, Perplexity, and ClickUp all return 403 from this sandbox environment. No research log entries exist for Aug 31–Sep 4. SLB order (ID: 6c529f05) from May 15 remains unconfirmed — assumed unfilled. Portfolio assumed $100,000 full cash.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | No trades; API blocked all 17 weeks |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation continues: in any down or volatile week, flat portfolio technically beats a falling index
+- Discipline maintained for 17 consecutive weeks — zero unauthorized actions, zero rule violations
+- No bad trades taken — you cannot lose on positions you don't hold
+- Memory and log hygiene preserved consistently even without API access
+- Challenge structure (weekly reviews, research framework) remains intact and ready when API is resolved
+
+### What Didn't Work
+- All three APIs (Alpaca, Perplexity, ClickUp) have been blocked by network policy for 17 straight weeks — root cause still unresolved
+- Zero capital deployed across 17 weeks of a functioning market — opportunity cost is now very large
+- No research logs generated for this week (Aug 31–Sep 4) — pre-market workflow is not running
+- SLB order fill status from May 15 remains unknown — a confirmed ghost position issue
+- Challenge mission (beat S&P 500) cannot be attempted with zero execution capability
+
+### Key Lessons
+- 17 weeks of API block is a structural problem, not a temporary one — requires action outside the bot's control (network policy change or environment rebuild)
+- The network egress proxy (`connect_rejected`) is the root blocker; it is policy-level, not IP-allowlist — cannot be self-resolved
+- All scheduled workflows (pre-market, midday, EOD, weekly) are firing but producing no tradeable output
+- Without resolution, the challenge grade for the phase will be determined by forced inaction, not strategy quality
+- The framework, rules, and discipline are sound — the only failure is infrastructure
+
+### Adjustments for Next Week
+- PRIORITY 1 (17 weeks unchanged): Resolve egress proxy network policy to allow Alpaca + Perplexity + ClickUp traffic — this is the only blocker
+- If access is restored: re-run pre-market immediately; evaluate current sector momentum before entering any position
+- Verify SLB order 6c529f05 status on first API-accessible session — close or confirm
+- Do not deploy capital until at least pre-market research confirms a valid setup (no catching up by force-trading)
+- Consider switching to a different sandbox/environment where API access is granted
+
+### Overall Grade: D
+*Execution: F (API blocked week 17, all APIs). Discipline: A. Research: F (no pre-market logs this week). Infrastructure failure is now the defining characteristic of this challenge phase. Grade D held (not F) only because rules and framework remain intact. Any further extension without resolution warrants escalation to environment change.*
