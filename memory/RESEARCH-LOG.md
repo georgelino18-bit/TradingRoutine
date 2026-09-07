@@ -204,3 +204,59 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-07 — Pre-Market Research (Labor Day — US Markets CLOSED)
+
+### Account Snapshot
+- **CRITICAL:** Alpaca API blocked by egress proxy (policy denial) — no live data
+- Estimated state: ~$100,000 cash, 0 positions (no confirmed trades since Day 0)
+- SLB order (340sh, market buy) submitted 2026-05-15 — fill status UNCONFIRMED (API blocked since)
+- Perplexity API also blocked — WebSearch fallback used (noted per protocol)
+
+### Market Context
+- **Today:** Labor Day — US stock, bond markets CLOSED
+- **Brent crude:** ~$97.39/bbl (+1.15%) — surging on US-Iran tanker strikes over weekend
+- **WTI:** ~$91-92/bbl (Sept 4 close); est. ~$93+ today given Brent move
+- **S&P 500 futures (ESU26):** ~7,722–7,750; +0.12% as of last session (three straight loss sessions prior)
+- **VIX:** ~14.24–14.52 (low volatility regime; contained)
+- **Geopolitical driver:** US struck 3 Iranian oil tankers over weekend; Iran retaliated vs. US warships with ballistic missiles — energy supply disruption risk elevated
+
+### Macro Calendar (Week of Sept 8)
+- **FOMC quiet period:** Started Sept 5 through Sept 17 — no Fed speak
+- **Next FOMC:** Sept 15–16 (rate decision Sept 16 2:00 PM ET)
+- **PPI:** Thursday Sept 10 (before open)
+- **CPI:** Friday Sept 11 (before open) — high-impact, direct FOMC input
+- No major earnings today (market closed)
+
+### Sector Momentum (YTD through Sept 4)
+- **Leading:** Materials (+22%), Consumer Staples, Industrials, Energy — commodity/defensive rotation
+- **Lagging:** Technology, Communications, Consumer Discretionary, Financials
+- **Improving:** Real Estate, Utilities
+- Key shift: Tech/growth underperforming; defensive + commodity sectors dominant
+
+### Trade Ideas
+1. **Energy names (SLB, HAL, OXF)** — US-Iran conflict pushes WTI/Brent structurally higher; E&P capex acceleration; Energy sector Leading YTD. Wait for confirmed SLB position status Tuesday. If SLB not filled: re-evaluate entry at Tuesday open, stop 10% below entry, target +15-20%, R:R ≥2:1.
+2. **Materials play (FCX or MLM)** — Materials leading sector YTD (+22%); Iran conflict + infrastructure bill = copper/aggregates demand. FCX previously passed at $67 (near 52-wk high); re-evaluate Tuesday for reset level with R:R ≥2:1.
+3. **Defensive: XLV / healthcare stock** — Surprising leadership YTD; flight-to-safety with Iran risk elevated; identify individual name Tuesday.
+
+### Risk Factors
+- **Iran escalation** — oil shock could tip into stagflation; growth stocks crushed
+- **CPI Sept 11** — hot print = hawkish FOMC Sept 16 = market selloff risk
+- **FOMC Sept 16** — rate decision with Iran/oil backdrop is binary
+- **Alpaca API blocked** — cannot confirm SLB fill or place stops; MANUAL ACTION REQUIRED
+- **SLB unconfirmed** — if filled without stop, position is exposed; highest priority to resolve Tuesday
+
+### Decision
+**HOLD / MONITOR** — Markets closed today. Priority Tuesday:
+1. Confirm SLB fill via alpaca.sh positions
+2. If filled: place 10% trailing stop immediately
+3. Research defensive healthcare name as potential 2nd position
+4. Watch CPI/PPI data week for entry timing
+5. Do NOT add new positions until SLB status confirmed
+
+### Data Sources
+- WebSearch fallback (Perplexity API blocked by egress proxy)
+- CNBC, MacroRadar, Westmount Fundamentals, Kiplinger, Forbes Advisor
+
