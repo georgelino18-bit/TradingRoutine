@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-07 11:18 UTC (fallback — curl network error)
+Pre-market 2026-09-07 [LABOR DAY — CLOSED]: Brent 7 (+1.15%) US-Iran tanker strikes; VIX 14.4 calm; CPI Fri 9/11; FOMC 9/16. SLB fill UNCONFIRMED — APIs blocked. HOLD. Resolve Alpaca access Tue.
