@@ -204,3 +204,52 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-08 — Pre-Market Research
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API 403 (egress proxy blocks paper-api.alpaca.markets; persistent issue since May 2026)
+- **Positions:** Unknown — last confirmed state Day 0: $100,000 cash, 0 positions (May 2026)
+- **Cash:** ~$100,000 estimated
+- **Buying Power:** ~$100,000 estimated
+- **Daytrade Count:** Unknown
+- **Note:** SLB 340-share market buy order (ID `6c529f05`) was submitted 2026-05-15 pre-market but never confirmed due to API block. Status unknown.
+
+### Market Context (WebSearch fallback — Perplexity API also blocked)
+- **WTI:** ~$92.37/bbl (−0.17% day-over-day) | Hormuz tensions persisting
+- **Brent:** ~$97.29/bbl (prior close; +1.05%) | Middle East geopolitical risk remains structural bid
+- **S&P 500 Futures (ESU26):** 7,714 (+0.49% premarket) — positive tone; market recovering from overnight losses as oil retreat eases bond yields
+- **VIX:** ~15.23 (+4.82% intraday) — low/normal; 52-week range 13.38–35.30; no panic signal
+- **Key Macro Events This Week:**
+  - PPI: Sep 10
+  - CPI: Sep 11
+  - FOMC Decision: Sep 16
+  - Earnings largely over (NVDA already reported); 28 earnings reports today, light calendar
+- **BMO Earnings Today:** Casey's General Stores (CASY) — not relevant to strategy
+- **September Seasonal:** Historically the weakest month for S&P 500 (negative more often than not since 1928); caution warranted
+- **Sector Momentum YTD 2026:**
+  - Leaders: Materials (+22%), Industrials, Energy, Healthcare (defensive/flight-to-safety)
+  - Lagging: Technology, Communications, Consumer Discretionary, Financials
+  - Improving: Real Estate, Utilities
+
+### Held Ticker News: SLB / HAL (if position exists)
+- **SLB:** ~$57.45 (−4.41% recently); Buy ratings from RBC Capital (Sep 3) and Barclays (Sep 2); Piper Sandler raised PT from $59→$64 (Overweight, Jul 27); SLB acquiring Kelvion (data center thermal/heat exchange) — strategic pivot adds AI infrastructure angle; market cap ~$85B
+- **HAL:** ~$36.89; Q1 2026 beat estimates by 10%; Q3 2026 net income $534M on revenue $5.71B (9.4% net margin)
+- **Energy sector:** Oil at $92 WTI — down from ~$101 peak in May but Hormuz structural bid remains; oilfield services holding up reasonably
+
+### Trade Ideas
+1. **SLB (status unknown — order may or may not be filled)** — If SLB 340sh fill confirmed, current price ~$57.45 puts unrealized P&L near flat vs May entry (~$56–58 range). Analysts bullish (PT $64). Catalyst: AI data center thermal acquisition broadens thesis beyond pure oilfield. Hold with 10% trailing stop if filled. If not filled, re-evaluate entry: $57.45 entry → stop $51.71 (10%), target $66 (+15%) = R:R ~1.5:1 — marginal. WAIT for better setup or dip.
+2. **Materials sector play (e.g., FCX, NUE, CF)** — Materials YTD +22%, leading sector, inflation hedge. FCX last seen near 52-week high in May ($67); if pulled back to better R:R, re-evaluate. No entry without confirmed pricing.
+3. **Industrials (e.g., GE Aerospace, ETN, PWR)** — Supported by AI infrastructure capex, defense, energy buildout. Sector momentum strong. Research needed before any entry.
+
+### Risk Factors
+- September seasonality: historically weakest month; reduce aggression
+- CPI (Sep 11) + FOMC (Sep 16): macro binary risk; avoid entering new positions into these events
+- Oil declining from May highs ($101→$92): energy sector tailwind weakening; SLB/HAL thesis depends on sustained oil above $85
+- API access remains completely blocked (both Alpaca and Perplexity blocked by egress proxy) — cannot confirm positions, place stops, or verify fills; CRITICAL operational risk
+- VIX low (15) but ticking up (+4.8%) — watch for Sept/macro-driven spike
+
+### Decision
+**HOLD / NO NEW TRADES** — Cannot confirm positions or place orders due to persistent API block. CPI (Sep 11) and FOMC (Sep 16) are 3–8 days out; new entries into macro binaries violate patience rule. September seasonal weakness. Default: HOLD. Resolve API access issue before any trading activity.
