@@ -204,3 +204,67 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-09 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (org egress policy blocks paper-api.alpaca.markets)
+- Cash: ~$100,000 estimated (Day 0 baseline; no fills ever confirmed)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- Open positions: UNCONFIRMED — SLB 340sh market buy submitted 2026-05-15 (order ID 6c529f05); fill status unknown; API access required to verify
+- Open orders: UNCONFIRMED — 10% trailing stop submitted May 15; execution unverifiable
+
+### Market Context
+- WTI: ~$92.69 open → $94.24 (+3.01%) Sep 8; approaching $100 after Houthi attack on Saudi Aramco Jazan refinery (400K bbl/day); WTI up 6 consecutive days (longest streak since March)
+- Brent: ~$96.85–$99.85 Sep 8–9; supply shock structural
+- S&P 500 futures: -0.32% premarket (~7,655 last); oil near $100 pressuring sentiment; US-Iran fighting ongoing
+- VIX: ~14.15–16.34 (Sep range 13.80–16.82) — low/moderate fear; not alarming
+- 10-yr Treasury yield: 4.818% — highest since Nov 2023; rising yields headwind for growth/tech
+- Today's catalysts (Sep 9):
+  - No major economic releases today
+  - Houthi attack on Jazan refinery (Saudi Aramco) — crack spread expansion thesis; US refiners benefit
+  - FOMC quiet period active since Sep 5 (meeting Sep 15–16); no Fed speakers this week
+  - SLB acquired Kelvion (AI thermal management) from Apollo for $3.4B — pivots SLB into AI data center infrastructure
+  - 10-yr yield at 4.818% weighing on market; oil supply shock adds stagflation risk
+- Earnings before open Sep 9: SUNB, COO (~33 total); no major large-cap movers
+- Economic calendar: Sep 9 — nothing major | Sep 10 — PPI | Sep 11 — CPI (KEY) | Sep 15–16 — FOMC (rate decision + SEP projections)
+- Sector momentum YTD: **Materials +22% (leader)** | Consumer Staples, Industrials, Energy also leading | Tech (XLK), Comm (XLC), Discretionary (XLY), Financials (XLF) lagging | Healthcare weakening | XLRE/XLU improving
+
+### Trade Ideas
+1. **SLB** — Monitor/Manage open position (if filled at ~$49–55 range in May, currently $57.10; original target $63–$71 still valid)
+   - Catalyst: WTI +6 days / Houthi Jazan attack reinforces oilfield services demand thesis; Kelvion AI data center pivot adds growth layer; Buy from RBC (Sep 2) + Barclays (Sep 1)
+   - Current price: $57.10 (+1.26% yesterday); ex-div $0.295 passed Sep 2
+   - If filled ~$49: unrealized +16.5% → tighten trail stop from 10% → 7% per strategy rules
+   - If position not open: R:R at $57.10 entry (stop $53, target $65) = ~1.5:1 — BELOW 2:1 min; skip new entry until pullback to $52–53
+   - Next earnings: Oct 16, 2026
+
+2. **MPC (Marathon Petroleum)** — Houthi attack on Jazan refinery → US crack spreads widen → US refiners primary beneficiary
+   - Catalyst: Saudi Aramco refinery output disrupted; US refining margin expansion structural; Energy sector momentum intact; WTI approaching $100
+   - Entry: ~10% pullback from prior high OR confirm premarket open direction; need current price (was ~$252 in May)
+   - Stop: 7% below entry
+   - Target: 2:1 R:R minimum
+   - Decision: QUEUE — monitor open reaction; only enter post-FOMC/CPI if price action confirms
+
+3. **NUE (Nucor)** — Materials sector #1 YTD (+22%); AI infrastructure buildout + defense capex + domestic steel demand
+   - Catalyst: AI data center/infrastructure buildout accelerating (SLB Kelvion deal confirms trend); reshoring + tariff environment favors domestic steel; Industrials/Materials momentum sustained
+   - Entry: On pullback to key support; need current price
+   - Stop: 7% below entry
+   - Target: 2:1 R:R minimum
+   - Decision: RESEARCH further before entry; no chase into extended moves
+
+### Risk Factors
+- CPI Friday Sep 11 — if hot, rate hike expectations spike → equities selloff; biggest event this week
+- FOMC Sep 15–16 with updated SEP projections — binary for market direction; hawkish surprise = significant correction
+- 10-yr at 4.818% = growth/tech headwind; compresses P/E multiples; stagflation risk if CPI hot + oil $100
+- Oil near $100 = consumer spending drag + potential GDP revision lower
+- US-Iran escalation binary — if Strait of Hormuz blockade expands, oil spikes but growth falls
+- Alpaca API blocked (403) — PERSISTENT issue; cannot verify SLB fill, cannot place any new orders or confirm stops; **manual verification required**
+
+### Decision
+**HOLD** — Cannot execute (API blocked). Even if access restored: CPI Friday + FOMC next week make new entries high risk. Default HOLD. Priority actions:
+1. Manually verify SLB fill status and stop order in Alpaca dashboard
+2. If SLB is open at +15%+, tighten trail stop to 7% immediately
+3. Queue MPC (refining crack spread play) and NUE (Materials) for post-FOMC/CPI entry if setups confirm
