@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-09 11:17 UTC (fallback — curl network error)
+Pre-market 2026-09-09: WTI 4+ (Houthi Jazan attack, up 6 days); S&P futures -0.32%; VIX ~16; 10yr 4.818%; HOLD — CPI Fri + FOMC Sep15-16; SLB 7.10 needs manual fill verification (API blocked)
