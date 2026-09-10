@@ -204,3 +204,50 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-10 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (org egress proxy blocking paper-api.alpaca.markets; ongoing since May 2026)
+- Cash: UNKNOWN — last confirmed $100,000 (2026-05-13 Day 0)
+- Positions: UNKNOWN — SLB market buy (340sh) submitted 2026-05-15, fill/stop status unconfirmed; ~4-month data gap
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- ⚠️ CRITICAL: Account state completely dark for ~4 months. Manual login required to verify positions, fills, and stop orders.
+
+### Market Context (WebSearch fallback — partial data only; several queries failed)
+- WTI / Brent: Retreating (direction confirmed; exact price unavailable — search errors)
+- S&P 500 futures: ESU26 ~7,659.25, +0.49%; recovered from overnight lows; crude oil retreat pushed bond yields lower
+- VIX: UNAVAILABLE — search errors
+- Today's catalysts:
+  - **CPI inflation report** — releasing today (TheStreet: "Dow futures edge higher ahead of inflation reports"); market positioning for soft print
+  - **Earnings today** — Oracle (ORCL), Adobe (ADBE), Macy's (M) among 38 total reports
+  - Oil retreat = bond yield relief = growth/tech tailwind premarket
+- Economic calendar: CPI data today (time unknown); FOMC calendar unknown
+- Sector momentum: UNAVAILABLE — search errors; last known May 2026: Energy, Materials, Semis leading
+
+### Trade Ideas
+- No actionable ideas without account verification
+- If account shows $100k cash, 0 positions (SLB order expired/unfilled):
+  1. **ORCL** — AI cloud cycle intact; watch post-earnings reaction today. If beat + guidance raise → gap-up entry, stop 10% below reaction low, target +15%. Size ≤20%.
+  2. **ADBE** — AI creative tools (Firefly); same binary play. Enter post-reaction only if confirms gap-up with volume.
+  3. **Energy/Oil services** — Oil retreating today; not a setup day for energy longs. Monitor for washout bottom.
+- If SLB is still open: verify stop order immediately; tighten to 7% if +15%, 5% if +20%.
+
+### Risk Factors
+- Account state unknown — cannot size or place trades safely without API access
+- CPI hot print = yield spike = tech selloff risk
+- Oil retreat reduces energy thesis conviction
+- 4-month data gap: account may have hit stops, taken gains, or drifted significantly from baseline
+- SLB position fate unknown — may be stopped out or require stop adjustment
+
+### Decision
+**HOLD** — Cannot trade without account visibility. Alpaca API blocked for 4+ months is unacceptable for live management. Manual account verification required before any trade. Default: patience > activity.
+
+**ACTION REQUIRED (manual):**
+1. Log into Alpaca paper account at alpaca.markets and check positions, equity, open orders
+2. Update TRADE-LOG.md with current state
+3. If SLB open: verify trailing stop GTC order exists; tighten if up ≥15%
+4. Whitelist this environment's egress IP in Alpaca paper settings
