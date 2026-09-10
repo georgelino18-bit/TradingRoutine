@@ -204,3 +204,27 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-10 — Market-Open Execution Attempt
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy policy denial: `paper-api.alpaca.markets:443`)
+- Cash: UNKNOWN (last confirmed ~$100,000 as of 2026-05-13 Day 0)
+- Positions: UNKNOWN (SLB 340sh order submitted 2026-05-15 — fill unconfirmed)
+- NOTE: ClickUp API also blocked by same egress policy
+
+### Market-Open Run
+- Run time: 2026-09-10 ~13:36 UTC
+- API status: BLOCKED — egress proxy (org policy) denies CONNECT to `paper-api.alpaca.markets:443` and `api.clickup.com`
+- No live account data obtainable
+- No trades possible
+- Per proxy README: "Do not retry or route around it — report the blocked host"
+
+### Decision
+NO ACTION — API access blocked. **Manual action required:**
+1. Whitelist `paper-api.alpaca.markets` in org egress policy (or switch to a network-enabled environment)
+2. Verify SLB position status from 2026-05-15 order (ID: `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`)
+3. Place 10% trailing stop on SLB if filled
+4. Resume automated runs only after API connectivity confirmed
