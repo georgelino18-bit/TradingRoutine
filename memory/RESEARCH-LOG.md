@@ -204,3 +204,49 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-11 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (org proxy restriction persists)
+- Cash: UNKNOWN — last confirmed $100,000 (Day 0 baseline)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Open positions: UNCONFIRMED — SLB 340sh market buy submitted 2026-05-15 (order ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15); fill never confirmed due to API block; stop order also unplaced/unconfirmed
+- NOTE: Manual account verification via Alpaca dashboard required before any trade action
+
+### Market Context
+- WTI / Brent: WTI ~$102.59 | Brent ~$106.11 — elevated; US-Iran conflict ongoing since Feb 2026; Iran preparing to control new Hormuz shipping corridor; tanker attacks continuing
+- S&P 500 futures: ~7,612–7,617, +0.49% premarket — positive open expected
+- VIX: ~16.34–16.46 — normal range; near 10-year average; no panic
+- **KEY EVENT TODAY — August CPI at 8:30 ET:** Headline expected +0.4% MoM, +3.4% YoY; Core expected +0.4% MoM, +2.4% YoY. Last Fed data point before FOMC Sept 16. THIS IS BINARY.
+- PPI (released yesterday Sept 10): Headline +0.4% MoM (in-line), annualized +5.4% YoY (slightly hot vs est). Diesel +24.1% drove goods inflation. Yields ticked up; futures slipped briefly. Core PPI +0.2% MoM (below est +0.3%) — partial offset.
+- FOMC Sept 16: Current rate 3.50–3.75% (held since Dec 2025, Warsh era). Market pricing 59% probability of 25bp hike. CPI today is decisive catalyst.
+- Earnings today BMO: Kroger (KR) — est. $34.68B rev, $1.05 EPS (+1% YoY); Consumer Staples sector watch; 4 total reports today (mostly small-caps)
+- Economic calendar: August CPI 8:30 ET (TODAY — see above). FOMC rate decision Sept 16. Next NFP Oct 2.
+- Sector momentum YTD 2026: **Materials +22% (leader)** | Energy, Industrials, Consumer Staples strong | Tech (XLK), Comms (XLC), Financials (XLF), Discretionary (XLY) lagging | Real Estate, Utilities improving
+
+### SLB Position Update (unconfirmed)
+- Original thesis: Elevated WTI (~$101–102), Hormuz disruption structural floor, oilfield services capex acceleration
+- Thesis remains intact: US-Iran conflict ongoing, WTI structural ~$100+, Iran controlling Hormuz corridor
+- SLB recent: Q2 earnings beat (actual EPS $0.55 vs est $0.51, +7.57% surprise); Buy ratings from RBC, Barclays, MS; MS price target $55; Kelvion acquisition ($3.4B thermal management, closes H1 2027)
+- SLB current price: CONFLICTING SOURCES (~$33–57 range depending on data source); CANNOT CONFIRM without Alpaca API
+- Action needed: Manual fill confirmation + stop order placement if filled and no stop exists
+
+### Trade Ideas
+1. **HOLD SLB (if filled)** — Thesis intact; oil elevated, oilfield services demand strong; if filled in May at ~$52–55, trailing stop should exist at ≥10% below peak. Cannot act without account verification.
+2. **Post-CPI Energy entry (SLB or HAL)** — IF CPI prints in-line or below at 8:30 ET → hike odds decline → energy/materials relief rally likely. Consider adding second energy position (HAL or reinforcing SLB) at market open 9:31 ET. Entry only with confirmed price action.
+3. **Materials (FCX or copper proxy)** — Infrastructure + AI buildout + China demand; materials sector #1 YTD. Post-CPI add candidate IF hike odds fall. FCX near 52-week high; requires fresh R:R check at open.
+
+### Risk Factors
+- **CPI today 8:30 ET — binary**: Hot print (>0.4% MoM) → 59% hike odds surge further → broad market selloff; energy not immune if demand-destruction fears dominate
+- FOMC Sept 16 — 5 days away; 25bp hike at 59% probability; rate-sensitive sectors most at risk
+- PPI slightly hot yesterday (diesel +24.1%); pipeline inflation persistent; CPI beat would compound stagflation narrative
+- Alpaca API blocked — cannot verify positions, place stops, or trade; manual dashboard access essential
+- SLB stop order may not exist — if position filled in May with no stop, maximum downside unprotected
+- Iran–Hormuz escalation risk: short-term energy spike but also growth/recession drag if sustained
+
+### Decision
+**HOLD — CPI binary event at 8:30 ET** makes pre-data entry speculative. FOMC Sept 16 adds 5-day overhang. Default: no new positions until CPI release and reaction confirmed. Energy thesis (SLB, HAL) remains strongest sector alignment. Post-CPI: if headline ≤0.3% MoM, initiate second energy position at market open. URGENT: manual Alpaca dashboard check required to confirm SLB fill and stop status.
