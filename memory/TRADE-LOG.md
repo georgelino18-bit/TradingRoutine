@@ -31,3 +31,21 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-09-11 — Midday Scan
+
+### Status: BLOCKED — Egress proxy denying all API connections
+- Alpaca API: 403 (org network policy blocks paper-api.alpaca.markets)
+- ClickUp API: 403 (org network policy blocks api.clickup.com)
+- Account state: UNKNOWN — cannot retrieve positions or orders
+- No loser cuts, stop tightening, or thesis checks executed
+
+### Actions Taken
+- None — APIs inaccessible
+
+### Manual Action Required
+1. Check Alpaca web UI for open positions and their P&L
+2. Apply stop tightening rules manually if any position is up ≥+15% or ≥+20%
+3. Cut any position at -7% unrealized P&L
+4. Confirm SLB order status (order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` from 2026-05-15)
+5. Enable outbound access to paper-api.alpaca.markets in environment network policy

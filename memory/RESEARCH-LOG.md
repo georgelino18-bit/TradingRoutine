@@ -204,3 +204,27 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-11 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked (egress proxy 403)
+- Positions: UNKNOWN
+- Cash: UNKNOWN
+
+### Actions Taken
+- None — Alpaca and ClickUp APIs both blocked by org network policy
+
+### Loser Cuts (-7% rule)
+- CANNOT EXECUTE — API inaccessible
+
+### Stop Tightening
+- CANNOT EXECUTE — API inaccessible
+
+### Thesis Check
+- CANNOT EXECUTE — no position data available
+
+### Decision
+NO ACTION — all APIs blocked. Manual check of Alpaca web UI required. Enable outbound access to paper-api.alpaca.markets to restore bot functionality.
