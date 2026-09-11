@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-09-11
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — Alpaca API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — Alpaca API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | N/A — Perplexity API 403; live data unavailable |
+| Bot vs S&P | N/A |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca paper-api.alpaca.markets returns 403 (connect_rejected by egress proxy). Perplexity API also 403. Infrastructure blockage persists since Day 1 (2026-05-14) — now ~week 18. Portfolio assumed $100,000 cash, 0 positions. SLB order 6c529f05-19c5-4078-ba9d-9fb42bc7ee15 status still unresolved.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades confirmed |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation continues: flat vs. unknown S&P baseline — no losses taken
+- Discipline maintained for 18+ weeks straight — zero unauthorized trades, zero rule violations
+- Strategy rules fully intact and not degraded by inactivity
+- Weekly review cadence preserved (logging value even without live data)
+- Bot operating correctly; the sole failure point remains external API connectivity
+
+### What Didn't Work
+- Alpaca API 403 persists week 18 — same root cause, zero resolution progress
+- Perplexity API 403 also persists — research capability degraded for 18+ weeks
+- Zero capital deployed across 18 weeks of a viable market — compounding opportunity cost
+- No progress on SLB order fill resolution (ID: 6c529f05) — ghost position risk remains
+- Effective annual return: 0% vs S&P (unknown, likely +10–20% over same period) — structural underperformance
+
+### Key Lessons
+- Root cause is the egress proxy policy (connect_rejected for both alpaca and perplexity hosts) — this is an environment-level restriction, not an API key or allowlist issue
+- The fix is not in Alpaca settings; it requires enabling the relevant outbound HTTPS destinations in the Claude Code remote environment network policy
+- 18 weeks of zero execution = the strategy cannot be tested or validated until connectivity is restored
+- All research, analysis, and discipline work has been wasted — correct reads, zero shots taken
+- ESCALATION REQUIRED: without environment network policy change, this bot will never execute
+
+### Adjustments for Next Week
+- PRIORITY 1 (unchanged week 18): Resolve egress proxy restriction — enable outbound HTTPS to paper-api.alpaca.markets and api.perplexity.ai in environment network policy
+- If connectivity restored: verify SLB order status immediately; assume $100k cash if unfilled
+- If connectivity restored: re-run sector analysis from scratch (18 weeks of market moves to catch up on)
+- If connectivity restored: start fresh with energy/materials/semis scan; do not re-enter stale May 2026 theses without fresh diligence
+- Consider requesting a different cloud environment with appropriate network policy if current one cannot be fixed
+
+### Overall Grade: D
+*Execution: F (API blocked week 18). Discipline: A. Research: F (all APIs blocked). Grade D maintained — correct approach, zero execution. Root cause identified as egress proxy policy. No forward progress possible until network policy is updated.*
