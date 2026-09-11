@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-09-11 — EOD Snapshot (Day N, Friday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** PERSISTENT API BLOCKAGE — network policy (egress proxy) is denying CONNECT to paper-api.alpaca.markets:443 and ClickUp API with 403 connect_rejected. This is not an Alpaca credential or IP whitelist issue — the Claude Code web environment's network policy blocks these outbound connections entirely. Block has been active since at least 2026-05-14 (Day 1). Last confirmed account state: $100,000 cash, 0 confirmed positions as of 2026-05-13. An SLB market buy (340sh) was submitted pre-market 2026-05-15 (order ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) but fill/stop status is unconfirmed. No trades today (cannot verify). ACTION REQUIRED: In Claude Code web settings, create or update the network policy to allow outbound access to paper-api.alpaca.markets:443 and api.clickup.com:443.
