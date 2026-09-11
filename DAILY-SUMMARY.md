@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-11 11:15 UTC (fallback — curl network error)
+2026-09-11 pre-market: Aug CPI at 8:30 ET (est +0.4%/+3.4%); FOMC Sept 16 59% hike; WTI 02.59; S&P futures +0.49%; HOLD — CPI binary. URGENT: verify SLB fill + stop on Alpaca dashboard.
