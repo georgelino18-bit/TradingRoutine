@@ -204,3 +204,29 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-14 — Market-Open Execution Attempt
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (org proxy policy blocks paper-api.alpaca.markets)
+- Cash: UNKNOWN — last confirmed $100,000 (Day 0, 2026-05-13)
+- Positions: UNKNOWN — SLB order (340sh) submitted 2026-05-15 pre-market; fill unconfirmed due to persistent API block
+- Open orders: UNKNOWN
+
+### API Status
+- Alpaca: BLOCKED (connect_rejected — org proxy policy denial, 403)
+- ClickUp: BLOCKED (same proxy policy)
+- Perplexity: NOT TESTED (Alpaca block is prior blocker)
+- All external API calls blocked since 2026-05-14 (persisting ~4 months)
+
+### Actions Taken
+- None — API inaccessible; no trades placed, no account data retrieved
+- PushNotification sent to user (ClickUp unavailable)
+
+### Decision
+NO ACTION — Alpaca API blocked by org network policy. This has been the persistent blocker since launch. No research, no trades possible. Manual intervention required.
+
+**CRITICAL: Whitelist `paper-api.alpaca.markets` in the Claude Code remote environment network policy.**
+See: https://code.claude.com/docs/en/claude-code-on-the-web
