@@ -20,3 +20,11 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-14 17:03 UTC — Midday Scan (fallback — all APIs blocked)
+CRITICAL BLOCKER: Alpaca + ClickUp + Perplexity all 403 (org egress proxy policy)
+Portfolio: $100,000 estimated cash, 0 confirmed positions (blocked since 2026-05-14, 4 months)
+Trades today: 0 (API unreachable)
+SLB order from 2026-05-15 still unconfirmed — possible ghost position
+Action required: Resolve Alpaca sandbox IP allowlist to resume trading
