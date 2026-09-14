@@ -204,3 +204,48 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-14 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (egress proxy blocks paper-api.alpaca.markets)
+- Cash: UNKNOWN — last confirmed state May 13: $100,000 cash, 0 confirmed positions
+- SLB pending: 340sh market buy submitted 2026-05-15, order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`; fill NEVER confirmed; status unknown
+- Daytrade count: UNKNOWN
+- Action required: Alpaca API access must be restored to confirm SLB fill/position and verify stop placement
+
+### Market Context
+- **WTI:** $102.52 (+2.47% today) | **Brent:** $107.70 — Hormuz/Middle East tensions structural; oil +21% past month
+- **S&P 500 futures:** -0.6% | **Nasdaq 100 futures:** -1.0% — AI slowdown calls + oil surge weighing
+- **S&P 500 cash (Sep 13 close):** ~7,619 (-0.5%)
+- **VIX:** ~15.84 (Sep 11 close, -11.2% on day); likely ticking higher today given futures pressure
+- **Today's catalysts:**
+  - Anthropic CEO Dario Amodei published AI safety essay calling for slowdown; safety researchers resigning at OpenAI/Anthropic → broad AI/tech sentiment headwind; Nasdaq -1%+ premarket
+  - Oil surge continues: Hormuz GCC-Iran talks ongoing, Houthi attacks in Red Sea; WTI eyeing $105+
+  - No major earnings before open today
+- **FOMC September 16 (Tuesday, 2 days):** 83% market-implied probability of 25bp RATE HIKE to 3.75–4.00%; Chair Kevin Warsh hawkish (Jackson Hole Aug 28 speech + solid Aug jobs report). This is THE dominant binary event.
+- **Economic calendar this week:** FOMC decision Tue Sep 16 2:00 PM ET + Warsh press conference 2:30 PM ET; no CPI/PPI this week (CPI was Sep 11); NFP not until Oct 2
+- **Sector momentum YTD:** Energy +47.7% (XLE, best), Industrials/Materials strong, Consumer Discretionary -5.0% (worst); S&P 500 +11.7% YTD
+
+### SLB Update
+- SLB current price: ~$56.06 (Sep 14) | 52-week high: $60.46
+- UBS raised target to $72 (Sep 9) — analyst bullish
+- If original order filled at ~$57, position is approx breakeven; 10% trailing stop would be ~$51.36 if placed correctly
+- CANNOT verify without API access — manual confirmation required
+
+### Trade Ideas
+1. **HOLD SLB (if filled)** — Energy sector +47.7% YTD, strongest sector. Oil structural bid. UBS $72 target = +28% from $56. Thesis intact. Risk: FOMC hike could briefly pressure all risk assets; energy resilient given supply story. If filled: confirm stop is set at 10% trail before FOMC Tuesday. If NOT filled: wait for API access before re-entering.
+2. **Post-FOMC energy setup (XLE/SLB/HAL)** — If Warsh hikes 25bp but signals pause → energy rip likely (oil fundamentals dominate). Set alert to evaluate energy add after FOMC Wednesday. Do NOT enter before Tuesday rate decision.
+3. **NVDA / AI names** — Avoid. AI safety narrative + rate hike risk = double headwind. No entry in semis/AI until FOMC clears.
+
+### Risk Factors
+- **FOMC Tuesday (83% hike)** — Rate hike to 3.75-4% + hawkish press conference = broad selloff, especially growth/tech. Energy typically resilient but initial flush possible.
+- AI slowdown narrative: Amodei + safety researcher exodus → Nasdaq under pressure; avoid AI-heavy names
+- Oil $102+ = stagflation amplifier; growth stocks suffer, energy benefits
+- Alpaca API inaccessible — cannot confirm SLB position, stop placement, or account equity; flying blind
+- Account state unknown for 4 months — position could be filled, stopped, or unfilled
+
+### Decision
+HOLD — FOMC Tuesday is a binary that overrides everything. 83% hike probability = do NOT add new positions. Confirm SLB status manually if possible. If SLB filled and stop placed: let energy thesis run. If SLB unfilled: queue re-evaluation post-FOMC Wednesday once rate path is clear. Patience > activity.
