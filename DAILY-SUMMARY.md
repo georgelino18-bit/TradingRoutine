@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-14 11:14 UTC (fallback — curl network error)
+Pre-market 2026-09-14: HOLD — FOMC Tue 83% hike. WTI $102.52, NDX futures -1% (AI slowdown). SLB status unconfirmed (API blocked). No new entries before rate decision.
