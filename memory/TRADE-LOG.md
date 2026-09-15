@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-09-15 — EOD Snapshot (Day N, Tuesday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** PERSISTENT BLOCKER — egress proxy denied CONNECT to paper-api.alpaca.markets:443 (403 policy denial) and api.clickup.com (403). This is the same block seen on 2026-05-14. No account data, positions, or orders could be retrieved. ClickUp alert also failed. Last confirmed account state is still Day 0: $100,000 cash, no confirmed fills. SLB order (ID 6c529f05, 340sh market buy) was submitted 2026-05-15 but never confirmed. REQUIRED ACTION: Go to claude.ai environment settings and add paper-api.alpaca.markets and api.clickup.com to the network allowlist. See https://code.claude.com/docs/en/claude-code-on-the-web for how to configure the remote execution network policy.
