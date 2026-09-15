@@ -204,3 +204,51 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-15 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (IP restriction persists across all calls: account/positions/orders)
+- Cash: UNKNOWN — last confirmed Day 0 baseline ~$100,000
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- CRITICAL: SLB 340sh market buy (Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) submitted pre-market 2026-05-15 — fill NEVER confirmed; stop order NEVER confirmed placed. SLB now ~$53.32 (2026-09-14 close, down 4.9% on session). If filled at ~$57–60 range, position is potentially -7% to -11% — at or past cut trigger. Manual verification REQUIRED.
+
+### Market Context
+- WTI / Brent: WTI ~$102.69 | Brent ~$106.56–$107.46 — oil elevated, up ~21% in past month; supply disruption ongoing
+- S&P 500 futures: -0.30% premarket; Polymarket 32% chance of higher open; broad selloff continuing
+- VIX: 16.34 (prev close 15.84) — moderate; normal range but rising
+- Today's catalysts:
+  - **FOMC Day 1** (Sept 15–16) — rate decision Wednesday Sept 16 at 2 PM ET (includes SEP/dot plot). 10Y yield briefly topped 5% — highest since 2023; inflation fears reignited. No new entries until post-Fed clarity
+  - 10Y Treasury yield >5%: hawkish signal; multiple compression risk for growth/tech
+  - Semiconductor weakness: Philly Semi -5.9%, NVDA -3.4%, INTC -5.6% — AI trade unwinding
+  - AI development pace concerns driving selloff in semis/tech
+  - Energy stocks mixed: Energy sector still +47.7% YTD despite yesterday volatility
+- Earnings before open: No major large-cap reports scheduled BMO today
+- Economic calendar: FOMC Day 1 (no decision today); Retail Sales data Wed Sept 16; Rate decision + press conf Wed 2:00 PM ET
+- Sector momentum YTD: **Energy +47.7% (dominant leader)** | Materials +22% | Industrials, Consumer Staples positive | Tech, Comm, Discretionary lagging | Consumer Discretionary -5.0% (worst)
+
+### Trade Ideas
+1. **SLB** (existing unconfirmed position) — CRITICAL STATUS UNKNOWN
+   - IF filled at ~$57–60 and no stop placed, currently at ~-7% to -11%. If at -7% hard cut rule triggers immediately
+   - IF no fill occurred, then account is still cash. SLB moderate buy consensus, $72 PT (UBS), $4.1B data center acquisition, beat EPS $0.55 vs $0.51 est — long-term thesis intact but price has fallen significantly from May 2026
+   - ACTION: Cannot manage without API access. Manual check required.
+2. **XLE / Energy sector names** — Sector +47.7% YTD, WTI $102+ structural
+   - HOLD: Pre-FOMC freeze; do not add new positions before Wednesday rate decision
+   - Entry criteria post-FOMC: Confirm energy sector holds momentum, oil stays $100+, VIX < 20
+3. **New ideas deferred** — FOMC uncertainty + 10Y >5% = no new entries this week until Wednesday post-decision
+
+### Risk Factors
+- FOMC decision Wed Sept 16 — hawkish hold or hike risk; 10Y yield >5% already pressuring equities
+- SLB unconfirmed position may be at stop/cut level — API inaccessible, no visibility
+- 10Y >5%: broad equity multiple compression; energy names can sell off despite high oil
+- Semiconductor washout spreading; if AI sentiment shifts further, broad tech selloff continues
+- Alpaca API 403 block — CRITICAL; cannot place, verify, or manage stops; all risk management manual
+
+### Decision
+**HOLD — Pre-FOMC freeze. No new entries until rate decision clears Wednesday Sept 16.**
+- Energy thesis intact but macro risk (10Y >5%, FOMC) overrides sector momentum signal for new entries
+- Patience > activity applies doubly before binary Fed event
+- **URGENT**: Manually verify SLB fill + stop status via Alpaca web dashboard or resolve IP allowlist issue before next session
