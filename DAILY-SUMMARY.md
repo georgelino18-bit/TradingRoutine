@@ -20,3 +20,13 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-15 20:01 UTC (fallback — curl network error)
+EOD 2026-09-15 — API BLOCKED
+CRITICAL: Alpaca paper-api.alpaca.markets:443 still blocked by egress proxy (403).
+This is a persistent issue across multiple sessions (Day 1, May 15, Sep 15).
+No live account data can be retrieved. No EOD metrics available.
+Last known state: $100,000 cash (Day 0), no confirmed fills.
+Action required: Whitelist paper-api.alpaca.markets in the remote execution environment's network policy at https://code.claude.com/docs/en/claude-code-on-the-web
+Tomorrow: Will retry once proxy is unblocked.
