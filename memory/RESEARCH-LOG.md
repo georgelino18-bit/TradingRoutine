@@ -204,3 +204,53 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-16 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked by egress proxy)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked by egress proxy (org policy denial; same restriction since May)
+- Cash: UNKNOWN — last confirmed state 2026-05-14: ~$100,000, 0 confirmed positions
+- SLB order: 340sh market buy submitted 2026-05-15 (ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) — UNCONFIRMED fill, stop UNCONFIRMED placed; ~4 months elapsed, 10% trailing stop may have triggered or held
+- Daytrade count: UNKNOWN
+- NOTE: Cannot verify any account state. Manual login to Alpaca paper account required.
+
+### Market Context
+- WTI / Brent: WTI ~$104.68/bbl (↓1.09% today) | Brent ~$109.21/bbl (Sep 15) — elevated; Middle East supply disruptions structural
+- S&P 500 futures: ~7,666 (opened ~7,687; range 7,661–7,694) — muted, slight pullback premarket
+- VIX: ~17.05–17.20 — moderate; no panic, but FOMC risk premium priced in
+- **FOMC TODAY (2:00 PM ET)**: Fed raised rates +25bps to ~5.50% — FIRST HIKE SINCE JULY 2023. Chair Warsh press conference 2:30 PM ET. Confirmed per CME FedWatch (was ~56–92% odds). Driven by sticky PCE +3.7% YoY, PCE 6-month run rate +4.1%, unemployment 4.1% (strong labor market).
+- Retail Sales Aug 2026 (8:30 AM ET): scheduled release today — consumer resilience data point
+- Earnings before open: None notable. Lennar (LEN) reports after close.
+- Next CPI: Oct 14 | Next NFP: Oct 2 | Bank of England + Bank of Japan also setting rates this week
+- Sector momentum YTD (as of Sep 11): Energy +47.7% (leader), Materials +22%, Industrials leading | Consumer Staples, XLRE, XLU improving | Healthcare weakening | XLK, XLC, XLY, XLF lagging | Consumer Discretionary -5% (worst)
+
+### SLB Thesis Check (held position — unverified)
+- Last close Sep 14: $53.32 (↓4.9% that session) — Saudi pipeline shutdown cited
+- If filled at ~$40–42 (May 2026 thesis price), unrealized gain +26–33% — stop should have tightened to 7% trail at +15%, 5% at +20% per rules
+- UBS PT $72 (raised from $66 on Sep 9); 18/23 analysts Buy/Strong Buy; Q2 EPS $0.55 beat ($0.51 est)
+- $4.1B AI data center acquisition — strategic pivot beyond oilfield; bullish long-term
+- RISK: -4.9% on Sep 14 + rate hike environment = near-term pressure; verify stop status ASAP
+
+### Trade Ideas
+1. **NO NEW ENTRIES TODAY** — FOMC rate hike day; wait for 2 PM decision + press conference reaction
+2. **SLB (if held)** — thesis intact; Energy +47.7% YTD; oil structural at $104; 10% trail should protect gains. If stop triggered, evaluate re-entry post-FOMC volatility subsides.
+3. **XLE / Energy sector** — remains #1 sector; any post-hike dip in energy = potential add opportunity. Rate hikes historically mixed for energy: bullish via inflation/commodity floor, bearish via recession fears.
+4. **Healthcare (XLV)** — emerging flight-to-safety; improving momentum; defensive posture if hike triggers risk-off
+
+### Risk Factors
+- **FOMC rate hike confirmed** — first since 2023; reprices equities broadly; kills growth/tech; 10y yield at 19-year high
+- Cannot verify account state, stops, or position status — manual Alpaca login required urgently
+- SLB -4.9% Sep 14 — momentum crack possible; Saudi pipeline risk + rate headwinds
+- Lennar (LEN) after close today — housing/rate-sensitive; negative signal possible for broader market
+- Bank of England + Bank of Japan rate decisions same week — global tightening coordinated
+- WTI ↓1.09% today despite still elevated — demand destruction fear from hikes
+
+### Decision
+**HOLD — no new positions on FOMC day.**
+- Wait for 2 PM ET decision + Warsh press conference reaction before any action
+- Verify SLB position status manually (Alpaca paper account login) — critical priority
+- If SLB stop intact: hold; tighten trail to 5% if gain >20% from entry
+- If SLB stop triggered: note exit in trade log; re-evaluate energy re-entry after FOMC volatility clears
+- Default: patience > activity on highest-risk macro day of the quarter
