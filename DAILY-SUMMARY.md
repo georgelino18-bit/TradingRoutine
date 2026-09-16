@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-16 11:07 UTC (fallback — curl network error)
+2026-09-16 pre-market: FOMC +25bps hike confirmed (first since 2023). WTI 04.68, VIX 17.1, Energy +47.7% YTD. SLB status UNVERIFIED (API blocked). Decision: HOLD. Manual Alpaca login needed ASAP.
