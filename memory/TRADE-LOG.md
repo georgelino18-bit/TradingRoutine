@@ -31,3 +31,16 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+---
+
+## 2026-09-16 — Market-Open Run (Automated, No Trades)
+**Status:** API BLOCKED — Alpaca + ClickUp both 403 via egress proxy (organization policy)
+
+- No positions could be verified
+- No quotes pulled
+- No orders placed
+- SLB order from 2026-05-15 (340sh, order ID 6c529f05) status still UNCONFIRMED
+- Weekly trade count this week: 0 (no trades placed since account inception)
+
+**Action required:** Manual login to Alpaca paper account to confirm SLB status and any open stops.
