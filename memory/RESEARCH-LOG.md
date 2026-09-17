@@ -204,3 +204,43 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-17 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API proxy-blocked (connect_rejected, persistent since Day 1)
+- Cash: ~$100,000 estimated (SLB order from 2026-05-15 unconfirmed — treat as 0 positions until API accessible)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (estimated)
+- **CRITICAL:** SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, May 2026) status unknown — cannot verify fill or stop without API access
+
+### Market Context
+- **WTI:** ~$102.13–$104 | **Brent:** elevated — Saudi pipeline disruption + Libya halt; oil +22% on month, +61% YoY; stagflation amplifier
+- **S&P 500 Futures:** ESU26 = 7,662.50, +0.49% — recovered overnight losses; retreat in crude knocked yields lower
+- **VIX:** ~17.20 (range 16.79–18.03) — normal; 52-week high 35.30 on 2026-03-09; no panic
+- **FOMC:** Rate HIKE confirmed Sept 16 (yesterday) — first hike since 2023; Warsh era hawkish; 10-yr Treasury at 19-year high; 2-yr at 4.72%
+- **Breadth weak:** Only 33% of S&P 500 above 50-day MA; 53% above 200-day — distribution underway
+- **Today's releases (all 8:30 ET):** Initial Claims, Building Permits, Housing Starts, Philly Fed Manufacturing | NAR Pending Home Sales 10:00 ET
+- **Earnings BMO:** No noteworthy pre-market reporters today
+- **Sector momentum:** Energy (leader, oil structural bid), Financials (rate-hike tailwind), Materials | REITs, Utilities, Growth/Tech (pressured by 19-yr yield highs)
+
+### Trade Ideas
+1. **Energy services (SLB/HAL)** — WTI $104 + Saudi/Libya supply crunch = sustained E&P capex. SLB thesis intact if order unconfirmed. If account confirmed empty: entry ~$57–59 (SLB), 10% trailing stop, target +15-20% | R:R ~2:1. Size ≤20% (~$20k). Catalyst: oil supply shock structural, not demand-driven.
+2. **Energy majors (XOM/CVX)** — Oil +61% YoY but XOM already ran past prior entry targets. Only if fresh pullback creates 2:1 R:R entry. Do not chase $150+ without recalc.
+3. **Financials (JPM/BAC)** — Rate hike widens net interest margins. Recession risk is the counter. Wait for breadth confirmation — only 33% above 50-day signals weak market; financials benefit less if recession fears accelerate.
+
+### Risk Factors
+- Fed hiking into oil shock = stagflation scenario; growth stocks face dual headwind (yields + oil)
+- 10-yr Treasury at 19-year high = valuation compression for tech/growth
+- Market breadth deteriorating (33% above 50-day) — risk of broader pullback
+- SLB position status unknown — could have filled at $58 in May, now unknown P&L
+- Alpaca API inaccessible — CANNOT place, verify, or adjust any orders
+- Housing data today: weakness could accelerate recession fears
+
+### Decision
+**HOLD** — Fed just hiked yesterday; digestion period expected. Market breadth weak. API inaccessible — cannot execute even if desired. Energy thesis remains highest conviction but execution blocked. No new trades until API access restored AND breadth improves (>50% of S&P above 50-day). Patience > activity.
+
+**API ACCESS BLOCKER (ongoing):** Alpaca paper-api.alpaca.markets AND Perplexity BOTH blocked by org proxy policy. Requires whitelist resolution to resume live trading. All research via WebSearch fallback.
+
