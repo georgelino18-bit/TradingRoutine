@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-17 11:08 UTC (fallback — curl network error)
+Pre-market 2026-09-17: HOLD. WTI~$104 (+61%YoY), Fed HIKE (first since 2023), 10yr 19yr high, VIX 17.2, breadth weak. API blocked — no trades possible. Research logged.
