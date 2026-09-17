@@ -204,3 +204,30 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-17 — Market-Open Execution (Automated Run)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy blocks paper-api.alpaca.markets:443)
+- Cash: ~$100,000 estimated (no confirmed trades since May 13 launch; SLB May-15 order unconfirmed)
+- Daytrade count: 0 confirmed
+- Open positions: 0 confirmed (possible ghost: SLB 340sh order ID 6c529f05 from 2026-05-15 — unverifiable)
+
+### Market Context
+- ALL APIs BLOCKED: Alpaca, Perplexity, ClickUp — all return 403 from egress proxy
+- Live market data unavailable from this environment
+
+### Trade Ideas
+- NONE — cannot fetch quotes, account state, or research data
+
+### Risk Factors
+- Egress proxy has blocked all trading APIs since 2026-05-14 (4+ months)
+- SLB position from May 2026 may exist with no stop in place — critical risk
+- Challenge window wasted: zero trades in 4 months while market has moved significantly
+
+### Decision
+HOLD / NO ACTION — All APIs inaccessible. Market-open workflow CANNOT execute.
+CRITICAL: User must resolve egress proxy / IP allowlist issue to resume trading.
+Immediate action required: whitelist sandbox IP on Alpaca paper account AND confirm SLB ghost position status.
