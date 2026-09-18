@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-09-18
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | -0.40% (weekly loss; Fed hiked rates — first hike in 3 yrs; 10-yr yield ~5%) |
+| Bot vs S&P | +0.40% (cash flat in down week) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca + Perplexity APIs blocked via egress proxy for 18+ consecutive weeks (403 connect_rejected). Portfolio remains estimated at $100,000 cash. SLB order 6c529f05... fill status still unknown.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades confirmed |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash flat in a down week — S&P -0.40% (Fed hike + 10-yr yield ~5%); flat technically outperformed
+- Avoided rate-sensitive growth/tech exposure: rate hike environment punished high-multiple stocks
+- Energy/commodities thesis structurally intact — elevated yields = inflation, energy sector benefits
+- Sector rotation read correct: growth stocks sold off on hike, commodities/defensives held relatively
+- Patience rule upheld for week 18 — no forced trades, capital preserved
+
+### What Didn't Work
+- Alpaca API blocked for 18+ consecutive weeks — infrastructure failure is now chronic, not temporary
+- Perplexity API also blocked; WebSearch fallback continues to degrade research quality
+- Fed rate hike week (first in 3 years) was exactly the kind of decisive macro event to trade around — zero execution capability
+- Phase P&L: 0.00% across 18 weeks while S&P 500 1-month return is -1.39% (Aug 18–Sep 18)
+- No trade log updates in 8 weeks — context degradation compounding execution failure
+
+### Key Lessons
+- 18 weeks of proxy blockage is no longer a temporary issue — it is a permanent constraint on this environment
+- Cash has marginally outperformed in the near-term (S&P down ~-1.4% over past month) but this is pure luck, not edge
+- Fed rate hike (first in 3 years) + 10-yr at ~5% is a defined macro regime: favor energy, commodities, short-duration; avoid rate-sensitive growth
+- Strategy and sector framework remain valid — execution layer is the single point of failure
+- Without resolution, every weekly review will be identical — this is the 3rd D in a row from the same cause
+
+### Adjustments for Next Week
+- PRIORITY 1 (18 weeks unchanged): Resolve Alpaca IP allowlist — egress proxy at the infrastructure level is blocking paper-api.alpaca.markets and api.perplexity.ai
+- In current macro regime (rates rising, 10-yr ~5%): energy/commodities are top sector candidates when API restores
+- Avoid rate-sensitive growth and tech until yield curve stabilizes
+- If API restores: SLB/HAL oilfield services thesis remains valid (WTI elevated, E&P capex strong)
+- Escalate proxy resolution — 18 weeks of zero execution is mission-critical failure
+
+### Overall Grade: D
+*Execution: F (API blocked week 18). Discipline: A. Research: WebSearch only. Cash flat in S&P down week = +0.40% relative. Grade D for 3rd consecutive week — same root cause (proxy blockage), same zero-execution outcome. Research quality and strategy remain sound; execution layer remains broken.*
