@@ -204,3 +204,52 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-18 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy policy denial, same as prior sessions)
+- Cash: UNKNOWN — last confirmed state: SLB 340sh market buy submitted 2026-05-15; fill never confirmed
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- NOTE: Both Alpaca and Perplexity APIs remain blocked by environment proxy policy. All data via WebSearch fallback.
+
+### Market Context
+- WTI / Brent: WTI ~$101.21 (−0.69% today) | Brent ~$102.57 (−2.2%) — 3rd consecutive session of losses; fresh Saudi/Houthi strikes but reports of additional Saudi crude reaching global markets easing supply concern
+- S&P 500 futures (ESU26): +0.12%–+0.49% premarket — muted positive; market up after Fed hike; Nasdaq futures +2.62%, Dow +1.36%, Russell +1.14%
+- VIX: ~14.15 (prev close 15.44) — LOW volatility; well below May highs; calm market
+- Key catalyst: **Fed RAISED 25bps to 3.75%–4.00% on Sept 16 (Wed)** — first hike since 2023; unanimous; another hike telegraphed before year-end (Warsh era); market has digested it — futures green
+- Other catalysts:
+  - Financials worst sector WTD (−2.4%); Bank of America + Goldman Sachs CEO comments hit sector
+  - AI capex boom intact — SpaceX/OpenAI/Anthropic IPO pipeline >$3T est market cap
+  - Progressive (PGR) releases Aug earnings today — not a market mover
+  - Saudi/Houthi conflict ongoing; Saudi production normalization headwind for oil
+- Earnings before open: No major market-moving reports; only ~1 report today (low volume Friday)
+- Economic calendar: No major releases today. Next FOMC: Oct 27–28
+- Sector momentum YTD: **Energy +47.7% (dominant leader)** | Materials, Industrials, Consumer Staples leading | Tech (XLK), Comm (XLC), Discretionary (XLY), Financials (XLF) lagging | Healthcare weakening | Real Estate, Utilities improving
+
+### SLB Position Update (if filled May 15)
+- SLB last known: closed ~$54.20 on 2026-09-15 (down −4.9% Sept 14, recovered +1.65% Sept 15)
+- UBS PT raised to $75 (Buy, +38% upside from $54.20); avg analyst PT $61.65; consensus Moderate Buy (18 buy / 2 strong-buy / 2 hold / 1 sell)
+- Recent Q EPS: $0.55 vs $0.51 est (beat); acquiring Kelvion (data center thermal mgmt)
+- RISK: Oil falling 3 consecutive sessions (Saudi supply normalization); rate hike = tighter E&P capex budgets
+- 10% trailing stop (if placed at $47.25 from ~$52.50 entry, or ~$48.78 from $54.20 recent level) — confirm manually
+- Stop tighten rule: at +15% from entry (~$60.38 if entry ~$52.50) → tighten to 7%; not triggered yet at current price
+
+### Trade Ideas
+1. **SLB (monitor existing position if filled)** — thesis intact but oil in 3-session slide; watch $50 support; do NOT move stop down; let 10% trail work. If stop not placed, place immediately at 10% below fill price.
+2. **XLE / Energy sector** — Energy +47.7% YTD, structural Hormuz/Iran bid; but 3 consecutive oil down sessions = near-term headwind; HOLD new entry until WTI stabilizes above $100 or Hormuz escalation resumes. Rate hike adds cost-of-capital pressure on energy capex.
+3. **NVDA (AI infrastructure)** — AI capex boom ($3T+ IPO pipeline, $650–725B data center spend 2026); rate hike already digested; Nasdaq futures +2.62% today; consider entry ~$225–230 range on any pullback, stop 10% below entry (~$204–207), target +15–20%; confirm open print first. R:R ~2:1 minimum required.
+
+### Risk Factors
+- Oil 3-session decline — if WTI breaks $100, energy sector leadership threatened
+- Rate hike (3.75–4.00%) + another hike telegraphed = tightening headwind; kills high-multiple growth; hurts leveraged E&P names
+- SLB position status unknown — cannot confirm fill, stop placement, or unrealized P&L; manual verification required
+- AI enthusiasm could overheat — NVDA and semis susceptible to valuation reset if Fed keeps hiking
+- Next FOMC Oct 27–28 — market will price in next hike probability; watch for repricing volatility
+- Low VIX (14) = complacency risk; any macro surprise could spike vol
+
+### Decision
+**HOLD** — Alpaca API inaccessible; cannot place or verify orders. SLB thesis intact (UBS $75 PT, strong earnings beat) but oil weakness is the key watch. NVDA/AI setup interesting post-rate-hike digestion but wait for confirmed open print above $225 before queuing. No new entries until API access restored and existing SLB position confirmed/stop verified. Patience > activity.
