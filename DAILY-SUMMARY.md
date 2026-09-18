@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-18 17:06 UTC (fallback — curl network error)
+MIDDAY SCAN BLOCKED 2026-09-18: Alpaca API (paper-api.alpaca.markets) blocked by egress proxy policy (403). No positions could be checked. No stops verified. No loser cuts executed. Manual intervention required — access Alpaca directly to: (1) check positions for -7% losers, (2) verify trailing stops in place, (3) check stop tightening eligibility (+15%/+20%).
