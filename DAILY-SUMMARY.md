@@ -1,5 +1,15 @@
 
 ---
+## 2026-09-18 13:37 UTC (fallback — ClickUp blocked)
+MARKET-OPEN 2026-09-18 — ALL APIs BLOCKED
+Portfolio: N/A (Alpaca 403 egress proxy policy denial)
+Cash: N/A
+Trades today: NONE — all APIs (Alpaca, Perplexity, ClickUp) blocked by egress proxy
+Open positions: UNKNOWN — cannot verify
+ALERT: Persistent API blockage since 2026-05-14. Egress proxy policy denying CONNECT to paper-api.alpaca.markets:443, api.perplexity.ai:443, and api.clickup.com:443.
+Action required: Add paper-api.alpaca.markets and api.perplexity.ai to egress allowlist in claude.ai/code environment settings.
+
+---
 ## 2026-05-14 20:04 UTC (fallback — ClickUp not configured)
 EOD 2026-05-14 — API BLOCKED
 Portfolio: N/A (Alpaca 403 Host not in allowlist)
@@ -20,3 +30,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-18 13:38 UTC (fallback — curl network error)
+ALERT 2026-09-18 market-open: Alpaca + Perplexity APIs blocked (egress proxy policy denial). No account data, no positions, no orders can be placed. Same issue as 2026-05-14. Action required: whitelist paper-api.alpaca.markets and api.perplexity.ai in egress policy.
