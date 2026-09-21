@@ -204,3 +204,51 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-21 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (egress proxy blocking paper-api.alpaca.markets; same restriction since Day 1)
+- Cash: ~$100,000 estimated (no confirmed fills; SLB order from 2026-05-15 status unknown)
+- Buying power: ~$100,000 estimated
+- Daytrade count: unknown
+- **ACTION REQUIRED:** Alpaca IP allowlist must be resolved before any live trading
+
+### Market Context
+- **WTI:** ~$93.60–96.98 range today — pulled back significantly from $101–102 in May; Brent ~$101.22–104.82
+- **Brent trend:** Falling 4th consecutive day — longest streak in 3 months
+- **S&P 500 futures:** +0.6% premarket; Nasdaq 100 futures +0.8%; bulls leading (Polymarket 81% chance higher open)
+- **VIX:** ~14.93 — calm, down from 17–18 in May; 30-day realized vol 9.49; benign tape
+- **Trump-Xi Washington Summit TODAY:** Focused on trade/Taiwan/AI; $30B agricultural/rare-earths deal framework possible; limited expectations on AI/tech/export-controls — "summit of the 3 Ts"; binary for China-linked names
+- **Fed / Macro:** 10+ Fed speakers this week; Goolsbee speech 10:30 AM ET; Chicago Fed NFAI 12:30 PM ET; 10-yr yield ~4.94%; no FOMC meeting — rate hike posture being telegraphed verbally
+- **Earnings BMO today:** Only micro-cap names (LGCY, AYTU) — no market movers; thin earnings week
+- **Post-triple-witching Monday:** Sept 18 was quad witching; volume and positioning shifts possible today
+- **US manufacturing:** Output -0.3% in August; capacity utilization 75.7% — soft factory data
+
+### Sector Momentum YTD
+| Sector | ETF | YTD |
+|--------|-----|-----|
+| Energy | XLE | +47.7% ✅ (still leader) |
+| Industrials | XLI | +strong (est. +20–25%) |
+| Materials | XLM | +positive |
+| Tech | XLK | -2.43% ❌ |
+| Consumer Disc. | XLY | -5.0% ❌ (worst) |
+
+### Trade Ideas
+1. **FCX (Freeport-McMoRan)** — Copper pure-play; Trump-Xi $30B deal + rare earths framework = direct beneficiary. **Highest conviction IF summit confirms deal today.** Entry on open confirmation after summit headlines. Stop 10% below entry. Target +15%. R:R ~1.8:1. Size ≤20%. Wait for post-announcement price action — do NOT pre-position before binary.
+2. **XOM or SLB (Energy)** — XLE +47.7% YTD still dominant sector. BUT oil falling 4 consecutive days (WTI ~$95 vs $102 in May) — wait for reversal confirmation before entry. If WTI reclaims $98+, energy names offer momentum continuation. Iran war still structural support. Entry deferred until oil stabilizes.
+3. **Industrials / Defense name** — Iran war ongoing + defense budget expansion; XLI trend intact; no specific ticker setup yet — needs dedicated research session.
+
+### Risk Factors
+- Trump-Xi summit disappointment (no tariff deal, Taiwan tensions) → risk-off, kills copper/materials trade
+- Oil continuing to fall below $90 → breaks energy sector thesis; XLE momentum could crack
+- 10-yr yield at 4.94% → pressure on rate-sensitive names; Warsh Fed uncertain
+- Post-triple-witching repositioning could amplify moves in either direction
+- Alpaca API inaccessible (same 403 as every prior session) → cannot place, verify, or manage orders
+- SLB order status from May 2026 unknown — possible open position unmonitored
+
+### Decision
+**HOLD** — Trump-Xi summit binary event dominates today. Do not pre-position ahead of headline risk. If summit confirms agricultural + rare earths deal → FCX is the entry (execute at /market-open). Energy (XOM/SLB) deferred pending oil stabilization above $98. Patience > activity. Resolve Alpaca API access before any trade execution.
+
