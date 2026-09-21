@@ -31,3 +31,20 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-09-21 — Midday Scan (12:00 ET)
+**Status:** BLOCKED — Alpaca API 403 (egress proxy policy denial; persistent since 2026-05-14)
+
+- Positions: UNKNOWN — cannot retrieve live data
+- Last confirmed state: Day 0, $100,000 cash, 0 positions (2026-05-13)
+- SLB 340sh market buy submitted 2026-05-15 — fill/stop status UNCONFIRMED
+- Loser cuts: N/A (no data)
+- Stop tightening: N/A (no data)
+- Thesis check: N/A (no data)
+- ClickUp notification: BLOCKED (same proxy denial)
+
+**Action required (manual):**
+1. Access Alpaca paper account directly to check current positions and P&L
+2. If SLB filled: confirm stop order exists at 10% trail; tighten if up ≥+15%
+3. Whitelist this cloud environment's egress IP in Alpaca paper account settings
+   (see profile → API settings → IP allowlist)
