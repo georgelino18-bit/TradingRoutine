@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-21 11:16 UTC (fallback — curl network error)
+2026-09-21 pre-market: HOLD — Trump-Xi summit binary event live; FCX queued if deal confirms; oil 5 (WTI down 4d); VIX 14.9; Alpaca API still blocked (403)
