@@ -20,3 +20,12 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-22 17:15 UTC (fallback — curl network error)
+Midday scan 2026-09-22 — API BLOCKED (week 19)
+Portfolio: ~$100,000 cash (no confirmed positions)
+vs S&P 500: N/A (no deployed capital)
+Trades: 0 (W:0 / L:0 / open:0)
+Actions: None — Alpaca + ClickUp APIs blocked by egress proxy (org policy 403)
+One-line takeaway: 19 weeks, zero trades, API still blocked — infrastructure failure unresolved

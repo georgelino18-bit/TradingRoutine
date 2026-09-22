@@ -204,3 +204,36 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-22 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy org-policy denial, week ~19 unchanged)
+- Orders: UNAVAILABLE — same block
+- Positions: 0 confirmed (last known: Day 0, $100,000 cash; SLB May-15 order assumed ghost/unfilled)
+- Cash: ~$100,000 estimated
+
+### Actions Taken
+- None — no open positions; no API access to check state
+
+### Loser Cuts (-7% rule)
+- N/A — no confirmed positions
+
+### Stop Tightening
+- N/A — no confirmed positions
+
+### Thesis Check
+- N/A — no confirmed positions; SLB May-15 order still unresolved
+
+### Intraday Notes
+- Alpaca API: `connect_rejected` (gateway 403, org policy) — unchanged since Day 1 (2026-05-14)
+- ClickUp API: same 403 block — cannot send notification
+- Perplexity API: not tested (assumed blocked per prior pattern)
+- No research performed — APIs unavailable; intraday scan is operational-only
+- 19+ weeks since last confirmed account state — critical infrastructure failure
+
+### Decision
+NO ACTION — zero confirmed positions, all external APIs blocked by egress proxy.
+**CRITICAL (week 19 unchanged):** Resolve Alpaca + ClickUp org-policy IP allowlist before any trade can be placed or confirmed. See TRADE-LOG.md for prior action notes.
