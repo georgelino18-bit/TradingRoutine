@@ -204,3 +204,62 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-22 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (egress proxy policy, same issue since May 2026)
+- Cash: ~$100,000 estimated baseline (no confirmed fills since launch)
+- SLB position status: UNKNOWN — 340sh market buy submitted 2026-05-15, never confirmed; current SLB ~$52.30 (down from ~$55 entry area if filled = ~-5%)
+- Daytrade count: 0 (estimated)
+- Buying power: ~$100,000 estimated
+
+### Market Context
+- WTI: ~$95.59 | Brent: ~$103.19 — down significantly from May 2026 Hormuz peak ($101/$106); Iran deal (June 2026) reopened Strait, freed ~67M barrels
+- S&P 500 futures (ESU26): +0.49%, ~7,767 — S&P closed yesterday at 7,764.70 (+1.49%); Nasdaq record close 27,122.09 (+2.26%)
+- VIX: ~14.87 — low volatility, risk-on; well below 52-week highs
+- 10-year Treasury: ~4.79% — elevated but declining, supporting equities
+- Key catalyst: AMD crossed $1 trillion market cap for first time (Sep 21); AMD +180% YTD, Intel +12% yesterday, AMD +10%
+- Trump admin: Bessent ordering Iranian airlines "shut down" globally by Wednesday; foreign entities risk dollar exclusion — new geopolitical escalation vs. ongoing Iran deal progress
+- Greenland: Trump security deal announced; Greenland Energy +144% premarket (speculative, not tradeable)
+- Chicago Fed National Activity Index today (Sep 22); S&P Global PMI data Sep 23
+
+### Earnings Today BMO
+- AutoZone (AZO) — consumer/auto parts; no position
+- KB Home (KBH) — homebuilder; no position
+
+### Sector Momentum YTD 2026
+| Sector | YTD | Status |
+|--------|-----|--------|
+| Energy (XLE) | +47.7% | LEADING |
+| Consumer Staples (XLP) | +15.97% | LEADING |
+| Materials (XLB) | +15.86% | LEADING |
+| Industrials (XLI) | — | LEADING |
+| Health Care (XLV) | +14% (3-mo) | GAINING |
+| Communication Services | negative | LAGGING |
+| Consumer Discretionary (XLY) | -5.0% | LAGGING |
+
+### SLB Update (held ticker thesis check)
+- Current: ~$52.30 (Sep 16 data); -3.5% recent
+- UBS raised PT to $75 (from $72), maintained Buy (Sep 14)
+- Acquisitions: Geoscience/Petroleum software from S&P Global (Sep 1); Kelvion thermal management (~$4.1B deal) — pivoting into data center cooling
+- Analyst consensus raising 2026 estimates
+- Iran deal + oil normalization = near-term capex headwind; but data center pivot is new growth vector
+- If position filled: ~-5% from entry, above -7% cut threshold; HOLD with stop in place
+
+### Trade Ideas
+1. **AMD** — AI chip supercycle; $1T mkt cap milestone, $613.92 record; +180% YTD. PASS — too extended, no entry on 5-day 24% surge. Wait for pullback to prior consolidation or next earnings setup.
+2. **SLB** — Energy still #1 sector YTD (+47.7%); UBS Buy/$75 PT; Kelvion acquisition adds data center angle. If position unconfirmed/unfilled, re-evaluate entry at $52–54 with stop at $47–48 (10%), target $65–70 (R:R ~2.5:1). Catalyst: oil stabilization + data center thermal pivot.
+3. **XLV / Health Care** — Best 3-month momentum (+14%), defensive posture in rising rate environment; sector rotation signal. Consider ABBV or LLY on pullback — need diligence session first.
+
+### Risk Factors
+- API blockage = cannot place, confirm, or modify any orders — CRITICAL blocker
+- Bessent Iranian airline sanctions = binary oil spike risk (if Iran retaliates, WTI could spike to $105+)
+- AMD/semi AI rally overextended — Nasdaq at ATH; reversal risk if yields re-escalate
+- 10-year at 4.79% — growth/tech valuations under pressure if yield resumes climb
+- Unknown account state — may already have SLB position at loss; cannot manage stops
+
+### Decision
+HOLD — API access remains the primary blocker. Cannot place or modify any orders from this environment. If SLB position exists, it is within allowable drawdown (~-5%, above -7% cut). AI semi rally is too extended to chase. Energy still top sector but oil headwinds from Iran deal normalization. No new entries until account state confirmed and API access restored.
