@@ -31,3 +31,11 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-09-23 — Market-Open Execution (9:30 ET)
+**Status:** BLOCKED — Alpaca API egress proxy denial (connect_rejected 403). No trades placed. No positions confirmed. ClickUp alert also blocked.
+
+**Manual action required:**
+1. Resolve proxy/IP restriction: whitelist sandbox IP in Alpaca paper account OR run from unrestricted environment
+2. Once access restored, run: `bash scripts/alpaca.sh account` and `bash scripts/alpaca.sh positions` to confirm current state
+3. This has now failed across 4+ sessions — persistent infrastructure issue preventing all trading activity

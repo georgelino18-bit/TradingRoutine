@@ -204,3 +204,30 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-23 — Market-Open Execution (9:30 ET)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked by egress proxy (connect_rejected 403)
+- Cash: Unknown (last confirmed: $100,000 Day 0 baseline; no trades confirmed placed)
+- Positions: Unknown — API inaccessible
+- Daytrade count: Unknown
+
+### Market Context
+- ALL EXTERNAL DATA UNAVAILABLE — both Alpaca and ClickUp APIs blocked by proxy policy
+- Proxy status: `paper-api.alpaca.markets:443` → connect_rejected (gateway 403 policy denial)
+- Same egress restriction as sessions on 2026-05-14 and 2026-05-15
+
+### Trade Ideas
+- None evaluated — no account data, no live quotes, no Perplexity research available
+
+### Risk Factors
+- Persistent proxy block prevents all API access (Alpaca paper trading + ClickUp notifications)
+- No positions can be confirmed, placed, or monitored
+- ClickUp alert failed — notification sent via PushNotification only
+
+### Decision
+NO ACTION — API inaccessible (proxy policy denial). No trades placed. No stops modified.
+Manual action required: whitelist sandbox IP in Alpaca paper account settings, or run from an IP-unrestricted environment.
