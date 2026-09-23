@@ -31,3 +31,12 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-09-23 — EOD Snapshot (Day ~95, Wednesday)
+**Portfolio:** N/A | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Alpaca API and ClickUp both returned 403 — egress proxy continues to block paper-api.alpaca.markets. No live data retrievable. No trades placed or confirmed. Last confirmed state remains Day 0: $100,000 cash, 0 positions (SLB order from 2026-05-15 still unconfirmed). This is the third session (Day 1, ~Day 68, ~Day 95) where both APIs have been unreachable. The sandbox environment's IP is not whitelisted on Alpaca paper account. Manual action required: whitelist the current sandbox IP in Alpaca paper account settings at https://app.alpaca.markets/paper-trading/overview → API → IP whitelist.

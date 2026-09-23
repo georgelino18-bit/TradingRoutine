@@ -20,3 +20,14 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-23 20:12 UTC (fallback — curl network error)
+EOD 2026-09-23 — API BLOCKED (Day ~95)
+Portfolio: N/A (Alpaca 403 — egress proxy blocking paper-api.alpaca.markets)
+Cash: N/A
+Trades today: none (API unreachable)
+Open positions: none confirmed (last known: 0 positions, Day 0; SLB order May-15 unconfirmed)
+ALERT: Alpaca + ClickUp APIs blocked — sandbox IP not whitelisted. 3rd occurrence.
+Action required: whitelist current sandbox IP at app.alpaca.markets → API → IP whitelist.
+Tomorrow: whitelist IP, then run pre-market + normal workflow.
