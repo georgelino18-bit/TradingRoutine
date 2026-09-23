@@ -204,3 +204,65 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-23 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked by egress proxy 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy blocking paper-api.alpaca.markets; persistent issue)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed positions placed since May 15)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (estimated)
+- NOTE: Both Alpaca and Perplexity APIs blocked by sandbox egress proxy. All research via WebSearch fallback.
+
+### Market Context
+- WTI / Brent: WTI ~$89–95/bbl (today's range $88.72–90.50; Trump UNGA context $94.59) | Brent ~$98–100 ($98.47 on Sept 22, $99.40 per overnight data) — Oil declining from $101–105 highs as Iran de-escalation talks surface
+- S&P 500 futures: +0.12% premarket; SPY ~$774.30 — cautiously positive; Nasdaq hit new record yesterday; mixed sentiment
+- VIX: ~14.81 (Sept 18 close; declining from 17.71 on Sept 16) — low fear, market complacent heading into Fed speeches
+- Today's catalysts:
+  - **Fed speeches 10:05 + 10:20 AM ET** — primary intraday catalyst; hawkish = rates-driven reversal; SPY must hold $773.70 and QQQ $745.60 for bullish bias to hold
+  - **FOMC recap**: Sept 16 hike — rates now 3.75–4.00% (+25bps, first hike since 2023); 16/18 Fed officials expect another hike in 2026; hawkish headwind for growth/multiples
+  - **Trump UNGA speech (Sept 22)**: "annihilate Iran" threat but also signaled peace deal possible post-Nov 3 midterms; WTI muted on mixed signals
+  - **Meta Muse AI agent** (launched Sept 8): #1 US App Store; META +25% this month (+11% on Sept 21); AI momentum strongest current theme
+  - **Trump–Xi meeting** rumored: "markets eye looming Trump-Xi meeting" per Benzinga — binary catalyst for FCX/copper
+  - **CTAS, PAYX, GIS** report before open — reads on labor (PAYX), business services (CTAS), consumer staples (GIS)
+- Earnings before open: CTAS (est EPS $1.35, rev $2.98B), PAYX (est EPS $1.32, rev $1.63B), GIS (est EPS $0.72, rev $4.34B)
+- Economic calendar Sept 23: **No major releases** — no CPI/PPI/jobs. Fed speeches only. Next key data: Jobs (Oct 2), CPI (Oct 14)
+- Sector momentum YTD: **Energy (XLE) +32–47% (leader)** | Tech (XLK) +33% | Industrials (XLI) +20% | Healthcare (XLV) lagging | Energy momentum may be shifting as oil declines on Iran talks
+
+### Trade Ideas
+
+1. **META (Meta Platforms)** — Muse AI agent launch catalyst ongoing; +25% in September alone; #1 App Store; AI agent = monetizable revenue stream; Wells Fargo PT $796, GS + MS upgraded
+   - Catalyst: Muse AI demand far exceeds expectations; ad revenue + subscription ($20/$100/mo) upside; AI infrastructure spending accelerating
+   - Entry: Pullback/consolidation day → enter on first red day with volume drying up; target entry ~$680–700 (from ~$720+ recent highs)
+   - Stop: 10% trailing stop from entry (~$612–630 zone)
+   - Target: $796+ (Wells Fargo PT); R:R ~2:1 minimum
+   - Size: ≤20% (~$20k); ~28–30 shares
+   - **Risk**: Stock up 25% in one month — extended; chase risk high; wait for orderly pullback
+
+2. **XOM or CVX** — Energy still #1 YTD sector; WTI $89–95 still elevated; major integrated oil cash flow machines; dividend support
+   - Catalyst: XLE +32–47% YTD; energy still leading sector; WTI floor ~$85–90 from Iran war structural disruption; Warsh hawkish = energy inflation beneficiary
+   - Entry: XOM ~$145–150 on sector confirmation; CVX ~$165–170
+   - Stop: 10% trailing GTC immediately on fill
+   - Target: +15–20% (R:R ≥2:1)
+   - Size: ≤20% (~$20k)
+   - **Risk**: Oil declining on Iran de-escalation narrative — if Iran deal materializes, energy thesis collapses; do NOT enter if WTI breaks below $85
+
+3. **FCX (Freeport-McMoRan)** — Copper demand; Trump–Xi meeting binary; if trade deal materializes, copper spikes
+   - Catalyst: Trump–Xi meeting rumored; copper = infrastructure + AI data centers + grid upgrade
+   - Entry: Post-deal confirmation only (do not anticipate); entry TBD on breakout above $70–72
+   - Stop: 10% trailing from entry
+   - Target: $80–85 range; R:R ≥2:1
+   - **Risk**: Binary catalyst — if no deal, FCX flushes; wait for confirmation
+
+### Risk Factors
+- Fed speakers today could tighten financial conditions further — 16/18 FOMC members expect another hike; rate hike cycle = P/E compression
+- Trump "annihilate Iran" threat = WTI spike risk + equity de-risk; peace deal rumors = WTI collapse = energy thesis bust
+- META extended +25% in one month — expensive to chase; pullback may be sharp
+- Trump–Xi meeting binary (FCX) — unknown timing and outcome
+- Alpaca API inaccessible — cannot place or confirm any orders this session
+- VIX 14.81 = complacency risk; vol spike on any negative surprise would flush recent gains
+
+### Decision
+**HOLD** — API inaccessible; cannot place orders. Even if access restored: META extended (wait for pullback), energy thesis weakening on oil decline (watch $85 WTI support). Best setup is META on first consolidation day. Monitor Fed speakers 10:05/10:20 AM ET — hawkish surprise = defensive posture; dovish pivot = entry signal for risk-on. No trade today. Patience > activity.
