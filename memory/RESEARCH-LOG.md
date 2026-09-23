@@ -204,3 +204,34 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-23 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (org egress policy blocks paper-api.alpaca.markets)
+- Positions: UNKNOWN — cannot retrieve
+- Cash: UNKNOWN
+
+### Actions Taken
+- None — API blocked; all scan steps requiring live data aborted
+
+### Loser Cuts (-7% rule)
+- BLOCKED — cannot retrieve positions to evaluate
+
+### Stop Tightening
+- BLOCKED — cannot retrieve positions or orders
+
+### Thesis Check
+- BLOCKED — no live data
+
+### Intraday Notes
+- Alpaca paper-api.alpaca.markets:443 returning 403 connect_rejected from org proxy policy
+- ClickUp API also unreachable (same proxy policy)
+- Pattern consistent with every session since 2026-05-14
+- **Action required:** Resolve org egress policy to whitelist paper-api.alpaca.markets and app.clickup.com
+
+### Decision
+NO ACTION — API infrastructure completely inaccessible. Manual review required.
+Critical: Account may have open positions with unmonitored stops since May 2026. Human must verify account state immediately.
