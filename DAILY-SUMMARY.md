@@ -20,3 +20,14 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-24 20:09 UTC (fallback — curl network error)
+EOD 2026-09-24 — API BLOCKED
+Portfolio: N/A (Alpaca egress blocked by org proxy policy)
+Cash: N/A
+Trades today: none (API unreachable)
+Open positions: unknown — last known state 2026-05-13: $100,000 cash, 0 positions
+SLB order (340sh) submitted 2026-05-15 status: UNCONFIRMED
+CRITICAL: paper-api.alpaca.markets blocked by sandbox network policy. Cannot retrieve account state or manage stops.
+Tomorrow: Restore API connectivity — whitelist egress in Claude Code environment or use local terminal to run scripts.
