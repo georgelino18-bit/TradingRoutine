@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-24 11:19 UTC (fallback — curl network error)
+2026-09-24 pre-market: VIX 15.18, SPX futs +0.50%, WTI 2.71/Brent 01.61. Trump-Xi truce EXTENDED to Jan 10 — FCX copper thesis live. Alpaca API still blocked. HOLD.
