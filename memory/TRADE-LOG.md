@@ -31,3 +31,18 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-09-24 — Midday Scan (12:00 ET)
+**Status:** BLOCKED — API access denied by org network policy
+
+- `paper-api.alpaca.markets` → 403 connect_rejected (proxy policy denial)
+- ClickUp API → 403 CONNECT tunnel failed
+- No positions retrieved, no stops checked, no loser cuts executed
+- No tighten actions possible
+
+**Manual action required:**
+1. `bash scripts/alpaca.sh positions` — check for any unrealized_plpc <= -0.07 (cut at -7%)
+2. Check for unrealized_plpc >= +0.15 (tighten trail to 7%) or >= +0.20 (tighten to 5%)
+3. Cancel old trailing stop for tightened positions, place new GTC trailing stop
+4. SLB stop from 2026-05-15 still unconfirmed — verify position and stop are active
+5. Alert ClickUp once access is restored
