@@ -204,3 +204,43 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-24 — Pre-market Research
+*Note: Perplexity API blocked by proxy (exit 3); all data via WebSearch fallback.*
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy blocks paper-api.alpaca.markets, persistent)
+- Cash: ~$100,000 estimated (last confirmed Day 0 baseline; 0 positions)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+
+### Market Context
+- WTI / Brent: WTI ~$92.71 / Brent ~$101.61 (Sep 23 close, both +2.4% DoD); large WTI-Brent spread signals domestic supply vs. geopolitical bid
+- S&P 500 futures: +0.49–0.50% premarket; recovering from overnight losses; NY Fed Williams dovish (inflation trending down); 10yr yield -1bp to 4.79%
+- VIX: 15.18 (up from 14.21 prev close; +6.8%) — low, benign, no stress
+- Today's catalysts:
+  - **Trump–Xi summit IN PROGRESS (US, Sep 24)**: Trade truce EXTENDED through Jan 10 (was expiring Nov 10) — confirmed positive for risk assets, copper, materials, semis; AI/tech/Taiwan tensions remain unresolved
+  - **Meta AI chatbot** strong demand — AI sentiment broadly positive
+  - US business activity fastest pace since 2021 — mild inflation concern, keeps Fed cautious
+  - **10yr yield** ~4.79–5.1% range — elevated, rate pressure on growth names
+- Earnings before open: ~13 reports scheduled Sep 24; no high-conviction names identified (pre-market specifics unavailable via WebSearch)
+- Economic calendar: No confirmed CPI/PPI/FOMC/jobs releases for Sep 24; next FOMC date TBD
+- Sector momentum YTD 2026: Energy +34.5% (leader), Materials +22%, S&P +13% | Tech –3.83%, Disc –4.62%, Fins –5.7% (laggards)
+
+### Trade Ideas
+1. **FCX** (copper/materials) — Trade truce extension confirmed is direct catalyst; copper demand thesis intact; China trade engine roaring per Xi summit context. Entry on morning dip after initial news flush, stop 10% below entry (~$60–$65 range depending on open), target +15% (~$70–$75). Size ≤20% (~$20k). *Requires API access + fresh price diligence before entry.*
+2. **XOM / Energy sector** — Energy YTD leader (+34.5%); WTI $92 + Brent $101 wide spread suggests Brent-linked international plays benefit most. Wait for clean pullback setup with 2:1 R:R; do not chase. *Monitor only.*
+3. **NVDA / AI infrastructure** — Trade truce reduces near-term chip export uncertainty; Meta AI demand tailwind; Tech is YTD laggard (-3.83%) = mean-reversion potential. High risk given elevated yield environment. *Watchlist only; no entry until API restored and fresh diligence.*
+
+### Risk Factors
+- Alpaca API inaccessible — CANNOT place orders until proxy allowlist resolved (critical blocker, Day 1 unresolved)
+- 10yr yield elevated (4.79–5.1%) — headwind for growth/tech; watch for yield spike on hot economic data
+- Trade truce extended ≠ resolved — any breakdown risks sharp risk-off in copper, semis, EM
+- WTI-Brent spread ($9+) — if WTI catches up sharply, energy costs spike → stagflation amplifier
+- ~4.5 months of account dormancy — need fresh diligence on all tickers before sizing any position
+- Market +13% YTD — less margin for error on new entries; patience premium high
+
+### Decision
+HOLD — API still inaccessible; no trades can be placed. Trade truce extension is constructive for FCX thesis (copper/materials). Monitor FCX for entry setup post-news-digest. No blind entries after 4+ months dormant; require API access + same-day diligence before any new position. Patience > activity.
