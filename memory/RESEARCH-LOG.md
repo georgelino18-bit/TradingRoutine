@@ -204,3 +204,51 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-25 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (egress proxy rejection, same as prior sessions)
+- Cash: ~$100,000 estimated (last confirmed Day 0; SLB order from 2026-05-15 unconfirmed)
+- Buying power: Unknown
+- Daytrade count: Unknown
+- **CRITICAL:** Pending SLB order (340sh, ID 6c529f05) from 2026-05-15 — fill status unknown; cannot verify via API
+
+### Market Context
+- **WTI:** ~$94.26 (range $93.74–$94.73 on 9/25); +2.82% prior day — elevated, down from ~$101 in May
+- **Brent:** ~$106.74–$107.17 range
+- **S&P 500 Futures:** 7,756.25; ESU26 +0.49% — recovering from overnight losses; yields retreating helps
+- **VIX:** ~15.67–16.34 — low/benign; historical range context: 52-wk high ~35+ earlier in year
+- **Today's releases (9/25):**
+  - Advance Durable Goods 8:30 AM ET
+  - Michigan Consumer Sentiment Final 10:00 AM ET
+  - NY Fed Staff Nowcast 12:45 PM
+- **Key catalysts:**
+  - Trump–Xi meeting (ongoing): AI, trade, Ukraine/Russia, Iran discussed; Xi may confirm ~200-jet Boeing order (positive for BA, industrials)
+  - Oracle force majeure: weighing on tech; yields near 19-yr highs adding pressure to growth stocks
+  - Energy: WTI ~$94, off May highs but structurally elevated; Hormuz/US-Iran war ongoing
+  - Rising treasury yields pressuring equity multiples broadly
+
+### Sector Momentum (YTD 2026)
+- **Leading:** Energy (XLE) +47.7%, Materials (XLB) +22%, Industrials (XLI) — all classified "Leading"
+- **Lagging:** Tech (XLK), Communications (XLC), Consumer Discretionary (XLY, -5.0%), Financials (XLF)
+- **Improving:** Real Estate (XLRE), Utilities (XLU)
+- **Weakening:** Healthcare (XLV)
+
+### Trade Ideas
+1. **HAL (Halliburton)** — Catalyst: WTI $94 sustained + Venezuela MOUs + Q3 earnings upcoming. Consensus Moderate Buy; avg PT $43.79 (+30% from current ~$33.67). Energy sector #1 YTD. Entry: wait for Q3 earnings reaction or consolidation setup. Stop 10% below entry. Target +20–25%. R:R ~2.0–2.5:1. Size ≤20% (~$20k). **Flag for /market-open if Alpaca access restored.**
+2. **SLB (Schlumberger)** — UBS PT $75, Buy rating. Current ~$51. MACD turned negative 9/10 — wait for technical reversal before adding. WTI $94 structural support. R:R from $51: risk ~$5.10 (10% stop ~$45.90) vs target ~$12.75 (+25% ~$63.75) = ~2.5:1. **Monitor only until MACD turns positive.**
+3. **BA (Boeing)** — Trump–Xi Boeing order confirmation (200 jets) would be direct catalyst. Watch for news at open. If confirmed, momentum entry on breakout with 8% stop. Speculative — wait for official confirmation before sizing.
+
+### Risk Factors
+- Alpaca API inaccessible — CANNOT place, verify, or manage any orders; critical operational risk
+- Rising yields near 19-yr highs — compresses multiples, hurts growth names
+- Oracle force majeure signal — potential broader tech contagion
+- WTI $94 vs May $101 — energy down ~7% from peak; if oil rolls over further, thesis weakens
+- SLB open order unconfirmed — unknown exposure since May 15; manual resolution required
+- Trump–Xi summit uncertain — no finalized trade deal yet; if disappoints, risk-off
+
+### Decision
+**HOLD — API access is primary blocker.** Cannot place or manage positions. Energy sector remains #1 YTD and HAL/SLB setups are valid, but Alpaca 403 persists. Manual action required: (1) resolve Alpaca API egress access, (2) verify SLB order fill from May 15, (3) then evaluate HAL entry if WTI holds $90+. Patience > activity.
