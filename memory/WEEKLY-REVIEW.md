@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-09-25
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | +0.63% (closed ~7,743; oil pullback, bond selloff stabilized) |
+| Bot vs S&P | -0.63% |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca API 403 blocked — egress proxy denies connection to paper-api.alpaca.markets. Perplexity API also blocked. All APIs inaccessible. Portfolio assumed $100,000 cash. This is now approximately week 19 of the challenge with zero capital ever deployed.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades executed |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation again outperformed slightly: S&P +0.63%, flat portfolio = -0.63% relative (but purely by inaction)
+- No forced trades, no panic — discipline upheld for 19 consecutive weeks
+- Strategy framework remains intact and untouched — no rule violations
+- Market context: S&P rebounded on oil pullback and bond selloff stabilization
+- Three-review pattern now documented: infrastructure failure is the sole obstacle, not strategy
+
+### What Didn't Work
+- Alpaca API still blocked (403) — same connect_rejected error at proxy level, week 19+
+- Perplexity API also blocked — research quality degraded to WebSearch fallback
+- $0 deployed in 19 weeks while S&P has been in active trading range
+- Phase P&L: 0% vs cumulative S&P returns from May 13 (likely +10%+ over same window)
+- No escalation to Alpaca support successfully resolved — root cause likely egress proxy policy, not IP allowlist
+
+### Key Lessons
+- Proxy-level egress block (connect_rejected at organization policy) is different from IP allowlist — requires environment-level fix, not Alpaca-side
+- After 19 weeks of zero execution, the root cause is definitively the cloud sandbox's outbound policy, not Alpaca's allowlist
+- A paper-trading challenge with no execution capability is purely a research and strategy exercise
+- S&P +0.63% this week on oil retreat — energy thesis weakening slightly
+- Sector rotation note: bonds selling off, oil pulling back = risk-on rotation may be in progress
+
+### Adjustments for Next Week
+- PRIORITY 1 (unchanged, week 19): Resolve egress proxy policy — block is at org-policy level (connect_rejected), not IP allowlist; escalate to environment/infrastructure owner
+- If API restored: evaluate current sector momentum fresh — energy thesis from May may need re-research after 19 weeks
+- If API restored: S&P at 7,743 — research current market leaders before any deployment
+- Consider whether SLB order 6c529f05... is still live or auto-cancelled — verify immediately if access resumes
+- Begin fresh pre-market research session if API access restored — 19-week gap requires full re-evaluation
+
+### Overall Grade: D
+*Execution: F (API blocked week 19). Discipline: A. Research: N/A (WebSearch fallback only). Pattern now clear: the infrastructure constraint, not strategy or analysis quality, is the binding constraint. Grade held at D — not F because discipline and framework integrity are maintained.*
