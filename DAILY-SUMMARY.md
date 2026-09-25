@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-25 11:23 UTC (fallback — curl network error)
+2026-09-25 pre-market: Energy #1 YTD (+47.7%), WTI 4, VIX 15.7, SPX futs +0.49%. HAL/SLB setups valid. HOLD — Alpaca API blocked (403), SLB May order unconfirmed. Manual: fix API access.
