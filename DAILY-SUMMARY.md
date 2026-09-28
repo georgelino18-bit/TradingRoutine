@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-28 13:54 UTC (fallback — curl network error)
+MARKET-OPEN BLOCKED 2026-09-28: Alpaca + Perplexity APIs both returning 403 (proxy policy denial). No account access. No orders placed. Manual intervention required to whitelist sandbox IP on Alpaca paper account and env network policy.
