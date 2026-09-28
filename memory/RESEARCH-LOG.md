@@ -204,3 +204,47 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-28 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (proxy egress policy; paper-api.alpaca.markets:443 rejected)
+- Cash: ~$100,000 estimated (no confirmed positions since May 2026 baseline)
+- Buying power: ~$100,000 estimated
+- Daytrade count: unknown
+- **CRITICAL:** SLB 340sh market order submitted 2026-05-15 (order ID 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) — fill status STILL UNCONFIRMED. API access required to verify.
+
+### Market Context
+- **WTI:** ~$94.10–96.16 (+1.83–4%) — Trump rejected Iran peace proposal; Hormuz closure persists; oil spiking
+- **Brent:** ~$106.89–108.48 (+2.46–4%)
+- **S&P 500 futures:** ES +0.47%, Dow +0.86% — mixed; defensive rotation out of tech/metals into energy/staples
+- **VIX:** ~15.67 (Sept 24 reading) — low, muted fear; down from 21.51 in June
+- **Today's catalysts:**
+  - Trump rejected Iran peace proposal → sustained oil bid; Hormuz structural closed
+  - US-China tariff reduction agreement details disclosed today (supports Materials)
+  - Dallas Fed Manufacturing Index today (8:30 ET)
+  - OpenAI Developer Day Tuesday Sept 29 (AI sentiment)
+  - **MU Q4 FY2026 earnings Wednesday Sept 30 after close** — EPS est $31.52 vs $3.03 prior year; $1,085/sh; mega binary
+  - JOLTs Tuesday; Core PCE + GDP Q3 Final Wednesday; Jobs report Friday Oct 3
+  - PCE tracking ~3.49% core YoY — sticky inflation, Warsh era hawkish
+- **Earnings BMO today (Sept 28):** Quiet — no major caps before open; Vail Resorts + Jefferies after close
+- **Sector momentum YTD:** Energy +47.7% (leader), Materials +22% (leader), Industrials + Staples (leading). Tech, Discretionary, Financials (lagging). Clear: buy energy, avoid tech/growth short-term.
+
+### Trade Ideas
+1. **SLB / HAL (Energy — oilfield services):** Hormuz still closed, Trump rejection = sustained WTI bid. Energy leads YTD +47.7%. SLB had unconfirmed order from May 15 — if filled, add 10% trailing stop immediately. If not filled, setup still valid: entry SLB ~$42–44 range, stop 10% below entry (~$38–40), target +15–20% (~$48–53). R:R ~2:1. Size ≤20% (~$20k). Catalyst: sustained WTI above $90. BLOCKED — cannot place/verify without API.
+2. **MU (Memory/AI — binary event):** Q4 FY2026 earnings Wednesday Sept 30 after close. EPS est $31.52 (+940% YoY) — AI memory demand explosive. DO NOT enter before binary. If gap-up Thursday open on beat + AI guidance → enter at open, stop 10% below reaction low, target +15%, R:R ≥2:1. Size ≤20% (~$20k). Note: $1,085 stock = ~18 shares for $20k position.
+3. **FCX / Copper (Materials):** US-China tariff reduction details today → copper/materials bid. Sector strong +22% YTD. Monitor for confirmed setup; FCX was at $67 in May — check current level before entry. R:R must clear 2:1.
+
+### Risk Factors
+- Alpaca API inaccessible — cannot place, verify, or manage orders (persistent proxy block since May 14, 2026)
+- MU binary Wednesday Sept 30 — largest AI memory read this quarter; do not hold through earnings
+- Jobs report Friday Oct 3 — potential volatility
+- Core PCE ~3.49% sticky + Warsh hawkish = rate cut delay risk; growth headwind
+- WTI spike = stagflation amplifier if sustained; drags consumption/discretionary
+- Trump Iran rejection could escalate → geopolitical premium in energy, risk-off elsewhere
+- University of Michigan sentiment 48.1 — near historic low; consumer stress building
+
+### Decision
+**HOLD** — API access blocked (cannot trade). Two binaries this week (MU Wed, Jobs Fri). No confirmed positions. Energy thesis is strongest; SLB unresolved order must be verified first. Queue MU entry for post-earnings reaction Thursday if beat. Patience > activity.
