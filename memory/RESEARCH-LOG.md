@@ -204,3 +204,56 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-29 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy policy blocks paper-api.alpaca.markets)
+- Cash: UNKNOWN — last confirmed state: $100,000 cash, 0 positions (Day 0, 2026-05-13)
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- **CRITICAL:** SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, pre-market 2026-05-15) — fill status UNCONFIRMED for 4.5 months; trailing stop placement also unconfirmed. API access required to resolve.
+
+### Market Context
+- **WTI:** ~$93.16 (Sep 28 close, up 0.81%); Brent $105.31 (Sep 29, up 0.03%) — large spread reflects Hormuz routing disruption
+- **S&P 500:** Futures -0.26% premarket; last close 7,684.50 (above 50-DMA 7,640; above 200-DMA 7,209); mixed open expected
+- **VIX:** 16.34 (range: closed 14.87 on Sep 28; up ~14.7% YTD) — elevated but not panic; room for further vol expansion with rate hike risk
+- **Hormuz / Iran:** Crisis ongoing since Feb 28, 2026 (US-Israel air war vs. Iran). IEA calls it "largest supply disruption in history of global oil market." ~5–7M bbl/day through strait in Aug (improving). US rejected Iran sanction-relief terms Sep 29 — talks to resume. Structural oil bid remains.
+- **Fed:** Hiked Sep 16 to 3.75–4.00% (first hike since 2023). Next FOMC Oct 27–28; market pricing 65% odds of another hike. Rate hike cycle = headwind for growth/tech.
+- **Today's catalysts:**
+  - Carnival (CCL) Q3 earnings BMO today
+  - JOLTs job openings (Aug) today
+  - Consumer Confidence today
+  - PCE inflation index (Aug, Fed's preferred gauge) Wednesday
+  - Manufacturing data Thursday
+  - September Jobs Report Friday (BIG catalyst)
+  - AMD acquiring World Labs (Fei-Fei Li's physical AI startup) for $8.2B all-stock — AMD -4% premarket on dilution concern; Fei-Fei Li joins as EVP/Chief Scientist
+  - SMMT (Summit Therapeutics) +20% premarket on AstraZeneca $2B equity investment
+- **Sector momentum YTD (Sep 2026):** Energy (leader, Hormuz bid), Materials (+22%, inflation hedge), Industrials, Consumer Staples — Leading | Tech (XLK), Communications (XLC), Discretionary (XLY), Financials (XLF) — Lagging | Healthcare — Weakening
+
+### SLB Update (held ticker)
+- Price: $51.27 (Sep 28 close, -0.52%)
+- From May 15 est. entry ~$43–46: unrealized gain ~+11–19% range (unconfirmed)
+- Analyst consensus: Buy | 12-month target $62.41 (+21% from current)
+- News: Won 4 integrated well-construction contracts from Aramco (bullish thesis intact); acquiring Kelvion (thermal mgmt) for $4.1B — data center diversification
+- Q3 earnings call: Oct 23, 2026
+- **Action needed:** Confirm fill + stop status via API or manual Alpaca dashboard check
+
+### Trade Ideas
+1. **SLB** — If confirmed filled, at $51.27 position is ~+14–18% from est. entry. At +15%, strategy rules require tightening trail to 7% (~$47.68 stop if entry ~$44). Likely needs stop tightening. **Priority 1: confirm position and stop before new entries.**
+2. **Energy services (HAL)** — Aramco capex accelerating; Hormuz structural disruption intact; oilfield services demand high. HAL complementary to SLB. Evaluate if SLB confirmed and slot available. Entry only after account access restored.
+3. **Materials play (MP Materials / FCX)** — Materials sector +22% YTD; inflation hedge narrative intact; rare earth / copper thesis (Hormuz + geopolitical supply chains). Requires fresh diligence — deferred until API access restored.
+
+### Risk Factors
+- Alpaca API inaccessible — cannot manage open position (stops, cuts, tightening)
+- Fed likely hiking again Oct 28 (65%) — kills growth rotation, supports Energy/Staples/Materials
+- S&P futures slightly negative; Jobs Friday could be the big catalyst this week
+- AMD -4% on acquisition — semis/AI names under pressure; not our sector but signals risk-off sentiment
+- Hormuz slight improvement (Aug 5–7M bbl/day) — could reduce oil spike; but US rejected Iran terms today = no relief imminent
+- Oil prices "retreating" intraday Sep 29 per early reports — watch for WTI <$90 breakdown
+- CCL earnings today — travel/consumer read-through
+
+### Decision
+HOLD — Cannot manage positions without API access. SLB position fill unconfirmed for 4.5 months. **Urgent manual action required:** log into Alpaca paper account dashboard, confirm SLB fill status, verify/place trailing stop if not already active. Energy thesis (Hormuz) and Materials momentum remain intact. No new entries until existing position confirmed and API access restored. Jobs Friday = big catalyst — stay flat into it if possible.
