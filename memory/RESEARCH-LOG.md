@@ -177,6 +177,32 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ---
 
+## 2026-09-29 — Market-Open Execution Attempt
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy blocking paper-api.alpaca.markets)
+- Cash: ~$100,000 estimated (no confirmed positions since Day 0)
+- Buying power: UNAVAILABLE
+- Daytrade count: UNAVAILABLE
+
+### API Status
+- Alpaca: BLOCKED (403 — proxy denied CONNECT to paper-api.alpaca.markets:443)
+- Perplexity: BLOCKED (403 — same proxy restriction)
+- ClickUp: BLOCKED (403 — CONNECT tunnel rejected)
+
+### Actions Taken
+- None — all external APIs inaccessible. No trades placed, no positions confirmed.
+
+### Decision
+HOLD — API access is the critical blocker. Cannot validate account state, retrieve quotes, or place orders.
+
+**Manual action required:**
+1. Whitelist sandbox IP on Alpaca paper account (Settings → API → Allowed IPs)
+2. Verify ClickUp webhook allowlist
+3. Re-run market-open workflow once access is restored
+
+---
+
 ## 2026-05-14 — Midday Scan
 
 ### Account
