@@ -204,3 +204,27 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-30 — Market-Open Execution Attempt
+
+### Status: BLOCKED — APIs inaccessible
+
+- **Alpaca API:** 403 — `paper-api.alpaca.markets:443` blocked by egress proxy (policy denial)
+- **ClickUp API:** 403 — same proxy policy denial; fallback logged to DAILY-SUMMARY.md
+- **Perplexity API:** Not tested (Alpaca blocked first)
+
+### Actions Taken
+- None — cannot retrieve account/positions, cannot place orders, cannot place stops
+
+### Root Cause
+Remote execution environment IP is not permitted to reach `paper-api.alpaca.markets`. Same issue first documented 2026-05-14.
+
+### Decision
+NO TRADES EXECUTED — Manual intervention required.
+
+**Action required:**
+1. Whitelist the remote sandbox IP in Alpaca paper account settings (Security → API → allowed IPs)
+2. Confirm ClickUp webhook URL is also accessible from sandbox IP
+3. Re-run `/market-open` after whitelist is confirmed
