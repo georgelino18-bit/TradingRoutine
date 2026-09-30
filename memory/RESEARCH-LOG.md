@@ -204,3 +204,60 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-09-30 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (egress proxy blocks paper-api.alpaca.markets)
+- Cash: ~$100,000 estimated (SLB order 6c529f05 submitted 2026-05-15 never confirmed; assume 0 positions)
+- Buying power: ~$100,000 estimated
+- Daytrade count: unknown
+
+### Market Context
+- **WTI:** $89.40 (-3.46% today) — Trump SPR release announced; WTI retreating from May high of ~$101
+- **Brent:** $97.09 (+0.97%) — spread widening vs WTI
+- **S&P 500 futures:** +0.1% (E-minis +8pts); US500 at 7684; S&P +9% YTD
+- **VIX:** ~16.34 (Sep 2026 avg); mid-Sep range 14.81–15.18 — elevated but not fearful
+- **Yields (CRITICAL):** 30yr Treasury at 5.6% (2002 high); 10yr at ~5.3% (2007 high) — major macro headwind
+- **Today's releases (8:30 ET):**
+  - PCE Price Index Aug: est. 3.7% YoY (prev 3.7%) — Fed's preferred gauge; key rate trigger
+  - GDP Q2 Third Estimate
+  - ADP Employment (12:15 PM): est. +72K (prev +38K)
+- **BMO earnings:** CALM (est -$0.71), CAG ($0.28), FDS ($4.35), JBL ($4.06)
+- **AMC earnings:** Micron MU — EPS est $8.80 (+464% YoY), Rev est $19.3B (+140%) — MAJOR binary
+- **Anthropic IPO prospectus** filed — AI sector sentiment positive
+
+### Sector Momentum YTD
+- Energy (XLE): **+42%** — LEADER (Trump SPR release = short-term headwind; structural bid from Hormuz era)
+- Materials (XLB): +15.86%
+- Industrials (XLI): +12.62%
+- Health Care (XLV): +10.10%
+- Financials (XLF): **-6.3% in September alone** — worst month since Mar 2023; rate shock
+- Comm Services (XLC): -5.60% YTD
+- Consumer Discretionary (XLY): -3.02% YTD
+
+### SLB Position Update
+- SLB order (340sh market buy, May 15) never confirmed due to persistent Alpaca API block
+- NEW: SLB awarded 4 multi-year well construction contracts by Aramco (Sep 24)
+- NEW: SLB awarded OQEP integrated facility expansion contract in Oman (Sep 23)
+- NEW: UBS raised PT $72 → $75, Buy maintained (Sep 14) — bullish
+- Q3 earnings call Oct 23 for quarter ending Sep 30
+- WTI at $89 vs. May entry thesis of $101 — thesis weakened by SPR release but Aramco contracts confirm demand floor
+
+### Trade Ideas
+1. **MU (Micron)** — Binary AMC tonight. EPS est $8.80 (+464% YoY), Rev est $19.3B — AI HBM demand (Vera Rubin uses 3x DRAM vs Blackwell), $618B hyperscaler capex 2026. **WAIT for post-earnings gap-up reaction tomorrow.** If confirmed beat + guidance raise → enter at open, stop 10% below reaction low, target +15%, R:R ≥2:1. Size ≤20% (~$20k).
+2. **SLB** — Energy still +42% YTD leader. New Aramco contracts bullish. WTI pullback to $89 is SPR-driven (temporary); Brent at $97 suggests structural demand intact. Confirm SLB fill status manually. If unfilled: re-evaluate entry only if WTI stabilizes above $87 and R:R ≥2:1 (stop $<entry×0.90, target +15%). Next binary: Q3 earnings Oct 23.
+3. **JBL (Jabil)** — Reports BMO today ($4.06 est). If beats on AI server/data-center electronics exposure → possible entry tomorrow. Low conviction; monitor only.
+
+### Risk Factors
+- **PCE 3.7%** — if hot (≥3.8%), rate hike fears spike; 30yr at 5.6% is already 2002-level stress
+- **WTI -3.46% today** — Trump SPR release directly threatens energy sector thesis
+- **Rate regime:** 30yr 5.6% / 10yr 5.3% — growth stocks at risk; capital is expensive
+- **MU binary tonight** — do not enter before close; wait for reaction
+- **Alpaca API inaccessible** — cannot confirm positions, stops, or account balance
+- **Financials off -6.3% in September** — suggests rate stress spreading to credit/banking
+
+### Decision
+**HOLD** — MU binary tonight is primary opportunity; enter post-reaction tomorrow only on confirmed beat + gap-up. SLB thesis remains but needs WTI stabilization and API confirmation of fill status. PCE data at 8:30 ET is today's binary macro event — if hot, stand aside. Patience > activity.
