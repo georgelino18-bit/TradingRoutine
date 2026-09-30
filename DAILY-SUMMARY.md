@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-09-30 11:25 UTC (fallback — curl network error)
+Pre-market 2026-09-30: HOLD — MU binary AMC tonight (+464% EPS est); PCE 3.7% at 8:30 ET; WTI 9 (-3.46%); 30yr yield 5.6%; Alpaca API still blocked
