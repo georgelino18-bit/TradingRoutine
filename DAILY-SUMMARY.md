@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-10-01 11:23 UTC (fallback — curl network error)
+Pre-market 2026-10-01: API blocked, HOLD — WTI 0 (Brent -1.3%), VIX 16.59, ISM Mfg 10ET, NFP tomorrow; SLB earnings Oct 16 — verify position URGENT
