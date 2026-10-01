@@ -204,3 +204,64 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-01 — Pre-Market Research (Q4 Day 1)
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API 403 (network policy / IP restriction persists)
+- **Cash:** ~$100,000 estimated (no confirmed fills since Day 0)
+- **Open Positions:** UNKNOWN — SLB order (340sh market buy) submitted 2026-05-15 was never confirmed; cannot verify if filled or expired
+- **Day Trades:** UNKNOWN
+- **Action required:** Alpaca IP allowlist must be resolved before any order activity; log position state manually once API accessible
+
+### Market Context
+- **WTI:** ~$90.06 (-0.40%) | **Brent:** ~$96.76 (-1.30%) — both pulling back; Brent down more sharply
+- **S&P 500 Futures:** +0.2% (mixed; yields rising, Q4 kick-off)
+- **VIX:** ~16.59 (calm; down from 17.98 in May, well below 52-wk high 35.30)
+- **Core PCE (Aug):** +0.2% MoM (vs 0.3% forecast), 3.0% YoY — inflation cooling
+- **Fed:** Goldman Sachs moved next rate hike to December (from October); Warsh hawkish but patient near-term
+- **Nikkei:** +3.1% to 68,840 on chip/AI stocks; Korean exports surge in semis
+
+### Today's Catalysts
+- **10:00 ET — ISM Manufacturing PMI (Sep 2026):** Key early-quarter read; manufacturing has been soft; contraction = risk-off
+- **After Close — NKE earnings:** Discretionary sector laggard (-0.8% YTD); miss could weigh on sentiment
+- **After Close — ACN earnings:** Consulting/IT sector barometer
+- **Oct 2 — NFP Jobs Report (8:30 ET):** Tomorrow; strong payrolls = more Fed hawkishness
+- **Oct 8 — SLB dividend:** $0.295/share ex-date approaching
+- **Oct 16 — SLB Q3 earnings:** Binary event; must clarify position status before then
+- **US-Iran diplomacy backchannels ongoing:** Oil pricing relief (Brent off highs); any breakdown = spike risk
+- **Micron (MU) outlook:** Solid beat but margin compression warning — chip stocks mixed
+
+### Sector Momentum (YTD through ~Aug 2026)
+- Leaders: Energy +39.4% | Technology +32.1% | Industrials +20.6% | Materials +13.2%
+- Laggards: Comm Services -3.8% | Consumer Discretionary -0.8%
+- Energy leads but WTI retracing from $101+ highs to $90 — thesis weakening near-term
+
+### SLB Update
+- Earnings: Oct 16, 2026 (Q3 — binary event)
+- Dividend: Oct 8, $0.295/sh
+- Acquired Kelvion (data centers/thermal management) — diversification bullish
+- New contracts: Brunei Shell (offshore production restoration), Equinor Norway (stimulation deal)
+- Analyst target: $57.75 | Buy consensus — but mild cautionary tone on crude swings
+- Original thesis (Hormuz/WTI $101+) partially intact but oil at $90 narrows margin of safety
+
+### Trade Ideas
+1. **SLB (PRIORITY: VERIFY)** — Cannot trade until Alpaca API accessible. If filled at ~$54 (May 2026), current price vs stop unknown. Earnings Oct 16 is binary — need to confirm position and stop status BEFORE Oct 16. If not filled, re-evaluate entry given WTI at $90 (not $101): only enter if WTI stabilizes above $88 and ISM manufacturing shows expansion. Stop 10% below entry, target +20%, R:R ≥2:1.
+2. **MU (Micron)** — Solid Q3 beat with margin compression. AI/HBM demand intact. Korean export surge confirms semiconductor cycle. Watch for pullback to set up entry; do not chase. ISM manufacturing expansion would validate.
+3. **NVDA or SMH (semis ETF)** — Nikkei +3.1% on AI stocks; Korean semis strong. If ISM surprises to upside and VIX stays below 18, semiconductor setup attractive. Need API access first.
+
+### Risk Factors
+- **API blocked** — No orders can be placed or verified; primary operational blocker
+- **WTI pullback to $90** — Core energy thesis weaker; Brent -1.3% today
+- **US-Iran diplomacy** — Oil relief trade = partial structural bid gone; breakdown = spike + stagflation
+- **Yields surging** — Fed hawkishness (Warsh) pressures growth/tech multiples
+- **ISM Manufacturing** — If contracts (below 50), risk-off; industrial/energy pressured
+- **NFP tomorrow (Oct 2)** — Hot jobs = hawkish = rate hike December back on table
+- **NKE/ACN earnings tonight** — Risk-tone setter after close
+
+### Decision
+**HOLD / VERIFY** — API inaccessible; no trades can be placed. Primary action: resolve Alpaca IP allowlist. Secondary: confirm SLB position status before Oct 16 earnings. Market context neutral-to-constructive (VIX low, PCE cooling) but yields rising and ISM/NFP uncertainty this week argue for patience. Semiconductor sector gaining momentum — watchlist MU, NVDA for entry once API access restored. Patience > activity.
+
+**Fallback note:** Perplexity API also returned 403 (connect_rejected); all research via native WebSearch.
