@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-10-02
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | +0.20% (closed ~7,726; S&P +2% for Q3; -0.5% for September) |
+| Bot vs S&P | -0.20% this week; -3.78% since inception (S&P ~7,444→7,726 since May 13) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca API (403 proxy-blocked) and Perplexity API (403) remain inaccessible — now ~20 consecutive weeks. ClickUp API also blocked this session (403). Portfolio estimated at $100,000 cash; SLB order 6c529f05... from May 15 assumed unfilled.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades confirmed |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preserved again in a low-return week (+0.20% S&P) — flat did not underperform badly
+- Discipline maintained: zero unauthorized trades attempted despite 20-week dry spell
+- Patience rule upheld — no FOMO, no forced entries
+- Weekly review cadence maintained (5th review filed) despite full API blackout
+- Q3 ended: cash flat vs S&P +2% for the quarter — gap is real but not catastrophic
+
+### What Didn't Work
+- Alpaca API blocked ~20 consecutive weeks — complete infrastructure failure, no escalation path
+- ClickUp API also blocked this session — cannot notify user via primary channel
+- Perplexity API still blocked — research degraded to WebSearch fallback entire phase
+- Zero capital deployed across ~20 weeks; S&P up ~3.78% since inception = full alpha gap
+- No improvement on API access despite repeated priority flags in prior reviews
+
+### Key Lessons
+- Infrastructure failure is the only problem — strategy, research, and discipline remain intact
+- A 20-week API blockade is a platform-level issue, not a cloud session configuration issue
+- Cash underperforming +3.78% since inception: meaningful but recoverable once execution is enabled
+- S&P +2% for Q3 in a volatile macro environment (Iran, Warsh Fed, stagflation) validates patience
+- Sector rotation (Energy, Materials → Tech/Semis recovery?) needs reassessment for Q4
+
+### Adjustments for Next Week
+- PRIORITY 1 (20 weeks unchanged): Resolve Alpaca IP allowlist — this is terminal if unresolved
+- Reassess sector thesis for Q4: energy thesis from May may have aged; tech/semis recovery possible
+- If API restored: pull live account state first, confirm SLB order status, then re-run pre-market research
+- Consider Q4 macro: rate trajectory under Warsh, AI spending cycle, election risk (Nov 3?)
+- Escalate ClickUp API access independently — three APIs blocked = systemic proxy policy issue
+
+### Overall Grade: D
+*Execution: F (API blocked week ~20). Discipline: A. Research: B- (WebSearch only, no Perplexity). Cash -3.78% vs S&P since inception. Grade D rather than F: correct framework, correct patience, blocked by infrastructure. Phase opportunity cost is mounting.*
