@@ -31,3 +31,17 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-10-02 — Market-Open Execution (9:30 ET)
+**Status:** BLOCKED — Network proxy rejecting all outbound API connections
+
+- Alpaca paper-api.alpaca.markets: 403 connect_rejected (proxy policy denial)
+- ClickUp API: 403 connect_rejected (proxy policy denial)
+- No account data retrieved, no positions checked, no orders placed
+- No trades executed today
+
+**Manual action required:**
+1. Whitelist `paper-api.alpaca.markets` and `api.clickup.com` in the remote environment network policy
+2. Re-run `/market-open` workflow once network access is restored
+3. Check if any open positions exist (last known state: SLB order ID 6c529f05 pending from 2026-05-15 — status unknown for ~4.5 months)
+4. Weekly trade count unknown — verify before placing any new trades (max 3/week)
