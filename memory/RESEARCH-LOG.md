@@ -204,3 +204,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-02 — Pre-Market Research (Friday NFP Day)
+
+### Account Snapshot
+- **Status:** UNAVAILABLE — Alpaca API blocked by org proxy policy (403 connect_rejected); same restriction as prior sessions
+- **Perplexity:** Also blocked (403); all research via WebSearch fallback (noted)
+- **Assumed state:** ~$100,000 cash, 0 confirmed positions
+- **CRITICAL UNKNOWN:** SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` (340sh market buy, submitted 2026-05-15) — status unconfirmed for 5 months; no stop was ever placed; requires API access to verify before any new trades
+
+### Market Context
+- **WTI crude:** ~$92.63–92.77/bbl (↓0.26% day)
+- **Brent crude:** ~$102.15–102.45/bbl
+- **S&P 500 futures:** +0.34% premarket; US500 at 7,692; futures rising ahead of NFP
+- **VIX:** ~16.86 (2-week high; up from Aug low of 14.2; midterm election anxiety building)
+- **10-yr / 30-yr yields:** Elevated (30-yr briefly 5.53%); bond pressure on growth names
+- **Today's macro event:** September NFP at **8:30 AM ET** — est. 90K (prev 162K), unemployment 4.1%, avg hourly earnings +0.3%. SINGLE BIGGEST market mover of the week; significant miss likely = stagflation fear; significant beat = Fed cut hopes fade
+- **Earnings BMO today:** Toro Corp only — no major names; Q3 season kicks off next week (HAL Oct 20, SLB Oct 23)
+- **Sector momentum YTD:** Energy (+38.9% #1) | Tech (+35.1% #2) | Healthcare (+10.6% #3) | Consumer Discretionary (−8.7% laggard)
+- **Corporate catalysts:** ACN +15.8% on Q4 FY2026 beat ($3.29 EPS vs $3.19 est); NVDA announced largest share buyback ever; MCK +5.3% on reiterated FY2027 guidance; PRGS −8.5% on revenue miss
+
+### Held Positions (Assumed)
+- None confirmed (API inaccessible). SLB order status unknown — must verify.
+
+### Trade Ideas
+1. **HAL (Halliburton)** — Energy #1 YTD sector; WTI still $92 (elevated); HAL at $31.92 vs UBS $42 target (32% upside); 10% stop at ~$28.73, target +20% ~$38.30 = R:R ~2:1. **Risk:** Earnings Oct 20 binary (18 days); North America weakness + cautious Q4 guidance already flagged. Entry ≤$32.50 only; size ≤15% (~$15K). Wait for NFP to resolve before entering.
+2. **SLB (Schlumberger)** — Energy sector leader; earnings Oct 23; acquired Kelvion ($3.4B, data center thermal mgmt — diversification pivot); Q3 est revenue $9.27B, EPS $0.62. RSI leaving overbought — wait for pullback. **Must verify May order status first** — may already be in position. Do not double-add.
+3. **NVDA** — Largest buyback ever announced; $230.51 (+8.7% last 4 weeks); avg analyst PT $324 (+41% upside). But 30-yr yields at 5.53% headwind; Wall St skeptical on $500B AI compute plan. Entry only on pullback or post-NFP if risk-on; size ≤15%.
+
+### Risk Factors
+- **NFP today 8:30 ET** — 90K forecast vs 162K prev; outcome swings risk-on/off sharply; do NOT enter before release
+- **Midterm election anxiety** — VIX climbing; seasonal volatility Oct–Nov
+- **Rising yields (30-yr 5.53%)** — growth/tech headwind; compresses multiple
+- **Energy binary risk** — HAL/SLB earnings Oct 20/23; oilfield services facing NA weakness + cautious guidance
+- **WTI rolling off** — $92 vs prior $101; Hormuz risk premium fading; energy thesis needs reassessment if WTI breaks below $88
+- **SLB order unknown** — may be in a 5-month untracked position with no stop; CRITICAL to resolve
+
+### Decision
+**HOLD** — NFP at 8:30 ET creates binary uncertainty; trade into data = gambling. Alpaca API still inaccessible; cannot confirm account state or SLB position. Patience > activity. **Action required:** Resolve API access (egress proxy allowlist for paper-api.alpaca.markets) before any trades are placed. If NFP strong (beat ≥150K) and energy holds bid post-report, HAL is the primary candidate — re-evaluate at 9:35 ET.
+
+*(Perplexity API blocked; all research via WebSearch — fallback noted)*
+
