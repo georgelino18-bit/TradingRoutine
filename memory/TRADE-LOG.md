@@ -31,3 +31,14 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-10-02 — Midday Scan (12:00 ET)
+**Status:** BLOCKED — egress proxy denying connections to paper-api.alpaca.markets (403 connect_rejected, organization policy)
+
+- Positions: unavailable (API blocked)
+- Orders: unavailable (API blocked)
+- Actions: none taken — cannot retrieve state to cut losers or tighten stops
+- ClickUp: also blocked (403)
+
+**Persistent issue:** Sandbox environment IP not allowed to reach paper-api.alpaca.markets. Same as all prior sessions.
+**Action required:** Resolve IP allowlist or migrate to an environment with unrestricted egress to Alpaca paper API.
