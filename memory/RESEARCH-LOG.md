@@ -204,3 +204,49 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-05 — Pre-market Research (Monday open)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy egress policy blocks paper-api.alpaca.markets)
+- Cash: ~$100,000 estimated (no confirmed trades have been placed; API blocked since May 2026)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (no confirmed activity)
+- Open positions: UNKNOWN — SLB order submitted 2026-05-15 was never confirmed; assume 0 until API accessible
+- NOTE: Perplexity API also blocked. All research via WebSearch fallback.
+
+### Market Context
+- WTI: ~$90/bbl (−0.5%) | Brent: ~$102/bbl (−0.07%) — Brent-WTI spread wide (~$12) on Hormuz risk premium
+- S&P 500 futures (ES1!): ~7,789, +0.15% — muted positive; cautious optimism
+- VIX: ~16.26 (Friday close) — moderate; below 200-day SMA 18.05; no panic regime
+- ISM Services PMI Sep: 56.7 (beat est 55.1) — services growth intact; 150 of last 152 months expansion
+- September NFP: +29K (vs 90K est); unemployment 4.2%; prior months revised −60K — very weak
+- Fed rate hike Oct odds: ~18–20% (CME FedWatch) — soft jobs reduces tightening pressure
+- FOMC minutes: Wednesday Oct 7 — first rate hike in 3 years voted unanimously last meeting; watch hawkish signals
+- Earnings today: No major BMO or AMC reports; earnings season quiet until PEP Thu Oct 8 (EPS est $2.32)
+- Economic calendar: ISM today 10 AM ET (out: 56.7 beat), FOMC minutes Wed Oct 7, CPI Oct 14
+- Sector momentum YTD (through Aug): Energy +39.4% (leader) | Tech +32.1% | Industrials +20.6% | Comm Svcs −3.8% | Discretionary −0.8%
+- AI/Semi leadership: SMH +2.07%, NVDA +1.34%, QQQ +1.02% last week; semiconductors strongest sub-sector
+
+### Trade Ideas
+1. **NVDA / SMH** — AI capex cycle intact; semis leading; ISM services beat + soft jobs = lower rate risk = growth multiple expansion; but earnings binary risk ahead (check date). Entry only after confirming API access and no near-term earnings catalyst. Stop 10% below entry, target +20%, R:R ~2:1.
+2. **XOM / MPC / SLB** — Energy still #1 sector YTD +39.4%; Brent $102 + Hormuz risk premium; WTI $90 softer but Brent-WTI spread signals supply risk. If SLB order from May was filled, confirm position and place stop. If not, re-evaluate entry on any pullback with confirmed R:R ≥2:1.
+3. **HOLD CASH** — No API access = no ability to confirm fills, place stops, or cut losers. Any entry without the ability to manage stops violates hard rules. Cannot trade safely.
+
+### Risk Factors
+- Alpaca API permanently blocked by proxy — no ability to place orders, confirm positions, or manage risk (CRITICAL)
+- FOMC minutes Wed could signal more aggressive tightening path — would pressure growth/tech
+- Soft NFP (+29K) could signal recession risk if trend continues; watch CPI Oct 14
+- Brent-WTI spread at $12 signals transportation disruption risk (Hormuz); energy stocks have mostly priced this in at +39% YTD
+- ISM services beat is positive but market already pricing in soft landing
+
+### Decision
+**HOLD — API access required before any trade action.**
+- Account state unknown; no confirmed positions; no ability to place or manage stops
+- Strategy hard rule: 10% trailing stop on every position as GTC order — impossible to execute without API
+- CRITICAL ACTION REQUIRED: Resolve Alpaca API proxy block before next session
+  - Contact: claude.ai remote environment team to whitelist paper-api.alpaca.markets in egress policy
+  - Alternative: switch to a non-proxied execution environment
+- Watchlist: NVDA (AI semi leader), XOM/SLB (energy YTD leader), pending FOMC minutes Wed
