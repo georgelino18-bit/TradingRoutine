@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-10-05 11:23 UTC (fallback — curl network error)
+Pre-market 2026-10-05: HOLD. Alpaca API still blocked (proxy 403). ES1! +0.15%, VIX 16.26, Brent $102, WTI $90. ISM Svcs 56.7 beat. Soft NFP +29K reduces rate hike risk. No trades until API accessible.
