@@ -204,3 +204,51 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-06 — Pre-Market Research (Tuesday)
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API blocked (egress proxy org policy, connect_rejected)
+- **Positions:** UNCONFIRMED — SLB 340sh order submitted 2026-05-15 (ID: 6c529f05); fill never verified
+- **Cash:** UNKNOWN — last confirmed state $100,000 (2026-05-13 pre-launch)
+- **Daytrade count:** UNKNOWN
+- **Note:** Alpaca paper-api.alpaca.markets:443 rejected by sandbox egress proxy every session. Manual API access required to verify state.
+
+### Market Context
+- **WTI:** ~$89.86/bbl (+0.48%) — eased from $101+ in May but still elevated on Hormuz premium
+- **Brent:** ~$100.84/bbl (+0.51%) — Brent/WTI spread ~$11
+- **S&P 500 futures:** +0.48% premarket; US500 at 7,782 pts (+0.10%) — green open expected
+- **VIX:** ~15.52 — low volatility, calm market; well below July peak of 20.66
+- **Hormuz:** Iran controls Strait; disrupting 20% of global oil (declared control Aug 13, 2026). Supply deficit ~1.78M bpd. Reopening not expected until late Q4 2026 or Q1 2027. Structural oil bid intact.
+- **Fed:** Rate 4.00% (upper bound) after Sep 16 hike. FOMC Minutes today 2PM ET (Sep 15–16 meeting). Next FOMC Oct 27–28. CPI Sep due Oct 14.
+- **Jobs:** Sep payrolls only +29k (vs +90k est); unemployment 4.2% — labor market softening
+- **Sector momentum YTD:** Energy +37.5% (leader), Tech +27.1%, Health Care +10.3%, Comms +4.0%, Utilities -12.4% QTD, Materials -2.4% QTD
+- **Q3 earnings season:** Starts Oct 13. Light this week.
+- **Earnings BMO today:** APOG ($0.63 est), LW ($0.59 est), RPM ($1.95 est) — no energy/tech names
+- **Index change today:** Twilio (TWLO) replaces Warner Bros. Discovery in S&P 500 effective today
+
+### SLB Update
+- SLB trading at $52.07 (-1.03% yesterday); analyst consensus target $57.75 (+10.9%)
+- Q3 earnings scheduled Oct 16, 2026 — upcoming binary event
+- Dividend ex-date Oct 8, 2026 ($0.295/sh) — 2 days away
+- May 2026 order (340sh, ID: 6c529f05) still unconfirmed due to persistent API outage
+
+### Trade Ideas
+1. **SLB** (HOLD/MONITOR) — If position is live: hold through Oct 8 dividend; manage ahead of Oct 16 earnings binary. Stop should be at ~$46.86 (10% below ~$52). Analyst target $57.75 (+10.9%) with Hormuz structural bid. Do NOT add new shares ahead of Oct 16 earnings binary. R:R from $52.07: risk $5.21 (stop), reward $5.68 (target) = 1.09:1 — below 2:1 minimum. No new entry until post-earnings reaction if beat confirmed.
+2. **HAL** (MONITOR) — Halliburton same oilfield services thesis. Reports Q3 mid-Oct. Hormuz capex tailwind. Same binary risk pre-earnings. Setup only post-earnings.
+3. **XLE** (MONITOR) — Energy ETF +37.5% YTD. Hormuz structural. Too broad for individual position sizing; track for sector confirmation.
+
+### Risk Factors
+- Alpaca API inaccessible — cannot verify SLB position, place stops, or act on any signal
+- SLB Oct 16 earnings binary — unknown current position exposure
+- SLB Oct 8 ex-dividend in 2 days — minor
+- FOMC Minutes 2PM ET today — could move rates/energy if hawkish surprise
+- Labor market softening (+29k jobs) → recession fear → oil demand destruction risk
+- Hormuz "gradual reopening late Q4" — oil price could fade if reopening accelerates
+- VIX 15.52 = complacency; any macro shock would spike vol quickly
+- Perplexity API also blocked (same egress policy) — fallback to WebSearch (confirmed)
+
+### Decision
+**HOLD / CANNOT ACT** — API access still blocked. SLB position status unverified since May 15, 2026. No new trades possible. Critical action item: resolve Alpaca API access (egress proxy whitelist or alternative endpoint). Monitor SLB ahead of Oct 16 earnings and Oct 8 ex-div. FOMC Minutes 2PM today — read for Fed tone. Patience > activity.
