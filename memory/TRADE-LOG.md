@@ -31,3 +31,19 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-10-07 — Midday Scan (BLOCKED)
+**Status:** CRITICAL — Alpaca API + ClickUp both returning 403 (egress proxy denying outbound connections)
+
+- Positions: UNKNOWN — cannot pull from API
+- Losers cut: NONE — API blocked
+- Stop tightening: NONE — API blocked
+- ClickUp alert: FAILED — also 403
+
+**Recurring issue:** This sandbox environment IP is blocked by the egress proxy for outbound connections to paper-api.alpaca.markets and app.clickup.com. All midday scans will fail until resolved.
+
+**Manual action required:**
+1. Check Alpaca paper account for any open positions
+2. Manually verify no position is down >7% (cut immediately if so)
+3. Whitelist this sandbox IP in Alpaca paper account allowlist — or configure ALPACA_ENDPOINT to a proxy/allowed gateway
+4. Once API access is confirmed, re-run midday scan manually
