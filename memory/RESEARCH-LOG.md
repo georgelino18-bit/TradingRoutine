@@ -204,3 +204,69 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-07 — Pre-Market Research (Wednesday)
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API 403 (egress proxy blocks paper-api.alpaca.markets)
+- **Perplexity:** UNAVAILABLE — egress proxy blocks api.perplexity.ai; all research via WebSearch fallback
+- **Last known state (2026-05-15):** ~$100,000 cash, 0 confirmed positions
+- **Note:** SLB market buy (340sh) was submitted 2026-05-15 but never confirmed due to API block. Status unknown. Manual verification required.
+- **Cash (est):** ~$100,000 | **Deployed (est):** 0% | **Day trades used:** unknown
+
+### Market Context
+- **WTI:** ~$90.09/bbl (+0.73%) | **Brent:** ~$101.24/bbl (+0.65%) — elevated; Hormuz crisis ongoing
+- **S&P 500:** ~7,825 (+0.08%) — testing all-time high resistance at 7,906; modest grind higher
+- **Nasdaq/Tech:** NVDA premarket +0.14% at ~$204.40; tech leading YTD
+- **VIX:** ~15.01 — calm; low vol environment; no stress signal
+- **Treasuries:** Yields at fresh cycle highs despite weak Sept jobs (29k, unemployment 4.2%) — stagflation undercurrent
+- **Hormuz:** Crisis ongoing — exports recovering (~40% now bypass via alt routes/Saudi/UAE pipelines), but Iranian tanker attacks escalating. Structural oil bid intact.
+- **Today's releases:**
+  - **FOMC Minutes 2:00 PM ET** (September meeting; next FOMC Oct 27-28) — watch for hawkish surprise
+  - No BMO earnings today; AMC: APLD, LEVI, RELL, RGP (minor names)
+  - CPI Oct 14 | PPI Oct 15 | FOMC Oct 27-28 — key calendar ahead
+
+### Sector Momentum (YTD)
+- **Leaders:** Technology (XLK) +38.5%, Energy (XLE) +37.5%, Health Care +10.3%
+- **Lagging:** Communication Services +4.0%, REITs, Utilities
+- Energy + Tech both led Oct 2 broad advance; momentum intact in both sectors
+
+### Trade Ideas
+1. **SLB** (~$52.07, -1.03%) — Oilfield services; Hormuz structural bid + E&P capex acceleration.
+   - **Catalyst:** Earnings Oct 16 (Q3); Brent $101 sustained; rising E&P budgets
+   - **Entry:** Post-earnings reaction only — wait for Oct 16 beat + gap-up confirmation; entry ~$52-56 on reaction candle
+   - **Stop:** 10% trailing from entry
+   - **Target:** $62-65 (+20-25%); R:R ~2:1 if entered post-earnings gap
+   - **Note:** Prior order (340sh BMO 2026-05-15) status unknown — must verify before sizing
+   - **Action:** MONITOR — enter post-Oct 16 earnings if gap-up confirms beat + guidance
+
+2. **NVDA** (~$204.40 premarket, +0.14%) — AI capex cycle intact; XLK momentum +38.5% YTD
+   - **Catalyst:** Ongoing AI infrastructure buildout; tech sector leading
+   - **Entry:** ~$204; **Stop:** 10% ~$183.60; **Target:** +20% ~$244.80 for 2:1
+   - **Risk:** At high after multi-month rally; no near-term catalyst (next earnings unclear); FOMC hawkish surprise today could knock back
+   - **Action:** PASS today — wait for post-FOMC pullback or clear momentum continuation above 52w high
+
+3. **LBRT (Liberty Energy)** — JPMorgan overweight; AI boom driving oilfield services
+   - **Catalyst:** Energy sector momentum, E&P spending cycle
+   - **Action:** NEEDS DILIGENCE — research price/setup before any entry consideration
+
+### Risk Factors
+- **FOMC Minutes 2:00 PM ET** — hawkish tone (Sept minutes may show rate-hike bias) could spike yields, pressure equities; growth/tech most vulnerable
+- **Stagflation signal:** Jobs 29k (very weak) + elevated oil = stagflation risk; bad for multiples
+- **Hormuz escalation:** Iranian tanker attacks stepping up — oil shock + broader market disruption tail risk
+- **Treasury yield cycle highs:** Pressure on duration/growth; watch 10Y breakout level
+- **Alpaca API inaccessible:** Cannot place, verify, or manage orders. ALL position/order data blind. Critical blocker.
+- **SLB position ambiguity:** May have open position from May 2026 attempt — unknown status, stop unknown
+
+### Decision
+**HOLD — No new trades today.**
+- API inaccessible: cannot execute or verify orders
+- No BMO earnings catalyst today
+- FOMC Minutes at 2:00 PM creates binary risk; best to stay flat
+- SLB is the strongest thesis (earnings Oct 16) — stand by for post-Oct 16 reaction
+- NVDA viable only on post-FOMC dip setup; R:R not confirmed yet at current levels
+- Patience > activity | Re-evaluate after FOMC Minutes release and Oct 14 CPI
+
+_[Fallback: all research via WebSearch — Perplexity API blocked by egress proxy]_
