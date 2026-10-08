@@ -204,3 +204,57 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-08 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy org policy blocks paper-api.alpaca.markets)
+- Cash: ~$100,000 estimated (no confirmed fills since Day 0 baseline)
+- Buying power: ~$100,000 estimated
+- Daytrade count: UNKNOWN
+- Note: SLB 340sh market buy order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` submitted 2026-05-15; fill status UNCONFIRMED due to persistent API block across all sessions since launch.
+
+### Market Context
+- **WTI / Brent:** No Oct 8 data available. Last confirmed (Aug 31): WTI ~$85.76 | Brent ~$90.49. Trend was declining from Aug highs (~$86/$91) from elevated summer levels.
+- **S&P 500 futures:** No Oct 8 premarket data found. Context: market breadth narrowing (only 177 of S&P 500 beat index YTD through Sep 29 vs 200 at same point in 2025).
+- **VIX:** No Oct 8 data. Last confirmed ~24.33 (Apr 1, 2026). Summer range elevated vs May (~18).
+- **Today's catalysts:**
+  - PepsiCo (PEP) Q3 2026 earnings — likely BMO today; no confirmed results yet.
+  - SLB dividend payment today: $0.295/share (if position held, relevant but not actionable).
+  - No major macro releases today (Oct 8 is a quiet macro day).
+- **Economic calendar:**
+  - Oct 7 (yesterday): FOMC minutes from Sep 15–16 meeting released 2pm ET.
+  - Oct 9: No major releases expected.
+  - Oct 14: September CPI (8:30 ET — key macro event next week).
+  - Oct 15: September PPI (8:30 ET).
+  - Oct 28: FOMC rate decision (Oct 27–28 meeting).
+  - Oct 16: SLB Q3 2026 earnings (est.) — KEY upcoming binary for our position.
+  - Oct 13 BMO: JPMorgan Chase Q3 earnings (bank earnings season opens).
+- **Sector momentum (YTD through Sep 29, 2026):**
+  - Energy: +37.5% (leader — sustained by US-Iran tensions, Hormuz risk premium)
+  - Information Technology: +27.1% (semiconductor equipment sub-sector ~+89% through Jul)
+  - Industrials: ~+20% (mid-year estimate)
+  - Health Care: +10.3%
+  - Communication Services: +4.0% (laggard)
+  - Real Estate: ~18% below all-time high (weakest sector vs highs)
+- **SLB news (Oct 2026):** Q3 earnings expected ~Oct 16. Recent contracts: Brunei Shell Petroleum (well restoration), Equinor multi-year stimulation deal (Norway). Acquisition of Kelvion (data center/thermal management pivot). Analyst sentiment constructive but target cuts noted. SLB closed ~$57.00 on Sep 4, 2026; well off prior Hormuz-driven highs.
+
+### Trade Ideas
+1. **SLB (HOLD / Monitor)** — If position is active: Q3 earnings Oct 16 is an upcoming binary. Energy sector YTD +37.5% supports thesis. SLB at ~$57 vs original $63–$71 target means it has NOT reached target yet. If filled at ~$52–$55 area, still in profit. Do NOT add before confirming fill. Critical action: verify account via /market-open workflow when proxy resolves.
+2. **Semiconductor equipment names (AMAT, KLAC, LRCX)** — Semis sub-sector +89% YTD through July — strongest sub-sector in the market. AMAT earnings reaction from May was the original thesis; if setup recurs post-Oct-16 earnings cycle, watch for entry.
+3. **Energy services (SLB, HAL)** — Energy at +37.5% YTD, sustained by US-Iran Hormuz risk and elevated WTI $85+. SLB earnings Oct 16 is the catalyst. IF account access restored and SLB is NOT already held, could be a fresh entry post-Q3 beat.
+
+### Risk Factors
+- Alpaca API blocked — cannot confirm positions, stops, or order fills; all account data estimated.
+- SLB Q3 earnings Oct 16 — binary event; if held, do not add ahead of binary.
+- VIX elevated (~24 range as of April vs ~18 in May) — higher volatility environment.
+- FOMC minutes (released Oct 7) — any hawkish tone could pressure growth/tech.
+- CPI Oct 14 / PPI Oct 15 — key macro week ahead; wait for data before adding positions.
+- Bank earnings season begins Oct 13 (JPM, etc.) — sector rotation risk.
+- Market breadth narrowing — fewer stocks leading; concentration risk.
+
+### Decision
+HOLD — Cannot confirm account state (API blocked all sessions since launch). No macro releases today. SLB earnings binary Oct 16. CPI/PPI next week are key macro gating events. Energy sector remains strongest YTD; thesis intact IF position was filled. Priority action: restore Alpaca API access to confirm SLB fill status before next trade decision. Patience > activity.
+
