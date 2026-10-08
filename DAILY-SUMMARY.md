@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-10-08 11:24 UTC (fallback — curl network error)
+Pre-market 2026-10-08: HOLD. API blocked (Alpaca+Perplexity 403). Energy YTD +37.5% leads. SLB Q3 earnings ~Oct 16 binary upcoming. CPI Oct 14, PPI Oct 15 gating. Account state unconfirmed — restore API access urgently.
