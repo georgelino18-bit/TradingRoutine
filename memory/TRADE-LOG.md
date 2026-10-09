@@ -14,6 +14,17 @@ No positions yet. Bot launches today.
 
 **Notes:** Alpaca and ClickUp APIs both returned 403 "Host not in allowlist" — this sandbox environment's IP is not whitelisted on either service. No live account data could be retrieved. No trades could be placed or confirmed. Last confirmed state remains Day 0: $100,000 cash, 0 positions. Action required before next session: whitelist the sandbox IP in Alpaca paper account settings (and ClickUp if applicable).
 
+## 2026-10-09 — Midday Scan (BLOCKED)
+**Status:** CRITICAL — Alpaca API unreachable (403, org proxy policy blocking paper-api.alpaca.markets:443)
+
+- Cannot pull positions or orders
+- Cannot execute stop tightening, loser cuts, or thesis checks
+- ClickUp also blocked (same proxy policy)
+- No account state change; last confirmed state: $100,000 cash, 0 confirmed positions
+- **Action required:** Whitelist paper-api.alpaca.markets in org proxy policy or run from unblocked environment
+
+---
+
 ## 2026-05-15 — SLB Stop Placement (9:45 ET)
 **Status:** CRITICAL — Remote agent could not access API credentials
 
