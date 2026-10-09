@@ -204,3 +204,52 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-09 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy blocks paper-api.alpaca.markets)
+- Cash: UNKNOWN — last confirmed state May 2026: $100,000, 0 positions
+- SLB order (340sh market buy, submitted 2026-05-15) never confirmed — API blocked since launch
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+
+### Market Context
+- **WTI / Brent:** WTI est. ~$72–75 | Brent est. ~$76–78 — Hormuz geopolitical premium persists; oil eased slightly premarket, supporting risk sentiment
+- **S&P 500:** Nasdaq futures UP — tech rebounding after Thursday selloff; S&P 500 at ~7,721 (0.98% below all-time high 7,798.99 set Aug 13, 2026); YTD +~13.8%
+- **VIX:** ~15–17 estimated (last confirmed Jul 7: 15.58; fell to 2026 lows mid-August); no panic
+- **Today's catalysts (Oct 9):**
+  - OpenAI revenue revision: annualized revenue ~$20B lower than prior estimate → triggered Thursday Nasdaq 100 -1.4% (worst in 7 weeks), semis -3.4%; tech bouncing Friday
+  - Delta Air Lines (DAL): missed earnings for first time in 2 years + slashed 2026 profit outlook (high fuel costs) → airlines weak
+  - U.S.-Iran: some diplomatic progress signals → oil easing, geopolitical premium partially unwinding
+  - Earnings season begins next week: JPM, GS, BAC Oct 13-15 (major banks)
+- **Economic calendar:**
+  - CPI (Sep data): Oct 14 8:30 ET — key inflation landmine
+  - PPI (Sep data): Oct 15 8:30 ET
+  - FOMC decision: Oct 27-28
+  - Nonfarm payrolls (Sep): already released Oct 2
+  - Retail Sales: Oct 15
+- **Sector momentum YTD (through Oct 2):**
+  - Leaders: Energy +37–40% | Technology +27–30%
+  - Mid-tier: Health Care +10%
+  - Laggards: Comm Services +4% | Consumer Discretionary negative
+  - Breadth narrow — lowest # of sectors outperforming index since 1990
+
+### Trade Ideas
+1. **Energy (SLB / XOM / HAL)** — Energy still #1 sector YTD +37-40%. Hormuz structural bid intact. SLB original thesis valid if filled in May (unconfirmed). If API restored, verify SLB position first. New entries need fresh R:R calc — avoid chasing extended names.
+2. **Tech dip-buy (NVDA / AMAT)** — Nasdaq -1.4% Thu on OpenAI revenue noise; AI capex fundamentals intact. Bouncing Fri. Entry opportunity IF confirms recovery with volume and closes above Thursday's range. Stop: 10% below entry. Target: +15%. Size ≤20%.
+3. **Banks pre-earnings (JPM)** — Reporting Oct 13. Pre-earnings drift often bullish. Rising fuel costs + consumer resilience = mixed read. Only actionable IF API access restored and R:R ≥2:1.
+
+### Risk Factors
+- Alpaca API inaccessible — no order placement or verification possible
+- CPI + PPI Oct 14-15 = inflation landmines; could reverse tech bounce if hot prints
+- OpenAI revenue miss narrative could weigh on AI/semis through next week
+- DAL earnings miss + high fuel = airlines + transport sector headwind
+- FOMC Oct 27-28 — rate uncertainty; market pricing in hold but CPI/PPI could shift
+- Hormuz: partial easing priced in; re-escalation = oil spike + stagflation risk
+- 5-month gap since last trading activity — must verify full account state before any action
+
+### Decision
+HOLD — Alpaca API blocked; cannot trade regardless. Even if restored: CPI/PPI landmines Oct 14-15 argue for waiting. Tech bounce needs confirmation. Energy still top sector but individual names may be extended. Banks earnings could be entry catalyst Oct 13-15. First priority: restore API access and verify whether SLB filled in May.
