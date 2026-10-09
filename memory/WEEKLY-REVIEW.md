@@ -158,3 +158,66 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-10-09
+
+*Note: 11-week gap since last review (2026-07-24). No intermediate reviews filed. API blockage persisted throughout. Resuming weekly log discipline regardless of API state.*
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | ~$100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | ~$100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | +0.95% (close ~7,811.51; rallied into Q3 earnings season) |
+| Bot vs S&P | -0.95% |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Phase context: ~21 weeks into challenge. Bot 0.00% total. S&P 500 +12.79% YTD (per Oct 2 data). Full phase underperformance: ~-12.79% vs benchmark.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades confirmed |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation in volatile mid-week session (Oct 7–8 bond jitters, oil spike, chip selloff)
+- S&P 500 hit new highs (>7,800) this week — flat cash avoided drawdown from mid-week chop
+- AI/tech thesis still valid: Nasdaq rebounded Friday on Q3 earnings season optimism
+- Discipline maintained — no unauthorized trades; patience rule upheld through 21-week dry spell
+- Logging resumed after 11-week gap — restoring context continuity
+
+### What Didn't Work
+- Alpaca API 403 blocked for 21+ consecutive weeks — root cause unresolved; PRIORITY 1 since Day 1
+- Perplexity API also blocked; all research degraded to WebSearch fallback
+- No reviews filed for 11 weeks (July 24 → October 9) — context gap is a risk management failure
+- Phase P&L: 0% vs S&P +12.79% YTD — ~$12,790 in unrealized opportunity cost
+- Oil price spike mid-week (inflation fears) reignited macro headwinds; no ability to trade the move
+
+### Key Lessons
+- 21 weeks of API blockage = ~$12,790 in missed alpha at S&P pace alone (0% vs +12.79%)
+- Gaps in weekly reviews degrade context quality — must log even with zero trades
+- Market has entered Q3 2026 earnings season (AI/tech catalysts heavy); ideal environment wasted
+- S&P 500 above 7,800 first time — new all-time high territory; bull market intact
+- Cash is not a strategy: it's an emergency fallback, not a long-term posture
+
+### Adjustments for Next Week
+- PRIORITY 1 (21 weeks unchanged): Resolve Alpaca IP allowlist — contact Alpaca support with container IP; consider requesting static IP from cloud environment
+- Q3 earnings catalysts: AI/semis (NVDA, AMD, AMAT follow-through), Energy (oil spike resumed)
+- If API restored: AI infrastructure plays (NVDA, AMD) and Energy (SLB/HAL) are first setups — both sector momentum still valid
+- Resume weekly reviews regardless of API state — no more 11-week log gaps
+- Investigate if sandbox IP changes each session; if so, need dynamic allowlist solution
+
+### Overall Grade: D
+*Execution: F (API blocked week 21). Discipline: A. Research: B- (WebSearch only, no Perplexity). Log discipline: D (11-week gap). Cash vs S&P this week: -0.95%. Phase total: -12.79% vs benchmark. Same root cause, same outcome — 21 weeks of dead capital.*
