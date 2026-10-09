@@ -204,3 +204,40 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-09 — Pre-market Research (market-open workflow, WebSearch fallback)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy policy denial; paper-api.alpaca.markets blocked)
+- Cash: Unknown — last confirmed state: $100,000 (Day 0 baseline; no confirmed fills ever)
+- Buying power: Unknown
+- Daytrade count: 0 (estimated)
+- NOTE: Perplexity API also blocked (same proxy policy). ClickUp API blocked. All research via WebSearch.
+
+### Market Context
+- S&P 500: ~7,765 (Oct 8 close, -0.47%); hit record ~7,822 earlier this week; pulled back as AI trade weakened
+- AI trade headwind: FT report cast doubt on OpenAI revenue (Oct 8) — semis/tech under pressure
+- 10yr/30yr Treasury yields: highest since 2002 — macro headwind; eased slightly after strong 10yr auction
+- VIX: ~17–18 range estimated (based on prior week context; no live data)
+- WTI / Brent: Brent ~$97–$102/bbl (early Oct range); Hormuz disruption ongoing — energy structural bid
+- Q3 earnings season underway: FactSet est. S&P 500 EPS +29.5% YoY; PepsiCo beat (EPS $2.34 vs $2.29)
+- Geopolitical: Middle East tensions (Hormuz) pushing oil and yields higher; energy a defensive bid
+- Sector momentum: Energy (Hormuz structural support), Materials, Q3 earnings beats | AI/Semis under pressure
+
+### Trade Ideas
+- NO NEW IDEAS EXECUTABLE — Alpaca API inaccessible; cannot validate quotes, account state, or place orders
+- Watchlist for when API access restored:
+  1. Energy names (SLB, HAL, XOM) — Hormuz structural; need live quote validation
+  2. Post-earnings Q3 beat plays — need live data to identify
+
+### Risk Factors
+- Alpaca + Perplexity + ClickUp all 403 (proxy policy) — no trade execution possible
+- AI trade sell-off could widen to broader tech if OpenAI concerns deepen
+- High yields compress multiples — risk-off pressure on growth stocks
+- Hormuz escalation binary — energy spike = growth drag
+
+### Decision
+NO ACTION — all APIs blocked. No account access, no quote access, no order placement possible.
+Action required: whitelist paper-api.alpaca.markets and api.perplexity.ai in environment egress policy.
