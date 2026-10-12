@@ -204,3 +204,44 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-12 — Pre-market Research (Market-Open Workflow)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy policy block, same as May 2026)
+- Cash: UNKNOWN — last confirmed state $100,000 (2026-05-13); SLB order submitted 2026-05-15 unconfirmed
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Open positions: UNKNOWN (SLB 340sh order submitted 2026-05-15 — fill status unconfirmed)
+
+### Market Context (WebSearch fallback — Perplexity API blocked)
+- S&P 500: ~7,722 as of 2026-10-02 (+12.6% YTD); Q3 earnings season begins mid-October
+- Market open: YES — Columbus Day; stocks trade normal hours (9:30–4 ET); bond market closed
+- VIX: ~15.31 (2026-10-02) — calm, low volatility
+- 10-yr yield: ~5.28% (2026-10-02) — elevated, cost of money high
+- Sector momentum YTD: Energy +37%, Technology +37% (co-leaders); Semis, Defense, Industrials strong
+- Today's catalysts: Q3 earnings season kickoff week; no specific Oct 12 catalyst found via WebSearch
+- Specific Oct 12 data: UNAVAILABLE (search returned only pre-2026 results)
+
+### Trade Ideas
+- NONE — cannot validate any thesis without live account data or quotes
+- Cannot confirm SLB position status, entry price, or stop level
+- No new trades permissible until API access restored
+
+### Risk Factors
+- Alpaca API blocked by egress proxy (connect_rejected, policy denial) — persistent since 2026-05-13
+- Perplexity API blocked — same egress policy
+- ClickUp API blocked — same egress policy (fallback logged to DAILY-SUMMARY.md)
+- SLB position fate unknown: could be open with no stop (HIGH RISK if filled)
+- 5-month gap in trading — full account state unknown
+
+### Decision
+HOLD — All external APIs blocked. No trades possible. CRITICAL: if SLB 340sh order was ever filled (~$57–60/share range, ~$19,400–$20,400 cost), there may be an open position with NO stop order. Manual check and stop placement required immediately.
+
+**MANUAL ACTION REQUIRED:**
+1. Log into Alpaca paper account at https://app.alpaca.markets and check positions
+2. If SLB open: place 10% trailing stop immediately
+3. Whitelist cloud sandbox IP in Alpaca paper account settings
+4. Whitelist same IP in Perplexity and ClickUp if applicable
