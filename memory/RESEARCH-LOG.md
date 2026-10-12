@@ -204,3 +204,71 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-12 — Pre-Market Research
+
+### Account Snapshot
+- **API Status:** UNAVAILABLE — Alpaca blocked by egress proxy (403, same restriction as prior sessions)
+- **Last confirmed state (Day 0):** $100,000 cash, 0 confirmed positions
+- **SLB order:** ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh market buy submitted 2026-05-15; fill NEVER confirmed. Assumed NOT filled.
+- **Perplexity:** Also blocked by proxy (exit 3 fallback used — WebSearch)
+
+### Market Context
+- **WTI:** ~$90–91/bbl (↓ ~1.4% on day); **Brent:** ~$103–104/bbl (↓ ~0.7%)
+  - Oil pulling back from recent highs; Brent–WTI spread ~$13
+- **S&P 500 futures:** +0.3–0.56% premarket; ES=F ~7,883; last close 7,811.54
+  - Bullish tone entering Q3 earnings season (banks Tuesday)
+- **VIX:** ~14.84 (last close Oct 9); low/complacent — 52-week range 13.38–35.30
+- **Columbus Day:** Bond market CLOSED today; stock market OPEN; thinner liquidity
+- **Sector momentum YTD (as of Oct 2):** Energy +40.4% | Technology +30.2% | All other sectors underperform SPX; Comm Services ~+4%; Consumer Discretionary lagging
+  - Narrow leadership: only 2 sectors beat SPX — unusual, fewest since 1990
+
+### Today's Calendar
+- **Earnings today (Oct 12):** NONE of significance (light Monday; no major BMO reports)
+- **Earnings tomorrow (Oct 13 BMO):** JPM, GS, WFC, C, UNH, JNJ — mega Q3 bank earnings day
+- **Earnings Wed (Oct 14):** Morgan Stanley, Bank of America, BlackRock
+- **SLB Q3 earnings:** Expected ~Oct 16 (estimate; confirm IR page)
+- **CPI (Wed Oct 14, 8:30 ET):** Consensus headline +0.6% MoM / +3.6% YoY vs prior +0.4%/+3.4% — HOT print expected; core +0.2% MoM / +2.5% YoY
+- **PPI (Thu Oct 15, 8:30 ET):** +0.5% MoM est vs +0.4% prior; retail sales + jobless claims same release
+- **FOMC:** No meeting this week; next meeting TBD
+
+### Geopolitical / Macro
+- Middle East tensions ongoing — supports oil floor but oil retreating today
+- AI capex cycle intact; Nasdaq lifted by semis/NVDA momentum
+- Fed Chair Warsh era — hawkish posture risk; first FOMC meeting upcoming
+
+### Trade Ideas
+
+1. **JPM (Banks — earnings Tuesday 10/13 BMO)**
+   - Catalyst: Q3 earnings + strong NII; AI/M&A banking rebound; beat consensus likely
+   - Setup: Monitor AH/premarket Tuesday reaction. If strong beat + gap-up → enter at open, stop 10% below reaction low, target +15%. Size ≤20% (~$20k). R:R ≥2:1.
+   - Risk: Hot CPI Wed could hammer yields and reverse any gap; don't hold through CPI binary
+
+2. **Post-CPI Tech/NVDA entry (Wednesday post-8:30 ET)**
+   - Catalyst: If CPI in-line or below 3.6% → yields fall → tech/semis rip; NVDA +AI buildout thesis intact
+   - Setup: Enter NVDA (or XLK proxy) only if CPI benign; stop 10% below entry; target +15%. Do NOT enter before CPI print.
+   - Risk: Hot print (+0.6%+ actual) = yield spike = growth selloff; stay cash until number clears
+
+3. **SLB (Hold-pending / earnings Oct 16 est.)**
+   - Position fill UNCONFIRMED due to API block — treat as 0 shares
+   - Thesis still valid: Energy +40.4% YTD, WTI floor ~$85-90 structural, Hormuz ongoing, Kuwait contract
+   - DO NOT enter new SLB ahead of Oct 16 earnings binary
+   - If API restored and fill confirmed: tighten stop to 7% if position up +15%; hold through earnings only if R:R favorable
+
+### Risk Factors
+- **CPI Wednesday is the week's #1 risk** — hot print crushes bonds/growth simultaneously
+- **Oil reversal:** WTI -1.4% today; if oil breaks $87 → energy sector rotation risk
+- **Bank earnings binary (Tuesday):** Any guidance miss → financial sector selloff spreads
+- **VIX complacency at 14.84** — complacent market can reprice fast on macro shock
+- **Alpaca API blocked:** Cannot place or confirm any orders until proxy restored. CRITICAL blocker.
+- **Narrow market breadth:** Only 2 sectors leading — vulnerable to rotation/washout
+
+### Decision
+**HOLD — no new trades today**
+- Bond market closed = thin liquidity; not a day to enter
+- No earnings today to react to
+- Wait for bank earnings (Tuesday) and CPI (Wednesday) to resolve before any entry
+- SLB position unconfirmed; no action until API access restored
+- Top priority: Fix Alpaca API proxy access — without it, cannot manage any live position
