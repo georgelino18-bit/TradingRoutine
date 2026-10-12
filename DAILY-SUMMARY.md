@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-10-12 11:25 UTC (fallback — curl network error)
+Pre-market 10/12: HOLD — Columbus Day, no earnings, VIX 14.84, SPX futs +0.4%. CPI Wed key risk. Alpaca API blocked (no trades possible). Bank earnings tomorrow.
