@@ -204,3 +204,53 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-13 — Pre-Market Research
+_Note: Perplexity API blocked (403/proxy reject) — fallback to WebSearch. Alpaca API also blocked (same persistent proxy issue since May 2026)._
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API 403 (proxy blocked)
+- **Cash:** ~$100,000 estimated (last confirmed state: Day 0, May 2026)
+- **Positions:** UNCONFIRMED — SLB 340sh market buy submitted 2026-05-15, never confirmed due to persistent API block
+- **Open orders:** UNKNOWN — cannot verify
+- **Daytrade count:** UNKNOWN
+
+### Market Context
+- **WTI:** ~$91.50–$93.31 (Nov contract) — easing from ~$107 as Russia agreed diesel supply deal
+- **Brent:** ~$105.50–$106.65 (Dec contract) — Brent-WTI spread ~$12–13
+- **S&P 500 futures:** Roughly flat to -0.1%; S&P ~7,800–7,856. Dow futures +0.6%, Nasdaq 100 -0.6% to -0.8%
+- **VIX:** ~15–17 range (last reliable reading ~15.15 Aug 6); environment stable/low volatility
+- **Today's catalysts:**
+  - Big bank earnings BMO: JPMorgan (EPS $5.89 reported), Goldman Sachs, Wells Fargo, Citigroup — Q3 earnings season kick-off. Banks premarket positive
+  - UNH (est EPS $4.12) and JNJ (est EPS $2.53) also reporting BMO
+  - Samsung/SK Hynix memory selloff dragging Nasdaq -0.8%; AI sentiment wobble; IMF flagging AI slowdown + rising yields
+  - Trump declared "Energy Ceasefire" Russia–Ukraine (oil easing)
+  - SLB earnings expected ~Oct 16–23 (binary risk window approaching)
+- **Economic calendar:**
+  - **TOMORROW Oct 14 — CPI (Sept) at 8:30 ET: est. 3.6% vs prev 3.4%** — KEY risk event
+  - Thu Oct 15 — PPI, Retail Sales, Jobless Claims at 8:30 ET
+  - FOMC: Oct 27–28 (rate decision Oct 28)
+- **Sector momentum YTD (as of ~Oct 2):**
+  - Energy +37–40% (leader), Technology +27–30%, Healthcare +10%
+  - Laggards: Communication Services +4%, REITs
+  - S&P 500 YTD ~+13%; narrowest breadth since 1990 (only 177 stocks beating index)
+
+### Trade Ideas
+1. **WAIT on banks** — JPM/GS/WFC reporting BMO today. If strong beats → financials could offer entry (XLF or individual names). Do not enter on earnings day itself; watch reaction at open. Financials have lagged tech/energy YTD — potential catch-up if Q3 beats strong. Thesis pending reaction.
+2. **SLB** — Earnings ~Oct 16–23 (unconfirmed date). Stock below 200-day MA, "Down" trend. Binary risk imminent. If API access restores, verify whether the May 2026 order was filled. DO NOT add to SLB ahead of binary. Post-earnings reaction if strong beat + guidance → reassess.
+3. **Energy (XOM/CVX/SLB)** — Sector still YTD leader (+40%). WTI easing today on Russia diesel deal; potential short-term headwind. Hormuz risk structural floor. HOLD until oil stabilizes post-ceasefire news and CPI clears tomorrow.
+
+### Risk Factors
+- **CPI tomorrow (Oct 14)** — est. 3.6% vs 3.4% prior. Hot print = rate hike fears, growth selloff. Cold print = rally. Single biggest near-term risk.
+- **AI sentiment deteriorating** — Samsung/Hynix rout + IMF warning could pressure tech names further. Nasdaq -0.8% premarket.
+- **Alpaca API still inaccessible** — Cannot verify account equity, positions, or place orders. Critical operational blocker. Manual intervention required.
+- **SLB position uncertainty** — May 2026 order status unknown; if filled, no stop loss has been placed (critical gap).
+- **FOMC Oct 27–28** — Rate decision looms; market positioning ahead of this will matter.
+- **Oil direction** — Russia ceasefire deal + diesel inflows vs. Hormuz structural bid. Net direction uncertain short-term.
+
+### Decision
+**HOLD** — CPI tomorrow is the session-defining event; entering new positions today exposes to overnight binary risk. Bank earnings reaction worth monitoring for a financials entry thesis. SLB binary approaching — cannot add without confirmed position data. API access remains the #1 operational blocker; no trades possible without resolution.
+
+**Action required:** Whitelist sandbox IP in Alpaca paper account settings to restore API access.
