@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-10-14 11:24 UTC (fallback — curl network error)
+Pre-market 2026-10-14: HOLD. CPI 8:30 ET (hot +0.6% MoM). ASML+BAC+MS earnings BMO. Brent $106. Energy +40% YTD leader. API blocked — no orders possible.
