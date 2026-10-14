@@ -31,3 +31,14 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-10-14 — Market-Open Execution (No Trades)
+**Status:** API BLOCKED — proxy policy denies paper-api.alpaca.markets (22+ weeks)
+
+No trades executed. Account data unavailable. ClickUp notification failed (same proxy block).
+
+**Reason:** Cloud sandbox org network policy blocks outbound CONNECT to paper-api.alpaca.markets:443 and api.clickup.com. Error: "gateway answered 403 to CONNECT (policy denial)."
+
+**Market context (WebSearch):** S&P 500 ~7,805; September CPI +3.7% YoY (hot); chip/semi sector heavy selling (AMAT -7.2%, Micron -4.6%); WTI ~$83+ (Hormuz ongoing).
+
+**Action required:** Resolve network policy — whitelist paper-api.alpaca.markets and api.clickup.com in cloud environment settings. Contact george.lino18@gmail.com — bot has been unable to trade for 22 consecutive weeks.

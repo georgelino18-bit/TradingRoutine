@@ -204,3 +204,39 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-14 — Pre-market Research (Market-Open Execution)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API proxy-blocked (org policy 403) — persists since 2026-05-14
+- Cash: ~$100,000 estimated (no positions confirmed; no trades ever executed)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (no trades placed)
+- Note: SLB order 6c529f05... from 2026-05-15 assumed unfilled; API status unknown
+
+### Market Context (WebSearch fallback — Alpaca + Perplexity APIs blocked)
+- S&P 500: ~7,784–7,824 (near flat; -0.02% to -0.27% depending on source); prior close ~7,805
+- VIX: UNAVAILABLE (last known: ~18.43 on 2026-05-15; estimated moderate ~17–19)
+- WTI / Brent: UNAVAILABLE live; last confirmed ~$83.50+ (2026-07-20 per search); Hormuz disruption ongoing
+- Inflation catalyst: September CPI +3.7% YoY vs +3.6% expected — hotter than forecast; sticky inflation headwind
+- Sector weakness: Chip/semi stocks under heavy pressure — AMAT -7.2%, Micron -4.6%, Lam Research -3.2%; tech broadly weak
+- Bank earnings: Rolling in; mixed results; financials flat to slightly negative
+- Macro: Inflation remains above target; rate-cut expectations minimal; equity market range-bound ~7,800
+
+### Trade Ideas
+- HOLD — API inaccessible; no account data; cannot confirm positions or buying power
+- Even if API were restored: semi sector under heavy selling pressure — no longs in XLK/SMH
+- Energy thesis (oil ~$83.50+, Hormuz disruption) structurally still valid — SLB/HAL/XOM candidates IF API restored
+- No catalyst strong enough to override execution blocker
+
+### Risk Factors
+- Cloud sandbox proxy policy blocks paper-api.alpaca.markets and api.clickup.com — 22 consecutive weeks blocked
+- No position entry possible without API resolution
+- Chip selloff risk broadens to discretionary/growth if inflation stays hot
+- Fed rate-cut probability near zero given CPI prints
+
+### Decision
+HOLD — Alpaca API proxy-blocked (22 weeks). No execution capability. Research-only session.
+Immediate action required: user must whitelist paper-api.alpaca.markets in cloud environment network policy.
