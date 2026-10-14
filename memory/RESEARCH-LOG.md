@@ -204,3 +204,48 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-14 — Pre-Market Research
+
+### Account Snapshot
+- Equity: UNAVAILABLE — Alpaca API blocked by org proxy (connect_rejected)
+- Cash: ~$100,000 (estimated; last confirmed state Day 0)
+- Positions: 0 confirmed (SLB 2026-05-15 order unconfirmed; never verified)
+- Buying Power: ~$100,000 estimated
+- Day Trade Count: 0
+
+### Market Context
+- **S&P 500 futures**: +0.1% premarket (Dow futures +0.3%) — muted positive ahead of hot CPI
+- **Brent crude**: ~$106.40/bbl (+0.7%) — sustained elevated; WTI tracking ~$103-104 est
+- **VIX**: No live data; last known ~24 (April 2026); elevated vs prior year baseline
+- **CPI (Sep)**: Due TODAY 8:30 AM ET — consensus +0.6% MoM, largest monthly rise in 5 months; key market-mover
+- **PPI (Sep)**: Tomorrow Oct 15, 8:30 AM ET
+- **FOMC**: Oct 28 rate decision; NY Fed's Williams signaled additional hikes may not be needed in 2027
+- **Earnings today BMO**: ASML (raised 2026 sales forecast, AI demand strong; stock +3.6% premarket), Bank of America (est $1.18 EPS), Morgan Stanley (est $3.13 EPS), Fastenal, State Street, BlackRock (already beat)
+- **Earnings Thursday**: TSMC — DO NOT enter semis before this binary
+
+### Sector Momentum (YTD through early Oct)
+- Energy: **+40.4%** (leader) ✅
+- Technology: **+30.2%** ✅
+- S&P 500: +12.8%
+- Laggards: Communication Services +4%, Materials/Utilities turned negative QTD
+
+### Trade Ideas
+1. **ASML** — Reports BMO today; raised 2026 guidance on AI chip equipment demand. If opens +3-5% on confirmed beat + strong guidance, consider entry at pullback post-open. Stop 10% below reaction low. Target +15%. Risk: memory chip weakness (MU -4.6%, AMAT -7.2% prior session) and hot CPI could pressure multiple. WAIT for open price action to confirm. Size ≤20% (~$20k).
+2. **SLB (oilfield services)** — Energy sector +40% YTD; Brent $106 sustained. Original thesis intact. Prior order (May 15) unconfirmed — treat as no position. Research entry: need live quote to confirm R:R. Last known price $47-50; if near those levels, stop ~$43-45 (10% trail), target ~$55-58 (2:1). Requires API access to place. MONITOR.
+3. **BAC/MS** — Bank earnings today. If both beat and net interest income guidance strong, financials sector rotation play. Not priority given CPI binary today. PASS for now.
+
+### Risk Factors
+- **CPI hot (+0.6% MoM)** = hawkish repricing; rate-sensitive and growth stocks sell off
+- **TSMC earnings Thursday** = binary for entire semi/AI complex; don't enter tech before it resolves
+- **Alpaca API blocked** = cannot place or verify any orders until proxy whitelist resolved — critical operational blocker
+- **Memory chip weakness** (MU, AMAT down sharply) = potential AI demand skepticism spreading
+- **Energy over-extension** = sector +40% YTD; potential profit-taking after long run
+
+### Decision
+**HOLD** — Operational blocker: Alpaca API remains inaccessible (org proxy blocks paper-api.alpaca.markets). No orders can be placed or verified. Research note (fallback: native WebSearch; Perplexity also blocked). Monitor CPI at 8:30 ET — a hot print could reverse futures. Watch ASML open reaction. Restore API access before any entry. Patience > activity.
+
+**API STATUS**: CRITICAL — resolve Alpaca proxy allowlist before next session.
+
