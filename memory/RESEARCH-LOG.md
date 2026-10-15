@@ -204,3 +204,38 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-15 — Pre-market Research (market-open run)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (sandbox IP still not whitelisted; persistent since 2026-05-14)
+- Cash: ~$100,000 estimated (last known Day 0 baseline; SLB order May-15 unconfirmed)
+- Open positions: 0 confirmed (SLB ghost position possible — unresolved since May 2026)
+- Daytrade count: 0 confirmed
+
+### Market Context (WebSearch fallback — Perplexity + Alpaca APIs blocked)
+- WTI / Brent: Elevated (reports of high energy prices driving energy sector gains; exact level unavailable)
+- S&P 500 futures: Mixed/cautious pre-market; S&P 500 and Nasdaq posted record highs Oct 12 before semis selloff
+- VIX: Unavailable
+- Today's catalysts:
+  - Semiconductor sector: 8th consecutive down day; chip selloff continuing
+  - Banking earnings: Bank of America Q3 miss ($1.08 EPS vs est) + $1.2B AML penalty → shares -4.76% Oct 14
+  - Earnings Oct 15: U.S. Bancorp (in-line), Commercial Metals (beat), Marsh (beat), Wipro
+  - Sector: Defensives leading pre-market; tech/semis declining; energy elevated
+  - Federal Reserve: Policy uncertainty ongoing
+- Sector momentum: Energy (oil structural bid), Defensives (flight to safety) | Tech/Semis (8-day selloff), Financials (earnings pressure)
+
+### Trade Ideas
+- NONE — No live data, no catalyst research, no account visibility. Cannot construct valid entries.
+
+### Risk Factors
+- Alpaca API blocked 403 — 5 months with zero trades; challenge effectively paused
+- No account access = cannot know equity, positions, or stops
+- SLB ghost position (May 2026 unconfirmed order) may exist
+- Semiconductor selloff = risk-off; avoid tech entries
+- Banking sector under pressure (earnings miss + penalty headlines)
+
+### Decision
+**HOLD — No trades. BLOCKER: Alpaca API 403 (sandbox IP not whitelisted). Manual action required to resolve IP whitelist before any trading can resume.**

@@ -31,3 +31,17 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-10-15 — Market-Open Run
+**Status:** HOLD — Alpaca API blocked (403); no trades placed
+
+- Alpaca API: 403 "connect_rejected" — sandbox IP still not whitelisted (persistent since 2026-05-14, 5 months)
+- Perplexity API: 403 blocked (same proxy restriction)
+- ClickUp API: 403 blocked (same)
+- Live account data: UNAVAILABLE
+- Trades placed: 0
+- Trades this week: 0
+
+**Market context (WebSearch):** Semis in 8-day selloff; BAC miss -4.76% Oct 14; defensives leading; energy elevated. Mixed/cautious open.
+
+**Action required:** Whitelist sandbox IP in Alpaca paper account settings. Until resolved, all scheduled workflows will fail silently. Challenge window at risk — 5 months, 0 trades, ~$0 deployed.
