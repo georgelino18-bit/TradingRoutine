@@ -204,3 +204,62 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-15 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (egress proxy refuses paper-api.alpaca.markets)
+- Cash: UNKNOWN — last confirmed state was Day 0 (~$100k) on 2026-05-13
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- **⚠ CRITICAL: SLB position status unconfirmed since May 2026**
+  - Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15
+  - Estimated fill: ~$55.38 (May 15 close; market order pre-market, actual fill may differ slightly)
+  - Current price: $48.42 (Oct 14 close; -12.6% from estimated fill)
+  - **Exceeds -7% manual cut rule (Strategy Rule #5)**
+  - No confirmed 10% trailing stop order (stop placement failed May 15 due to API issues)
+  - Q3 earnings Oct 23 — additional binary risk in 8 days
+  - **Manual intervention required: verify fill → if open, cut immediately or confirm stop**
+
+### Market Context
+- **WTI:** ~$94–95/bbl (Oct 14); OPEC+ surged output +900k bpd in September, weighing on WTI from $101+ highs
+- **Brent:** ~$103–107/bbl (Oct 14)
+- **Hormuz:** Still disrupted — traffic <20 vessels/day vs. 130 pre-war; US expects 600k bpd supply disruption through end of 2027; Iran-US talks at impasse; Iran vows closure until sanctions lifted
+- **S&P 500:** Futures -0.3% to -0.38% pre-market Oct 15; Oct 14 close 7,718.94 (-1.11%); Nasdaq -1.88% to 26,692.87
+- **VIX:** ~16.87–17.56 (two-week high, up sharply); 52-week range 13.38–35.30
+- **CPI (Sep):** 3.7% YoY headline vs. 3.6% est; core 2.6% vs. 2.5% est — HOT print Oct 14
+- **Rate hike odds (Oct 27–28 FOMC):** Surged to 46% post-CPI (was ~20%); JPMorgan does not expect hike at Oct meeting
+- **Today's releases (8:30 ET):** PPI September (consensus: headline +0.5% m/m, core +0.3%); Retail Sales; Initial Jobless Claims
+- **Earnings BMO today:** TSM (AI/semi bellwether — key read), SCHW, ERIC, BNY, PLD, PNC, USB; 16 names pre-market
+- **Yesterday's bank earnings:** JPM, GS, C, WFC all reported; BofA hit with $1.2B+ federal penalties
+- **Sectors YTD:** Energy +50.6% (leader), Technology +36.9%, Health Care +12.5%; Consumer Discretionary -5.4% (worst)
+- **Chip selloff:** South Korea Kospi -7.6% Oct 14; Samsung -9%, SK Hynix -9%; US chips pressured
+
+### Trade Ideas
+1. **TSM (post-reaction)** — AI capex bellwether reporting today pre-market. If Q3 beat + guidance intact despite inflation/rate fears → gap-up entry at open, stop 10% below reaction low, target +15%. DO NOT enter ahead of print. Wait for reaction first. Sector under near-term pressure from rate hike odds.
+2. **Energy (XOM/CVX/SLB)** — Sector still #1 YTD (+50%). Hormuz disruption structural through 2027 keeps Brent elevated. However: (a) OPEC+ surge softened WTI to $94 from $102+, (b) hot inflation + rate hike risk = growth headwind, (c) SLB position likely open and underwater — no new energy adds until SLB situation resolved and R:R confirmed. SLB Q3 earnings Oct 23.
+3. **No new entries today** — Too many moving pieces: PPI at 8:30 (another hot print = rate hike odds spike), 46% FOMC hike probability, fragile futures, chip sector panic. Patience > activity.
+
+### Risk Factors
+- PPI Sept today 8:30 ET — hot print would push rate hike odds above 50%, triggering another tech/growth selloff
+- FOMC Oct 27–28: 46% rate hike probability priced in; any hawkish Fed speak amplifies
+- Chip sector in freefall (Samsung, SK Hynix -9% overnight); AI capex narrative under pressure
+- Hormuz disruption structural but OPEC+ surge is diluting WTI upside — energy sector bull case softening
+- SLB: unconfirmed position down ~12.6% (per estimated fill); exceeds -7% rule; Q3 earnings Oct 23 adds binary risk
+- Alpaca API inaccessible — cannot verify position, check stops, or place orders without manual fix
+- 5-month monitoring gap (last log May 14) — unknown account state; could be 0 positions if stop was triggered or order never filled
+
+### Decision
+**HOLD — URGENT MANUAL ACTION REQUIRED**
+
+1. **SLB position must be verified immediately:**
+   - Run `bash scripts/alpaca.sh positions` from a whitelisted environment
+   - If open at ~$55.38 entry and price is $48.42 → CUT NOW (-12.6% exceeds -7% rule)
+   - If stop was triggered → confirm cash balance and proceed fresh
+   - If order never filled → proceed fresh (no loss)
+2. **No new trades** until SLB resolved and PPI print digested
+3. **Monitor TSM reaction** — if beat + gap-up, queue as next entry post-open
+4. **Fix Alpaca API access** — this is the #1 blocker; 5 months of blind trading is unacceptable
+

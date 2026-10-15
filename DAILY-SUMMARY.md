@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-10-15 11:23 UTC (fallback — curl network error)
+URGENT: SLB ~-12.6% vs est. entry (5→8), exceeds -7% cut rule, no confirmed stop. API still blocked. PPI 8:30ET today. HOLD all new trades. Manual Alpaca access required NOW.
