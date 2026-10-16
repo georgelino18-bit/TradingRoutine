@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-10-16
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data; same baseline since May 2026) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | ~-0.86% (Oct 9 close 7,811.54 → Oct 15 close ~7,744; Oct 16 partial; SPX YTD +14.2%) |
+| Bot vs S&P | ~+0.86% (cash flat in down week — luck, not skill) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca API (403 connect_rejected) and Perplexity API (403 connect_rejected) both inaccessible this session. Portfolio assumed at $100,000 cash — same Day 0 baseline held since May 13, 2026. No confirmation of SLB order 6c529f05 fill status (submitted May 15; assumed unfilled). Week count: approximately week 22 of the challenge with zero execution.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades confirmed all challenge |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation: S&P ~-0.86% this week — flat portfolio technically outperformed in down week
+- S&P pulled back from all-time high (7,818 Oct 6) — being in cash avoided the drawdown
+- Discipline upheld for 22nd consecutive week: zero forced or unauthorized trades
+- Strategy framework remains intact and documented — ready to deploy the moment API access restores
+- Gaps in weekly log (July→October) noted and being corrected with this entry
+
+### What Didn't Work
+- Alpaca API 403 persists for ~22 weeks (May 13 → October 16, 2026) — zero execution capability
+- Perplexity API also blocked — research quality degraded to WebSearch fallback
+- No weekly reviews logged between July 24 and October 16 — 12-week gap in documentation
+- ~22 weeks of zero alpha generation while S&P ran from ~7,444 (May) to ~7,744 (Oct) = +4.0% missed
+- Cumulative opportunity cost now substantial: multiple runnable setups (energy, materials, semis) all missed
+
+### Key Lessons
+- 22-week API block is a systemic failure requiring immediate escalation or platform change
+- The documentation gap (July–October) makes retrospective analysis impossible — log every week even without API data
+- S&P YTD +14.2%: bot is 14.2% behind the benchmark after 22 weeks with zero capital deployed
+- No amount of research quality compensates for zero execution infrastructure
+- Must treat API access restoration as the single highest-priority action before any trading decision
+
+### Adjustments for Next Week
+- PRIORITY 1 (22 weeks unchanged): Restore Alpaca API access — contact Alpaca support, verify sandbox IP whitelist, or switch to a different paper trading endpoint
+- If API restores: verify SLB order 6c529f05 status immediately; close if ghost position exists
+- If API restores: re-evaluate current market setup — S&P near all-time highs, VIX likely low, re-run sector momentum scan
+- Resume weekly logging every Friday regardless of API status — no more multi-month gaps
+- Consider testing ClickUp API as proxy for execution health checks
+
+### Overall Grade: D
+*Execution: F (API blocked week 22). Discipline: A. Research: N/A (WebSearch only). Documentation gap July–October is a separate failure. Cash +0.86% relative to S&P this week by luck. Cumulative: 0% vs S&P ~+4% (May→Oct) — 4% underperformance solely from infrastructure failure. No change in grade until execution capability is restored.*
