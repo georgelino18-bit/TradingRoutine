@@ -204,3 +204,56 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-16 — Pre-Market Research
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API 403 (IP restriction persists, all endpoints blocked)
+- **Cash:** ~$100,000 estimated (last confirmed Day 0)
+- **Positions:** 0 confirmed (API inaccessible; SLB May-15 order status unknown)
+- **Open orders:** UNKNOWN — cannot verify
+- **Daytrade count:** UNKNOWN
+- **Note:** SLB 340sh market buy (order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) submitted 2026-05-15 pre-market — fill status never confirmed. Treat as UNVERIFIED until API is accessible.
+
+### Market Context
+- **WTI/Brent:** Oil >$105 (Middle East tensions geopolitical floor); earlier Jun-26 data Brent $78.67 / WTI $75.46 — significant rally since then. Middle East tensions keeping oil elevated above $105. [Fallback: WebSearch, Perplexity API blocked]
+- **S&P 500 futures:** S&P 500 -0.2%, Nasdaq 100 -0.5% premarket. Prior close: S&P 500 at 7,744.06 (+0.33%), Dow 52,177.69 (+1.08%). Hot CPI print (Sep: core +0.3% MoM vs +0.2% est, annual 2.6%) weighing on rate expectations.
+- **VIX:** ~24 range (elevated; Apr-26 reading 24.33, 52-wk range 13.38–60.13). Risk-off tone.
+- **Key catalysts today:**
+  - September CPI released Oct 14 — hotter than expected (core +0.3% MoM vs +0.2% est). Rate cut odds fading.
+  - PPI released Oct 15.
+  - **Fed Chair Warsh speaking today** — avoided rate guidance; market unsettled.
+  - **FOMC Oct 27–28** — next rate decision; Warsh likely hawkish vs Powell baseline.
+  - HPE -7% after Barclays downgrade (AI hardware demand concerns); Dell also cut.
+  - Indonesian MSCI removal: Jakarta -10% (EM contagion risk, minor US impact).
+  - **SLB Q3 2026 earnings EXPECTED TODAY Oct 16** (pre-market, unconfirmed exact time).
+- **Earnings before open (Oct 16):** SLB Q3 likely reporting today per analyst calendars. Additional reports TBD — no confirmed list available.
+- **Economic releases today:** No major macro data today (CPI was Oct 14, PPI Oct 15). Warsh speech key risk event.
+
+### Sector Momentum (YTD through early Oct 2026)
+- **Energy:** +37–40% — clear sector leader; only 2 sectors beating the S&P 500 (narrowest breadth since 1990)
+- **Technology:** +30–37% — co-leader despite HPE/Dell AI hardware concerns
+- **S&P 500 YTD:** ~+13% (closed Oct 2 at 7,722; prior close 7,744)
+- **Materials/Utilities:** Mixed; reversed after September Fed rate hike
+- **Financials:** Lagging (-10% per some sources)
+- **Communication Services:** Only ~+4% YTD; weak
+
+### Trade Ideas
+1. **SLB** — Q3 2026 earnings likely today. Energy sector YTD leader (+37–40%). Oil >$105 = strong E&P capex backdrop. Price ~$50.28 (Digrin Oct-26 estimate). **IF** beat + strong guidance → entry at open/post-reaction, stop 10% below reaction low (~$45), target +15% (~$58), R:R ~1.5:1. **CRITICAL:** must first confirm via API whether the May-15 SLB order filled — if already holding 340sh, manage existing position, do NOT double up. Risk: earnings binary today; enter only after confirmed reaction.
+2. **Energy sector (HAL)** — HAL Q3 expected ~Oct 20. Same energy tailwind. If SLB beats and oil holds >$100, HAL pre-earnings drift opportunity. Entry only if R:R ≥2:1 at current level. Size ≤20%.
+3. **Technology on dip (selective)** — Broad tech still strong YTD (+30–37%) despite HPE/Dell weakness. AI infrastructure names (not hardware-dependent) may hold up. No specific catalyst today; monitor for oversell on AI hardware news. HOLD for now.
+
+### Risk Factors
+- Hot CPI → rate cut hopes fading → growth/tech multiple compression risk
+- Warsh hawkish pivot → October FOMC could signal higher-for-longer; SPX 7,744 looks vulnerable
+- SLB binary today — do NOT enter before reaction is confirmed
+- API inaccessible — cannot place or verify orders; position status unconfirmed
+- Oil >$105 = stagflation amplifier if growth slows; energy stocks benefit short-term but systemic risk builds
+- Narrow breadth (only 2 sectors beating SPX) = fragile rally; sentiment shift = broad drawdown risk
+- Indonesian MSCI removal = EM contagion catalyst; limited direct US exposure but risk-off signal
+
+### Decision
+**HOLD** — Two hard blocks: (1) API inaccessible — cannot place orders or verify existing SLB position. (2) SLB earnings binary today — must wait for confirmed post-reaction direction before entry. Energy thesis intact (sector +37–40% YTD, oil >$105). SLB is the top watchlist name: if earnings beat with strong guidance AND API becomes accessible AND reaction confirms direction → enter at open with 10% trailing stop. Patience > activity.
+
