@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-10-16 11:21 UTC (fallback — curl network error)
+Pre-market 2026-10-16: HOLD. API blocked (403). SLB earnings today — binary; wait for reaction. Oil >05, SPX -0.2% futures, hot CPI, VIX ~24. Energy +37% YTD leads. No trades until API accessible.
