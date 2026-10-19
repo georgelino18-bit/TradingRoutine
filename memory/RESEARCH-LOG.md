@@ -204,3 +204,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-19 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy blocking paper-api.alpaca.markets; persistent issue)
+- Cash: UNKNOWN — last confirmed state May 15: SLB market buy order submitted (340sh), fill unconfirmed
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- NOTE: SLB order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` submitted 2026-05-15 never confirmed; SLB now ~$49 (below likely entry ~$55 range, possibly stopped out at -7%/-10%). Status indeterminate until API access restored.
+
+### Market Context
+- WTI / Brent: WTI ~$101.41 | Brent ~$109.69 (Oct 18 close) — elevated; Gulf tanker attacks + Ukrainian strike on Russian oil terminal keeping crude bid; WTI structural floor
+- S&P 500 futures: +0.5–0.8% premarket (bouncing from Friday tech rout); Nasdaq 100 futures +1.3% (buying the AI-dip)
+- VIX: ~18–20; spiked intraday to 22.31 on Oct 16 (highest since June 11) — elevated fear but not panic; pulled back
+- Today's catalysts:
+  - **Tech selloff bounce**: XLK -7.7% last week; RSI ~33 (oversold); Nasdaq recovering on AI conviction
+  - **Gulf tanker attacks + Ukraine/Russia oil terminal strike**: crude structural bid; energy sectors continue to lead
+  - **Fed blackout (Oct 17–29)**: FOMC Oct 27–28; rate range 3.75–4.00%; no Fed speakers this week
+  - **Sticky inflation**: Sept import prices +1.1%, export prices +2.2% — reinforces hawkish environment
+  - **China Q3 GDP**: +4.5% y/y (beat +4.4% forecast) — mildly bullish for global growth
+  - **Big Tech earnings week**: Meta, Tesla, Netflix report this week — market-moving
+- Earnings before open (Oct 19): Cleveland-Cliffs (CLF, est. EPS $0.22), Fifth Third Bancorp (FITB, est. $0.83), SmartFinancial (SMBK), VinFast (VFS), Dynex Capital (DX) — no large-cap market movers
+- Economic calendar (Oct 19): NAHB Housing Market Index 10 AM ET (est. 31, prev. 32) — light day
+- Sector momentum YTD: **XLE +52–56% (leader)** | XLK +27% (gave back ~7.7% last week) | XLI +8–9% | XLF +1–2%
+
+### Trade Ideas
+1. **SLB (oilfield services)** — MONITOR ONLY; reports Q3 earnings Oct 23 (Thursday). Current ~$49. Barclays PT $66, UBS PT $72. If we hold from May ~$55 entry → ~-11% → likely 10% trailing stop triggered. Cannot confirm without API access. DO NOT add ahead of earnings binary. Post-earnings entry only on beat + raised guidance.
+2. **XLK / NVDA / AI semis bounce** — RSI ~33 on XLK, Nasdaq +1.3% premarket. Setup exists BUT: sticky inflation + hawkish Fed + multiple large earnings binaries this week (Meta, Tesla, Netflix) = landmines. No clean entry without clarity on earnings outcomes.
+3. **XLE add** — Energy sector structural leader (+52%+ YTD). Gulf/Ukraine crude bid intact. However: SLB earnings Oct 23 creates sector-specific binary. If SLB beats and gaps up, entry on reaction day is preferred.
+
+### Risk Factors
+- Alpaca API inaccessible (403 proxy) — cannot confirm SLB position or place any orders
+- Fed blackout through Oct 29: no guidance; FOMC binary Oct 27–28 (market priced at 3.75–4.00%)
+- Sticky import/export inflation data — rate hike risk not zero
+- Big earnings week (Meta, Tesla, Netflix) — binary risk across sectors
+- SLB earnings Oct 23 — do not add ahead of binary
+- Tech RSI bounce may fail if earnings disappoint
+- VIX spiked to 22 on Friday — elevated but not panic; could re-spike on bad earnings
+
+### Decision
+**HOLD** — API access remains the primary blocker. Cannot confirm current positions or place orders. SLB binary on Oct 23 warrants patience even if API restored. Energy structurally bullish (WTI $101+, XLE +52% YTD) but no clean high-conviction entry today. Big tech earnings week creates macro uncertainty. Default rule: patience > activity. Revisit post-SLB earnings reaction Thursday.
