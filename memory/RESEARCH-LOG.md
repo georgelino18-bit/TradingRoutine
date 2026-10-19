@@ -204,3 +204,26 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-19 — Market-Open Execution (Scheduled Run)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy/IP not allowlisted; persistent issue since 2026-05-14)
+- Cash: UNKNOWN
+- Positions: UNKNOWN
+- Buying power: UNKNOWN
+
+### Status
+- **BLOCKED** — Both Alpaca API and ClickUp API returning 403 via agent proxy
+- No research entry existed for today; pre-market steps skipped due to API inaccessibility
+- No trades placed; no stops updated
+
+### Actions Required (manual)
+1. Whitelist sandbox IP in Alpaca paper account settings: https://app.alpaca.markets/paper-trading/overview → Account → API Keys → IP Allowlist
+2. Once API accessible: run `bash scripts/alpaca.sh account` and `bash scripts/alpaca.sh positions` to confirm current state
+3. Rerun market-open workflow after API access restored
+
+### Decision
+NO ACTION — API inaccessible. Manual intervention required before any trading can resume.
