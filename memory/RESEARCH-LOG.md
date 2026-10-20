@@ -3,6 +3,48 @@
 Daily pre-market research entries will be appended here.
 Format each entry:
 
+---
+
+## 2026-10-20 — Pre-Market Research
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API blocked (egress proxy 403; sandbox IP not whitelisted)
+- **Positions:** Unknown — last confirmed state: 0 positions, ~$100k cash (Day 0 baseline; SLB order ID `6c529f05` submitted 2026-05-15 but never confirmed filled)
+- **Cash/Buying Power:** ~$100,000 estimated
+- **Daytrade count:** Unknown
+- **API status:** CRITICAL — Alpaca AND Perplexity both 403 (connect_rejected). Using WebSearch fallback.
+
+### Market Context
+- **WTI:** ~$97–$104/bbl (live feeds disagree; one shows $98.24 early Oct 20 UTC, last close $97.70). Strait of Hormuz tanker attacks + Houthi strikes on Saudi Arabia driving structural bid.
+- **Brent:** ~$108–$111/bbl (~$10–12 spread over WTI). One feed shows $110.02 early Oct 20 UTC.
+- **S&P 500 Futures (premarket):** Flat to +0.1% early; Nasdaq-100 futures -0.3%. Chip stocks (SMH) -1%. Mixed/cautious ahead of big earnings week.
+- **VIX:** ~16–18 (last reliable read: 16.64 ~4 days ago; Yahoo shows 18.55). Moderate. FOMC blackout period active (Oct 17–29; decision Oct 28).
+- **Sector YTD leaders:** Energy +51% (XLE), Tech +33–37% (XLK) | Laggards: Consumer Discretionary -6%, Communication Services negative
+- **S&P 500 YTD:** +13.3% (through Oct 19, total return)
+
+### Today's Calendar
+- **Pre-open earnings (major):** GM (est. $3.63 EPS, $48.7B rev), RTX, GE Aerospace, 3M ($2.39 est.), MMM, MSCI (already beat: $5.11 vs $5.02), Halliburton, Philip Morris
+- **After-close earnings:** Netflix (~9.9% implied move), Intuitive Surgical (~7.9% implied)
+- **Economic data:** Housing Starts Sep @ 8:30 ET (est. 1.30M vs prior 1.275M); Atlanta Fed GDPNow Q3 @ 10:00 ET (3.6%)
+- **No CPI today** (was Oct 14). **No FOMC today** (decision Oct 28; blackout in effect — no Fed speak)
+- **This week:** Tesla, Meta, IBM earnings Wed Oct 21; P&G Thu; PMI + Michigan Fri
+
+### Trade Ideas
+1. **HAL (Halliburton)** — Reports pre-market today. Energy sector YTD leader (+51%). Hormuz structural bid = E&P capex acceleration thesis intact. IF beat + raised guidance → gap-up entry at open, stop 10% below reaction low, target +15%, R:R ≥2:1. Size ≤20% (~$20k). **Catalyst:** earnings beat + oil price support. **Risk:** reports this morning — binary; only enter post-reaction, not pre.
+2. **XLE (Energy ETF) / XOM** — Energy sector momentum strongest YTD. XOM at $151+ (original target was $146, already surpassed). R:R from current levels needs recalculation. Sector ETF may offer cleaner risk vs individual name. **Catalyst:** persistent Hormuz bid, sector momentum. **Risk:** XOM already extended; evaluate only if fresh pullback to better R:R level.
+3. **NFLX post-earnings (tomorrow)** — If Netflix beats tonight (~9.9% implied move), gap-up setup tomorrow morning. Streaming + content cycle, potential guidance raise. Entry at open post-reaction, stop 10% below reaction low, target +15%. **Risk:** binary tonight — monitor post-close; do NOT enter pre-earnings.
+
+### Risk Factors
+- Alpaca API inaccessible — cannot verify positions, place stops, or execute trades
+- FOMC blackout Oct 17–29 → decision Oct 28; rate uncertainty elevated
+- Chip stocks under pressure (SMH -1% premarket, SOX ended 8-session losing streak Monday) — tech breadth thin
+- Hormuz escalation ongoing — oil shock + inflation amplifier → growth stocks suffer if WTI breaks $110+
+- Big earnings week binary risk (GM, RTX, GE, HAL pre-market; NFLX after close) → volatility elevated
+- SLB order from May 2026 never confirmed filled or stopped — position status unknown
+
+### Decision
+**HOLD** — Cannot confirm account state (API blocked). Even if positions clear, no entry without confirmed R:R ≥2:1 and stop placement ability. Monitor HAL post-earnings reaction for potential entry if Alpaca access restored. Watch NFLX post-close for tomorrow setup. Patience > activity.
+
 ## YYYY-MM-DD — Pre-market Research
 
 ### Account
