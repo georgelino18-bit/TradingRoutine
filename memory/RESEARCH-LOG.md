@@ -204,3 +204,32 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-20 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy blocking paper-api.alpaca.markets; persistent issue since 2026-05-14)
+- Positions: UNKNOWN — cannot retrieve via API
+- Cash: UNKNOWN
+
+### Actions Taken
+- None — API inaccessible; no positions data retrievable
+
+### Loser Cuts (-7% rule)
+- N/A — cannot retrieve positions
+
+### Stop Tightening
+- N/A — cannot retrieve positions
+
+### Thesis Check
+- N/A — cannot retrieve positions
+
+### Intraday Notes
+- Alpaca paper-api.alpaca.markets blocked by egress proxy in remote cloud session
+- All prior sessions (since 2026-05-14) have had same 403 issue
+- CRITICAL: Manual action required — allowlist this session's IP in Alpaca paper account settings
+
+### Decision
+NO ACTION — API inaccessible. Standing issue: sandbox/cloud session IP not whitelisted on Alpaca paper API. No trades can be placed, monitored, or managed until resolved.
