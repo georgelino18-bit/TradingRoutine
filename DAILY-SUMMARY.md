@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-10-20 11:19 UTC (fallback — curl network error)
+Pre-market 2026-10-20: API blocked (Alpaca+Perplexity 403). WTI ~8-104, Brent ~10, SPX futures flat, VIX ~17. Big earnings week: HAL/GM/RTX/GE pre-open, NFLX after-close. HOLD — no entry until API access restored.
