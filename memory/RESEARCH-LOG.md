@@ -204,3 +204,31 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-20 — Market-Open Check (Week 23 — API STILL BLOCKED)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (proxy CONNECT tunnel blocked)
+- Cash: ~$100,000 estimated (no confirmed trades; Day 0 baseline unchanged)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+- Open positions: 0 confirmed (SLB order from 2026-05-15 assumed unfilled; never confirmed)
+
+### API Status
+- Alpaca paper API (paper-api.alpaca.markets): 403 — CONNECT tunnel blocked by proxy
+- ClickUp notification API (api.clickup.com): 403 — CONNECT tunnel blocked by proxy
+- Perplexity: not tested (blocked previously)
+- Status: Identical failure mode since 2026-05-14 (Day 1). No change in 22+ weeks.
+
+### Context
+- 22+ consecutive weeks with zero API access
+- Zero trades placed since bot launched
+- All scheduled workflows have been running but unable to execute any orders
+- Challenge window severely impacted — full underperformance vs S&P 500
+
+### Decision
+HOLD — API blocked; no execution capability. No trades placed.
+PRIORITY: User must manually whitelist cloud sandbox IP in Alpaca paper account settings.
+If API is restored, reassess market conditions before any entry.
