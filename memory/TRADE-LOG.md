@@ -31,3 +31,14 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-10-21 — Midday Scan (17:10 UTC)
+**Status:** BLOCKED — Egress proxy denying paper-api.alpaca.markets (403 connect_rejected)
+
+- `bash scripts/alpaca.sh positions` → 403 (proxy policy denial)
+- `bash scripts/alpaca.sh orders` → 403 (proxy policy denial)
+- ClickUp notification → 403 (proxy policy denial)
+- No positions retrieved; no stop adjustments possible
+- No losers cut; no stops tightened
+
+**Action required:** paper-api.alpaca.markets must be added to the egress proxy allowlist before any automated scan can function. Run all pending midday checks manually.
