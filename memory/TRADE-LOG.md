@@ -31,3 +31,23 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-10-21 — Market-Open Run (API Blocked — No Trades)
+**Portfolio:** ~$100,000.00 est. | **Cash:** ~$100,000.00 est. | **Positions:** 0 confirmed
+
+**Status:** BLOCKED — Alpaca API 403 (proxy connect_rejected) persists 23+ weeks. No live account data retrievable. No orders placed.
+
+**Weekly trade count (est.):** 0 this week | 0 total all-time
+
+**Action:**
+- No buys placed (cannot reach Alpaca)
+- No stops placed
+- SLB order ID 6c529f05-19c5-4078-ba9d-9fb42bc7ae15 from 2026-05-15 status: UNKNOWN (assumed unfilled)
+- Market context (WebSearch): S&P ~7,700s, WTI ~$100, VIX ~17 — market stable, active earnings week
+
+**ESCALATION NOTE (PRIORITY 1 — Week 24 unchanged):**
+The Alpaca paper trading account IP allowlist issue must be resolved before ANY execution is possible. Current cloud sandbox IP is blocked by Alpaca's paper API gateway. Resolution steps:
+1. Log in to Alpaca paper account at alpaca.markets
+2. Go to account settings → API keys → add current IP or disable IP restriction
+3. Alternatively: run this bot from an environment with a static/whitelisted IP
+Until resolved, this bot cannot execute any trades and is operating as a pure research tool.

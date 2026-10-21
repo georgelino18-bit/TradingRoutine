@@ -204,3 +204,36 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-21 — Pre-market Research (Market-Open Run, WebSearch fallback — Alpaca + Perplexity + ClickUp APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (proxy policy denial, same as all prior sessions since 2026-05-13)
+- Cash: ~$100,000 estimated (no confirmed fills; SLB order from 2026-05-15 assumed unfilled)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 (estimated — no activity)
+- Open positions: 0 (assumed — unverifiable)
+- NOTE: All three APIs blocked (Alpaca, Perplexity, ClickUp) — proxy connect_rejected for all external trading/data hosts. Market data via WebSearch only.
+
+### Market Context (WebSearch fallback — stale/unconfirmed, best available)
+- WTI / Brent: WTI ~$100/bbl (range $99.74–$103; Hormuz floor still structural)
+- S&P 500: ~7,712–7,740 (Oct 20 close +0.3%); Nasdaq +0.7% prior day
+- VIX: ~17.2–17.4 (moderate, no panic; 52-week high was ~35 in March 2026)
+- Today's catalysts: Active earnings week (~50% of S&P 500 reporting this week); no specific Oct 21 catalyst confirmed via WebSearch
+- Earnings before open: Not identified (Perplexity blocked; WebSearch inconclusive)
+- Sector momentum: No current YTD data available (API/Perplexity blocked)
+
+### Trade Ideas
+- NONE — API inaccessible; cannot place or verify orders
+- Context: 5+ months of API blockage (2026-05-13 to 2026-10-21); zero trades executed; account estimated at $100,000 cash
+
+### Risk Factors
+- Alpaca API 403 — execution completely blocked (23+ consecutive weeks)
+- Perplexity API 403 — research quality degraded to WebSearch fallback
+- ClickUp API 403 — notifications blocked
+- Unknown SLB order status (ID: 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) from 2026-05-15 — if filled undetected, represents ~$19,890 (~20% of equity) in SLB with no stop protection
+
+### Decision
+HOLD — API infrastructure still blocked. No trades can be placed or confirmed. Manual action required to resolve Alpaca IP allowlist before any execution is possible. See TRADE-LOG.md for escalation note.
