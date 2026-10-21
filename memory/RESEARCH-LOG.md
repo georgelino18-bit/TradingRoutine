@@ -204,3 +204,57 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-21 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy rejects paper-api.alpaca.markets; persistent since May 2026)
+- Cash: ~$100,000 estimated (Day 0 baseline; no confirmed fills ever received)
+- Buying power: ~$100,000 estimated
+- Daytrade count: unknown
+- **CRITICAL NOTE:** SLB market buy (340sh) submitted 2026-05-15 (Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) was never confirmed due to persistent API block. Current SLB ~$49–50 vs. ~$60 52-week high. If filled at ~$55+ in May, 10% trailing stop likely triggered at some point. Account state unknowable until API is unblocked. **Manual verification required.**
+- Perplexity API: 403 blocked (same egress restriction). All research via WebSearch fallback.
+
+### Market Context
+- WTI / Brent: WTI ~$99.25 | Brent ~$110.40 — elevated; up ~2% on session (reports of US easing Russian energy sanctions created brief dip to ~$95.28 intraday; recovered)
+- S&P 500: Closed at 7,712.57 yesterday (Oct 20); futures +0.1–0.2% premarket — muted positive
+- VIX: ~18.44 (Oct 19 close per FRED); range ~15–20 past week — moderate, not alarming
+- Today's catalysts:
+  - **TSLA Q3 2026 earnings TONIGHT after bell** — EPS est $0.43–0.45, rev est $27.9B. Key event for Big Tech earnings season. Do NOT enter before binary.
+  - **META Q3 earnings TONIGHT after bell** — another major binary. Stay out pre-event.
+  - **IBM Q3 earnings TONIGHT** — EPS est $2.89
+  - **AI/chip sentiment:** SMCI raised revenue forecast (+15% premarket surge); SpaceX strong Q3; Micron/SanDisk/SK Hynix all rising on AI server demand
+  - **SLB reports Thursday Oct 23 7:00 AM ET** — EPS est $0.62, rev est $9.27B. Upcoming binary — do not add exposure ahead of print
+  - **CPI:** Sept print came in 3.7% vs 3.6% est — slightly hotter; hawkish risk
+  - **FOMC October 28** — rate decision in 7 days; uncertainty ceiling on equity risk-taking
+- Earnings before open today: Abbott Labs (ABT, est EPS $1.42), AT&T (T, est $0.61), Thermo Fisher (TMO, est $6.47), Philip Morris (PM, est $2.32), NextEra Energy (NEE), CME Group, Danaher (DHR)
+- Economic calendar Oct 21: EIA crude inventories 10:30 AM ET; 20-yr bond auction 1:00 PM ET. No CPI/FOMC/jobs today.
+- Upcoming: Jobless claims Thursday Oct 22 (est 200K); Michigan sentiment + flash PMIs Friday Oct 23; FOMC decision Tuesday Oct 28; GDP/PCE Thursday Oct 29
+- Sector momentum YTD (as of Oct 19): Energy +54.6% (leader), Tech +29.6%, Healthcare +14.9% | Down: Consumer Discretionary -6.6%, Communication Services -5.6%, Utilities -2.3%, Financials -0.5%
+
+### Trade Ideas
+
+1. **TSLA post-earnings gap-up play** — IF TSLA beats and guides higher tonight, consider entry at tomorrow's open at confirmed level. Entry TBD (current ~$250–270 range), stop 10% below open print, target +15%, R:R ≥2:1. Size ≤20% (~$20k). **DO NOT enter today — binary risk.**
+
+2. **SLB post-earnings play (Oct 23)** — SLB ~$49–50; reports Q3 Thu Oct 23 BMO. Analyst PT range $60–66 (Barclays $66, BMO $60). WTI $99+ is structural support for oilfield services. Energy sector YTD +54.6% still #1. IF Q3 beats and guides higher, enter post-reaction at open Oct 23. Entry ~$50–52 confirmed, stop 10% below gap low, target $58–62, R:R ~1.5–2:1. Size ≤20%. *Also — would resolve May SLB order mystery if Alpaca still holds a position.*
+
+3. **META post-earnings play** — AI advertising spend resilient; Meta AI product cycle intact. IF tonight's print beats on rev/EPS + strong guide, enter Oct 22 open. Entry TBD, stop 10% below reaction low, target +15%. R:R ≥2:1. Avoid before binary.
+
+### Risk Factors
+- Three major binary events tonight (TSLA, META, IBM) — broad Nasdaq volatility; wait for reactions
+- FOMC Oct 28 in 7 days — any hawkish surprise kills risk assets; do not over-deploy this week
+- CPI at 3.7% (above est) keeps rate-cut expectations suppressed; higher-for-longer headwind
+- SLB trailing stop likely already triggered if May order was filled (price ~$30–35% below thesis target) — account state genuinely unknown
+- Oil sanction-easing news (US/Russia) could cap energy upside structurally
+- VIX ~18 — normal but multiple binary events + FOMC = potential volatility spike
+
+### Decision
+**HOLD — wait for tonight's binary resolutions (TSLA, META, IBM)**
+- No new entries today. Too many binary events in next 24–48h.
+- Queue TSLA setup for Oct 22 open IF earnings beat + gap-up confirms.
+- Queue SLB setup for Oct 23 open IF Q3 earnings beat.
+- Queue META setup for Oct 22 open IF earnings beat + gap-up confirms.
+- Max 3 new trades per week — if all three set up, rank by conviction and pick top 2.
+- **MANUAL ACTION REQUIRED:** Unblock Alpaca API (sandbox egress allowlist) to verify SLB position status and confirm account equity before any trade is placed.
