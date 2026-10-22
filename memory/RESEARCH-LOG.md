@@ -204,3 +204,58 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-22 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy blocks paper-api.alpaca.markets; persistent issue)
+- Cash: UNKNOWN — last confirmed state May 15, 2026: $100,000 baseline, SLB order submitted but fill unconfirmed
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- NOTE: Perplexity API also blocked (api.perplexity.ai 403). All research via WebSearch fallback.
+
+### SLB Position Status (unresolved since May 2026)
+- Order `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted 2026-05-15, fill unconfirmed
+- SLB current price: ~$50–52 (Oct 2026); trend classified DOWN across short/mid/long term; below 200-day MA
+- Original thesis entry ~$59; if filled, unrealized P&L approx -$27 to -$31/sh (~-$9,000–$10,500) — past -7% cut trigger
+- SLB Q3 earnings reported ~Oct 16–23 (exact date unconfirmed)
+- CRITICAL: Manual verification required — cannot access API to confirm fill or current P&L
+
+### Market Context
+- WTI / Brent: WTI ~$95–97/bbl (last confirmed Oct 15: $95.69; Middle East hostilities escalating → upward pressure)
+- S&P 500: Prior close (Oct 21) 7,757.17 (+0.58%); futures premarket Oct 22: **-1.0%** (broad retreat)
+- Nasdaq 100 futures: **-1.7%** premarket — tech earnings disappointing
+- VIX: ~24 estimated (April 2026 reading: 24.33; 52-week high 60.13 from March; likely elevated today)
+- Today's catalysts:
+  - Lam Research (LRCX) Q3 guidance disappointing → premarket -7%+; chip equipment weakness
+  - Tesla (TSLA) -3.8% premarket — cut spending plans; EV demand concerns
+  - Meta and IBM reported Oct 21 after close — check reactions at open
+  - SpaceX/Tesla earnings week theme: tech growth expectations too high
+  - Middle East escalation (US-Iran hostilities) pushing oil higher; China CSI 300 entered bear market (-20% from June peak)
+- Earnings before open Oct 22: KeyCorp (KEY), Fifth Third (FITB), Huntington (HBAN), Dow Inc. (DOW) — financials and materials
+- Economic calendar: **No major US data today**; FOMC decision Wed Oct 28; Q3 GDP advance Oct 29
+- Sector momentum YTD (as of Aug 2026, last available):
+  - Energy +39.4% (leader — Hormuz structural bid, Iran conflict)
+  - Technology +32.1% (but fading this week on earnings misses)
+  - Industrials +20.6%
+  - Communication Services -3.8% (laggard)
+  - Consumer Discretionary -0.8%
+
+### Trade Ideas
+1. **HOLD / NO NEW ENTRIES today** — Tech-led selloff in premarket (-1.7% Nasdaq); FOMC in 6 days creates macro uncertainty; China entering bear market = global risk-off signal; SLB position status unresolved and may require emergency cut
+2. **SLB contingency** — If SLB position is confirmed as filled at ~$59 and currently ~$50: position is beyond -7% stop rule → mandatory cut at open. Do not let this ride further. Verify fill immediately at market open
+3. **Energy sector watch** — Oil rising on Middle East; XOM, CVX still in sector momentum. DO NOT enter new positions until SLB situation resolved and API access confirmed
+
+### Risk Factors
+- Alpaca + Perplexity APIs blocked (egress proxy 403) — cannot place, verify, or manage orders
+- SLB potential deep loss (~$10k) if filled and unmanaged since May 2026
+- Tech earnings disappointing (LRCX -7%, TSLA -3.8%) → Nasdaq weakness bleeds into broad market
+- FOMC Oct 28 → rate decision uncertainty (10-yr yield ~5.10% as of Oct 15)
+- China CSI 300 bear market → global contagion / risk-off
+- Lam Research weakness signals semi capex cycle pause — watch AI names (NVDA, AMAT)
+- 5 months without API access; account state unknown — high operational risk
+
+### Decision
+HOLD — No new trades. Resolve API access first. If SLB was filled in May, it has almost certainly triggered the -7% cut rule and needs immediate action. FOMC in 6 days + tech selloff = no edge today. Patience > activity.
