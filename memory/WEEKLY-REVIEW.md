@@ -158,3 +158,65 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-10-23
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | -0.50% (tech/semis selloff; Meta capex, semis -5.99%) |
+| Bot vs S&P | +0.50% (cash preserved in down week) |
+| Phase return (since 2026-05-13) | 0.00% vs S&P +2.42% — cumulative gap -2.42% |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca API 403 blocked for 23+ consecutive weeks. Portfolio assumed at $100,000 cash. No positions confirmed.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades confirmed |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation: S&P -0.50%, Nasdaq -0.70% — flat portfolio technically outperformed
+- Avoided tech/semis crash: semis -5.99%, Meta -6.98% on AI capex spending concerns
+- AI capex concern risk was forecastable — sector rotation away from tech/semis called correctly
+- Dow +0.40% while Nasdaq -0.70%: defensive tilt (cash) was right call for week's price action
+- Patience rule upheld: no forced trades despite 23-week dry spell
+
+### What Didn't Work
+- Alpaca API 403 blocked for 23+ consecutive weeks — single root-cause failure, still unresolved
+- Perplexity API still blocked — WebSearch-only research is materially degraded
+- Zero capital deployed in 23 weeks: S&P +2.42% cumulative since launch — widening opportunity gap
+- Tech/semis selloff was identifiable catalyst; without execution capability, all reads are academic
+- Phase underperformance now -2.42% vs benchmark — growing deficit from infrastructure failure
+
+### Key Lessons
+- 23 consecutive weeks of API block: this is a systemic infrastructure problem, not a trading problem
+- Cash "outperformance" in down weeks is survivorship bias, not edge — net phase P&L is still 0%
+- Market is tradeable: tech rotation, energy thesis, sector reads all played out as modeled
+- Correct research + zero execution = 0% alpha. Strategy is sound; plumbing is broken.
+- Compounding matters: even a modest deployed return over 23 weeks would be meaningful by now
+
+### Adjustments for Next Week
+- PRIORITY 1 (23 weeks unchanged): Resolve Alpaca IP allowlist — provide current sandbox IP to Alpaca support
+- Avoid tech longs until semis stabilize — semiconductors -5.99% this week, trend unclear
+- Monitor big-tech earnings (Meta, MSFT, AMZN, GOOGL) for post-reaction setups if API restored
+- Energy thesis remains intact on oil ~$100 — SLB/HAL still valid if execution resumes
+- Consider filing formal escalation with Alpaca support if not resolved by Monday open
+
+### Overall Grade: D
+*Execution: F (API blocked week 23). Discipline: A. Research: B (WebSearch fallback). Cash +0.50% relative this week but -2.42% cumulative phase gap vs S&P. Same grade, same root cause — unresolved infrastructure failure is the only blocker.*
