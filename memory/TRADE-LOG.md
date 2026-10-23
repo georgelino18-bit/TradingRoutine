@@ -31,3 +31,21 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-10-23 — Midday Scan (BLOCKED)
+**Status:** CRITICAL — Agent proxy blocking all outbound API calls
+
+- paper-api.alpaca.markets:443 → 403 policy denial (agent proxy egress blocked)
+- api.clickup.com → 403 CONNECT tunnel failed
+- Cannot read positions, orders, or manage stops
+- Cannot place or cancel trailing stops
+
+**Last known state (from log):** SLB 340sh position entered 2026-05-15, stop status unconfirmed. All prior sessions also blocked.
+
+**Immediate manual action required:**
+1. Run `bash scripts/alpaca.sh positions` locally to see all open positions
+2. For any position with unrealized_plpc <= -0.07: close it immediately
+3. For positions +15% or more: tighten trailing stop (7% at +15%, 5% at +20%)
+4. Confirm SLB trailing stop is active; place if missing
+
+**Root cause:** Cloud sandbox IP not in Alpaca/ClickUp allowlist, or egress network policy blocks these hosts. This is recurring across every automated session.
