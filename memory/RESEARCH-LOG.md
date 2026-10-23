@@ -204,3 +204,67 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-23 — Pre-Market Research (Fri, Oct 23)
+
+### Account Snapshot
+- **UNAVAILABLE** — Alpaca API returning 403 (egress proxy restriction; sandbox IP not whitelisted)
+- Last known state: $100,000 cash, 0 confirmed positions (persistent since May 2026)
+- ClickUp also blocked (same 403 egress issue)
+- **Action required:** Whitelist sandbox egress IP in Alpaca paper account settings
+
+### Market Context
+- **WTI:** ~$99.24/bbl | **Brent:** ~$112.94/bbl — 5-week highs
+  - Driver: US + Israeli militaries reportedly finalizing plans for renewed Iran strikes; Hormuz supply disruption fears
+  - Brent briefly touched $113 Thursday (Fortune)
+- **S&P 500 futures:** -0.2% to -0.3% premarket
+  - Thursday: S&P -1.21% (worst session since July), Nasdaq -2.6% (worst since June)
+  - S&P stuck in range 7620–7800 since August; flirting with lower bound
+  - Driver: AI capex/debt concerns — hyperscaler spending questioned; Meta/NVDA weighed
+- **VIX:** ~19.03 (jumped +14.09% Thursday); range 16.54–22.12 weekly; no panic but elevated
+- **10-yr yield:** 4.96% (fell 17 bps Thursday, breaking below 5% for first time in a month — flight to safety)
+
+### Today's Releases
+- **9:45 ET** — S&P Global Flash PMIs (services est 58.0, mfg est 55.5) — expansion expected
+- **10:00 ET** — U of Michigan final sentiment; 1-yr inflation expectations est 4.7%
+- **No** CPI, FOMC, or payrolls today
+- **FOMC Oct 28** — rate decision (hawkish risk; Sep CPI re-accelerated to 3.7% annualized)
+- **Q3 GDP + PCE Oct 29**
+
+### Earnings Today (BMO)
+- **AXP** (American Express) — financial sector
+- **SLB** (Schlumberger) — Q3 2026: Rev $9.45B (+6% YoY), Adj EPS $0.64 vs $0.62 est (**slight beat**); GAAP EPS $0.49 (-2% YoY); FCF $828M; div $0.295/sh
+- **INFY** (Infosys), **GNTX** (Gentex), **FLG**
+
+### Sector Momentum (YTD thru early Oct 2026)
+| Sector | YTD |
+|--------|-----|
+| Energy | +37.5% ✅ LEADER |
+| Info Tech | +27.1% ✅ |
+| Health Care | +10.3% |
+| Comm Services | +4.0% ⚠️ lagging |
+| Financials | ~-10% ❌ |
+| Consumer Disc | ~-9% ❌ |
+- Materials/Utilities fell sharply in Q3 after Fed hiked in September
+
+### Trade Ideas
+1. **SLB** — Energy leader (+37.5% YTD sector), Q3 slight earnings beat ($0.64 adj vs $0.62 est). Oil at $99 WTI on Iran escalation. Monitor for post-earnings gap-up reaction at open. Entry only if gap-up confirms + R:R ≥2:1 from reaction level. Stop 10% below entry. Target +15%. Size ≤20% (~$20k). **Cannot execute — Alpaca API unavailable.**
+2. **Energy macro basket (HAL, OXY)** — Structural Hormuz bid intact. Oilfield services thesis unchanged from May. HOLD for API access before entry.
+3. **AXP** — Watch reaction to earnings (Financials sector lagging, so only enter on strong beat + sector rotation signal). Low conviction given sector headwind.
+
+### Risk Factors
+- **Iran escalation** — oil spike → stagflation → growth selloff
+- **FOMC Oct 28** — hawkish risk with CPI at 3.7%; no pause signal yet
+- **AI capex doubt** — tech selloff spreading; Nasdaq -2.6% Thu; S&P at range floor
+- **Midterm elections** — uncertainty overhang (equity clock flags as phantom weight)
+- **French sovereign debt** — Moody's rating today; 10-yr OAT >5%, spread 174 bps
+- **Gold** — spot fell below $4,000 (deflationary signal or deleveraging)
+- **API access** — cannot trade or verify positions until egress IP whitelisted
+
+### Decision
+**HOLD** — Alpaca API inaccessible; cannot place or verify any order. Energy thesis intact (SLB slight beat, oil $99 WTI) but no execution possible. Patience > activity. Escalate API access issue urgently before next session.
+
+*(Note: Perplexity API also 403-blocked; all research via WebSearch fallback)*
+
