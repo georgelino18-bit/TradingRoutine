@@ -204,3 +204,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-26 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (proxy IP restriction)
+- Positions: UNKNOWN — last confirmed state May 13 = $100,000 cash, 0 positions; SLB 340sh market buy submitted May 15 unconfirmed
+- Cash: ~$100,000 estimated (no confirmed fills since launch)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0
+
+### Market Context
+- WTI / Brent: WTI ~$101.00 | Brent ~$114.51 (down 1.9% from Friday $116.72 high; easing US-Iran tension narrative)
+- S&P 500: Closed Friday Oct 23 at 7,623.68 (-0.52%); Monday futures higher as oil pulls back; YTD ~+12.60%
+- VIX: ~24.33 last confirmed (April 2026); implied modestly elevated given 10yr yields near 5.00%
+- 10-yr Treasury yield: ~5.00% (elevated; key headwind for equities)
+- Gold: ~$4,010 (elevated safe-haven bid)
+- Today's earnings: Verizon (VZ) before open — consensus EPS $1.27; Nucor (NUE), Cadence (CDNS), Welltower (WELL) after close
+- **This week — critical binaries:**
+  - FOMC: Oct 27–28, rate decision Wed Oct 28 2 PM ET; 90% odds hold at 3.75–4.00%; watch Dec hike signals
+  - PCE inflation + Q3 GDP advance: Thu Oct 29 8:30 ET
+  - Mega-cap tech: Alphabet, Microsoft, Amazon reporting this week — AI capex/revenue guidance pivotal
+- Economic calendar: No CPI/jobs today; key data all Thu–Wed (FOMC, PCE, GDP)
+- Sector momentum YTD: Energy + Tech leading early Oct; S&P 500 momentum factor (SPMO) -7.1% in Oct (rotation risk); breadth narrow
+
+### Trade Ideas
+1. **XOM / CVX / SLB** — Brent $114+ structural (US-Iran ongoing, Hormuz risk intact); energy thesis alive. Wait for FOMC reaction Wednesday — if hold + dovish tone, energy + equities bid. Entry only after Fed clears. Stop 10% below entry, target +15%, R:R ≥2:1. Size ≤20%.
+2. **MSFT or GOOGL** — If mega-cap tech beats + strong AI guidance this week, rotation back into tech. Wait for earnings reaction, not binary. Entry post-gap-up reaction only. Do not hold through earnings.
+3. **No new entries today** — FOMC binary + elevated yields + mega earnings week = maximum uncertainty.
+
+### Risk Factors
+- FOMC Dec hike signal → risk-off spike in yields → growth/tech selloff
+- PCE hotter than expected → reinforces hawkish pause signal
+- Mega-cap tech misses AI capex / revenue → Nasdaq flush
+- Oil reversal below $100 WTI → energy thesis weakens
+- 10yr at 5%+ sustained = valuation headwind for all equities
+- Alpaca API still inaccessible → cannot confirm positions, place stops, or trade
+
+### Decision
+HOLD — FOMC binary Wed; PCE Thu; mega-cap earnings Tue–Thu. Maximum macro uncertainty this week. Do not enter new positions before FOMC clears. Monitor energy for continued Iran escalation. Patience > activity.
+
+*Note: Perplexity API blocked (proxy 403); used WebSearch fallback. Alpaca account state unverifiable — manual check required.*
