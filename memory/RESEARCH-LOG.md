@@ -204,3 +204,26 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-26 — Market-Open Execution Attempt (13:48 UTC)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy blocks paper-api.alpaca.markets)
+- Positions: UNKNOWN (cannot retrieve)
+- Cash: UNKNOWN
+- ClickUp: UNAVAILABLE — same proxy block
+
+### Status
+- BLOCKED: All API calls rejected by cloud session egress proxy policy
+- Error: `connect_rejected — gateway answered 403 to CONNECT (policy denial)`
+- Affected: paper-api.alpaca.markets, api.clickup.com
+
+### Decision
+NO ACTION — cannot access Alpaca to read positions, validate rules, or place orders. Cannot send ClickUp alert.
+
+**Manual action required:**
+1. Whitelist `paper-api.alpaca.markets` and `api.clickup.com` in the cloud session network policy at https://code.claude.com/docs/en/claude-code-on-the-web
+2. Check last known state: SLB order from 2026-05-15 (340sh market buy, order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) — status unknown
+3. Re-run `/market-open` after network policy is updated
