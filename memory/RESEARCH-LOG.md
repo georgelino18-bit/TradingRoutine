@@ -3,6 +3,36 @@
 Daily pre-market research entries will be appended here.
 Format each entry:
 
+---
+
+## 2026-10-26 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy blocks paper-api.alpaca.markets:443)
+- Positions: UNKNOWN — API inaccessible
+- Orders: UNKNOWN — API inaccessible
+
+### Actions Taken
+- None — API inaccessible; cannot pull positions, cut losers, or adjust stops
+
+### Loser Cuts (-7% rule)
+- N/A — cannot retrieve positions
+
+### Stop Tightening
+- N/A — cannot retrieve positions
+
+### Thesis Check
+- N/A — cannot retrieve positions
+
+### Intraday Notes
+- Alpaca paper API has been blocked by the proxy (connect_rejected) since May 2026
+- ClickUp API also blocked (403 tunnel failed)
+- No memory of any fills since SLB order submitted 2026-05-15 — last known state: 0 positions, ~$100k cash
+- Critical: resolve proxy/IP allowlist before any trading can resume
+
+### Decision
+NO ACTION — API inaccessible. Manual intervention required to whitelist sandbox IP on Alpaca paper account.
+
 ## YYYY-MM-DD — Pre-market Research
 
 ### Account
