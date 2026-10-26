@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-10-26 11:26 UTC (fallback — curl network error)
+Pre-market 2026-10-26: HOLD — FOMC Wed Oct 28, PCE Thu, mega-cap earnings week. WTI 01, Brent 14, 10yr near 5%. APIs blocked (Alpaca+Perplexity 403).
