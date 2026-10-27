@@ -204,3 +204,46 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-27 — Pre-Market Research
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API blocked by egress proxy (403)
+- **Cash:** ~$100,000 (last known state; no confirmed fills since launch)
+- **Positions:** 0 confirmed (SLB order from May 2026 never confirmed due to persistent API block)
+- **Day trades used:** UNKNOWN — API inaccessible
+- **Note:** Perplexity API also blocked (403). All market data sourced via WebSearch fallback.
+
+### Market Context
+- **Oil (WTI/Brent):** Live data unavailable via API. Most recent dated figure: Brent $66.31, WTI $63.53 (Aug 2025). Energy sector YTD +35–39% through mid-Aug 2026 implies sustained elevated prices.
+- **S&P 500 / Indices:** Oct 27 premarket data unavailable. YTD context: Technology (XLK) +36%, Energy (XLE) +35.9% as of Sept 25, 2026. S&P in strong bull run.
+- **VIX:** Live data unavailable. Last confirmed: 16.0 (Normal band) on Jul 31, 2026. Likely compressed pre-FOMC.
+- **FOMC:** Day 1 of 2-day Oct 27–28 meeting. Rate decision Oct 28 @ 2:00 PM ET. Current rate ~3.5–3.75%. Market ~53% no change / 47% +25bps. Uncertainty elevated.
+- **Today's Releases (Oct 27):**
+  - 8:30 AM ET — Durable Goods Orders
+  - 10:00 AM ET — Consumer Confidence + New Home Sales
+- **Major Earnings Today (Oct 27):** ~237 companies; 26 before open (ACU confirmed; no Mag-7 before open). GOOGL and META report after close **Oct 28** — binary event tomorrow.
+- **Sector Momentum YTD (as of Oct 1 2026):**
+  - Leaders: Energy (+35–39%), Technology (+32–36%), Industrials (+20%), Materials
+  - Laggards: Communication Services (-3.8% to +4%), Utilities, REITs
+
+### Trade Ideas
+1. **GOOGL (Alphabet)** — Catalyst: Q3 earnings after close Oct 28. Analyst exp: $2.99/sh, $124.6B rev. AI capex story intact ($725B 2026 est). Last quarter: GOOGL ripped on capex boost. **DO NOT enter before binary.** If gap-up Oct 29 on beat + strong capex guidance → enter at open, stop 10% below reaction low, target +15%, R:R ≥2:1. Size ≤20%.
+2. **SLB or HAL (Oilfield services)** — Catalyst: Energy sector leading YTD (+35–39%); sustained elevated oil supports E&P capex. Post-FOMC clarity (Oct 28 PM) → evaluate entry. Entry only if R:R ≥2:1 and API accessible to confirm positions/stops.
+3. **AMAT or NVDA (Semis/AI infrastructure)** — Tech sector strong YTD. Post-FOMC: if hawkish → tech dip = potential entry. Wait for FOMC outcome. No entry today.
+
+### Risk Factors
+- **FOMC tomorrow (Oct 28)** — 47% probability of +25bps hike. Hawkish surprise = growth/tech selloff.
+- **Dual binary risk** — GOOGL + META both report Oct 28 after close. Market likely to front-run into tomorrow; elevated implied volatility today.
+- **API access** — Alpaca and Perplexity APIs remain blocked by cloud egress proxy. Cannot place or confirm orders until resolved. This is a persistent critical blocker.
+- **No confirmed positions** — SLB order from May 2026 remains unconfirmed. Account may still be $100k cash.
+- **FOMC + earnings confluence** — Oct 27–29 high-volatility window; whipsaw risk elevated.
+
+### Decision
+**HOLD** — Three compounding reasons:
+1. FOMC meeting live — rate decision tomorrow creates binary risk across all sectors.
+2. GOOGL + META reporting after close Oct 28 — elevated IV today, don't enter before binaries.
+3. API access still blocked — cannot place or confirm orders in this cloud environment.
+Best action: monitor Oct 28 FOMC + GOOGL/META post-earnings reactions. If both resolve bullishly (no hike + GOOGL beats), Oct 29 offers a clean setup for GOOGL and potentially AMAT/SLB. Patience > activity.
