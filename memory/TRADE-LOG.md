@@ -31,3 +31,18 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 **Context:** Order ID `6c529f05-19c5-4078-ba9d-9fb42bc7ee15` — 340sh SLB market buy submitted pre-market 2026-05-15. Thesis: energy sector 14-week streak, WTI ~$101 Hormuz floor. Target $63–$71 | R:R 1.8–2.9:1.
 
 **Note:** Sandbox IP was also not whitelisted on Alpaca yesterday (403 errors). Confirm IP whitelist is active before retrying.
+
+## 2026-10-27 — Midday Scan (17:10 UTC)
+**Status:** BLOCKED — Proxy policy denial
+
+- Alpaca API (`paper-api.alpaca.markets:443`): 403 gateway denial from egress proxy
+- ClickUp API: 403 gateway denial from egress proxy
+- **No positions retrieved, no orders checked, no trades placed**
+- Per proxy policy: do not retry — blocked hosts must be reported to user
+
+**Persistent issue:** This sandbox environment's egress proxy blocks both Alpaca and ClickUp endpoints. All scheduled scans will fail until the proxy policy is updated to allow these hosts.
+
+**Manual action required:**
+- Check Alpaca positions and open orders manually
+- Verify SLB stop placement from 2026-05-15 is still active
+- Contact support to add `paper-api.alpaca.markets` and `api.clickup.com` to proxy allowlist

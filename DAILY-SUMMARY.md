@@ -20,3 +20,15 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-10-27 17:11 UTC (fallback — curl network error)
+MIDDAY SCAN 2026-10-27 FAILED: Alpaca API blocked by proxy (403 gateway policy denial on paper-api.alpaca.markets:443). Cannot retrieve positions/orders or place trades. Manual check required.
+
+---
+## 2026-10-27 17:10 UTC (fallback — curl network error)
+MIDDAY SCAN — BLOCKED
+Portfolio: N/A (proxy policy blocks paper-api.alpaca.markets:443)
+ClickUp: also blocked by proxy (403 gateway denial)
+Positions: unverifiable — SLB ghost position may still be open since 2026-05-15
+Action required: proxy allowlist must include paper-api.alpaca.markets and api.clickup.com
