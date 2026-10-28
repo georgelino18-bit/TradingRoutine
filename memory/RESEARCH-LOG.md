@@ -204,3 +204,37 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-28 — Midday Scan (17:13 UTC)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (agent proxy policy; paper-api.alpaca.markets blocked)
+- Positions: UNKNOWN — cannot retrieve
+- Orders: UNKNOWN — cannot retrieve
+- ClickUp: UNAVAILABLE — same proxy block
+
+### Actions Taken
+- None — API inaccessible; no position data available
+
+### Loser Cuts (-7% rule)
+- N/A — positions unknown; cannot execute
+
+### Stop Tightening
+- N/A — positions unknown; cannot execute
+
+### Thesis Check
+- N/A — positions unknown; cannot execute
+
+### Intraday Notes
+- Persistent issue: proxy has blocked paper-api.alpaca.markets since first session (May 14)
+- Last known state: $100,000 cash, 0 positions (Day 0 baseline from 2026-05-13)
+- SLB 340sh market buy was submitted 2026-05-15 pre-market (order ID 6c529f05-19c5-4078-ba9d-9fb42bc7ee15) — fill status unknown
+- No trailing stop confirmed on SLB position (manual action was required per 2026-05-15 log)
+
+### Decision
+NO ACTION — API blocked. Manual review required immediately:
+1. Whitelist paper-api.alpaca.markets in proxy/environment settings
+2. Verify SLB fill and stop placement from 2026-05-15 order
+3. Run positions/orders check before next session

@@ -20,3 +20,7 @@ Best: N/A  Worst: N/A
 SLB order May-15 still unconfirmed — possible ghost position
 One-line takeaway: 10 weeks, zero trades, API still 403 — must resolve IP allowlist or challenge is dead
 Grade: D
+
+---
+## 2026-10-28 17:14 UTC (fallback — curl network error)
+MIDDAY SCAN 2026-10-28: BLOCKED — paper-api.alpaca.markets still 403 (agent proxy policy). Cannot read positions/orders. No trades placed/cut/adjusted. Manual review required. Persistent issue — proxy must whitelist paper-api.alpaca.markets.
