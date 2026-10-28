@@ -204,3 +204,47 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-28 — Pre-Market Research
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API 403 (proxy blocks paper-api.alpaca.markets; persistent issue)
+- **Cash:** ~$100,000 estimated (last confirmed Day 0 state; no fills confirmed)
+- **Positions:** 0 confirmed (SLB order from 2026-05-15 status unknown — never confirmed via API)
+- **Open Orders:** UNAVAILABLE
+- **Daytrade count:** UNAVAILABLE
+- **Note:** Fallback research used WebSearch (Perplexity also 403-blocked by proxy)
+
+### Market Context
+- **Oil:** WTI ~$94–99, Brent ~$99 (Sept 9 Houthi attack on Saudi infrastructure; TODAY: fresh attack on Saudi refinery reigniting supply concerns per Bloomberg premarket coverage; structural Hormuz bid intact)
+- **S&P 500 futures:** Mixed premarket — Dow futures lower, Nasdaq/SPX futures higher; market up ~13.8% YTD through Oct 2
+- **VIX:** ~18–22 est (no exact Oct 28 data; March 26 close was 22.37; undated ~18.5; not panic-level)
+- **Today's key catalysts:**
+  - **FOMC rate decision 2:00 PM ET** — meeting Oct 27-28; last hike was Sept 2026 +25bps to 3.75–4.00% (first hike since July 2023); market pricing ~53% hold / 47% hike; EXTREME binary — market will move significantly on outcome
+  - **MSFT + GOOG earnings AMC** — 258 total reports today; these two are the tape-movers; AI capex/cloud growth the key variable; SK Hynix profit 7x YoY beat this week = AI demand real
+  - **BMO earnings:** Amphenol (APH), Boston Scientific (BSX), Garmin (GRMN), GE Vernova (GEV), Old Dominion (ODFL)
+  - **Saudi refinery attack** → oil spike risk today; stagflation amplifier if sustained
+  - **Robinhood** missed earnings despite record trading volumes — retail activity elevated
+- **Sector momentum YTD (through early Oct):**
+  - Energy (XLE): +37.6% — leader; oil services (OIH) ~+60%
+  - Technology (XLK): ~+37%
+  - S&P 500 benchmark: +13.8%
+  - Communication Services: +4% (laggard)
+  - Health Care: +6.9% (laggard)
+
+### Trade Ideas
+1. **GE Vernova (GEV)** — Reports BMO today. AI data center power infrastructure thesis; if strong beat + raised guidance → evaluate entry tomorrow at open. Stop 10% below reaction low, target +15% (≥2:1 R:R). Size ≤20%. GEV connects energy + AI capex — both leading sectors. DO NOT enter before binary.
+2. **SLB (Oil Services)** — Q3 beat Oct 23: revenue $9.45B (+6% YoY), $828M FCX, dividend $0.295/sh; consensus "Strong Buy" (18 Strong Buys); oil structural bid (Hormuz + Saudi attacks). Price est $47–57 range — need confirmed price and R:R before sizing. Prior order from May 15 unconfirmed; if position already exists, confirm via manual Alpaca check.
+3. **MSFT or GOOG** — Binary tonight. If gap-up on AI cloud beat (MSFT Azure, GOOG Cloud) → enter tomorrow at open in the name that gaps cleanly with volume. Stop 10% below reaction low. DO NOT hold through earnings.
+
+### Risk Factors
+- **FOMC at 2pm ET** — if hike: rates spike, growth/tech sells hard; do NOT initiate today
+- **MSFT/GOOG binary tonight** — Nasdaq susceptible to post-earnings flush if one disappoints
+- **Oil supply shock risk** — Saudi refinery attack; WTI near $94-99; sustained $100+ = stagflation drag on consumers/discretionary
+- **VIX elevated ~18-22** — uncertainty elevated; position sizing discipline critical
+- **Alpaca API unavailable** — cannot confirm positions, stops, or place orders remotely; manual action required to verify SLB order status from May 15
+
+### Decision
+**HOLD — DO NOT trade today.** Dual binary event (FOMC + Big Tech earnings) makes today an observation day. Research GEV BMO result and MSFT/GOOG AMC result for tomorrow's entry decision. If GEV beats big, that is Idea #1 for tomorrow. Confirm SLB order status manually via Alpaca web UI before treating account as $100k cash. Patience > activity.
