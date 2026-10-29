@@ -204,3 +204,44 @@ HOLD — Both XOM and FCX have run well past entry targets (missed). AMAT binary
 
 ### Decision
 NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings reaction and Trump–Xi outcome tomorrow morning.
+
+---
+
+## 2026-10-29 — Pre-market Research
+*(Perplexity API blocked by proxy — fallback: native WebSearch)*
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (proxy connect_rejected, persistent issue)
+- Cash: ~$100,000 (last confirmed Day 0 baseline; no positions ever confirmed placed)
+- Positions: 0 (unconfirmed — API inaccessible)
+- Buying Power: ~$100,000 est.
+- Daytrade count: 0
+
+### Market Context
+- **WTI:** ~$101.86–102.23/bbl | **Brent:** ~$111.78–115.32/bbl — elevated, Middle East tensions (Iran) ongoing; Brent +11% in October
+- **S&P 500 futures:** -0.4% premarket; Nasdaq-100 futures -1.3%; Dow futures +0.3% — GOOGL selloff weighing on tech/AI
+- **VIX:** ~17.53 (Oct 28 close, -4.7% from 18.39) — normal; no panic
+- **Fed:** Held rates steady in 10-2 split vote — policy uncertainty; Warsh era hawkish tilt watch
+- **GOOGL:** -10.38% premarket — missed Q3 EPS + revenue; negative FCX ($9.07B); kept $195-205B capex guide → AI spending fear spreading to Nasdaq
+- **MSFT:** Beat Q3 — EPS $4.89 vs $4.73 est; revenue $92.28B vs $90.63B est; AI Copilot traction intact
+- **SK Hynix:** +632% YoY profit → lifted semis broadly
+- **Amazon:** Reports today (est. EPS $2.02, revenue ~$202B) — binary event, do not enter pre-report
+- **Also reporting today:** Eli Lilly, Mastercard, Intel, Merck, Caterpillar, Shell
+- **Economic data:** Q3 GDP est +3.2% annualized (prior +2.2%); Core PCE est +0.3% MoM (prior +0.2%); Conference Board Consumer Confidence 91.7 (from 84.2)
+- **Sector momentum (YTD through Aug 2026):** Energy (XLE) +39.4% — best; Communication Services (XLC) -3.8% — worst
+
+### Trade Ideas
+1. **AMZN** — AWS AI cloud + ads growth. Reports after close today (est. $2.02 EPS / $202B rev). If beat + strong AWS guidance → enter at open tomorrow on gap-up. Stop 10% below reaction low, target +15%. R:R target ≥2:1. Size ≤20% (~$20k). DO NOT enter pre-binary.
+2. **Energy (SLB or HAL)** — Oil structurally bid ($101-102 WTI, Hormuz/Iran). Energy sector YTD leader +39.4%. Original SLB order (May 2026) status unknown — API blocked, cannot verify. Need API access before any energy trade.
+3. **MSFT** — Beat Q3 handily; AI software demand intact. But stock may gap-up at open (priced in). Wait for intraday pullback to key support before considering. Not urgent today.
+
+### Risk Factors
+- GOOGL -10% = AI capex scrutiny spreading; Nasdaq-100 -1.3% premarket headwind
+- AMZN binary tonight — do not enter; entire portfolio exposed to AI capex narrative
+- Fed split vote + Warsh hawkish posture — rates-sensitive growth stocks at risk
+- Oil elevated $101-102 = energy cost headwind for margin-sensitive non-energy sectors
+- WTI $110+ scenario = stagflation amplifier
+- **Alpaca API still inaccessible** — cannot place orders, verify positions, confirm stops; critical blocker
+
+### Decision
+HOLD — Cannot execute until Alpaca API is restored (persistent proxy issue). Even if API available: AMZN binary tonight = no entry. MSFT may gap priced-in. Watch AMZN reaction at open tomorrow for setup. Energy thesis intact but cannot verify SLB position status. Zero new trades today. Patience > activity.
