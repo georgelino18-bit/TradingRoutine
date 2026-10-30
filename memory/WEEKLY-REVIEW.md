@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-10-30
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | -1.0% (Nasdaq -3.0%; earnings-driven tech selloff) |
+| Bot vs S&P | +1.0% (cash preserved in down week) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca API (paper-api.alpaca.markets) still returning 403 via egress proxy — connect_rejected. Portfolio assumed at $100,000 cash, unchanged since Day 0 (2026-05-13). SLB order 6c529f05 status still unknown. API blocked ~24 consecutive weeks.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades possible |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation: S&P -1.0%, Nasdaq -3.0% — flat portfolio outperformed both indices this week
+- Avoided earnings-driven tech/Nasdaq selloff by being fully in cash
+- Patience rule upheld: no forced trades despite 24-week API blockage
+- Discipline: no unauthorized manual trading attempts
+- Research via WebSearch still identifies valid sector themes despite limited tooling
+
+### What Didn't Work
+- Alpaca API 403 blocked for ~24 consecutive weeks — root cause unresolved (egress proxy policy)
+- Perplexity API still blocked — WebSearch fallback only; research quality degraded
+- ClickUp API still blocked — no notifications delivered to channel all week
+- Zero capital deployed across entire challenge period (~$100K sitting idle in cash)
+- Cumulative opportunity cost now spans 24+ weeks of a tradeable market
+
+### Key Lessons
+- Egress proxy network policy is the single point of failure blocking all execution and communication
+- Cash outperformed again in a down week — but this is structural luck, not managed edge
+- S&P 500 down ~1.0% this week while Nasdaq shed ~3.0%; tech earnings volatility confirmed
+- Infrastructure failure at 24 weeks is no longer a "temporary blocker" — it is a permanent state of the session configuration
+- The only fix is a network policy change at the environment level; no code change resolves it
+
+### Adjustments for Next Week
+- PRIORITY 1 (unchanged for 24 weeks): Add paper-api.alpaca.markets, api.clickup.com, api.perplexity.ai to cloud session network allowlist
+- If API restored: evaluate sector momentum fresh — market conditions have changed materially since May
+- Re-run pre-market research from scratch before any trade; May 2026 theses (SLB, energy) may be stale
+- Verify SLB order 6c529f05 status first if API comes back; cancel if still open (thesis 24 weeks stale)
+- Consider resetting challenge baseline to day of first live API access to get meaningful performance data
+
+### Overall Grade: D
+*Execution: F (API blocked week 24). Discipline: A. Research: C (WebSearch only, degraded). Cash outperformed S&P (+1.0% relative) and Nasdaq (+3.0% relative) this week by luck. Grade unchanged — same root cause, 24th consecutive week of zero execution. Not an F only because cash preservation and patience discipline were maintained.*
