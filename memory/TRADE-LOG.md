@@ -54,3 +54,14 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 - data.alpaca.markets
 - api.clickup.com
 - api.perplexity.ai
+
+---
+
+## Oct 30 — EOD Snapshot (Day ~122, Friday)
+**Portfolio:** N/A (API blocked) | **Cash:** N/A | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Alpaca API (paper-api.alpaca.markets) and ClickUp API both blocked by cloud session egress proxy — CONNECT tunnel returns 403 policy denial. This issue has persisted since Day 1 (2026-05-14, 170+ days). No live account data retrievable. Last confirmed portfolio state: Day 0 = $100,000 cash, 0 positions. SLB order from 2026-05-15 (340sh market buy) remains unconfirmed. Action required: configure cloud session network policy to allow outbound HTTPS to paper-api.alpaca.markets, data.alpaca.markets, api.clickup.com, api.perplexity.ai.
