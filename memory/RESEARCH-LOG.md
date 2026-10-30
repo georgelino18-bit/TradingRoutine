@@ -235,3 +235,70 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-10-30 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy blocks paper-api.alpaca.markets; persistent since 2026-05-14)
+- Cash: UNKNOWN
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Possible open position: SLB 340sh (market buy submitted 2026-05-15, never confirmed via API)
+
+### Market Context
+- **WTI:** ~$103.42 | **Brent:** ~$116.54 (elevated; Brent ~$13 premium)
+- **S&P 500 futures:** -1.06% premarket (~7,638); Nasdaq-100 futures -2.29%
+- **VIX:** ~17.2–18.5 (rising; up ~7% intraday)
+- **S&P 500 prior close (Oct 29):** 7,720.39 (−0.3%, snapped 3-day win streak)
+- **S&P 500 YTD:** +13.7%
+- **GDP Q3 advance (Oct 29):** +3.4% annualized — strong
+
+### Earnings / Catalysts Today
+- **AMZN:** −7% premarket — AI capex burned free cash flow; negative surprise
+- **INTC:** −26% premarket — catastrophic; capex/margin miss
+- **GOOGL:** Already sold off; worst day in 20+ years post-Q3 miss ($2.12 EPS vs $2.95 est)
+- **XOM:** Q3 beat — adj EPS $4.23 (vs $3.52 prior year); raised guidance; record Permian output; dividend increase → initial premarket UP
+- **CVX:** Reports today before open; early premarket indications positive
+- **AbbVie, AstraZeneca, BP, Sanofi, General Dynamics** also reporting today
+- **Fortinet:** Beat estimates
+
+### Economic Releases Today
+- Employment Cost Index Q3 (8:30 ET) — key inflation gauge
+- Chicago PMI Oct (9:45 ET)
+- No CPI / PPI / FOMC today (next: CPI Nov 10, FOMC Dec 8-9)
+
+### Sector Momentum YTD
+| Sector | YTD Return |
+|--------|-----------|
+| Energy | +54.6% ← leader |
+| Technology | +29.6% |
+| Health Care | ~+15% |
+| S&P 500 | +13.7% |
+| Consumer Disc | −3% |
+| Comm Services | −5.6% ← laggard |
+
+### SLB Update (possible open position)
+- Q3 2026 reported Oct 23: Revenue $9.45B (+6% YoY), FCF $828M, dividend $0.295/sh
+- Price: ~$47–52 range (estimated; cannot confirm via API)
+- Sentiment: mixed but constructive; ChampionX integration proceeding
+
+### Trade Ideas
+1. **XOM** — Q3 beat + raised guidance + record Permian output + energy YTD +54.6%. Entry ~$120–125 (est). Stop −10%. Target +20%+. R:R ~2:1. Catalyst: continued oil strength, sector momentum.
+2. **CVX** — Q3 results due pre-open; if beat confirmed, similar energy thesis. Entry on first 30-min pullback. Stop −10%.
+3. **NVDA (watchlist)** — Tech selloff from AMZN/INTC may create entry in AI infrastructure leader unaffected by those issues. Wait for full open + stabilization.
+
+### Risk Factors
+- Tech contagion: AMZN/INTC/GOOGL miss could drag broad market all day
+- VIX rising — elevated fear, possible stop-outs on any open energy positions
+- **API BLOCKED** — cannot verify positions, modify stops, or place orders (critical ongoing issue)
+- Employment Cost Index could spike if hot → bond yields rise → pressure on multiples
+- Oil elevated but vulnerable to geopolitical de-escalation (Hormuz, Middle East)
+- Week before US elections — political uncertainty premium
+
+### Decision
+**HOLD** — Cannot confirm account state (API blocked). Tech earnings creating broad premarket weakness (S&P −1%, NDX −2.3%). Energy sector XOM/CVX positive but wait for open to assess contagion severity. Default patience > activity. Monitor XOM closely after open for entry if energy holds.
+
+**Note:** Until network policy allows paper-api.alpaca.markets and api.clickup.com, all trade execution workflows are non-functional. Manual intervention required from local environment.
+
