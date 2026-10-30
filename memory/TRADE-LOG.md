@@ -34,6 +34,21 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 
 ---
 
+## 2026-10-30 — Market-Open (09:53 ET / 13:53 UTC)
+**Status:** BLOCKED — Alpaca API 403 (cloud egress proxy rejecting paper-api.alpaca.markets)
+
+| Action | Status |
+|--------|--------|
+| Account check | FAILED (403) |
+| Positions check | FAILED (403) |
+| Pre-market plan review | NO ENTRY for 2026-10-30 |
+| Orders placed | NONE |
+| ClickUp notify | FAILED (403) |
+
+**Root cause:** Cloud session network policy has been blocking paper-api.alpaca.markets since 2026-05-14. Persistent across 160+ days and all session types.
+
+---
+
 ## 2026-10-29 — Midday Scan (12:11 ET / 17:11 UTC)
 **Status:** BLOCKED — Alpaca API and ClickUp API both returning 403 via egress proxy
 
