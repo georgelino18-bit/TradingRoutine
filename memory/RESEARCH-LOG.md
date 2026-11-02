@@ -235,3 +235,62 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-02 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked (403, egress proxy restriction, persistent since 2026-05-14)
+- Cash: UNKNOWN (last confirmed: $100,000 on 2026-05-13)
+- Positions: UNKNOWN (SLB 340sh order submitted 2026-05-15, never confirmed; assume 0 confirmed positions)
+- Buying Power: UNKNOWN
+- Daytrade count: UNKNOWN
+- API fallback: Perplexity also blocked (403) → used WebSearch as fallback
+
+### Market Context
+- **S&P 500**: Fell ~1.8% on Friday Oct 30; Nasdaq 100 -3.5% on AI-spending/valuation concerns; some Monday recovery signals
+- **VIX**: ~22, up ~28% recently — elevated, caution warranted
+- **Oil (WTI/Brent)**: Exact level unavailable; recent range WTI $72–83, Brent $76–87; no reliable Nov 2 quote
+- **Sector momentum YTD (as of Aug 2026, may have shifted)**:
+  - Energy (XLE): +39.4% — leading
+  - Tech (XLK): +32.1%
+  - Industrials (XLI): +20.6%
+  - Comm Services (XLC): -3.8% — laggard
+  - Consumer Discretionary: -0.8%
+
+### Economic Calendar (this week)
+- **Today (Nov 2)**: ISM Manufacturing PMI
+- **Nov 3 (Tue)**: JOLTS job openings 10:00 ET; US Midterm Elections
+- **Nov 6 (Fri)**: October Jobs Report (NFP) 8:30 ET — KEY
+- **Nov 10**: CPI inflation report (October data)
+- **Nov 18**: FOMC minutes (October meeting)
+- **Next FOMC decision**: Dec 9 (no action this week)
+
+### Key Earnings This Week
+- **AAPL** — Mon after close: EPS est $1.99, rev >$113B (mega-cap; market-moving)
+- **AMD** — Tue after close: EPS est $1.94 (+62% YoY), rev est $13.1B (+42%) — high momentum
+- **QCOM, UBER, AMGN, CVS, COP** — Wed/Thu
+- **Backdrop**: ~60% of S&P 500 has reported; blended EPS growth ~30% this season
+
+### Trade Ideas
+1. **AMD** — Catalyst: 62% EPS growth expected Tue after close; AI/data-center demand tailwind; Tech sector +32% YTD momentum. Entry: watch post-earnings reaction Wed morning. Stop: -7% from entry. Target: 2:1 R:R. Risk: sell-the-news if guidance soft; VIX elevated.
+2. **COP** — Catalyst: Energy sector YTD leader (+39%); ConocoPhillips earnings this week; oil supply tight. Entry: above recent resistance on earnings beat. Stop: -7%. Target: +14-20%. Risk: OPEC+ surprise, oil demand weakness.
+3. **AAPL** — Catalyst: Monster revenue quarter expected; AI features driving cycle. Entry: gap-up open Tue if strong beat. Stop: -7%. Target: 15%+. Risk: services growth deceleration, macro headwinds.
+
+### Risk Factors
+- VIX at 22 — hedging demand elevated post last week's selloff
+- Midterm elections (Tue) — political uncertainty, historically volatile week
+- NFP Friday — labor market data could shift rate expectations
+- AI capex skepticism re-emerging (Nasdaq -3.5% Friday)
+- API blockage: cannot confirm account state, positions, or stops — all trade execution is manual-only until resolved
+
+### Decision
+**HOLD — NO NEW TRADES**
+- Cannot confirm account state or existing positions (Alpaca blocked)
+- Earnings week = elevated volatility; wait for post-earnings reactions before entry
+- Midterm elections add uncertainty through Tuesday
+- VIX 22 → margin of safety insufficient for aggressive entry
+- Monitor AMD post-earnings Wednesday and AAPL post-earnings Tuesday for potential setups
+- **URGENT**: Alpaca/ClickUp/Perplexity APIs remain blocked (6 months). Network allowlist update required before any live trading is possible.
+
