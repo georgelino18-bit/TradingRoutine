@@ -235,3 +235,31 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-02 — Market-Open Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API egress proxy 403 (paper-api.alpaca.markets blocked)
+- Positions: UNKNOWN — cannot retrieve
+- Cash: UNKNOWN
+- ClickUp: ALSO BLOCKED (same egress policy)
+
+### Market Context
+- All market data unavailable — Alpaca and Perplexity APIs blocked by cloud session network policy
+
+### Trade Ideas
+- BLOCKED — no account data; no market data; no trade execution possible
+
+### Risk Factors
+- Persistent 403 egress proxy block since 2026-05-14 (170+ days, now 5+ months)
+- Resolution requires network allowlist update in cloud session config:
+  - paper-api.alpaca.markets
+  - api.alpaca.markets
+  - data.alpaca.markets
+  - api.clickup.com
+  - api.perplexity.ai
+
+### Decision
+NO ACTION — API blockage persistent. No trades placed. No market data available.
