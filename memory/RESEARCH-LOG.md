@@ -235,3 +235,45 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-03 — Pre-Market Research
+
+### Account Snapshot
+- **Status:** BLOCKED — Alpaca API 403 via cloud egress proxy (persistent since 2026-05-14)
+- **Equity:** UNKNOWN
+- **Cash:** UNKNOWN (last known: ~$100,000, 0 positions)
+- **Positions:** UNKNOWN (last confirmed: 0 open)
+- **ClickUp:** ALSO BLOCKED (403)
+- **Perplexity:** ALSO BLOCKED (403) — all market data via WebSearch fallback
+
+### Market Context
+- **S&P 500:** Fell 0.51% yesterday (Nov 2); Nasdaq -1.07%; Dow +0.41% (rotation out of tech)
+- **WTI/Brent:** ~$102.50 (last confirmed May 2026; no live data — stale estimate)
+- **VIX:** ~19–22 range (Nov 2026 futures ~19.07; spot estimate ~22)
+- **Tech rotation:** Oracle -8% (announced $20B cap raise for AI); Apple beat EPS but margin guide disappointed; Palantir beat but -2% AH
+- **Midterm elections:** Election Day today — markets historically range-bound on election day, direction resolves next session
+- **JOLTS:** 10:00 AM ET today — job openings report; potential volatility trigger
+- **NFP:** Friday Nov 6 at 8:30 AM ET — no CPI/FOMC this week (next FOMC Dec 9)
+- **Sector momentum (through Sep 29):** Energy +37.5% YTD | Tech +27.1% | Comms lagging (-3.8%)
+
+### Trade Ideas
+1. **XLE / Energy names (e.g., SLB, HAL)** — Energy sector leading YTD +37.5%; WTI ~$102 structural floor. BUT: no live price/stop data available; cannot verify position status or place orders.
+2. **PLTR (Palantir)** — Beat Q3 estimates but sold off AH (-2%). Potential mean-reversion setup if election results bring risk-on sentiment. Entry ~$28–30 range; stop -10%. Requires live data confirmation before acting.
+3. **AVGO / NVDA (AI infrastructure)** — Broader tech rotation risk offset by AI capex cycle (Oracle's $20B AI raise signals continued infrastructure spend). High R:R but sector headwind today.
+
+### Risk Factors
+- Midterm election uncertainty: outcome unknown until late tonight; volatility likely post-close
+- Tech sector rotation accelerating (Oracle, Apple, Palantir all under pressure)
+- JOLTS at 10AM could move rates/equity sentiment
+- NFP Friday — no new positions within 24h of major data release
+- Alpaca API still blocked: ZERO ability to check positions, place trades, or manage stops
+- All market data via WebSearch fallback — accuracy not guaranteed
+
+### Decision
+**HOLD — no action**
+- Primary blocker: Alpaca API inaccessible (403); cannot verify positions or execute trades
+- Even if API were live: election day + pre-JOLTS = high uncertainty; strategy rule favors patience
+- No new trades until API access restored and post-election clarity emerges
+
