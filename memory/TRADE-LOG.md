@@ -54,3 +54,27 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 - data.alpaca.markets
 - api.clickup.com
 - api.perplexity.ai
+
+---
+
+## 2026-11-04 — EOD Snapshot (Day N, Wednesday)
+**Status:** BLOCKED — Alpaca API and ClickUp API both returning 403 via egress proxy
+
+| Action | Status |
+|--------|--------|
+| Pull account | FAILED (403) |
+| Pull positions | FAILED (403) |
+| Pull orders | FAILED (403) |
+| Day P&L calc | SKIPPED (no data) |
+| ClickUp notify | FAILED (403) |
+
+**Last known state:** $100,000.00 cash, 0 confirmed positions (Day 0 baseline, 2026-05-13).
+
+**Root cause:** Cloud session network policy blocks paper-api.alpaca.markets and api.clickup.com outbound connections. Issue persistent since 2026-05-14 (175+ days).
+
+**Action required:** Add the following to cloud session network allowlist:
+- paper-api.alpaca.markets
+- api.alpaca.markets
+- data.alpaca.markets
+- api.clickup.com
+- api.perplexity.ai
