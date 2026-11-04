@@ -235,3 +235,85 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-04 — Pre-Market Research
+
+### Account Snapshot
+- **Status:** BLOCKED — Alpaca API (paper-api.alpaca.markets) still rejected by cloud egress proxy (403)
+- Equity: UNKNOWN | Cash: UNKNOWN | Buying Power: UNKNOWN | DayTrade Count: UNKNOWN
+- Last confirmed state (2026-05-13): $100,000 cash, 0 confirmed positions
+- SLB 340-share market buy submitted 2026-05-15 — fill status UNCONFIRMED (API blocked since that date)
+- Note: Perplexity API also blocked; market data sourced via WebSearch fallback
+
+### Market Context
+
+**Oil:**
+- WTI/Brent exact November 4 level unavailable via search
+- Most recent data: Brent ~$75, WTI ~$72 (undated snapshot); June 2026 data showed prices declining
+- Iran war still ongoing per last research; Hormuz structural bid thesis intact
+
+**US Indices / Futures:**
+- S&P 500 estimated ~7,635 on Nov 4 (conflicting sources; unconfirmed)
+- Dow down ~0.4% Tuesday close; Nasdaq up ~0.8% Tuesday close
+- Futures falling pre-market Wednesday on midterm gridlock fears
+
+**VIX:**
+- Level unavailable for today; last confirmed ~19.44 (June 11, 2026) — normal/risk-on range
+- Likely elevated today due to midterm uncertainty
+
+**Key Catalyst — US Midterm Elections:**
+- Democrats projected to win the House; Senate leaning Democrat
+- Markets pricing in gridlock: dollar hit 1-month low, futures fell sharply
+- AI regulation risk elevated under new House majority → tech/semis headwind
+
+**AI/Semis:**
+- Japan Nikkei -4.8% from high overnight; SoftBank weak (AI exposure)
+- Kioxia (memory chips) -10.8% on guidance miss for Oct-Dec quarter
+- Semiconductor sector under pressure globally
+
+**Economic Calendar (upcoming):**
+- JOLTS (Sep data): Nov 3 (yesterday) — already released
+- Jobs Report (Oct NFP): Friday Nov 6, 8:30 ET — MARKET-MOVING
+- CPI: Nov 10
+- PPI: Nov 13
+- PCE: Nov 25
+
+**Sector Momentum (through Sept 29, 2026 — most recent data):**
+- Energy: +37.5% YTD (#1) — Iran war, oil supply constraints
+- Information Technology: +27.1% YTD (#2) — AI capex cycle
+- Health Care: +10.3% YTD (#3)
+- Communication Services: -3.8% YTD (laggard)
+- Q3 rotation: IT and HC replaced earlier leaders; momentum shifting
+
+### Trade Ideas
+
+1. **SLB (oilfield services) — VERIFY POSITION FIRST**
+   - Catalyst: Energy #1 sector YTD; Iran war sustains oil bid; SLB "Strong Buy" consensus; last price ~$57 (Sept 4)
+   - Action: Cannot enter/verify until API accessible
+   - If position exists: confirm stop placement (10% trailing, GTC)
+   - If no position: re-evaluate entry once account state confirmed
+
+2. **Energy sector (XOM, HAL) — MONITOR**
+   - Energy still dominant YTD; Iran war = structural bid
+   - Short-term: midterm gridlock unlikely to hurt energy
+   - Entry criteria: confirm R:R ≥2:1 from current level; require API access first
+
+3. **IT / Semis — AVOID SHORT-TERM**
+   - Midterm Democrats = AI regulation risk → near-term headwind
+   - Wait for political clarity before new entries
+   - Semis specifically weak (Kioxia guidance miss, overnight selloff)
+
+### Risk Factors
+- Midterm gridlock: legislative uncertainty → market volatility elevated
+- Jobs report Friday Nov 6: strong jobs = hawkish Fed = rate pressure on growth stocks
+- AI regulation risk under new House majority
+- API blockage: cannot place stops, verify fills, or manage positions — CRITICAL ONGOING RISK
+- SLB position status unknown: potential unprotected position since May 2026
+
+### Decision
+**HOLD** — Cannot act without API access (Alpaca blocked). Midterm uncertainty warrants patience regardless. Priority action: resolve cloud egress network policy (add paper-api.alpaca.markets to allowlist). No new entries until (1) account state confirmed and (2) post-midterm market stabilizes. Jobs report Friday is next market-moving event.
+
+**API Status:** paper-api.alpaca.markets BLOCKED | api.perplexity.ai BLOCKED | api.clickup.com BLOCKED
+**Fallback Used:** WebSearch for all market data
