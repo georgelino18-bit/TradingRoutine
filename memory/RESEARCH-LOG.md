@@ -235,3 +235,51 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-05 — Pre-Market Research
+
+### APIs
+- Alpaca API: BLOCKED (403 egress proxy, persistent since 2026-05-14)
+- Perplexity API: BLOCKED (403 egress proxy)
+- Fallback: WebSearch used for all market data
+
+### Account Snapshot
+- Equity: UNKNOWN (API blocked)
+- Cash: UNKNOWN — last confirmed $100,000 / 0 positions (2026-05-13)
+- Buying power: UNKNOWN
+- DayTrade count: UNKNOWN
+
+### Market Context
+- **S&P 500 Futures:** Mixed premarket Thursday. Post-midterm rally in progress — Dow posted best day in 19 months on Nov 4 after election results. S&P 500 up ~12.9% YTD (as of late Sep).
+- **VIX:** ~19.4 (last reading June 11, 2026). No current data. Implied moderate volatility.
+- **Oil (WTI/Brent):** Current prices unavailable — API and search both inconclusive. Last confirmed range: Brent ~$68, WTI ~$65 (stale). Down substantially from $101 Hormuz-driven peak in May 2026.
+- **Sector Momentum YTD (through Sep 29):** Energy +37.5% | Tech +27-36% | Healthcare +10.3% | CommSvc lagging.
+
+### Today's Catalysts
+- **QCOM** (after close Nov 4): Q4 missed on smartphone chips — down ~9% premarket. Could drag semis/tech.
+- **ARM**: Down -3.4% premarket despite Q2 beat — AI premium unwinding risk.
+- **AMD** (reported Nov 3): Beat with $13.4B revenue (+45% YoY), EPS $2.09 non-GAAP. Data center +97% YoY — bullish for AI infrastructure names.
+- **Pre-open earnings today:** COP, SO, DUK, SONY, VRSK, Cigna, U, VTRS.
+- **Econ data today:** Preliminary Q3 productivity, Challenger job cuts.
+- **Tomorrow (Nov 6):** NFP jobs report 8:30 AM ET — elevated Friday volatility expected.
+- **No CPI or FOMC today.** Next FOMC: December 2026.
+- **US Midterms:** Democratic wins confirmed → alternative energy/clean tech names likely to outperform.
+
+### Trade Ideas
+1. **AMD** — tech/AI momentum, strong beat. QCOM/ARM drag may offer re-entry pullback. Wait for open to assess support. Entry ~$155-160 if pulls back; stop -10%; target $185+.
+2. **FSLR / ENPH (Clean Energy)** — Democratic midterm win catalyst. Sector trend turn after underperformance. Watch for follow-through. Entry on breakout; stop -10%.
+3. **COP (Energy)** — reporting pre-market today. If beat confirms energy sector strength, continuation trade. Wait for print and reaction. Entry on gap hold; stop -7-10%.
+
+### Risk Factors
+- QCOM miss cascades into broad semi/tech selloff
+- ARM weakness signals AI valuation reset risk — monitor carefully
+- NFP tomorrow adds macro overhang into Friday
+- Account state unknown — operational blindspot; NO orders can be placed until Alpaca API access restored
+
+### Decision
+**HOLD** — API blockage makes it impossible to verify positions, place orders, or confirm account state. Network policy must be updated to whitelist paper-api.alpaca.markets before any trades can execute. No new trades today.
+
+**Action required (manual):** Add paper-api.alpaca.markets, data.alpaca.markets, api.clickup.com, api.perplexity.ai to cloud session network allowlist.
+
