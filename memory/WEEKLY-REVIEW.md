@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-11-06
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data; last confirmed 2026-05-13) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | -3.0% (worst week since June; AI/tech rout Nov 5 -4.4%; Nasdaq -5%) |
+| Bot vs S&P | +3.0% (cash outperformed in brutal down week) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Last weekly review was 2026-07-24. ~15 weeks unlogged. Alpaca, ClickUp, and Perplexity APIs have been 403-blocked continuously since 2026-05-14 (~26 weeks). Portfolio remains $100,000 cash, 0 positions. All metrics estimated.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades executed in 26+ weeks |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation: S&P -3.0%, Nasdaq -5.0% — flat outperformed index by ~3% this week
+- Avoided AI/tech rout (Nov 5: S&P -4.4%, worst day since April 2025) by being in cash
+- Midterm elections catalyst: AI stocks led the selloff; zero tech exposure avoided pain
+- Discipline: patience rule upheld for 26+ consecutive weeks despite zero execution
+- No forced trades; no attempts to bypass blocked APIs with unauthorized workarounds
+
+### What Didn't Work
+- Alpaca API 403-blocked week 26 — zero execution capability, unchanged from prior reviews
+- ClickUp API blocked — no notifications sent; ClickUp fallback also failed
+- Perplexity API blocked — no structured research; forced WebSearch fallback
+- Zero capital deployed across 26 weeks — massive opportunity cost (~6 months of alpha)
+- 15-week gap in weekly reviews — context degrades without consistent logging
+
+### Key Lessons
+- Cash is a valid position in violent down weeks; +3% relative vs S&P this week (again, by luck)
+- AI/tech selloff was driven by midterm election results — sector rotation into defensives
+- 26 weeks of API blockage confirms: infrastructure failure is the only blocker, not strategy
+- Energy thesis (oil elevated, Hormuz) from May remains structurally valid — never got to execute
+- Weekly logging matters even with zero trading activity — gap from July to November hurt context
+
+### Adjustments for Next Week
+- PRIORITY 1 (26 weeks unchanged): Resolve Alpaca IP allowlist — add paper-api.alpaca.markets, data.alpaca.markets, api.clickup.com, api.perplexity.ai to cloud session network allowlist
+- If API restored: reassess sector momentum from scratch (26-week stale thesis); do NOT trade stale setups
+- Energy thesis needs refresh — verify WTI/Brent current levels and Hormuz status before entry
+- SLB order 6c529f05 from May 2026: verify fill status immediately if API access resumes
+- Begin documenting weekly even with zero API data — maintain logging discipline
+
+### Overall Grade: D
+*Execution: F (API blocked week 26). Discipline: A. Research: WebSearch only (Perplexity blocked). Cash outperformed S&P by ~3% this week but entirely by luck — worst AI selloff since April 2025 spared a fully-cash portfolio. Grade D (not F): strategy sound, patience upheld, infrastructure is the only failure. 26 weeks of zero execution is the defining metric.*
