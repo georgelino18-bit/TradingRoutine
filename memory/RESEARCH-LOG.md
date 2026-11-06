@@ -235,3 +235,40 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-06 — Pre-Market Research (Friday)
+
+### Account Snapshot
+- **Status:** BLOCKED — Alpaca API returning 403 via egress proxy (paper-api.alpaca.markets not in network allowlist)
+- **Last known state:** $100,000 cash, 0 open positions (confirmed 2026-10-29; no trades executable since May 2026)
+- **Equity / Buying Power / DayTrade count:** UNAVAILABLE
+- **Note:** Persistent egress proxy blockage since 2026-05-14 (6+ months). Resolution requires adding paper-api.alpaca.markets, data.alpaca.markets, api.clickup.com, api.perplexity.ai to cloud session network allowlist.
+
+### Market Context (WebSearch fallback — Perplexity API also blocked)
+- **Oil:** WTI/Brent exact current price unavailable (API blocked); last known data point ~Brent $67–75 (Sep–Oct 2026). Structural energy bid persists.
+- **S&P 500:** Index at ~7,743 as of late Sep 2026, YTD +12.9%. Futures for today not indexed yet — market open will reflect October jobs report reaction.
+- **VIX:** Last known ~19.44 (Jun 2026) — normal-volatility environment. No Nov 6 reading available.
+- **Key release TODAY:** October Nonfarm Payrolls / Employment Situation — **8:30 AM ET**. Major binary catalyst. Market direction today largely data-dependent.
+- **Upcoming releases:** CPI Nov 10, PPI Nov 13, PCE Nov 25. No FOMC in November (next: December).
+- **Sector momentum YTD (thru Sep 29):** Energy +37.5% (XLE), Technology +27.1% (XLK), Health Care +10.3%. Laggards: Communication Services -3.8%, Consumer Discretionary weak.
+
+### Earnings Today (BMO)
+- No confirmed earnings data found for Nov 6, 2026. Standard earnings season wraps by late October/early November — likely light.
+
+### Trade Ideas
+1. **Energy sector (XLE / SLB / HAL / XOM)** — YTD leader at +37.5%. Structural bid intact if jobs data prints strong (supports demand), but crowded trade. Wait for post-jobs reaction before evaluating entry. Any setup requires API fix first.
+2. **Technology (AI capex cycle)** — XLK +27.1% YTD, second-best sector. NVDA / AMAT in prior watch list. Need fresh thesis diligence — not actionable today given API blockage.
+3. **No actionable entry today** — jobs binary unpredictable; account state unknown; order execution impossible (API blocked).
+
+### Risk Factors
+- **Jobs report binary** — strong print = rates up = growth stocks suffer; weak print = recession fear = broad selloff
+- **Persistent API blockage** — cannot place stops, cuts, or new orders; entire portfolio management system non-functional for 6+ months
+- **Account state unknown** — if any positions were opened manually and are now down -7%, cannot execute required cuts
+- **No sector confirmation available** — cannot verify real-time momentum without live data
+- **VIX stale** — if fear has spiked since June 2026, risk posture may be incorrect
+
+### Decision
+**HOLD — Do not trade.** Dual reason: (1) October jobs data prints today at 8:30 ET — wait for reaction before evaluating any entry; (2) API blockage makes execution impossible regardless. Patience > activity. Priority action: resolve cloud network allowlist before next session.
+
