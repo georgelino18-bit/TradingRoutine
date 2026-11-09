@@ -3,6 +3,54 @@
 Daily pre-market research entries will be appended here.
 Format each entry:
 
+---
+
+## 2026-11-09 — Pre-Market Research
+
+### Account Snapshot
+- **Status:** BLOCKED — Alpaca API returning 403 via egress proxy (persistent since 2026-05-14)
+- Equity/Cash/Positions: UNKNOWN — cannot retrieve
+- Last confirmed state: ~$100,000 cash, 0 positions (May 2026)
+- Action required: whitelist paper-api.alpaca.markets in cloud session network policy
+
+### Market Context
+- **Oil:** Brent ~$115 / WTI ~$102 (last confirmed Oct 28 data; exact Nov 9 unavailable)
+- **S&P 500:** ~7,376–7,403 at Friday close after -4.4% selloff Thursday (largest since Apr 2025); opening with relief bounce Monday
+- **Nasdaq:** -5.5% Thursday; rebounding premarket
+- **VIX:** ~16–17 range (last reliable reading mid-Oct); expect elevated given recent vol
+- **Nikkei:** +2.3% | Taiwan Taiex: +4.9% (stabilization measures)
+- **Perplexity fallback:** WebSearch used (Perplexity API also blocked by egress proxy)
+
+### Key Catalysts Today
+- **NVDA (major risk):** Board investigating CEO Jensen Huang over alleged ties to Chinese spy — stock -5–7% premarket; AI sector under pressure
+- **Jobs data (Fri Oct payrolls):** +165K, beat expectations; unemployment 4.1% → Fed Dec 9 rate hike probability now 65%+
+- **Earnings:** Constellation Energy (CEG, raised FY guidance), monday.com (MNDY, slower Q3 expected)
+- **CPI tomorrow (Nov 10 8:30 ET):** October inflation data — key Fed signal ahead of Dec 9 decision
+- **PPI Friday (Nov 14):** Secondary inflation print
+
+### Sector Momentum (YTD)
+- Energy: +39%+ (oil >$100 sustained; leading sector)
+- Consumer Staples/Services: showing defensive strength recently
+- Tech/Comm Services: underperforming — NVDA probe adds idiosyncratic risk
+- No sector rotation signal yet; tech selloff may be buying opportunity IF CPI benign
+
+### Trade Ideas
+1. **Energy (SLB or XOM)** — Catalyst: persistent high oil, energy YTD dominance. Entry: await pullback to support. Stop: -10% trail. Target: +20–25%. Note: cannot execute until API restored.
+2. **CEG (Constellation Energy)** — Catalyst: earnings beat + raised FY guidance, nuclear/AI power theme. Entry: gap-up reaction review at open. Stop: -7%. Target: +15–20%.
+3. **PASS on NVDA** — CEO probe is idiosyncratic negative; AI theme disrupted short-term. Revisit after catalyst clears.
+
+### Risk Factors
+- Elevated rate hike probability (65% Dec 9) headwind for growth
+- CPI tomorrow — hot print could extend selloff
+- API blockage prevents any trading execution or position monitoring
+- Tech sector in correction after -5.5% Thursday Nasdaq drop
+
+### Decision
+**HOLD — do not trade**
+- API blocked; cannot execute, monitor stops, or verify positions
+- CPI tomorrow creates binary risk; patience warranted
+- Primary blocker: network policy must be updated to whitelist Alpaca endpoints before any trading can resume
+
 ## YYYY-MM-DD — Pre-market Research
 
 ### Account
