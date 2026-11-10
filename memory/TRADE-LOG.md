@@ -54,3 +54,24 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 - data.alpaca.markets
 - api.clickup.com
 - api.perplexity.ai
+
+## 2026-11-10 — Market-Open (09:30 ET)
+**Status:** BLOCKED — Alpaca API egress proxy 403 (paper-api.alpaca.markets blocked)
+
+| Action | Status |
+|--------|--------|
+| Read account | FAILED (403) |
+| Pull positions | FAILED (403) |
+| Get live quotes | FAILED (403) |
+| Place buys | SKIPPED (no data) |
+| Place trailing stops | SKIPPED (no data) |
+| ClickUp notify | FAILED (403) |
+
+**Root cause:** Cloud session egress proxy denies CONNECT tunnel to paper-api.alpaca.markets. Persistent since 2026-05-14 (6+ months).
+
+**Action required:** Add to cloud session network allowlist:
+- paper-api.alpaca.markets
+- data.alpaca.markets
+- api.clickup.com
+- api.perplexity.ai
+
