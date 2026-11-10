@@ -235,3 +235,63 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-10 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca paper-api.alpaca.markets blocked (egress proxy 403, persistent since 2026-05-14)
+- Cash: ~$100,000 est. (no confirmed trades ever executed; API inaccessible throughout)
+- Buying power: ~$100,000 est.
+- Daytrade count: 0 est.
+- Positions: UNKNOWN — API blocked; assumed 0 from prior logs
+
+### Market Context
+- WTI: ~$87–88 est. (Brent $89.92, -2.86% intraday; sharp drop from ~$116 Oct 27-28)
+- Brent: ~$89.92 — below $90 for first time since Sep; Trump-Iran diplomacy driving down oil
+- S&P 500 futures: Rebounded; Nikkei +3%; VIX -22% to ~19.92 (lowest since post-election rally)
+- VIX: ~19.92 — declining volatility environment; bullish backdrop
+- Today's catalysts:
+  - **October CPI at 8:30am ET (KEY BINARY)** — headline +0.3% m/m expected (vs +0.6% prior), core +0.2%; market reaction determines rate-cut narrative for Dec 9 FOMC
+  - **NVDA -4.3%** on CEO Jensen Huang security/intelligence concerns + board investigation + class-action lawsuit; semiconductor sub-index -25% past month, equipment makers -37%
+  - **Oil plunge** driven by Trump saying Iran strikes "highly unlikely" if deal reached; structural energy thesis weakening
+  - **Semis valuation reset**: question is whether -25% is real downturn or buying opportunity
+- Earnings before open: D-Wave Quantum (QBTS) — BMO
+- Earnings after close: CoreWeave (CRWV) — AMC
+- Economic calendar:
+  - October CPI: TODAY 8:30am ET
+  - October jobs: Fri Nov 06 (already released)
+  - FOMC minutes (Oct meeting): Nov 18, 2:00pm ET
+  - October PCE: Nov 25
+  - Next FOMC decision: Dec 9
+
+### Sector Snapshot (Aug 2026 est., most recent)
+- Energy (XLE): +39.4% YTD — LEADER (but thesis weakening with oil plunge)
+- Tech (XLK): +32.1% YTD — semis -25% from peak = potential rotation risk
+- Industrials: +20.6% YTD
+- Comm Services (XLC): -3.8% YTD — lagging
+- Consumer Discretionary: slightly negative — lagging
+
+### Trade Ideas
+1. **Post-CPI long (SPY/QQQ proxy)** — IF CPI prints softer than expected (<+0.3% headline, <+0.2% core): rate-cut odds for Dec rise → growth/tech gap-up. Wait for 8:30am ET print + 15-min reaction confirmation. No pre-positioning. R:R only valid after confirmation.
+2. **NVDA** — CEO overhang + board investigation + class action + sector -25% = NO ENTRY. Structural headwind. Flag for watchlist only after full investigation resolution.
+3. **Energy pivot watch** — Brent crashing from $116 → $90 in 2 weeks signals Iran deal risk to energy thesis. SLB/XOM/HAL setups no longer valid at current risk level. Energy sector momentum intact YTD but short-term deteriorating. HOLD any existing energy thesis; do NOT add new energy longs.
+
+### Risk Factors
+- CPI binary at 8:30am ET — if hotter than expected, risk-off; semis/tech down further
+- NVDA contagion — semiconductor equipment makers down 37%; AMAT, LRCX, KLAC exposed
+- Iran deal breakthrough could crater energy names further
+- API blockage persistent (160+ days) — cannot execute trades or verify stops; ALL WORKFLOWS NON-FUNCTIONAL until resolved
+- No confirmed positions → no stop management needed but also no gains
+
+### Decision
+**HOLD — await CPI print (8:30am ET)**
+- Zero confirmed positions; API inaccessible
+- CPI is day's key binary; no pre-positioning warranted
+- Energy thesis weakening with Brent -24% from Oct highs
+- Semiconductor sector in structural correction; no entry
+- Patience > activity
+
+**NOTE (Perplexity fallback):** Perplexity API returned 403 (same egress proxy restriction). All market data sourced via WebSearch. Data may be delayed; treat all prices as estimates.
+
