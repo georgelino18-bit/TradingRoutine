@@ -207,6 +207,25 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ---
 
+## 2026-11-10 — Midday Scan
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API egress proxy 403 (persistent, 6+ months)
+- Positions: UNKNOWN
+- Cash: UNKNOWN
+- ClickUp: BLOCKED (same egress policy)
+
+### Actions Taken
+- None — API inaccessible
+
+### Loser Cuts / Stop Tightening / Thesis Check
+- ALL BLOCKED — no position data
+
+### Decision
+NO ACTION — persistent API blockage. All workflows remain non-functional until network policy updated.
+
+---
+
 ## 2026-10-29 — Midday Scan
 
 ### Account
