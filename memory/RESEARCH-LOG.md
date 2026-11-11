@@ -235,3 +235,89 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-11 — Pre-Market Research (11:21 UTC)
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API blocked by cloud session egress proxy (403, persistent since 2026-05-14)
+- **Cash:** UNKNOWN
+- **Buying Power:** UNKNOWN
+- **Open Positions:** UNKNOWN (last confirmed state: 0 positions, ~$100k cash)
+- **Daytrade Count:** UNKNOWN
+- **Note:** ClickUp API also blocked (403); notifications silenced
+
+### Market Context (WebSearch fallback — Perplexity blocked 403)
+
+**Oil:**
+- WTI: ~$90.34 | Brent: ~$97.75 (as of Nov 8, 2026)
+- Significant drop from late-Oct highs (Brent $116, WTI $102)
+- Driver: Iran de-escalation hopes softening geopolitical risk premium
+- Brent/WTI spread ~$7
+
+**Equities / Indices:**
+- S&P 500 futures: ~7,692 approx flat (undated quote); Nov 9 saw rally after prior week's AI sell-off
+- Nov 5 AI sector rout was worst single day since 2025 "Liberation Day" tariffs
+- Market recovering but Nvidia remains headwind
+- Dow hit record close Nov 9 (560pt gain per one source)
+
+**VIX:**
+- Most recent confirmed: 16.0 (July 31, 2026) — Normal zone, 43rd percentile
+- No Nov 11 specific reading; likely range 16–19 given recent AI volatility
+
+**Key Catalyst — Nvidia Investigation:**
+- NVDA board opened independent probe into CEO Jensen Huang (reported Nov 9)
+- Stock fell sharply; AI-linked names under pressure
+- Magnitude of the AI sell-off Nov 5 — worst since Liberation Day 2025
+
+**Economic Calendar:**
+- Nov 11 = Veterans Day — bond market CLOSED, stock market OPEN → expect light volume
+- October CPI: likely released Nov 10 (BLS schedule); direction unknown from search
+- October PPI: week of Nov 10–14
+- FOMC minutes: Nov 18 | Next rate decision: Dec 9
+- Fed funds rate: 3.50%–3.75% (held)
+- Strong Oct jobs data → December hike back on table
+
+**Sector Momentum YTD (through Aug 14, 2026):**
+- Energy (XLE): +39.4% — leading all sectors
+- Technology: +48.93% H1 (conflicting data with energy lead)
+- Communication Services: -3.8% — worst performer
+- 9 of 11 sectors positive YTD
+
+### Trade Ideas
+
+1. **XOM or CVX (Energy sector)**
+   - Catalyst: Energy +39% YTD momentum; oil structurally elevated despite recent pullback
+   - Risk: Iran de-escalation driving oil lower ($90 WTI now vs $102 late Oct); -12% drop is significant
+   - Entry: Wait for oil to stabilize; watch $88–$90 WTI floor
+   - Stop: 10% trailing from entry
+   - Target: 2:1 R:R minimum
+   - **Status: WATCH, not ready — oil pullback ongoing, need stabilization**
+
+2. **Defensive sector rotation (Healthcare / Utilities)**
+   - Catalyst: AI volatility + Fed uncertainty → rotation into defensives
+   - Risk: If CPI cool → risk-on resumes, defensives underperform
+   - Entry: Post-CPI clarity (after Nov 10/11)
+   - **Status: WATCH**
+
+3. **S&P recovery post-AI-sell-off (SPY/QQQ)**
+   - Catalyst: Nov 9 rally (+560 Dow) suggests market stabilizing
+   - Risk: NVDA investigation overhang; December hike risk if CPI hot
+   - **Status: Too early — wait for clarity on CPI data and NVDA situation**
+
+### Risk Factors
+- Veterans Day: light volume, wide spreads, elevated volatility in thin market
+- NVDA CEO probe: contagion risk across AI/semiconductor sector
+- Oil price reversal: weakens energy sector thesis if Iran deal materializes
+- December Fed hike risk: re-pricing if CPI comes in hot
+- API blockage: cannot monitor positions, adjust stops, or confirm fills — CRITICAL blocker
+
+### Decision
+**HOLD — Do not trade today.**
+- Veterans Day = light volume, bond market closed → unfavorable conditions for new entries
+- Oil declining sharply removes best current sector momentum catalyst
+- NVDA overhang creates risk-off uncertainty in growth names
+- API blockage means stops cannot be placed/confirmed
+- Patience > activity
+
