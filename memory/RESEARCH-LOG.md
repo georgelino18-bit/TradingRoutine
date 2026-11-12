@@ -235,3 +235,75 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-12 — Pre-Market Research (11:14 UTC)
+
+### Account Snapshot
+- **Status:** BLOCKED — Alpaca API returning 403 (egress proxy; paper-api.alpaca.markets not whitelisted)
+- **Equity:** UNKNOWN | **Cash:** UNKNOWN | **Positions:** 0 (confirmed from trade log)
+- **Daytrade count:** UNKNOWN
+- **Note:** API has been blocked since 2026-05-14 (6+ months). No change in network allowlist.
+
+### Market Context (via WebSearch fallback — Perplexity also blocked 403)
+- **S&P 500 futures:** ~7,612–7,615, down ~0.34–0.37% premarket; bearish lean (Polymarket 33% chance higher open)
+- **Nasdaq 100 futures:** Down ~0.96% — NVDA rout dragging tech
+- **VIX:** ~20–24 estimated (spiked ~28 on Nov 5, eased to low-mid 20s by Nov 6; no clean Nov 12 reading)
+- **WTI crude:** ~$90 (Nov 8 reading; fell sharply from $102 in late Oct)
+- **Brent crude:** ~$98 (Nov 8 reading; fell from $116 in late Oct — significant demand-side concern)
+
+### Key Catalysts Today
+- **NVDA down 6.57% premarket** — NYT reports board weighing Jensen Huang's removal after second extramarital affair disclosure; major overhang on AI/semis sector
+- **AMAT (Applied Materials) earnings tonight after close** — key semiconductor read-through for supply chain
+- **CSCO (Cisco) earnings tonight after close**
+- **Tetra Tech (TTEK) +8.42% premarket** — beat on Q4 EPS/revenue
+- **AEVEX (AVEX) soaring** — revenue +56.5% YoY, beat estimates
+
+### Economic Releases
+- **CPI (October):** Released Tue Nov 10 (8:30 ET) — market already digesting
+- **PPI (October):** Likely this week (Nov 10–13 window) — confirm before open
+- **FOMC minutes (October meeting):** Wed Nov 18
+- **Next FOMC rate decision:** Wed Dec 9
+
+### Sector Momentum (YTD through mid-Aug 2026 — latest available)
+| Sector | YTD | Trend |
+|--------|-----|-------|
+| Energy | +39.4% | Leading; WTI pullback to ~$90 is a risk |
+| Technology | +32.1% | NVDA overhang pressuring today |
+| Industrials | +20.6% | Steady |
+| Consumer Disc. | -0.8% | Lagging |
+| Comm. Services | -3.8% | Weakest |
+
+### Trade Ideas
+1. **AMAT (post-earnings gap-up setup — WATCH, not today)**
+   - Catalyst: Earns tonight; if beat + strong guidance, semis get bid Friday AM
+   - Entry: Gap-up open > prior close; size 15%, stop -10% trail
+   - Target: +20–25%; R:R ~2:1
+   - Risk: NVDA CEO uncertainty clouds semi sentiment; wait for actual numbers
+
+2. **TTEK (Tetra Tech — infra momentum)**
+   - Catalyst: Blowout Q4; infrastructure buildout secular tailwind
+   - Entry: Pullback to VWAP or prior resistance intraday; stop -8%
+   - Target: +18–20%; R:R ~2.2:1
+   - Risk: Post-beat fade possible; size small (10%)
+
+3. **Energy sector rotation (sector momentum intact)**
+   - WTI fell $12 from late-Oct highs (~$102 → $90) — may be near support
+   - Best name TBD (prior SLB thesis from May still unconfirmed)
+   - Catalyst needed: inventory draw or geopolitical supply shock
+   - Risk: Oil demand softening; hold for catalyst confirmation
+
+### Risk Factors
+- NVDA CEO uncertainty: could trigger sustained tech/AI sell-off if removal confirmed
+- VIX elevated (est. 20–24): market jittery; size conservatively
+- Oil drawdown: energy sector bull thesis weakening with WTI at $90
+- CPI/PPI data already out but no confirmed readings — unknown macro impact
+- API inaccessibility: cannot verify positions, place orders, or confirm fills
+
+### Decision
+**HOLD — no new trades today**
+- Zero confirmed open positions; API blocked so cannot act safely
+- Wait for: (1) AMAT earnings tonight (key catalyst); (2) NVDA CEO clarity; (3) API whitelist fix
+- If AMAT beats strongly, revisit Friday AM gap-up setup
+- Action required: whitelist paper-api.alpaca.markets, api.perplexity.ai, api.clickup.com in cloud session network policy
