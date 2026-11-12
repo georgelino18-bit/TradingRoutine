@@ -207,6 +207,30 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ---
 
+## 2026-11-12 — Market-Open (Automated Run)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (paper-api.alpaca.markets blocked by egress proxy)
+- Cash: UNKNOWN
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- Open positions: UNKNOWN
+
+### Market Context
+- APIs blocked — no live market data retrievable (Alpaca, Perplexity, ClickUp all 403)
+
+### Trade Ideas
+- NONE — cannot validate any setup without live account/quote data
+
+### Risk Factors
+- Persistent egress proxy blockage since 2026-05-14 (6+ months)
+- paper-api.alpaca.markets, api.clickup.com, api.perplexity.ai all refused by cloud session network policy
+
+### Decision
+HOLD — All APIs blocked. No trades placed. Workflow non-functional until network policy updated.
+
+---
+
 ## 2026-10-29 — Midday Scan
 
 ### Account
