@@ -235,3 +235,70 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-13 — Pre-Market Research
+
+**[FALLBACK: Perplexity API 403 → WebSearch used for all queries. Alpaca API also 403 — account state unavailable.]**
+
+### Account Snapshot
+- Equity: UNAVAILABLE (Alpaca API 403 — egress proxy blocking paper-api.alpaca.markets)
+- Cash: ~$100,000 estimated (last confirmed Day 0, no trades placed)
+- Positions: 0 (last confirmed)
+- Orders: UNKNOWN
+- Daytrade count: UNKNOWN
+- Status: API block persists since 2026-05-14 (~183 days). Resolution required before any trades.
+
+### Market Context
+
+**Oil:**
+- WTI: ~$90.34 | Brent: ~$97.75 (as of Nov 8; down sharply from Oct highs of WTI $102, Brent $116)
+- Sharp ~12–19% oil pullback in 2 weeks — Hormuz risk premium fading or demand concerns
+
+**Indices / Futures:**
+- Nov 5, 2026: S&P 500 had worst day since Liberation Day (2025) — brutal AI stock selloff
+- Undated snapshot: S&P 500 futures ~7,692 (flat/slightly negative)
+- Full Nov 13 premarket data unavailable
+
+**VIX:**
+- Last confirmed reading: 16.73 (Jul 16). Post AI-selloff (Nov 5) likely elevated; estimate 20–24 range
+- Exact Nov 13 level unavailable
+
+**Economic Calendar (today):**
+- **PPI October 2026 — 8:30 AM ET TODAY** (key print; CPI released Mon Nov 10)
+- FOMC November meeting already concluded; next meeting Dec 9–10, 2026
+- No other high-impact releases confirmed for today
+
+**Earnings:**
+- No confirmed BMO reporters for Nov 13 found (no major binary risk today)
+
+**Sector Momentum (YTD as of Aug 2026):**
+- Leaders: Energy (+39%), Technology (+32%), Industrials (+21%)
+- Laggard: Communication Services (-4%)
+- Nov 4 intraday: Services/Consumer led; Energy lagged
+- Energy sector may be rotating OUT after oil pullback
+
+### Trade Ideas
+
+1. **Post-AI-selloff quality tech rebound** — Nov 5 AI selloff was sharpest day since Liberation Day. Quality names (NVDA, AMAT, ASML) may be oversold. Watch for stabilization and volume confirmation. **Wait**: need API access + 2–3 day base before entry. No entry blind.
+
+2. **PPI reaction play** — Today 8:30 AM ET. If PPI cool/in-line → rate cut hopes revived → risk-on; if hot → stagflation fears → risk-off energy/defensives. **Wait**: let print settle, do not front-run.
+
+3. **Energy re-entry (SLB/HAL/XOM)** — Oil pulled back ~12–19% from Oct highs. If WTI stabilizes $88–92, oilfield services thesis may reset at better R:R. **Wait**: confirm oil floor, need API access to size position.
+
+### Risk Factors
+- PPI hot print today → stagflation spiral → growth stock rout
+- AI selloff Nov 5 not yet resolved — continuation risk if guidance disappoints
+- Oil reversal: Hormuz premium compressing means energy sector thesis may be weakening
+- Warsh Fed + Dec 9–10 FOMC: policy path uncertain
+- Alpaca API inaccessible — ZERO trade execution capability in this environment
+- VIX likely elevated (est. 20–24); avoid new positions in high-volatility window
+
+### Decision
+**HOLD — Do not trade.**
+- Primary blocker: Alpaca API still 403'd; no execution capability
+- Secondary: PPI binary at 8:30 ET; AI selloff aftermath; oil trend unclear
+- Resume when: (1) API access restored AND (2) PPI resolves AND (3) clear sector momentum re-establishes
+- Patience > activity.
+
