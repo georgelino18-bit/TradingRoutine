@@ -24,3 +24,7 @@ Grade: D
 ---
 ## 2026-10-29 17:12 UTC (fallback — curl network error)
 MIDDAY 2026-10-29: Alpaca API still blocked (egress proxy 403 on paper-api.alpaca.markets). Cannot pull positions/orders. No trades possible. Action required: whitelist Alpaca paper API in cloud session network policy.
+
+---
+## 2026-11-13 14:46 UTC (fallback — ClickUp not configured)
+BLOCKED: market-open 2026-11-13 — Alpaca API (paper-api.alpaca.markets) still rejected by egress proxy 403. No trades placed. Network allowlist fix required.
