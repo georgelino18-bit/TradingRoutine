@@ -235,3 +235,53 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-16 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy blocks paper-api.alpaca.markets; persistent since 2026-05-14)
+- Cash: UNKNOWN
+- Buying power: UNKNOWN
+- Daytrade count: UNKNOWN
+- NOTE: ClickUp API also blocked. All research via WebSearch fallback.
+
+### Market Context
+- WTI / Brent: Approx WTI ~$91 | Brent ~$98 (from EnergyConnects Nov 2026 piece; oil steadied after 16%+ weekly drop; Iran nuclear talks ongoing = supply uncertainty)
+- S&P 500 futures: Nasdaq 100 futures -1% premarket; S&P 500 ~7,520 (Nov 10 close, +9.66% YTD); futures roughly flat per undated tracker; broad indices gained 2%+ last week
+- VIX: Last confirmed reading ~16–19 range (Jul 16 reading 16.73; Jun reading ~18–19); no exact Nov 16 print available; moderate fear regime
+- Today's catalysts:
+  - **NVIDIA earnings tomorrow (Nov 17)** — Q3 FY2027; EPS est $2.47 (+90% YoY), rev est ~$108.93B (+91% YoY); BIGGEST market event of the week; first report since CEO Jensen Huang resigned. Premarket positioning = Nasdaq 100 -1%
+  - **Anthropic IPO imminent** — test of AI investor appetite; could lift/pressure AI-adjacent names
+  - **Fed Chair Warsh speaks today** — hawkish posture; FOMC minutes due Wed Nov 18; December FOMC hike base case per officials; inflation persistent
+  - **Trump–Xi–Putin meeting** — geopolitical wildcard; oil + trade implications
+  - **Empire State Manufacturing Survey** today (Nov 16)
+  - Earnings today: Baidu (BMO), Tyson Foods (AMC), Aramark (AMC)
+- Earnings before open: Baidu (BIDU) BMO
+- Economic calendar: Empire State Mfg (Nov 16); Retail Sales (week); FOMC minutes (Wed Nov 18); no CPI/PPI/jobs today (those were week of Nov 9)
+- Sector momentum YTD (as of Aug 2026, most recent reliable):
+  - Leader: Energy (XLE) +39.4%
+  - Consumer Goods (IYK) ~+21% (Nov 4 data)
+  - Health Care: rising fast (top MTD per Schwab)
+  - Communication Services: weakest YTD (-3.8% as of Aug)
+  - Tech (XLK): dropped to bottom recently per Schwab
+  - S&P 500 overall: +9.66% YTD (Nov 10)
+
+### Trade Ideas
+1. **NVDA** — Do NOT enter before binary earnings event (tomorrow Nov 17 AMC). If strong beat + guidance → gap-up entry Nov 18 at open, stop 10% below reaction low, target +20%, R:R ≥2:1. Max size 20% (~$20k). HIGH CONVICTION post-event only.
+2. **XLE / Energy names (SLB, HAL, XOM)** — Oil stabilized after 16% drop; Iran talks = binary supply catalyst. If talks fail/collapse → energy spike setup. Entry only on oil catalyst confirmation, stop ~8% below entry, target +15%. HOLD until oil direction resolves.
+3. **Healthcare momentum play (e.g., UNH, LLY, ABT)** — Sector rotating to top MTD per Schwab; defensive + momentum. Needs diligence session for specific name. HOLD — monitor for setup.
+
+### Risk Factors
+- NVDA earnings binary (Nov 17) — single biggest risk; miss = Nasdaq flush -3%+
+- Fed hawkish pivot risk — Warsh speech today; December hike expectations real; compresses tech P/E
+- Anthropic IPO = AI sector sentiment read; could spike or cap AI rally
+- Oil binary — Iran talks resolution either way disrupts energy thesis
+- Trump–Xi–Putin meeting — unpredictable trade/geopolitical shock
+- Alpaca API still blocked — CANNOT place any trades; all setups remain paper/theoretical
+- Account state unknown — cannot size positions, verify stops, or confirm cash balance
+
+### Decision
+HOLD — NVDA binary tomorrow is the defining event of the week. No entry until post-NVDA reaction confirmed. Energy on watch pending oil catalyst. Healthcare shows momentum but needs diligence. Patience > activity.
+NOTE: All trade execution remains BLOCKED — Alpaca API inaccessible. Network policy update required before any trade can be placed.
