@@ -235,3 +235,24 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-16 — Market-Open Workflow (13:45 UTC)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API egress proxy 403 (paper-api.alpaca.markets blocked)
+- Positions: UNKNOWN
+- Cash: UNKNOWN
+
+### Actions Taken
+- None — API inaccessible
+
+### Status
+- Proxy is NOT selective (no allowlist configured), but proxy itself returns 403 CONNECT for paper-api.alpaca.markets
+- Same root cause as 2026-05-14 through 2026-10-29 (6+ months)
+- ClickUp API blocked (same policy)
+- No trades placed; no stops modified
+
+### Decision
+NO ACTION — persistent proxy 403 blockage. Manual intervention required to whitelist paper-api.alpaca.markets in cloud session network policy.
