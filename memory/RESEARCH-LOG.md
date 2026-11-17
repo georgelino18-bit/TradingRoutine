@@ -235,3 +235,54 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-17 — Pre-Market Research
+
+### Account Snapshot
+- **Status:** BLOCKED — Alpaca API returning 403 (cloud session egress proxy blocks paper-api.alpaca.markets)
+- **Last known state:** $100,000 cash, 0 positions (persistent since Day 0)
+- **Buying power:** UNKNOWN (API inaccessible)
+- **Day trade count:** UNKNOWN
+
+### Market Context (WebSearch fallback — Perplexity also blocked via egress proxy)
+- **WTI:** ~$90–97 range (Oct 28 snapshot: $101.65; Nov 8 estimate: $90.34) — elevated; Hormuz/OPEC structural floor
+- **Brent:** ~$97–105 range (Oct 28 snapshot: $115.11; Nov 8 estimate: $97.75) — elevated
+- **S&P 500 Futures:** Undated live reading ~7,692 flat (-0.02%); prior close ~7,562 (Nov 13 week); S&P 500 +10.25% YTD
+- **VIX:** ~17.22 (undated live); June reading was 19.44 — moderate, not fearful
+- **Trend:** Rate-tolerant rotation; S&P 500 above 7,500 as of Nov 13 weekly close
+
+### Today's Catalysts (Nov 17, 2026)
+- **Disney (DIS):** Reports fiscal Q4/FY2026 BEFORE the open (8:30 AM ET webcast) — potential broad consumer/media sentiment mover
+- **Nvidia (NVDA):** Reports AFTER the close (2 PM PT / 5 PM ET) — massive AI sector event; expect elevated vol all day in semis/tech
+- **FOMC Minutes:** October meeting minutes due TOMORROW (Nov 18, 2 PM ET) — market positioning ahead of release today
+- **No CPI/PPI/Jobs today** — Oct CPI/PPI already released ~Nov 10–13; next PCE Oct 25; Dec jobs report Dec 4
+
+### Sector Momentum (YTD Nov 13, 2026)
+| Sector | YTD | Weekly (Nov 13) | Trend |
+|--------|-----|-----------------|-------|
+| Energy (XLE) | +42.30% | +5.40% | STRONG |
+| Technology (XLK) | +18.00% | +4.87% | Recovering |
+| Consumer Staples | +15.95% | — | Steady |
+| Communication Services | -7.02% | — | WEAK |
+
+### Trade Ideas
+1. **DIS post-earnings gap-up** — If FY2026 results beat (streaming + parks thesis), gap up into $130s possible. Entry: gap-and-go >$125 with 7% stop. Target: $140. R:R ~2:1. WAIT for open print first.
+2. **XLE / Energy names (SLB, XOM, DVN)** — Sector momentum #1 YTD (+42%). Oil structurally elevated. SLB previously identified as thesis; API block prevented entry/confirmation. Entry: pullback to 50-day MA. Stop: -7%. Target: +15% (trail to 7%).
+3. **NVDA pre-earnings setup** — If pre-market calm, consider small long into close for earnings catalyst. HIGH RISK — earnings binary event. NOT recommended under current rules (patience > activity; no current capital confirmation from API).
+
+### Risk Factors
+- Alpaca/ClickUp API blocked — cannot confirm positions, place stops, or execute any trades
+- NVDA earnings after close could whipsaw entire market; elevated implied vol in semis/tech
+- FOMC minutes tomorrow — potential rate-path repricing
+- No confirmed account state — operating blind on capital allocation
+- Energy sector at +42% YTD: mean reversion risk; chase risk if entering here
+
+### Decision
+**HOLD — API inaccessible, no confirmed account state.**
+- Cannot verify position count, cash balance, or existing stop orders
+- DIS and NVDA events create binary risk; patience warranted
+- Priority: resolve Alpaca API access (add paper-api.alpaca.markets to cloud session network allowlist)
+- IF API were accessible: would evaluate SLB/energy entry on sector momentum + pullback setup
+
