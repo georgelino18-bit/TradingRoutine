@@ -54,3 +54,26 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 - data.alpaca.markets
 - api.clickup.com
 - api.perplexity.ai
+
+---
+
+## 2026-11-17 — Market-Open Run (BLOCKED)
+**Status:** BLOCKED — Alpaca API and ClickUp API both returning 403 via egress proxy
+
+| Action | Status |
+|--------|--------|
+| Read memory files | OK |
+| Alpaca account check | FAILED (403) |
+| Alpaca positions check | FAILED (403) |
+| Execute buys | SKIPPED (no data) |
+| Place trailing stops | SKIPPED (no data) |
+| ClickUp notify | FAILED (403) |
+
+**Root cause:** Cloud session network policy blocks paper-api.alpaca.markets and api.clickup.com. Persistent since 2026-05-14 (187+ days). No trades placed. No RESEARCH-LOG entry found for today (pre-market skipped/blocked too).
+
+**Action required:** Add to cloud session network allowlist at https://code.claude.com/docs:
+- paper-api.alpaca.markets
+- api.alpaca.markets
+- data.alpaca.markets
+- api.clickup.com
+- api.perplexity.ai
