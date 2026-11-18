@@ -235,3 +235,51 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-18 — Pre-market Research [FALLBACK: WebSearch, Alpaca+Perplexity APIs blocked]
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy blocks paper-api.alpaca.markets; persistent since 2026-05-14)
+- Cash: ~$100,000 estimated (last confirmed state Day 0; no trades executed)
+- Positions: 0 (last confirmed)
+- Buying power: ~$100,000
+- Daytrade count: N/A
+
+### Market Context
+- **WTI:** ~$86-87/bbl | **Brent:** ~$92-93/bbl — oil down ~18-22% in Nov on IEA surplus outlook + Hormuz recovery; OPEC+ meeting Nov 29
+- **S&P 500 futures:** +0.5-0.8% premarket (~7,407 level) recovering after 4-5 day selloff; Nov 17 close 7,340.53 (-1.03%)
+- **VIX:** ~25.46 close Nov 17 (4th consecutive up session; below Nov 5 high of 28.4)
+- **FOMC minutes:** 2:00 PM ET today — Oct 27-28 meeting notes; market pricing ~100% Dec 25bps hike after Oct CPI +0.4% m/m (hot)
+- **UK CPI:** Also due today (exp. 3.6% y/y)
+
+### Today's Catalysts
+- **NVDA:** Q3 beat — revenue $115.8B; Q4 guide $130B vs $125B est → +3.7% premarket; AI trade reignited
+  - RISK: SEC reportedly investigating Nvidia amid Jensen Huang exit
+- **Anthropic IPO:** Pricing today — AI sector tailwind; AMD +3.2%, INTC +2.4%, AVGO +2.3% premarket
+- **Pre-market earnings:** TGT ($2.08 EPS est, $26.5B rev), LOW ($2.88 EPS est), TJX
+- **Post-close earnings:** PANW
+
+### Sector Momentum (YTD)
+| Sector | YTD Return |
+|--------|-----------|
+| Energy (XLE) | +47-53% (top) |
+| Information Technology | +19-34% |
+| S&P 500 benchmark | +10.5% |
+| Communication Services | -10 to -14% (laggard) |
+
+### Trade Ideas
+1. **NVDA (Tech)** — Post-earnings momentum. Q4 $130B guide = strong AI demand. Entry ~$165-170 on pullback from gap; stop -10% (~$149-153); target $195 (R:R ~2:1). RISK: SEC probe, elevated VIX — wait for open price action.
+2. **SLB or XOM (Energy)** — Sector #1 YTD. WTI structural support ~$85-88; OPEC+ Nov 29 catalyst. SLB entry ~$54-56, stop -10%, target $65 (R:R ~2.5:1). Note: prior SLB May order never confirmed filled.
+3. **LOW (Consumer Discretionary)** — Pre-market earnings catalyst. If beats+raises, gap-and-go setup. Wait for print confirmation before entry; stop -7%.
+
+### Risk Factors
+- VIX 25 = elevated; 4-5 day selloff preceding today's bounce
+- FOMC minutes 2 PM ET — hawkish confirmation (Oct CPI hot) could spike VIX
+- SEC/Nvidia headline risk could reverse AI premarket rally
+- Alpaca API inaccessible — cannot verify account state or place stops
+- Oil bearish November trend despite structural $85-88 support
+
+### Decision
+**HOLD** — VIX elevated, FOMC minutes at 2 PM create binary risk. No live API access to confirm account or manage stops. Wait for post-FOMC clarity. NVDA and SLB remain top candidates if conditions stabilize by midday.
