@@ -207,6 +207,39 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ---
 
+## 2026-11-19 — Market-Open (09:30 ET)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API blocked (egress proxy 403, paper-api.alpaca.markets)
+- Cash: UNKNOWN
+- Positions: UNKNOWN
+- Daytrade count: UNKNOWN
+- Perplexity: ALSO BLOCKED (api.perplexity.ai blocked)
+- ClickUp: ALSO BLOCKED (api.clickup.com blocked)
+
+### Market Context
+- ALL DATA UNAVAILABLE — egress proxy blocks all trading-related endpoints
+- Cannot retrieve: quotes, account, positions, orders
+
+### Trade Ideas
+- NONE — cannot validate or execute; all APIs blocked
+
+### Risk Factors
+- Cloud session network policy has blocked paper-api.alpaca.markets, api.perplexity.ai, and api.clickup.com since 2026-05-14 (186 days)
+- No path to resolution without user action on network allowlist
+
+### Decision
+**HOLD — BLOCKED.** Cannot place or verify any orders. No trade executed.
+
+**Action required (user):** Add these to the cloud session network allowlist:
+- `paper-api.alpaca.markets`
+- `data.alpaca.markets`
+- `api.perplexity.ai`
+- `api.clickup.com`
+See: https://code.claude.com/docs/en/claude-code-on-the-web
+
+---
+
 ## 2026-10-29 — Midday Scan
 
 ### Account
