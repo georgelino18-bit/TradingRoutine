@@ -235,3 +235,56 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-19 — Pre-Market Research
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API egress proxy 403 (paper-api.alpaca.markets blocked; persistent since 2026-05-14)
+- **Cash:** ~$100,000 estimated (last known state: Day 0, zero positions)
+- **Positions:** UNKNOWN — cannot retrieve
+- **Buying Power:** UNKNOWN
+- **Daytrade Count:** UNKNOWN
+- **Note:** ClickUp and Perplexity APIs also blocked (403); WebSearch used as fallback for all market research
+
+### Market Context
+- **WTI Crude:** ~$82.70–$83.44 (↓0.7% intraday) — surplus fears + possible Fed rate hike weighing; Middle East shipping concern providing floor
+- **Brent Crude:** ~$91.70–$92.50 (↓0.2%) — Brent-WTI spread widening slightly
+- **S&P 500 Futures:** +0.6% to +1.2% premarket — 5th consecutive losing session on Wednesday; futures bouncing on Anthropic IPO optimism
+- **VIX:** ~24.5–25.5 — elevated; Saxo characterizes market as "high volatility bear regime," S&P 500 ~4.1% below 50-day MA
+- **Fed:** Hawkish Nov FOMC minutes (released Nov 18) — some members favor >25bp hike in Dec; next FOMC Dec 8–9; next CPI Dec 10
+- **Today's Releases:** Philly Fed Manufacturing Index, weekly jobless claims, multiple FOMC speakers; no CPI/NFP today
+- **Anthropic IPO (ANT):** Priced at $83/sh above marketed range, ~$1.5T valuation, record-largest IPO — Nasdaq listing today; primary market catalyst lifting futures
+
+### Earnings BMO (Before Market Open)
+- **WMT** (Walmart): EPS est $0.64, rev est $187.4B — market-read on consumer spending
+- **BABA** (Alibaba): EPS est $1.63, rev est $40.5B — AI cloud investment focus
+- **PDD** Holdings: pre-market
+- **WSM** (Williams-Sonoma), **BBWI**, **FUTU**, **NTES** (NetEase), **MMS** (Maximus) also reporting
+
+### Sector Momentum (YTD)
+| Sector | YTD Return | 3-Month | Trend |
+|--------|-----------|---------|-------|
+| Energy | +38–52% | +13% | Leader |
+| Technology | +21–34% | — | Strong |
+| Health Care | +21% | — | Stable |
+| Materials | +16% | +3% | Fading |
+| Communication Services | -8 to -14% | — | Laggard |
+- Energy leads structurally (WTI ~$83, Middle East premium); note sector earnings -11% YoY — price-led not fundamental
+
+### Trade Ideas
+1. **NVDA (long)** — Beat Q3 earnings Nov 18 after-close; AI demand + data center catalyst. Entry: gap-up open confirm above prior close; stop -10% from entry; target +20–25%. Risk: VIX ~25 bear regime, gap fades possible.
+2. **WMT (long, earnings)** — Beat + guidance raise = consumer staples momentum. Entry: post-open confirm above prior close; stop -7%; target $95–$100. Risk: macro slowdown guidance miss.
+3. **Energy (SLB or XOM)** — WTI structural floor ~$80 with Hormuz premium; sector YTD leader. Entry if WTI holds $82+; stop -10%; target +15–20%. Risk: surplus forecast, oil ↓0.7% today.
+
+### Risk Factors
+- Bear regime (VIX ~25, S&P below 50-day MA)
+- Fed hawkish — >25bp hike risk in Dec weighs on growth
+- Anthropic IPO euphoria fades risk
+- API blockage: cannot execute trades, verify positions, or place stops — CRITICAL operational risk
+
+### Decision
+**HOLD** — No new positions. Operational blocker (Alpaca API 403) prevents trade execution. VIX >24 and bear regime warrant patience regardless. NVDA post-earnings gap worth watching for confirmation. Network allowlist fix required: add paper-api.alpaca.markets, api.clickup.com, api.perplexity.ai to cloud session before next session.
+
+NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
