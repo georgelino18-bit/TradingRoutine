@@ -235,3 +235,46 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-20 — Pre-Market Research (11:14 UTC)
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API 403 (egress proxy block; persistent since 2026-05-14)
+- **Cash:** UNKNOWN (last confirmed: $100,000, 0 positions)
+- **Positions:** 0 (last confirmed)
+- **Buying Power:** UNKNOWN
+- **Daytrade Count:** UNKNOWN
+- **API fallback:** Perplexity also 403; all market data sourced via WebSearch
+
+### Market Context
+- **WTI:** ~$84–87/bbl (Nov 18 close: $86.53; post-market slip to ~$84.55)
+- **Brent:** ~$92–93/bbl (Nov 18 close: $92.76; post-market ~$92.25)
+- **Oil note:** US inventory build applied downward pressure (~-1% to -2% Nov 18); Hormuz shipping risk providing structural floor
+- **S&P 500:** ~7,561 as of Nov 13 close; YTD +10.25%; +2.51% week of Nov 9–13 (recovery from -2.68% prior week)
+- **VIX:** ~16–17 range (last confirmed reading 16.34 as of Sep 1 2026; undated snapshot ~17.47 open)
+- **Sector YTD leaders (as of Nov 13):** Energy +42.3%, Tech +18.0%, Consumer Staples +15.95%
+- **Sector YTD laggards:** Communication Services -7.02%
+- **This week calendar:** FOMC minutes (Oct meeting) released Wed Nov 18. No US CPI (Oct CPI was Nov 10; next Dec 10). No jobs report (next Dec 4). Light macro week.
+- **Earnings:** WMT, PDD, BABA reported Nov 19. Nov 20 (today): very light — Prosafe SE pre-market only (~30 TBD/unconfirmed small-caps). No major US market-moving reporters today.
+
+### Trade Ideas
+1. **Energy continuation — XOM/CVX or SLB** (Catalyst: Energy sector YTD +42.3%, Hormuz structural floor under oil at ~$82–85 WTI; WTI softening slightly but long-term supply premium intact. Entry: pullback toward 20-day MA. Stop: -10% trailing. Target: +20–25%. R:R ~2:1)
+   - *Risk:* US inventory builds accelerating; Iran ceasefire talks could collapse the risk premium abruptly
+2. **Tech sector dip — NVDA/AMD** (Catalyst: S&P Tech still +18% YTD; Nov 2–6 selloff may have created re-entry. Nvidia is likely the week's key mover. Entry: post-earnings clarity if gap fills. Stop: -8%. Target: +20%. R:R ~2.5:1)
+   - *Risk:* Elevated valuation; rate-sensitivity; macro uncertainty
+3. **Healthcare defensive** (Catalyst: Sector rotating in momentum; defensive posture with VIX ~17. Entry: pullback on sector ETF (XLV). Stop: -7%. Target: +12%. R:R ~1.7:1)
+   - *Risk:* Lower upside potential; policy/drug pricing risk
+
+### Risk Factors
+- Alpaca API completely inaccessible — cannot view positions, place orders, or manage stops
+- ClickUp notification API also blocked — no trade alerts possible
+- Oil softening on inventory; Hormuz premium could unwind quickly
+- VIX ~17: moderate; not a fear spike but not complacent either
+- Light Friday — low liquidity pre-holiday period (Thanksgiving Nov 26)
+
+### Decision
+**HOLD — no action possible (API blocked). Even if APIs were available, Friday pre-Thanksgiving light volume argues for patience. No open positions to manage.**
+
+*Critical: Bot remains fully non-functional until cloud session network policy is updated to whitelist: paper-api.alpaca.markets, api.alpaca.markets, data.alpaca.markets, api.clickup.com, api.perplexity.ai*
