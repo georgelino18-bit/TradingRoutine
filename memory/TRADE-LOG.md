@@ -54,3 +54,14 @@ No `.env` file found in project root. API credentials unavailable; stop placemen
 - data.alpaca.markets
 - api.clickup.com
 - api.perplexity.ai
+
+---
+
+## 2026-11-20 — EOD Snapshot (Day ~136, Friday)
+**Portfolio:** UNKNOWN | **Cash:** UNKNOWN | **Day P&L:** N/A | **Phase P&L:** N/A
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Alpaca API continues to return 403 via egress proxy (paper-api.alpaca.markets blocked). Issue persistent since Day 1 (2026-05-14 — 191+ calendar days, ~136 trading days). No live account data retrievable. No trades confirmed this week. Last verified state remains Day 0: $100,000 cash, 0 positions. ClickUp notification also blocked (api.clickup.com). **Action required:** Allowlist paper-api.alpaca.markets, api.clickup.com, data.alpaca.markets, api.perplexity.ai in cloud session network policy at https://code.claude.com/docs/en/claude-code-on-the-web.
