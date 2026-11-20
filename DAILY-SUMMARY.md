@@ -24,3 +24,12 @@ Grade: D
 ---
 ## 2026-10-29 17:12 UTC (fallback — curl network error)
 MIDDAY 2026-10-29: Alpaca API still blocked (egress proxy 403 on paper-api.alpaca.markets). Cannot pull positions/orders. No trades possible. Action required: whitelist Alpaca paper API in cloud session network policy.
+
+---
+## 2026-11-20 20:13 UTC (fallback — curl network error)
+EOD 2026-11-20
+Portfolio: UNKNOWN (API blocked ~Day 136)
+Cash: UNKNOWN
+Trades today: none (data unavailable)
+Open positions: UNKNOWN — API returning 403 since 2026-05-14
+Tomorrow: No trades possible until cloud session network policy allows paper-api.alpaca.markets. See TRADE-LOG.md. Allowlist required.
