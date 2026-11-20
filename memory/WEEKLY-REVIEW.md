@@ -158,3 +158,65 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-11-20
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | -8.9% (entered correction; Nasdaq -10%, AI profit-taking on Anthropic IPO) |
+| Bot vs S&P | +8.9% relative (cash preserved in brutal down week) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca API 403 blocked in cloud environment for 27+ consecutive weeks (since 2026-05-14). Portfolio assumed at $100,000 cash. All figures estimated.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades confirmed |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation: S&P -8.9%, Nasdaq -10% — flat portfolio dramatically outperformed
+- Avoided the Anthropic IPO-triggered AI correction entirely (no tech/AI longs held)
+- No exposure to the Nasdaq's worst week (erased full-year 2026 gains)
+- Discipline upheld — zero forced trades in 27 consecutive weeks of API blockage
+- Sector avoidance of tech/AI proved correct; rotation thesis from May still valid
+
+### What Didn't Work
+- Alpaca API 403 blocked for 27+ consecutive weeks — same root cause, zero resolution
+- Perplexity API still blocked — all research again forced to WebSearch fallback
+- Zero capital deployed across 27 weeks; massive opportunity cost on the upside before correction
+- Phase P&L: 0% nominal, while market had significant moves in both directions
+- No ability to actually trade into the correction as a tactical short-term opportunity
+
+### Key Lessons
+- S&P correction (-8.9% in one week) validates cash-preservation posture but it was passive luck, not strategy
+- Anthropic IPO as AI sector rotation trigger was not anticipated — a new risk factor for tech/AI longs
+- Nasdaq erasing 7-month win streak is a significant technical break; watch sector momentum signal carefully
+- 27 weeks of API blockage is now approaching 7 months — this is a systemic failure, not a temporary issue
+- If API were restored this week, correction low would be an ideal entry for quality names with 2:1 R:R setups
+
+### Adjustments for Next Week
+- PRIORITY 1 (unchanged 27 weeks): Resolve Alpaca API + ClickUp cloud network allowlist — escalate to environment admin
+- Watch S&P 500 bounce/retest — if correction low holds, quality setups in Energy/Materials/Industrials possible
+- Avoid tech/AI longs until Nasdaq stabilizes and reclaims prior support
+- Anthropic IPO aftermath: monitor NVDA, AMD — oversold bounce potential if correction is profit-taking not fundamental
+- Energy thesis still structurally valid if WTI holds elevated; SLB/HAL setups remain on watchlist
+- When API access resumes: deploy in tranches (25% first), not all-at-once after 27-week wait
+
+### Overall Grade: D
+*Execution: F (API blocked week 27). Discipline: A. Research: B (WebSearch only, but correction not anticipated). Relative outperformance (+8.9% vs S&P) entirely due to forced cash position from infrastructure failure, not skill. Grade unchanged — same root cause, now 27 weeks unresolved.*
