@@ -235,3 +235,78 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-23 — Pre-Market Research (Thanksgiving Week)
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API blocked (egress proxy 403, paper-api.alpaca.markets)
+- **Cash / Positions / Orders:** UNKNOWN
+- **Last confirmed state:** $100,000 cash, 0 positions (May 2026)
+- **Day trade count:** UNKNOWN
+- **Note:** Perplexity API also 403 blocked; research via native WebSearch (fallback)
+
+### Market Context
+
+**Equities / Indices:**
+- S&P 500 had a sharp selloff Fri Nov 20: S&P -3.7%, Nasdaq -5.3%, Dow -1.9%
+- AI trade rout triggered by NVDA/SEC probe headlines; broader tech repricing
+- Futures rebounding Monday morning; markets "seeing a boost after last week's AI selloff" (TipRanks)
+- NVDA up ~8% premarket after ~23% weekly loss
+
+**Oil:**
+- Brent ~$90 (NordFX Nov 23 Market Pulse); Gulf shipping attacks providing support floor
+- Late Oct data: Brent $115.11, WTI $101.65 (Oct 28) — significant pullback into this week
+- Oil sector supportive but price direction uncertain near-term
+
+**VIX:**
+- Last confirmed reading ~16-17 (undated Cboe snapshot, 52-wk range 13.38–35.30)
+- Likely elevated after Fri selloff; expect elevated volatility this holiday week
+
+**Sector Momentum (YTD as of Aug 2026):**
+- #1 Energy (XLE): +39.4%
+- #2 Technology (XLK): +32.1%
+- #3 Industrials (XLI): +20.6%
+- Laggards: Comm Services (XLC) -3.8%, Consumer Disc (XLY) -0.8%
+- Energy still dominant multi-month leader; Tech weakening after NVDA-led selloff
+
+**Calendar:**
+- Mon Nov 23: Zoom earnings after close
+- Tue Nov 24: Medtronic (MDT) + Analog Devices (ADI) earnings pre-market; Consumer Confidence (10:00 ET)
+- Wed Nov 25: PCE data + Flash PMIs expected (per Newsquawk)
+- Thu Nov 26: **Thanksgiving — markets CLOSED**
+- Fri Nov 27: Early close 1:00 PM ET — thin liquidity
+
+**NVDA / AI Sector Headlines:**
+- SEC civil probe into Nvidia disclosures; FBI investigation into Jensen Huang (Chinese spy allegations, Nov 10)
+- California AG assessing action; DOJ subpoena history also overhang
+- Shares down ~23% past week; bouncing +8% premarket Nov 23 on relief/short-covering
+
+### Trade Ideas
+
+| # | Ticker | Catalyst | Entry | Stop | Target | R:R |
+|---|--------|----------|-------|------|--------|-----|
+| 1 | XLE or XOM | Energy #1 YTD sector, Gulf shipping disruption floor under oil, Brent ~$90 | Dip into 50-DMA on oil weakness | -10% trail | +20% | 2:1 |
+| 2 | NVDA | Violent washout on SEC/FBI probe fears; premarket +8% relief bounce; AI demand thesis intact | Only on confirmation of multi-day base > prior day close | -10% trail strict | +25-30% | 2.5:1 |
+| 3 | MDT | Defensive healthcare, pre-earnings Tuesday; sector not extended; macro uncertainty hedge | Pre-earnings entry with tight stop | -7% | +12% | 1.7:1 |
+
+### Risk Factors
+- Thanksgiving week = thin liquidity; stops can gap through on low volume
+- NVDA overhang: SEC + FBI probes unresolved; any new headline = another leg down
+- Fed: market pricing December rate hike; any hawkish surprise destroys growth/tech
+- API blockage: cannot confirm account state, existing orders, or execute trades — persistent since May 2026
+- Short week means 3 trading sessions only (Mon/Tue/Wed)
+
+### Decision
+**HOLD — no new trades today**
+
+Rationale:
+- Cannot confirm account state (API blocked); may already have open position from prior session
+- Holiday week thin liquidity amplifies risk of whipsaw on volatile names
+- NVDA bounce tempting but probe overhang unresolved; wait for multi-day base
+- Energy thesis intact but need oil price confirmation; watch XLE on Tuesday
+- If API access restored: re-run positions/orders check before any entry
+
+**Next action:** Monitor NVDA for base formation post-Nov 23 bounce. Watch XLE/XOM for energy re-entry if oil holds $88+. Check Consumer Confidence (Tue 10 ET) for macro read.
+
