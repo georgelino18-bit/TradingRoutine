@@ -3,6 +3,87 @@
 Daily pre-market research entries will be appended here.
 Format each entry:
 
+## 2026-11-24 — Pre-market Research
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 (egress proxy blocks paper-api.alpaca.markets; persistent since 2026-05-14)
+- Cash: ~$100,000 estimated (last confirmed Day 0 baseline; 0 positions)
+- Buying Power: ~$100,000 (estimated)
+- DayTrade Count: 0 (no trades executed)
+- Positions: 0 (confirmed from last log; unverifiable today)
+
+### Market Context
+**Yesterday's session (Mon Nov 23):**
+- S&P 500: +4.73% (best day since April 2025) | Nasdaq: +6.51% | Dow: +3.01%
+- Driver: Nvidia's board reinstated Jensen Huang as CEO → NVDA +31.5% to $165.05
+- CrowdStrike -8.9% (announced $43.9B all-share acquisition of Zscaler)
+
+**Premarket today (Tue Nov 24):**
+- S&P futures: Mixed, near 7,282 (~+0.24% at last check; opened down -0.23% then flipped)
+- Note: Post-massive-rally digestion likely; watch for profit-taking
+
+**Oil:**
+- WTI: ~$79-81/bbl | Brent: ~$87-90/bbl (fallback WebSearch — Perplexity blocked)
+- Trend: Down sharply; WTI -22% in November. Driver: US-Iran talks progress, Libya pipeline restart, recovering Middle East exports
+- Support: WTI ~$77-78, Brent ~$87
+
+**VIX:** ~26-27 (elevated; "crisis level" per one SA analyst; down from recent highs post-Nvidia rally)
+
+**Today's Earnings (pre-market):**
+- ADI (Analog Devices): Q4 est. $3.88 EPS / $4.32B rev (11-quarter beat streak at stake)
+- BBY (Best Buy): est. $1.49 EPS / $9.89B rev
+- DLTR (Dollar Tree): est. $0.91 EPS / $5.04B rev
+- MDT (Medtronic), KSS (Kohl's), ANF (Abercrombie & Fitch) also pre-market
+
+**Economic Calendar:**
+- TODAY: Consumer Confidence 10:00 AM ET (est. 92.1 vs prior 91.7) | 5yr Treasury auction 1:00 PM ET
+- WED Nov 25: PCE Oct (est. +0.3% MoM core) + Q3 GDP 2nd est. + Jobless Claims (shifted from Thu for Thanksgiving)
+- Thu Nov 26: Thanksgiving — markets CLOSED
+- Next FOMC: Dec 9 (rates at 3.75-4.00%, 2 members sought hike)
+
+**Sector Momentum YTD:**
+1. Energy: +38-40% (US-Israel-Iran conflict supply disruptions driving WTI; now pulling back)
+2. Health Care: +28%
+3. Information Technology: +26% (AI/NVDA-driven; massive single-day boost today)
+- Underperformers: Unclear from data; Consumer Discretionary and Financials likely lagging
+
+### Trade Ideas
+**IDEA 1 — NVDA post-gap consolidation entry**
+- Catalyst: Jensen Huang reinstated CEO; stock +31.5% single day
+- Thesis: If NVDA holds above $150 (prior base) and consolidates for 2-3 days, could be a re-entry point for continued momentum
+- Entry: ~$152-155 on consolidation, Stop: $139 (-8%), Target: $185 (+20%)
+- R:R: ~2.5:1 | Sector: Tech (momentum ✓)
+- BLOCKER: API inaccessible; cannot execute
+
+**IDEA 2 — Energy bounce (XOM or SLB)**
+- Catalyst: WTI at $79-81 approaching $77-78 structural support; oversold after -22% Nov selloff
+- Thesis: If US-Iran talks stall or Libya exports falter, energy snaps back; sector still #1 YTD
+- Entry: XOM ~$108-110 on confirmation of WTI floor, Stop: $100 (-8%), Target: $130 (+18%)
+- R:R: ~2.1:1 | Sector: Energy (momentum ✓)
+- RISK: Iran deal materializes → oil collapses further; HOLD until WTI shows floor
+
+**IDEA 3 — ADI earnings gap play**
+- Catalyst: Analog Devices Q4 today; 11-quarter beat streak; semis momentum from NVDA
+- Thesis: Beat + raise + semis tailwind = gap up continuation
+- Entry: Pre-market confirmation of beat, entry at open +1%, Stop: -7%, Target: +15%
+- R:R: ~2:1 | Sector: Tech (momentum ✓)
+- BLOCKER: API inaccessible; cannot execute
+
+### Risk Factors
+- VIX ~26-27: Elevated uncertainty; whipsaw risk in thin holiday week
+- Thanksgiving week: Light volume Wed-Fri; exaggerated moves likely
+- PCE Wed: Hot print → rate-hike fears resurface (2 FOMC hawks already dissented)
+- Oil structural risk: Iran deal resolution could reset energy thesis entirely
+- API blockage: Cannot trade or monitor positions in this cloud environment
+
+### Decision
+**HOLD** — Default stance maintained. Zero positions, no stop management needed.
+API remains blocked; all three ideas are research-only until paper-api.alpaca.markets is whitelisted in network policy.
+Priority action: Resolve cloud egress policy or run bot from local environment.
+Best setup to watch: NVDA consolidation above $150 and WTI $77-78 test for energy bounce.
+
+---
+
 ## YYYY-MM-DD — Pre-market Research
 
 ### Account
