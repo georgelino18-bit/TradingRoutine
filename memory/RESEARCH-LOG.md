@@ -235,3 +235,49 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-25 — Pre-market Research (WebSearch fallback — Alpaca + Perplexity APIs blocked 403)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API 403 persists (egress proxy blocks paper-api.alpaca.markets)
+- Cash: ~$100,000 estimated (last confirmed Day 0 baseline; no confirmed open positions)
+- Buying power: ~$100,000 estimated
+- Daytrade count: 0 estimated
+
+### Market Context
+- WTI / Brent: WTI ~$81–82/bbl | Brent ~$87–91/bbl — Hormuz vessel attacks driving renewed bid; Brent contract rolled to Feb 27 on Nov 23
+- S&P 500 futures: **-1.3% to -1.6%** (Nasdaq 100 -2.2 to -2.3%) — tech sell-off, tariff fears, PCE data looming; Nasdaq 100 futures near 7,100
+- VIX: ~26–30 (up ~52% over past month; briefly >40 intraday Nov 20 during 10% correction)
+- SPY YTD: +1.9% through Nov 20
+- Today's catalysts:
+  - **PCE Oct print 8:30 ET** — headline est 3.8% YoY (from 3.6%); core est 3.2% (from 3.1%); market pricing >97% Dec rate hike
+  - **Q3 GDP 2nd estimate** ~3.4–3.5% (8:30 ET)
+  - **Durable goods** (8:30 ET, est +0.7% MoM vs +1.9% prior)
+  - **Jobless claims** ~200K est vs 203K prior (8:30 ET)
+  - Fed Williams speech + Beige Book today
+  - Renewed US tariff concerns — tech/chip sector under pressure
+  - AI durability doubts — Anthropic reportedly below IPO price; Nvidia -6% yesterday
+- Earnings before open: **DE (Deere & Company)** — est EPS $4.03–4.06; 2027 guidance key; LI, GDS, BZ also reporting
+- Earnings after close: None noteworthy (holiday-shortened week)
+- Economic calendar note: US markets closed Thursday (Thanksgiving); shortened Friday session
+- Sector momentum YTD: **Energy +39–48% (leader)** | Consumer Staples +19.6% | Health Care +18.5% | Communication Services -9.5% to -10.8% (laggard) | Tech mixed (-2.9% to +19% depending on source)
+
+### Trade Ideas
+1. **DE (Deere & Company)** — reports BMO today; if 2027 guidance disappoints → pass; if beat + raised guide → entry TBD post-reaction, stop 10% below reaction low, target +15%, R:R ≥2:1. NOTE: volatile week, holiday liquidity thin — size down or skip.
+2. **Energy sector (XOM/SLB/HAL)** — Hormuz attacks renewing bid; WTI structurally elevated; Energy #1 YTD sector. Wait for PCE resolution before entering. If PCE hot → rate hike = dollar squeeze on oil, hold. If PCE inline or soft → energy re-entry viable. Need account access to confirm no open energy positions first.
+3. **Defensive rotation (XLP/XLV)** — Consumer Staples +19.6%, Health Care +18.5% YTD; risk-off environment + VIX >25 supports these. Only viable if broad market stabilizes post-PCE.
+
+### Risk Factors
+- PCE binary at 8:30 ET — hot print confirms Dec hike, potential broad sell-off
+- VIX ~27–30 = elevated fear; market in correction territory (S&P ~10% correction from highs per Nov 20 intraday)
+- Holiday-shortened week (Thanksgiving Thu) = thin liquidity = exaggerated moves
+- Tech/chip wreckage (Nasdaq -1.5% yesterday, NV -6%) spreading to broader indices
+- Tariff 2.0 risk — fresh tariff reports pressuring tech and manufacturing
+- AI boom durability doubts = long-term headwind for semis/tech weightings
+- Alpaca API blocked — cannot place, modify, or verify any trades/stops
+- ClickUp notification blocked — cannot send alerts
+
+### Decision
+**HOLD** — PCE binary at 8:30 ET makes today's open treacherous. VIX ~27–30 signals elevated volatility in a holiday-thinned session. No account access to confirm current state. Even if setup emerges (DE reaction, energy dip-buy), cannot execute without API access. Patience > activity. Monitor PCE outcome; re-evaluate at Friday open if data resolves cleanly.
