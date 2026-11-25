@@ -235,3 +235,27 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-25 — Market-Open (9:30 ET)
+
+### Account
+- Equity: UNAVAILABLE — Alpaca API egress proxy 403 (paper-api.alpaca.markets blocked by cloud session network policy)
+- Positions: UNKNOWN
+- Cash: UNKNOWN
+- ClickUp: BLOCKED (api.clickup.com 403)
+- Perplexity: BLOCKED (api.perplexity.ai 403)
+
+### Actions Taken
+- None — all external APIs blocked by cloud session egress proxy
+
+### Decision
+NO ACTION — Alpaca, ClickUp, and Perplexity APIs all return 403 from agent proxy: "no rule or network setting allows this host". Issue has persisted 6+ months (since 2026-05-14). No trades possible until network policy updated.
+
+**To fix:** Add these hosts to your cloud session network allowlist at https://code.claude.com/docs/en/claude-code-on-the-web:
+- paper-api.alpaca.markets
+- api.alpaca.markets
+- data.alpaca.markets
+- api.clickup.com
+- api.perplexity.ai
