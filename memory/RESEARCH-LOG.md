@@ -235,3 +235,57 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-26 — Pre-Market Research (Thanksgiving Day — MARKET HOLIDAY)
+
+### Account Snapshot
+- **Status:** UNAVAILABLE — Alpaca API egress proxy 403 (persistent, 196+ days)
+- **Last known state:** $100,000 cash, 0 confirmed positions (SLB order from 2026-05-15 unconfirmed)
+- **Buying power:** UNKNOWN
+- **Daytrade count:** UNKNOWN
+
+### Market Holiday Note
+- **November 26, 2026 is Thanksgiving Day — U.S. equity markets are CLOSED**
+- Pre-market research workflow triggered on a market holiday; no actionable trades possible today
+- Friday Nov 27 is a half-day (early close 1 p.m. ET); normal sessions resume Monday Nov 30
+
+### Market Context (most recent available — WebSearch fallback; Perplexity blocked 403)
+- **WTI crude:** ~$83/bbl (as of Nov 18 close); down ~20% in November; supply surplus growing as Hormuz shipments normalize
+- **Brent crude:** ~$92/bbl (Nov 18); both benchmarks near 5-week lows
+- **S&P 500:** At lowest level since July as of Nov 18 — 4 consecutive losing sessions; AI-sector selloff was primary driver
+- **VIX:** ~16-17 range (late Oct/early Nov); 52-week range 13.38–35.30; moderate fear, not panic
+- **Key catalyst this week:** Anthropic IPO priced after Wednesday Nov 18 close; NVIDIA Q3 beat ($2.68 EPS vs $2.47 est) but sector continued to fall
+
+### Earnings Today
+- None — markets closed (Thanksgiving)
+
+### Economic Calendar
+- No releases Nov 26 (holiday)
+- Upcoming: NFP Dec 4 | FOMC decision Dec 9 | CPI Nov release Dec 10
+
+### Sector Momentum (last confirmed data: Aug 14, 2026)
+- Energy (XLE): +39.4% YTD — **still leading**
+- Technology (XLK): +32.1% YTD (but sharply underperforming since AI selloff began Nov)
+- Industrials (XLI): +20.6% YTD
+- Communication Services: worst sector, -3.8% YTD
+- Note: AI-sector selloff in November likely compressed tech YTD gains materially
+
+### Trade Ideas (for Mon Nov 30 consideration)
+1. **Energy (XLE/CVX/XOM):** Sector momentum intact (+39% YTD); WTI supply surplus is a headwind but Hormuz normalization is structural not demand destruction; wait for WTI stabilization above $82 — Entry on bounce, stop -10%, target +20%
+2. **Energy services (SLB):** Unconfirmed prior order; if SLB never filled, re-evaluate at Monday open with fresh API data once account state confirmed
+3. **Healthcare defensive:** VIX moderate, AI selloff rotational — healthcare could benefit from risk-off rotation; watch XLV for breakout above Nov high
+
+### Risk Factors
+- Persistent Alpaca/ClickUp API blockage — cannot confirm account state, positions, or place orders
+- AI sector rout may spread to broader tech (XLK YTD gains eroding)
+- S&P 500 at multi-month low — no entry during downtrend; wait for stabilization
+- Holiday-week thin liquidity (Nov 27 half-day); avoid new entries until Dec 1 at earliest
+
+### Decision
+**NO ACTION — Market closed (Thanksgiving).** Stand by for Monday Nov 30 open.
+- Confirm account state at Monday pre-market via API (test connectivity first)
+- If API still blocked on Monday, escalate — 196+ days of blockage is unacceptable
+- Priority Monday: (1) confirm SLB order fill/no-fill, (2) assess AI-selloff damage to sector momentum, (3) only enter if account confirmed and thesis intact
+
