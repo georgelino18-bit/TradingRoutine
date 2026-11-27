@@ -158,3 +158,64 @@ Template for each entry:
 
 ### Overall Grade: D
 *Execution: F (API blocked week 10). Discipline: A. Research: N/A (WebSearch only). Cash technically outperformed S&P this week (+0.70% relative) but by luck, not skill. Grade unchanged from Week 1 — same root cause, same outcome.*
+
+---
+
+## Week ending 2026-11-27
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (est. — API 403, no live data) |
+| Ending portfolio | $100,000.00 (est. — API 403, no live data) |
+| Week return | $0 (0.00%) estimated |
+| S&P 500 week | +5.60% (best week since April 2025; Thanksgiving-shortened) |
+| Bot vs S&P | -5.60% (worst weekly miss of the phase) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+*Note: Alpaca API and Perplexity API both blocked via egress proxy 403 — persistent since 2026-05-14 (~28 weeks). Portfolio assumed $100,000 cash, no positions. SLB order 6c529f05 fill status still unknown.*
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | API blocked; no trades executed in 28 weeks |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Cash preservation: bot flat while S&P had an erratic week before the Friday surge
+- Sector momentum framework remains valid: semis/tech (Nvidia CEO reinstated +31%) was exactly the kind of catalyst the strategy targets
+- Discipline maintained: no unauthorized actions; all rules upheld for week 28
+- Weekly review logging continued despite API blockage — context chain intact
+- WebSearch fallback delivered accurate market data (S&P +5.6%, NVDA driver confirmed)
+
+### What Didn't Work
+- Alpaca API 403 blocked for 28 consecutive weeks — infrastructure failure still unresolved
+- Perplexity API also blocked — research quality degraded to WebSearch fallback
+- Missed NVDA +31% single-session move (Jensen Huang CEO reinstatement) — largest missed alpha event of the phase
+- S&P +5.6% this week = worst single-week miss of the phase; cumulative opportunity cost now severe
+- No progress on allowlist resolution since July review — zero escalation response
+
+### Key Lessons
+- NVDA CEO reinstatement was a one-day 31% move — the kind of event the strategy's catalyst framework would have flagged (management change = asymmetric binary catalyst)
+- Thanksgiving-shortened weeks can produce outsized moves on low volume; momentum trades amplified
+- 28 weeks of zero execution = this bot has never taken a single trade; mission fundamentally failing
+- API blockage is not a trading problem — it is a deployment/infrastructure problem that only the account owner can resolve
+- S&P YTD +6.6% (close ~7,297) vs bot 0.00% — cumulative underperformance growing with each missed week
+
+### Adjustments for Next Week
+- **CRITICAL (week 28, unchanged):** Resolve Alpaca egress allowlist at claude.ai environment settings — add paper-api.alpaca.markets, data.alpaca.markets, api.perplexity.ai, api.clickup.com
+- If API restored: reassess NVDA post-surge positioning (now elevated); avoid chasing Friday's move
+- Sector rotation watch: semis/tech now back in momentum; evaluate NVDA, SMCI, AMAT post-reinstatement
+- SLB order 6c529f05 must be verified immediately if API access resumes — assumed unfilled
+- If another week passes without API fix, consider this phase functionally terminated
+
+### Overall Grade: F
+*Execution: F (API blocked week 28). Discipline: A. Research: B (WebSearch fallback). Missing NVDA +31% and an S&P +5.6% week is the worst single-week performance failure of the phase. Upgrading from D to F — 28 weeks of identical infrastructure failure with no resolution is no longer a recoverable operational issue; it is a fundamental deployment failure.*
