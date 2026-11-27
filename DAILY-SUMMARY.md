@@ -24,3 +24,7 @@ Grade: D
 ---
 ## 2026-10-29 17:12 UTC (fallback — curl network error)
 MIDDAY 2026-10-29: Alpaca API still blocked (egress proxy 403 on paper-api.alpaca.markets). Cannot pull positions/orders. No trades possible. Action required: whitelist Alpaca paper API in cloud session network policy.
+
+---
+## 2026-11-27 11:15 UTC (fallback — curl network error)
+2026-11-27 Pre-market: Black Friday short session. VIX 28, S&P futures +1.8%, AI rebound (NVDA+4%, AMD+7%). Energy YTD leader +38-42%. HOLD — Alpaca API still blocked; SLB order status unresolved. No new entries today.
