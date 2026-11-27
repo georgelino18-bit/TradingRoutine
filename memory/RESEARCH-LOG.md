@@ -235,3 +235,77 @@ NO ACTION — zero positions, API inaccessible. Stand by for AMAT post-earnings 
 
 ### Decision
 NO ACTION — persistent API blockage. All workflows are non-functional in this cloud environment until network policy is updated.
+
+---
+
+## 2026-11-27 — Pre-Market Research (Black Friday)
+
+**[Fallback: Perplexity API blocked (403 egress proxy) — using WebSearch]**
+
+### Account Snapshot
+- **Equity:** UNAVAILABLE — Alpaca API egress proxy 403 (paper-api.alpaca.markets blocked; persistent since 2026-05-14)
+- **Cash:** ~$100,000 estimated (last confirmed Day 0 baseline; no trades verified)
+- **Positions:** UNKNOWN — SLB 340sh market buy submitted 2026-05-15 (order ID: `6c529f05-19c5-4078-ba9d-9fb42bc7ee15`) status unconfirmed; may or may not be filled
+- **Buying Power:** UNKNOWN
+- **Daytrade Count:** UNKNOWN
+
+### Market Context
+- **Session:** Black Friday — shortened session, closes 1:00 PM ET (NYSE/Nasdaq)
+- **S&P 500 Futures:** +1.74–1.98% (~7,321–7,327) pre-market; Nasdaq 100 futures +2.87%
+- **Context:** S&P 500 on course for worst November since 2008; AI/chip rebound bounce post-Thanksgiving
+- **WTI:** ~$83–85/bbl | **Brent:** ~$91–96/bbl — elevated, Middle East tensions providing floor
+- **VIX:** ~28.3 (4th-highest heading into Thanksgiving since 1990; elevated fear environment)
+- **Today's Releases:** Wholesale Inventories (Oct, Preliminary) 8:30 AM ET; NO CPI/FOMC/Jobs
+- **Earnings:** No major pre-market earnings today (holiday week)
+
+### Sector Momentum YTD 2026
+| Sector | YTD Performance |
+|--------|----------------|
+| Energy (XLE) | +37–42% (leader) |
+| Information Technology | ~+34% |
+| Industrials | ~+21% |
+| Health Care | ~+21% |
+| Consumer Staples | ~+21% |
+| Communication Services | ~-10.5% (laggard) |
+
+### Key Premarket Movers
+- **NVDA:** +4%+ — AI rebound; broader chip sector recovering
+- **AMD:** +7% — AI rebound; outperforming
+- **AVGO (Broadcom):** +4.7% — AI infrastructure demand
+- **CoreWeave:** +7.9% | **Nebius:** +9.5% — neocloud names surging
+- **KNTK (Kinetik Holdings):** +7%+ on Targa Resources acquisition rumors
+- **AMBA (Ambarella):** -31% — severe Q4 revenue miss + global memory shortage warning
+- **NTNX (Nutanix):** lower — CEO stepping down
+
+### Trade Ideas
+1. **NVDA/AMD — AI Rebound Monday Setup**
+   - Catalyst: Post-Thanksgiving AI de-risking unwinding; structural AI capex intact; both up 4–7% pre-market
+   - Black Friday short session (3h) = poor entry environment today; defer to Monday open
+   - Entry: Monday gap evaluation — only enter if sustained, not chasing open spike
+   - Stop: 10% trailing from entry; Cut at -7%
+   - Target: +15–20% | R:R ≥2:1
+   - Size: ≤20% (~$20k)
+
+2. **XLE / Energy Sector — Structural Entry**
+   - Catalyst: Energy +37–42% YTD leader; WTI $83–85 elevated; Middle East structural bid
+   - SLB specifically (oilfield services) fits thesis — Q3 results solid ($9.45B rev, +6% YoY)
+   - Risk: SLB order status unknown; CRITICAL to resolve before any new entry
+   - If SLB filled (from May order): verify stop is placed before anything else
+   - If not filled: re-evaluate entry at current price (~$50) — assess R:R vs. original $58 thesis
+
+3. **KNTK — Acquisition Arbitrage PASS**
+   - +7% pre-market on Targa takeover rumors; unconfirmed deal
+   - Rule: no entry on unconfirmed M&A rumors; risk of deal falling through
+
+### Risk Factors
+- Alpaca API inaccessible — cannot verify positions, place orders, or confirm stops
+- SLB order status is 6+ months unresolved — could have unknown P&L exposure
+- VIX ~28 = elevated; market fragile despite today's bounce
+- Worst November since 2008 — broad selling pressure may resume
+- Short session today (closes 1 PM ET) — limited liquidity, wide spreads
+- AI correction ongoing despite today's bounce — not a confirmed trend reversal
+- AMBA memory shortage warning = potential read-through for chip supply chain
+
+### Decision
+**HOLD** — Black Friday short session, API inaccessible, portfolio state unknown. No new entries today.
+Top priority: resolve Alpaca API access before next session. SLB position status is the single most critical unknown — if filled, a stop must be placed immediately. All entries deferred to Monday Nov 30 at earliest.
